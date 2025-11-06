@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">
+               Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)
+            </title>
+            <title type="iso-date" when-iso="1897-01-02" n="01"/>
+            <title level="a">Samstag, 2. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>???</repository>
+                        <idno>???</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 Januar	Samstag.</head>
+            <p>Sonett an Frau Hermine Wallach als Dank für eine<lb/>
+               Partie Nürnberger Lebkuchen. Um ½ 11 Uhr zu Joachim<lb/>
+               ins Hotel Tegetthoff. Generalprobe für d. heutigen Quartett-<lb break="no"/>
+               abend. Excellenz Holbein u. der weibliche Cellist. Hausmann<lb/> 
+               erzält, daß Brahms, der vergebens erwartet wird, bei der<lb/> 
+               Vorprobe seines G-dur-Quintetts still im Nebenzimmer<lb/> 
+               gesessen sei und dann, sehr befriedigt von der herrlichen<lb/> 
+               Reproduction, gesagt habe: „Es ist doch kein übles Stück<lb/> 
+               u. eine meiner besten Cammermusiksachen.“ Flüchtige Bekannt-<lb break="no"/>
+               schaft mit Banquier Mendelssohn a. Berlin. Sehr nötige<lb/> 
+               Geschäftswege zum Schneider u. Friseur. – Nach Tische Dr.<lb/> 
+               Robert Plöhn bei mir, den ich als Literaturreferenten ans<lb/> 
+               <rs type="work" ref="#pmb41321">„Neue W. Tagblatt“</rs> empfohlen habe. Heyse schickt mir<lb/> 
+               ein Autograph: ein Quartheft, das er 1852 in Baden-<lb break="no"/>
+               Baden von Justinus Kerner dedicirt bekam u. dann mit<lb/> 
+               eigenen Dichtungen ausfüllte. Abds. Letztes Quartett Joachim.<lb/> 
+               Die Ovation für <rs type="person" ref="#pmb10989">Brahms</rs>, der im Künstlerzimmer zuhörte. Erschütternder<lb/> 
+               Anblick, wie er neben Joachim 4 od. 5 x auf d. Podium erscheint.<lb/> 
+               Hüteschwenken u. Tücherwehen. Viele weinten. Es war wie ein letzter<lb/> 
+               Abschied vom Publicum. Sie waren dann noch bis 2 Uhr morgens bei<lb/> 
+               Kupelwieser. Hausmann bewunderte die Zähigkeit, mit der Br. von<lb/> 
+               einem Feste z. andern geht; er selbst, obwol er gesund u. jung sei, hielte es<lb/> 
+               kaum aus.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

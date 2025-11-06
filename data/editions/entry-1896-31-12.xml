@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">
+               Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)
+            </title>
+            <title type="iso-date" when-iso="1896-12-31" n="01"/>
+            <title level="a">Donnerstag, 31. Dezember 1896</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839">
+               <name>Rost, Henrike</name>
+            </editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>???</repository>
+                        <idno>???</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__unbekannt" medium="Bleistift" style="lateinische-kurrent">Unbekannte Schreiber, vermutlich ???</handNote>
+                           <handNote xml:id="hand__wallach" medium="Bleistift" style="lateinische-kurrent">Unterschrift Wallach</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>Tafelrunde vom 31. Decbr. 1896.</head>
+            <p hand="#kalbeck">Das alte Jahr, in dem ich leider kein Tagebuch geführt<lb/> 
+               habe, versammelte die Unterzeichneten an seinem letzten<lb/> 
+               Tage um meinen Tisch.<note type="comment">Wien, Porzellangasse 48.</note> <rs type="person" ref="#pmb10989">Brahms</rs> war wieder schwächer,<lb/> 
+               weil er sich am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/>
+               probe zu viel zugemutet hatte. Er ließ es sich aber sehr<lb/> 
+               gut schmecken u. rief einmal begeistert aus: „Ach, eine<lb/> 
+               Frau zu sein, die gut kochen kann, ist doch das Höchste!“* Den<lb/> 
+               Sylvesterabend verbrachten wir bei Kantor’s.<lb/>
+               </p>
+         </div>
+         <div hand="hand__unbekannt">
+            <p>
+               *Worauf der Hausherr galant erwiderte, das Höchste ist eine 
+               <add place="inline">solche</add>Frau zu besitzen. <del>???</del>
+              </p>
+         </div>
+         <div><p/>
+            <closer>
+               <cb/>
+               <signed>Hermine Wallach</signed><lb/>
+               <signed><rs type="person" ref="#pmb194286">Johann Kruse</rs></signed><lb/>
+               <signed>Emanuel Wirth.</signed><lb/>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

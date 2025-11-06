@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">
+               Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)
+            </title>
+            <title type="iso-date" when-iso="1897-01-03" n="01"/>
+            <title level="a">Sonntag, 3. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>???</repository>
+                        <idno>???</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>3 Januar	Sonntag.</head>
+            <p>Den i. Act v. „Stillen Dorfe“ an Fielitz nach Rom spedirt. Zu Mittag<lb/>
+               mit Brahms, Walter, Excellenz Holbein u. Faber’s bei Miller v. Aichholz.<lb/> 
+               Er (Brahms) sieht wieder sehr schlecht aus, beteiligt sich aber ziemlich lebhaft an der<lb/> 
+               Unterhaltung u. spricht seine Freude aus, daß ihm Alles so gut bekommt;<lb/> 
+               selbst der elende Punsch, den er beim Musik.händl. Gutmann zu Sylvester<lb/> 
+               trinken mußte, hat ihm nichts gemacht. Nach Tisch schläft er, wie gewöhnlich,<lb/> 
+               beim schwarzen Kaffee ein u. schnarcht laut. Wir gehen zu Fuß ins Cottage<lb/> 
+               zu Wärndorfer, wo wir trotz wiederholter Einladungen uns seit Fritzens<lb/> 
+               Hochzeit nicht haben sehen lassen. Vorher machen wir noch eine Dankvisite<lb/> 
+               bei Sonnenthal, der uns (ebenfalls vergeblich) vor ein paar Tagen zu<lb/> 
+               Tisch gebeten hatte. Er erschöpft sich in Liebenswürdigkeiten u. Beteuerungen<lb/> 
+               seiner Freundschaft. (Im Novbr. hat er an einem Vortragsabend der Literar.<lb/> 
+               Gesellschaft Einiges aus meinen „Humoresken u. Phantasien“ vorgelesen,<lb/> 
+               nachdem Dr. Necker die übl. Rede über mich gehalten hatte. Ich war unterdessen<lb/> 
+               in einem Concert). Wir beneiden ihn um sein schönes stilles Haus u. werden<lb/> 
+               von Wärndorfer’s rappelig gemacht, das kleine Häuschen an d. Ecke gegenüber,<lb/> 
+               das gerade feil sei, zu kaufen. Die Besichtigung fällt nicht zu Juliens Zu-<lb break="no"/>
+               friedenheit aus, wir wollen es morgen noch einmal bei Tage anschauen.<lb/> 
+               Viele Leute gesehen: Bergkeim’s, Baumgarten’s, Dr. Winter, Hellmann’s,<lb/> 
+               Frau Fournier etc. Mautner’s laden uns in die Enge ihres Wagens, er setzt sich<lb/> 
+               auf d. Bock. Unterwegs entgehen wir mit Not einem Unglück. Der Wagen<lb/> 
+               kommt während d. rasenden Fahrt ins Schwanken, M. wird vom Bock geschleudert, u.<lb/> 
+               wir springen entsetzt hinaus. M. ist schon wieder auf d. Beinen, u. wir kommen<lb/> 
+               mit dem bloßen Schrecken davon. – Am Morgen mehrere weise Briefe, darunter<lb/> 
+               einen an den Stud. jur. Herm. Kohn, d. Literat werden möchte, geschrieben.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
