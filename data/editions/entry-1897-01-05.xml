@@ -9,8 +9,8 @@
             <title level="s">
                Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)
             </title>
-            <title type="iso-date" when-iso="JJJJ-MM-TT" n="01"/>
-            <title level="a">Wochentag, Tag. Monat Jahr</title> <!-- z.B. Freitag, 1. Jänner 1897-->
+            <title type="iso-date" when-iso="1897-01-05" n="01"/>
+            <title level="a">Dienstag, 5. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
             <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
@@ -49,14 +49,27 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="wip">
-         <change who="#hrost" when="JJJJ-MM-TT">Dokument angelegt</change>
+         <change who="#hrost" when="2025-11-18">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head/>
-            <p/>
+            <head>5 Januar Dinstag.</head>
+            <p>Dankvisite bei Vesque’s abgestattet. Helene hat mich mit Notiztäschchen u. 
+               Blumen überhäuft, auch die Klinger’sche Radirung: „Phantasie u. Künstler-
+               bund“ ist ihr Geschenk. Der Bildhauer Reiner, der mich auf Anstiften 
+               von Brahms modellirt hat, möchte bei Rosl sein Glück versuchen. Paul 
+               erscheint wehklagend mit einem als nicht genügend befundenen Extemporale. 
+               Er lernt leicht u. vergißt noch leichter. Es thut mir in der Seele weh, 
+               diesen Gymnasialjammer mit ansehen zu müssen! Ich hatte es doch besser. 
+               Julie bringt zweifelhafte Nachrichten aus dem Cottage nach Hause. 
+               Die Baustellen, die uns gefallen, sind entweder unverkäuflich oder 
+               zu teuer. Im Burgtheater die Sandrock eine ordinäre Medea. Der 
+               besorgte Director erkundigt sich im Zwischenacte bei mir nach ihrem 
+               kritischen Befinden. Ich sage ihm unverblümt meine Meinung, lege 
+               mir aber in der Nachtnotiz schonenden Zwang auf.
+            </p>
          </div>
       </body>
    </text>
