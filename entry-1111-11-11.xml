@@ -12,7 +12,7 @@
             <title type="iso-date" when-iso="JJJJ-MM-TT" n="01"/>
             <title level="a">Wochentag, Tag. Monat Jahr</title> <!-- z.B. Freitag, 1. Jänner 1897-->
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
@@ -48,6 +48,9 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="JJJ-MM-TT">Dokument angelegt</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>

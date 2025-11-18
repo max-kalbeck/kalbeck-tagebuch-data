@@ -12,7 +12,7 @@
             <title type="iso-date" when-iso="1896-12-31" n="01"/>
             <title level="a">Donnerstag, 31. Dezember 1896</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839">
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">
                <name>Rost, Henrike</name>
             </editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
