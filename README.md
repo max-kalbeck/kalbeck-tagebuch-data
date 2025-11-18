@@ -23,30 +23,31 @@ Data repository for FWF-Projekt [Max Kalbeck: Networking Practices in Vienna 190
     <div hand="#hand__kalbeck">
         <head>4 Januar Montag.</head>
         <p>
-            Mein 47. Geburtstag. Unter d. schriftl. Gratulanten taucht der fatale<lb/> 
-            Milvius wieder auf. Muxl hat eine dramat. Scene gedichtet, die aber<lb/> 
-            so spät fertig geworden ist, daß sie von Paul u. ihr nicht mehr gelernt werden<lb/> 
-            konnte. Paul macht mich zum glückl. Besitzer von Australien: Geographie<lb/> 
-            u. Geschichte interessiren ihn gegenwärtig am meisten. Er zeichnet Asien u.<lb/> 
-            Afrika a. d. Kopfe mit sämmtl. Flüssen, Seen u. Gebirgen, u. schwärmt für<lb/> 
-            Pallas Athene, die ihm noch besser gefällt als Rosl Kantor. Wir<lb/> 
-            eilen ins Cottage zu Baudirektor Müller, der uns v. d. Kauf abrät u.<lb/> 
-            einen eigenen Bau empfiehlt. Bauwissenschaftl. Excursion. Mein Zimmer<lb/> 
-            mit den umherlauernden Clavierbestien u. seiner sonstigen Ruhelosigkeit<lb/> 
-            ist mir schon so sehr verleidet, daß mir jedes Project, das mich von<lb/> 
-            seiner Qual erlöst, [Ausstreichung] ohne weiteres einleuchtet. Ich bin<lb/> 
-            nur neugierig, ob diesmal etwas daraus wird. Nach Tische besuchen<lb/> 
-            mich Frau Flegmann, Ignaz u. Marie Brüll, Frau Kantor, Rosl, Frl.<lb/> 
-            v. Tillemann u. Rittmeister v. Merhal, Karpath, Schneegans – der<lb/> 
-            unglückliche Literatus in spe, Hr. Kohn, gerät dazwischen. Mir ist zu<lb/> 
-            Mute, als ob mein Begräbnis wäre u. die Trauergäste nach der schönen<lb/> 
-            Leiche zusammenkämen. Meine nervöse Unruhe, wenn jemand bei mir ist.<lb/> 
-            Briefe aus Breslau u. Berlin. Den Abend feiere ich mit Schwänzung<lb/> 
-            eines Concerts u. esse – Gottlob! – mit den Kindern mein Hühnchen in Ruhe.<lb/>
+            Mein 47. Geburtstag. Unter d. schriftl. Gratulanten taucht der fatale 
+            Milvius wieder auf. Muxl hat eine dramat. Scene gedichtet, die aber 
+            so spät fertig geworden ist, daß sie von Paul u. ihr nicht mehr gelernt werden 
+            konnte. Paul macht mich zum glückl. Besitzer von Australien: Geographie 
+            u. Geschichte interessiren ihn gegenwärtig am meisten. Er zeichnet Asien u. 
+            Afrika a. d. Kopfe mit sämmtl. Flüssen, Seen u. Gebirgen, u. schwärmt für 
+            Pallas Athene, die ihm noch besser gefällt als Rosl Kantor. Wir 
+            eilen ins Cottage zu Baudirektor Müller, der uns v. d. Kauf abrät u. 
+            einen eigenen Bau empfiehlt. Bauwissenschaftl. Excursion. Mein Zimmer 
+            mit den umherlauernden Clavierbestien u. seiner sonstigen Ruhelosigkeit 
+            ist mir schon so sehr verleidet, daß mir jedes Project, das mich von 
+            seiner Qual erlöst, [Ausstreichung] ohne weiteres einleuchtet. Ich bin 
+            nur neugierig, ob diesmal etwas daraus wird. Nach Tische besuchen 
+            mich Frau Flegmann, Ignaz u. Marie Brüll, Frau Kantor, Rosl, Frl. 
+            v. Tillemann u. Rittmeister v. Merhal, Karpath, Schneegans – der 
+            unglückliche Literatus in spe, Hr. Kohn, gerät dazwischen. Mir ist zu 
+            Mute, als ob mein Begräbnis wäre u. die Trauergäste nach der schönen 
+            Leiche zusammenkämen. Meine nervöse Unruhe, wenn jemand bei mir ist. 
+            Briefe aus Breslau u. Berlin. Den Abend feiere ich mit Schwänzung 
+            eines Concerts u. esse – Gottlob! – mit den Kindern mein Hühnchen in Ruhe.
             
         </p>
     </div>
     ```
+    1. add linebreaks: `Mein 47. Geburtstag. Unter d. schriftl. Gratulanten taucht der fatale<lb />` use `<lb break="no">` for e.g. `Haus-<lb break="no">tür`
 1. check if all document is valid and save
 1. check if all documents in `data/editions` are valid (using Oxygen Validation Scenario)
 1. commit and push
