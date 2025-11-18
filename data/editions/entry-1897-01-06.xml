@@ -3,14 +3,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">
                Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)
             </title>
-            <title type="iso-date" when-iso="1897-01-01" n="01"/>
-            <title level="a">Freitag, 1. Jänner 1897</title>
+            <title type="iso-date" when-iso="1897-01-06" n="01"/>
+            <title level="a">Mittwoch, 6. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
             <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
@@ -32,8 +32,7 @@
                      <msIdentifier>
                         <country ref="https://sws.geonames.org/2782113">Österreich</country>
                         <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
-                        <repository>???</repository>
-                        <idno>???</idno>
+                        <repository>Privatbesitz</repository>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -48,32 +47,30 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2025-11-18">Dokument angelegt</change>
+         <change who="#hrost" when="2025-11-18">bspw. alle Personen ausgezeichnet</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>1 Januar Freitag.</head>
-            <p>
-               Das neue Jahr fange ich mit einem Absagebrief an<lb/> 
-               Frau <rs type="person" ref="#pmb12205">Jenny Mautner</rs> an, die uns zum Diner geladen hatte.<lb/>
-               Ich mache die Abschrift des I Actes vom <rs type="work" ref="#pmb299513">Stillen Dorfe</rs> fertig,<lb/>
-               den ich in <rs type="place" ref="#pmb662">Baden</rs> am Montag u. Dienstag geschrieben habe.<lb/> 
-               Nach Tisch Excursion nach <rs type="place" ref="#pmb69">Döbling</rs> mit obligatem Häuser-<lb/>
-               u. Wohnungsinspiciren. Bei <rs type="person" ref="#pmb100107">Molden’s</rs> zur Vesper. Er<lb/> <!-- hier wäre es schön auch die Frau(?) explizit zu taggen -->
-               begleitet mich heim. Abds. im Quartett Joachim. Prinz<lb/> 
-               Reuß, Dumba, Miller’s, Faber’s, Vesque’s, Else Billroth,<lb/> 
-               Vesque’s gesprochen. In Musik geschwelgt.<lb/> 
-               Verlorene Sehnsucht nach den productiven Badener Tagen.<lb/> 
-               Empfindung, daß ich meine poetischen Kräfte noch gar nicht gehörig<lb/> 
-               geübt habe. Große Productionslust u. traurige Einsicht,<lb/> 
-               sie in <rs>Wien</rs> ungenutzt verrauchen lassen zu müssen.<lb/> 
-               In der Novelle „Die Tugend v. Baden“ muß das Verführungs-<lb break="no"/>
-               motiv d. Grafen die geplante Heirat m. d. Baronin sein. Er<lb/> 
-               hofft ihr zu imponieren u. seine Finanzen durch die Verbindung mit<lb/> 
-               der koketten reichen Witwe zu verbessern.<lb/> 
-               Die Geschichte vom „falschen Beethoven“ meldet sich.<lb/>
+            <head/>
+            <p>Französisch ausgesprochene Weisheit von Hanslick, Molden u. mir an<lb/> 
+               Frau Blanche de Pott nach Rom expedirt. (kommt voraussichtlich<lb/> 
+               zu spät) Ich schrieb: Travailler c’est vivre! Mais travailler<lb/> 
+               pour vivre – quelle détestable invention! Antwort an den<lb/> 
+               Ingenieur Beck, der seine Vorfahren in den Dörfern um Breslau<lb/> 
+               herum sucht u. mich bittet, ihm dabei zu helfen. Was die Menschen<lb/> 
+               alles von einem verlangen! Fielitz schreibt mir einen enthu-<lb break="no"/>
+               siastischen Dankbrief aus Rom über den i. Act. Nachmittag die<lb/> 
+               „Fledermaus“ in der Hofoper. Entzückt von Rosalinde – Renard.<lb/> 
+               Das 2. Finale rührt mich wieder zu Thränen. Ich schreibe ein sehr<lb/> 
+               schwärmerisches Referat u. gehe zu Kantor’s. Zellner wieder<lb/> 
+               auf den Beinen. Poetisches Après-souper in Rosl’s Zimmer.<lb/> 
+               Goethe’sche Gedichte. Sehr spät heim.<lb/>
             </p>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
