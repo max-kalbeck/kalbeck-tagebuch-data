@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-19" n="01"/>
+            <title level="a">Sonntag, 19. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 September Sonntag.</head>
+            <p>[Forsetzung vom 18. September in der linken unteren Ecke]<lb/>
+zu entgegnen.<lb/>
+Auf vielfaches Drängen von Heyse’s improvisire ich mit Frl.<lb/>
+Wachsmuth a. Leipzig, einer gewandten Clavierspielerin, Tochter eines<lb/>
+geheimräthlichen Professors, eine musikalische Matinée, die das ganze<lb/>
+Haus im Salon versammelt. Als Sänger und Violinspieler ernte<lb/>
+ich Lorbeeren in Fülle, und da ich gut bei Stimme, Finger und<lb/>
+Humor bin, geht Alles erträglich. Ich sang die ganze „Winterreise“<lb/>
+u. den halben „Schwanengesang“, spielte zwei ganze Beethoven’sche<lb/>
+Sonaten und zwei halbe und hätte nicht aufgehört, wenn nicht zum<lb/>
+Essen geläutet worden wäre. Das Publicum war womöglich noch<lb/>
+unermüdlicher als die Künstler, und hielt drei geschlagene Stunden<lb/>
+ohne Pause andächtig aus. Heyse wunderte sich, wie es möglich sei,<lb/>
+daß ein Mensch meines Schlages, der doch eigentlich mit ganz<lb/>
+anderen Dingen beschäftigt sei, all die Lieder und Sonaten so<lb/>
+souverän beherrsche. Mir war es auch merkwürdig; ich glaube, daß<lb/>
+ich durch das viele aufmerksame Hören mir aneigne, was mir<lb/>
+gefällt. Es bedarf dann nur einer guten Stunde, um das im<lb/>
+Stillen Erworbene so herauszubringen, als ob ich es fortwährend<lb/>
+geübt hätte. Tischgespräch, wie es gekommen wäre, wenn ich anstatt [eingefügt: im Herbst] 1874<lb/>
+in die Redaction der Schles. Ztg. am 1. Jan. 1875 ins Münchener<lb/>
+Opernorchester abgeschwenkt wäre. Es ist doch besser so. Fräulein [Ausstreichung: Frau?]<lb/>
+[eingefügt: Hirsch a. Hamburg,] die unter dem Namen Meinhardt lesbare Novellen schreibt,<lb/>
+macht sich mit mir bekannt, dgl. ihre Schwester, eine Malerin – „Du<lb/>
+holde Kunst, ich danke dir dafür“. Ich war den Damen bisher aus d.<lb/>
+Wege gegangen. – Ahrens, der wilde Tarokherr v. Goyen,<lb/>
+überfällt uns bei dem scheußlichsten Wetter. Wir schicken ihn, um<lb/>
+einige Gulden leichter, heim.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

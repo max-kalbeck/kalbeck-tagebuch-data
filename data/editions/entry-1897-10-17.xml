@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-17" n="01"/>
+            <title level="a">Sonntag, 17. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>17 Oktober Sonntag.</head>
+            <p>Briefe. Sehr abgespannt nach der angestrengten Theaterwoche.<lb/>
+Mautner’s, die uns nach Pötzleinsdf. zu Tisch gebeten hatten, ab-<lb break="no"/>
+telegraphirt. Am Nachmittag zu Wärndorfer’s. Tarokirt mit<lb/>
+Reynaud u. später mit Sonnenthal. Seine Klagen über Speidel’s<lb/>
+Felonie. Wir stimmen in unserem Lobe über Kainz überein;<lb/>
+wie nobel u. liebenswürdig S. sich gegen den Collegen benimmt.<lb/>
+Fritz Wärndorfer u. s. junge Frau. Singer nimmt uns in seinem<lb/>
+Wagen nach Hause mit. Mich hat das dumme Kartenspiel sehr<lb/>
+angegriffen, u. ich gehe mit Kopfschmerzen zu Bett, um endlich einmal<lb/>
+ein paar Stunden ruhig zu schlafen. Marie Hirsch (Adalbert<lb/>
+Meinhardt), meine Meraner Bekanntschaft, schickt Photographien<lb/>
+und einen Band ihrer Novellen mit einer gereimten Zueignung.<lb/>
+Ein Lieutenant – diesmal der Abwechslung halber ein dichtender –<lb/>
+überreicht mir ein Dramenmanuscript „Sünden“. Der Himmel<lb/>
+vergebe sie ihm! Zetsche zeigt den Tod seines Vaters an.<lb/>
+Hirschfeld schreibt in der „Neuen musik. Presse“ von den<lb/>
+Geräuschen in der Hofoper: „Mit aufdringlichen spaltenlangen<lb/>
+Rathschlägen wird der neue Director beworfen: Wir lasen neulich,<lb/>
+daß die Kritik mitschaffen müsse an dem Werke der Hofoper. Das<lb/>
+ist richtig, sofern die Kritiker unter diesem Mitschaffen die ernste,<lb/>
+unabhängige, ehrliche Beurtheilung u. nicht das Mitschaffen schlechter<lb/>
+Opern verstehen. Schlechte Opern bringt die Kunstwelt aber<lb/>
+auch ohne die Mitarbeit von Kritikern zu Stande.“ Das scheint<lb/>
+auf Heuberger zu zielen, wenn nicht der große Kauders<lb/>
+gemeint ist.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

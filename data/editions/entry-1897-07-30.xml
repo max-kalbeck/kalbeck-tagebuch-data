@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-30" n="01"/>
+            <title level="a">Freitag, 30. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>30 Juli Freitag.</head>
+            <p>Generalfeldmarschalllieutenant v. Pokoi rückt in das früher von<lb/>
+Singer bewohnte Zimmer ein. Um den alten Knaben, einen<lb/>
+Grazer Pensionisten, würde sich wahrscheinlich kein Mensch bekümmern,<lb/>
+wenn er nicht ein „Excellenzherr“ wäre, und es Vielen ein<lb/>
+angenehmes Bedürfnis zu sein scheint, ihre Anrede mit einer<lb/>
+Excellenz aufzuputzen. Pokoi ist ein vorzüglicher Schachspieler<lb/>
+und giebt einen vollgiltigen Beweis seiner Kunst, indem er<lb/>
+eine Partie gegen uns gewinnt, die er aus dem Kopfe spielt.<lb/>
+Ich mache das Kneiplied für morgen fertig, und Rosl hilft<lb/>
+mir dabei. Ihr Zimmer wird in eine Schreibstube verwandelt,<lb/>
+u. das Gedicht in mehreren Exemplaren vervielfältigt. –<lb/>
+Gespräch mit Alber, den Frau Sida als Verwalter u. Ober-<lb break="no"/>
+aufseher für ihre Besitzung engagirt hat. Er wird in dem neuen<lb/>
+Hause auf der Hube eine Amtswohnung beziehen u. hat sich darauf<lb/>
+hin verheiratet. Alber ist der Finder der Quelle, welche die Villa<lb/>
+mit Wasser speist; er hofft noch ein anderes Quellenproject auszu-<lb break="no"/>
+führen, nachdem sich die Wassergelehrten aus Klagenfurt auf Kosten<lb/>
+der Frau Sida blamirt haben. Um die Wiesen ertragsfähig zu machen,<lb/>
+muß Vieh eingestellt werden; ein neuer Stall wird notwendig. Eine<lb/>
+ganze Kolonie ist im Entstehen, die von Kantor’s leben wird; dazu gehören<lb/>
+außer dem Verwalter: der Jäger, der Hausmeister Martin, Sepp, der<lb/>
+Fährmann, und der Millstätter Reitknecht. Wenn Hr. Kantor reiten will,<lb/>
+muß er, da in Grossegg keine Reitwege sind, nach Millstatt übersetzen; dort<lb/>
+hat er seinen Stall mit zwei Pferden. In der Küche speisen schon jetzt täglich<lb/>
+gegen 20 Personen. Angenehme Aussichten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

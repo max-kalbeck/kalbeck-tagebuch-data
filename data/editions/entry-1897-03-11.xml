@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-11" n="01"/>
+            <title level="a">Donnerstag, 11. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>11 März Donnerstag.</head>
+            <p>Mein Aufsatz über „Die versunkene Glocke“ macht Aufsehen. Ich<lb/>
+erhalte viele mündl. u. schriftliche Gratulationen. Mir sind inzwischen<lb/>
+eine Menge von neuen und alten Dingen, die ich zu bemerken<lb/>
+vergaß, wieder eingefallen, und ich möchte am liebsten mich gleich hinsetzen<lb/>
+und noch einmal von einer ganz anderen Seite her anfangen.<lb/>
+Um 11 Uhr holt mich Heuberger zur Probe der neuesten Operette<lb/>
+v. Strauß ab: „Die Göttin der Vernunft“. Ohne die Karte von<lb/>
+Mosé wäre ich gar nicht ins Theater gelassen worden. Konried<lb/>
+citirt mich mit Gönnermiene aus dem zugigen Parket in seine<lb/>
+Loge, u. Bauer läßt sich bei uns nieder. Strauss hat es nicht einmal<lb/>
+der Mühe für wert gehalten, mich zur Generalprobe einzuladen.<lb/>
+Trotzdem würde ich über die Operette referirt haben, wenn sie mir<lb/>
+gefallen hätte. Sie ist aber miserabel und, wie ich während der Musik<lb/>
+merke, zum größten Teil gar nicht von Strauss. Konried teilt mir<lb/>
+auf eine diesbezügliche Bemerkung mit, daß in der That Andere daran<lb/>
+„mitgearbeitet“ haben. Das Ganze scheint ein spitzbübischer<lb/>
+Handel zu sein. Der Banquier u. Pseudocomponist Strasser hat<lb/>
+für den Verleger Berté 30000 fl. u. abermals 12000 fl. Autoren-<lb break="no"/>
+honorar erlagt. Nachdem Strauß seine 30000 fl. hatte, war ihm die<lb/>
+Operette Wurst u. er ließ das halbfertige Werk von beliebigen<lb/>
+billigen Handlangern ausarbeiten. Damit stimmt überein, daß er<lb/>
+mir im Winter einmal gesagt hat: „Ob der Schmaren g’fallt oder<lb/>
+nicht, is mir gleich. I hab’ mei Geld im Sack.“ Eine noble Künstler-<lb break="no"/>
+gesinnung u. eine nette Praxis! Hinter ihm stehen Frau u. Schwager mit<lb/>
+der Hetzpeitsche: Jean muß componiren, d. h. Geld verdienen. Ich sage Konried,<lb/>
+er möge das Referat allein übernehmen u. verzichte auf die Ehre, der<lb/>
+Lobhudler eines Machwerkes zu sein, das nicht einmal v. Strauß ist. (Vor. S.)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-10" n="01"/>
+            <title level="a">Freitag, 10. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 September Freitag.</head>
+            <p>[ganz oben auf der Seite geschrieben]<lb/>
+x) Am Nachmittag besuchte mich Hr. Wedecke, der sich 5 Min. von Labers<lb/>
+auf der Bergbahn in einem Bauernhause sehr hübsch u. wohnlich eingerichtet hat, u.<lb/>
+zeigt uns seine Besitzung als liebens-<lb break="no"/>
+würdiger Hausherr.<lb/>
+Seine alte Mutter,<lb/>
+die ihn nicht verläßt: Zwei kranke, gebrechliche, sympathische Menschen.<lb/>
+Viel in Jos. Hub. Reinkens’ Biographie Melchior von<lb/>
+Diepenbrock’s gelesen. Eine Stelle über Professor Schmölders<lb/>
+rührt mich tief und bringt mir den Guten wieder deutlich vor Augen.<lb/>
+Wir gehen mit Curschmann’s in die Stadt u. kaufen für Heyse’s<lb/>
+allerlei Genießbares ein, um sie nach alten Brauche bei ihrer Ankunft<lb/>
+heute Abend zu empfangen. Unterwegs begrüßt uns Dr. Beck.<lb/>
+Er arbeitet an einem Werk über d. Civilproceß. Traubenfrühstück<lb/>
+im schönen Weingarten bei Marchetti. Auf dem Heimwege<lb/>
+kaufe ich Marie Janitschek’s „Raoul u. Irene“: Die Geschichte eines<lb/>
+ebenso verrückten wie ekelhaften Verhältnisses zwischen einem 20jährigen<lb/>
+Studenten u. einer 34jährigen marinirten Strohwitwe, die zuletzt zum<lb/>
+Lachen reizt, obwol sie tragisch gemeint ist. Die Witwe des<lb/>
+guten Hubert ist auch eine Säule (ein Säule) der „Moderne“.<lb/>
+Vielleicht werde ich einmal eine Massenhinrichtung dieses<lb/>
+Gesindels vornehmen. Wie mir Ellmenreich sagt, sind die in<lb/>
+Fischer’s und Langen’s Verlag erscheinenden Symbolisten- und<lb/>
+Naturalistenscherze so ziemlich die einzigen Novitäten des deutschen<lb/>
+Büchermarktes, die vom Publicum verlangt werden. Eine schöne Zeit!<lb/>
+Heyse’s treffen ohne Verspätung ein: Paul, Anna u. Emma Herr-<lb break="no"/>
+mann. Alle drei sehen sehr gut aus. Er hat noch immer, trotz seiner<lb/>
+67 Jahre, kein weißes Haar u. ist geistig außerordentlich geweckt u. frisch.<lb/>
+Daß er den ganzen Tag unterwegs war, scheint er nicht zu empfinden, u.<lb/>
+wir sind, während er zu Nacht speist, gleich mitten in literarischen Gesprächen.<lb/>
+Sein Verleger Hertz weigert sich die in „Cosmopolis“ erschienenen<lb/>
+Scenen im Himmel in den 2. Band d. Gedichte aufzunehmen. Signa temporis!<lb/>
+H. erkundigt sich angelegentlich nach Lasswitz, von dem er gern etwas sehen</p>
+         </div>
+      </body>
+   </text>
+</TEI>

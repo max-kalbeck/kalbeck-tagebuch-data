@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-09" n="01"/>
+            <title level="a">Sonntag, 9. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>9 Mai Sonntag.</head>
+            <p>En famille in Pötzleinsdorf bei Mautner’s zu Tische. Singer,<lb/>
+Dr. Winter, Frau Charlemont, Frau Sax, Director Burckhard.<lb/>
+Mit Singer zu Fuß ins Cottage. Burckhard bereitet – in meiner<lb/>
+Abwesenheit, während ich mit Dr. Winter im Park spaziere – seinen<lb/>
+Rückzug vor. Am Abend in „Don Juan“. Meine Bearbeitung ist kaum<lb/>
+noch zu erkennen. Die Sedlmair (Donna Anna), [eingefügt: Dippel (Ottavio)] und Grengg (Comthur)<lb/>
+singen den alten Text, u. auch Ritter kann nicht umhin, stellenweise<lb/>
+zu dem geliebten Opernblödsinn zurückzukehren. Correct u. in jeder<lb/>
+Hinsicht vortrefflich Hesch als Leporello. Vor der Oper einen<lb/>
+Sprung zu Kantor’s hinauf. Frau Sida endlich wieder auf den Beinen.<lb/>
+Die jungen Damen schon voraus. Wir sollen nach dem Theater zu<lb/>
+ihnen kommen, schicken einen Boten nach Hause und gehen zuletzt doch nicht<lb/>
+hin, sondern speisen im Beisel nebenan zu Nacht. Ärgerliche Misverständnisse<lb/>
+u. Empfindeleien – meinerseits.<lb/>
+[7. Mai]<lb/>
+Freitag. legen. Mit Befremden sehe ich unter frischen Kränzen (einer von Alice<lb/>
+Barbi) eine breitspurige Schleife mit der Aufschrift: „? u. Marie Fellinger<lb/>
+dem theuren Freunde“. O vanitas! vanitatum vanitas! Unsere Flieder-<lb break="no"/>
+u. Rosensträuße sind namenlos – wie unser Schmerz. Schräg über von dem<lb/>
+Grabe wird an einem Marmordenkmal für – Suppé gearbeitet. Er, der<lb/>
+windige Herbeck und der Clavierbauer Stoecker liegen auch in dem Rondel<lb/>
+mit Beethoven, Schubert, Mozart u. Brahms zusammen! Wie lächerlich<lb/>
+ist der Pomp, der auf dem Grabe eines Prix entfaltet wird!<lb/>
+[8. Mai]<lb/>
+Samstag. Den ganzen Tag über drängen sich Besucher. Miller bringt mir<lb/>
+neue Abzüge und Vergrößerungen der Photographie. Ich schicke ein großes Bild<lb/>
+an Joachim, ein kleines an Stanford, ein dito an Prof. Engelmann nach<lb/>
+Utrecht. Faber bleibt über eine Stunde bei mir u. weiht mich in die Geheimnisse<lb/>
+der Familie Brahms ein. 1865, ein halbes Jahr vor d. Tode d. Mutter haben sich<lb/>
+die Eltern scheiden lassen, angeblich, weil Frau Br. zu Gunsten ihrer Tochter Gelder<lb/>
+unterschlagen hatte. Br. mußte d. Vater Recht geben, so verzweifelt er über den<lb/>
+unheilbaren Bruch war. Für beide Eltern, auch für Schwester u. Schwager (Uhrmacher in</p>
+         </div>
+      </body>
+   </text>
+</TEI>

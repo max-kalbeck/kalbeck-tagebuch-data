@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-27" n="01"/>
+            <title level="a">Mittwoch, 27. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>27 Oktober Mittwoch.</head>
+            <p>Sonnenthal überrascht mich mit einer Autographensendung: zwei<lb/>
+Briefe des Grafen Fredro, andere von Jokai, Bermayr, Helene Rakowicza<lb/>
+u. s. w. Er hat meine Sammelwuth bemerkt und beeilt sich ihr das schuldige<lb/>
+Opfer zu bringen. Unglücklicherweise [Ausstreichung: bringt] erscheint zur selbigen Stunde im<lb/>
+Tagblatt die Meldung, daß Sonnenthal an Stelle des erkrankten<lb/>
+Baumeister den Michonnet und Erbförster spielen werde. Ich packe<lb/>
+also die Autographen gleich wieder ein und schicke sie ihm mit einem<lb/>
+humoristischen Dankschreiben zurück. – Der dramatische Lieutenant<lb/>
+Vites wartet zum zweiten Mal auf, u. ich muß mich in ein längeres<lb/>
+Gespräch mit ihm einlassen. Ein hübscher junger Riese mit der Seele<lb/>
+eines Kindes. Vor dem Gedanken, das Thema seines traurigen Schau-<lb break="no"/>
+spieles ins Frivole, Satirische zu wenden, wie ich ihm ein wenig mephisto-<lb break="no"/>
+phelisch rate, erschrickt er. Gar zu gern möchte er mir noch einen Einacter<lb/>
+versetzen, aber ich bleibe standhaft. Ihm folgt Triesch auf d. Füße.<lb/>
+Ich hatte ihn um sein Stück gebeten, das am Freitag im Burgtheater auf-<lb break="no"/>
+geführt werden soll, mit der Bemerkung, ich sei im Leben wie auf der<lb/>
+Bühne den Ueberraschungen abhold, auch wenn diese angenehm wären.<lb/>
+Nie habe ich einen so komisch aufgeregten Menschen gesehen. Schon jetzt<lb/>
+zittert er vor der Première. Es existirt nur ein Exemplar seines Manu-<lb break="no"/>
+scriptes und er läßt es mir auf zwei Stunden. Ich bin noch nicht fertig mit<lb/>
+der Lecture, als schon unsere Gäste kommen: Brüll’s, Schwarz’ u. Frau<lb/>
+Wallach. Anfangs gut gelaunt, werde ich bald sehr verstimmt, da ich<lb/>
+zu bemerken glaube, daß unsere Freunde mir nach dem Munde reden und<lb/>
+Teilnahme für Dinge heucheln, die ihnen offenbar ganz gleichgiltig sind. Die<lb/>
+Geschichte mit Max Klinger, welche ich ihnen schon in Unterach erzält habe,<lb/>
+lassen sie sich noch einmal erzälen u. stellen sich unwissend, bis ich mich daran<lb/>
+erinnere, daß ich dieselben Einwände, Floskeln und Ausrufungen des Erstaunens<lb/>
+schon von ihnen gehört habe. Ich vertrage es nicht, als Souverain behandelt zu<lb/>
+werden, u. nehme mir vor, auf der Hut zu sein. So erziehen uns unsere guten<lb/>
+Freunde zu Misanthropen!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

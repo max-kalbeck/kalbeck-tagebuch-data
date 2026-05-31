@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-09" n="01"/>
+            <title level="a">Freitag, 9. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>9 April (Mittw. u. Donnerstag) / Freitag.</head>
+            <p>[7. und 8. April]<lb/>
+Widmann schickt mir eine, gegen einen Verkleinerer v. Brahms<lb/>
+gerichtete Abwehr. Was würde er erst sagen, wenn er den niederträchtigen<lb/>
+Nekrolog Speidel’s, der am Begräbnistage im „Fremdenbl.“ erschien, zu<lb/>
+lesen bekommen hätte! Ich war so empört über Sp., daß ich eine<lb/>
+Visitenkarte v. Brahms nahm, p.p.c. unter den Namen setzte, [ausgestrichen: u.]<lb/>
+auf die Rückseite schrieb:<lb/>
+„Weil ich für deine Walhalla nicht reif<lb/>
+Wie Ebermann, Herbeck, Eder u. Greif,<lb/>
+Zog ich in das Elysium nach<lb/>
+Den Beethoven, Mozart, Schubert u. Bach“<lb/>
+und sie an ihn absenden wollte. Julie redete es mir aus. Nach dem<lb/>
+Concert aber, in welchem Heermann d. Violinconcert spielte, ging ich<lb/>
+hinter Sp. u. dessen Schwiegersohn zur Garderobe hinunter u. konnte mich<lb/>
+am Garderobentische nicht enthalten, laut „Schuft!“ zu rufen. Hinterher<lb/>
+ärgerte ich mich darüber. Mit Sp. muß ich noch einmal gründlich abrechnen.<lb/>
+Am Mittwoch Abend bei Kantor’s mit Singer u. Mosé. Rosl unwohl.<lb/>
+Am Donnerstag besuchen mich Mahler u. Brüll. M. teilt mir mit,<lb/>
+daß er als „leitender Capellmeister“ u. Director in spe an die Hofoper engagirt<lb/>
+werden solle. In der Intendanz u. im Ob. Hofministeramte kriselt es. Mahler<lb/>
+sieht aus wie ein Schauspieler, macht aber keinen schlechten Eindruck. Seine<lb/>
+Reformpläne u. meine Warnungen. Ohne die Garantie eines außerordentl.<lb/>
+Reorganisationsfonds würde ich die Oper nicht übernehmen. Ueber Jahn u.<lb/>
+seine Miswirtschaft. Brüll’s u. Henschel’s speisen bei uns zu Mittag.<lb/>
+Ein gelegentlicher Besuch des Bauplatzes macht mir große Freude. Der Grund<lb/>
+wird ausgehoben. Ausgezeichneter Erdboden u. ganz trocken. Der Gärtner<lb/>
+hat drei stattliche Bäume eingesetzt, die im Sommer schon Schatten geben</p>
+         </div>
+      </body>
+   </text>
+</TEI>

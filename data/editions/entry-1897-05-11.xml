@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-11" n="01"/>
+            <title level="a">Dienstag, 11. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>11 Mai Dinstag.</head>
+            <p>Mahler dirigirt z. 1. M. in der Hofoper (Lohengrin) mit<lb/>
+großem künstlerischen Erfolge. Ohne Zweifel ist er zu besonderen<lb/>
+Dingen berufen. – Unter den alten Breslauer Zeitungen habe ich<lb/>
+Alles herausgesucht, was ich über Brahms geschrieben habe. Da ist<lb/>
+nichts zu widerrufen – trotz der 23 Jahre, die inzwischen vergangen<lb/>
+sind. Meine Abneigung gegen Wagner u. Genossen nimmt<lb/>
+immer mehr zu, meine Bewunderung für Br. desgleichen. Beides<lb/>
+liegt mir im Blute. – Rocholl ladet mich in einem sehr<lb/>
+herzlichen Briefe ein, in Bonn bei ihm zu wohnen.<lb/>
+Otto Brahm und Georg Hirschfeld besuchen mich.<lb/>
+[2. Fortsetzung vom 8. Mai]<lb/>
+Samstag. (Schluß) Abends im Raimundtheater zur Première v. Emiliens<lb/>
+„Heiratsmarkt“. Mit Bettelheim in der elektr. Bahn zus. hingefahren.<lb/>
+Dr. Friedjung hat ihn und uns aufgefordert, nach vollendeter That mit<lb/>
+Mataja’s zu soupiren. Das Stück hält sich zwei Acte hindurch zur Not<lb/>
+auf d. Beinen, im dritten, der gar zu dilettantenhaft gemacht ist, kippt es<lb/>
+um. Emilie kam zum Schlusse ein paar mal heraus, während sie nach d.<lb/>
+2. Acte, wo sie warm empfangen worden wäre, in ihrer Loge blieb. Der<lb/>
+Erfolg, war sehr mäßig, zuletzt durchaus zweifelhaft. Trotz dem glaubt<lb/>
+Emilie, wie jeder durchgefallene Dramatiker, gesiegt zu haben, u. nur<lb/>
+durch das „elende“ Spiel etwas beeinträchtigt worden zu sein. Wir trafen<lb/>
+uns also im Saale des kaufm. Vereins: Emilie, der hofrätliche Bruder,<lb/>
+dessen „schöne“ Frau (Radio), die süße Schwester – eine greuliche Gesellschaft –<lb/>
+Dr. Friedjung u. Bettelheim. Mit meinem Urteil über „Grete’s Glück“<lb/>
+Habe ich trotz der „Freien Bühne“, trotz Schlenther u. Harden Recht behalten.<lb/>
+Keiner der angenehmsten Abende.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

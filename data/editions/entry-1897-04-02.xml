@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-02" n="01"/>
+            <title level="a">Freitag, 2. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 April Freitag.</head>
+            <p>[ganz oben auf der Seite geschrieben]<lb/>
+x) Frau Adele Strauss, die durchaus zu Br. hinein möchte, und die Schwester Ilona’s<lb/>
+auf der Treppe zur Umkehr bewegt und mit Frau Brüll zurück in die Stadt.<lb/>
+Auf dem Wege zu Brahms begegnet mir Dr. Miller v. Aichholz.<lb/>
+Seine rührende Entschuldigung, daß er die Pflege des Kranken nicht<lb/>
+Anderen, nicht uns überlassen habe. Er besitze doch eine Equipage und<lb/>
+könne, da er in der Nähe wohnt, das in seiner Küche zubereitete Essen<lb/>
+immer selbst noch warm, wie es vom Feuer kommt, in die Karlsgasse<lb/>
+hinüberbringen. Dr. Breuer, der von niemand nach dem Stande der<lb/>
+Krankheit befragt werden will, erkennt in den häufig eintretenden Blutungen<lb/>
+aus Darm u. Nase das bedenklichste Symptom. Käme eine solche Blutung<lb/>
+wieder, so wäre es aus. Oben treffen wir Faber’s im Zimmer der Frau<lb/>
+Truxa. Die Katastrophe scheint sich vorzubereiten. Faber sagt, daß<lb/>
+Br. gar keine Verwandte[n] mehr besitzt. Eine Stiefmutter und einen<lb/>
+Stiefbruder, der aus zweiter Ehe der ersteren stammt, leben in Ham-<lb break="no"/>
+burg. Beide werden von Br. unterstützt, und er hat sie noch neulich mittelst<lb/>
+einer Correspondenzkarte über seinen Zustand beruhigt. x) [siehe oben] Auf dem Bureau<lb/>
+suche ich Singer noch einmal zu bewegen, er möge mir es erlassen,<lb/>
+Brahms den Nekrolog zu schreiben. Aber er besteht auf seinem Ver-<lb break="no"/>
+langen. Ich nehme Karpath nach Hause mit u. gebe ihm, vor u. nach<lb/>
+Tische, eine Menge von Notizen für den Fall einer Katastrophe.<lb/>
+Von der Idee nach Baden zu fahren und dort auf einsamen Spazier-<lb break="no"/>
+wegen mich auf meine schwere Pflicht vorzubereiten, komme ich bald<lb/>
+wieder zurück. Der Tag vergeht unter dem Zusammensuchen<lb/>
+meiner Brahms-Reliquien: Briefe, Bilder, Musikalien u.<lb/>
+Bücher. Am Abend bringen Julie u. Frau Brüll schlechte Nachrichten.<lb/>
+Es haben sich Fieberdelirien eingestellt, und Br. muß mit Gewalt<lb/>
+im Bette zurückgehalten werden. Wahrscheinlich ist das der Beginn<lb/>
+der Agonie. In der Nacht, in welcher ich wenig schlafe, werde ich von<lb/>
+tausend Gedanken u. Erinnerungen verfolgt, die sich in rasender<lb/>
+Flucht überstürzen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

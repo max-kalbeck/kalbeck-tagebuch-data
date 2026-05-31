@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-04" n="01"/>
+            <title level="a">Dienstag, 4. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>4 Mai Dinstag.</head>
+            <p>[ganz oben auf der Seite geschrieben]<lb/>
+Der Telegraphenbeamte in Leipzig, ein Autographensammler, hatte das Telegramm<lb/>
+eigenhändig falsch abgeschrieben (Möller f. Höller) u. gebucht. Kl.’s komische<lb/>
+Wut darüber.<lb/>
+[3. Fortsetzung vom 29. April]<lb/>
+dem Stifte deutlicher sein können, manchmal mich freuen, daß ich es<lb/>
+nicht zu sein brauche, schließlich aber muß ich denken, alle Kunst ist<lb/>
+dasselbe und spricht die gleiche Sprache“ ... In einem dritten Briefe<lb/>
+spricht Br. seine Bewunderung für die Salome aus, die er in [ausgestrichen: Leipzig]<lb/>
+Berlin (?) ausgestellt gesehen, u. sagt ungefähr, [Ausstreichung] Gott [Ausstreichung]<lb/>
+möge ihn davor bewahren [Ausstreichung], einem solchen Weibe im Leben zu begegnen,<lb/>
+sonst würde er ihr wohl auch unter die Rechte kommen, (wo der lüsterne,<lb/>
+um den Verstand gebrachte Alte mit blödsinnigem Lächeln den Kopf<lb/>
+hängen läßt, als Pendant zu dem von Qualen der Wollust und Reue<lb/>
+gepeinigten edlen Jünglingshaupte)! Klinger meint, man würde ihm die<lb/>
+Veröffentlichung dieser Briefe als Reclamesucht und Eitelkeit auslegen,<lb/>
+u. darum müsse sie unterbleiben. Dagegen erlaubt er mir den Brief mit<lb/>
+der Ankündigung der „ernsten Gesänge“ zu reproduciren. Einen bestimmten<lb/>
+Anlaß hatte die Composition derselben nicht, wohl aber die Widmung.<lb/>
+Denn der Wunsch sich dem Künstler erkenntlich zu zeigen wurde durch den<lb/>
+Tod des alten Klinger zur That gereift. Die Lieder schienen Brahms<lb/>
+den besten Trost zu enthalten, den er dem Freunde geben konnte, u. deshalb<lb/>
+eignete er gerade sie dem Trauernden zu. In einem vierten Briefe nennt<lb/>
+Br. die „Volkslieder“ seine „großen Lieblinge“. Nach mündlichen Mit-<lb break="no"/>
+teilungen sind sie ursprünglich aus dem Unmut entstanden, den Brahms<lb/>
+über eine von unbefugter u. ungeschickter Hand veranstaltete Sammlung von<lb/>
+Volksliedern [ausgestrichen: wohl die vierländersche, darüber: Böhme] empfand. Er wollte anfangs<lb/>
+dagegen schreiben und seine Controversschrift mit Notenbeispielen belegen,<lb/>
+um in ihnen zu zeigen, wie dergleichen gemacht werden solle. Die Exempla<lb/>
+vermehrten sich u. wurden weiter ausgeführt. Der Künstler verdrängte den<lb/>
+Kritiker, und sein Zorn über die fremde Erbärmlichkeit ging in Freude am eigenen<lb/>
+Schaffen u. Können über. Das ist die beste Art, sich mit Gegnern und<lb/>
+Schwachköpfen auseinanderzusetzen. – Kl. zeigte mir noch einen Brief von<lb/>
+Menzel, den dieser zum Dank für eine v. Kl. zu M.’s 70. Geburtstag gezeichnete</p>
+         </div>
+      </body>
+   </text>
+</TEI>

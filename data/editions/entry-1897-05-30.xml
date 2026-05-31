@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-30" n="01"/>
+            <title level="a">Sonntag, 30. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>30 Mai Sonntag.</head>
+            <p>In Nürnberger Veduten geschwelgt. Gang um die Stadtmauer u. auf<lb/>
+die Burg hinauf. Die Stadtansicht verdorben durch die vielen Schorn-<lb break="no"/>
+steine. Eine Stunde der Andacht im Dürerhause. Der Brief Dürer’s,<lb/>
+in welchem er dem Arzte sein Leiden beschreibt und die [eingefügt: schadhafte] Stelle auf der<lb/>
+linken Seite des Körpers mit dem Finger bezeichnete. Er konnte von<lb/>
+seinem Milzleiden, das er sich von der Reise nach den Niederlanden<lb/>
+mitgebracht hatte, nicht geheilt werden, sondern starb 7 Jahre später<lb/>
+daran. Heute könnte er mit mir nach Carlsbad reisen, und ihm<lb/>
+würde geholfen. Nürnberg und die (verloren gegangene) deutsche<lb/>
+Kunst; heute sind wir glücklich wieder die Affen der Franzosen!<lb/>
+Mittags über Eger nach Carlsbad. In Eger kühle Begegnung mit<lb/>
+Lola Beeth, die dasselbe Reiseziel verfolgt. Julie hat glücklicher-<lb break="no"/>
+weise die Depesche, die ich am Morgen von Nürnberg aus ohne nähere<lb/>
+Adresse an sie abschickte, erhalten u. empfängt mich auf der Bahn.<lb/>
+Wir wohnen in „Villa Koretz“ — neben dem „Shakespeare“, unserer<lb/>
+früheren Behausung, auf dem Schloßberge. In dem Mansarden-<lb break="no"/>
+zimmer ist so wenig Platz, daß ich gleich beschließe eine andere<lb/>
+Wohnung zu nehmen. Abends im Jägerhause, das sich stattlich aus-<lb break="no"/>
+gewachsen hat. Ein neues Viertel mit einer russischen Kirche ist in<lb/>
+der Nähe entstanden. Schneller Decorations- Stimmungs- und Lebens-<lb break="no"/>
+wechsel. Der innere Mensch hinkt den Ereignissen langsam nach und<lb/>
+hat Mühe, sich der neuen Umgebung anzupassen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

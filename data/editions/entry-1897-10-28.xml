@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-28" n="01"/>
+            <title level="a">Donnerstag, 28. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 Oktober Donnerstag.</head>
+            <p>Endlich wieder einmal Geld auf die Bank getragen, aber, o Hohe!<lb/>
+geliehenes. Von den 10000 fl. unserer Hypothek, mit der wir unser<lb/>
+Haus belasten mußten, bleiben uns nach Abzalung der letzten beiden<lb/>
+Bauraten etwa 3000 übrig, von denen wol auch noch ein erheblicher<lb/>
+Posten auf die Einrichtung des Hauses draufgehen wird. [Ausstreichung: Auf dem / Wege] Unterwegs<lb/>
+begegnet mir Nicolaus, der Kantor’sche Diener, und sagt<lb/>
+mir, daß die Fräuleins schon seit 5 od. 6 Tagen wieder in Wien<lb/>
+sind. Und ich weiß nichts davon! In der Escomptegesellschaft Fantel<lb/>
+u. Paul Horn, der Witzbold. 1200 fl. in ungarischen Actien und<lb/>
+etliche Loose sind der Rest „eines einst fürstlichen Vermögens“.<lb/>
+Singer erwische ich gerade, als er im Begriff ist in den Reichsrat zu fahren.<lb/>
+Die dortigen, einen Staatsstreich befürchten lassenden Verhältnisse, haben ihn<lb/>
+von Berlin schleunigst zurückgerufen. Er war mit Pötzl u. d. Administrator<lb/>
+Daches in Zeitungsangelegenheiten dort – wahrscheinlich will er eine Berliner<lb/>
+Filiale einrichten. Bei Gilhofer hat sich noch kein ernst zu nehmender<lb/>
+Interessent für die Artaria’schen Autographen eingefunden. Merian’s<lb/>
+Topographie Sachsen’s u. d. Lausitz u. der Güntherroman. Dr. Modern<lb/>
+begleitet mich heim. Er u. wol Viele mit ihm glauben, daß meine überall<lb/>
+gesungenen Operntexte mich zum reichen Mann gemacht haben, u. er lacht<lb/>
+mich aus, als ich ihm sage, wie es sich damit verhält, u. daß ich, um als<lb/>
+Kritiker freie Hand zu behalten, von keiner meiner Bearbeitungen<lb/>
+Tantièmen beziehe, die neutextirten Mozart’schen Jugendopern u. Gluck’s<lb/>
+„Maienkönigin“ ausgenommen, die nichts einbringen. Nach Tisch mit Julie<lb/>
+ins Cottage u. von da zu Molden’s. Frau Hillischer u. die Edlinger’sche Geschäfts-<lb break="no"/>
+witwe [eingefügt: Frau Steiger] a. Innsbruck. Paul macht große Augen, als ich ihm die lateinischen u.<lb/>
+deutschen Gedichte zeige, die Schiller in seinem Alter gemacht hat. Seine Kenntnisse<lb/>
+im Lateinischen sind = Null, er vergißt am zweiten Tage wieder, was er am ersten<lb/>
+lernte. Goethe’s Schweizerreise v. 1797.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

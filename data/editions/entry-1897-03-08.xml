@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-08" n="01"/>
+            <title level="a">Montag, 8. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>8 März Montag.</head>
+            <p>Ermüdender Arbeitstag. Erst ein Referat über das gestr. philh.<lb/>
+Concert, dann ein Musikfeuilleton, zuletzt noch ein Opernreferat!<lb/>
+Baudirector Müller ist mit dem Kostenanschlage fertig.<lb/>
+Natürlich überschreitet er unsern Etat um 2000 fl. Ich fürchte,<lb/>
+wir haben uns in ein finanzielles Abenteuer gestürzt, dem wir<lb/>
+nicht gewachsen sind. Ich komme aus der Geldklemme gar nicht<lb/>
+mehr hinaus und habe, trotz meiner erhöhten Gage, viel weniger<lb/>
+in der Hand als früher. Jeder Monat beginnt mit Rückständen,<lb/>
+und ich muß schon am 1. immer meine ganze[n] Einnahmen hergeben.<lb/>
+Julie beansprucht für den Haushalt 300 fl. (die für Brahms<lb/>
+veranstalteten Diners werden extra berechnet) Muxl verlangt<lb/>
+für wissenschaftl. u. Musikunterricht 60 fl. Paul 90 fl. für<lb/>
+den Instructor, Stammbeiträge zum Pensionsfond der „Concordia“:<lb/>
+22 fl. Und dazu noch Rechnungen von Hausarzt, Zahnarzt,<lb/>
+Buchhändlern, alle Vierteljahre 250 fl. Miethszins. Wie<lb/>
+wird das erst werden, wenn wir keine Zinsen mehr bekommen,<lb/>
+sondern möglicherweise noch welche zalen müssen!? Die italienische<lb/>
+u. französische Oper scheint bankerott zu sein; seit André<lb/>
+Chénier, dessen Uebersetzung von den anspruchsvollen Freunden<lb/>
+in Breslau als „mislungen“ bezeichnet worden ist, meldet sich<lb/>
+kein Verleger mehr.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-23" n="01"/>
+            <title level="a">Samstag, 23. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>23 Januar Samstag.</head>
+            <p>Auf der Bank 17000 fl. erhoben für den Ankauf des Grundstückes<lb/>
+im Cottage; dann zu Brahms. Frau Soldat-Roeger macht<lb/>
+ihm einen Abschiedsbesuch. Ihr hartes Urteil über Petschnikoff.<lb/>
+Ich sage: Wir Kritiker sind doch die reinen Lämmer den Künstlern<lb/>
+gegenüber, wenn sie sich gegenseitig abschätzen! Brahms, der P.<lb/>
+offenbar gar nicht kennt, spricht wegwerfend von ihm, als einem<lb/>
+Geiger, der den Aristokraten gefällt. Nachdem Frau Roeger<lb/>
+abgeschoben, weihe ich Br. in unsere Baupläne ein. Wider Er-<lb break="no"/>
+warten braust er nicht auf dagegen. Früher hätte er gewiß gesagt:<lb/>
+Na, da komme ich nicht mehr zu Ihnen! Er ist überhaupt wieder<lb/>
+in sehr weicher Stimmung, was immer ein schlechtes Zeichen ist, u.<lb/>
+klagt, daß es gar nicht besser mit ihm werden wolle. Ich muß ihn<lb/>
+trösten u. zur Geduld ermahnen. Ein ehemaliger Schüler Billroth’s,<lb/>
+Prof. ? [Narad] aus Utrecht hat Br. auf der Durchreise, wie dieser glaubt<lb/>
+– thatsächl. war er von F. nach Wien gerufen worden – genau<lb/>
+untersucht und dem Patienten versichert, daß ihm nichts Ernsthaftes<lb/>
+fehle. Br. glaubt ihm, verzweifelt aber zugleich an dem Urteil<lb/>
+u. der Kunst der Ärzte. Am meisten freut es ihn, daß er im Frühjahr<lb/>
+nicht nach Carlsbad zu gehen braucht, sondern, wann es nötig sein<lb/>
+sollte, den Brunnen wieder in Wien trinken darf. Es war ½ 1 Uhr,<lb/>
+seine sonstige Ausgehzeit, u. ich fragte ihn, ob er nicht mitkommen wolle.<lb/>
+Er sagte, er wolle noch ein Stündchen schlafen, er sei so müde.<lb/>
+Auch Nottebohm, den ich kurz vor s. Tode mit Speidel i. Salzburg<lb/>
+besuchte, schlief immer vor Tische. Wie jammervoll muß sich Br.<lb/>
+fühlen, wenn er seinem armen Körper solche bei ihm sonst unerhörten<lb/>
+[Fortsetzung auf der vorherigen Seite]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

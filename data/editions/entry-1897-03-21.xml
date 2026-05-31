@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-21" n="01"/>
+            <title level="a">Sonntag, 21. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>21 März Sonntag.</head>
+            <p>Letztes Philharm. Concert. R. Strauss’ symph. Dichtung: „Also sprach Zara-<lb break="no"/>
+thustra“, ein opus delirissimum. Inmitten des riesigsten Orchester-<lb break="no"/>
+lärmens überfällt mich ein unwiderstehlicher Lachreiz. Die übergeschnappte<lb/>
+Musik. [längere unlesbare Ausstreichung] Vor dem Concert lächerliches Ren-<lb break="no"/>
+contre mit Helene Vesque, die mich ihre Ungnade fühlen läßt. Sie<lb/>
+bildete sich ein, ich hätte heute zu ihr kommen u. nach ihrem Befinden<lb/>
+sehen müssen. Nun aber war ich in einer Vorstandssitzung der<lb/>
+Literar. Gesellsch. viel nötiger als in der Ungargasse, da ich dort<lb/>
+wieder zum Stellvertreter d. Vorsitzenden gewält wurde. Hintendrein<lb/>
+habe ich mich über H.’s Betragen geärgert, umso mehr, als die Scene,<lb/>
+die sie mir auf der Treppe zum Musikvereinssaal machte, nicht un-<lb break="no"/>
+bemerkt geblieben war. Frau Dr. Hillischer brachte uns in ihrem<lb/>
+Wagen nach Hause. Am Nachmittag war ich von Director Wittgen-<lb break="no"/>
+stein zur Generalprobe des Damenstreichquartetts eingeladen. Die<lb/>
+Frau empfing mich oben an der Freitreppe ihres im Stile eines venezianischen<lb/>
+Palastes eingerichteten Hauses (Alleegasse 12). Eine ansehnliche Gesell-<lb break="no"/>
+schaft war versammelt, darunter auch Marie Schumann, die von mir<lb/>
+geschnitten wurde. Herrlicher Musiksaal mit Orgel. Hornbostel’s,<lb/>
+Mandyczewski, Jenner, Oser, die Franz’schen Damen etc. Brahms<lb/>
+wurde nicht umsonst erwartet. Er hat das Programm gemacht u. darauf<lb/>
+gedrungen, daß Mühlfeld nicht sein, sondern ein Weber’sches Quintett spielt.<lb/>
+Auch soll er gesagt haben, daß, falls das Rabl’sche Quartett vom Ton-<lb break="no"/>
+künstlerverein nicht prämirt würde, er es auf seine Kosten drucken lassen<lb/>
+würde. Ich konnte so viel an dem recht flott und gewandt geschriebenen<lb/>
+Werke nicht finden, u. Jenner stimmte mir bei. Sowie die Musik<lb/>
+vorüber war, ging ich fort, weil es mich verdrossen hatte, daß nicht auch Julie	f. S.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

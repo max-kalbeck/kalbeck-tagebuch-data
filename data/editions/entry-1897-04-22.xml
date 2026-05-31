@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-22" n="01"/>
+            <title level="a">Donnerstag, 22. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 April Donnerstag.</head>
+            <p>[Fortsetzung vom 20. April]<lb/>
+Füßen, die Fäuste grimmig geballt als wollte er gleich mit Blitzen drein<lb/>
+fahren. Unwillkürlich schlug ich, wie ich das Bildwerk sah, das Paukenmotiv<lb/>
+an: [Notenzitat: „d-d-d“ punktiert im Oktavabstand] [darüber eingefügt: vos e-go!] und Klinger lachte seelenvergnügt dazu. Er wurde von Minute<lb/>
+zu Minute redseliger u. zutraulicher, u. wir kamen überein, uns zu schreiben.<lb/>
+Gespräch über Schopenhauer u. Nietzsche als Stilisten. Brahms u. Nietzsche;<lb/>
+ich kläre Kl. über die Gründe des Zerwürfnisses auf. Der „Hymnus an die<lb/>
+Freundschaft“ und N.’s maßlose Eitelkeit. Kl. zeigt mir das corpus delicti,<lb/>
+das er in Abschrift besitzt. Auf zehn Schritt Entfernung erkennt man den<lb/>
+dilettantischen Unmusiker u. ABC Schützen. Unter dem vielen Anschauen u.<lb/>
+Sprechen flog die Zeit windesschnell vorbei, u. als ich nach der Uhr sah, war es<lb/>
+schon 2 vorüber. Um ½ 2 Uhr aber war ich bei Frau v. H. zu Tische gebeten.<lb/>
+Nun kam ich eine Stunde zu spät, wurde aber trotzdem sehr herzlich aufgenommen.<lb/>
+Ich war sehr zerstreut u. nicht recht zurechnungsfähig, da meine Gedanken immer<lb/>
+noch bei Kl. weilten. Daher kam es auch, daß ich 3.40 mit 4.30 verwechselte<lb/>
+u. plötzlich entsetzt vom Tische aufsprang, als ich den Irrtum bemerkte. Ich<lb/>
+ließ alles liegen u. stehe, warf mich in eine Droschke, fuhr ins Hotel, kam aber<lb/>
+nicht mehr zurecht. Kurz resolvirt, telegraphirte ich nach Gotha ab u. meldete<lb/>
+mich für den Abend in Berlin an. Ich ging dann noch auf ein Stündchen zu Frau<lb/>
+v. H. u. langte ohne weiteren Unfall um 9 Uhr in Berlin an, von Julie<lb/>
+u. Grete auf d. Bahnhof erwartet. Gute Nachrichten von d. Kindern. Wohnung bei Marie.<lb/>
+[21. April]<lb/>
+Mittwoch. Früh bei Carl. Ax im Bett. Bei Grete zu Mittag. Bewegtes Wiedersehen.<lb/>
+Grete als Großmutter. Der kleine Riwe/Ricoe im Kinderwagen; dazu die junge Mutter, die ich<lb/>
+auf den Knien schaukelte. Von meinen blonden drei „Leuwen“ ist nur Tilda noch frei.<lb/>
+Lotte u. ihr Bräutigam, Artillerielieutenant Stobbe. Die beiden Martine. Martin<lb/>
+d. Jüngere mein leibhaftes Ebenbild (vor 30 Jahren!) nur gesünder u. ordentlicher.<lb/>
+Am Nachmittag die Mama u. Cläre. Mama erholt sich von einer Influenza. Dr.<lb/>
+Brahm hatte uns eine Loge ins Deutsche Theater geschickt. Hauptmann’s „Weber“,<lb/>
+kein Theaterstück. Skizzen a. d. Mappe eines Dramatikers. Vortreffl. Beispiel für<lb/>
+den Wahnsinn d. Naturalismus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

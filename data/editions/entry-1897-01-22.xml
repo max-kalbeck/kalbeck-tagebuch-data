@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-22" n="01"/>
+            <title level="a">Freitag, 22. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 Januar Freitag.</head>
+            <p>Mit Julie in der Schubertausstellung. Ueberraschender Reichtum<lb/>
+der Schwind’schen Malerpoesie. Brief von Michel Delines aus<lb/>
+Nizza, der mich auffordert gemeinsame Sache bei der Bearbeitung<lb/>
+russischer Opern mit ihm zu machen.<lb/>
+[gehört ans Ende des 23. Januars]<lb/>
+Concessionen macht! Am Nachmittag 3 Uhr Termin bei dem<lb/>
+Währinger Notar, wo sich die sechs Verkäufer der Parzellen<lb/>
+mit uns einfinden, u. Doller dem Abschlusse des Kaufes assistirt.<lb/>
+Wir besehen uns dann mit zärtlichen Besitzerblicken unter heftigem<lb/>
+Schneegestöber unser neues Eigentum. Doller begleitet uns zu Müller,<lb/>
+der schon am Hausplane arbeitet. Nach 5 Uhr besucht mich der<lb/>
+langweilige u. zudringliche Dr. Königstein, der mir zumutet, ich<lb/>
+solle mich für seine Frau interessiren. Mit Seelenruhe lege ich ihm<lb/>
+meine Principien als Kritiker dar, u. er muß mit langer Nase<lb/>
+abziehen. Nach dem Concert Kleeberg zum Herrenabend bei Lobmeyr.<lb/>
+Prof. Minor interpellirt mich, was an meiner Satire auf die Goethe-Forschung<lb/>
+Wahres sei – o, welche Ochsen giebt es auf d. Erde! Disput mit<lb/>
+Müller-Guttenbrunn u. Lewinsky über die „Wildente“. Jeder<lb/>
+hat eine andere Meinung – ein Beweis für die Problematik des<lb/>
+Stückes. Zwischen Bettelheim u. Wickhoff bei Tische; mit Bettelh.<lb/>
+u. Kralik um 1 Uhr heim.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

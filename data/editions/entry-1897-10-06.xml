@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-06" n="01"/>
+            <title level="a">Mittwoch, 6. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>6 Oktober Mittwoch.</head>
+            <p>Noch einmal nehme ich mir das Buch Murger’s u. den Clavierauszug<lb/>
+Puccini’s vor. Je mehr ich mich mit letzterem befasse, desto weniger<lb/>
+gefällt er mir, und ich bin jetzt zufrieden, daß ich den elenden Text,<lb/>
+ein Seitenstück zu Illica’s „André Chenier“, nicht übersetzt habe.<lb/>
+Mit Muxl vierhändig gespielt. Sie hat ihre Clavierstunden wieder<lb/>
+aufgenommen und zeigt mehr Eifer als früher. Die gestrige Wagenfahrt<lb/>
+hat keine weiteren nachteiligen Folgen für mich gehabt, und die Er-<lb break="no"/>
+kältung ist gehoben. – J. V. Widmann schickt mir einen Separat-<lb break="no"/>
+abdruck seiner in der „D. Rundschau“ begonnenen Erinnerungen an<lb/>
+Brahms, die ich schon von Heyse her kannte. Merkwürdig, daß<lb/>
+Br. mir mit denselben Anträgen, die er Widmann als Libretti-<lb break="no"/>
+sten anno 1877 gemacht hat, zehn Jahre später gekommen ist. [Ausstreichung: Je mehr] Es<lb/>
+wird von Br.’s Freunden [eingefügt: soviel] über ihn in die Öffentlichkeit gebracht,<lb/>
+[Ausstreichung: wird, desto mehr schmilzt] daß der Schatz meiner Memorabilien [eingefügt: immer mehr] zu-<lb break="no"/>
+sammenschmilzt. Br. hat sich oft wiederholt, wie in seinen stereotypen<lb/>
+Redensarten u. Scherzen, so auch in der Äußerung seiner Ansichten,<lb/>
+u. der Bevorzugten, denen er sie mitteilte, waren [eingefügt: doch ziemlich] Viele. –<lb/>
+Die Zeitungen loben meine Bühnenbearbeitung des „Dalibor“. Ich<lb/>
+weiß, daß sie nicht gut ist, und schämte mich dessen, wüßte ich nicht<lb/>
+zugleich, daß sie schwerlich besser gemacht werden kann.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

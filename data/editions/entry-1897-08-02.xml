@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-02" n="01"/>
+            <title level="a">Montag, 2. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 August Montag.</head>
+            <p>Auf meiner Waldbank geschrieben. Ich kann mich nicht in den<lb/>
+neuen Zustand hinein und zurückfinden, und weiß nicht, ob ich jetzt<lb/>
+träume oder früher geträumt habe. Das Gefühl des Unwahrscheinlichen<lb/>
+gewinnt volle Macht über meinen Geist, und ich dämmere den Tag<lb/>
+so hin. Ich würde mich nicht wundern, wenn die Eichkätzchen, die<lb/>
+schreiend und pfeifend um mich herumjagen, plötzlich zu reden anfingen<lb/>
+und mir den Standpunkt gehörig klar machten. Die mit Gewittern<lb/>
+trächtige Luft trägt das ihrige dazu bei mich immer mehr<lb/>
+zu verdumpfen. Ein Bad im See und eine Novelle des göttlichen<lb/>
+Meister Gottfried bringen wohlthuende Erfrischung. Die Nacht<lb/>
+über gießt es in Strömen. So etwas wie den „Schmied seines<lb/>
+Glückes“ möchte ich auch einmal zu kneten versuchen; es muß eine<lb/>
+eigene Wonne sein, solche Figürchen auf den Marsch zu bringen.<lb/>
+Bei Keller glaubt man immer das Behagen zu merken, das der<lb/>
+Dichter an seiner Arbeit hatte, und das erhöht den Genuß an seinen<lb/>
+Werken. – Paul führt jede Nacht dramatische Scenen in seinem<lb/>
+Bett auf. Die Studentenkneipe hatte ihn so aufgeregt, daß er<lb/>
+im Schlafe sein O Jerum! sang, vom Lager sprang und Anna<lb/>
+zum Tanz engagirte.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

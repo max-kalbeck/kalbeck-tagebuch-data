@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-27" n="01"/>
+            <title level="a">Samstag, 27. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>27 Februar Samstag.</head>
+            <p>Noch einmal „Die versunkene Glocke“ durchgenommen. Das<lb/>
+vollkommenste Werk Hauptmann’s u. doch wieder kein vollkommenes<lb/>
+Werk. Seine hohen poetischen Schönheiten heißen mich einen<lb/>
+vermittelnden Weg suchen, der zwischen der ästhetischen Forderung und<lb/>
+den Absichten d. Dichters auf schmalem Grate zum Kreuz des<lb/>
+Gipfels hinaufträgt. Ein Traum? – Das Mißliche einer zu<lb/>
+viel getriebenen Symbolik. Fatale Ähnlichkeit zwischen der<lb/>
+„Vers. Glocke“ und dem „Stillen Dorfe“ in den Grundideen.<lb/>
+Man wird mich für einen Nachahmer Hauptmann’s halten.<lb/>
+Wahrscheinlich waren wir gleichzeitig mit demselben Gedanken<lb/>
+beschäftigt. Wenn es allerfeinste Ideenbacillen gäbe, die<lb/>
+durch die Welt fliegen! Erfindungen werden fast<lb/>
+immer von Mehreren zu gleicher Zeit gemacht. – Liederabend<lb/>
+Gärtner. Frau Else Landesberger, verw. Traumann, geb. Störk,<lb/>
+freut sich ihrer frisch erblühten Gesundheit u. sieht reizend aus.<lb/>
+Jeder Blick ist eine dringende Aufforderung, es ihr zu sagen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

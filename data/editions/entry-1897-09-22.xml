@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-22" n="01"/>
+            <title level="a">Mittwoch, 22. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 September Mittwoch.</head>
+            <p>Den Aufsatz über Donizetti beendet u. abgeschickt. Von der Arbeit<lb/>
+wurde ich durch den Besuch von Hrn. u. Frau Wolffenstein aufgestört. Sie<lb/>
+wollen durchaus nicht stören, merken, daß sie ungelegen kommen – Julie<lb/>
+war in Meran – und bleiben doch sitzen. Dazu muß man ein süßes<lb/>
+Gesicht schneiden. Frau Geheimrath Dr. Meyer, die Frau eines Dresdener<lb/>
+Museumsdirectors, leiht mir ein Buch, das ich mit Vergnügen lese:<lb/>
+Edgar v. Ubisch „Kriegserinnerungen eines preuß. Offiziers“. Ein<lb/>
+solcher Beleg für die Tüchtigkeit des deutschen und preuß. Wesens ist<lb/>
+hoch erfreulich. In jedem ordentlichen Deutschen steckt ein Stück von<lb/>
+einem Dichter. Das ohne jede Prätension geschriebene Buch wäre etwas<lb/>
+für Brahms gewesen. Wie oft denke ich an unseren Freund! Es<lb/>
+passirt mir immer wieder, daß ich mir irgend eine hübsche Geschichte,<lb/>
+einen guten Witz, einen Rätselscherz u. dgl. mit der Absicht merke,<lb/>
+das Gehörte Brahms mitzuteilen, bis ich mir dann gleich darauf<lb/>
+sage: Ach, Gott, er ist ja todt. – Prof. v. Ehrmann schickt mir den<lb/>
+in Millstatt verheißenen Operetten-Entwurf, ein gänzlich unbrauchbares<lb/>
+dilettantisches Machwerk, dazu einen Brief, in dem er sich ausdrücklich [eingefügt: dagegen] ver-<lb break="no"/>
+wahrt als literar. Dilettant betrachtet zu werden. Der Verblendete hält<lb/>
+die Literatur für seinen eigentlichen Beruf. Nachmittag besuche ich Hrn.<lb/>
+Wedeke – Heyse war zu unserem Nachbar vorangegangen. Wir<lb/>
+sitzen ein paar Munuten mit ihm u. seiner alten Mutter unter der Weinlaube;<lb/>
+dann wird Heyse unruhig. W. geht ihm auf die Nerven. Als wir mit einander<lb/>
+zum Maierhof hinaufsteigen, begegnen wir uns in demselben Gefühle, daß es<lb/>
+mit den meisten Menschen keine 5 Minuten auszuhalten sei. Wir wissen sie<lb/>
+zu schnell auswendig und hören schon Alles voraus, was sie uns sagen werden.<lb/>
+H. der vor mir den steilen Berg hinauf steigt, sieht aus wie ein junger<lb/>
+Mann. Bei den abendlichen Gesellschaftsspielen der jungen Leute giebt Muxl<lb/>
+immer den Ton an, obwol sie die Jüngste ist, und jeder hat sie gern.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

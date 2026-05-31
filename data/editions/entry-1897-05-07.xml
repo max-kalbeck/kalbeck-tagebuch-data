@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-07" n="01"/>
+            <title level="a">Freitag, 7. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>7 Mai Freitag.</head>
+            <p>[6. Fortsetzung vom 29. April]<lb/>
+meines Daseins. Beim Abschied an der Ecke des Platzes wird Kl.<lb/>
+plötzlich von der Sehnsucht nach Griechenland u. dem parischen und<lb/>
+pentelischen Marmor überfallen. Er erzält, wie schwer es sei, dort<lb/>
+einen vernünftigen Marmorblock zu bekommen. Mit den eigens<lb/>
+dazu aufgenommenen Arbeiten habe er an Ort u. Stelle gehen u. sich<lb/>
+nach Gutdünken ausbrechen lassen müssen, was ihm gefiel. Steinbrüche<lb/>
+u. Verkaufsplätze gebe es nicht. Anstatt in das Land der Hellenen<lb/>
+muß Kl. nach Carlsbad, um seinen kranken Magen, der ihm seit<lb/>
+vielen Jahren zu schaffen macht, zu curiren.<lb/>
+[30. April]<lb/>
+Freitag. Wir fahren – leider – noch einmal in die Ausstellung, besuchen<lb/>
+dann das Museum – Klinger’s Salome u. Kassandra!! – und<lb/>
+fahren am Nachmittag nach Dresden. Im Begriff zu Scholtz zu gehen,<lb/>
+treffe ich ihn in der Seestraße. Er nimmt uns in die Brahms-Feier<lb/>
+des Tonkünstlervereins mit, in der es ziemlich mittelmäßig hergeht,<lb/>
+trotz der hervorragenden Kräfte, die mitwirken. Danach mit Familie<lb/>
+Scholtz ins Hôtel de France.<lb/>
+[1. Mai]<lb/>
+Samstag. Einsamer, himmlischer Aufenthalt im Garten des Japan.[ischen]<lb/>
+Palais. „Günther-Stimmung: Euch Musen, dankt mein treu<lb/>
+Gemüte.“ Um 11 Uhr Abreise nach Wien. Else Billroth mit Schwester<lb/>
+u. Gersung’s steigen im Altstädter Bahnhof ein. Viele interessante<lb/>
+Gespräche mit Gersung. Frl. B. will mit ihrer Mutter der Brahms-<lb break="no"/>
+Briefe wegen sprechen. Wien um 18 Uhr Abds. wie ausgestorben. Sehr<lb/>
+lebendiger Empfang daheim von den Kindern. Viele Briefe u. Karten.<lb/>
+[2. Mai]<lb/>
+Sonntag. Besuch von Frau Flegmann u. Brüll’s. Nach Tisch im Regen<lb/>
+alle mit einander auf den Bauplatz. Die Grundmauern stehen; der Baum im<lb/>
+Garten entfaltet sich als Linde. Zuvor bei Molden’s. Er ist der Erste, der<lb/>
+mein Haus betritt. Dann bei Wärndorfer’s eingeladen. Weiberfülle;<lb/>
+es geht wieder sehr gemischt her. Die haarsträubenden Erzälungen d. Frau Mautner.<lb/>
+Die zerstörten Illusionen Lisa’s u. Emmy’s u. die Confidence der letzteren.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

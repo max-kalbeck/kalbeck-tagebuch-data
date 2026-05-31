@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-21" n="01"/>
+            <title level="a">Sonntag, 21. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>21 November Sonntag.</head>
+            <p>Feierlicher Absagebrief an den Generalintendanten. Ausrede,<lb/>
+daß ich auf Jahr und Tag hinaus mit Arbeiten gebunden sei, und<lb/>
+deshalb nicht daran denken könne, das k. k. Festspiel zur höheren<lb/>
+Ehre des Hauses Habsburg zu dichten. Mit der Absendung des<lb/>
+überaus höflichen Schreibens, für das ich mir zehn Tage Zeit<lb/>
+ließ, fällt ein schwerer Stein von meinem Herzen. Vom Philharm.<lb/>
+Concert fahren wir direct nach Döbling, wo wir mit Edlinger u. Zetsche<lb/>
+bei Molden zu Tische gebeten sind. Die Schwäger zanken sich, und<lb/>
+ich schlafe, von der vorigen Arbeitswoche abgemattet, nach Tisch,<lb/>
+während der angeregten Unterhaltung ein. Abends Frau Saville<lb/>
+als Julia in d. Hofoper. Die lauliche Musik Gounod’s giebt meinen<lb/>
+gequälten Nerven den Rest, und ich laufe nach dem zweiten<lb/>
+Acte davon. – Frau Geheimrätin Curschmann hat mir im<lb/>
+Auftrage ihres Mannes mehrere Kupfer von Chodowiecki<lb/>
+geschickt, darunter das schöne Blatt: „Cabinet d’un peintre“.<lb/>
+Einige Stiche tragen noch die Nummern von der Hand des Meisters;<lb/>
+alle rühren aus seiner Hinterlassenschaft her, C. hat sie von<lb/>
+den Erben gekauft.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

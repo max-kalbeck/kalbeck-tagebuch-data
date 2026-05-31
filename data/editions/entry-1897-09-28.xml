@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-28" n="01"/>
+            <title level="a">Dienstag, 28. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 September (Montag) / Dinstag.</head>
+            <p>[2. Forsetzung vom 26. September]<lb/>
+Heyse befolgt meinen Rat, mit dem Abdruck der „Mylitta“<lb/>
+in „Cosmopolis“ bis nach der Entscheidung Burckhard’s zu warten.<lb/>
+Ich will ihm das Stück ans Herz legen, u. kann es aus guter Ueberzeugung.<lb/>
+In der „Nation“ lese ich drei längere Aufsätze des Frl. Hirsch (Adal-<lb break="no"/>
+bert Meinhardt’s) die mir Respect vor ihrem literarischen Talent<lb/>
+und ihrer Bildung einflößen. Ich sage es ihr nach dem Abendessen. Sie<lb/>
+hat schon 11 Bücher bei Paetel erscheinen lassen, die ich alle nicht kenne;<lb/>
+eine ihrer Novellen steht im „Novellenschatz“. Es amüsirt sie, daß ich<lb/>
+sie selbst einen lieben Novellenschatz nenne.<lb/>
+[27. September]<lb/>
+Montag. Früh von 3 bis 6 Uhr die meisten der neuen Heyse’schen<lb/>
+Gedichte gelesen. Welch ein Künstler und welch ein Mensch! Beide haben<lb/>
+mich von Neuem gewonnen. Den unbekannten Mächten, die mein<lb/>
+Leben regieren, danke ich, daß sie mir vor Tausenden das Glück<lb/>
+geschenkt haben, zwei solchen Halbgöttern zu begegnen, wie Brahms<lb/>
+u. Heyse. Sie sind mir ein Auszug der Menschheit, und ich glaube<lb/>
+diese zu kennen, nachdem ich jene studirt habe mit sehender Liebe,<lb/>
+ohne meine Augen vor ihren Schwächen zu verschließen. Molden<lb/>
+schreibt mir einen ziemlich zerfahrenen Brief, der seine Reue ver-<lb break="no"/>
+anschaulicht darüber, daß er keinen Abstecher hierher gemacht hat, sondern<lb/>
+bei Edlinger in Innsbruck hängen geblieben ist; Rocholl aus Bonn<lb/>
+einen beredten Dank- u. Trauerbrief – er kann die Meraner Tage<lb/>
+nicht vergessen. Eine italienische Cartolina von Helene Vesque aus<lb/>
+Bologna.<lb/>
+Marginalnote zu W. Meyer’s „Die Entstehung d. Erde“ p. 53.<lb/>
+Z. 10 u. f. „Das Chaos wird zwar immer wiederkehren, aber es wird<lb/>
+stets weniger Verwirrung aufweisen.“ Reizend! D. h. ja nichts Anderes als:<lb/>
+Das Chaos wird zwar immer wiederkehren, aber es wird niemals wiederkehren.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

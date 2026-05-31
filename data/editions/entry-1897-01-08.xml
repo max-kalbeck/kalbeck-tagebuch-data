@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-08" n="01"/>
+            <title level="a">Freitag, 8. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>8 Januar Freitag.</head>
+            <p>Dankbrief an Heyse. Von seinen Burgtheaterangelegenheiten<lb/>
+erwähne ich absichtlich nichts u. halte es genau wie er. Der junge<lb/>
+Paolo in Montreux; es ließe sich aus dem schwarzen Kerner-<lb break="no"/>
+heft eine artige Geschichte herausspinnen. Die kokette Engländerin,<lb/>
+(Margarete) die den Dichter einfängt, um sich von ihm besiegen<lb/>
+zu lassen. Als Gegensatz dazu die römische „Lacerte“, die ihn<lb/>
+ohne Hintergedanken als guten Kerl lieb gewinnt u. über den<lb/>
+Verlust der Tochter Alberts tröstet. Das Bändchen Lieder die<lb/>
+unsterbliche Frucht beider Verhältnisse. Editio castigata. Meister<lb/>
+Emanuel als Deus im Hintergrunde. Zu Hause großes Aufräumen.<lb/>
+Erneuerte Einsicht von der Unzulänglichkeit meines Zimmers.<lb/>
+Absagebrief an den Studiosus Kohn, dem ich rundweg jedes<lb/>
+literar. Talent abspreche. Dem Czernowitzer ein Exemplar<lb/>
+Humoresken mit Dedication geschickt. Abends bei uns Tarokgesell-<lb break="no"/>
+schaft: Stoerk’s, Kantor’s, Flegmann, Doller, Dir. Burckhard,<lb/>
+Singer u. Ganghofer’s. Letztere sind in großer Aufregung<lb/>
+wegen der morgigen Première im Volkstheater. Frau Stoerk<lb/>
+findet es für gut die vornehme Dame herauszubeißen – weiß<lb/>
+der Himmel, warum? Burckhard sehr kleinlaut. Ich that<lb/>
+wohl daran, erst vorher ins Concert zu den Gebr. Thern zu gehen.<lb/>
+Was nur die Menschen für ein Vergnügen an einem<lb/>
+solchen Abend finden.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

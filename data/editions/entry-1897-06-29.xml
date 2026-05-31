@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-29" n="01"/>
+            <title level="a">Dienstag, 29. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>29 Juni Dinstag.</head>
+            <p>Abschiedsvisiten bei den verschiedenen Parteien des Berghofes.<lb/>
+Auf einem schönen Morgenspaziergange durch den Wald u.<lb/>
+über den Hausberg lege ich Frau Marie noch einmal die<lb/>
+Sorge für die neue Oper Brüll’s dringend ans Herz. Meine<lb/>
+Idee, wie dem Uebel abzuhelfen wäre: die neue weibliche<lb/>
+Figur, die Braut, welche dem dubiosen Bräutigam nachreist<lb/>
+u. von dem Husaren aus den Händen Rosza Sandor’s befreit<lb/>
+wird. Sie könnte Leben in den todten 2. Act bringen; es gäbe<lb/>
+ein paar artige Duette zwischen ihr u. dem Durchgänger u.<lb/>
+der Anderen, auch könnte sie als Zeugin der Morithat die<lb/>
+Lösung des Knotens herbeiführen. Ich gebe Frau Marie zu<lb/>
+verstehen, daß die Oper so, wie sie jetzt ist, einen sicheren<lb/>
+Miserfolg bedeuten würde, daß [eingefügt: aber] Ignaz, wenn er sich tüchtig<lb/>
+dahinter setzte, gerade mit ihr eine Entschädigung für alles<lb/>
+Malheur der letzten Jahre gewinnen könnte. Julie warnt<lb/>
+mich noch einmal dringend vor der Rückkehr nach Wien; die<lb/>
+Hitze sei zum Verzweifeln. Auch Brüll’s wollen mich zum<lb/>
+Bleiben bewegen. Aber mein Entschluß steht fest: Eirich,<lb/>
+die Zeitung und Busse dürfen nicht vernachlässigt werden.<lb/>
+Eine zalreiche Gefolgschaft geleitet uns zum Schiffe. Muxl ist<lb/>
+der allgemeine Liebling geworden. Im Augenblick d. Abreise<lb/>
+erfährt sie durch eine Unvorsichtigkeit Anna’s Unglück; nun<lb/>
+fließen Abschieds- u. Mitleidsthränen in einander. Wir haben<lb/>
+von Wels an eine leidliche Fahrt u. werden bei unserer Ankunft<lb/>
+in Wien von Julie u. Paul eingeholt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-17" n="01"/>
+            <title level="a">Samstag, 17. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>17 April Samstag.</head>
+            <p>In der Oper frage ich nach Hofrath Schuch, der zufällig anwesend ist.<lb/>
+Er hält mich über eine halbe Stunde fest, erschöpft sich in Diensten und<lb/>
+Aufmerksamkeiten, u. erschließt mir das Herz seiner nach Wien strebenden<lb/>
+Wünsche. Mit Staunen bemerke ich, daß er über die Wiener Verhältnisse<lb/>
+weit besser unterrichtet ist als ich. Seine Vielseitigkeit. Wlassack u. der<lb/>
+Spar-Hofrath, die beiden Hände des Obersthofmeisters. Je näher ich Schuch,<lb/>
+der mich vor Jahren in Wien besuchte, kennen lerne, desto schlechter gefällt<lb/>
+er mir. Eine Bedientennatur, ehrgeizig, kriechend, falsch u. rücksichtslos. Ein<lb/>
+höchst fähiger Mann – ohne Zweifel – aber auch zu Allem fähig! Seit Jahren<lb/>
+cajolirt er die Wiener Kritik – Hirschfeld, Heuberger, Hanslick<lb/>
+etc. – u. thut ihr jeden Gefallen, u. doch hat noch keiner, zu s. Schmerz, jemals<lb/>
+ein Wort über ihn geschrieben. Vielleicht erweise ich ihm einmal die Liebe.<lb/>
+Wenn ich Liechtenstein wäre, engagirte ich ihn als das brauchbarste „Subject“,<lb/>
+das die deutsche Opernbühne besitzt. Hatten die Mächtigen früherer Zeit nicht<lb/>
+Recht, dieses Gesindel von Oben herunter zu behandeln? – Mit Julie in<lb/>
+der Galerie, die ich vor Jahren zuletzt besehen. Die Bilder vermitteln den<lb/>
+Zusammenhang vieler interessanter Erlebnisse. Nach Tisch zu Schmeidler’s.<lb/>
+Er hat eine neue Wohnung in der Rabenerstr. bezogen, u. es scheint ihm<lb/>
+besser zu gehen als bei meinem vorigen Dresdener Aufenthalt. (Möser’s leben<lb/>
+wie Hund u. Katze; er will nichts mehr von Elly Gregor wissen, was er übrigens<lb/>
+zu Anfang ebenfalls nicht wollte.) Schmeidler, der verstoßene Familiensohn,<lb/>
+seine aus gekränktem Ehrgefül u. beleidigtem Künstlerstolz hervorgegangene<lb/>
+Unverträglichkeit. Das Alter hat ihn stiller, aber nicht zahmer gemacht, u. er wird<lb/>
+noch immer rasend, wenn er auf die alten Geschichten zu sprechen kommt. Schade um diesen<lb/>
+prächtigen, knorrigen u. ganzen Kerl! Er u. seine kugelrunde Frau sind am Abend<lb/>
+in einer Weinhandlung unsere Gäste, u. es geht bei einer Maibowle recht gemütlich zu.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

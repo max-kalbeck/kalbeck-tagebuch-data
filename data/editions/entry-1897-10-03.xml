@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-03" n="01"/>
+            <title level="a">Sonntag, 3. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>3 Oktober Sonntag.</head>
+            <p>Die Räumerei zu Ende gebracht. Besuch des Hauptmann’s von<lb/>
+Zobeltitz, Redacteurs der Velhagen u. Klasing’schen Monats-<lb break="no"/>
+hefte. Er ladet mich zur erneuerten Mitarbeiterschaft ein u. möchte,<lb/>
+daß ich ihm Plaudereien über Wiener Kunst- und Theaterleute<lb/>
+schreibe. Ich lehne dankend ab. Nach vielem Hin- und Herreden<lb/>
+kriegt er mich zu einem Aufsatz über Holtei dran, der bis<lb/>
+1 Dcbr. in seiner Hand sein soll. Als ich ihm sage, vielleicht<lb/>
+könne ich ihm einmal etwas über Brahms mitteilen, erwidert<lb/>
+er, das – er meinte seinen Tod – sei doch schon zu lange her. Und<lb/>
+ein solcher Mann steht an der Leitung einer angesehenen deutschen<lb/>
+Monatsschrift! Kaum war er fort, so bereute ich schon wieder meine<lb/>
+Zusage. – Molden bittet uns zur Jause für den Nachmittag; er<lb/>
+hat sich am Gardasee völlig erholt und sieht gut aus. Bei Hilli-<lb break="no"/>
+scher’s ist Elend u. Sorge im Hause: die 15jährige Alma leidet<lb/>
+an der Auszehrung. Molden giebt Mahler die Klinke in die<lb/>
+Hand. Seine Ernennung zum Director d. Hofoper bedarf nur noch<lb/>
+der kaiserlichen Sanction. Jahn sitzt in Trofaiach u. kommt nicht<lb/>
+mehr zurück. Meine Sympathie für den neuen Mann wächst<lb/>
+mit jeder neuen Begegnung: er weiß, was er soll, und er kann, was<lb/>
+er will. Mit Muxl unser Haus besichtigt, während Julie voraus<lb/>
+zu Molden’s. An der Westseite schlägt die Feuchtigkeit durch die Mauer –<lb/>
+es hat über Nacht stark geregnet. Wie viele unangenehme Erfahrungen<lb/>
+stehen dem Besitzer noch bevor! Bei Molden ist es sehr hübsch in ihrer neuen,<lb/>
+einen Stock höher gelegenen Wohnung. Aber sie sind beide verstimmt u.<lb/>
+äußern halb im Scherze, sie hätten einander nicht heiraten sollen. Wieder<lb/>
+eine unglückl. Ehe. Es scheint nur solche zu geben. [eingefügt: Mandyczewski in der Trambahn.] Abds. vierhändig m. Muxl.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

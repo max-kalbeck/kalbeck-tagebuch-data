@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-31" n="01"/>
+            <title level="a">Samstag, 31. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>31 Juli Samstag.</head>
+            <p>Mit der Excellenz, Frau Kantor, Julie u. Zellner’s nach Millstatt<lb/>
+hinüber. Während die Andern mit dem Dampfer nach Dellach<lb/>
+fahren, gehen Zellner’s und ich zu Fuße dahin u. dann alle mit einander<lb/>
+wieder zurück. Frau Zellner belustigt uns, indem sie ihr merkwürdiges<lb/>
+Imitationstalent an dem Feldmarschall versucht. Ueber den Charakter<lb/>
+Pokoi’s. Julie mag ihn nicht leiden; mir gefällt er besser als andere<lb/>
+alte Haudegen, und es macht mir Vergnügen, an ihm den Typus<lb/>
+einer bestimmten Gattung alter Junggesellen zu studiren. Er wäre<lb/>
+ein vorzüglicher Gesellschafter, wenn er sich nicht zu viel mit seiner<lb/>
+Person beschäftigte. Ihn interessiren nur Dinge, die ihn [Ausstreichung: seine Person] persönlich angehen,<lb/>
+und diese sind nur ausnahmsweise auch das Interesse der Allgemeinheit.<lb/>
+Jeder ist im Grunde so, nur zeigt es nicht jeder. Auch ließe sich nichts<lb/>
+dagegen einwenden, wenn der Interessenkreis des Betreffenden ein<lb/>
+weiterer wäre. Ueber Tische entwickelt Pokoi eine sehr sonderbare<lb/>
+Theorie von der Zukunft unseres Planeten: die Erde platte sich allmälich<lb/>
+ab, und die Gebirge würden verschwinden, damit hinge dann eine not-<lb break="no"/>
+wendige Veränderung der menschlichen Natur zusammen. Er war sehr<lb/>
+ungehalten, als ich ihm sagte, daß, wenn es keine Berge mehr gäbe es<lb/>
+auch kein Wasser mehr geben werde, daß aber voraussichtlich kein Mensch<lb/>
+einen solchen Zustand erleben werde. – Ueber die Notwendigkeit der Kriege –<lb/>
+contra Suttner u. Consorten. Nachmittags kam die Seebodener Gesellschaft<lb/>
+zu der großen Revanche-Damenkneipe. Schon beim Lawntennis<lb/>
+ging es sehr lustig zu, und bei der Kneiptafel dann noch lustiger. Ich trank<lb/>
+Bier und schwang das Tanzbein, ohne Ueberzeugung. Schöne Bilder: die<lb/>
+vielen hübschen jungen Gesichter mit Band u. Cerevis, die Abfahrt auf der<lb/>
+großen Plätte in die dunkle Nacht des Sees hinaus unter Lachen u. Singen.<lb/>
+Die Kinder als Studenten. Das Leben ein Traum. Ehrmann hat mir<lb/>
+Gedichte gebracht, die von Talent zeugen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

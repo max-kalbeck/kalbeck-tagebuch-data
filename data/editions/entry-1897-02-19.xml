@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-19" n="01"/>
+            <title level="a">Freitag, 19. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 Februar Freitag.</head>
+            <p>Als ich Brahms mit Kantor’s Wagen abholen wollte, fand ich einen<lb/>
+Zettel von seiner Hand vor: das schöne Wetter habe ihn unwider-<lb break="no"/>
+stehlich hinausgelockt, u. er sei zu Fuß gegangen. Längeres Gespräch<lb/>
+mit Frau Truxa, bei der er wohnt, über seinen Zustand. Sie sagt,<lb/>
+daß er weder frühstücke noch zu Abend esse; er trinke nur noch eine<lb/>
+Tasse Thee vor dem Schlafengehen. Oft lege er sich, nachdem er<lb/>
+aufgestanden sei, wieder zu Bette. Gestern seien schon gegen zwanzig<lb/>
+Leute dagewesen ehe ich u. die Andern kamen. Er wisse ganz genau,<lb/>
+was er von der Teilnahme der meisten Besucher u. von der Gesinnung<lb/>
+sogen.[annter] Freunde zu halten habe, u. spreche sich oft sehr wegwerfend über<lb/>
+sie aus. Wenn er allein sei, besonders des Abends, starre er stunden-<lb break="no"/>
+lang, das Gesicht in beide Hände gestützt, vor sich hin. Ich bitte<lb/>
+Frau Truxa, mich, sobald irgend eine entscheidende Wendung bei<lb/>
+Br. eintrete[n] oder sobald er der Hilfe bedürfe, unverzüglich zu<lb/>
+benachrichtigen. Dr. Fellinger hat ihr denselben Auftrag gegeben.<lb/>
+Bei Kantor’s werde ich schon erwartet. Br. war im Vorübergehen<lb/>
+bei Marie Schumann, die seit einigen Tagen in Wien ist u. im<lb/>
+Michaelerhofe wohnt. Außer Br. sind Singer u. Mosé da. Alles<lb/>
+giebt sich Mühe die Unterhaltung in Fluß zu bringen, aber der traurige<lb/>
+Anblick des armen Gastes, der mehr todt als lebendig aussieht, lähmt die<lb/>
+Geister. Br. meint, er wolle nicht wieder ausgehen, er gehöre nicht mehr<lb/>
+unter Menschen. Wir reden es ihm aus, u. unterwegs im Wagen, da er<lb/>
+wieder trübselig davon anfängt, überzeuge ich ihn von der Notwendigkeit,<lb/>
+sich wenigstens täglich ein paar Stunden zu zerstreuen. „Was wollen Sie denn<lb/>
+sonst thun? Es geht doch nicht, daß Sie ganz allein bleiben!“ – „Ja, Sie haben Recht,<lb/>
+es geht doch nicht, geht wirklich nicht!“ erwiderte er mit schwerem Seufzen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

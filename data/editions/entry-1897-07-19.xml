@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-19" n="01"/>
+            <title level="a">Montag, 19. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 Juli Montag.</head>
+            <p>Den zweiten Act vom „Stillen Dorfe“ in der Umarbeitung ins<lb/>
+Reine gebracht. Einzelnes darin scheint mir gelungen, auch ver-<lb break="no"/>
+liert der Gegenstand nicht seinen geheimnisvollen Reiz und er-<lb break="no"/>
+greift mich immer von Neuem wieder. Bedenken, ob der Musiker<lb/>
+im Stande sein wird, das Schiff das stellenweise auf dem Trockenen<lb/>
+sitzt, flott zum machen. Es gehörte ein ununterbrochener Strom<lb/>
+von Melodie dazu. – Ich schreibe regelmäßig vor dem Frühstück, da<lb/>
+ich immer der Erste auf den Beinen bin, im hängenden Waldgarten<lb/>
+an meinen in Baden begonnenen Brahms-Erinnerungen. Kommt<lb/>
+auch [Ausstreichung] nicht viel dabei heraus, so fügt doch jeder Tag sein Blättchen<lb/>
+hinzu. Aus Tagen wird ein Jahr, aus Blättern ein Buch. Singer<lb/>
+redet mir zu, unter die Magyaren zu gehen, d. h. mich in den<lb/>
+ungarischen Staatsverband aufnehmen zu lassen. Viel über politische<lb/>
+Verhältnisse u. das seinem Untergang entgegengehende Oesterreich.<lb/>
+Am Nachmittag mache ich, während die Andern den gewohnten Weg<lb/>
+zum Lawn Tennisplatz hinaufgehen, einen weiten Spaziergang.<lb/>
+Seit den ersten Millstätter Tagen von Anno ? wieder einmal<lb/>
+den schönen bei den Villen von Geist u. Riedel vorübergehenden<lb/>
+Seeweg zur Laggerbäuerin gewandelt. Mein damaliger Zustand<lb/>
+wird mir wieder vollkommen gegenwärtig: die herzliche Zuneigung<lb/>
+zu der schön herangeblühten Rosel, an der die Kinder mit Zärtlichkeit<lb/>
+hängen, u. das verjüngende Element in ihr. Unsere Lust an den ins<lb/>
+Wasser plattsenden [platzenden] schweren Bergsteinen. Ueberall an verlassenen<lb/>
+Pfaden sitzen die Erinnerungen wie d. Spinnen in ihren Netzen u. lauern<lb/>
+auf ihre Opfer. Das zerfallene Sommerhaus; die unter den Blättern<lb/>
+versteckten Beeren, die sich durch ihren Duft verraten. Eine „Wasserrose“<lb/>
+meldet sich als lyrisches Motiv. Ueber Grosseck u. den Berg zurück.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

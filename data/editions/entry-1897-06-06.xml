@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-06" n="01"/>
+            <title level="a">Sonntag, 6. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>6 Juni Sonntag.</head>
+            <p>Pfingsten. Nach Brunnencur und Frühstück zu Frau v. Beckerath,<lb/>
+die mich im Gartenhause ihres Gasthofes erwartet. Auf dem Wege<lb/>
+begegnet mir Lauterbach, der mich sofort erkennt, trotzdem er<lb/>
+schlecht sieht u. eine Starroperation erst überstanden hat. Er erinnert mich<lb/>
+an meinen Dresdener Besuch vom Jahre 1873, wo ich mit einem Briefe<lb/>
+der Gräfin Moy zu ihm kam u. Musiker werden wollte. Zufällig<lb/>
+hatte er Tags zuvor ein Gedicht von mir in einer illustr. Zeitung<lb/>
+gelesen. Ähnlich sei es ihm immer im Leben widerfahren. Mir auch:<lb/>
+die Menschen, die kommen sollen, melden sich vorher an. L.<lb/>
+hat die Gräfin und den Grafen kurz vor dessen Tode noch in<lb/>
+Sorenth gesehen. Er ist ohne nachweisbare Krankheit erloschen [über Ausstreichung]<lb/>
+wie ein Licht. Vieles von Moy’s Vergangenheit. L. kannte<lb/>
+die Gräfin, als sie noch Frl. v. Aretin war, in München. Sie<lb/>
+war sehr schön. Wem sagt er das? Sie ist sieben Jahre älter als<lb/>
+ich, war also zu meiner Münchener Zeit 29 Jahr. – Frau v. Beckerath<lb/>
+hat mich, ohne mich zu kennen, aus der Menge d. Badegäste heraus-<lb break="no"/>
+gefunden gehabt. „Wenn es Einer ist, so ist es dieser.“ Sehr merkwürdig.<lb/>
+Brahms verkehrte von 1872 an in ihrem Hause; erst in Düsseldf.,<lb/>
+dann in Wiesbaden. Dort hat er 1883 die F-D. Symphonie geschrieben;<lb/>
+war immer nach Tisch zum Kaffee bei Ehlert, der sich erst zu ihm bekehrte.<lb/>
+Seine herrliche Wohnung, sein Clavierspiel. Er musicirte fast jeden Abend<lb/>
+bei B. u. spielte alles Mögliche. Beckerath war ein vorzügl. Geiger u.<lb/>
+hatte Musiker werden wollen. – Wir promeniren an der Tepel [Tepl] u. flüchten<lb/>
+vor d. Gewitter in Pupp’s Kaffee. Mittag in Kl. Versailles. Spaziergang<lb/>
+zum „Bild“. Dort mit Hanslick, der Dinstag fertig ist. Ich spüre wieder<lb/>
+Schmerzen in der Seite. Abends im Jägerhause. [Ausstreichung: Nach Tisch Frau B…]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

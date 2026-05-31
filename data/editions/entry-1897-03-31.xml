@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-31" n="01"/>
+            <title level="a">Mittwoch, 31. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>31 März Mittwoch.</head>
+            <p>Bei Brahms treffe ich mit Heuberger und Hanslick zusammen.<lb/>
+Frau Truxa hat einen Bogen aufgelegt, auf welchem sich die Besucher<lb/>
+einschreiben. Trotzdem es dem Kranken heute ein wenig besser geht,<lb/>
+wird auch Hanslick nicht zu ihm gelassen. Frau Truxa meint, sie<lb/>
+fürchte, daß Br. im Schlafe gestört werde. Wir gehen mit einander<lb/>
+fort, Hanslick seelenvergnügt u. zu allerhand Scherzen aufgelegt.<lb/>
+Das Alter stumpft die Empfindung ab. Er erzält mir, daß Jahn,<lb/>
+der „Schwerbewegliche“, nun doch wackle. Der Obersthofmeister, Fürst<lb/>
+Liechtenstein, der sich durch den Augenschein von der Verlotterung<lb/>
+der Hofoper überzeugt hat, ließ sich den Intendanten kommen und<lb/>
+gab ihm die Weisung, er möge es Jahn beibringen, daß dieser<lb/>
+seine Entlassung nehme. Bezecny gewinnt es nicht über sich, den Auftrag<lb/>
+auszuführen, und giebt ihn an Wlassack weiter, der auch wieder nicht<lb/>
+daran will. So hängt die Sache einstweilen in der Schwebe. *) [siehe vorherige Seite] Auf dem<lb/>
+Bureau höre ich von Karpath, daß Gustav Mahler, derz. Capellmeister<lb/>
+bei Pollini in Hamburg, zum Nachfolger Jahn’s erkoren sei. Ziegler<lb/>
+erzält im Conferenzzimmer seine landsmannschaftl. Feindschaft mit Brahms.<lb/>
+Die Gotthard’sche u. Herbeck’sche Hochzeit. Brahms u. das hübsche Dienst-<lb break="no"/>
+mädchen bei Herbeck im Damensalon. Nottebohm mit d. „begeisterten“<lb/>
+Augen. Ziegler m. Joachim (nach einem Concert), Herbeck, Speidel u. a. („Die<lb/>
+Directors“) im Gasthause. Die ungarischen Tänze nennt er Gollaschmusik,<lb/>
+um Br. zu ärgern, der ihn seitdem nicht leiden mag. Wir glaubten früher<lb/>
+immer beiden einen Gefallen zu thun, wenn wir sie mit einander einlüden. Sehr<lb/>
+komisch. Br. aber immer ganz nett gegen d. widerborstigen Z., der die Nase in die<lb/>
+Höhe zieht. Schneegans kommt, wie gewöhnl., da ich gerade ins Concert gehe. Er begleitet<lb/>
+mich, das Concert ist abgesagt; Frau Zellner kommt uns entgegen, u. ich will Julie von K.’s<lb/>
+abholen, bleibe aber mit ihr dort. Der „Jour“ auf morgen verschoben, um Friedmann’s<lb/>
+zu entgehen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

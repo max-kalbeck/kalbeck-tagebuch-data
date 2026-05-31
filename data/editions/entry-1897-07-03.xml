@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-03" n="01"/>
+            <title level="a">Samstag, 3. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>3 Juli Samstag.</head>
+            <p>Die „Musikal. Frühlingstage“ überallhin verschickt. Singer<lb/>
+fragt mittelst einer Stockholmer Karte an, wie lange<lb/>
+wir noch in Karlsbad bleiben? Inzwischen ist er, wie man<lb/>
+mir im Bureau sagte, dorthin abgereist, in der bestimmten<lb/>
+Voraussetzung uns zu treffen. Ich schreibe ihm einen<lb/>
+scherzhaften Verzweiflungsbrief. An die Geh.rätin Hecht<lb/>
+in Mannheim ein Bild v. Brahms gesendet. Busse<lb/>
+hat die für ihn beim Hausmeister deponirten Bücher noch<lb/>
+immer nicht abgeholt u. auch sonst nichts hören lassen.<lb/>
+Die versprochenen Photographien an Frl. Wassermeyer<lb/>
+nach Bonn u. Frl. Kirchdorffer nach Berlin. Oberflächliche<lb/>
+Ordnung in meinem Zimmer gemacht u. zur Reise gepackt.<lb/>
+Dann zu Doller wegen der Hypothek. Ich ermächtige ihn<lb/>
+10000 fl. auf unser Haus aufzunehmen, damit in den<lb/>
+Ratenzalungen, die wir an den Cottageverein zu entrichten<lb/>
+haben, keine Unterbrechung eintrete. Im September wird unser<lb/>
+auf der Escompte Bank befindliches Depositum, bis auf ein<lb/>
+paar Loose, verausgabt sein. Von Breslau u. den 20000<lb/>
+Mk., die uns die Oscar Freund’schen Erben noch schulden, ist<lb/>
+nichts zu erwarten. Doller arbeitet jetzt mit einer starken und<lb/>
+vornehmen Clientel. Bei meinen Stadteinkäufen begegnet mir<lb/>
+Dr. Winter; unsere gemeinsame Empörung über die gegenwärtige<lb/>
+Literatur u. H. Bahr. W. versorgt mich mit Reiselecture u. bringt<lb/>
+mich im Wagen nach Hause. Ein Gewitter sorgt für etwas kühlere Abfahrt<lb/>
+u. Reise. Mit den Mädchen u. Kindern auf d. Südbahnhofe gegessen. Die<lb/>
+Kinder mit mir im Coupé. Erträgliche Nacht.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-25" n="01"/>
+            <title level="a">Dienstag, 25. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>25 Mai Dinstag.</head>
+            <p>Der Spaß mit Frl. Kirchdorffer, der ich mich als unmusikalischen<lb/>
+grobmateriellen Banausen u. Kunstverächter zeige, wird weiter fort-<lb break="no"/>
+getrieben. Sie haßt mich. Das Wetter erlaubt auf der Veranda zu<lb/>
+frühstücken. Brief an Julie. Probe bei Ebbinghaus. Mühlfeld u.<lb/>
+das Clarinettquintett. Joachim spielt außerdem Beethoven’s Quartette in Es u. F.<lb/>
+Unverhofftes Wiedersehen mit dem alten Perfall, der noch immer ein<lb/>
+munterer Knabe ist. Diner bei Rocholl’s: die Sängerin Pregi mit<lb/>
+Schwester, Frl. Wassermeyer, Kirchdorffer, Miss Campbell, Dr. Mar-<lb break="no"/>
+quardsen, v. Sandt, ein Husarenlieutenant. Es wird sehr gemütlich.<lb/>
+Depesche an Julie. Mein verfänglicher Toast auf die Hausfrau.<lb/>
+Nach Tische allgemeines Musiciren. Die Pregi singt den „Nachtwandler“<lb/>
+wunderschön vom Blatt u. vieles Andere. Alle zusammen die „Liebeslieder-<lb break="no"/>
+Walzer“ (Kirchdorffer u. Rocholl am Clavier). Erstaunen der Kirchdorffer,<lb/>
+mich so musikalisch zu finden. Nachdem die Anderen fortgegangen, nimmt<lb/>
+sie schnell eine Vortragslection bei mir (Brahms’ Clavierstücke) u.<lb/>
+kann nicht enden. Sie liebt mich. Unsere Launen u. Neigungen wechseln<lb/>
+wie das Wetter. Im Concert mache ich die Bekanntschaft von Frau<lb/>
+Hofrätin Hecht aus Mannheim, die mich sofort dringend zu sich<lb/>
+einlädt. Auch Frl. v. Reinthaler stellt sich mir vor. Beide versprechen<lb/>
+mir Brahms-Briefe. Mein „Nachruf“ ist hier jedermann bekannt, u.<lb/>
+ganz fremde Leute sprechen mich an, um mir dafür zu danken. Ich fange<lb/>
+mir an in der Rolle des „ami de Brahms“ komisch vorzukommen u.<lb/>
+weiche den Weibern, die mich interviewen, aus. Ein stiller Abend bei<lb/>
+Rocholl’s – auf meinen Wunsch bleiben wir zu Hause – beschließt den<lb/>
+herrlichen Tag in würdiger Weise in liebevoller Begeisterung für Alles,<lb/>
+was unsterblich ist. Wir erwärmen uns bei Klinger’s Brahms-Phantasien,<lb/>
+von dem R. eines d. ersten Exemplare besitzt. Das Lied ohne Opuszal.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-22" n="01"/>
+            <title level="a">Sonntag, 22. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 August Sonntag.</head>
+            <p>Früh kommt der seit einer Woche erwartete Mosé<lb/>
+und erzält von Ischl, der großen Wassersnot, Strauss<lb/>
+etc. Der alte Knabe freut sich, daß seine Wanddecorationen<lb/>
+(zwei Copien nach berühmten niederländischen Thierstücken) im<lb/>
+Saale so gute Wirkung machen. Mein Spiegelscherz. Die<lb/>
+drei jungen Damen beim Frühstück auf der Galerie. Unten<lb/>
+Schach mit dem älteren Kupelwieser. Frau Morhal liegt<lb/>
+an einem rheumatischen Fieber danieder. Wir erhalten die<lb/>
+Post von Zauchen: Briefe von Lasswitz’s, Cläre, Eirich,<lb/>
+Doller. Lasswitz giebt den Roman bei [Leerstelle für späteren Nachtrag]<lb/>
+in Buchform heraus. Leider behalte ich wieder einmal Recht; [Ausstreichung: daß]<lb/>
+keine Zeitschrift konnte sich darauf einlassen, und die erhofften<lb/>
+Schätze blieben aus. Für das Buch werden sich viele Liebhaber<lb/>
+finden, aber auch diese ganz allmählich, da ein 60 Bogen starker,<lb/>
+halb wissenschaftlicher Roman nicht nach jedermanns Geschmack<lb/>
+ist. Nach Tische allgemeines Durcheinander. Diesmal wird die<lb/>
+Abreise zu früh und umständlich vorbereitet. Mir lähmt ein<lb/>
+solcher Trouble das Gehirn. In drei Schiffen wird übergefahren,<lb/>
+die jungen Leute nehmen ihre Räder mit und begleiten uns<lb/>
+wieder bis Spital. Rosl u. Louise verabschieden sich am Wagen.<lb/>
+Anny Hiller als Künstlerin auf dem Fahrrade. Frau Kantor,<lb/>
+Julie, Frl. Specht, u. die Miss im Coupé, ich auf d. Bock. Die<lb/>
+Radfahrer umschwärmen uns. Station Klauber setzt Otto ein<lb/>
+Ziel. Der verspätete Zug ist überfüllt. Auf der Fahrt von<lb/>
+Villach nach Zauchen trinken wir die kühle Stille in vollen Zügen<lb/>
+und sind glücklich, unsere lieben Kinder wieder zu umarmen. Musik<lb/>
+im Wirtshause. Fast gar nicht geschlafen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

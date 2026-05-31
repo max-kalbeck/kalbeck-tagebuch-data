@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-07" n="01"/>
+            <title level="a">Donnerstag, 7. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>7 Januar Donnerstag.</head>
+            <p>Meiner Büste ist der Sockel zersprungen. Ich muß sie herunter<lb/>
+nehmen und, in Kissen gehüllt, auf den Divan legen. So sehe<lb/>
+ich mich selbst als Leiche auf dem Paradebette, u. wäre ich aber-<lb break="no"/>
+gläubisch, so würde ich aus d. Malheur, das wahrscheinl.<lb/>
+an meinem Geburtstage geschehen ist, wie aus meiner sonderbaren Stimmung,<lb/>
+die ich am 4. während der Besuche hatte, meinen nahe bevorstehenden<lb/>
+Tod folgern. – Eine große u. reine Freude bereitet mir die nach-<lb break="no"/>
+trägliche Geburtstagsgratulation eines Czernowitzer Studenten,<lb/>
+der für meine Gedichte schwärmt, ohne mich persönlich zu kennen.<lb/>
+Eine solche spontane u. uneigennützige Kundgebung wiegt sämmtliche<lb/>
+Schmeichel-, Bettel- u. Schmähschriften auf, die ich sonst<lb/>
+bekomme. Wenn ich in diesem Jahre nicht Ernst mache mit<lb/>
+meiner Production, so wird nie etwas daraus. Nur zehn Jahre<lb/>
+freier Muße, u. es könnte noch werden mit dem Dichter M. K.!<lb/>
+Aber was sagt das N. W. Tagbl. u. meine wackelige Gesundheit<lb/>
+dazu? Mittags Brahms, Rosel, Singer, Doller, Schneegans<lb/>
+bei uns zu Tische. Brahms sehr gemütlich. Teilt der Gesell-<lb break="no"/>
+schaft seelenvergnügt mit: „Vorgestern habe ich meine<lb/>
+Ärzte honorirt; jetzt frage ich nach keinem mehr und kann<lb/>
+nun wieder essen, was ich will.“ Unser schlesischer Heringssalat<lb/>
+seine besondere Seligkeit. Abds. Concert Gura jun.<lb/>
+Schneegans’ Wut über Burckhard erhält neue Nahrung<lb/>
+durch die Blöße, die sich der Director in seiner literar. Bildung<lb/>
+gegeben. Seine Uebersetzung von „Les Romanesques“ beweist, daß<lb/>
+er nicht weiß, was ein Alexandriner ist.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

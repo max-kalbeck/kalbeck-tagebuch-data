@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-20" n="01"/>
+            <title level="a">Mittwoch, 20. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>20 Oktober Mittwoch.</head>
+            <p>[Fortsetzung vom 19. Oktober]<lb/>
+Briefe von Brahms zu horrenden Preisen. Ein Schreiben aus Ischl<lb/>
+v. 91 an eine geheimräthliche Excellenz, in welchem Brahms den<lb/>
+Componisten Julius Zellner in den wärmsten u. ehrenvollsten<lb/>
+Worten für ein Stipendium empfiehlt, soll 30 fl. kosten,<lb/>
+ein mit Bleistift geschriebener Zettel ohne Unterschrift: 6 fl. !<lb/>
+Ranschburg besucht mich am Nachmittag. Er hat den Auftrag<lb/>
+die Artaria’sche Sammlung musikal. Autographen für 150000 fl.<lb/>
+zu verkaufen und möchte gern, daß sich in Wien ein Consortium<lb/>
+von Geldgebern fände, welches den Schatz nicht ins Ausland ziehen<lb/>
+läßt, d. h. ich soll Reclame für ihn im „Tagbl.“ machen. Zur<lb/>
+Belohnung verkauft er mir einen kleinen Brief Börne’s, auf den<lb/>
+ich längst vigilire, um – 20 fl. Das sind meine Geschäfte!<lb/>
+Ranschburg besieht sich meine Bücher u. Schriften mit gierigen<lb/>
+Kenneraugen und gesteht widerwillig, daß sie einen großen Wert<lb/>
+besitzen. Das sind meine Freuden! Molden’s u. Frau Schmidt bei<lb/>
+uns. Geibel’s u. Holtei’s Briefe wieder durchgelesen. Was waren<lb/>
+das für herrliche Menschen! Gemütlicher Abend zu Hause.<lb/>
+[20. Oktober]<lb/>
+Mittwoch. Ueber die Artaria’sche Autographensammlung geschrieben.<lb/>
+Helene Vesque erschreckt mich mit einem unbegleiteten Briefe des<lb/>
+Frl. Hauptmann, der schlimme Nachrichten über Frau v. Holstein erhält [enthält].<lb/>
+Ich eile sofort zu ihr, finde sie in Thränen, u. erfahre, daß unsere Freundin<lb/>
+schon in der Nacht von Sonntag zu Montag verschieden ist. Es kommt<lb/>
+heraus, daß ich die arme Helene unwissentlich arg vernachlässigte; sie<lb/>
+hat in Florenz auf Nachrichten von mir gewartet, u. ich habe über eine dies-<lb break="no"/>
+bezügliche Bemerkung ihrer letzten nach Tarvis gerichteten Zuschrift achtlos<lb/>
+hinweggelesen. Unsere Trauer ist groß. Auf einer mit fast unleserlicher<lb/>
+Hand geschriebenen Karte erkundigte sich Frau v. H. noch nach mir.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

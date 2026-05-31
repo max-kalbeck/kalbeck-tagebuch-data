@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-01" n="01"/>
+            <title level="a">Samstag, 1. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>1 Mai Samstag.</head>
+            <p>[2. Fortsetzung vom 27. April]<lb/>
+Ein eigenes Haus auf d. Dominsel. Die Uhrennarrheit des Bischofs. Er hatte einen<lb/>
+ganzen Saal voll, u. es dauerte täglich 2 Stunden, um sie alle aufzuziehen. Das<lb/>
+Problem, sie alle in gleichem Gange zu erhalten. Eine Hoffmann’sche Figur.<lb/>
+Die Töchter werden evangelisch erzogen. Die Gebrüder August u. Ferdinand Schade,<lb/>
+Söhne eines wohlhabenden Tuchmachers in Breslau. August’s Uhrenladen in der No. 6.<lb/>
+Sein früher Tod. Die Töchter Flora u. Auguste etc. etc. ... Höchst ergiebiges Material<lb/>
+für meine Biographie in d. Form eines Alt-Breslauischen Familienromans. Die<lb/>
+lächerliche Thatsache, daß ich mein Dasein einer Quadrille à la cour verdanke,<lb/>
+die der Vater als Anbeter meiner Mutter in Abwesenheit eines begünstigten<lb/>
+Rivalen (v. Schramm) in der Sandstr. einstudirte.<lb/>
+Mittags bei Marie mit Emilie Mataja, die seit 5 Mon. in Berlin lebt,<lb/>
+Assessor Dr. Schüler, Laura Jonas. Mit meiner brieflichen Revision von „Grete’s<lb/>
+Glück“, die mir die Verfasserin so sehr verübelte, habe ich doch Recht behalten.<lb/>
+Brahm hat das Stück nicht ins Repertoire des D. Theaters aufgenommen,<lb/>
+weil es ihm auch wenig gefiel, u. es blieb bei der Premiere an d. freien Bühne.<lb/>
+„Der Heiratsmarkt“ soll nächstens im Raimundtheater darankommen. Emilie<lb/>
+zieht gelindere Saiten auf. Mit Carl, Ax u. Emilie machen wir einen Ab-<lb break="no"/>
+stecher ins „Theater d. Westens“. Baumeister Schering u. Prof. Dvorak, der<lb/>
+Vetter Anton’s. Das merkwürdige Theater; sein schönes Proscenium; die elektrische<lb/>
+Beleuchtung durch die Rosetten der cassetirten Decke im Foyer. Abends mit Stinde<lb/>
+in einem englischen Restaurant. Emilie, die Harden-Schwärmerin. Stinde<lb/>
+nennt Klinger einen „Gemüts-Athleten“ u. bezweifelt Hauptmann’s Künstler-<lb break="no"/>
+Ehrlichkeit.<lb/>
+[28. April]<lb/>
+Mittwoch. Den Vormittag über im alten Museum u. in der Gemälde-<lb break="no"/>
+galerie. Wie viel u. schnell man vergißt. Die Gemälde sind in besserer<lb/>
+Ordnung u. Uebersicht umgehängt u. kommen zu vollerer Wirkung. Große<lb/>
+Hitze u. in Folge dessen starke Abspannung u. Ermüdung. Abschied von Kirschner’s.<lb/>
+Mit Stinde bei Carl gegessen. Er möchte gern in Wien Vorlesungen halten.<lb/>
+Seine Methode. Abends bei Marie. Telegramm v. Helene Vesque.<lb/>
+[29. April]<lb/>
+Donnerstag. Marie begleitet uns zur Bahn. Gegen Mittag sind wir in<lb/>
+Leipzig u. steigen bei Schwark ab. Dort erwarten uns Blumen und eine<lb/>
+Einladung von Reinecke’s für den Abend, die wir nicht annehmen wollen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-01" n="01"/>
+            <title level="a">Donnerstag, 1. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>1 Juli Donnerstag.</head>
+            <p>C. F. Peters schreibt mir, Grieg sei mit der Textirung des<lb/>
+norwegischen Liedes nicht zufrieden, und bittet um einen anderen<lb/>
+Text. Ich nehme das in Karlsbad begonnene humoristische<lb/>
+Feuilleton wieder vor und bringe es bei 29° R. im Schatten<lb/>
+zu Ende. Helene Vesque besucht uns, während wir im<lb/>
+dicksten Durcheinander stecken u. schweißtriefend das Nötige<lb/>
+für Julien’s Abreise vorkehren. Meine Unterhosen als<lb/>
+Schild der Gorgo. Helene reist ebenfalls am Abend nach<lb/>
+Tarvis. Sie möchte eine längere Unterhaltung durch die<lb/>
+Thür anknüpfen, aber ich schneide ihr den Redefaden ab.<lb/>
+Rud. Lasswitz verheißt uns seinen Besuch, wo immer<lb/>
+wir seien; er war auf der Zugspitze u. scheint auch sonst in<lb/>
+meine Münchener Fußstapfen zu treten. – Für den Abend sind<lb/>
+wir von Hrn. Kantor auf den Südbahnhof gebeten u. halten<lb/>
+dort vor Julien’s Abreise mit ihm u. Zellner’s ein vergnügtes<lb/>
+Convivium. Kantor u. Zellner gehen zum Bundesschießen<lb/>
+nach Nürnberg u. von da zur Cur nach Marienbad. Frau Rosel<lb/>
+läßt sich von Singer nach Millstatt entführen; sie will uns<lb/>
+in Villach mitnehmen. Singer ist durch die Auszeichnungen,<lb/>
+die er beim Journalistencongreß in Stockholm von König Oscar<lb/>
+empfangen hat, erheblich in der Meinung Kantor’s gestiegen.<lb/>
+Ich will ihm zureden, das glühende Eisen zu schmieden u. mit<lb/>
+K.’s Hilfe seine großen Pläne beim N. W. T. durchzuführen.<lb/>
+Unter Sturm, Donner u. Blitz fährt Julie nach Villach ab, um<lb/>
+in Zauchen Quartier zu machen. Ich mit Kantor nach Hause.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

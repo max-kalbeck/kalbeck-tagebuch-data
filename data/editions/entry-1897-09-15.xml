@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-15" n="01"/>
+            <title level="a">Mittwoch, 15. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>15 September (Sonntag / Montag / Dinstag) / Mittwoch.</head>
+            <p>[2. Forsetzung vom 12. September]<lb/>
+dem Bleistift zu fixiren, was ihn reize. Ohne Zweifel ist sein Zeichnen<lb/>
+eine Art von Correlat zu seinem Dichten, und während er an einem<lb/>
+Portrait oder einer Landschaft herumstrichelt, beschäftigt sich seine rastlose<lb/>
+Phantasie mit ganz anderen Dingen, die doch in einer ihm selbst verbor-<lb break="no"/>
+genen geheimen Beziehung zu dem Bilde stehen, das ihn gerade beschäftigt.<lb/>
+Vor der Abreise von München sagte er, nachdem er die Frauenepisteln<lb/>
+fertig hatte, „Nun habe ich einmal gar nichts vor und kann mich recht<lb/>
+gehörig ausruhen.“ „Dieser Ausspruch,“ meinte ich zu Anna, die ihn mir<lb/>
+mitteilte, „ist doch nur die Einleitung zu einer neuen Novelle.“ Und richtig.<lb/>
+Er trägt sich schon wieder mit einem Problem, das von Tag zu Tag heftiger<lb/>
+zur Entfaltung drängt, u. geht mit ihm spazieren. Am Abend werde ich mit<lb/>
+einem Expreßbrief von – Rocholl’s überrascht. Sie sind in Bozen und<lb/>
+melden sich für morgen an.<lb/>
+[13. September]<lb/>
+Montag früh mit Julie zum Bahnhof. Schöner Morgen. Frau Herrmann<lb/>
+hat Julie anvertraut, daß Anna an einer Neubildung im Unterleibe<lb/>
+laborire, die den Schwestern schwere Sorgen macht. Anna mit ihrer Sehnsucht<lb/>
+nach den Freuden des Lebens und ihrem gebrechlichen Körper, der sie ihr ver-<lb break="no"/>
+bietet, eine sich innerlich verzehrende Dulderin. Ihre eifersüchtigen Sorgen,<lb/>
+daß Lulu oder irgend eine Andere uns besser gefallen könne als sie. – Mit<lb/>
+Rocholl’s, die nur den Tag über in Meran bleiben, über die Promenade,<lb/>
+die Gilf u. den Tappeinerweg in Marchetti’s Weingarten. Die Bonner<lb/>
+Festtage werfen ihren Glanz auf unser Zusammensein, und wir<lb/>
+genießen den schönen Tag in vollen Zügen. Die Schwestern Götzl gehen<lb/>
+als ein schwarzer, schnell vorüberziehender Schatten durch den blanken Sonnen-<lb break="no"/>
+schein. Rocholl’s speisen mit uns; dann machen wir unter Juliens<lb/>
+Führung einen Riesenspaziergang über die Maierei, den Platternhof,<lb/>
+Katzenstein u. Trautmannsdorf nach St. Valentin. Wir verlaufen uns<lb/>
+bis in die Nähe der Fragsburg u. steigen von der Höhe bis zur Thalsohle<lb/>
+hinab. Heyse[’s], die, unserer Verabredung gemäß, hätten in Valentin sein<lb/>
+sollen, blieben rücksichtsvoll zu Hause. Stark ermüdet.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

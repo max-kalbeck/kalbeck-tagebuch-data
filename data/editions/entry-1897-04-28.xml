@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-28" n="01"/>
+            <title level="a">Mittwoch, 28. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 April Mittwoch.</head>
+            <p>[3. Fortsetzung vom 24. April]<lb/>
+Schrank, in welchem J. seine Manuscripte u. Andenken verwahrt, enthält<lb/>
+die größten Kostbarkeiten, z. B. sechs eigenhändig geschriebene Cantaten von<lb/>
+Seb. Bach (aus Spitta’s Nachlaß) das C-Dur-Quintett v. Beethoven etc.<lb/>
+J. ist um das Schicksal seiner 4 Ouverturen-Manuscripte, die er Brahms<lb/>
+geschenkt, besorgt. „Er wird sie wol verbrannt haben wie seine eigenen<lb/>
+Sachen u. den Briefwechsel mit Schumann’s.“ J. ladet mich zu dem rhein.<lb/>
+Musikfest ein, an welchem 6 Quartettabende (ausschließl. Beethoven u. Brahms)<lb/>
+von ihm veranstaltet werden sollen. Ich stelle ihm weitere Belästigungen u.<lb/>
+Anfragen in Aussicht, u. er läßt es sich gefallen. Mit herzl. Empfindung<lb/>
+u. Dankbarkeit scheide ich von ihm, Stanford begleitet mich bis an die<lb/>
+Thür von Meyer-Cohn. Von 6 ½ – 7 ½ Uhr besichtige ich seine enorme<lb/>
+Autographensammlung. Aber die größten Seltenheiten, wie Goethe’s Briefe<lb/>
+an Fritz Jacobi, Kleist’s Briefe an seine Braut u. a. m. bleiben zurück<lb/>
+hinter dem Zuvorgesehenen, das in Gegenwart des größten Künstlers mit ihm<lb/>
+lebendig wurde. Bei Goethe, Schiller, Lessing, Kleist, Gluck u. Mozart<lb/>
+war Meyer-Cohn eine unverträgliche Zugabe. Julie war schon früher<lb/>
+fort u. wartete auf mich im Bahnhof Bellevue. Wir genossen „Morituri“<lb/>
+im Deutschen Theater (Kainz zweimal vortreffl.) u. dann der Director Br.<lb/>
+in der Weinhandlung. Schlenther konnte leider nicht kommen. Viel über<lb/>
+Hauptmann, Sudermann u. Brahms. (Briefe zu erwarten v. Stanford,<lb/>
+Brahm, Meyer-Cohn 2). Meyer-Cohn besitzt den literar. Nachlaß v.<lb/>
+Hemsen, dabei Convolute Heyse’scher und Mörike’scher Briefe.<lb/>
+[25. April]<lb/>
+Sonntag Brief v. Klinger. Mittags bei Kirschner’s. Mein Unmut legt sich.<lb/>
+Rico u. Otto verabschieden sich. Mit Martin u. Grete Spaziergang im Thiergarten.<lb/>
+Abds. im Deutschen Theater. Zuvor das Abenteuer auf der Stadtbahn, wo ich dreierlei<lb/>
+riskirte: 1) wegen Billetlosigkeit bestraft 2) wegen Amtsbeleidigung arretirt u. 3) von<lb/>
+zwei Zügen auf d. Gleise gerädert zu werden. Im Theater [eingefügt: x)] besuchen uns Brahm u. Thimig.<lb/>
+Dann mit ihnen u. Schlenther’s u. dem Schauspieler Rittner zu Abend gegessen. Die<lb/>
+Hauptmann-Fanatiker. Sonst recht gemütlich. 	x) Versunkene Glocke“.<lb/>
+[26. April]<lb/>
+Montag. Mit Julie nach Potsdam zum Besuch d. Mama, die bei ihrer Schwester Oberbeck<lb/>
+logirt. Der eigentüml. Eindruck der Stadt. II. Hälfte d. XVII. Jahrh. Die Cavalierhäuser.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

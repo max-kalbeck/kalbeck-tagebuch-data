@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-09" n="01"/>
+            <title level="a">Dienstag, 9. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>9 Februar Dinstag.</head>
+            <p>Bei Kantor’s zu Mittag mit Brahms. Singer, Mosé etc.<lb/>
+Er ist sehr aufgeräumt u. gesprächig, hat auch wieder Lust zu<lb/>
+streiten, wie in alter Zeit. Prof. Bräuer hält noch vor. Ein neuer<lb/>
+Arzt erfüllt ihn immer mit neuer Hoffnung u. Lebensfreude.<lb/>
+Bei uns nach Tische wandelt ihn keine Spur von Ermüdung an.<lb/>
+Gegen Mandyczewski hat sich eine Menge von Zündstoff in ihm<lb/>
+angesammelt, der zur Explosion kommt. Eigentümlichkeit seines<lb/>
+Charakters; bis zur Unvernunft u. taub gegen alle Entschuldigungen,<lb/>
+Einwände u. Rücksichten auf einen Freund loszuziehen, von dem [eingefügt: er hintergangen zu sein] oder<lb/>
+in dem er sich getäuscht zu haben glaubt. Ursache seiner Wut ist<lb/>
+M.’s angeblich zweideutiges Verhalten in der Leipziger Doctorfrage.<lb/>
+B. behauptet, M. habe von Anfang an recht gut gewußt, daß er<lb/>
+kein doctor honoris causa geworden sei, sich aber die Gratulationen<lb/>
+u. Ehrungen, die ihm deswegen zu Teil geworden oder in Aussicht gestellt<lb/>
+worden seien, ohne ernsten Widerspruch eingesteckt. Ich nahm M. in<lb/>
+Schutz, indem ich mich u. meine voreilige Zeitungsnotiz als Unheil-<lb break="no"/>
+u. Rumorstifter angab. Br. wetterte darauf los: „Nein, nein, das<lb/>
+ist echt Mandyczewsky’sch! Das ist die slavische „Ehrlichkeit“! An dem<lb/>
+Wort fand er ein so grimmiges Wohlgefallen, daß er es immer wiederholte.<lb/>
+„M. hat seinen Revisionsbericht bei der Facultät eingereicht, u. darauf hin<lb/>
+d. Doctortitel erhalten. Er war Student u. mußte wissen, wie es zugeht. Ich<lb/>
+habe ihm gratulirt u. als ich ihm sagte: Na, M., jetzt werden Sie sich<lb/>
+aber zus. nehmen müssen, um die hohe Auszeichnung nachträglich zu verdienen, hat<lb/>
+er nur wie gewöhnlich in sich hineingelächelt. Slavische Ehrlichkeit! Und wie<lb/>
+ich ihn fragte, ob er sich schon in Leipzig bedankt u. was er denn in<lb/>
+seinem Dankbriefe geschrieben habe, erwiderte er mir, er habe nur mit Dank<lb/>
+(Vorige Seite!)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

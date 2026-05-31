@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-31" n="01"/>
+            <title level="a">Montag, 31. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>31 Mai Montag.</head>
+            <p>Um 6 ½ Uhr beim Schloßbrunnen habe ich meine Carlsbader Kur<lb/>
+begonnen. Während des ersten und zweiten Bechers suchte ich den<lb/>
+von der „Concordia“ empfohlenen Dr. Popper auf. Er freute sich sehr,<lb/>
+eine Wiener „Celebrität“ in Behandlung zu bekommen, und<lb/>
+eröffnete mir, nachdem er mich eingehend untersucht hatte, die<lb/>
+angenehme Aussicht, mich nach vollendeter Cur, die auf 4 Wochen<lb/>
+ausgedehnt werden soll, als gänzlich wiederhergestellt zu entlassen.<lb/>
+Seiner Ansicht nach rühren die Schmerzen auf der rechten Seite nicht<lb/>
+von der Leber, auch nicht, wie Breuer diagnosticirte, von der<lb/>
+Niere her – beide Organe seien gesund und normal – sondern<lb/>
+vom Darm u. zwar, wie ich dies selbst schon vermutete, von<lb/>
+dem alten verwachsenen Exsudat, das mir von der Blinddarment-<lb break="no"/>
+zündung in Salzburg (1886) geblieben war. Wahrscheinlich ist<lb/>
+durch einen Sturz auf der Schlittschuhbahn (1895) eine Zerrung<lb/>
+hervorgerufen worden, und die im vorigen Frühjahr zuerst gespürte<lb/>
+Empfindlichkeit, die sich heuer bis zu Gürtelschmerzen steigerte, ist als<lb/>
+ein Zeichen zu betrachten, daß der Blinddarm gelegentlich wieder<lb/>
+mobil werden möchte. Die Uratsedimente seien die Folge meiner<lb/>
+sitzenden Lebensweise und geistigen Anstrengungen. Dr. P. verordnete:<lb/>
+täglich 3 Becher (Schloß- u. Neubrunnen) und wöchentlich 4 Sprudelbäder;<lb/>
+dazu strenge Diät und mäßige Bewegung. Mittags „Hopfenstock“.<lb/>
+Schlechtes Essen, widerwärtiger Aufenthalt. Abends mit Hanslick’s, denen<lb/>
+wir auf der Promenade begegneten, bei Loib. Bacher’s, Seling<lb/>
+u. der hiesige Regens chori an unserem Tische. Hier hat auch Brahms<lb/>
+immer gegessen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

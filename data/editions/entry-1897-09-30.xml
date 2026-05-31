@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-30" n="01"/>
+            <title level="a">Donnerstag, 30. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>30 September Donnerstag.</head>
+            <p>Bei meiner Ankunft in Wien finde ich Briefe u. Rechnungen in Menge<lb/>
+vor. Peters schickt mir die norweg. Lieder Edv. Grieg’s; Reinecke<lb/>
+den Druck meiner beiden, von ihm componirten Lieder. Ernest Chausson,<lb/>
+der Autor des „Roi Arthus“, erklärt sich in einem sehr schmeichelhaften<lb/>
+Schreiben einverstanden mit meiner Honorarforderung. Ein Brief des Dir.<lb/>
+Neumann mahnt mich zur Vorsicht: ich solle das Honorar irgendwo<lb/>
+deponiren lassen. Frau Alice Gurschner (Paul Althof) bittet<lb/>
+um freundliche Aufnahme ihres neuen Iyrischen Bandes „Passion“,<lb/>
+dessen Manuscript ich früher mit dem Bleistift in der Hand<lb/>
+kritisch revidirt habe. Frau G. läßt es sich in Paris wohl ergehen u.<lb/>
+entfaltet in ihrem Geleitschreiben einigen Humor. – Die hiesige<lb/>
+„Musik- u. Theaterztg.“, die mich schon etliche Male auf das Unver-<lb break="no"/>
+schämteste angegriffen hat, fällt über meine Bearbeitung d. „Dalibor“<lb/>
+her und stellt meiner Uebersetzung eine von – Anna Cador ent-<lb break="no"/>
+gegen, die in der Redaction des Blattes sitzt u. gegen mich loshetzt.<lb/>
+Warum? Aus Erkenntlichkeit dafür, daß ich ihr vor Jahr u. Tag in<lb/>
+der dringendsten Not auf einen Bettelbrief mit 10 fl. aus eigener<lb/>
+Tasche u. 100 Mk. aus einem Berliner Hilfsfonds beisprang,<lb/>
+ihr mehrere Besuche machte u. für sie correspondirte. Alles dies genügte ihr<lb/>
+nicht; sie wollte, daß ich ihr für ihre jämmerlichen Gedichte und kindischen<lb/>
+Novellen einen Verleger verschaffte. Mit Wohlthaten schafft man<lb/>
+sich die erbittertsten Feinde; wenn man aber die Menschen behandelt, wie<lb/>
+sie es verdienen, nämlich en canaille, so küssen sie einem die Hand. –<lb/>
+Auf dem Bureau vergeblich nach Singer u. Pötzl gefragt. Karpath u.<lb/>
+Frey, ein guter u. ein böser Wichtigthuer, sind in Fehde. Ich hätte ruhig<lb/>
+noch einen Tag in Bozen bleiben können, da die Première der Bohème<lb/>
+auf Dinstag verschoben worden ist.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-20" n="01"/>
+            <title level="a">Dienstag, 20. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>20 April Dinstag.</head>
+            <p>Ein paar Verse und Blumen an Frau v. Holstein geschickt. Lasswitz<lb/>
+schreibt mir, daß sie mich zu seinem Geburtstage heute in Gotha erwarten,<lb/>
+und ich entschließe mich am Nachmittag abzufahren. Um 10 Uhr suche ich Dr.<lb/>
+Schreiber in der Ausstellung auf u. finde ihn unter Künstlern u. Ausstellungs-<lb break="no"/>
+objecten in der Kunsthalle. Viele ausgesucht scheußliche Bilder. Heyse’s Kopf<lb/>
+in Kohle à la Lenbach. Der Sockel zu Klinger’s „Christus im Olymp“ läßt<lb/>
+die Malerei aus der Sculptur herauswachsen; merkwürdig kraftvolle Figuren<lb/>
+aus pentelischem Marmor, die Bruchstücke geblieben sind, weil der Block nicht<lb/>
+weiter reichte. Da Schreiber noch beschäftigt war, mache ich einen Gang durch<lb/>
+die unfertige Ausstellung. Das Schönste ein sächsiches Bauerndorf, zu welchem<lb/>
+eine gedeckte Holzbrücke hinüberführt; mehrere Häuser sind Originale.<lb/>
+Die Ausstellungsschablone. In „Alt-Leipzig“ interessirt mich der Kaffeeschenk<lb/>
+zum „Kaffeebaum“ mit seiner alten Rococoeinrichtung, alles hellgrün an-<lb break="no"/>
+gestrichen. Wie wir endlich zu Klinger gehen wollen, kommt dieser.<lb/>
+Ich lasse mich ihm vorstellen; er aber, genauso scheu wie vor zwanzig Jahren,<lb/>
+als ihn L. Pietsch mit mir bekannt machte, bringt kaum ein paar Worte<lb/>
+hervor, fordert mich auch nicht auf ihn zu besuchen. Schreiber schleppt mich<lb/>
+trotzdem in sein Atelier, indem er mir meine üblen Gedanken ausredet.<lb/>
+Klinger sei immer so unruhig, zerfahren und abweisend, wenn er mit einem<lb/>
+Fremden zus.treffe. Er ist nicht bei sich, wenn er nicht bei sich (zu Hause) ist.<lb/>
+Und wirklich war er in seinem Atelier wie ausgewechselt. Als wir kamen, saß<lb/>
+er gerade am Clavier und spielte aus „Parsifal“. Er brachte Cigarren und<lb/>
+Wein, schlug die Tücher von seinen Modellen zurück, zeigte u. erklärte Alles<lb/>
+und gab mir auch die Briefe zu lesen, die er von Brahms besitzt. Sie sind<lb/>
+alle sehr warm u. schön; zur Veröffentlichung eignet sich nur einer, den er mir<lb/>
+abschreiben will. Wir reden viel über Brahms u. sein Verhältnis zur<lb/>
+Bild.[enden] Kunst, speciell zu Klinger. Kl. rühmt ihm nach, daß er ruhig herausgesagt<lb/>
+habe, was ihm an seinen Sachen nicht gefiel. Br. war einmal in Klinger’s</p>
+         </div>
+      </body>
+   </text>
+</TEI>

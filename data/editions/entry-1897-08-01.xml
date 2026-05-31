@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-01" n="01"/>
+            <title level="a">Sonntag, 1. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>1 August Sonntag.</head>
+            <p>Ruhiger Morgen nach einer unruhigen Nacht. Abschiedsspazier-<lb break="no"/>
+gang den Wald hinauf zu geliebten Stellen: Anfang u. Ende<lb/>
+laufen im Kreise zusammen. In der Schiffshütte beginne ich ein Gedicht<lb/>
+in Stanzen, das die Stimmung der Millstätter Tage erfassen u.<lb/>
+klären soll. Rosl u. Muxl stören mich und locken mich ins<lb/>
+Bad. Nach Tische bei Rosl; sie giebt mir das Tagebuch v. 1868<lb/>
+zurück, das sie sich vor drei Jahren einmal von mir ausgeliehen<lb/>
+hat, weil sie den thörichten 18jährigen Knaben kennen lernen wollte.<lb/>
+Ist der 47jährige etwa gescheidter? Wir sitzen noch mit Seelenruhe<lb/>
+beisammen, als es heißt: das Schiff muß fort, sonst erreichen wir<lb/>
+den Zug in Spital nicht. In der Verwirrung und Ueberstürzung<lb/>
+vergesse ich Zellner’s Adieu zu sagen. Auch die Dienstleute hören nichts<lb/>
+von mir. Vielleicht ist das Versäumte nachzuholen, vielleicht<lb/>
+auch nicht. Mir scheint es fraglich, ob wir, wie man es wünscht, am 18.<lb/>
+wiederkommen werden. Die Damen begleiten uns über den See;<lb/>
+Dr. Carl, Otto u. Stephan umradeln unseren Wagen, der uns<lb/>
+zur allgemeinen Ueberraschung noch rechtzeitig zur Bahn bringt. Todt-<lb break="no"/>
+müde in Zauchen angekommen, wo nichts in Ordnung war, da Louise die<lb/>
+Anzeige unserer Ankunft nicht erhalten hat. Das alte Tagebuch gelesen;<lb/>
+es gefällt mir gar nicht. Um 9 Uhr mit Seufzen in das harte Bett<lb/>
+gestiegen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

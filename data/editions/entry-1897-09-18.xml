@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-18" n="01"/>
+            <title level="a">Samstag, 18. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>18 September Samstag.</head>
+            <p>Wolffenstein, Doller’s Schwager, fragt telegraphisch aus<lb/>
+München an, was mit der armen Emma geschehen sei. Da<lb/>
+Leo, anstatt hierher, nach Berlin zur Beerdigung gefahren ist,<lb/>
+gebe ich die traurige Auskunft. Nun fragt es sich, ob W.’s nach<lb/>
+Obermais kommen werden, wie es zwischen den Geschwistern verabredet<lb/>
+war. – An der Opernübersetzung gedrechselt. – Heyse ist fleißig<lb/>
+bei seiner Novelle. Er schwört, es solle seine letzte sein, und ich<lb/>
+schwöre, daß er binnen vierzehn Tagen meineidig werden wird. Ueber<lb/>
+Heyse’s Art zu Produciren. Ohne sein Zuthun fallen ihm seine<lb/>
+Geschichten ein; oft sind es die Namen seiner Helden, die, ihm<lb/>
+bis dahin völlig fremd, in ihm anklingen und dann ihren Mann<lb/>
+u. dessen Geschichte mitbringen. So meinte er heute, er möchte wissen,<lb/>
+wer Marcelline Ammann sei. Einige Geschichten haben ihn jahrelang<lb/>
+beschäftigt, ohne er sie niederschrieb [Ausstreichung: niedergeschrieben hat]. Er arbeitet in der Regel<lb/>
+täglich nur drei Stunden des Vormittags. Arbeiten und Produciren<lb/>
+sind ihm identische Begriffe. Uebersetzen, Studiren od. Correspondiren<lb/>
+rechnet er nicht dazu. Nie in seinem Leben har er Kopfschmerzen<lb/>
+gehabt, auch nicht während seines 7jährigen Nervenleidens. Von seinen<lb/>
+Romanen ist ihm „Merlin“ der liebste. Den letzten Band schrieb er,<lb/>
+seine Arbeitsregel durchbrechend, in wenigen Wochen. – Prof. Hantsch<lb/>
+sucht mich vergeblich in die moderne Atomistik einzuweisen. Mir will<lb/>
+es nicht in den Sinn, wie man einem letzten u. unteilbaren, d. h. also idealen<lb/>
+Körper materielle Eigenschaften (Gewicht etc.) beilegen kann. Heißt das nicht<lb/>
+aus dem Punkt einen Klecks machen? Merkwürdig, daß diese Willkür<lb/>
+zu greifbaren Resultaten führt. Zu meiner Lieblingsidee, daß es Anorganisches<lb/>
+in der Welt nicht geben könne, macht H. ein verdutztes Gesicht, weiß aber nichts Rechtes</p>
+         </div>
+      </body>
+   </text>
+</TEI>

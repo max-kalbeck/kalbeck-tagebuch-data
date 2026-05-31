@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-20" n="01"/>
+            <title level="a">Samstag, 20. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>20 Februar Samstag.</head>
+            <p>Ordnung gemacht in meinem arg vernachlässigten Tagebuche. Am<lb/>
+Nachmittag zu Vesque’s. Dort Dir. B. Bacher m. Tochter, Hr. u. Frau<lb/>
+v. Kaiserfeld und als Extraüberraschung – Else Billroth. Bei<lb/>
+Lebzeiten ihres Vaters habe ich sie nie singen gehört auch kaum<lb/>
+hier u. da einmal ein Wort mit ihr gesprochen. Da wir meist mit<lb/>
+Brahms zusammen waren, vor dem sie eine heillose Angst hatte,<lb/>
+ebenso wie er vor ihr, weil er fürchtete, sie könne doch nichts u. bringe<lb/>
+ihn in Verlegenheit, so blieb sie doppelt stumm. Heut aber wurde<lb/>
+die schöne Statue, die ich bisher immer mit Scheu betrachtet hatte,<lb/>
+lebendig u. sang außer mehreren altitalienischen Arien eine ganze<lb/>
+Reihe Brahms’scher Lieder, eins schöner als das andere. Nichts von<lb/>
+alledem hätte ich ihr zugetraut, weder ihre Stimme, noch ihre Kunst,<lb/>
+noch die Innigkeit und Poesie ihres Vortrages. Komisch, daß so oft<lb/>
+zwei Leute aus reiner Verlegenheit einander für hochmütig halten!<lb/>
+In meinem Entzücken sagte ich ihr so viel Schönes, als ob ich alles das<lb/>
+auf einmal hätte nachholen wollen, was ich so lange Jahre hindurch<lb/>
+versäumt hatte. Und doch überwand sie ihr Trema nicht vollständig u.<lb/>
+behauptete sich vor mir zu geniren. Helene gab mir zwei Briefe der<lb/>
+Frau v. Holstein, die mich rührten und erfreuten. Die „Sylvesterglocken“<lb/>
+sind am 18. d. M. als Novität im XVII Abonnementconcert d. Gewandhauses<lb/>
+aufgeführt worden, zus. mit Brahms’ „Ernsten Gesängen“. Ein eigentüml.<lb/>
+Zusammentreffen. Die Kößler’sche Composition meines Gedichtes scheint dem<lb/>
+Publicum nicht so gut zu gefallen wie mir; freilich macht der anspruchsvolle<lb/>
+Titel „Ein weltliches Requiem“, der von Koessler stammt, allzu hohe Er-<lb break="no"/>
+wartungen rege. Abds. Quartett Soldat.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

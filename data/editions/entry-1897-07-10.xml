@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-10" n="01"/>
+            <title level="a">Samstag, 10. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 Juli Samstag.</head>
+            <p>Für das Geld, das ich Ihnen schickte u. schicke, sind Sie mir<lb/>
+keinen Dank schuldig. Nur 20 fl. stammen direct aus meinem<lb/>
+Beutel, alles Uebrige habe ich für Sie gesammelt. Es ist ein schlechter<lb/>
+Trost, daß die Mehrzal Ihrer Spender das Geld auch nur für<lb/>
+ihr Vergnügen verschwendet hätte. Wieviel Gutes aber wäre damit<lb/>
+an Armen u. Kranken zu thun gewesen! Diesen unverschuldet<lb/>
+Elenden legen Sie Rechenschaft ab u. suchen Sie deren erzürnte Geister<lb/>
+sich zu versöhnen. Da haben Sie eine Verbindlichkeit auf sich<lb/>
+geladen, die Sie nicht so leicht abschütteln können. Hören Sie auf<lb/>
+mit Selbstmordgedanken zu spielen u. Anderen Ihre Pistole auf<lb/>
+die Brust zu setzen: Ihr Leben gehört nicht mehr Ihnen, sondern<lb/>
+Ihren unbekannten Gläubigern.<lb/>
+Mit dieser ernsten Mahnung sagt Ihnen für immer Lebewohl<lb/>
+Ihr M. K.[“]<lb/>
+Der Lügenbrief B.’s kam hinterdrein, nachdem ich die vorsteh. Antwort schon<lb/>
+geschrieben hatte. In einer kurzen Nachricht wies ich B. an Karpath,<lb/>
+der ihm das Billet nach Marseille besorgen u. Reisegeld geben soll. –<lb/>
+Julie u. ich fahren früh nach Spital u. werden dort von Frau Sida<lb/>
+empfangen. Große Freude in Millstatt. Singer in Purpur mit dem<lb/>
+Henkerschwert. Spaziergang mit Rosl u. d. kleinen Sepperl, ihrem<lb/>
+getreuen Pinscherlein. Das Haus u. seine fürstl. Einrichtung. Man kann<lb/>
+sich hier dem systematischen Nichtsthun ergeben u. glauben, etwas zu<lb/>
+thun. Die verführerische Romantik des Aufenthalts bringt mich aus<lb/>
+dem Gleichgewicht, und ich möchte irgend einen dummen Streich begehen.<lb/>
+Singer über die Bohème der Pariser Literatur, anläßlich Meilhac’s<lb/>
+Tode. Das Gefühl, zeitlebens ein deutscher Philister gewesen zu sein,<lb/>
+trotz aller Extravaganzen – bringt mich zum Toben.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

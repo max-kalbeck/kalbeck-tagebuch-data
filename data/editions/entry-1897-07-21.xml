@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-21" n="01"/>
+            <title level="a">Mittwoch, 21. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>21 Juli Mittwoch.</head>
+            <p>Singer segelt in aller Morgenstille ab. Ich hätte ihn gern nach<lb/>
+Spital begleitet, er aber drängte mich mit Gewalt zurück. Mit<lb/>
+einer Depesche von Karpath läuft ein Kartenbrief von Busse<lb/>
+ein. Auf dem Bureau wollten sie schon eine Strafanzeige gegen ihn<lb/>
+machen. Er schreibt, daß er sich seit 8 Tagen obdachlos im Freien umher-<lb break="no"/>
+getrieben habe, u. bittet noch einmal um Geld. Karpath wird meinen<lb/>
+Auftrag ausführen.<lb/>
+Besuch von Dr. Karl u. dem jungen Klauber. Ein furchtbares Wetter<lb/>
+hält die jungen Leute fest, u. es giebt ausgelassene Gesellschaftsspiele.<lb/>
+Im rasenden Taumel unser Kinderei setzen Rosl u. ich zum Fenster<lb/>
+des Spielzimmers auf die Veranda hinaus. Draußen wurden wir<lb/>
+unserer freien Aufführung wegen gerade beredet, u. Frau Sida macht<lb/>
+ihre größten Augen, als wir durchs Fenster gesaust kommen – eine unglaubl.<lb/>
+komische Situation, die mich Thränen lachen läßt. Wir werden aber<lb/>
+von den älteren Damen sehr ernst genommen, u. Frau Sida fült sich<lb/>
+bemüßigt, mir unter vier Augen ein Vertrauensvotum in optima<lb/>
+forma auszustellen, das von einem Mistrauensvotum kaum zu<lb/>
+unterscheiden ist. Ich bin in großer Verlegenheit u. weiß nicht, was ich,<lb/>
+ohne mir oder ihr etwas zu vergeben, darauf antworten soll. Unruhige<lb/>
+Nacht.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

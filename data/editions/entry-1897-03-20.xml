@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-20" n="01"/>
+            <title level="a">Samstag, 20. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>20 März Samstag.</head>
+            <p>Mit Julie zu Brahms. Vor der Thür unten begegnen<lb/>
+uns Simrock u. Mühlfeld, die gerade von ihm kommen.<lb/>
+Simrock ist vorgestern Abend eingetroffen u. reist schon<lb/>
+morgen wieder ab. Die Thränen stehen ihm in den Augen, wie er<lb/>
+von Br. spricht und der entsetzlichen Veränderung, die mit<lb/>
+ihm vorgegangen ist, seit er ihn im Oktbr. gesehen. (Damals<lb/>
+waren wir noch zus. im Hôtel Impérial) Mühlfeld ist auch<lb/>
+ganz niedergedrückt. – Oben erfahren wir, Br. sei ausgegangen.<lb/>
+Also hat er sich wahrscheinlich gerade hingelegt u. den Auftrag<lb/>
+gegeben, ihn zu verleugnen. Ich gehe bei furchtbarem Sturm<lb/>
+ins Bureau u. studire im Lesezimmer die Zeitungen. Alles ist<lb/>
+krank u. verstimmt. Besuch bei Frau Kantor, die im Lehnstuhl<lb/>
+liegt und ihr geprelltes Bein pflegt. Brahms hat einen sehr<lb/>
+netten Brief an Rosl geschrieben u. sich für Donnerstag ange-<lb break="no"/>
+meldet. Die Mädchen fahren uns nach Hause. Georg Hirschfeld,<lb/>
+der Dichter der „Mütter“, hat seine Karte bei mir zurückgelassen.<lb/>
+Frau Lillian Henschel fragt um Rat, eines Quartett- u.<lb/>
+Liederabends wegen, den sie am 6. April mit ihrem Gatten veranstalten<lb/>
+will, fest entschlossen, sich nur zureden zu lassen. Natürlich warte<lb/>
+ich ab. Sie glaubt sich bei mir einzuheben, indem sie auf meine<lb/>
+Collegen loszieht u. sie geringschätzig beurteilt, kommt aber<lb/>
+dabei an den Unrechten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

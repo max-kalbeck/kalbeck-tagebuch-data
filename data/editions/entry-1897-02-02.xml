@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-02" n="01"/>
+            <title level="a">Dienstag, 2. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 Februar Dinstag.</head>
+            <p>Vor dem II Schubert-Concert, das mittags im Gr. Musikvereins.<lb/>
+stattfand, war ich bei Vesque’s, um Helene für ihren Brief zu danken.<lb/>
+Nach dem Concert Diner bei Ignaz Brüll im Allerengsten, da<lb/>
+d’Albert’s abgesagt hatten. Außer uns nur Goldmark, Brahms<lb/>
+u. Frau Wallach da. Es war sehr behaglich, da Br. ziemlich<lb/>
+munter war, und kein Mis[s]ton die Harmonie störte. Goldmark<lb/>
+beklagt sich über Heyse’s Empfindlichkeit; offenbar fült er das<lb/>
+Bedürfnis sich seines Benehmens wegen Heyse u. mir gegenüber<lb/>
+zu rechtfertigen. Mit der „Insel“ wußte er absolut nichts anzu-<lb break="no"/>
+fangen.<lb/>
+In „Lechner’s Mitteilungen a. d. Gebiete d. Literatur u. Kunst“ etc.,<lb/>
+einer monatlich von der am Graben befindl. Hof- u. Universitätsbuch-<lb break="no"/>
+handlung herausgegebenen bibliographisch-kritischen Zeitschrift kleinen<lb/>
+Kalibers erscheine ich als Titelbild mit einer Charakteristik von<lb/>
+Leop. Hörmann. Der Wille ist gut, die Charakteristik schwach,<lb/>
+mehrere Daten falsch. Ein größeres Vergnügen hat mir ein<lb/>
+Antiquariatskatalog bereitet, in welchem meine „Opernabende“<lb/>
+als vergriffen um den doppelten Ladenpreis angekündigt sind.<lb/>
+Dr. August Reissmann besucht mich, ohne mich zu Hause zu<lb/>
+treffen, u. ich erwidere den Besuch mit der Pünktlichkeit eines Monarchen u.<lb/>
+dem Glück eines Leimsieders: auch ich traf ihn nicht im Hôtel.<lb/>
+So werden wir uns wol eine Weile verfehlen!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

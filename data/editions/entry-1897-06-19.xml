@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-19" n="01"/>
+            <title level="a">Samstag, 19. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 Juni Samstag.</head>
+            <p>weil ich mich in jedem neuen Falle frage: warum soll ein Guter leiden,<lb/>
+was zehn Schlechte verbrochen haben? Ueberzeugen Sie mich davon, daß<lb/>
+Sie dieser Gute sind: beweisen Sie mir Ihre Autorschaft u. beweisen<lb/>
+Sie, daß Sie es wert sind der Autor Ihrer Gedichte zu sein! Sie<lb/>
+würden dadurch die größte Freude bereiten Ihrem von den besten Wünschen<lb/>
+für Ihr Wohlergehen beseelten M. K.<lb/>
+Der Doctor erzält mir, daß Director Janetschek mit der<lb/>
+Witwe Seling, der Mutter des Wiener Musikers, u. Eigentümerin<lb/>
+des Loib’schen Hôtels, seit Jahren ein intimes Verhältnis habe.<lb/>
+Nach dem Bade mit Julie in den „Freundschaftssaal“ zum Rendez-<lb break="no"/>
+vous mit Reuss’. Ein Graf v. d. Goltz bei ihnen am Tische, der sich<lb/>
+bald empfiehlt. Wir machen dann einen großen Spaziergang über<lb/>
+den Oberen Plobenweg zur Stadt zurück. Die Fürstin declarirt sich als<lb/>
+Nichte der Reichsgräfin Stolberg, meiner ehemal. Breslauer Gönnerin,<lb/>
+die noch in Wernigerode lebt u. sich meiner erinnert. (Das dumme<lb/>
+„Wintergrün“ ist ihr gewidmet). Auf dem Wege wechseln wir einige<lb/>
+Male die Begleitung. Die Fürstin gerät nach den ersten kurz abge-<lb break="no"/>
+thanen Präliminarien bald in die lebhafteste Unterhaltung mit mir<lb/>
+u. giebt mir Beweise ihres Vertrauens. Thema: „Der Frauen<lb/>
+Schicksal ist beklagenswert.“ Sie fült sich durch eheliche u. gesellschaftl.<lb/>
+Pflichten eingeschränkt; ihre größte Sehnsucht wäre es ein Dichter zu<lb/>
+sein u. ihre geheimsten Empfindungen rücksichtslos u. sonder Scheu aussprechen<lb/>
+zu dürfen, dennächst aber, weite Reise zu machen. Während sie<lb/>
+von fremden Ländern und Irrfahrten sprach, erhielten ihre Augen einen<lb/>
+eigentüml. Ausdruck. „Die Frau vom Meere“. Möglich, daß Alles nur<lb/>
+eine höhere Art von Koketterie oder auch nur ein Conversationstruc war.<lb/>
+Wir schieden kühl, als ob wir einander nichts bekannt hätten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

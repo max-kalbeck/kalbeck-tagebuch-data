@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-29" n="01"/>
+            <title level="a">Donnerstag, 29. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>29 Juli Donnerstag.</head>
+            <p>Wir fahren am Morgen nach Millstatt hinüber, um drüben einen<lb/>
+größeren Spaziergang zu machen. Ein Schiff kommt uns entgegen,<lb/>
+darin sitzen Hr. Kantor u. Albin Zellner. Sie haben ihre Marienbader<lb/>
+Cur beendet und kommen zur allgemeinen Ueberraschung plötzlich<lb/>
+zurück. Wie Kantor sein Besitztum in Augenschein nimmt, das<lb/>
+er noch nicht in fertigem Zustande gesehen hat. Seine Herzensgüte,<lb/>
+sein bescheidener Sinn und die Bewunderung, die er trotz heftiger Oppo-<lb break="no"/>
+sition vor Allem empfindet, was seine Frau geschaffen u. angeordnet<lb/>
+hat, kommen erwärmend zum Vorschein. Er ist ein prächtiger Mensch,<lb/>
+dem man von Herzen gut sein muß. Wie er seine Rührung und<lb/>
+freudige Bewegung hinter einigen abfälligen Bemerkungen zu verbergen<lb/>
+sucht. – Nachdem der Empfang vorüber, steigen Julie und ich wieder<lb/>
+ins Schiff. Auf der Post erhalte ich das von Fielitz zurückgesendete<lb/>
+Manuscript. Wir gehen dann über das Estrellacap und Ober-<lb break="no"/>
+Millstatt durch die Schlucht zurück und sprechen uns wieder einmal<lb/>
+gründlich aus. Julie meint, ich hätte nicht heiraten sollen, u. das<lb/>
+meine ich manchmal auch. Es fragt sich nur, ob ich als Junggesell<lb/>
+nicht längst zu Grunde gegangen wäre; vielleicht ist die Ehe mein moralischer<lb/>
+Halt. Ohne Frage ist Julie die Einzige, die mich erträgt, jede<lb/>
+Andere wäre längst auf und davon. [Ausstreichung: gegangen] Ich kenne meine Fehler<lb/>
+besser als irgend jemand, aber ich müßte meine Natur aufgeben, wollte ich sie<lb/>
+ablegen. Bei Tische bewillkommne ich den Hausherrn in Namen Aller und<lb/>
+sage, daß mit ihm ein solider Geist in dieses unsolide Haus eingezogen sei.<lb/>
+Als Künstler müsse ich auf der richtigen Verbindung von Phantasie u. Verstand<lb/>
+bestehen, die durch Theodor u. Sida gegeben sei. – Ich muß ein Kneiplied dichten,<lb/>
+u. da die Muse auf ihr Stichwort erscheint, fließen die Reime leicht aufs Papier.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

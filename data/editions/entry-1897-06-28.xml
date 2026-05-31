@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-28" n="01"/>
+            <title level="a">Montag, 28. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 Juni Montag.</head>
+            <p>Das Regenwetter ändert meinen St. Gilgener Plan. An-<lb break="no"/>
+statt mit dem Nachen fahre ich zur reglementsmäßigen<lb/>
+Stunde mit dem Dampfer nach Promberg und muß dort<lb/>
+zwei Stunden auf den von Salzburg kommenden Zug warten.<lb/>
+Ich vertreibe mir die Zeit damit, daß ich das stark ver-<lb break="no"/>
+nachläßigte Karlsbader Tagebuch thunlichst in Ordnung<lb/>
+bringe. Die Lücken werden nicht immer richtig ergänzt sein;<lb/>
+da aber nichts besonderes sich ereignet hat, schadet es wenig.<lb/>
+Frl. Else, die mein gestriges Telegramm des Gewitters wegen<lb/>
+erst heute morgen erhalten hat, durfte mich nicht mehr erwarten.<lb/>
+Ein paar Minuten bin ich in der Loggia, Billroth’s Lieb-<lb break="no"/>
+lingsplatz, allein. Hier stand er oft u. sah auf den See hinaus –<lb/>
+ein wundervoller Anblick. Mutter u. Tochter sind sehr liebens-<lb break="no"/>
+würdig, finden aber die Sache noch nicht spruchreif, da Billroth’s<lb/>
+Briefe noch nicht herauszubekommen seien. Schwager Dr. Gottlieb<lb/>
+kommt aus seiner Villa herbei. Die Familie sähe es gern,<lb/>
+wenn Else die Arbeit in eigene Hand nähme. Sie aber fühlt<lb/>
+sich derselben einstweilen nicht gewachsen. Vielleicht will sie sich nur<lb/>
+zureden lassen. Ich biete ihr meine Hilfe an, falls es dazu<lb/>
+kommen sollte, u. wir trennen uns im besten Einvernehmen. Hanslick,<lb/>
+das steht fest, wird von Billroth’s nicht mit Vertrauen beehrt. Frau<lb/>
+B. erzält mir schauderhafte Dinge von seiner Gemütsroheit. Billroth<lb/>
+war noch nicht beerdigt, als er dessen Briefe schon einem Buchhändler zum<lb/>
+Kauf angetragen hatte. Nun breitet er Brahms’ Briefe im Feuilleton<lb/>
+der N. fr. Pr. aus, ebenso wie er es mit Billroth gemacht habe. – Abends<lb/>
+bei Eduard Brüll.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

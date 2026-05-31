@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-18" n="01"/>
+            <title level="a">Donnerstag, 18. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>18 November Donnerstag.</head>
+            <p>Fulda schickt mir sein Stück, und ich lese es sofort durch. Mehr<lb/>
+Posse als Lustspiel, erreicht es nicht die Höhe seiner Fähigkeiten<lb/>
+und begnügt sich mit der Lösung eines technisch-dramatischen<lb/>
+Problems. F. schreibt, er möchte mich gern endlich einmal sehen,<lb/>
+da wir uns immer besuchten, ohne einander zu treffen. Ich will<lb/>
+ihn für Montag zu Tisch einladen. Das Stück hat einen schwachen<lb/>
+Erfolg; es ist dem Premièrenpublicum zu harmlos. Brüll’s,<lb/>
+u. besonders Frau Marie, haben mich so lange gequält, bis ich<lb/>
+ihnen trotz der Anstrengungen, die mich müde u. verdrießlich<lb/>
+machen, zusagte, nach dem Theater zu ihnen zu kommen.<lb/>
+Director Mahler u. seine beiden Schwestern, Frau Wallach,<lb/>
+Hr. u. Frau Schwarz geben eine ziemlich gemütliche Gesellschaft;<lb/>
+aber jeder wartet auf äußere Anregung, und wenn ich<lb/>
+nicht durch ein paar Paradoxe zum Widerspruch reize,<lb/>
+bleibt Alles ruhig. Ueber den Grundfehler „Onegin’s“: bei<lb/>
+der Uebertragung vom Buche zur Opernbühne ging die Selbst-<lb break="no"/>
+ironie des Dichters verloren, die seinen Roman überhaupt er-<lb break="no"/>
+träglich macht. Auf dem Nachhausewege streckt Schwarz<lb/>
+einen ziemlich massiven Fühler aus, ob ich nicht Mahler<lb/>
+nahelegen könnte, Brüll’s neue Oper für die Hofoper zu<lb/>
+acquiriren, Ignaz würde in diesem Falle gern das ausbedungene<lb/>
+Pönale an Frl. v. Schönerer zalen. Natürlich schlage ich es rundweg<lb/>
+ab. Wäre ich doch unerbittlich geblieben, anstatt meine Nachtruhe<lb/>
+u. meinen Humor guten Freunden zu opfern, die doch auch immer<lb/>
+nur an den einflußreichen Kritiker denken, wenn sie ihn mit Aufmerk-<lb break="no"/>
+samkeiten überhäufen, die ihm lästig sind! O mein mistrauisches Gemüt!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

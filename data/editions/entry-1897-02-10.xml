@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-10" n="01"/>
+            <title level="a">Mittwoch, 10. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 Februar Mittwoch.</head>
+            <p>Mit Brahms, Goldmark, Singer, Brüll’s, Hegenbarth’s u.<lb/>
+Fürst bei Schwarz zu Mittag. Alles in guter Laune. Der<lb/>
+neueste Scandal: die bevorstehende Ehescheidung der Marquise<lb/>
+Bairos, Tochter v. Johann Strauss, wird lebhaft besprochen.<lb/>
+Es hat sich herausgestellt, daß der Marquis nicht in der Lage<lb/>
+war, die Ehe thatsächlich zu vollziehen. Für ihn handelte es sich<lb/>
+nur darum, in geordnete Verhältnisse zu kommen, u. er erhebt<lb/>
+jetzt durch seinen Advokaten als Gatte Ansprüche auf eine<lb/>
+Abfindung. Ein Jahr verging, und während Alles in schönster<lb/>
+Ordnung zu sein schien, hieß es vor mehreren Wochen plötzlich,<lb/>
+der Marquis sei in Purkersdorf um die Kaltwassercur zu<lb/>
+gebrauchen. Während seiner Abwesenheit entdeckte sich Alice<lb/>
+ihrer Mutter, u. die Entrüstung Adelen’s, die sich schon als Ahn-<lb break="no"/>
+frau eines zalreichen gräflichen Geschlechtes betrachtete, war<lb/>
+grenzenlos. Die Ironie des Schicksals will es, daß der<lb/>
+Fledermaus-Text eine Menge von Anzüglichkeiten hergiebt,<lb/>
+an die Strauss u. seine Mitarbeiter niemals gedacht haben:<lb/>
+„Mein Herr Marquis, ein Mann wie Sie, sollte das besser<lb/>
+verstehn ... sehr komisch dieser Irrtum war, ja sehr komisch ist die<lb/>
+Sache, sehr komisch, Herr Marquis, sind Sie.“<lb/>
+Populärer Kammermusikabend des Quartetts Rosé. Frau<lb/>
+Uzielli winkt zu Brahms hinauf, u. das Publicum applaudirt,<lb/>
+bis sie das „Ständchen“ wiederholt.<lb/>
+Jour bei Kantor’s. Gänsbacher, Mosé, König, etc. etc.<lb/>
+Zellner’s haben einen Trauerfall. Meine plötzliche Wuth über<lb/>
+nichts u. etwas tobt sich auf dem Clavier aus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

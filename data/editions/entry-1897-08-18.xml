@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-18" n="01"/>
+            <title level="a">Mittwoch, 18. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>18 August Mittwoch.</head>
+            <p>Anstrengender Schnell- u. Dauerlauf zur Station Seebach. In<lb/>
+Spital werden wir von Frau Sida erwartet. Das Zauberfest,<lb/>
+zu dem wir eigentlich eingeladen waren, hat schon gestern Abend<lb/>
+stattgefunden. In Grossegg ist Alles beim Alten. Nur die Excellenz<lb/>
+und Albin Zellner haben das Feld geräumt, und dafür ist Frau<lb/>
+Morhal mit ihren beiden kleinen Mädeln eingezogen. Eine liebe<lb/>
+und zarte Frau, bei aller großen Ähnlichkeit mit Louise, doch ganz<lb/>
+anders geartet wie die etwas robustere Schwester. Ihre 3jährige<lb/>
+Rosl, das Pathenkind der 22jährigen, ist ein herziger Schatz u.<lb/>
+wird von aller Welt, mit dem guten „Tata“ an der Spitze, ver-<lb break="no"/>
+wöhnt. Unser Zimmer empfängt uns mit seiner schönen<lb/>
+Behaglichkeit, und mir ist, als wären wir gar nicht fortgewesen.<lb/>
+Frau Sida hat vorgestern wirklich den lang gepirschten Bock<lb/>
+erlegt, und wir lassen uns den Braten cum laude autoris<lb/>
+ausgezeichnet schmecken. Rosl zeigt mir einen Schwärmbrief<lb/>
+Singer’s; er thut so, als wäre er wegen unglücklicher Liebe<lb/>
+(zu wem?) durchgegangen. Ein eminenter Leitartikel im N. W.<lb/>
+T. erinnert uns nachdrücklich des abwesenden Freundes, und wir<lb/>
+senden ihm telegraphische Grüße. Wir wollten eigentlich schon morgen<lb/>
+Abend wieder in Zauchen sein, lassen uns aber gern überreden,<lb/>
+noch einen Tag zuzugeben. Henschel’s „Brahmsiana“ vorgelesen.<lb/>
+[bezieht sich auf den 17. August]<lb/>
+Bei der gestrigen Abendunterhaltung im Wirtshause werde ich mit dem<lb/>
+schriftstellernden Bruder der Gitschthalerin bekannt. Ein hübscher Bursch,<lb/>
+der es unter günstigeren Verhältnissen vielleicht zu etwas gebracht hätte.<lb/>
+Mein Interesse für Petra, das einzige Talent „Jung-Kärnten’s“, leuchtet ihm<lb/>
+nicht ein.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

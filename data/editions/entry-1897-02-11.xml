@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-11" n="01"/>
+            <title level="a">Donnerstag, 11. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>11 Februar Donnerstag.</head>
+            <p>Mittags sind Brahms, Schneegans, Singer u. Rosl bei<lb/>
+uns zu Tische. Brahms noch immer in guter Laune, hat aber<lb/>
+melancholische Anwandlungen und klagt über sein elendes Dasein.<lb/>
+Während des Essens giebt er mehrmals seinem innigen Behagen<lb/>
+an den Tafelfreuden Ausdruck. Dann sagt er plötzlich, zum<lb/>
+Fenster auf den alten Judenfriedhof hinauszeigend: „o wenn<lb/>
+ich dort läge!“ Es tritt eine allgemeine Stille ein, bis Julie<lb/>
+mit dem Scherz: „Da könnten wir Ihnen den Heringssalat immer<lb/>
+gleich hinunterschicken“, die peinliche Spannung löst. Br. ist heute<lb/>
+mit Allem zufrieden u. über Alles erfreut. Mit besonders<lb/>
+herzlichem Tone bedankt er sich bei mir, daß ich ihm Raabe’s<lb/>
+„Horacker“ heraussuche. Den Gulden, den er mir gestern abgeliehen<lb/>
+hat, drückt er mir beim Weggehn wie ein Trinkgeld in die Hand,<lb/>
+u. ich denke, er verwechselt mich mit Anna, da ich den Gulden<lb/>
+längst vergessen habe. Sein Gedächtnis ist noch immer sehr gut;<lb/>
+nur in seinen Erzälungen wiederholt er sich, wie Holtei in seinen<lb/>
+letzten Jahren.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

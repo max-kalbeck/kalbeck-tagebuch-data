@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-31" n="01"/>
+            <title level="a">Dienstag, 31. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>31 August Dinstag.</head>
+            <p>Drei Stunden hinter einander mit den Geschwistern Königsberger<lb/>
+musicirt. Der Alte hat sich von einem Villacher Antiquar<lb/>
+eine näselnde Schachtel aufschwatzen lassen, die in Wettgesängen<lb/>
+von Mazas probirt sein wollte. Ein merkwürdiger Zug von<lb/>
+vielen Juden, daß sie trotz ihrer Schlauheit und Genauigkeit<lb/>
+Geld für Dinge hinauswerfen, die sie absolut nicht zu taxiren<lb/>
+im Stande sind. Es schmeichelt ihrer Eigenliebe, von Christen,<lb/>
+die noch durchtriebener sind als sie, als Sachverständige ange-<lb break="no"/>
+sprochen zu werden. Ich kann es ihnen nachempfinden, denn ich<lb/>
+war früher und bin zu Zeiten [eingefügt: noch] geradeso, wenn mich der Satan<lb/>
+der Kaufwuth reitet; aber ich habe [Ausstreichung: auch] sonst keinen Erwerbs-<lb break="no"/>
+und Sparsinn, und ich weiß meist in demselben Augenblicke,<lb/>
+wo ich betrogen werde, daß ich der Angeführte bin. Was habe<lb/>
+ich für Lehrgeld in Sachen gezalt, die ich eigentlich verstehen<lb/>
+müßte, und die ich auch verstehe, wenn ich bei klarem Kopfe bin! –<lb/>
+Friedr. Weizmann, der Freund Frieda Port’s, schreibt mir, daß<lb/>
+Frieda bei einem Besuche in Lauf b. Nürnberg tödtlich erkrankte<lb/>
+und sich sehr langsam von einem Blutsturze zu erholen anfängt.<lb/>
+Ich antworte ihm sofort und lege einen Brief für sie ein. – Mit<lb/>
+den Kindern zu Fuß nach Villach, um Einkäufe für einen Abschieds-<lb break="no"/>
+kaffee zu machen; spät in der Dunkelheit zurück, schwerbeladen mit<lb/>
+einem Riesengugelhupf und anderen Eßwaren. – Der Buchbinder<lb/>
+hat mir ein reizendes, höchst verführerisches Projectenbuch gebunden.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

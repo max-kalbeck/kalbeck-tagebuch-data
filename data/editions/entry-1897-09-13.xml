@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-13" n="01"/>
+            <title level="a">Montag, 13. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 September (Sonntag) / Montag</head>
+            <p>[2. Forsetzung vom 11. September]<lb/>
+daß dieser „Stern“ ein Unstern und gar kein dramat. Stoff, wenn über-<lb break="no"/>
+haupt einer, ist. Ich bringe meine kritischen Einwände [eingefügt: schriftlich] auf eine [Ausstreichung]<lb/>
+handliche Formel, die möglichst wenig Verletzendes hat, und wir reden<lb/>
+dann am Nachmittage auf meinem Zimmer eine Stunde darüber. Mir<lb/>
+war diese heiße Stunde, die uns beiden rote Wangen machte, ein<lb/>
+großer Gewinn u. ein kostbares geistiges Vergnügen; denn die Ansichten,<lb/>
+die der Dichter mit seiner bilderreichen, von Einfällen sprühenden Beredtsam-<lb break="no"/>
+keit entwickelte, sind mir lieber als die meisten seiner Theaterstücke. Ich<lb/>
+müßte dies Buch ausschreiben, wenn ich Alles aufzeichnen wollte. Sehr treffend<lb/>
+scheint mir besonders das Gleichnis von der schwarzen Ader im weißen<lb/>
+Marmor, die ein dramatischer Bildner fast in jedem Stoffe zu seinem<lb/>
+Schrecken antreffe. Der große Techniker zeige sich dann darin, wie er<lb/>
+um diesen Fleck herumkomme, ihn verschwinden lasse oder gar zu einem<lb/>
+unvorhergesehenen Effect benütze. Es existirt kein vollkommen geeigneter<lb/>
+dramat. Stoff, wie es kein vollkommenes Drama giebt. Das ist auch meine<lb/>
+Meinung. Je gewaltiger der Dichter ist, desto leichter läßt er uns die<lb/>
+Mängel seines Werkes vergessen. Schließlich gelang es mir, Heyse<lb/>
+aus allen seinen Verschanzungen herauszutreiben u. ihn im offenen<lb/>
+Felde zu widerlegen. Wir einigten uns dahin, an Schneegans zu appelliren.<lb/>
+Vor dem Abendessen steige ich drei viertel Stunden lang den Berg hinan bis<lb/>
+zu den letzten Hütten; mir war, als ob mich jemand jagte, u. ich komme<lb/>
+in der Dunkelheit schweißgebadet durch das Naifthal zurück. Lustiges Tarok<lb/>
+mit Heyse’s. Am Nachmittag noch viel über Brahms. Das Henschel’sche Tagebuch.<lb/>
+[12. September]<lb/>
+Sonntag. Heyse hatte sich gestern „Das stille Dorf“ mitgenommen u. bringt<lb/>
+es mir wieder. Selene hat nicht Gnade gefunden vor seinen Augen, sie ist<lb/>
+ihm ein unfaßbares Gespenst. „Geister müssen auf festeren Füßen stehen als<lb/>
+Menschen, wenn wir an sie glauben sollen“. Mit der Symbolik u. Mystik<lb/>
+der Geschichte weiß er nichts anzufangen u. er meint, kein Publicum werde auf<lb/>
+meine, ihm unbekannt gebliebenen Absichten eingehen. Er verlangt, daß Selene</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-17" n="01"/>
+            <title level="a">Samstag, 17. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>17 Juli Samstag.</head>
+            <p>Henschel stellt sich mit neuen Mahnungen ein. Dr. Winter<lb/>
+läßt mir vom Buchhändler die Bücher von Andrian u. Altenberg<lb/>
+zusenden. „Der Garten der Erkenntnis“ [Ausstreichung] ist die<lb/>
+[Ausstreichung] verschwommene Geschichte eines an widernatürlichen Gelüsten laborirenden<lb/>
+öden Gesellen, der die verkrüppelten Gurken seines Mistbeetes<lb/>
+für Paradiesbäume angesehen wünscht. „Wie ich es sehe“<lb/>
+sind Ausscheidungen eines weich gewordenen Gehirnes. Beide Autoren,<lb/>
+Koryphäen der Wiener „Moderne“, [Ausstreichung] [eingefügt: geben sich den Anschein von] Monomanen; sie<lb/>
+[eingefügt: wären] fürs Irrenhaus reif, [Ausstreichung] wenn sie nicht wüßten, daß sie<lb/>
+mit ihrem Wahnwitz bei der verkommenen Gesellschaft<lb/>
+Effect machen. Gegen dieses Gesindel aufzutreten, wäre<lb/>
+bedenklich und überflüssig, weil man ihnen einen Gefallen<lb/>
+erwiese, wenn man sie ernsthaft nähme, und weil die Zeit<lb/>
+hier von selbst die erfolgreichste stumme Kritik üben wird. –<lb/>
+Ein Herr Schneider a. Berlin beglückt mich mit einem Band<lb/>
+Lieder, in welchem zwei meiner Gedichte componirt sind: Das<lb/>
+ewige „Ohne Hoffnung“ und „Ob du noch weißt“. Nomen est omen.<lb/>
+Ganz schneidermäßig.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

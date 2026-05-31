@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-25" n="01"/>
+            <title level="a">Freitag, 25. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>25 Juni Freitag.</head>
+            <p>Schon um 4 Uhr auf den Beinen, um Koffer und Tasche zu packen.<lb/>
+Von Fürst Reuss schriftl. Abschied genommen. Dann zum letzten<lb/>
+Male hinunter an den Sprudel. Es regnet Blumen über Julie.<lb/>
+Das eßbare Bouquet von Benedikt’s. Karpath begleitet uns<lb/>
+nach Hause zurück. Ein Heidengeld verbraucht, hoffentlich nicht um-<lb break="no"/>
+sonst. Der Tag wird sehr heiß. Julie und ich fahren separirt in<lb/>
+directen Wagen. Wir speisen zus. in Pilsen u. trennen uns in<lb/>
+Linz. Sie fährt nach Wien, ich nach Vöcklabruck weiter. Zwei<lb/>
+Engländer, Vater und Tochter, im Coupé. Die rührende zärtliche Sorgfalt,<lb/>
+mit der die Frau den Alten bedient. Novellenmotiv. (Mann u. Frau,<lb/>
+der junge Reisegefährte, seine junge Frau, die ihrem alten Manne<lb/>
+treubleibt, obwol dieser ihr zuredet, ihn im Stich zu lassen u. dem<lb/>
+Reisegefährten zu folgen.) In Vöcklabruck stellt es sich heraus,<lb/>
+daß der Abendzug nach Kammer erst vom Juli an verkehrt. Ich<lb/>
+muß also in dem schmutzigen Nest übernachten. Trotzdem ich todt-<lb break="no"/>
+müde bin, bleibe ich bis 12 Uhr auf, von den steirischen Ländlern<lb/>
+des Zitherspielers Huber festgehalten. Meine Leidenschaft für<lb/>
+diese Art von Tanzmusik. Der Virtuose ist sehr stolz, daß er mir<lb/>
+vorspielen darf, giebt mir [eingefügt: aber] zu verstehen, daß [eingefügt: doch] nur der Kaiser<lb/>
+v. Oesterreich, der ihn manchmal nach Ischl kommen läßt, dieser<lb/>
+Auszeichnung würdig sei.<lb/>
+[Fortsetzung vom 24. Juni]<lb/>
+D. giebt mir 40 fl. für B. u. ladet mich freundlichst ein ihn auf seinem<lb/>
+Schlosse in Liezen zu besuchen. Meine Herrensitze vermehren sich. Im Kaiser-<lb break="no"/>
+park erwarten mich Julie, Hr. Specht u. Hiller zum Tarok. Der Abschiedsabend<lb/>
+bei Loib, wo Hofr. Przibram, Stettenheim, Karlweis, Karpath u. Janetschek<lb/>
+mit uns speisen, wird uns durch Dr. Popper’s schwerere Hälfte, ein bebärtetes<lb/>
+Mastweib, verdorben. Darüber allgem. krampfhaft verhaltene Wut.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

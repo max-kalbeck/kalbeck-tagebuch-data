@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-28" n="01"/>
+            <title level="a">Sonntag, 28. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 November Sonntag.</head>
+            <p>Die Zeitungen sind voll von Schauerberichten; sie würden noch<lb/>
+deutlicher sein, wenn sie nicht fürchten müßten, confiscirt zu werden.<lb/>
+Von der gestern Abend erfolgten Rückkehr des Kaisers verspricht<lb/>
+man sich irgend eine Wendung. Ich gehe am Nachmittag mit<lb/>
+Mosé, der mich besucht, um sich über Brahms zu orientiren,<lb/>
+und den Kindern in das Promenadenconcert zu Eduard Strauß.<lb/>
+Johann dirigirt seinen neuen, für einen Sächsischen Verleger<lb/>
+componirten Walzer „An der Elbe“. Er hätte[n] ihn „an der<lb/>
+schmutzigen gelben Elbe“ nennen sollen als Gegenstück zur<lb/>
+„schönen blauen Donau“. Die Rüstigkeit des alten Knaben<lb/>
+grenzt ans Märchenhafte. Mit seinen 73 Jahren kletterte er so<lb/>
+leicht auf das hohe Podium hinauf wie ein 20jähriger, [Ausstreichung: spielte] ließ<lb/>
+den Walzer zweimal hinter einander spielen und gab noch das<lb/>
+mit Jubel acclamirte Gospodaren-Couplet aus „Jabuka“<lb/>
+zu. Letzteres sollte eine zarte Aufmerksamkeit für mich<lb/>
+sein. Dann fuhr er nach Hause, spielte mit uns Tarok,<lb/>
+machte schlechte, z. T. sehr unanständige Witze, erzälte uns,<lb/>
+daß er den Sachsen einen schlechten Walzer gegeben, den guten<lb/>
+aber für die Wiener zurückbehalten habe, tafelte mit<lb/>
+der Schwägerin, Hrn. Priester und dem neuen In spe-Schwager<lb/>
+Chavanne, dem Bruder des berüchtigten Afrikareisenden, der<lb/>
+die Witwe Conrat zu heiraten sich entschlossen hat, und war<lb/>
+sehr ungehalten, als wir schon um 11 ½ Uhr aufbrachen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

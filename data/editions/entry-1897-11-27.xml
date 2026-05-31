@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-27" n="01"/>
+            <title level="a">Samstag, 27. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>27 November Samstag.</head>
+            <p>In aller Eile ein Geburtstagscarmen für Singer gedichtet.<lb/>
+Bei Kantor’s Mosé’s Wut über das verspätete Mittagsmal.<lb/>
+Singer läßt noch länger auf sich warten als ich und bringt neue<lb/>
+Alarmnachrichten aus dem Parlament. Die Spannung der<lb/>
+Gemüter verbreitet sich wie eine infectiöse Krankheit, und<lb/>
+der Puls der Stadt fiebert. Für mich steht eine Wirkung<lb/>
+in die Ferne unumstößlich fest, wenn man dabei auch nicht an<lb/>
+übernatürliche Kräfte zu glauben braucht. Das menschliche<lb/>
+Gehirn ist ähnlichen Einflüssen unterworfen wie die Magnet-<lb break="no"/>
+nadel. Vieles, was uns heute noch rätselhaft ist, wird einmal<lb/>
+von der Physik erklärt werden. Die Metaphysik ist oft nur<lb/>
+eine proleptische Physik. Das Unbewußte, Ahnungsvolle ein<lb/>
+Mitklingen der zartbesaiteten Psyche. – Julie hat Singer eine<lb/>
+Geldtasche mit ein paar sehr hübschen Wiener Gstanzeln verehrt;<lb/>
+ihr unverkennbares Talent für dergl. Siehe das St. Georgener<lb/>
+Kegelgedicht. Dunkelviertelstunde im Salon mit vagen Gedanken;<lb/>
+der blutrote Fleck auf dem Teppich, ein elektrischer Beleuchtungseffect.<lb/>
+Mit Schneegans in die Lammgasse, um Ricarda Huch zu<lb/>
+besuchen. Auch er ist von ihrem poetischen Wesen mächtig ergriffen.<lb/>
+Da ich sie nicht in ihrer Pension – einer ziemlich schmierigen Wirt-<lb break="no"/>
+schaft – antreffe, spreche ich noch einmal bei Kantor’s vor u. trinke<lb/>
+mit den Damen Kaffee. Gespräch über Fresenius u. die alte<lb/>
+Münchener Zeit. Die Stadt in Aufruhr; überall Patrouillen u. Wach-<lb break="no"/>
+mannschaften. Demonstration vor d. Ministerium auf d. Judenhof. Im<lb/>
+Concert das Ehepaar Franceschini.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

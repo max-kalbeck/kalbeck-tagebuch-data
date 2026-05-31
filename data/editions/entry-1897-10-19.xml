@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-19" n="01"/>
+            <title level="a">Dienstag, 19. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 Oktober Dinstag.</head>
+            <p>[Fortsetzung vom 18. Oktober]<lb/>
+daß dieser Ästhetiker, der alle Wochen seine Ansichten wechselt und<lb/>
+gar kein eigenes Urteil hat, im Grunde nur ein geistreicher<lb/>
+Schwafler ist, [Ausstreichung: und] die „Neue Presse“ kann ihn [eingefügt: eben] so wenig [eingefügt: mehr] brauchen<lb/>
+wie den astronomischen Meyer, der jetzt bei uns in unendlichen<lb/>
+Feuilletons über seine Nordpolexpedition schreibt. Auch diese Leuchte<lb/>
+der Wissenschaft haben wir acquirirt, nachdem ihr in der Fichtegasse<lb/>
+das Öl ausgegangen war. Ich fürchte, daß Singer’s fixe Idee,<lb/>
+der „Neuen Presse“ Concurrenz machen zu müssen, uns mit der Zeit<lb/>
+ruiniren wird. Am letzten Sonntag ist das Blatt in einer Auflage<lb/>
+von 72000 Exemplaren gedruckt worden. Jede Nummer kostet mehr<lb/>
+als sie einbringt, und die Verwaltung beklagt sich, daß mit der<lb/>
+Höhe der Auflagen das Deficit wächst. [Ausstreichung: Auch] Herm. Bahr,<lb/>
+dieses literarische Freudenmädchen, das dem jungen Wien nachläuft,<lb/>
+[Ausstreichung: möchte] sticht Singer [Ausstreichung] schon lange in die Augen, und er brennt<lb/>
+darauf ihn zu engagiren. Was hilft es, daß er die Corruption<lb/>
+zur Thür hinausgeworfen hat, wenn er sie durchs Fenster zurückruft.<lb/>
+Oder ist vielleicht die aesthetische Gesinnungslosigkeit anständiger<lb/>
+als die moralische? In unserem sehr lebhaften Meinungsaustausch,<lb/>
+der über diese Angelegenheiten beim Nachtmahl in der „Linde“ gepflogen<lb/>
+wurde, kam ich mir einfältig und altmodisch vor. Ich passe auch als<lb/>
+Journalist nicht in meine Zeit, kann mich also in jeder Beziehung<lb/>
+begraben lassen.<lb/>
+[19. Oktober]<lb/>
+Dinstag. Mit Text u. Clavierauszug der „Tochter Jorio’s“ zu Dr. Eirich.<lb/>
+Anstatt des erhofften Honorars erhalte ich die Aussicht, es nicht so<lb/>
+bald zu bekommen. Der Verleger Tedeschi in Bologna scheint keiner<lb/>
+der ersten Gentlemen zu sein, da es Eirich für geboten erachtet, ihm<lb/>
+brieflich mitteilen zu lassen, er schicke die Uebersetzung nicht eher nach<lb/>
+Leipzig zum Druck, bis er nicht die 800 Lire eincassirt habe.<lb/>
+Bei Gilhofer u. Ranschburg Autographen angesehen. Mehrere</p>
+         </div>
+      </body>
+   </text>
+</TEI>

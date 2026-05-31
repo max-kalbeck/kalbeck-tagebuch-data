@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-14" n="01"/>
+            <title level="a">Sonntag, 14. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>14 März Sonntag.</head>
+            <p>Samstag<lb/>
+Heuberger holt Br. mit Faber’s Equipage zum Essen ab.<lb/>
+Meine stillen Gedanken über H., der mich nach Kräften bei<lb/>
+Brahms zu verdräng[t]en sucht und, seit er Hanslick’s Substitut<lb/>
+geworden ist, an den Tischen der Konrat’s, Faber’s, Billroth’s<lb/>
+und Miller’s überall meinen Platz einnimmt. Die Gering-<lb break="no"/>
+schätzung, die Br. [Ausstreichung: von seinen] H.’s schriftstellerischen und musikalischen<lb/>
+Talenten gegenüber [Ausstreichung: hat und …] oft genug vor andren und ihm sehr unzwei-<lb break="no"/>
+deutigen Ausdruck gegeben hat, genirt ihn nicht. – Beim Weggehen<lb/>
+begegnet uns Musikdirector Jenner a. Marburg. Br. sagt ihm<lb/>
+kaum guten Tag, obwol er ihn lange nicht gesehen. Jenner<lb/>
+ist von der Erschütterung über den Anblick des Unglücklichen auf den<lb/>
+Mund geschlagen. – In Lewy’s Theateragentur vorgesprochen.<lb/>
+Nachmittags Lewinsky bei mir, der Zetsche die Thür in die<lb/>
+Hand giebt. Mit Lewinsky viel über Hauptmann;<lb/>
+Harmonie unserer Ansichten. – Aus dem Concert Kurz mit<lb/>
+Heuberger nach Hause. Er wird ausfällig: „Sie haben Ihre<lb/>
+Kritik über Strauss’ „Zarathustra“ natürlich längst fertig!“<lb/>
+Wir wollen vor dem hämischen Gesellen auf der Hut sein.<lb/>
+Traurig, daß man es mit lauter verkappten Widersachern u.<lb/>
+Neidern zu thun hat, die einem sein bischen Glück u. Erfolg mis-<lb break="no"/>
+gönnen! –<lb/>
+Sonntag. Correctur der mir von Breitkopf &amp; Härtel zugesendeten<lb/>
+Orpheus-Partitur. Brief an Heyse. Nachmittags u. Abends bei<lb/>
+Molden’s in Döbling. Ueber die Notwendigkeit der humanistischen<lb/>
+Bildung. Ich habe mich mit Gewalt aus der Melancholie heraus-<lb break="no"/>
+gerissen, die seit gestern auf mir lastet. Tiefe, unstillbare Sehnsucht<lb/>
+nach Einsamkeit und poetischer Arbeit. Vielfacher Verdruß mit Paul.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

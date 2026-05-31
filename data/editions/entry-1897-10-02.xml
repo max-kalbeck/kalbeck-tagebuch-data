@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-02" n="01"/>
+            <title level="a">Samstag, 2. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 Oktober Samstag.</head>
+            <p>Generalprobe zu „Dalibor“. Mit Heuberger, den ich abhole, hin.<lb/>
+Mächtiger Eindruck des von Mahler mit Begeisterung dirigirten,<lb/>
+sorgfältig vorbereiteten u. redigirten Werkes. Meiner Uebersetzung,<lb/>
+die wirklich nicht die Beste ist, wurde geschickt nachgeholfen. Singer<lb/>
+setzt sich zu mir; auch er, der nicht leicht zu enthusiasmiren ist,<lb/>
+gerät in Staunen über die musikalische Kraft Smetana’s. Das<lb/>
+Wiedersehen so vieler unangenehmer Visagen, der süß-saueren<lb/>
+Mienen meiner Herren Collegen, der lächelnden Sänger und<lb/>
+Sängerinnen geht mir auf die Nerven. Am Nachmittag steige<lb/>
+ich in die chaotischen Abgründe meines Reserve-Bücherschrankes<lb/>
+und mache Ordnung, indem ich mehrere Wagenladungen von<lb/>
+Schriften und Büchern ausmustere. Was irgend brauchbar, bekommt<lb/>
+die Millstätter Volksbibliothek. Eine Unzal von Büchern kommt<lb/>
+zum Vorschein, in denen noch die Briefe der Autoren liegen.<lb/>
+Wie viele Feinde muß man sich machen! In jedem dieser unaufge-<lb break="no"/>
+schnittenen Bände, dieser nie beantworteten Briefe steckt einer.<lb/>
+Ich habe sie Alle längst vergessen u. bin damit der Nachwelt<lb/>
+zuvorgekommen; sie aber bewahren mir ein desto treueres Gedächtnis.<lb/>
+Bis Mitternacht wate ich bis über die Knöchel in nutzlos ver-<lb break="no"/>
+gossenem unschuldigen Autorenblut u. gehe kreuzlahm zu Bette. –<lb/>
+Candidat Pittner hat, nachdem er sein Jahr abgedient, den Unterricht<lb/>
+bei Paul wieder übernommen u. hofft mit mir das Beste von Paul’s<lb/>
+Lerneifer. Dr. Goll erhielt gestern seinen Abschied.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

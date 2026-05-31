@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-03" n="01"/>
+            <title level="a">Mittwoch, 3. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>3 Februar Mittwoch.</head>
+            <p>Brief u. nachfolgender Besuch von Frau Helene Meyer Cohn<lb/>
+a. Berlin, der Frau des bekannten Autographenbanquiers, den<lb/>
+ich im vorigen Jahre auf dem Goethetage in Weimar kennenlernte.<lb/>
+Mit der Frau war ich einmal auf der Esplanade in Ischl zusammen-<lb break="no"/>
+getroffen. Sie stellte sich als Collegin vor, die unter ihrem Mädchen-<lb break="no"/>
+namen Majdanska französische u. polnische Dichter übersetzt.<lb/>
+Ich zeige ihr einige interessante Bücher aus meiner Bibliothek, u. sie<lb/>
+ladet mich dringend ein sie in Berlin zu besuchen. Adresse: vom 1.<lb/>
+April ab W. Rauchstr. 6. Einige von ihr übersetzte Novellen<lb/>
+des Polen Sienkiewicz gefallen mir ausnehmend.<lb/>
+d’Albert’s haben sich nicht wieder sehen lassen, sondern später<lb/>
+schriftl. Abschied genommen. Brahms wollte sie uns und<lb/>
+Kantor’s [ausgestrichen: für] nach dem heutigen Concertabend aufhalsen. Ich war<lb/>
+froh, daß wir uns unseren Jour nicht nehmen ließen; denn<lb/>
+ich wäre in Verlegenheit gewesen, was ich d’Albert über sein<lb/>
+Spiel hätte sagen sollen. Nur weniges gefiel mir, u. gerade seine<lb/>
+größten Stücke enttäuschten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-10" n="01"/>
+            <title level="a">Mittwoch, 10. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 März Mittwoch.</head>
+            <p>Schwer, aber mit großer Freude, an dem Feuilleton über die<lb/>
+gestrige Première gearbeitet. Wie ich über Hauptmann<lb/>
+denke: ein genial, aber einseitig und unzureichend begabter<lb/>
+Dichter. Es ist ihm nie ein dramatisches Kunstwerk gelungen<lb/>
+und wird ihm wahrscheinlich auch nie eines gelingen, weil er nur<lb/>
+in Nebendingen Fortschritte macht bis zur glänzendsten Virtuo-<lb break="no"/>
+sität, in der Hauptsache aber nicht vom Flecke kommt. Ihm<lb/>
+gelingen nur Scenen und Bilder; mit der Kraft einen Stoff<lb/>
+auszugestalten gebricht es ihm an der planvollen Uebersicht.<lb/>
+Ueber das Monodrama kommt er schwerlich hinaus. Man<lb/>
+könnte mit der „Versunkenen Glocke“ sehr streng ins Gericht<lb/>
+gehen, ohne ihm ein Unrecht zuzufügen. Auffallende technische<lb/>
+Verstöße, die Unfreiheit der Figuren die ihm überallher an-<lb break="no"/>
+geflogenen Bildungselemente bei dem fühlbaren Mangel einer<lb/>
+grundlegenden strengen u. methodischen humanistischen Erziehung;<lb/>
+seine scheinbare Originalität beruht nur auf der mitunter<lb/>
+verwegenen Combination unvereinbarer Dinge, Bilder u. Gedanken.<lb/>
+Abds. bei Kantor. [Ausstreichung: Rosl kommt nicht zum Verschen.] Reaction gegen<lb/>
+den Ernst der Arbeit in nervös übermütiger Laune u. Lachkrämpfen.<lb/>
+Exzellenz Pokoi od. Poquoi aus Graz. Starke Abspannung.<lb/>
+[Fortsetzung vom 11. März]<lb/>
+Mit Doller zu mir nach Hause. Brahms, Ignaz u. Marie Brüll, Schneegans,<lb/>
+Singer bei uns zu Tisch. Rosl kommt nicht wegen zu großer Ermüdung. Br.<lb/>
+elender als zuvor, ißt und trinkt nur zum Schein, scheint nichts mehr zu vertragen.<lb/>
+[Ausstreichung: Nach Tisch steht er] Er steht plötzlich auf und legt sich in meinem Zimmer nieder, kommt dann<lb/>
+noch einmal zum schwarzen Kaffee herein. Ich helfe ihm in Schneegans’ Ueberzieher,<lb/>
+er bemerkt die Verwechselung nicht, u. Schn. geht im bloßen Rocke nach Hause.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

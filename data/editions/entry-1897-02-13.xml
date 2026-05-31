@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-13" n="01"/>
+            <title level="a">Samstag, 13. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 Februar Samstag.</head>
+            <p>Um 10 Uhr zu Brahms. Ich hörte ihn Clavier spielen u. wäre gern<lb/>
+im Schlafzimmer geblieben, um – vielleicht z. letzten Male! sein<lb/>
+herrliches Spiel zu genießen. Aber er hatte durch die Glasthür<lb/>
+bemerkt, daß jemand da war, und stand auf. Ein Band Händel’<lb/>
+scher Suiten lag aufgeschlagen auf d. Clavierpulte. Anfangs glaubte<lb/>
+ich, er sehe die Cantate durch, die morgen im Gesellsch.concert<lb/>
+gesungen werden soll; ich wollte mir die Partitur ausleihen. Er<lb/>
+sagte: „Alles unnütze Zeug habe ich schon zu Mandyczewski<lb/>
+(in die Bibliothek d. Musikvereins) geschickt.“ Das „schon“ that mir<lb/>
+weh. Der Kupferstecher Unger hat von England aus den Auftrag<lb/>
+erhalten, eine Portraitradirung von Brahms nach d. Leben zu<lb/>
+machen. Br. will ihm nicht sitzen: „Ich habe den schönsten Vorwand<lb/>
+in meiner Krankheit u. werde ihm schreiben, es ginge nicht, da<lb/>
+mein Rundbogen- in den Spitzbogenstil übergegangen sei.“<lb/>
+„Fahren Sie nur so fort, dann kommen Sie da an, wo wir<lb/>
+Sie bald zu sehen hoffen: bei der Renaissance.“ Er seufzte, als<lb/>
+ich das sagte, u. war nach einer halben Stunde so müde, daß ich<lb/>
+fortging. „Um ½ 7 Uhr stehe ich täglich auf, wie sonst, aber ich<lb/>
+bin dann schon nach d. Frühstück so müde, daß ich mich gleich wieder<lb/>
+hinlegen möchte. Der Arzt hat mir das viele Spazierengehen untersagt<lb/>
+u. mich auf später vertröstet, wenn ich mich wieder frischer fülen werde.“<lb/>
+Br. begleitete mich bis vor die Thür, auf d. Vorsaal überrannte<lb/>
+mich ein Redactionsdiener mit der Nachricht, daß Mitterwurzer gestorben<lb/>
+ist. Ich war erstaunt, während Br., der nicht einen Augenblick aus seiner<lb/>
+Ruhe kam, lachend meinte: „Na, da trinken Sie nicht zu viel, wenn Sie heut<lb/>
+noch schreiben müssen.“ Am Abend in 2 Concerten, mit Heuberger nach Hause.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

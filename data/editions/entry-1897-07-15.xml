@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-15" n="01"/>
+            <title level="a">Donnerstag, 15. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>15 Juli Donnerstag.</head>
+            <p>[Fortsetzung vom 13. Juli]<lb/>
+Denkmal im kleinen Park, der zur Kirche hinauf geht. Mit Sch.’s<lb/>
+Tode ist der Stern seines Hauses gesunken. Die drei Schwestern Vesque<lb/>
+haben dasselbe Quartier beim Postmeister inne, das wir anno 91 (?)<lb/>
+bewohnten. Helene hat uns schon gestern erwartet, da der 12. ihr<lb/>
+Geburtstagsdatum ist. Mir thun die Nerven von dem Gerede weh,<lb/>
+und ich bin froh, durch einen gemeinsamen Spaziergang von der Qual<lb/>
+des Kaffeetisches erlöst zu werden. Die Straße von Obertarvis zum<lb/>
+Bahnhof mit ihrem herrlichen Panorama. Man glaubt, eines der<lb/>
+modernen künstlichen Rundbilder mit plastischem Vordergrunde vor sich<lb/>
+zu haben. Aber der schöne Weg blieb stumm; desto redseliger<lb/>
+war Helene. Von Villach mit dem Wagen zurück nach Zauchen.<lb/>
+[Mittwoch, 14. Juli]<lb/>
+Am Mittwoch brachen wir unsere Zelte ab, um Kantor’s in Millstatt<lb/>
+heimzusuchen. Unterwegs scherzte ich mit den Kindern, Frau Sida werde<lb/>
+uns in Spital mit der Nachricht empfangen, sie könne uns diesmal<lb/>
+nicht brauchen. Beinahe kam es in Wahrheit so. Denn Frau Sida fuhr<lb/>
+uns mit Dr. Karl Pollitzer entgegen, um uns zu sagen, ihre Köchin sei<lb/>
+an den Masern erkrankt. Da die Kinder die Masern schon gehabt<lb/>
+haben, ließen wir uns nicht stören u. kamen in zwei Schiffen unter großem<lb/>
+Jubel an. Allgemeine Seligkeit über den classischen Landsitz, das<lb/>
+geräumige, comfortable Haus und seine lieben Bewohner. –<lb/>
+Gleichwol wäre mir Himmelangst einen solchen Besitz zu haben, der<lb/>
+nach allen Seiten ins Unendliche hinauslangt. Welche Ansprüche macht<lb/>
+ein solches, von der liberalsten aller Hausfrauen in wahrhaft fürstlichem<lb/>
+Stile geführtes Hospiz! Wird sie der Umgebung auf die Dauer gewachsen<lb/>
+sein: dem Berg, dem See, den Nachbarn, der Dienerschaft, der Familie, den<lb/>
+Freunden u. Gästen? Alle machen das Maul auf, sie zu verschlingen!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

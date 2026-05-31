@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-02" n="01"/>
+            <title level="a">Mittwoch, 2. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 Juni Mittwoch.</head>
+            <p>Das Brunnenpensum früh absolvirt. Ich stehe immer um 5 ½ U.<lb/>
+auf, mache meine körperl. Übungen und bin dann schon gegen 6 ½<lb/>
+am Schloßbrunnen. Frühstück im Jägerhause. [eingefügt: (Hanslick)] Frau Koretz<lb/>
+begrüßt mich mit der das ganze Haus durchschallenden Nachricht,<lb/>
+Fürst Reuss habe mir etwas geschickt. Es ist die Partitur<lb/>
+seiner E-Moll-Symphonie. Nun habe ich wieder einen Vorwand,<lb/>
+nicht zu arbeiten. Ich vertiefe mich in das Manuscript, lese<lb/>
+aber nur den ersten Satz zu Ende u. schlafe dann ein. Später<lb/>
+lasse ich die anderen drei Sätze flüchtig Revue passiren. Es<lb/>
+fehlt dem armen Fürsten an Inspiration; arbeiten kann er<lb/>
+wie ein Schulmeister und empfinden wie ein echter Künstler.<lb/>
+Aber der Segen von Oben bleibt aus. Zu Mittag im Jäger-<lb break="no"/>
+haus; man schlingt eine Menge in sich hinein u. wird nicht<lb/>
+satt. Um 4 Uhr mein II Bad. Fürst Reuss besucht uns,<lb/>
+und wir gehen mit einander nach St. Leonhard zum Forellen-<lb break="no"/>
+essen. Auf dem Wege besprechen wir die Symphonie und vieles<lb/>
+Musikalische. Meine Bedenken gegen das Finale. R. gesteht, daß<lb/>
+er die zweite Hälfte des Werkes erst nach längerer Pause in Angriff<lb/>
+genommen hat. Die leere, thematisch handliche Melodie d. letzten Satzes.<lb/>
+Erinnerungen an Brahms. Reuss spricht von ihm mit der größten<lb/>
+Achtung u. Liebe, obwol er oft schlechte Behandlung erfahren hat.<lb/>
+Wenn er wüßte, wie Br. gegen ihn loszuziehen pflegte, so daß ich<lb/>
+immer seine Partei nehmen mußte!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

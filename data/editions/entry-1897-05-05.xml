@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-05" n="01"/>
+            <title level="a">Mittwoch, 5. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>5 Mai Mittwoch.</head>
+            <p>[4. Fortsetzung vom 29. April]<lb/>
+von Löwenstein erklärte Tischkarte an ihn gerichtet hatte. „Wenn<lb/>
+man dem Gegenstande zu nahe tritt, wird die Hyperbel zur Proportion“<lb/>
+oder so was ähnliches [eingefügt: Technisch-]Mystisches steht darin. Auch eine Correspondenz-<lb break="no"/>
+karte v. Böcklin wurde hervorgesucht. Kl. hatte an dems. Tage,<lb/>
+an welchem ich zu ihm kam, einen Abzug der Faber’schen Radirung<lb/>
+(die große Scharff’sche Br. Medaille) u. meinen Nekrolog als Beilage<lb/>
+aus Wien erhalten; er glaubte, ich hätte die Sendung veranlaßt, was<lb/>
+nicht der Fall war. Wir gingen nun mit einander in Äckerlein’s<lb/>
+Keller, beide müde u. mit der Absicht, ausgestrichen: bald] nicht lange aufzubleiben.<lb/>
+Als wir aber erst gemütlich zusammen saßen u. ein Wort das andere<lb/>
+gab, vergaßen wir unsere guten Vorsätze u. hielten bis 12 ½ Uhr<lb/>
+aus, trotzdem Kl. schon früh nach Dresden reisen mußte. Das Gespräch stand<lb/>
+keinen Augenblick still u. drehte sich um Kunst, Musik u. Literatur. Kl.<lb/>
+erzälte, wie er an Br.’s Musik herangekommen sei. Ein fanatischer<lb/>
+Schumann-Verehrer, der besonders für Sch.’s Claviermusik u. in ihr<lb/>
+wieder für die „Davidsbündler“ schwärmte, habe er sich zuerst die drei<lb/>
+Claviersonaten v. Brahms als „fortgesetzten Schumann“ zu Gemüte<lb/>
+gezogen. Sein Schmerz, Br. niemals ordentlich Clavierspielen gehört zu<lb/>
+haben. „Wie gern hätte ich die Davidsbündler oder die Phantasie von<lb/>
+ihm gehört!“ Er hat sich niemals getraut, ihn darum zu bitten. Ich sagte ihm,<lb/>
+daß das sehr thöricht gewesen wäre, denn Br. spielte Einem, was man<lb/>
+von ihm haben wollte. Die falschen (ungünstigen) Urteile, die über Br.’s<lb/>
+unvergleichl.s Clavierspiel verbreitet sind. Kl. bildet sich ein, daß dem<lb/>
+ersten Satze der C-Dur-Phantasie ein bestimmter Vorgang zu Grunde<lb/>
+liege, wenigstens sehe er deutlich die Geschichte von Theseus u. Ariadne.<lb/>
+Br. habe davon nichts wissen gewollt. Mit Recht. Clara als Ariadne?<lb/>
+Sollte Sch. Theseus oder Dionysos sein? Auch von einem anderen Irrtum,<lb/>
+resp. einer Ungerechtigkeit, Sch. angehend, brachte ich Kl. ab. Er sagte</p>
+         </div>
+      </body>
+   </text>
+</TEI>

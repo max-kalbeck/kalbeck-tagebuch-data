@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-14" n="01"/>
+            <title level="a">Donnerstag, 14. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>14 Oktober Donnerstag.</head>
+            <p>Den zweiten Act von „Jorio’s Tochter“ in den Clavierauszug ein-<lb break="no"/>
+getragen. Ich brauche das Honorar dringend und werde nichts davon<lb/>
+übrig behalten, da ich eine Menge von Schulden habe. Am<lb/>
+Nachmittag besucht uns Frau Brüll, Ignaz kommt später<lb/>
+nach. Sie sind gestem von Unterach zurückgekehrt, wo sie mit<lb/>
+Hermine Wallach allein in ihrer neuen Villa gehaust haben.<lb/>
+Da ich mich gleich nach dem „Husaren“ erkundige, stellt sich heraus,<lb/>
+daß Alles beim Alten geblieben ist. Brüll findet, daß die<lb/>
+Einheit der Oper durch die von mir vorgeschlagenen Änderungen<lb/>
+gestört worden wäre, u. Leon hat neuerdings erklärt, nichts mehr<lb/>
+für den Text thun zu können. Diese Indolenz betrübt u. ärgert<lb/>
+mich, und ich nehme mir vor, mit keinem Worte mehr auf das<lb/>
+Werk zurückzukommen. Wer nicht hören will, muß fühlen.<lb/>
+Im Burgtheater spielt Kainz in der „Jüdin v. Toledo“ und reißt<lb/>
+Alles zur Bewunderung hin. Brahm will übermorgen bei uns<lb/>
+essen. Ueber Hamlet u. Alfonso zusammen geschrieben.<lb/>
+Ein Dr. Herschmann in Pilsen möchte gern einen Vortrag über<lb/>
+Mozart u. Wagner halten und verlangt, ich solle ihm ein paar –<lb/>
+Broschüren nennen, aus denn er sich am schnellsten über beide<lb/>
+unterrichten könne! – Ein Prof. Dr. Storch a. Waldenburg i.<lb/>
+Schles. verehrt mir mit einem anerkennenden Schreiben eine<lb/>
+Monographie über Holtei, in welcher ich öfters citirt werde. Carl<lb/>
+Wolff wünscht Empfehlungsbrief für seinen Sohn, der in<lb/>
+Berlin seine in Breslau begonnenen kunstgeschichtlichen Studien<lb/>
+fortsetzen soll.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

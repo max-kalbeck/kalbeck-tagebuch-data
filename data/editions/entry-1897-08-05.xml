@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-05" n="01"/>
+            <title level="a">Donnerstag, 5. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>5 August Donnerstag.</head>
+            <p>[Fortsetzung vom 4. August]<lb/>
+beanlagte von jedem Ton und jeder Tonart ein sinnliches Bild im<lb/>
+Gehirn sitzen hat, das so charakteristisch und so undefinirbar ist<lb/>
+wie eine bestimmte Farbe, ein besonderer Geruch. Wie mislich es<lb/>
+ist, ein Lied oder gar ein symphonisches Stück in eine fremde Tonart<lb/>
+zu transponiren. Warum sich der Componist hier für A, dort<lb/>
+für D oder E Moll entscheidet. Die Harmonie als unzertrennlicher<lb/>
+Untergrund [Ausstreichung] jeder Melodie. Brahms, durch besonders schlagende<lb/>
+Beispiele in die Enge getrieben, mußte viele Zugeständnisse machen,<lb/>
+pflegte dann zuletzt aber zu sagen: „Und es ist doch Wurscht,<lb/>
+ob so oder so.“ – Am Nachmittag unternehmen wir eine anmuthige<lb/>
+Irrfahrt über die Berge, die uns nach 1 ½ St. endlich nach Annenheim<lb/>
+an den Ossiacher See führt. Wir benutzen das Trajectschiff und<lb/>
+speisen dann mit M. wieder in der Stadt Meran.<lb/>
+Julie hat, während ich in sehr vergnügter Laune auf die Schmetterlings-<lb break="no"/>
+jagd ausziehe, aus meinem Tagebuche neue Nahrung für ihre thörichten<lb/>
+schwarzen Gedanken gesogen u. empfängt mich Ahnungslosen mit der<lb/>
+Erklärung, sich von mir trennen zu wollen. Ich bin wie aus den Wolken<lb/>
+gefallen und sehe meine schon öfters gemachte Erfahrung bestätigt, daß die<lb/>
+Frauen, auch die besten u. gescheidtesten, nicht im Stande sind, Persönliches<lb/>
+u. Sachliches zu scheiden. Die Spiele meiner Phantasie und meine aben-<lb break="no"/>
+teuerlichen Speculationen werden für baare Münze genommen, obwol sie<lb/>
+nur ihre poetische Wahrheit haben und als innere Erlebnisse sich blos in-<lb break="no"/>
+sofern mit der Realität berühren, als sie für ihre Wahrscheinlichkeit irgend<lb/>
+einen festen Punkt brauchen, wie die Tangente den Berührungspunkt im Kreise.<lb/>
+Die Idee, mich von Julie trennen zu müssen, ist mir so fremd u. unfaßbar,<lb/>
+daß ich sie überhaupt nicht in Erwägung ziehen kann. Bedürfte es wirklich erst</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-17" n="01"/>
+            <title level="a">Mittwoch, 17. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>17 Februar Mittwoch.</head>
+            <p>Muxl hatte herausgekriegt, daß heute Rosl’s Geburtstag ist. Wir<lb/>
+beladen uns mit Blumen u. pilgern zur Gratulationscour. Julie<lb/>
+bescheert die Photographie v. Brahms ein. Frau Zellner ist auf<lb/>
+denselben Einfall gekommen, so daß sich Reuter’s Geschichte mit<lb/>
+den „nigen Kutschböcken“ wiederholt. Das Geburtstagskind wird von<lb/>
+der Ueberraschung sehr aufgeregt; mir thut es in der Seele weh, zu<lb/>
+sehen, wie das liebe holdselige Ding, das geborene Heidenröslein,<lb/>
+als Stubenpflanze verkümmert. Sie sitzt in ihren fürstlich ausge-<lb break="no"/>
+statteten Zimmern auf allen Stühlen herum u. langweilt sich, eine<lb/>
+verwunschene Prinzessin, die keinen ebenbürtigen Prinzen findet.<lb/>
+Wäre ich ledig u. nur zehn Jahre jünger so wüßte ich, was ich thäte. –<lb/>
+Brief an Widmann; ich rate ihm, schleunigst nach Wien zu<lb/>
+kommen, wenn er Brahms noch einmal sehen will. Concert<lb/>
+Uzielli. Sie verliert in der Nähe, anstatt zu gewinnen. Jour bei<lb/>
+Kantor’s. Rosl kam nicht zum Vorschein, u. erst nach Tische verplauderten<lb/>
+wir eine Stunde auf ihrem Zimmer. Folgender Toast blieb also ungesprochen:<lb/>
+Es weht mir heut so wunderbar, so frühlingsschaurig durchs Gemüt,<lb/>
+Weil mitten uns im Februar das schönste Röslein aufgeblüht.<lb/>
+Von duftgem Glanze wird erhellt das wintermüde bange Herz,<lb/>
+Wir jubeln laut – die andre Welt mag weiter duseln bis zum März!<lb/>
+Und nähmen sie’s uns noch so krumm, die klugen u. soliden Leut’,<lb/>
+Wir stoßen den Kalender um: Für uns beginnt der Frühling heut!<lb/>
+Und wenn Ihr mich am Ende fragt: Mabaxebel, was willst du noch?<lb/>
+So sei es rund herausgesagt: Robosebel, sie lebe hoch!<lb/>
+[Fortsetzung vom 18. Februar]<lb/>
+mich umsonst auf einem stillen Lebensabend gefreut, den ich so recht behaglich verdehnen<lb/>
+u. verschmausen wollte!“ Seine Worte schnitten mir ins Herz.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-08" n="01"/>
+            <title level="a">Donnerstag, 8. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>8 April (Dinstag.) / Donnerstag.</head>
+            <p>[Fortsetzung vom 6. April]<lb/>
+Abschiedsgruß u. berichteten in den Zeitungen von Mendelssohn’s „Es ist bestimmt in<lb/>
+Gottes Rath“. [Merkwürdig, daß ich bei meinem letzten religiösen Gespräch mit<lb/>
+Brahms von den (mit der Zeit fortschreitenden) Veränderungen im Texte gerade dieses<lb/>
+Chorales gesprochen hatte, im Anschluß an die Widmann’schen Bedenken. Die<lb/>
+Brandenburg. Kurfürstin Louise Henriette (1627–67) hat das Gegenteil<lb/>
+von dem gedichtet, was heute gelehrt und geglaubt wird. Bei ihr heißt es u. a.<lb/>
+„Dann wird eben diese Haut mich umgeben, wie ich gläube, Gott wird werden<lb/>
+angeschaut dann von mir in diesem Leibe, und in diesem Fleisch werd’ ich Jesum<lb/>
+sehen ewiglich.“ Später ins Gegenteil verkehrt: „Dann wird mich statt<lb/>
+dieser Haut ein verklärter Leib umgeben, Gott wird werden angeschaut dann<lb/>
+von mir in jenem Leben, und in jenem Leib werd’ ich etc.“ Heute noch<lb/>
+anders.] In einer Bank saß auch Goldmark. Viele morituri. Muß ich<lb/>
+mich auch dazu rechnen? Zimmermann – ders. der Muxl confirmirt hat,<lb/>
+u. seine ästhetische Leichenrede. Für einen Pfaffen aller Ehren wert! Der<lb/>
+Männergesangverein wußte nichts Passenderes zu bringen als Reißiger’s [von anderer Hand eingefügt: (?) Schubert’s?]<lb/>
+„Der du von dem Himmel bist“. Als wir draußen auf dem Centralfriedhof<lb/>
+eintrafen, ging die Sonne unter. Hier entfaltete sich der schönere Teil der<lb/>
+Feier; nur die näheren Freunde u. Anhänger Br.’s waren hinausgefahren.<lb/>
+Zum Grabe ging man mit zwölf Fackeln; ich erhielt auch eine. Soviel<lb/>
+ich mich erinnere, waren die anderen Fackelträger: Simrock, Fellinger, Door,<lb/>
+[durchgestrichen: Miller], (Faber) [darüber Fragezeichen, mit drei Punkten unterlegt], Dumba, Perger, Brüll, Heuberger, Henschel, Rob.<lb/>
+Fuchs, Mandyczewski. Dvorak, der in den Zeitungen genannt wird, war nicht<lb/>
+dabei, auch Koch nicht, der die Fackeln verteilte. Perger’s, von Liebe, Trauer<lb/>
+u. Begeisterung glühende Rede machte den tiefsten Eindruck. Marie Schumann<lb/>
+u. die Billroth’schen Frauen wohnte[n] d. Beerdigung bei. Als ich an die offene Grube<lb/>
+trat, ging etwas entzwei in mir, u. ich war so erschüttert wie am Grabe meines<lb/>
+Vaters. Wir fuhren still in die Stadt zurück. Der Himmel hatte sich über der ernsten<lb/>
+Feier aufgethan, als sollte ein Engel der Seele des Heimkehrenden entgegenschweben,<lb/>
+um sie nach ihrem Sterne zu geleiten. – O Gott, u. vom Friedhof fast unmittel-<lb break="no"/>
+[vertikal am rechten Rand] bar ins Concert! Dann erst um 7 Uhr waren wir zu Hause.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

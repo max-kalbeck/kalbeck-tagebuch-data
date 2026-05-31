@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-01" n="01"/>
+            <title level="a">Donnerstag, 1. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>1 April Donnerstag.</head>
+            <p>Julie erkundigt sich nach Brahms’ Befinden. Nach der gestrigen<lb/>
+kleinen Besserung ist wieder neue Schwäche eingetreten in Folge von<lb/>
+Darmbluten. Mich hält der Besuch Helene Vesque’s zu Hause.<lb/>
+Ich mache ihr in längerer Auseinandersetzung den Standpunkt gehörig<lb/>
+klar, und sie verlangt, nachdem sie mehrere Male drauf und dran<lb/>
+war, mein Haus zu verlassen, daß ich zum Zeichen der Verzeihung<lb/>
+ihren letzten Brief zerreiße. Das thue ich in Gegenwart Juliens,<lb/>
+und das alte Einvernehmen ist wieder hergestellt. Auf wie lange?<lb/>
+Nach Tische wandern wir ins Cottage. Das Haus ist im Grundriß<lb/>
+abgesteckt, und die Steine für das Fundament liegen schon auf dem<lb/>
+Platze. Mit wenigen Schritten ist die Herrlichkeit umgangen, und<lb/>
+ich bin erstaunt, wie klein und dürftig alles aussieht. Wir gehen<lb/>
+dann zur hohen Warte nach Döbling hinüber und treffen dort<lb/>
+pünktlich zu gleicher Zeit mit Frau Marie Brüll, deren Mutter, den<lb/>
+Mädchen u. Muxl ein. Zurück mit der Dampftramway.<lb/>
+Abends im Burgtheater. Die Sandrock als Adrienne Lecouvreur.<lb/>
+Das vergessene Notizbüchlein.<lb/>
+Dr. Miller v. Aichholz u. Frau haben uns besucht. Desgl. Capellmeister<lb/>
+Gustav Mahler, ohne uns zu treffen. Früh waren auch die Kantor’schen<lb/>
+Damen da, um den für heute angesetzten Jour wieder abzusagen, da es<lb/>
+Frau Sida mit dem Fuße wieder schlechter geht.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

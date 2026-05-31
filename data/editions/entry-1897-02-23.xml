@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-23" n="01"/>
+            <title level="a">Dienstag, 23. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>23 Februar Dinstag.</head>
+            <p>Noch einmal in der Schubert-Ausstellung, die am 28. Febr.<lb/>
+geschlossen wird. Physiognomische Studien. Das hervorstehende<lb/>
+Kinn bei der Mehrzal der Schubert’schen Zeitgenossen. Brahms<lb/>
+mit Wagen zu uns abgeholt. Er soll sich von heute an<lb/>
+täglich elektrisiren lassen u. ist in Folge der Aussicht auf eine<lb/>
+neue Cur wieder etwas munterer. Zu meiner physiognom. Ent-<lb break="no"/>
+deckung meint er, der hervortretende Unterkiefer sei zu allen<lb/>
+Zeiten verbreitet. Seitdem die Männer Bärte tragen, werde<lb/>
+[nachträglich mit anderer Tinte zwischen die Zeilen geschrieben:<lb/>
+Moralisches. Die Breite des Vorurteils.<lb/>
+Das Objekt ohne Illusion.]<lb/>
+das Übel weniger bemerkt. Wir sprechen über die politische<lb/>
+Lage u. die Kretensische Verwickelung. Er freut sich über die<lb/>
+entschiedene Stellung, die Deutschland u. Kaiser Wilhelm<lb/>
+einnehmen. Unser Hausbau im Cottage beschäftigt ihn. „Sie<lb/>
+müssen doch viel Geld haben.“ Ich erwidere, daß wir unser ganzes<lb/>
+Capital bis auf ein Geringes ausgeben u. suche ihm begreiflich<lb/>
+zu machen, wie man sich mit einer Hypothek behelfen kann.<lb/>
+Das ist ihm absolut unverständlich, u. er sagt mir immer:<lb/>
+„Machen Sie mir doch nichts weis; Sie müssen doch dreimal mehr<lb/>
+im Vermögen haben, als das Haus kostet. Sonst thut man doch<lb/>
+so etwas nicht.“ Bei Tische mit Rosel, Doller, Singer, Brüll<lb/>
+u. Schneegans läßt Singer alle seine Raketen steigen u. schimpft<lb/>
+über die Regierung u. den „Hrn. Prohaska“. Br. eifrig dabei; macht<lb/>
+den Witz, man solle die Baronin Suttner als Friedensengel mit<lb/>
+d. Palmzweige nach Griechenland schicken. Schon unterwegs hat er seiner<lb/>
+Geringschätzung der Friedensfreunde Ausdruck gegeben. Denkwürdig das<lb/>
+Vorige Seite!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

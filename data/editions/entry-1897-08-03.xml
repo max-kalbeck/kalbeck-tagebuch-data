@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-03" n="01"/>
+            <title level="a">Dienstag, 3. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>3 August Dinstag.</head>
+            <p>Vormittags werden wir von Dr. Pollitzer überrascht, der mit Otto<lb/>
+u. Stephan Kantor zu Rade von Millstatt über Spital herüber-<lb break="no"/>
+gekommen ist. Die Seebodener Gesellschaft hat einen Ausflug zum<lb/>
+Faaker See gemacht, und wir sollen uns dort am Nachmittag alle<lb/>
+treffen. Stephan nimmt die Antwort auf einen Brief von Rosl<lb/>
+mit, den ich eben erhalten habe. Doris Klauber möchte gern das Kneip-<lb break="no"/>
+lied in meiner Handschrift besitzen. Nun kann ich es ihr gleich persönlich<lb/>
+geben. Nach Tische gehen Julie u. ich den nahen Weg zum Faaker<lb/>
+See, der nur zurückzulegen ist, wenn man sich über die Drau setzen<lb/>
+läßt. Der Fluß war durch die Wolkenbrüche, die überall in Oesterreich<lb/>
+(auch im Riesengebirge) furchtbaren Schaden angerichtet haben, hoch ange-<lb break="no"/>
+schwollen und schoß wüthend in schäumenden Strudeln dahin. Unsere<lb/>
+Zille tanzte so schnell über den reißenden Wirbel, daß sich Alles<lb/>
+im Kreise um uns drehte, und mir schwindelte. Wir waren froh, als<lb/>
+wir das andere Ufer erreicht hatten. Im Gasthof an der Villacher Straße<lb/>
+wurden wir von den „Buben“ erwartet, obwol wir gar nicht dorthin<lb/>
+zu kommen dachten. Die übrige Gesellschaft war schon nach der Insel<lb/>
+unterwegs. Da die Jugend sich des Rades bis Villach bedient hatte,<lb/>
+die Mütter aber so langweilig sind, wie ihre Töchter u. Söhne einmal<lb/>
+sein werden, so riß bei der allgemeinen Müdigkeit eine schläfrige Simmung<lb/>
+ein, die durch einige Juchezer und Singversuche nicht verscheucht wurde. Wir<lb/>
+fuhren zu Wagen nach Villach, aßen dort im Gasthofe z. Stadt Meran gut<lb/>
+zu Abend u. kamen, wieder zu Wagen, um 9 ½ Uhr in Zauchen [Ausstreichung] an,<lb/>
+mit allgemeiner Unruhe erwartet.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

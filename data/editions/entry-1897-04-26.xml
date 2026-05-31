@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-26" n="01"/>
+            <title level="a">Montag, 26. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>26 April [Montag]</head>
+            <p>[1. Fortsetzung vom 24. April]<lb/>
+Auch Herzogenbg. hätte da sein sollen, konnte aber wegen s. Erkältung nicht. Frau v.<lb/>
+Beulwitz (?) die Großmutter der Frau seines Sohnes, macht die liebenswürdige<lb/>
+Wirtin. Der Componist Stanford a. London (verspricht mir einen lustigen Bf.<lb/>
+von Brahms in Sachen seiner Cambridge Doctorwürde), Dr. Spitta der Sohn des<lb/>
+verstorbenen Bachbiographen, u. Elise Breiderhoff, meine Tischnachbarin. Sehr<lb/>
+angeregte Tischunterhaltung. Joachim teilt Vieles über Br. mit. (besonders notirt).<lb/>
+Aus Allem geht hervor, daß er einen Stachel im Herzen sitzen hat, der nicht<lb/>
+herausschwören will. Das herzl. Freundschaftsverhältnis zwischen beiden muß einen<lb/>
+schweren Stoß erlitten haben, bis es sich zur Gleichgiltigkeit abkühlte. J. behauptet,<lb/>
+daß Br. immer nur an sich, d. h. an sein höheres Selbst gedacht u. Alles fern ge-<lb break="no"/>
+halten habe, das diesem hätte schaden können. Ein berechtigter Egoismus. Wahrhaft<lb/>
+großartig sei das Beispiel, das er durch das unablässige Studium u. die Arbeit<lb/>
+an seiner geistigen u. künstler. Vervollkommnung der Welt gegeben habe. Auch ins<lb/>
+Physische hinein. Nie habe er eine ähnliche Wandlung, Verdichtung u. Abhärtung<lb/>
+bei einem anderen Menschen wahrgenommen. Der zarte, mädchenhafte Jüngling mit<lb/>
+der gebrochenen, weichen, in den hohen Sopran überschlagenden Stimme sei der<lb/>
+knorrige, wetterfeste und harte Mann geworden. („Hat nicht mich z. Manne<lb/>
+geschmiedet“ etc.) Im Frühjahr 1853 kam der 20jährige Br. zu Joachim nach<lb/>
+Hannover, von Reményi landsmannschaftl. eingeführt. Ein ungleiches Gespann.<lb/>
+Die Herrlichkeit dauerte auch nur 6 Wochen. J. in hohem Grade erstaunt<lb/>
+über die Genialität des jungen Musikers habe ihn bei Gelegenheit des rheinischen<lb/>
+Musikfestes an Schumann empfohlen od. ihn wol auch mit einer directen schriftl.<lb/>
+Empfehlung zu ihm geschickt. Ende Septbr. kam Br. nach Düsseldf. Am 3. Oktbr. 53<lb/>
+schickte Sch. einen Brief an Joachim, der wie ich aus d. Original ersah, wörtlich<lb/>
+lautet: „Ueber Brahms.“ (Ueberschrift) „Das ist der, der kommen mußte“.<lb/>
+„Rob. Schumann“. Dann ging Br. mit einer Empfehlung J.’s zu Liszt nach<lb/>
+Weimar, der ihn „einseitig und bedingungsweise“ schützte u. anerkannte. War er bei<lb/>
+Schumann mehrere Wochen geblieben u. kehrte er später in Zwischenräumen öfters<lb/>
+nach Düsseldf. zurück, so verweilte er nur kurze Zeit in Weimar. Die Extreme hatten<lb/>
+sich angezogen u. stießen sich ebenso schnell wieder ab. Br. blieb dann 2 volle Jahre<lb/>
+bei Joachim in Hannover, den Sommer in Göttingen. Der Concertzettel der</p>
+         </div>
+      </body>
+   </text>
+</TEI>

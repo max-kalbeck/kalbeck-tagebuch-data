@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-24" n="01"/>
+            <title level="a">Montag, 24. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>24 Mai Montag.</head>
+            <p>Mit Rocholl’s u. einem Frl. Kirchdorffer im Beethovenhause. Mich<lb/>
+reitet der Teufel, der um uns her verbreiteten Sentimentalität<lb/>
+eine Nase zu drehen, und ich beiße zum Entsetzen der Damen den<lb/>
+ironischen Schelm heraus. Mein Rebus: Die vor einem alten<lb/>
+Kachelofen in schmachtseliger Rührung stehende Dame: Beethoven =<lb/>
+bête-Ofen. Frl. K. wird ausfällig u. beleidigend, u. da sie sehr hübsch<lb/>
+ist und ihre Zornesröte sie gut kleidet, reize ich sie fortwährend. –<lb/>
+R. führt mich zu Ebbinghaus. Er hatte eine wunderschöne [eingefügt: junge] Creolin zur<lb/>
+Frau, die wir vor 17 Jahren anschmachteten. Damals war ich mit<lb/>
+Joachim u. Anderen (auch Brahms) zu Gaste bei ihnen, von Hans<lb/>
+Müller vorgestellt, und wir machten einen gemeinsamen romantischen<lb/>
+und Iuxuriosen Ausflug nach Heisterbach mit einander. Die Frau<lb/>
+ist inzwischen gestorben, und der Mann, der damals schon nicht mehr<lb/>
+jung war, ein kranker [über Ausstreichung: aber gebrechlicher] Greis geworden; nur<lb/>
+seine Gastfreundlichkeit hat sich ungeschwächt erhalten. Sein Haus mit<lb/>
+Palmengarten und Pavillon, der an alten Bäumen reiche ansehnliche<lb/>
+Park mit Lorbeer- u. Orangengarten versetzt uns nach Italien.<lb/>
+Andächtige erlesene Gesellschaft, in die an den Musiksaal grenzenden<lb/>
+Zimmer verstreut. Die wundervollste Musik: Brahms’ Horn-Trio<lb/>
+(Joachim, Hoyer, Borwick) u. Beethoven’s Es-Durquartett; zu<lb/>
+den offenen Fenstern schlagen die Nachtigallen herein. Der vollkommenste, reinste<lb/>
+Kunstgenuß, den ich jemals empfangen habe. Geheimrath Wendt, Frau<lb/>
+Fritsch, der Rector magnificus, Prof. Senffert (kennt mich v. Breslau her),<lb/>
+Deiters, Grimm, Neisser’s (a. Breslau), Prof. Zitelmann, Häffer etc.<lb/>
+unter d. Zuhörern. Mir ist, als ob Brahms u. Beethoven dabei wären.<lb/>
+Innige Rührung, bei Rocholl’s lerne ich Frl. Wassermeyer, eines der schönsten<lb/>
+Mädchen, kennen. Wäre ich um 20 Jahre jünger, würde ich für sie schwärmen.<lb/>
+Nach dem Concert im Hôtel Royal. Mittelmäßiges Vergnügen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

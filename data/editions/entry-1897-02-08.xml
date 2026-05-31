@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-08" n="01"/>
+            <title level="a">Montag, 8. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>8 Februar Montag.</head>
+            <p>Ein Feuilleton „Epilog zur Schubert-Feier“ geschrieben. Liederabend<lb/>
+Katzmayr; Ostheim’s zu Liebe hingegangen, die mich gebeten hatten.<lb/>
+[gehört zum 9. Februar]			Dinstag (1. Fortsetz.)<lb/>
+quittirt. [„]Aber M., bei einer solchen Veranlassung kann man doch nicht<lb/>
+einfach quittiren! Ich bin doch auch schon öfters in der Lage gewesen,<lb/>
+mich für dergl. Auszeichnungen bedanken zu müssen. Sie wissen vielleicht<lb/>
+nicht“ – redete er die Damen besonders an – „daß ich dreimal Ehrendoctor<lb/>
+in England, einmal in Breslau und Ehrenbürger von Hamburg bin,<lb/>
+was außer mir von den Lebenden nur Bismarck geworden ist! Da<lb/>
+habe ich doch wenigstens die unvermeidlichen Redensarten von unverdienter<lb/>
+Ehre etc. etc. gemacht, so was werden Sie (Mandycz.) doch auch geschrieben<lb/>
+haben. – Nein, ich habe nur quittirt! – Das ist stark. Slavische Ehrlichkeit.<lb/>
+Wenn ich ihm jetzt vorhalten würde, daß er gar nicht doctor honoris<lb/>
+causa sei, würde er sagen: ich hab’s auch nicht behauptet. Und wenn ich<lb/>
+ihm dann weiter vorwürfe, daß er über die Beschaffenheit seines Doctors<lb/>
+nichts habe verlauten lassen, würde er erwidern: Es hat mich ja niemand<lb/>
+danach gefragt. Slavische Ehrlichkeit. Na, ich bin fertig mit ihm und<lb/>
+verliere kein Wort mehr darüber.“ Und doch hat Br. auf M.<lb/>
+früher die größten Stücke gehalten und seine Tüchtigkeit immer gegen<lb/>
+Andere ausgespielt. Nun soll auch an seiner Arbeit nichts gar so<lb/>
+besonderes mehr sein. „Was ist denn da weiter dabei? Die reine<lb/>
+Fleißarbeit. Es war ja alles da und meist in musterhaftem Zustande:<lb/>
+Ausgaben u. Manuscripte. Da leisten unsere Musikgelehrten ganz<lb/>
+andere Dinge. O Gott, was wollen die Schubert’schen Lieder heißen<lb/>
+gegen Bach, Händel, Schütz u. solche schwere[n] Musiker. Bei denen<lb/>
+kommt es nicht blos auf Revisionen und Textvergleichungen an;<lb/>
+da sind andere Rätsel zu lösen.“ Noch einmal versuchte ich etwas<lb/>
+zu M.’s Gunsten vorzubringen; da kam ich aber schwer an. „Warum<lb/>
+(vorige Seite!)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

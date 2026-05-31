@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-12" n="01"/>
+            <title level="a">Dienstag, 12. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>12 Oktober Dinstag.</head>
+            <p>An der italienischen Oper gearbeitet. Scheußlich. Chausson<lb/>
+ist mit Allem einverstanden, was ich ihm zur Bedingung gemacht<lb/>
+habe, und ich muß nun zusehen, daß ich so bald wie möglich an<lb/>
+den König Artus herankomme. Die Cotta’sche Buchhandlung schickt<lb/>
+den neuen Musenalmanach und 15 Mk. für meine drei Gedichte.<lb/>
+Ein Apotheker Goltz in Thann i. Elsaß erkundigt sich teilnahms-<lb break="no"/>
+voll nach meinen Brahms-Studien; er hat meinen „Jungen<lb/>
+Brahms“ gelesen und zeigt Appetit nach mehr. [Ausstreichung] Sophie Char-<lb break="no"/>
+lotte v. Sell [eingefügt: i. Schwerin] – mein weiblicher Schatten vom Bonner Musikfeste,<lb/>
+hat im Kürschner meine Adresse entdeckt und glaubt, ich werde<lb/>
+mich auf eine Corresponenz mit ihr einlassen. Wird mit drei<lb/>
+Zeilen abgefertigt.<lb/>
+[Absatz wie ausgestrichen von einem Verweis zu Fortsetzung auf gegenüberliegender Seite]<lb/>
+Dr. M. Haberlandt wirft sich in der Zeitung zum Anwalt<lb/>
+u. moral. Retter des verrückten Wolf auf.<lb/>
+Die „Akadem. Lesehalle“ der Czernowitzer Studirenden ladet<lb/>
+mich zu einem am 16. aus Anlaß der Enthüllung des Tomaszczuk-<lb break="no"/>
+denkmales stattfindenen Commerse ein.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

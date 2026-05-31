@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-11" n="01"/>
+            <title level="a">Sonntag, 11. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>11 April Sonntag.</head>
+            <p>Todtenfeier für Brahms in der „Gesellschaft d. Musikfreunde“.<lb/>
+Sein Deutsches Requiem. Im Saale giebt es große Lücken, u. das<lb/>
+Stehparterre, das bei irgend einer Bruckner- oder Straussiade<lb/>
+überfüllt zu sein pflegt, ist beinahe leer. Auch bei dem Begängnisse<lb/>
+war weder die Universität noch die Studentenschaft vertreten. Die<lb/>
+„Deutschnationalen“ jubelten dem servilen, gehirnschwachen Römlinge<lb/>
+Bruckner zu. Für den größten deutschen Künstler hat die<lb/>
+moderne Jugend nichts übrig. In einer solchen Zeit muß man<lb/>
+leben! Ilona Eibenschütz ist vorgestern aus London zurückgekehrt.<lb/>
+Sie hat sich einen braunrothen Frühjahrshut für die Todtenfeier<lb/>
+aufgesetzt. Die Nachricht erfuhr sie in einem Quartett Joachim’s.<lb/>
+Er hatte sie schon früher erhalten, sagte aber trotzdem seinen<lb/>
+Quartettabend nicht ab. I. grämt sich darüber, daß Frau Adele Str.<lb/>
+die berühmte Gollaschgeschichte *) [siehe Folgeseite] annectirt und für sich in den Blättern<lb/>
+ausgebeutet hat. Da stand auch zu lesen, daß Br. die Familie<lb/>
+Strauss jeden Sommer nach Ischl begleitet habe. – Nach dem Requiem<lb/>
+sind wir bei Miller’s mit dem Meininger Concertmeister, Heuberger’s u.<lb/>
+Mandyczewski zum Diner. Der arrogante u. alberne Brief der Frau<lb/>
+Cosima, der „hehrsten deutschen Frau“, die nicht ordentl. deutsch schreiben kann,<lb/>
+wird commentirt. Miller zeigt seine Brahms-Schätze. Br. verkehrte erst seit<lb/>
+11 Jahren bei ihm u. machte sich über den weichen Miller auch brieflich lustig,<lb/>
+indem er oft an ihn schrieb: Wiegdor v. Miller. (Sein Toast auf die<lb/>
+„Hausfrau“ u. sein vorjähriger Streit mit Hanslick, den er ein „altes Weib“<lb/>
+nannte). Der junge Miller hat den Todten photographirt u. schenkt mir zwei<lb/>
+Bilder. Zu Fuß ins Cottage, am Bauplatz vorbei zu Wärndorfer’s. Dort mit Zasche,<lb/>
+Dora Fournier, Frau Horwitz, Benedict’s u. Frl. Sonnenthal. Während des Soupers</p>
+         </div>
+      </body>
+   </text>
+</TEI>

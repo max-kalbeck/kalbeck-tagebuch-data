@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-22" n="01"/>
+            <title level="a">Montag, 22. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 März Montag.</head>
+            <p>[ganz oben auf der Seite geschrieben]<lb/>
+Am Sonntag Abend bei Hillischer’s mit Zetsche, Molden’s u. dem Secretär des Fürsten<lb/>
+v. Bulgarien, ...? Interessanter, aber unheiml. Mensch. Vorher Julie von Kantor’s abgeholt.<lb/>
+Montag.<lb/>
+Generalprobe eines Ballets, zu welchem Hr. Strasser, der berüchtigte<lb/>
+Millionenerbe des Baron Königswarter, angeblich die Musik<lb/>
+geschrieben haben soll. Thatsächlich rührt die Musik von Wein-<lb break="no"/>
+zierl u. Hellmesberger her, und Strasser hat sie gekauft. In<lb/>
+der Hofoper pfeifen es die Spatzen vom Dache. Hellm. hat recht<lb/>
+dran gethan, sich für die 1000 fl., die er bekommen hat, nicht weiter<lb/>
+anzustrengen, sondern seine alten Partituren zu plündern. Die<lb/>
+Musik aber ist so elend, daß ich an Strasser’s Stelle sie nicht<lb/>
+geschenkt genommen haben würde. Viel Spaß mit Hanslick,<lb/>
+Heuberger u. dem „weiblichen Collegen“. – Karpath besorgt<lb/>
+mir von Schönaich die Partitur von „Zarathustra“.<lb/>
+Abends Quartett Roeger-Soldat.<lb/>
+[Fortsetzung vom 21. März]<lb/>
+eingeladen war. Ich ging mit Brahms zusammen. Die Dame d. Hauses begleitete<lb/>
+uns die Treppe hinunter bis zur Hausthür; sie wollte einen Wagen holen lassen, aber<lb/>
+Br. lehnte ab. „Es ist ja nur um die Ecke.“ Wir gingen über den paar Schritten<lb/>
+eine Viertelstunde. Er sah erbärmlich aus u. schleppte die Füße nach; seine Seufzer<lb/>
+gingen mir durch Mark u. Bein. Dabei immer noch die Scheu und Verlegenheit,<lb/>
+seine Schwäche zu verraten! Man soll ihm nur ja nichts anmerken. Einmal nahm<lb/>
+er einen Anlauf, sein Herz durch Klagen zu erleichtern. „Das ist der weiteste<lb/>
+Weg, den ich seit Neujahr mache“ – (er irrte sich in der Zeit) und wie schwer<lb/>
+fällt er mir! Ich sage Ihnen, es ist jammervoll.“ So wie ich aber meine Teilnahme<lb/>
+äußerte u. ihn fragte, ob ich nicht doch nach einem Wagen laufen sollte, [eingefügt: entzog er mir seinen Arm und] brach ungeduldig u.<lb/>
+gleichsam gekränkt ab. Nach wenigen Schritten blieb er immer stehen, u. bei der Carls-<lb break="no"/>
+kirche, die er so gern sieht, forderte er mich zu einem Lobe des geliebten Gebäudes<lb/>
+heraus, nur um sich an die Mauer lehnen zu können. „Wie schön ist die Kirche, sehen<lb/>
+Sie nur! Und dort lag das alte Haus „z. gold. Mondschein“ – er winkte mit dem Kopfe.<lb/>
+(Gespräch über d. Zeit nach d. 30 jähr. Kriege, über Fischer v. Erlach u. d. Dresdener Zwinger.)<lb/>
+An der Ecke von der Carlsgasse schickte er mich, nachdem er noch meinen Arm abgelehnt hatte,</p>
+         </div>
+      </body>
+   </text>
+</TEI>

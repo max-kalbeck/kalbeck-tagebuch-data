@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-11" n="01"/>
+            <title level="a">Montag, 11. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>11 Januar Montag.</head>
+            <p>Ilona Eibenschütz sendet uns von London ihre Photographie.<lb/>
+Früh mit Julie in die Baukanzlei des Cottage-Vereins. Wir<lb/>
+entschließen uns den verhältnismäßig großen Platz (360 □ Kl.) in der<lb/>
+Carl Ludwig straße zu kaufen, die Quadratklafter zu 46 fl., und<lb/>
+ermächtigen den Director Müller die einleitenden Schritte zu thun.<lb/>
+Ich habe eine unbestimmte Angst vor dem ganzen Unter-<lb break="no"/>
+nehmen u. male mir alle möglichen schlimmen Folgen in schwarzer<lb/>
+Farbe aus. Im Hôtel de France unsere Karten abgegeben für Gang-<lb break="no"/>
+hofer’s, die ausgegangen waren. Nachmittags auf die Bank, um<lb/>
+Gelder zu erheben für den Platzkauf. Unterwegs Pötzl<lb/>
+getroffen; der Erste, der mich zu dem Unternehmen beglückwünscht.<lb/>
+Scherzando mit dem Briefmarkenhändler Heim; er zeigt mir aus<lb/>
+seinen Geschäftsbüchern, daß er während d. letzten Jahres für 24000<lb/>
+fl. Marken gekauft hat. Der Briefmarkenwahnsinn. Poetisch<lb/>
+zu benutzen: Die beiden Mauritiusmarken von Briefen, in denen<lb/>
+sich ein entarteter Flüchtling von d. Heimat entsagt. Der Betrug,<lb/>
+den er damals verübt, wird durch die Marken mit Zinsen aufge-<lb break="no"/>
+wogen od. dergl. Nach d. Concert Gabrilowitsch zu Johann<lb/>
+Strauss in eine sehr langweilige Soirée. Ich zwischen der Witwe<lb/>
+Conrad u. Frau Blumenthal, einem frisch wiederangehenden u. einem<lb/>
+ausgebrannten Krater. Oscar Blumenthal als dicker Ehemann.<lb/>
+Blutiger Oscar, wie hast du dich verändert! Er giebt keinen lauten Ton<lb/>
+mehr von sich, schwimmt müde, selbstzufrieden u. satt in seinem<lb/>
+Fette. Hofmann, der Ex-Coupletsänger, Priester, der Ex-Lustig-<lb break="no"/>
+macher, Adele, die Ex-Königin, lauter passirte Größen! Der arme<lb/>
+Jean macht einen mumienhaften Eindruck. Ganghofer’s die einzige Lebendigen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

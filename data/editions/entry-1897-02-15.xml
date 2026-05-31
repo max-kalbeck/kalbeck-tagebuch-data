@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-15" n="01"/>
+            <title level="a">Montag, 15. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>15 Februar Montag.</head>
+            <p>Ein Musikfeuilleton angefangen. Nach Tische gehen wir ins Cottage<lb/>
+und zeigen den Kindern unsern Bauplatz. Allgemeines Entzücken.<lb/>
+Curios, den Fleck Erde zu kennen, auf welchem man voraussichtl.<lb/>
+sterben wird. Das Gefül des Gestorbenseins wird mir oft sehr leb-<lb break="no"/>
+haft deutlich, oder vielmehr das Gefül, nur noch als objectiver Beobachter<lb/>
+an der Welt teilzuhaben, die auch an mir keinen Teil mehr nimmt.<lb/>
+Wäre einmal poetisch zu behandeln u. auszuführen. Auch der thörichte,<lb/>
+aber verzeihliche Wunsch, zu wissen, wie es nach unserem Tode in<lb/>
+der Welt aussehen wird. Wenn ich mir vorstelle, ich sei schon<lb/>
+vor zwanzig Jahren gestorben, so weiß ich’s. Julie u. Muxl<lb/>
+fahren mit der Tramway nach Hause. Ich spaziere mit Paul<lb/>
+weiter, die Carl Ludwig straße hinauf nach Währing. Wir besuchen<lb/>
+den alten Währinger Friedhof. Paul wußte sich genau daran zu<lb/>
+erinnern, daß ich vor vielen Jahren schon ihn zu den Gräbern Beethoven’s<lb/>
+u. Schubert’s geführt hatte. Sie sind noch immer äußerlich erhalten,<lb/>
+obwol ihre Todten schon 1888 nach dem Centralfriedhof hinüber-<lb break="no"/>
+getragen worden sind. Paul hat noch nie einen Sarg gesehen. Er meinte in<lb/>
+ziemlich wegwerfendem Tone: „mir ist es eins, ob ich leb’ oder sterb’.“ –<lb/>
+Lebst du denn nicht gern? — „Das schon, aber ich fürcht’ mich nicht vorm<lb/>
+Sterben.“ Sonderbarer Kerl! Wir waren vertraulich u. zärtlich mit einander<lb/>
+wie zwei Brüder u. Freunde, machten eine Vergnügungsfahrt auf der<lb/>
+elektrischen Bahn, die in Wien noch immer als ein Wunder angestaunt<lb/>
+wird, besuchen ein kleines Café vor der Mariahilfer Linie u. kommen<lb/>
+sehr müde nach Haus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

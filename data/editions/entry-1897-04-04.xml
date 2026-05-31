@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-04" n="01"/>
+            <title level="a">Sonntag, 4. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>4 April Sonntag.</head>
+            <p>Vor dem Concert bei Heuberger. Gemeinsame Klage. Seine Wichtig-<lb break="no"/>
+u. Geheimnisthuerei: „Aus den Zeitungen habe ich heute wieder ersehen,<lb/>
+daß ich doch am meisten von Brahms weiß.“ Er zeigt mir sechs geschriebene<lb/>
+Hefte mit Aufzeichnungen über ihn, da er seit vielen Jahren jedes Wort<lb/>
+v. Br. immer gleich festzuhalten pflegte. Es kommt nur darauf an, was<lb/>
+Br. ihm gesagt hat. Hätte ich mein Tagebuch früher u. regelmäßiger<lb/>
+geführt, so könnte ich ein artiges Heft zusammen stellen. Was mir noch<lb/>
+im Gedächtnis geblieben ist, will ich doch notiren. Ich hole Julie bei<lb/>
+Brüll ab, um sie in die Karlsgasse zu begleiten, da sie den Todten<lb/>
+durchaus noch einmal sehen will – gegen meinen Wunsch.<lb/>
+[längere Ausstreichung]<lb/>
+Unsere gemeinsamen Vorstellungen, daß die im Zimmer aufgebahrte Leiche<lb/>
+von Hunderten v. Neugierigen umdrängt sein wird, u. daß es doch entsetzlich<lb/>
+sei mit dem Volke dort zusammenzustoßen, dringen durch. *) Prof. Epstein<lb/>
+veranlaßte Hans Richter u. das Hofopernorchester, Mozart’s „Maurerische<lb/>
+Trauermusik“ dem Programm voranzuschicken. Die Herren wollten anfangs<lb/>
+nichts davon wissen, u. es hielt [fiel] schwer die Stimmen zu beschaffen. Nach der<lb/>
+Musik trat lautlose Stille ein. Während der IX. Symph. suchen meine<lb/>
+Augen immer unwillkürlich den Todten in der Directionsloge. Sein Platz wird<lb/>
+von irgend einem gleichgiltigen Menschen bald wieder besetzt sein. Bei dem<lb/>
+Paukendonner im ersten Satze faßt mich der ganze Jammer unseres erbärmlichen<lb/>
+elenden Daseins an, und mein verhaltener Schmerz erleichtert sich in einem Strom<lb/>
+von Thränen. Nach dem Concert sah man viele verweinte Augen. Die liebe Rosel.<lb/>
+Nach Tische besuchen mich Brüll u. Georg Henschel. Seinen Bitten nachgebend<lb/>
+gehe ich am Abend ins Concert; er begleitet seine Frau am Clavier. Nachher speisen<lb/>
+wir mit ihnen in der Statthalterei, da sie uns versichern, Kielmannsegg’s seien nicht<lb/>
+zu Hause. Die Gräfin aber erwartet uns mit Gräfin Wiedenbruck (Esterhazy) und<lb/>
+bewillkommnet uns sehr liebenswürdig. Seinem Schicksal entgeht man nicht. Nachdem sich<lb/>
+die Damen empfohlen haben, plaudern wir von alten Breslauer Jugendtagen u. neuen<lb/>
+Opernplänen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

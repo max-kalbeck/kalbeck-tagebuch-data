@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-10" n="01"/>
+            <title level="a">Samstag, 10. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 April Samstag.</head>
+            <p>Feuilleton über die Berliner Philharmoniker. Abends mit Henschel’s<lb/>
+bei Brüll. Sie laden mich dringend nach England ein, ich soll im<lb/>
+Mai dort mit Georg zusammen an der Oper arbeiten. Er erzält viel<lb/>
+Lustiges u. Interessantes von Brahms. Sie waren in den 70. Jahren<lb/>
+auf gemeinschaftlichen Concertreisen am Rhein u. Mitteldeutschland.<lb/>
+Die Anekdote von dem Coblenzer Weinhändler, der von seinem 1862er<lb/>
+kredenzte u. sagte „Das ist der Brahms unter d. Rheinweinen.“ – „Na, da<lb/>
+möchte ich lieber gleich um den Seb. Bach bitten.“ Die Geschichte<lb/>
+mit Raff u. Hochberg. R. rühmte sich, daß H. eine seiner Symph.<lb/>
+auf d. Schles. Musikfeste spielen lassen werde. Darauf meinte Henschel,<lb/>
+es sei dies keine so besondere Auszeichnung, weil H. seine eigene<lb/>
+Symphonie, ein sehr trauriges Machwerk, dazu aufführen lasse. Brahms:<lb/>
+„Sie sollten sich hüten, über die Symphonie eines hochgestellten Mannes<lb/>
+loszuziehen. Man kann ja nie [ausgestrichen: genau] wissen, wer sie eigentlich com-<lb break="no"/>
+ponirt hat.“ Mahler ist engagirt worden.<lb/>
+[Fortsetzung vom 7. und 8. April]<lb/>
+werden: eine Linde u. zwei Trauereschen. Auf den Zweigen des mittleren<lb/>
+Baumes saßen zwei Vögel. Mir war, als ob ich sie feierlich begrüßen<lb/>
+müßte: „Meine Herren! Ich weiß das Vertrauen, das Sie in die Zweige<lb/>
+meines Baumes setzen, wohl zu würdigen u. fühle mich sehr geehrt durch<lb/>
+diese Auszeichnung.“ Da flogen sie lustig zwitschernd davon. Mit den Brüll’schen<lb/>
+Damen wieder auf der hohen Warte.<lb/>
+Am Freitag Visitentournée im Kantor’schen Wagen. Eine Viertelstunde<lb/>
+bei Frau Fellinger. Erinnerungen an Weihnachtsabende u. Brahms; ihre Späße<lb/>
+u. Geschenke. Sie weiß, daß er viel Schmerzen ausgestanden hat. Die Testaments-<lb break="no"/>
+angelegenheit. Bei Vesque’s, Miller’s, Faber’s u. Kantor’s.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

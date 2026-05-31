@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-18" n="01"/>
+            <title level="a">Freitag, 18. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>18 Juni Freitag.</head>
+            <p>An den unglücklichen Busse schrieb ich folgenden Brief:<lb/>
+S. g. H. Ihrer Poesie haben Sie es zu verdanken, daß ich gleich auf<lb/>
+Ihre Wünsche eingegangen bin. Wer solche Verse machen kann, verdient<lb/>
+unter allen Umständen unterstützt zu werden. Wäre ich der reiche Mann,<lb/>
+den Sie, ich weiß nicht warum, in mir vermuten, so hätte ich Ihnen<lb/>
+das Zehn-, ja das Hundertfache von dem geschickt, was Sie von mir ver-<lb break="no"/>
+langten. Obwol ich aber nur ein anständig honorirter Schriftsteller<lb/>
+bin, der von der Arbeit seiner Feder lebt, möchte ich gern Alles für Sie<lb/>
+thun, was ich mit eigener u. fremder Hilfe für Sie thun kann.<lb/>
+Um dies mit Aussicht auf Erfolg einzuleiten, muß ich näher<lb/>
+in Ihre Verhältnisse eingereiht sein. Deshalb bitte ich Sie mir möglichst<lb/>
+ausführlich über Ihre Vergangenheit zu berichten, mir schriftliche und<lb/>
+gedruckte Belege über Ihre schriftstellerische Thätigkeit, überh. einzuschicken,<lb/>
+was Sie an Prosa und Poesie vorrätig haben, u. mir auch zu sagen,<lb/>
+wie Sie sich Ihre Zukunft zu gestalten denken. Zeugnisse u. Correspon-<lb break="no"/>
+denzen wären mir ebenfalls willkommen. Ich will genau wissen, für wen<lb/>
+ich mich interessire.<lb/>
+Sie dürfen mir meine Umständlichkeit nicht verübeln u. mir auch nicht<lb/>
+zürnen, wenn ich Ihnen das Motiv derselben unumwunden eingestehe.<lb/>
+Ich bin schon so oft von gewissenlosen u. unverschämten Betrügern<lb/>
+ausgebeutet u. in die fatalsten Situationen gebracht worden, daß ich im<lb/>
+ersten Zorn über den Misbrauch, den man mit meiner leichtgläubigen<lb/>
+Gutmütigkeit getrieben, mir gelobt habe, nie wieder auf derlei Zu-<lb break="no"/>
+dringlichkeiten zu reagiren. Aber ich werde diesen Vorsatz niemals ausführen,</p>
+         </div>
+      </body>
+   </text>
+</TEI>

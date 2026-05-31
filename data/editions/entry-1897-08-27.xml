@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-27" n="01"/>
+            <title level="a">Freitag, 27. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>27 August Freitag.</head>
+            <p>Die Satire auf das Villacher Warmbad beendet und an Pötzl<lb/>
+abgefertigt. Singer bewilligt mir in einem ziemlich melancholischen<lb/>
+Briefe die Verlängerung meines Urlaubes bis Ende September.<lb/>
+Julie kommt auf die Idee, in Folge eines sehr launigen Einladungs-<lb break="no"/>
+schreibens von Frau Sida, Kantor’s am Abend mit unserem Besuche<lb/>
+unangemeldet zu überraschen. Die holde Gitschthalerin kutschirt<lb/>
+uns nach Villach, und wir kommen zugleich mit einem prachtvollen<lb/>
+Gewitter in Spital an. Da wir Sepp am Landungsplatze vor-<lb break="no"/>
+finden, fahren wir seelenruhig, während es von allen Seiten<lb/>
+blitzt und stürmt, über den See. Eigentümliche und großartige<lb/>
+Lichteffecte. Der Nachglanz der untergegangenen Sonne, die<lb/>
+roten Blitze, das schwarze, schäumende Wasser, der dunkelviolette<lb/>
+Himmel – ein Böcklin’sches Gemälde. Wir finden das Haus<lb/>
+hell erleuchtet, den Saal voll Gäste. Die Seebodener und ein<lb/>
+Triestianer Oberlieutenant, der virtuos zu pfeifen versteht.<lb/>
+Große Ueberraschung. In mir eine Art von Todtentanzstimmung,<lb/>
+gemischt mit erhöhtem Lebensgefühl. Die Hausfrau ist zum großen<lb/>
+Ärger der Herren auf der Jagd. Louise vertritt dickköpfig ihre<lb/>
+Stelle. Es geht wieder einmal Alles drunter u. drüber, u. wenn<lb/>
+nicht Louise zuletzt energisch reinen Tisch machte, wären die artigen<lb/>
+u. unartigen Kinder bis zum Morgen dageblieben. So schwimmen<lb/>
+sie um 10 Uhr in die stille Nacht ab, und es ist scheinbare Ruhe<lb/>
+im Hause. Die Neigung im Hause Kantor zu Gewitterbildungen<lb/>
+ist permanent.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

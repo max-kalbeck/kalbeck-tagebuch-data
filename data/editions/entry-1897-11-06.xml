@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-06" n="01"/>
+            <title level="a">Samstag, 6. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>6 November Samstag.</head>
+            <p>Heyse schickt mir ein Eichendorff’sches Autograph und tröstet mich<lb/>
+der Erfolglosigkeit meiner Unterhandlungen wegen, die bei Burckhard<lb/>
+zu keinem Resultate zu führen scheinen. Ich beendige den Textauszug<lb/>
+vom I Acte des „König Artus“ und fange am Nachmittag an über<lb/>
+„Simon Thums“ zu schreiben. Aus der Notiz wird ein kleines Feuilleton,<lb/>
+das auf Intervention Juliens von Pötzl als solches regardirt wird –<lb/>
+gegen meinen Willen. Unterdessen gehe ich mit Paul ins Quartett<lb/>
+Prill. In der Befürchtung, Paul werde sich bei der ernsten Musik bald<lb/>
+zu langweilen anfangen, sehe ich mich sehr angenehm enttäuscht.<lb/>
+Er verfolgt die Musik bis zur letzten Note mit leidenschaftlicher<lb/>
+Aufmerksamkeit u. ist besonders von dem A. M.-Quartett v. Brahms<lb/>
+entzückt, mehr als von Mozart u. Beethoven. Später vertraut er der<lb/>
+Mutter an, daß er sich etwas Eigenes dabei gedacht habe. Es war so,<lb/>
+sagte er, als wenn ein Vater recht böse auf seinen Sohn wäre, und<lb/>
+als wenn der Sohn immer wieder recht schön um Verzeihung bäte.<lb/>
+Schade, daß Brahms diese kindliche, aber nicht unpassende Inter-<lb break="no"/>
+pretation nicht mehr erfahren kann. Muxl war im Orchesterconcert bei<lb/>
+den Budapestern. Beide Kinder sind geborene Musikanten u. geborene<lb/>
+Faullenzer, ganz wie ihr Vater. Anstatt Violine u. Clavier zu lernen,<lb/>
+muß sich Paul mit Griechisch u. Latein plagen, u. auch Muxl hat<lb/>
+nicht viel für ihr Clavierspiel übrig, seit sie wieder mit Hannah<lb/>
+Brüll studirt. [längere Ausstreichung: In der Nacht lese ich „Simon Thums“ zu Ende und<lb/>
+habe das Gefül daß B]<lb/>
+Ricarda Huch hat Geschichte studirt, ist Dr. phil, war drei Jahre Bibliothekarin<lb/>
+in Zürich, sollte Professorin an einem Mädchengymnasium in Bremen werden,<lb/>
+u. reist nun, da das Gymnasium aus Mangel an Schülerinnen nicht zu<lb/>
+Stande kam, nach der Schweiz zurück, um unterwegs vorher Menschen kennen<lb/>
+zu lernen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

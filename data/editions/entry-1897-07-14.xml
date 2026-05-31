@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-14" n="01"/>
+            <title level="a">Mittwoch, 14. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>14 Juli Mittwoch.</head>
+            <p>[3. Fortsetzung vom 11. Juli]<lb/>
+der Verlängerung bis Rothenthurm u. Seeboden sehnt. So wachsen<lb/>
+die ohnehin schon enormen Kosten ins Ungeheuere und Unabsehbare,<lb/>
+ohne daß der Wert der Besitzung dadurch stiege. Es giebt kaum<lb/>
+etwas Schöneres, aber auch nichts Unpraktischeres als diese kühne<lb/>
+Realisation eines romantischen Frauentraumes. Schade, daß ich den<lb/>
+Roman: „Die Idee einer Frau“ nicht schreiben darf! ......<lb/>
+Den Sonntag über waren wir sehr vergnügt beisammen und fuhren,<lb/>
+von Frau Sida u. Rosl bis nach Spital begleitet, ziemlich um-<lb break="no"/>
+ständlich nach Zauchen zurück, mit dem Versprechen, am Mittwoch<lb/>
+wiederzukommen u. die Kinder mitzubringen. Trotz der Seevilla „Großegg“<lb/>
+gefiel mir das dürftige Zauchen wieder sehr gut, u. mir thut es fast<lb/>
+wehe, daß ich seine idyllische Ruhe auf mehrere Tage missen soll.<lb/>
+Brief von Frau v. Beckerath. Der Einfluß, den mein Feuilleton<lb/>
+vom Ringtheaterbrande (v. 1881) auf ihren Sohn Willy, den Maler,<lb/>
+gehabt hat: sein Talent entzündete sich daran. Merkwürdige Verknüpfungen<lb/>
+des Schicksals! Frau v. B. ist Abonnentin des Tagbl. geworden. Karte v.<lb/>
+Stockhausen.<lb/>
+[Dinstag, 13. Juli]<lb/>
+Am Dinstag machten wir eine Expedition nach Tarvis, um<lb/>
+Helene v. Vesque zu ihrem Geburtstage zu gratuliren. Julie voraus<lb/>
+nach Villach, ich zu Fuß nach. Freier Umblick in das Villacher Thal.<lb/>
+Eine Stunde in der Bahnrestauration gewartet. Die Eisenbahnfahrt in<lb/>
+der Mittagshitze trägt nicht dazu bei, meine Laune zu verbessern. Misver-<lb break="no"/>
+ständnis des höflichen mitreisenden Italieners, der meine Sachen dem Bahn-<lb break="no"/>
+hofsinspector in Tarvis zum Fenster hinausreicht, während wir schon wieder im<lb/>
+Wagen sind, um erst in Ober-Tarvis auszusteigen. Wir essen bei<lb/>
+Schnablegger zu Mittag. Der ehemal. genial angewehte Wirt. Sein</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-28" n="01"/>
+            <title level="a">Mittwoch, 28. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 Juli Mittwoch.</head>
+            <p>Unsere Abreise, die für heute anberaumt war, wird auf gutes<lb/>
+Zureden von verschiedenen Seiten bis Sonntag aufgeschoben. Paul<lb/>
+ist sehr ungehalten darüber; ihm dauert das gute Leben schon viel<lb/>
+zu lange, und er sehnt sich nach dem Zauchener Mist. Ich kann<lb/>
+es ihm nicht verargen, wie sehr immer seine Mutter gegen die<lb/>
+Undankbarkeit ihres Sohnes wettert. Auch ich ertappe mich zuweilen<lb/>
+auf dem Wunsche, aus der schwülen, mit entnervenden Genüssen<lb/>
+geschwängerten Atmosphäre in reinere und frischere Luft hinauszu-<lb break="no"/>
+fliehen. Eine romantische Kahnpartie, die Rosl, Muxl u. ich<lb/>
+ohne Urlaub unternehmen, erregt großes Ärgernis, und es wird<lb/>
+auf uns gefahndet wie auf ein Piratenschiff. Wir lustigen und<lb/>
+übermütigen Seefahrer hatten uns in einer Bucht im Schilf ver-<lb break="no"/>
+steckt, die Ruder eingezogen und das Schifflein den schaukelnden<lb/>
+Wellen überlassen. Hinter den Pusterthaler Bergen war ein Gewitter<lb/>
+aufgezogen, wir aber lagen der Länge lang auf dem Rücken,<lb/>
+schwatzten Unsinn oder dachten uns stillschweigend, was uns gefiel,<lb/>
+und sahen in den Himmel hinein. Dabei verging die Zeit so<lb/>
+schnell, daß keiner an die Heimkehr dachte, bis wir Sepp auf<lb/>
+uns zusteuern sahen. Juliens unnötige Entrüstung. Rosl, ihrer<lb/>
+Umgebung überdrüssig, hat den Plan, mit Louise für längere Zeit<lb/>
+nach England zu gehen. Muxl meint, sie wollte sich dort einen Mann<lb/>
+holen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

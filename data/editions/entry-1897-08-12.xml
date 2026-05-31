@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-12" n="01"/>
+            <title level="a">Donnerstag, 12. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>12 August Donnerstag.</head>
+            <p>Im Walde gearbeitet. Der gestrige Ausflug ist mir schlecht bekommen,<lb/>
+und ich leide an meinen alten Schmerzen im Rücken, die wahrscheinl.<lb/>
+von der Lunge herrühren, wenn ich huste. Die Kinder belustigen sich<lb/>
+mit geheimnisvollen Vorbereitungen für das Kaiserfest. Muxl<lb/>
+hat sich von unserer Nachbarschaft das ungarische Mauscheln angewöhnt.<lb/>
+Die Familie Königsberger, kleine jüdische Geschäftsleute aus Pest, ur-<lb break="no"/>
+sprünglich aus 7 Köpfen, Eltern u. fünf Kindern, bestehend, hat sich durch<lb/>
+Zuzug von Verwandten allmählich verdreifacht. Da es in unserer<lb/>
+dem Concurs entgegengehenden Gastwirtschaft an Allem, besonders aber<lb/>
+an Betten fehlt, so schlafen sie nebenan immer zu Dreien in einem<lb/>
+Bette. Die Geschichte der blonden Gitschthalerin, die ursprünglich<lb/>
+Kellnerin im Hause war u. sich verleiten ließ, eine Erbschaft von 3 od.<lb/>
+4000 fl. zum Kaufe desselben zu verwenden. Ihr Schatz, der Müller<lb/>
+in Seebach, dem sie sich aufdrängt, u. über dem sie Alles liegen läßt,<lb/>
+so daß [Ausstreichung: sie] ihre Dienstleute oft nichts zu essen haben, weil sie weggeht<lb/>
+u. die Schlüssel mitnimmt. Ihre Äcker bleiben unbestellt, der Weide<lb/>
+fehlt das Vieh, der Küche das Geschirr, der Kammer die Vorräte,<lb/>
+und es geht Alles drunter u. drüber. Der Großknecht, dem die Wirtin<lb/>
+Geld schuldig ist, ist fort, und die Köchin u. Magd werden ihm folgen.<lb/>
+Das Personal des Hauses reducirt sich auf eine halbverrückte Kuhtreiberin<lb/>
+u. zwei alte Leute, die zum Ausgedinge gehören. Sie waren einmal die<lb/>
+reichsten Bauern im Ort, sind durch ihre Kinder ins Elend gekommen, u. sehen<lb/>
+nun stumpfsinnig, wie ihr ehemaliger Besitz zu Grunde gerichtet wird.<lb/>
+Eine tragische Geschichte. Unglaubliche Zustände. Die Landstraße u. ihre Leute.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

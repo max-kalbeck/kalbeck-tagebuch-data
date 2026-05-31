@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-10" n="01"/>
+            <title level="a">Montag, 10. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 Mai Montag.</head>
+            <p>Bei Miller v. Aichholz zu Tische mit Hanslick’s, Heuberger’s<lb/>
+u. Mandyczewski. Letzterer ist gegenwärtig stark in Anspruch ge-<lb break="no"/>
+nommen von der Inventarisirung der Brahms’schen Hinterlassen-<lb break="no"/>
+schaft. Ein Lied und die Choralvorspiele sind Alles, was von unge-<lb break="no"/>
+druckten Compositionen vorhanden ist. Dagegen haben sich wunderbarer<lb/>
+Weise, sehr viele – gegen dreißig – Manuscripte bekannter<lb/>
+Werke vorgefunden, die alle dem Archiv der Gesellschaft zu Gute<lb/>
+kommen sollen. Die Bibliothek u. die Handschriften sollen ihr eben-<lb break="no"/>
+falls zugeführt werden; ein eigenes Zimmer ist dafür in Aussicht<lb/>
+genommen. Miller schwärmt von einem Brahms-Zimmer, das<lb/>
+im Museum der Stadt Wien zu etabliren wäre. Heuberger<lb/>
+will seine sechs Hefte Brahmsiana mit Erinnerungen an Hamer-<lb break="no"/>
+ling und Anzengruber zusammen herausgeben. Hanslick ist<lb/>
+wie immer gut aufgelegt, reist nächstens nach Carlsbad. Der junge<lb/>
+Miller will die Wohnung v. Brahms, die immer wieder versiegelt wird,<lb/>
+so lange die Inventarisirung dauert, photographisch aufnehmen. Ich<lb/>
+möchte sie genau beschreiben. – Rendez-vous mit Molden im Stadtpark.<lb/>
+Ich in nervös gereizter, krankhafter Stimmung. Schwerer Ärger mit Julie.<lb/>
+Auf dem Bureau Karten für morgen bestellt. Zu Hause Versöhnung.<lb/>
+Meine Empfindlichkeit. Beschluß, Dr. Breuer zu Rate zu ziehen. Abends<lb/>
+bei Brüll.<lb/>
+[1. Fortsetzung vom 8. Mai]<lb/>
+Hamburg) hat er gesorgt. Nur von einem Bruder, der ebenfalls Musiker war u. [Ausstreichung]<lb/>
+gleichzeitig mit ihm einen Gesangverein in Hambg. etablirt hatte, wollte er nichts wissen,<lb/>
+weil er schlechter Streiche wegen nach Amerika auswandern mußte, u. es war ihm unangenehm, daß<lb/>
+er von den Unterstützungen, die er d. Vater zuwendete, nach seiner Rückkehr profitirte. –<lb/>
+Faber will ein Denkmal-Comité für ein Wiener Denkmal zus. berufen. – Helene<lb/>
+Vesque bringt mir die Heine- u. Weber-Autographen u. erzält von Breslau. Dr. Schenker<lb/>
+fragt bei mir an, ob er mir seine Compositionen vorspielen dürfe. Fatal!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

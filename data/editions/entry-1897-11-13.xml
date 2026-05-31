@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-13" n="01"/>
+            <title level="a">Samstag, 13. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 November Samstag.</head>
+            <p>Das Feuilleton über Heyse findet allgemeinen Anklang. Perger<lb/>
+hatte mich zur Generalprobe von Dvorak’s „Heiliger Ludmila“<lb/>
+in die Directionsloge eingeladen. Man schließt mir aber unten<lb/>
+im Saal eine andere Loge auf, wo ich mit Seeling sitze. Oben hätte<lb/>
+ich Messchaert und Röntgen getroffen u. auch gleich erfahren,<lb/>
+daß ihr Concert heute nicht stattfindet, weil M. heiser geworden ist.<lb/>
+Während ich den Ring hinabbummele und endlich wieder einmal<lb/>
+ein paar Schritte – ohne bestimmtes Ziel – gehe, ist Röntgen zu<lb/>
+mir nach Hause gefahren, hinterläßt mir ein fabelhaft lebendiges<lb/>
+Bild der Frau v. Holstein und einen großen holländischen Pfeffer-<lb break="no"/>
+kuchen nebst der Botschaft, er käme morgen früh wieder, wenn<lb/>
+sich M.’s Zustand bessere. Ich kaufe mir unterwegs Ricarda<lb/>
+Huch’s Gedichte, hole dann Julie von Brüll’s zum Concert<lb/>
+ab und kehre, da es abgesagt worden ist, mit ihr nach Hause<lb/>
+zurück, des unverhofften freien Abends froh. In der Nacht lese<lb/>
+ich einen großen Teil der Huch’schen Gedichte und bin in hohem<lb/>
+Grade überrascht, ein lyrisches Dichtergenie in ihnen zu finden,<lb/>
+das alle anderen mir bekannten weiblichen Talente beiweitem<lb/>
+überragt. Manches spricht mich ganz persönlich an, als hätte ich es<lb/>
+einmal sagen wollen und nicht können, und auch das mir Fremde,<lb/>
+der Dichterin ganz Eigenthümliche berührt mich mit einer sanften,<lb/>
+gelinden Hand. Ricarda’s Meisterschaft steht auf der Kenntnis<lb/>
+der lateinischen Poesie u. auf dem Studium ausländischer, besonders<lb/>
+serbischer Volkslieder. Spaß: Warum hat Sappho so schön<lb/>
+gedichtet? Weil sie eine classische Bildung besaß, Griechisch verstand.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

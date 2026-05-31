@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-23" n="01"/>
+            <title level="a">Montag, 23. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>23 August Montag.</head>
+            <p>Total abgespannt. Die Fielitz’sche Musik noch einmal<lb/>
+am Clavier durchgenommen; sie gefällt mir wieder besser,<lb/>
+wenn auch im Ganzen mein Urteil bestehen bleibt. Karpath<lb/>
+schreibt mir ausführlich über die Wiener Hofoper u. erbittet<lb/>
+Instructionen. Da im Septbr. allerlei bevorsteht, bin ich<lb/>
+fast entschlossen, auf eine der zwei Wochen nach Wien<lb/>
+zu reisen, um dann mit größerer Ruhe direct nach<lb/>
+Labers abzuschwenken. Bei näherer Ueberlegung scheint<lb/>
+es mir richtiger, Singer die Entscheidung zu überlassen.<lb/>
+Nach Tische werden Paul und ich unwohl. Unschuldige<lb/>
+Schwämme geraten in den Verdacht, die gemeinschaftliche<lb/>
+Ursache unseres Uebels zu sein. Es gießt den ganzen<lb/>
+Tag über in Strömen. Elende Nacht.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

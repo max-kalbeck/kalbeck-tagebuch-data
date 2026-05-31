@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-08" n="01"/>
+            <title level="a">Samstag, 8. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>8 Mai Samstag.</head>
+            <p>[3. Mai]<lb/>
+Montag. Aus Geldverlegenheit ein schundiges Anerbieten Eirich’s acceptirt.<lb/>
+Da ich an den Rhein reisen will, muß ich Rat schaffen. Eine Viertel-<lb break="no"/>
+stunde bei Singer u. Pötzl. Singer ist gestern v. W.’s plötzlich abberufen<lb/>
+worden. Auch heute hat er es eilig. Seine Photographien. Von der „N. fr. Pr.“<lb/>
+bin ich als Villenbesitzer in spe ausposaunt worden. Weh mir! Muxl<lb/>
+war während unserer Abwesenheit an einer Mandelentzündung erkrankt.<lb/>
+Simrock schreibt aus Carlsbad, Heermann a. Frankfurt, Frau Meyer-<lb break="no"/>
+Cohn a. Berlin, die D. Verlagsanstalt a. Stuttgart, Helene a. Leipzig.<lb/>
+Die arme Wolter lebt noch immer. Hier blühen schon Kastanien u. Flieder.<lb/>
+In Deutschland waren erst die Obstbäume so weit. Abendbesuch bei Kantor’s.<lb/>
+[4. Mai]<lb/>
+Dinstag.<lb/>
+Den Tag über eine Menge von Briefen geschrieben, auch an<lb/>
+Heyse und Joachim. Brüll’s speisen bei uns zum Abend, nachdem<lb/>
+Schneegans fortgegangen war. Sch. steckt noch immer im II Acte seiner<lb/>
+Posse.<lb/>
+[5. Mai]<lb/>
+Mittwoch. „Das fliegende Blatt a. Düsseldf.“ hat sich irgendwo versteckt und<lb/>
+ist nicht zu finden. Ich gerate in immer größere fieberhafte Aufregung,<lb/>
+bis endlich nach fünfstündigem Suchen der Flüchtling, in eine Schublade<lb/>
+eingeklemmt, erwischt wird. Vergebliche Nachmittagsexpedition zu einer den<lb/>
+hier tagenden Theaterdirectoren zu Ehren veranstaltete Vorstellung der<lb/>
+Schauspielschule im Conservatorium. Die „Maienkönigin“ sollte aufgeführt<lb/>
+werden. Jour bei Kantor’s. Die schöne Siesta in Rosl’s Zimmer.<lb/>
+[6. Mai]<lb/>
+Donnerstag. Anstatt das „fliegende Blatt“ für den Druck herzurichten, schreibe<lb/>
+ich einen ganzen Aufsatz: „Vom jungen Brahms“, da Material von<lb/>
+allen Seiten herzuströmt. Dr. Wüllner schickt mir seine Kölner Gedächtnisrede,<lb/>
+die sofort benutzt wird. Ich trage den Aufsatz, der als Doppelfeuilleton erscheinen<lb/>
+muß, selbst zu Pötzl, und nehme Karpath in eine (mittelmäßige u. lückenhafte)<lb/>
+Brahmsfeier der Singakademie mit.<lb/>
+[7. Mai]<lb/>
+Freitag. Brahms’ Geburtstag. Brief des ungeduldigen Henschel, der mich<lb/>
+nach England citiren möchte. Die Not ist groß. Wir holen die Kantor’schen Damen<lb/>
+aus der Reitschule ab – Anni Hiller u. Rosl sehen reizend zu Pferde aus – und fahren<lb/>
+mit ihnen auf den Friedhof hinaus, um Blumen auf das Grab unseres Freundes zu V. S. [volti subito, s. Folgeseite]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

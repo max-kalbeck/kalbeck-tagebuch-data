@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-21" n="01"/>
+            <title level="a">Donnerstag, 21. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>21 Oktober Donnerstag.</head>
+            <p>Busse sendet mir Briefe aus Klagenfurt u. Völkermarkt u. will<lb/>
+mir mit einer neuen Selbstmorddrohung wieder Geld erpressen. Soviel<lb/>
+aus seinen lügenhaften und confusen Mitteilungen hervorgeht, hat er,<lb/>
+anstatt nach Marseille zu reisen, es vorgezogen im Lande zu bleiben<lb/>
+und sich unredlich zu nähren. Der Elende beruft sich bei seinen Vaga-<lb break="no"/>
+bunden-, Bettler- und Zechprellereien offenbar auf mich; er hat in<lb/>
+Tarvis einen mitleidigen Offizier, in Klagenfurt Dr. Gross, Redacteur<lb/>
+der dortigen Zeitung, und eine Generalin von Groller in Contribution<lb/>
+gesetzt und möchte nun nach Graz weiter, wo sich ihm „neue Hilfsquellen“<lb/>
+eröffnen sollen. „Wird Ihnen nicht ganz feierlich, da es schon wieder<lb/>
+bei Ihnen steht, ein Dichterleben zu erhalten oder zu vernichten?<lb/>
+Mögen Sie mir ein gütiges Schicksal sein!“ Das wagt der elende Lump<lb/>
+mir zu schreiben. Ich antworte ihm nicht mehr; er ist reif für das Zuchthaus.<lb/>
+Was für Ungelegenheiten wird mir meine kindische Leichtgläubigkeit<lb/>
+noch bereiten!? – An Lieutenant Vites in Angelegenheit seines Dramas<lb/>
+„Sünden“ geschrieben. Ich schenke ihm reinen Wein ein u. sage ihm, woran<lb/>
+es ihm bei unverkennbarer Geschicklichkeit fehlt: am besten! – Als<lb/>
+ich gestern von Vesque’s nach Hause kam, fand ich die Leipziger Todesanzeige<lb/>
+vor. Ich beantwortete sie in einem herzlichen Briefe an Frl. Helene<lb/>
+v. Holstein, die nun ganz allein in der Welt dasteht. Wie dankbar<lb/>
+bin ich dem Schicksal, daß ich die liebe Frau doch noch persönlich<lb/>
+kennen gelernt habe! Noch vorgestern dachte ich ihrer in Liebe, als<lb/>
+ich mir das Heine-Autograph betrachtete, und da war sie schon<lb/>
+todt. Empfehlungsbriefe für den Stud. phil. Fritz Wolff (Sohn<lb/>
+unseres Redacteurs Carl W.) nach Berlin geschrieben: An Gretel u.<lb/>
+Erich Schmidt. Röntgen’s Brief beantwortet.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

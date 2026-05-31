@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-13" n="01"/>
+            <title level="a">Freitag, 13. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 August Freitag.</head>
+            <p>Unter inneren Drangsalen den I Act von „La figlia di Iorio“<lb/>
+beendet. Selten habe ich einer derartigen Arbeit so wenig oder viel-<lb break="no"/>
+mehr so gar keinen Geschmack abgewinnen können wie dieser.<lb/>
+Text u. Musik erregten mir physisches Unbehagen. Und nun<lb/>
+steht mir noch ein II Act bevor. Wehe! – Paul macht seit<lb/>
+einigen Tagen und seit der letzten Predigt, die ich ihm halten mußte,<lb/>
+wieder einmal Miene fleißig zu sein. Er steht jeden Morgen früh<lb/>
+auf, übersetzt lateinische Aufgaben und rechnet. Das lateinische<lb/>
+Pensum nehme ich dann immer mit ihm durch. Er lernt sehr leicht,<lb/>
+wenn er will, vergißt aber noch leichter. Die grammatikalischen Regeln<lb/>
+u. unregelmäßigen Zeitwörter hat er zum Teil schon wieder verschwitzt.<lb/>
+Was wird daraus werden? – Meine katarrhalischen Beschwerden lassen<lb/>
+nach. Spaziergang im Walde, ohne den rechten Weg nach Ossiach zu<lb/>
+finden. Ein Bild meines Lebens. – Der krumme, krüppelhafte<lb/>
+künstlerische Zug in der Familie Gitschthaler: Proben der<lb/>
+dichtenden und malenden Brüder unserer Wirtin. Trottelosis in<lb/>
+der Kunst. Das von A. Gitschthaler gegründete Journal „Jung-<lb break="no"/>
+Kärnten“ eine Fundgrube für den poetischen Blödsinn ehrsamer<lb/>
+Provinzialer.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

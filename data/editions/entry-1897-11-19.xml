@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-19" n="01"/>
+            <title level="a">Freitag, 19. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 November Freitag.</head>
+            <p>Feuilleton über „Jugendfreunde“. Während des Schreibens<lb/>
+fallen mir die Blößen des Stückes empfindlicher in die Augen<lb/>
+als zuvor, und ich gehe strenger mit Fulda ins Gericht als es erst<lb/>
+meine Absicht war. Edlinger, der immer mal à propos nach<lb/>
+Wien kommt, spricht bei mir vor und begleitet mich eine<lb/>
+Strecke weit. Er hat nicht übel Lust, meine Opernkritiken zu<lb/>
+verlegen. Julie ist entsetzt, als sie es erfährt. Mir wäre<lb/>
+jeder Verlag recht, weil ich an einen materiellen Erfolg<lb/>
+eines solchen Buches nicht glaube, und mir nur daran liegt,<lb/>
+den größten und wertvollsten Teil meiner schriftstellerischen Arbeit<lb/>
+vor dem Untergange zu bewahren. In der Oper Première von<lb/>
+„Onegin“. Wider Erwarten geht das Publicum auf die In-<lb break="no"/>
+tentionen der Aufführung ein, die das Werk als historisches Milieu-<lb break="no"/>
+stück zu retten sucht, u. bereitet der Oper einen glänzenden Erfolg. –<lb/>
+Meine Nerven sind in fieberhafter Erregung. Die Masse der<lb/>
+verschiedenartigen, wild auf mich einstürmenden Eindrücke und die<lb/>
+schwere journalistische Pflicht, mir sofort Rechenschaft davon<lb/>
+geben u. mein Urteil gefällig formuliren zu müssen, zerdrückt<lb/>
+mir das Gehirn. Zwei Premièren hinter einander, dazu die ewigen<lb/>
+Concerte und alles Uebrige! Keine Nachtruhe.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

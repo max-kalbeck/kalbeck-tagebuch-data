@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-02" n="01"/>
+            <title level="a">Dienstag, 2. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 März Dinstag.</head>
+            <p>Vor Brahms’ Hause treffe ich mit Alb. Gutmann u. Concert-<lb break="no"/>
+director Wolff a. Berlin zusammen. Sie erzälen, daß sie gestern mit<lb/>
+ihm eine Stunde im Prater spazieren gegangen seien (die Miller’sche<lb/>
+Equipage fuhr daneben) er sei munter u. guter Dinge gewesen.<lb/>
+Auch heute geht es ihm erträglich, u. er ist lebendiger als je. Nur<lb/>
+gegen mich von besonderen Unliebenswürdigkeit, dafür gegen den<lb/>
+Concertagenten die Zuvorkommenheit u. Aufmerksamkeit selbst.<lb/>
+Wolff führt das große Wort u. ich muß, so oft ich mir eine<lb/>
+Bemerkung erlaube, mir den Mund verbieten lassen. Es ist<lb/>
+möglich, daß ich Br. mit einer Holtei-Anekdote geärgert habe,<lb/>
+die ich losließ, als er sehr gewichtig bemerkte, eine Straße in<lb/>
+Berlin sei nach ihm benannt worden. Er hielt es für eine besondere<lb/>
+Ehre, daß er [Ausstreichung: sie] [Korrektur: diese] mit Bismarck u. Mommsen teilte. Holtei<lb/>
+sagte mir eines Tages: „Denken Sie, was mir passirt ist. Da<lb/>
+draußen bei der Friedrichsstr. wo lauter liederliche Saumenschen und<lb/>
+Hurenkerle wohnen, haben sie [eingefügt: mir] eine Holteistraße gestiftet. Und<lb/>
+da muß ich mich noch schön bedanken, für die große Ehre.“ Von<lb/>
+d’Albert bemerkte der witzige Berliner, auf dreierlei verstehe er<lb/>
+sich schlecht: auf Operntexte, Landhäuser u. Frauen. Er nehme<lb/>
+sie immer unbesehen, u. erst, wenn das Unglück geschehen sei, frage<lb/>
+er seine Freunde um Rat. Da mich Br. empfindlich verletzt hatte,<lb/>
+ging ich gekränkt fort u. ließ ihn mit den Musikhändlern allein,<lb/>
+ohne meine Einladung vorgebracht zu haben. Mit Frl. Lichtenstadt u.<lb/>
+Frau Kolmer im Volksgarten promenirt. Gegen Abend eine Stunde bei<lb/>
+Brüll. Frau Marie wieder gesund. Reissmann’s impertinenter Brief.<lb/>
+Verdrießlicher Fastnachtsdinstag.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

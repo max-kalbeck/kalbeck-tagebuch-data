@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-17" n="01"/>
+            <title level="a">Freitag, 17. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>17 September Freitag.</head>
+            <p>Doller’s Nichte ist einem Herzschlag erlegen. Er reist heute nach Berlin.<lb/>
+Gegen Mittag kommt das sehnlich erwartete Telegramm. Da es auch<lb/>
+am Morgen ausgeblieben war, nahm ich an, daß die Prüfung um einen<lb/>
+Tag verschoben wurde, und schöpfte neue Hoffnung. Nun hieß es<lb/>
+wirklich: „Gut bestanden. Euer Tertianer.“ Die Freude war groß,<lb/>
+und das ganze Haus nahm Teil daran. Ich schrieb meinem lieben<lb/>
+Jungen sofort einen ernsten Dank- und Mahnbrief, der, so wie<lb/>
+ich ihn kenne, auf sein Gemüt wirken und ihn in guten Vorsätzen<lb/>
+bestärken wird. Nach diesem angenehmen Zwischenfall konnten wir<lb/>
+uns mit ganzem Herzen den Freuden eines genußreichen Ausfluges<lb/>
+hingeben. Unser Ziel war das Schloß Tirol. Prof. Hantsch und<lb/>
+Frau gingen mit Julie und mir über den Küchelberg, Heyse’s<lb/>
+benutzten den Hôtelwagen. Unterwegs hatte ich eine sehr lebendige<lb/>
+Unterhaltung mit dem Professor über das Wesen der dramatischen<lb/>
+Kunst. Ich geriet in Leidenschaft und entwickelte meine Ideen<lb/>
+mit beredter Geläufigkeit. Mir war, als ob ich auf einem Katheder<lb/>
+stände und zu einem Auditorium von hundert Zuhörern spräche.<lb/>
+Hatte mich der Professor angesteckt, und gab seine Anwesenheit<lb/>
+meinem Vortrage akademischen Stil? Nein. Es redete der Geist<lb/>
+aus mir, der mir manchmal in einer hellen Stunde am Schreibtische<lb/>
+das rechte Wort in die Feder dictirt, der Geist einer höheren Kritik,<lb/>
+der mich hinaus hebt aus der Beschränktheit des Zeitungsrecensenten<lb/>
+u. Artikelschmierers, und Heyse’s „Tochter der Semiramis“ hatte ihn<lb/>
+geweckt. Der Fehler Heyse’s u. aller Dramatiker, die nicht vom reinsten<lb/>
+Vollblut sind, besteht darin, daß sie nicht immer in allen ihren Figuren<lb/>
+und Scenen gegenwärtig bleiben, sondern ihre poetische Kraft auf einen<lb/>
+u. d. anderen Charakter, auf eine u. d. andere Situation concentriren u. veraus-<lb break="no"/>
+gaben. Die Lücken werden dann mit conventionellem Füllwerk ausgestopft.<lb/>
+Auf der Veranda beim „Rimmele“ geschwelgt in Freundschaft u. Natur. Frl. Orgényi.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

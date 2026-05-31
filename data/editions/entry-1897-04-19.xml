@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-19" n="01"/>
+            <title level="a">Montag, 19. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 April Montag.</head>
+            <p>Julie reist früh nach Berlin voraus, ich nach Leipzig. Zimmer in Schwarck’s<lb/>
+Hôtel Union (Schützenstr.). Des Feiertages wegen ist die Post geschlossen, u.<lb/>
+ich bin also ohne Nachricht von Lasswitz, telegraphire ihm mit Rp. und<lb/>
+mache mich darauf gefaßt, daß wir uns verfehlen. Zu Frau v. Holstein<lb/>
+in die Salomonstr. 7. Ihr Haus, ihre Schätze u. sie selbst, der größte<lb/>
+Schatz des Hauses. Sie wirkt zuerst im Clairobscur ihres Zimmers wie<lb/>
+ein Rembrandt’sches Bild, tritt dann aber bald sehr lebendig aus dem<lb/>
+schönen Rahmen heraus. Ihre gute, seelenvolle Stimme, ihr feiner Geist,<lb/>
+ihre Erinnerungen. Sie hat noch mit Mendelssohn vierhändig gespielt. Viele<lb/>
+weitreichende Fäden laufen in ihrer Hand zusammen. Ich empfange von ihr den<lb/>
+Eindruck eines bedeutenden Erlebnisses, das Gefühl einer entscheidenden Stunde<lb/>
+u. komme mir dieser liebenswürdigen Greisin gegenüber vor wie ein junger<lb/>
+Student. Ihre Autographensammlung; sie verehrt mir einen Brief v. Weber,<lb/>
+das letzte Blatt meines von ihr empfangenen Heine-Autographs behält sie<lb/>
+zurück. Wie man es über sich gewinnt, ein solches Manuscript so zu ver-<lb break="no"/>
+zetteln! Die Zeit vergeht mir übergeschwind; sie will mich zum Mittagessen<lb/>
+da behalten, ich aber muß auf Antwort v. Gotha warten, speise bei Äckerlein,<lb/>
+schreibe einen scherzhaften Brief an Frau Zellner nach Wien und erhalte endlich<lb/>
+die telegraphische Nachricht, L.’s hätten nicht abkommen können und hofften<lb/>
+mich bei sich zu sehen. Bei Frau v. Holstein lerne ich dann ihre Schwägerin<lb/>
+kennen, ein hübsches altes Fräulein, später die Malerin Palacki, eine sehr<lb/>
+zuvorkommende [eingefügt: jüngere] Dame, die gleich anfängt mit mir zu kokettiren, u. erneuere<lb/>
+die Bekanntschaft mit Dr. Schreiber, dem Leipziger Museumsdirektor, der,<lb/>
+allem Anschein nach, der Leibeigene der Frau Palacki ist. Um 9 Uhr hole ich<lb/>
+Helene Vesque, die aus Wien kommt, vom Bahnhof ab. Verzweifeltes kaltes<lb/>
+Regenwetter. Bei Holstein bis 11 ½ Uhr.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

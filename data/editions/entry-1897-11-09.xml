@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-09" n="01"/>
+            <title level="a">Dienstag, 9. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>9 November Dinstag.</head>
+            <p>Richard v. Perger ladet mich zur Generalprobe von Dvorak’s<lb/>
+„Heil. Ludmila“ für Samstag Nachmittag ein. Aus Pest<lb/>
+kommt ein Dedicationsexemplar von Koessler’s „Sylvester-<lb break="no"/>
+glocken“. Der Clavierauszug ist bei Fürstner in Berlin er-<lb break="no"/>
+schienen, in einer nächtigen schwarzgrünen Enveloppe, auf der<lb/>
+ein neuentdecktes Sternbild prangt; der Kopf des initialen<lb/>
+S trägt eine Glocke, die aussieht wie eine Tischklingel. Mir<lb/>
+gefällt das schöne Werk von neuem, und seine Klänge greifen<lb/>
+mir, während ich es am Clavier durchspiele, ans Herz. Schade,<lb/>
+daß der Text sich für eine so breite Behandlung kaum eignet,<lb/>
+und daß die Monotonie des Gedichtes keine Mannigfaltigkeit<lb/>
+der musikalischen Behandlung zuläßt. Ich möchte es wohl noch<lb/>
+einmal hören; damals im Gesellschaftsconcert, wo es niemandem<lb/>
+recht gefiel, hat es mich zu Thränen gerührt. Am Abend von<lb/>
+Tyberg zu Rosé. Ilona Eibenschütz interpellirt mich, [eingefügt: ob und] wann<lb/>
+ich über sie schreiben werde; sie sieht krank aus und ist sehr<lb/>
+niedergeschlagen. Ein riesiges Mädel springt mich beim Weggehen<lb/>
+an und declarirt sich als Frl. Schennek – St. Georgener<lb/>
+Angedenkens oder vielmehr Vergessens. Das Ehepaar Heuberger<lb/>
+entreißt mich all diesen Fährlichkeiten. Es ist nicht gut, daß der<lb/>
+Mensch allein in Concerte gehe.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

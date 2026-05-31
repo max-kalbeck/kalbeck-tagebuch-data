@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-02" n="01"/>
+            <title level="a">Freitag, 2. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 Juli Freitag.</head>
+            <p>Paul bringt ein elendes Zeugnis aus der Schule; natürlich<lb/>
+bleibt er in Mathematik hängen u. muß sich auf eine Nachprüfung<lb/>
+während der Ferien vorbereiten. Ich putze ihn in Gegenwart des<lb/>
+Candidaten, der ihn durch eine thörichte Äußerung, zu früh<lb/>
+in Sicherheit gewiegt hatte, tüchtig herunter. Sein Gram<lb/>
+darüber dauert ziemlich lange: eine Stunde. Zu Dr.<lb/>
+Eirich. Puccini’s „Bohème“ kommt wirklich schon im Septbr.<lb/>
+heraus. Adieu Labers! „Die Tochter [Y?]Jorio’s“ soll mir<lb/>
+in den nächsten Tagen von Leipzig zugehen. Fielitz hat<lb/>
+sich wieder gemeldet u. dringt auf den zweiten Act des „Dorfes“.<lb/>
+An Arbeit wird es also nicht fehlen. Eine halbe Stunde bei<lb/>
+Mandyczewski im Archiv. Dr. Mantuani von d. Hofbiblio-<lb break="no"/>
+thek. Prof. Prosnitz. Das Inventar der Brahms’schen Hinter-<lb break="no"/>
+lassenschaft ist endlich fertig; die vorläufige gerichtl. Ent-<lb break="no"/>
+scheidung wird erwartet. Im Bureau mit Pötzl, Stern, Frey,<lb/>
+Gelber, Held u. Hahn gesprochen. Alle loben mich meines<lb/>
+guten Aussehens wegen. Pötzl für Busse bearbeitet. – Ich<lb/>
+setze meine Geigen in Stand u. mache die unangenehme Ent-<lb break="no"/>
+deckung, daß die Zach’sche „Stradivari“ nicht zu brauchen ist.<lb/>
+Zach declarirt sich als Stümper – er hat inzwischen bankerot<lb/>
+gemacht – das Fleischer’sche Verfahren bewährt sich nicht. Nach<lb/>
+kurzer Zeit verlieren die Instrumente ihren Ton u. werden wieder<lb/>
+die gemeinen Schachteln, die sie zuvor gewesen waren. Mich kostet<lb/>
+die Geschichte 120 fl. u. eine tüchtige Dosis Beschämung. Brahms<lb/>
+hatte doch Recht mit seinem herben Skepticismus. Zellner holt mich<lb/>
+ab. Wir baden in Dornbach u. speisen mit Kantor u. Mosé auf d. Rosenhütte.<lb/>
+[vertikal am rechten Rand] Interessantes Wagengespräch mit Frau Rosel.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

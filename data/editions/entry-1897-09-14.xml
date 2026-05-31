@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-14" n="01"/>
+            <title level="a">Dienstag, 14. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>14 September Sonntag / (Montag) / Dinstag</head>
+            <p>[Forsetzung vom 12. September]<lb/>
+den Vortritt vor Katharina habe. Auch geht ihm Alles zu schnell.<lb/>
+Er erinnert an das Märchen von der weißen Hand der Waldfrau u. an<lb/>
+ein ähnliches von Gerstäcker, das im „Novellenschatze“ steht. Ich muß ihm<lb/>
+in jeder Weise Recht geben, vertraue aber auf die stille Macht des<lb/>
+Wunderbaren u. auf die zur Mystik geneigte Stimmung des Opern-<lb break="no"/>
+publicums. So erfahre ich an eigener Haut, daß einem Dichter so wenig<lb/>
+zu helfen ist wie einem Liebhaber; beide sind verblendet und lassen nicht<lb/>
+von ihrem garstigen Schatz. Aber ich ärgere mich nicht, sondern weiß,<lb/>
+daß ich kein klügerer Narr bin als Andere. – Vorher hatte ich eine<lb/>
+höchst anregende Unterhaltung mit Curschmann über Goethe und<lb/>
+seine Art, den Dingen auf den Leib zu rücken: ein bedeutender Natur-<lb break="no"/>
+forscher u. ein göttlicher Dichter. „Die Waschfrau d. Literatur“ hat ihm<lb/>
+viel Vergnügen gemacht. C. meint, ich hätte einen prächtigen Kopf<lb/>
+für die Haarbeutelzeit abgegeben, weil mein Haar drei Finger breiter<lb/>
+als das Haar Anderer in den Nacken gewachsen sei. Ich habe immer das<lb/>
+Gefül, daß ich eigentlich im vorigen Jahrhundert meine Zeit gefunden<lb/>
+hätte. Unser gemeinsames Vergnügen an den englischen Zeichnern u.<lb/>
+Illustratoren der Journale. C. hat einen scharfen u. geübten Blick für<lb/>
+die bildende Kunst. Am Nachmittag Thee bei Frau Dr. Herrmann<lb/>
+mit Heyse’s. Noch einmal „Das stille Dorf“. Es ärgert Heyse, daß<lb/>
+ich die Sache so leicht nehme, u. er verweist mich auf sein eigenes<lb/>
+gutes Beispiel, wie er Henschel den ursprünglich für Krempelsetzer<lb/>
+verfaßten „Rothmantel“ wieder weggenommen habe, trotzdem dieser schon<lb/>
+einen Act componirt hatte. Heyse’s Skizzenbücher durchgesehen. Eine Fülle<lb/>
+von Köpfen u. Veduten. Es fehlt ihm nur an Technik, [Ausstreichung: und] sonst wäre<lb/>
+er ein tüchtiger Zeichner. Sein künstlerischer Blick für das Malerische. Muxl’s<lb/>
+Kopf erinnert ihn an die Köpfe Sandro Botticelli’s. Ich rede ihm zum<lb/>
+Aquarelliren zu, er aber meint, er habe nur eben soviel Zeit, um mit</p>
+         </div>
+      </body>
+   </text>
+</TEI>

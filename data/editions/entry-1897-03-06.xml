@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-06" n="01"/>
+            <title level="a">Samstag, 6. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>6 März Samstag.</head>
+            <p>Glockenstudien. Nachmittag Frl. Filtsch bei uns. Sie redet mit<lb/>
+ihrer scharfen Zunge schonungslos über Lebendige u. Todte, ohne sich<lb/>
+lange zu besinnen, und zeigt in ihrer Bosheit, die ihr zur zweiten<lb/>
+Natur geworden ist, eine Art von Naivetät. Ich möchte sie nicht<lb/>
+zur Feindin haben, noch weniger zur Freundin. In meiner Stube<lb/>
+misfällt sie mir gründlich; am Gardasee war sie mir nicht<lb/>
+unsympathisch. Ich fürchte, das Eine liegt nicht an meinem<lb/>
+Zimmer, in das sie freilich gar nicht hineinpaßt, das Andere<lb/>
+aber wol am See, mit dem sie übrigens erst recht nicht<lb/>
+harmonirt. Nachdem sie keinen guten Faden an unserem<lb/>
+Freunde Ganghofer gelassen hatte, lobte sie meine Gedichte.<lb/>
+Am besten gefällt ihr „Ich kenne dich!“, u. sie möchte<lb/>
+die dazu gehörige Geschichte wissen. Ich auch. Es versteht<lb/>
+sich, daß sie für Wagner u. Ibsen schwärmt. – Muxl<lb/>
+geht auf ihren ersten Backfisch-Ball u. ist selig in ihrem<lb/>
+Rosakleide, das die fleißige u. geschickte Mutter ihr gestern<lb/>
+u. heute eigenhändig geschneidert hat. – Allein im Concert Rée.<lb/>
+Frau Charlemont glaubt mich encouragiren zu müssen, daß<lb/>
+ich ihr den Hof mache. Um 11 Uhr ist Muxl wieder da mit<lb/>
+etlichen Cotillonbouquets. Das Liebste bei dem thé dansant<lb/>
+war ihr doch ein Taschenspieler, den Hillischer’s, die Gastgeber,<lb/>
+zur Unterhaltung der Gesellschaft engagirt hatten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-20" n="01"/>
+            <title level="a">Samstag, 20. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>20 November Samstag.</head>
+            <p>Feuilleton über „Onegin“. Eine blaue Karte von Frau Fellinger<lb/>
+ladet mich zum Besuche für den Nachmittag ein. Die Brahms-<lb break="no"/>
+büste von Trebst ist angekommen und soll von den Freunden<lb/>
+beaugenscheinigt u. begutachtet werden. Ich muß um Aufschub<lb/>
+bitten. Am Abend zur Première von Burckhard’s „Bürger-<lb break="no"/>
+meisterwahl“ im Volkstheater. Denkwürdiger Abend. B.’s unver-<lb break="no"/>
+kennbare Begabung. Die Dorfkomödie das ländliche Seitenstück<lb/>
+zu „Simon Thums“, wie dieser von aufreizender Tendenz, u. so wenig<lb/>
+ein Theaterstück wie „Sim. Th.“ ein Roman. Was bezweckt<lb/>
+B., der übrigens in einigen Tagen noch ein Stück im Raimund-<lb break="no"/>
+theater unter dem Pseudonym „Oberlindober“ aufführen läßt,<lb/>
+mit seinen literarisch-satirischen Eruptionen? Will er sich<lb/>
+unmöglich machen, weil er auf einem verlorenen Posten steht?<lb/>
+Oder zeigt er seine Krallen, um sie wieder einzuziehen? Außer<lb/>
+Frage steht sein literarischer Ehrgeiz; eine gewisse mit Cynis-<lb break="no"/>
+mus gepaarte Naivetät ist ihm nicht abzusprechen. Aber ist<lb/>
+sein Zorn auf die Corruption der Gesellschaft ein ehrlicher, [Ausstreichung: oder]<lb/>
+und ist er nicht vielleicht der Corrupteste aller Corrupten?<lb/>
+Ein falscher Liebediener, der nach Oben katzbuckelt u. nach Unten<lb/>
+ausschlägt oder es auch umgekehrt macht, wenn es der Vorteil<lb/>
+erheischt? Er ist zum Demagogen geboren u. scheint einen Charakter<lb/>
+zu haben, der je nach den Verhältnissen des Besten oder des Schlechtesten<lb/>
+fähig ist. Mit Kantor’s, denen wir die Sitze verdanken, zu Sacher’s<lb/>
+soupiren. – Fulda, den ich im Theater traf, beklagt sich über Speidel<lb/>
+u. seine ihm stets erwiesene Geringschätzung. Er wäre gern übermorgen zu mir<lb/>
+gekommen, muß aber morgen nach Berlin zurück. Heyse’s „Vanina“ wird<lb/>
+dort in der nächsten Woche aufgeführt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

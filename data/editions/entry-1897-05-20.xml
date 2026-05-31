@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-20" n="01"/>
+            <title level="a">Donnerstag, 20. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>20 Mai Donnerstag.</head>
+            <p>Ein Feuilleton über Brahms u. die Ungarischen Tänze auf Grund<lb/>
+des Simrock-Neitzel’schen Briefwechsels geschrieben. Am Abend<lb/>
+besucht mich Schneegans. Brüll’s essen bei uns.<lb/>
+[1. Fortsetzung vom 19. Mai]<lb/>
+Dafür war er am Abend bei Kantor’s um so zugänglicher und<lb/>
+bewilligte mir alle meine Wünsche und Forderungen. Er wird<lb/>
+das neue Ballet, das am Samstag in Scene gehen soll, selbst<lb/>
+anzeigen und dispensirt mich von dieser wie von künftigen<lb/>
+Pflichten, hat auch nichts dagegen, daß ich von Bonn gleich<lb/>
+nach Carlsbad und von da gleich noch weiter in die Länder<lb/>
+gehe. Schließlich lädt er uns auf morgen zum Frühstück ins<lb/>
+Winterbierhaus ein, den Rittmeister Merhal dazu, der die<lb/>
+Gegend wieder unsicher macht. – Am Nachmittag [ausgestrichen: habe] war ich bei<lb/>
+Miller’s u. Faber’s, bei Frau Faber über einen Stunde. Sie teilte<lb/>
+mir höchst interessante Brahmsiana mit, über seine Familie u.<lb/>
+ihren eigenen Hamburger Aufenthalt. Wenn sie nicht Rücksichten auf<lb/>
+Mann u. Kinder zu nehmen hätte, würde sie mir mehrere an sie gerichtete<lb/>
+Briefe zeigen. Wenigstens ließ sie mich das Dedicationsblatt des B. F.<lb/>
+gewidmeten Wiegenliedes sehen u. erzälte mir dessen Geschichte. Br. hatte sie<lb/>
+als Mädchen (Pastorstochter a. Wien) lieb, u. sie ihn auch; er bevorzugte sie vor<lb/>
+anderen Mitgliedern des musik. Kränzchens, das er dirigirte, dadurch, daß er ihr<lb/>
+Privatunterricht gab. Sie lehrte ihn viele oesterr. Volkslieder kennen, darunter<lb/>
+seinen besonderen Liebling: „Moanst wohl“ etc. Als der Vater Pastor Wind<lb/>
+bekam von dem sich anspinnenden Verhältnisse, rief er die Tochter zurück u. verbot<lb/>
+ihr zu correspondiren. Ihr Bruder, der mit Br. zusammenzog, berichtete über ihn. Vide 18. Mai</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-22" n="01"/>
+            <title level="a">Samstag, 22. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 Mai Samstag.</head>
+            <p>Der Schlafkamerad entpuppt sich als rumänischer Militärbevollmächtigter,<lb/>
+der nach England reist, um den Bau von Kriegsschiffen zu überwachen. Bei<lb/>
+der Ankunft in Frankfurt werde ich von Stockhausen auf dem Bahnhof<lb/>
+empfangen!! Wie alt ist er geworden in den 17 Jahren! Sein Haus in der<lb/>
+Bockenheimer Landstraße. Frau und Töchterchen. Die beiden alten Leute und<lb/>
+das 12jährige Ding. Ich bin abgespannt und verdrießlich, so daß die Unter-<lb break="no"/>
+haltung bei Tische nicht recht fließt. Zu meinem Erstaunen weiß u. besitzt St.<lb/>
+so gut wie nichts von Brahms. Er und sie klagen über ihn und die schlechte<lb/>
+Behandlung, die er ihnen hat angedeihen lassen. Sie meint, Br. habe es St. nicht<lb/>
+vergessen können, daß St. 1865 den Hamburger Dirigentenposten erhielt,<lb/>
+auf den Brahms sich Rechnung gemacht hatte. Todtmüde will ich ins Hotel (Deutscher<lb/>
+Kaiser) gehen, um etwas auszuruhen, aber die Stadt läßt mich nicht los.<lb/>
+Sie hat sich so verändert, daß ich sie nicht wieder erkenne: aus der alten<lb/>
+Festung ist eine moderne Garten- u. Villenstadt geworden. Viele Ähnlichkeiten<lb/>
+mit den Berliner Thiergartenvierteln. Wie ich zu Scholz komme, bin ich<lb/>
+wieder ganz munter, und es giebt einen höchst animirten Abend, der sich bis<lb/>
+weit über Mitternacht ausdehnt. Scholz sieht mit seinem roten Gesicht[,]<lb/>
+den schlichten weißen Haaren und den glotzigen blauen Augen aus wie ein<lb/>
+Böcklin’sches Meerungeheuer. Wenn er nicht componirte, wäre er ein<lb/>
+prächtiger Kerl. Sie hat sich kaum verändert. Die drei stämmigen Mädels,<lb/>
+lauter feste Kerle, aber jede mit einem organ. Gebrechen behaftet. Schade, daß sie<lb/>
+sitzen bleiben; es ist den Grazien verhängt, Parzen zu werden. Hermi geht<lb/>
+schon auf die Vierzig los. Viele vortreffliche, von Scholz jr. gemalte Bilder.<lb/>
+Breslauereien u. sonstige Erinnerungen. Die Brahms-Mappe, die eine<lb/>
+reiche Ausbeute für mich erschließt. Mein Witz mit dem „Bürger eines<lb/>
+besseren Jahrhunderts“, der sich bei der Rücksendung hinein verirren soll.<lb/>
+Frl. Wüllner u. der jüngste Scholz kommen begeistert aus „Tristan“. Ueber Wagner<lb/>
+stimmen wir gründl. überein. Der junge Sch. giebt mir spät (12 ½ Uhr)<lb/>
+das Geleite.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

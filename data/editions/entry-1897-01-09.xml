@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-09" n="01"/>
+            <title level="a">Samstag, 9. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>9 Januar Samstag.</head>
+            <p>Spaziergang ins Cottage zu Folge eines Briefes v. Dir. Müller.<lb/>
+Der Bauplatz in der Blaasgasse gefällt mir nicht; was man hier<lb/>
+auf Trottoir, Baumanpflanzung u. Einfriedigung ausgeben müßte,<lb/>
+gewänne man in der Carl Ludwig str. an Bequemlichkeit und<lb/>
+Regelmäßigkeit. Ueberdies liegt die Ecke nach N. u. W., u.<lb/>
+alle Stürme sagen dort einander guten Tag. Mittags giebt Rosel<lb/>
+ihr lange besprochenes Brahms-Diner u. bewährt sich als ebenso<lb/>
+aufmerksame wie graziöse Hausfrau. Prächtiger Tisch, mit Blumen<lb/>
+u. Früchten beladen; am oberen Ende Brahms zwischen Rosel u. Julie;<lb/>
+ich links neben Rosel u. Anny Hiller. Schneegans, Zellner’s,<lb/>
+Mosé, die Gräfin Kamarowska a. Millstadt, die männliche Jugend<lb/>
+vom Hause, Singer. Alles sehr fidel. Der unglückliche Mosé<lb/>
+bringt einen gerührten Toast auf Brahms aus, „daß ihn der<lb/>
+l. Gott uns noch recht lange erhalte.“ Br. verzieht das Gesicht<lb/>
+u. verzeiht dem taktlosen Sprecher. Das war der einzige störende<lb/>
+Zwischenfall. Sonst Alles in schönster Harmonie. Br. fühlt sich so<lb/>
+wol bei unseren lieben Freunden, daß er erklärt, er wolle mit ins<lb/>
+Volkstheater u. dann noch zum Souper bei Sacher kommen. Er<lb/>
+stellt sich auch pünktlich in der Loge ein u. klatscht Ganghofer viel<lb/>
+Beifall. Der arme Teufel konnte ihn brauchen, denn es fehlte wenig,<lb/>
+so wäre „Meerleuchten“ schief gegangen. Genau wie ich es mir,<lb/>
+als ich das Stück im Manuscr. gelesen, gedacht hatte, war es auf<lb/>
+der Bühne. Von meinen Bedenken gegen die mittleren Acte wollte G. damals<lb/>
+nichts wissen. Jetzt sieht er seinen Irrtum ein. Guter Rat hilft keinem<lb/>
+Dichter, man erzürnt sie nur, u. sie machen dann doch, was sie wollen.<lb/>
+Brahms, [mit dem dies lange hin u. her besprochen wurde,] hält bis nach 12 Uhr bei Sacher Stand, u. besteht darauf, nach<lb/>
+Hause zu gehen, so daß ich ihn zu Fuße, trotz heftigen Sturmes, begleite.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

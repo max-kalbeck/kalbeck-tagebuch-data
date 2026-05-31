@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-10" n="01"/>
+            <title level="a">Sonntag, 10. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 Oktober Sonntag.</head>
+            <p>An Jos. Kürschner Nachrichten für den neuen Jahrgang seines<lb/>
+Literaturkalenders. Vertröstungsschreiben an Dr. Körner i.<lb/>
+Graz. Anzeige vom Tode des Balladencomponisten Martin Plüdde-<lb break="no"/>
+mann. Kainz in Sudermann’s „Morituri“. Wie jetzt auch<lb/>
+die Wiener dahinterkommen, daß diese Stücke doch nicht so<lb/>
+schlecht sind. Bauer begleitet uns nach Hause; seine Frau hat<lb/>
+eine gefährliche Operation überstanden, leidet aber neue Schmerzen.<lb/>
+Mit der Einrichtung des Agendenbuches begonnen. Heuberger<lb/>
+publicirt in der „Neuen fr. Presse“ ein langes Raisonnement<lb/>
+über Jahn u. Mahler, das seinen ohnehin nicht recht klaren<lb/>
+Charakter noch mehr verdunkelt. Sollen die bitteren Wahrheiten<lb/>
+und dreisten Unwahrheiten, die er Jahn bei dieser unpassenden<lb/>
+Gelegenheit unter die Nase reibt, etwa zeigen, wie wenig er<lb/>
+ihm für die Aufführung der „Mirjam“ sich zu Danke verpflichtet<lb/>
+fühlt? Und sollen die [eingefügt: dem neuen Director] von oben herunter erteilten Ratschläge<lb/>
+dem Gemaßregelten Respect vor dem Kritiker u. Componisten<lb/>
+einflößen? Hier war der Pfiffige doch nicht klug genug, das<lb/>
+seiner verwickelten Lage Gemäße zu treffen. Eine derartige<lb/>
+Kanzelrede kann weder das Publicum noch die beiden Directoren<lb/>
+erbauen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

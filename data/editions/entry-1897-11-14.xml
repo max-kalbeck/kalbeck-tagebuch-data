@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-14" n="01"/>
+            <title level="a">Sonntag, 14. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>14 November Sonntag.</head>
+            <p>Von der k.u.k. Generalintendanz des k.k. Hoftheater kommt<lb/>
+ein mächtiger Brief herab: auf Wunsch des Thronfolgers<lb/>
+Franz Ferdinand Este soll im Dcbr. 1898 ein Théâtre paré in der<lb/>
+Hofoper stattfinden. Dazu brauchen sie ein vaterländisches Fest-<lb break="no"/>
+spiel mit lebenden Bildern, Gesang u. Tanz u. „leiten eine beschränkte<lb/>
+Concurrenz“ von eigens dazu aufgeforderten Autoren ein. Jeder<lb/>
+erhält ein Honorar von 50 Dukaten; der Preisgekrönte das<lb/>
+Doppelte. Ich gehöre auch zu den beschränkten Concurrenten, falls<lb/>
+ich Lust habe; ich habe aber nicht die geringste. Preisbewerbungen<lb/>
+sind mir eo ipso ein Greuel, u. nun gar eine, bei der es sich<lb/>
+um ein „vaterländisches“ Festspiel handelt. Auch wenn ich kein<lb/>
+Preuße mehr wäre, möchte ich das Odium nicht auf mich laden,<lb/>
+als geborener Nicht-Oesterreicher die Wiener Patrioten aus dem<lb/>
+Felde geschlagen zu haben. Schon anno 1888 bei dem Theresientage<lb/>
+habe ich es abgelehnt, das Balletbuch für das damalige theâtre<lb/>
+paré zu verfassen, obwol es sich nur um eine Truppenrevue<lb/>
+mit nationalen Liedern, Märschen u. Tänzen handelte. Ich begnügte<lb/>
+mich mit der „frei nach Favart gedichteten ‚Maienkönigin‘“, die<lb/>
+jetzt auf verschiedenen Bühnen als neue Operette v. Gluck erscheint,<lb/>
+schlug den mir von Jahn „nahe gelegten“ Orden aus u. verlangte<lb/>
+500 fl. Honorar. – Für die Verherrlichung des Hauses Habsburg<lb/>
+bin ich der Mann nicht. – Dvorak im Gesellschaftsconcert. Dann<lb/>
+zum Diner bei Mautner mit Singer, Winter u. Prof. Singer.<lb/>
+Dessen Ansicht über Burckhard u. „Simon Thums“. Er sagt, ich wäre<lb/>
+der Einzige, der das Buch richtig taxirte. Die wunderliche Historie von<lb/>
+Neusser und der Mark. Da Röntgen nicht mehr bei mir war, ist<lb/>
+er unverrichteter Sache nach Amsterdam zurückgereist. Huch’s Gedichte.<lb/>
+Mit Muxl in der „Verk. Braut“. Ihre Seligkeit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

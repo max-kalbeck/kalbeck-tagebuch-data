@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-15" n="01"/>
+            <title level="a">Samstag, 15. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>15 Mai Samstag.</head>
+            <p>Prof. Jurenka äußert sich günstiger über Paul. Er zeige jetzt mehr<lb/>
+Aufmerksamkeit und Lerneifer. Mit Breitenstein über die Zukunft<lb/>
+der „Liter. Gesellsch.“ conferirt. Er will sie nicht eingehen lassen,<lb/>
+kommt also wol auf die Kosten, obwol er behauptet, 2000 fl.<lb/>
+zugesetzt zu haben. Eisenstein behauptet, daß meine „Humoresken“<lb/>
+überall eingeschlagen hätten u. auch jetzt noch gekauft würden. Der<lb/>
+Verleger sei das Unglück d. Gesellsch. Breitenstein verkauft die<lb/>
+Restauflagen der Bücher, die nicht gehen, zu antiquarischen Schleuder-<lb break="no"/>
+preisen, während er sich beispielsweise für meine Bände 3 fl. zalen<lb/>
+lasse. Ein Wunder, daß das Buch bei so enormem Preise überh.<lb/>
+Abnehmer findet. Ueber eine Stunde bei Frau Truxa. Ihre seltsame<lb/>
+u. misliche Lage. Die reichen filzigen Freunde, die sich drücken. Simrock,<lb/>
+der durchblicken ließ, er habe ihr 1000 fl. gegeben, hat ihr 200 Mk.<lb/>
+geschickt. Was für unzuverlässiges u. schofles Pack, alle diese sogen.<lb/>
+Brahms-Freunde! Ueber die Erzälungen der Frau Tr. stehen mir die<lb/>
+Haare zu Berge. „Man“ hat darüber gesprochen, daß ich nicht einmal<lb/>
+einen Kranz zum 7. Mai gestiftet habe. Unsere anonymen Blumen<lb/>
+gelten nichts! Die lieben aufeinander eifersüchtigen Frauen. Frau Adele<lb/>
+Strauss u. ihr „Arrangement“. Viele charakteristische u. rührende Züge von<lb/>
+Br. Die Aufopferung der armen Frau, die den ganzen Winter über jede<lb/>
+Nacht auf der Lauer saß, um den armen Patienten zu beaufsichtigen.<lb/>
+Ihre Hallucinationen. Sie hört ihn jede Nacht um 2 Uhr in seinen Schlapfen<lb/>
+über den Gang zum Abort hinausgehen. 28 J. wohnt Br. in d. Carlsgasse,<lb/>
+nach d. Tode d. alten Fräuleins ein Jahr ganz allein. Wie sie an ihn herankam.<lb/>
+Seit d. Herbst 1886. Das Mobiliar, die Damen, welche Schutzengel spielen<lb/>
+wollten. Misdeutung ihres Verhältnisses, verleumderisches Gerede. V. S.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

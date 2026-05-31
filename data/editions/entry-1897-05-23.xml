@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-23" n="01"/>
+            <title level="a">Sonntag, 23. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>23 Mai Sonntag.</head>
+            <p>Auf dem Bahnhofe Stockhausen’s. Es ergiebt sich, daß sie auf dem<lb/>
+Rheine nur bis Biebrich mitfahren können. Wir haben also nur<lb/>
+die Eisenbahnstrecke bis Mainz zu unserer Unterhaltung. Sie kommen<lb/>
+mir heute viel liebenswürdiger vor als gestern; der Langweilige und<lb/>
+Kurzweilige bin eben ich. Er noch der alte Idealist, voll Feuer für<lb/>
+die Kunst. Aber mit den Erinnerungen an Br. sieht es schwach aus.<lb/>
+Ich lege ihr die Sache noch einmal ans Herz. Schöner Anblick der vereinig-<lb break="no"/>
+ten Ströme Main und Rhein; die rote Spur, noch eine Zeitlang zu<lb/>
+verfolgen. Bild der Vereinigung zweier Liebender und zweier Künstler,<lb/>
+die eines werden. Die Stadt prächtig am Strom gelagert, die roten Sand-<lb break="no"/>
+steinbauten, dazwischen das frische Grün, das kurfürstl. Schloß. Abschied<lb/>
+in Biebrich. Meine vierte Rheinfahrt (1871 mit Egers, 1874 Geisen-<lb break="no"/>
+heim, Bingen u. Ems – David u. Recha S. — 1880 zur Schumannfeier<lb/>
+– Clara Sch., Brahms, Joachim, Stockhausen, Ebbinghaus, Müller).<lb/>
+Wahrnehmung, daß der Eindruck des romantischen Rheins (zwischen Bingen<lb/>
+u. Coblenz) in demselben Maße bei mir schwächer wird, in welchem die<lb/>
+Vorliebe für die früher geringer geschätzten lieblichen Partien im<lb/>
+Rheingau u. hinter Coblenz zunimmt. Zeichen des Alters. Man ist jung<lb/>
+mit dem Rhein u. wird alt mit ihm, bis man still ins Allgemeine<lb/>
+davonfließt. Das Wetter ändert sich zum Schlechteren, und der kalte<lb/>
+Sturm jagt mich in den Cajüte. Brief an Julie, Karten an die Kinder,<lb/>
+Kantor’s u. Lasswitz. Rocholl erwartet mich in Bonn am Landungsplatze.<lb/>
+In seinem gemütlichen Hause Miss Campbell bei der schönen Frau. Sehr herzlicher<lb/>
+Empfang. Zimmer im II St. nach d. Meckenheimerstr. In der Concerthalle ein großes<lb/>
+Publicum: viele Freunde, einige unverhoffte alte Bekannte. Dömpke, dem natürl.<lb/>
+wieder etwas nicht recht ist – ein mathematischer Musik-Unmensch – Franck a.<lb/>
+Berlin-Breslau + Messchaert, Fürst Reuss, Frau Fritsch, Frau Heermann,<lb/>
+Joachim, die Wiener. Nach dem Concert im „Stern“ mit Finger’s, Grützmacher,<lb/>
+Wolf (Cöln), Dr. Marquardsen bis 1 Uhr. Erkältet.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

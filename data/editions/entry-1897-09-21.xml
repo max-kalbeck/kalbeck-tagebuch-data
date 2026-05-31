@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-21" n="01"/>
+            <title level="a">Dienstag, 21. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>21 September Dinstag.</head>
+            <p>Musikdirector Ochs in Berlin schreibt mir, daß er die „Sylvesterglocken“<lb/>
+mit der Koessler’schen Musik im Januar aufführen wolle, vermutet in<lb/>
+mir den (ungenannten) Dichter des Textes und bittet mich um einige Daten<lb/>
+für sein Programm. Seltsam, daß es K. nicht einmal für nötig findet,<lb/>
+meinen Namen auf die Partitur zu setzen, da diese bescheidene Auszeichnung<lb/>
+das einzige Honorar ist, das ich von ihm erwarte! – Meinem Aufsatz,<lb/>
+den ich wohl oder übel für den 100. Geburtstag Donizetti’s abliefern<lb/>
+muß, kommt eine Nummer der „Fanfulla della Domenica“ zustatten,<lb/>
+die mir Heyse giebt; sie enthält „Note Donizettiane“ und zeigt<lb/>
+„l’uomo, qual’era“. Ein in Rom wohnender Italiener sendet Heyse<lb/>
+aus besonderer Verehrung regelmäßig die Nummern dieser Wochenschrift.<lb/>
+So leisten uns Unbekannte, ohne es zu wollen, manchmal die besten<lb/>
+Dienste. Auch dieser Ignoto erschien auf sein Stichwort. Wir benutzen<lb/>
+das endlich eingetretene schöne Wetter zu einer Partie nach Schörma.<lb/>
+Julie, Muxl u. ich gehen über Vernaun u. Goyen zu Fuß, Heyse’s<lb/>
+folgen zu Wagen nach. Das innige Zusammengehörigkeitsgefühl, das<lb/>
+mich mit der Natur des Tiroler Südens verbindet, strömt mir bei<lb/>
+jedem Wege durch die herrliche Landschaft beseligend durch die Adern.<lb/>
+In Schörma sind wir Alle sehr vergnügt. Auf dem Rückwege<lb/>
+erzält Heyse von alten Berliner Tagen, in Erinnerung an Ad. Menzel,<lb/>
+der ihn unlängst in München besuchte. Menzel sein ältester Freund, er<lb/>
+hat ihn vor 50 Jahren im „Tunnel“ kennen gelernt. Fontane, Lepel,<lb/>
+Hesekiel, Kugler gehörten zu demselben Kreise. Heyse hat zwei Preise<lb/>
+auf einmal gewonnen, die für ein episches Gedicht u. eine Novelle ausgesetzt<lb/>
+waren: Parisina u. Marion. Ueber den Wert solcher literar. Vereine:<lb/>
+man lernt Kritik ausüben und debattiren. Vide: Das Bresl. „Dintenfaß“.<lb/>
+Die Nummer 51 der „Nation“ mit dem Crailsheim – Heyse’schen Brief-<lb break="no"/>
+wechsel in Sachen Anzengruber’s u. des Maximilianordens. Tarok m. Ahrens.<lb/>
+Heyse hat die in Labers begonnene Novelle vollendet.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

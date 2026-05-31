@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-19" n="01"/>
+            <title level="a">Freitag, 19. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>19 März Freitag.</head>
+            <p>Total abgespannt, nach einer halb durchwachten unruhigen Nacht,<lb/>
+mit Kopf- u. Gliederweh bis Mittag im Bett gelegen. Die<lb/>
+Lecture meiner alten Tagebücher von 1866/67 mit Grauen beendet.<lb/>
+Es ist ein reines Wunder, daß ich nicht untergegangen bin! Mancher-<lb break="no"/>
+lei seltsame Gedanken über die vorzeitige Entwickelung meines<lb/>
+Körpers, die [eingefügt: hemmend u.] zerstörend auf das Leben meines Geistes eingewirkt<lb/>
+hat. Nach meiner außerordentlichen Naturanlage hätte ich vor<lb/>
+zwanzig Jahren so weit sein müssen, wie ich heute bin, d. h. ich habe<lb/>
+zwanzig Jahre vertändelt u. um die Ohren geschlagen; auch laborire<lb/>
+ich noch gegenwärtig an den Folgen meines bodenlosen Leichtsinnes.<lb/>
+Sehr viel haben die romantischen Grillen meines Vaters und<lb/>
+die in der Familie genährte Sucht, mehr zu scheinen als zu sein,<lb/>
+zu meiner sittlichen Verwahrlosung beigetragen. Die rasende<lb/>
+Sinnlichkeit, welche meine besten Jugendgefühle vergiftet und<lb/>
+verzehrt hat, war ein Erbteil der Familie Schade. Wenn ich<lb/>
+den Mut fände, mein Leben wahrheitsgetreu zu schildern, so käme<lb/>
+ein Buch heraus, das Rousseau’s Confessions noch übertreffen<lb/>
+würde. – Im Burgtheater die Sandrock als Julia, Kutschera als<lb/>
+Romeo. Daß man sich ewig mit dem Widrigen, Unkünstlerischen<lb/>
+und Verfehlten herumschlagen muß! Meine scharfe Kritik schreibe ich<lb/>
+in dieser Verstimmung.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

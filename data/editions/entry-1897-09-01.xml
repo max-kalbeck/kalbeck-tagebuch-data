@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-01" n="01"/>
+            <title level="a">Mittwoch, 1. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>1 September Mittwoch.</head>
+            <p>Briefe, höfliche und grobe, an allerlei Menschen. Karpath<lb/>
+muß sich wieder einmal den Standpunkt klar machen lassen, da<lb/>
+er mich in einem 8 Seiten langen Schreiben dazu herausfordert.<lb/>
+Doller empfängt einem ironischen Dank für ein Siegfried-<lb break="no"/>
+Referat, das er Frau D. zu Liebe bei Singer eingeschwärzt hat.<lb/>
+Zum letzten Male mit den Kindern gebadet. Am Nachmittag<lb/>
+geht die berühmte Jause vor sich. Eben habe ich mich an den<lb/>
+langen Tisch gesetzt um mit der lieben Jugend lustig zu sein,<lb/>
+als Dr. Körner gemeldet wird. Er ist eigens von Mittenwald<lb/>
+zu Wagen herübergekommen, um mich zu besuchen. Bald sollte<lb/>
+ich erfahren, wie ich zu der Ehre komme. Der Aristokratenfreund<lb/>
+möchte einer schriftstellernden Gräfin Saalfeld in Graz, die<lb/>
+sich nicht direct an mich herantraut, sich gefällig erweisen, und<lb/>
+ich Unglücklicher soll ihre Schauspiele, Gedichte u. Romane lesen.<lb/>
+Dr. K. brachte seine Angelegenheit so drollig und armesünder-<lb break="no"/>
+mäßig vor, daß ich nicht nein sagen konnte. Seltsamer Weise<lb/>
+fing er dann plötzlich an von der Ruine Landskron zu sprechen,<lb/>
+und es stellte sich heraus, daß er ein passionirter Verehrer<lb/>
+mittelalterlicher Befestigungsbauten ist, der eingehende Fachstudien<lb/>
+gemacht haben will. Sollte dieser Schwärmer auf sein Stichwort<lb/>
+gewartet haben, um mir zu bringen, was ich für meinen „Letzten<lb/>
+Ritter“ brauche? Wir setzten uns gleich auf, fuhren nach Gratschach<lb/>
+u. stiegen in der Dämmerung zur Ruine hinan, krochen in dem alten<lb/>
+Gemäuer waghalsig herum. Ich sah dabei eine ganze Menge Neues,<lb/>
+erfuhr aber von dem Kenner d. Mittelalters nichts, was ich nicht schon<lb/>
+wußte. Abschied der Pester Judenfamilie. Troppo tardo!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

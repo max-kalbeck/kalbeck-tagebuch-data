@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-16" n="01"/>
+            <title level="a">Samstag, 16. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>16 Oktober Samstag.</head>
+            <p>Schon um 7 Uhr am Schreibtisch. Das Feuilleton über Kainz wächst<lb/>
+unter der Hand auf sieben Spalten an, und es ergeht mir wie so<lb/>
+oft, daß ich nicht mehr dazu komme, das Wichtigste zu sagen,<lb/>
+das ich mir vorgenommen hatte: wie ich mir das Verhältnis des<lb/>
+neuen Schauspielers zu dem Burgtheater denke. Im Unterschied zu<lb/>
+dem Virtuosen und Episodenspieler Mitterwurzer, der das Ensemble<lb/>
+zersprengt hat, verspreche ich mir von Kainz das Gegenteil. Auch<lb/>
+den Nachweis, daß K. beileibe nicht der „moderne“ Schauspieler<lb/>
+ist, den sie aus ihm machen wollen, bin ich schuldig geblieben. Ich<lb/>
+war noch lange nicht fertig, als meine Tischgäste kamen: Dr. O. Brahm,<lb/>
+Singer, Schneegans u. Doller, u. machte in Folge dessen einen noch<lb/>
+unliebenswürdigeren Wirt als gewöhnlich. Singer ist in der besten<lb/>
+Schimpflaune, und es geht scharf über Burckhard u. Bezecny<lb/>
+her. Doller führt das große Wort und redet mit schmunzelnder<lb/>
+Selbstgefälligkeit die ärgsten Banalitäten; er ist in Gesellschaft<lb/>
+schwer zu ertragen. Brahm verrät sein Gelüst auf die Direction<lb/>
+des Burgtheaters; das Exempel Mahler’s ermutigt ihn, sein bischen<lb/>
+Judentum zu vergessen. Meiner Stimme wäre dieser kluge, hochge-<lb break="no"/>
+bildete und erfahrene Practicus sicher. Schneegans u. seine ergötz-<lb break="no"/>
+lichen Randbemerkungen; er haßt Burckhard wie die Sünden.<lb/>
+Nachdem die Gesellschaft abgezogen ist, stürze ich mich auf das Feuille-<lb break="no"/>
+ton und schreibe es über Hals u. Kopf zu Ende. Um 7 Uhr schon<lb/>
+wieder in der neuscenirten „Zauberflöte“, und dann noch eine längere<lb/>
+Notiz. Um 12 ½ Uhr zu Bett, ohne ordentlichen Schlaf zu finden;<lb/>
+mein halbgelungener Aufsatz drückt mich als Nachtalp. Zum<lb/>
+Journalisten bin ich nicht geboren.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

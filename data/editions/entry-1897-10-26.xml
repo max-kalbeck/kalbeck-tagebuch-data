@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-26" n="01"/>
+            <title level="a">Dienstag, 26. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>26 Oktober Dinstag.</head>
+            <p>Den Vormittag über fleißig am „König Artus“ übersetzt. Von Tact<lb/>
+zu Tact erscheint mir die Musik problematischer – das Werk eines<lb/>
+Schwärmers oder irrsinnigen Antiharmonikers. Stände nicht Director<lb/>
+Neumann, sein Capellmstr. Schalk, der von der Musik entzückt ist,<lb/>
+u. das Prager Theater hinter dem Franzosen, könnte ich das Werk<lb/>
+für eine Mystification halten. Die Qual, die ich während der Arbeit<lb/>
+ausstehe, ist mit keinem Honorar zu bezalen. Und über solchem elenden<lb/>
+u. hoffnungslosen Zeug muß ich liegen lassen, was meinem Herzen<lb/>
+teuer ist, muß die Geburten meiner Phantasie mit fremdem Wust<lb/>
+ersticken – des lieben Geldes willen! Unseliges Schicksal eines Dichters.<lb/>
+Nach Tisch fülte ich mich unfähig, einen Gedanken zu fassen, und ging über<lb/>
+meine Schmetterlinge, um sie nach den Arten zu ordnen. Dabei widerfuhr<lb/>
+es mir, daß ich das seltene Prachtexemplar des persischen Kaisermantel-<lb break="no"/>
+Weibchens laidirte – mir traten vor Wut u. Schmerz die Thränen in<lb/>
+die Augen. Der Zug der Natur geht wie der der Cultur von Osten nach<lb/>
+Westen; auch die Schmetterlinge haben ihr Paradies, aus dem sie ver-<lb break="no"/>
+trieben wurden, um sich über die Erde bis in deren karge u. unfreundliche<lb/>
+Zonen zu verbreiten. Dabei büßten sie an Gestalt u. Farbe ein. Viele<lb/>
+mögen vom Winde aus wärmeren in kältere Gegenden getragen worden sein,<lb/>
+um hier neue Arten zu bilden. – Dieser Gedanke für „Jasius Araxes“ zu<lb/>
+verwerten! Animirter Abend bei Lobmeyr. Kralik, Grasberger u. Karl-<lb break="no"/>
+weis meine Tischnachbarn. Prof. Puschmann berichtet über die Unruhe, die<lb/>
+meine Humoreske im „Ruhigen Bade“ hervorgerufen hat. Dir. Burckhard<lb/>
+entschuldigt sich, daß er meinen Besuch noch nicht erwiderte, u. freut sich auf Heyse’s<lb/>
+„Tochter d. Semiramis“, die ich i[h]m morgen schicken will. Lewinsky schmollt.<lb/>
+Meinetwegen. Bettelheim’s Idee, uns gegen Lobmeyr mit einem Festmal<lb/>
+ihm zu Ehren zu revanchiren. – Heute macht Elly Lion in Breslau Hochzeit.<lb/>
+Juliens Herzenstrauer geht mir nahe, ich füle meine Ohnmacht, sie trösten zu können,<lb/>
+mit tiefster Bekümmernis.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-12" n="01"/>
+            <title level="a">Sonntag, 12. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>12 September Sonntag.</head>
+            <p>[Forsetzung vom 11. September]<lb/>
+Genie wie Klinger gegenüber der Pedant, hartnäckig auf meinem<lb/>
+Scheine zu bestehen. Interessant ist mir der Fall Heyse – Klinger<lb/>
+als Beispiel für Sym- u. Antipathien, die auf Gegenseitigkeit beruhen.<lb/>
+H. schenkte mir die Photographie seines neuesten, von Van Dyck beein-<lb break="no"/>
+flußten wundervollen Lenbach’schen Porträts. Lenbach hat sich nicht sehr<lb/>
+sauber dabei benommen. Nachdem er es dem Freunde geschenkt hatte, erbat er<lb/>
+es sich zur Ausstellung für Dresden, schickte ihm dann ein telegraphisches<lb/>
+Anbieten der Dresdener Galerie, die ihm 5000 Mk. für das Porträt zalen<lb/>
+wollte, mit der naiven Anfrage, ob es Heyse nicht Spaß mache,<lb/>
+neben Tizian’s „Zinsgroschen“ aufgehängt zu werden? Er, Lenbach, wolle<lb/>
+dann ein neues Bild von dem Freunde anfertigen. Natürlich gab H. der<lb/>
+Pression nach. Frau Anna erzält, wie L. zu seiner jetzigen Frau gekommen<lb/>
+ist. Die Mutter Hornstein hat sie ihm als lebendige Leiche an den Hals<lb/>
+gehängt, und er hat sie aus Generosität geheiratet, damit es nicht wieder<lb/>
+ein Unglück gebe. Lolo’s Einfluß auf Lenbach soll nicht der günstigste<lb/>
+sein, u. es ist in Folge dieses u. anderer widrigen Umstände eine starke<lb/>
+Abkühlung des alten Freundschaftsverhältnisses eingetreten. Auch mit Schwe-<lb break="no"/>
+ninger verkehren Heyse’s nicht mehr, seit dieser die frühere Frau Lenbach<lb/>
+geb. v. Moltke, verführt hat. Sehr komisch findet Heyse meine Idee,<lb/>
+von Levi Brahmsiana zu bekommen. Levi gerät schon in Wut,<lb/>
+wenn nur mein Name genannt wird; er haßt mich als Anti-Wagnerianer<lb/>
+u. sucht mir bei jeder Gelegenheit am Zeuge zu flicken. Seit seiner Don Juan-<lb break="no"/>
+Bearbeitung hält er sich für einen Dichter und ist überh. halb übergeschnappt.<lb/>
+Ich hätte ihn höher taxirt. Was sind das für Männer, die den Menschen<lb/>
+eines anderen künstlerischen Glaubens wegen verdammen? Da ist mir ein<lb/>
+fanatischer Pfaffe lieber. Heyse giebt mir das Manuscript eines 2actigen<lb/>
+Schauspieles „Der Stern von Mantua“ zur Prüfung, mit dem er sich seit<lb/>
+8 Jahren getragen, u. das er schon dreimal umgearbeitet hat. Es zeigt sich,</p>
+         </div>
+      </body>
+   </text>
+</TEI>

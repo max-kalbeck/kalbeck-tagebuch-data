@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-27" n="01"/>
+            <title level="a">Montag, 27. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>27 September Montag.</head>
+            <p>[Forsetzung vom 26. September]<lb/>
+damals war Frau Anna eifersüchtig auf ihre Stieftochter, die sie trotzdem<lb/>
+sehr lieb hat. Sie ist es heute noch, obwol sie es so wenig wie vor 25 Jahren<lb/>
+nötig hätte. Rührend war es, wie sie es mir [eingefügt: einst] in Gegenwart Juliens und<lb/>
+Heyse’s in Venedig unter Thränen bekannte. Das ist nun auch schon wieder<lb/>
+eine Weile her (1881). Ihr, der Auserwälten, zu der ich wie zu einer Göttin<lb/>
+hinaufsah, die ich scheu und befangen verehrte, ging es nahe, daß ich ihr<lb/>
+das junge Backfischchen vorzog, und sie hat sich bis zu jener Aussprache<lb/>
+eingebildet, ich könne sie nicht leiden. Seitdem weiß ich, daß sie mich<lb/>
+liebt – ohne allen meinen Verdienst und Würdigkeit, und wir verkehren<lb/>
+innig wie Bruder und Schwester. Julie leidet nicht unter unserem vertrauten<lb/>
+Umgange, obwol sie in diesem Falle ebenso viel oder wenig Grund zur<lb/>
+Eifersucht hätte wie in mehreren andern. Gut, daß ich anno 1872 nicht<lb/>
+ahnte, was ich heute weiß! – Das Heyse’sche Gesicht in den drei ver-<lb break="no"/>
+jüngten Auflagen seiner Enkelinnen. Die Mädchen befreunden sich schnell<lb/>
+mit Muxl. Eine höchst interessante u. leidenschaftlich geführte Debatte<lb/>
+zwischen Paul, Anna u. mir über das Heyse’sche Moralprincip. In<lb/>
+die Enge getrieben und gründlich ad absurdum geführt, weiß H. sich zuletzt<lb/>
+nicht anders zu helfen, als daß er mir rät, gewisse Bücher zu studiren. Auch<lb/>
+mit ihm ist über die letzten Dinge nicht zu reden, ohne daß er in Harnisch<lb/>
+gerät. Er möchte sich gern seine Moral, die Andere wieder als die greulichste<lb/>
+Unmoral verketzern würden, als praktisches Hausmittel für den Privat-<lb break="no"/>
+bedarf reserviren, u. er wird wild, da ich ihm nachweise, daß sich der<lb/>
+Grundsatz, jeder lebe u. handle seiner Natur gemäß, von den Maximen<lb/>
+der Anarchisten u. den Lehren der Jesuiten wenig unterscheidet. Von<lb/>
+der Vergänglichkeit, Hinfälligkeit u. zeitlich bedingten Relativität<lb/>
+aller [Ausstreichung] ethischen u. ästhetischen Gesetze ist er nicht zu überzeugen, und<lb/>
+meine Predigt der allerweitesten Toleranz nimmt er wie eine persönl. Beleidigung<lb/>
+hin. Ich bekenne mich zur Schule des Sokrates u. werde so lange alle Vorgänge<lb/>
+d. äußeren u. inneren Welt für problematisch ansehen, bis ich eines Besseren<lb/>
+belehrt werde. Anna war zu meiner Ueberraschung mit meiner Seite.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

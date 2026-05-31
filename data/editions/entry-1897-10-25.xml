@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-25" n="01"/>
+            <title level="a">Montag, 25. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>25 Oktober Montag.</head>
+            <p>Längere Notiz über die gestrige Tristan-Vorstellung. Am „Artus“<lb/>
+gearbeitet. Die Musik schaut curios aus. Eirich schickt mir<lb/>
+die Correcturbogen vom ersten Act der „Tochter Jorio’s“. Ich will sie<lb/>
+nicht eher erledigen, als ich mein Honorar habe. Am Nachmittag von<lb/>
+Doller 5000 fl., die Hälfte unseres Hypothekenanlehens, in Empfang<lb/>
+genommen. 4500 fl. werden sofort als fällige Bauraten pro Septbr.<lb/>
+u. Octbr. an den Cottage-Verein abgeführt. Auf dem Bureau der<lb/>
+widerwärtig gefällige Frey, der mir jedesmal irgend eine Falle<lb/>
+stellt, um irgend eine kleine Angriffswaffe zu haben, die er hinter<lb/>
+meinem Rücken gegen mich führt. Karpath, der mich heimbegleitet,<lb/>
+erzält mir von seinen hinterlistigen Machinationen. So wollte er<lb/>
+ihn verhindern, mich davon zu benachrichtigen, daß das neu inscenirte<lb/>
+„Heimchen am Herd“ abgesetzt worden ist, um dann über den unnützen<lb/>
+Verbrauch von Karten raisonniren zu können. Er hetzt im Bureau<lb/>
+die Anderen gegen mich auf, die mich ohnehin um meine Unabhängig-<lb break="no"/>
+keit beneiden. Auch sind fabelhafte Gerüchte über die Höhe meiner<lb/>
+Gagen und die Kosten verbreitet, die ich der Zeitung verursache.<lb/>
+Man hat Singer beigebracht, meine Stellvertretung bedeute allein<lb/>
+so viel wie einen neuen Posten, da Karpath im letzten Jahre<lb/>
+2000 fl. für Referate bezogen habe. Thatsächlich waren es etwa<lb/>
+400 fl. Karpath glaubt mit den Anderen, daß ich gegen 10000 fl.<lb/>
+fix beziehe, und wundert sich, als ich ihm bekenne, daß ich für das<lb/>
+Musikreferat noch immer [eingefügt: mit dem] Provisorium von 2400 fl. abgefertigt<lb/>
+werde, während Heuberger als Hanslick’s Substitut ebensoviel hat,<lb/>
+Hanslick selbst aber 7200 fl. u. 120 fl. Feuilletonhonorar erhält.<lb/>
+Wenn doch Singer auch in dieser Beziehung mit der N. fr. Presse con-<lb break="no"/>
+curriren wollte!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

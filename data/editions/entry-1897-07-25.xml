@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-25" n="01"/>
+            <title level="a">Sonntag, 25. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>25 Juli Sonntag.</head>
+            <p>Die Gräfin Kamarowska und Familie v. Ehrmann als Tischgäste<lb/>
+da. Die arme Gräfin hat sich verleiten lassen, zu ihren beiden<lb/>
+Häusern ein drittes für Sommerparteien zu bauen. Nun ist ihr<lb/>
+die größte Wohnung leer stehen geblieben, und sie erleidet einen<lb/>
+empfindlichen Verlust. Nach ihren Millstätter Wonnetagen,<lb/>
+die sie mit ihrem Ungetreuen hier in dulci jubilo verlebte, ist<lb/>
+sie mit Millstatt zugleich herabgekommen. Seit Waldheim’s Tode<lb/>
+befindet sich der von ihm in jeder Weise geförderte Ort in der<lb/>
+Decadence, und während das unbedeutende Seeboden aufblüht,<lb/>
+geht das ansehnliche Millstatt von Jahr zu Jahr mehr zurück.<lb/>
+Die Gräfin K. ein trauriges Beispiel für den Menschen als<lb/>
+Product seiner Verhältnisse. Schönheit, Rang, Liebenswürdigkeit<lb/>
+u. Talent konnten das gescheiterte Schiff nicht flott machen, und<lb/>
+es verfault als Wrack im Hafen. Prof. v. Ehrmann, an der<lb/>
+Bürgerschule in Baden als Lehrer der französ. Sprache angestellt,<lb/>
+u. der dortige Pensionsgeber der Kantor’schen Söhne, ist ein vielseitig<lb/>
+begabter u. unterrichteter Mann. Von seiner Jugend wäre noch etwas<lb/>
+zu hoffen, wenn er sich nicht, wie es scheint, mit einer Heirat ver-<lb break="no"/>
+plempert hätte. Uebrigens wollte wol die Natur nicht allzu hoch<lb/>
+mit ihm hinaus, trotz seiner Kenntnisse, seines poetischen u. musikal.<lb/>
+Talentes. Er ist, seinem ganzen Wesen nach, der geborene zweite<lb/>
+Geiger. Den merkwürdigen Augen seines 3 jährigen Jungen prophezeie<lb/>
+ich eine große Zukunft, wenn er sie erlebt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

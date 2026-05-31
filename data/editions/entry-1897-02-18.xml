@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-18" n="01"/>
+            <title level="a">Donnerstag, 18. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>18 Februar Donnerstag.</head>
+            <p>[nachträglich ganz oben auf der Seite geschrieben]<lb/>
+Zu Busoni, dem Hanslick vorgeschwatzt hatte, Br. spiele ihm öfters Bach<lb/>
+vor, sagte dieser: „Ich – Hanslick Bach vorspielen? Ist mir in Leben nicht<lb/>
+eingefallen.“<lb/>
+Herrlicher Frühlingstag. 17° Wärme. Zu Brahms. Frau Soldat-<lb break="no"/>
+Röger bei ihm. Erzält scherzhafte Reiseabenteuer. Es kommen und<lb/>
+gehen eine Baronin ? aus Brünn mit Begleiterin, die wissen wollen,<lb/>
+ob sie echte Beethoven und Schubert-Autographe besitzen, Anton<lb/>
+Rückauf, der den Lemmermeyer’schen Text zu seiner für Mitte<lb/>
+März in Dresden angesetzten Oper abgiebt, Herr u. Frau Busoni,<lb/>
+der Musikalienhändler Gutmann u. Epstein. Ich spreche meine<lb/>
+Verwunderung darüber aus, daß Br. diese ihm meist gleichgiltigen,<lb/>
+langweiligen u. beschwerlichen Besuche vorläßt. „Was soll ich sonst<lb/>
+machen?“ sagte er sehr traurig. „Sie bringen mir wenigstens immer<lb/>
+eine Art von Abwechselung u. Zerstreuung. Ich kann ja nichts mehr<lb/>
+thun als auf dem Sopha liegen. Zum Spazierengehen bin ich zu<lb/>
+schwach. Mit dem Lesen geht’s auch nicht mehr, es strengt mich an,<lb/>
+und ich schlafe gleich ein. Auch das Sprechen wird mir sauer, seit<lb/>
+ich gestern mit dem schiefen Gesicht aufgestanden bin.“ Ich war<lb/>
+schon darauf vorbereitet, ihn mit einer Lähmung der linken<lb/>
+Gesichtshälfte zu sehen. Mund u. Auge sind verzogen, u. er kann<lb/>
+die Muskeln nicht mehr bewegen. Der Arzt hat ihm eingeredet, es<lb/>
+sei Rheumatismus. Es freute ihn, wie rücksichtsvoll die Herzogin<lb/>
+v. Meiningen gegen ihn war. Sie hat ihm gestrickte od. gehäkelte Haus-<lb break="no"/>
+schuhe geschickt u. eine adressirte Correspondenzkarte, auf d. er den Empfang<lb/>
+bestätigen kann. Marie Schumann ist in Wien, u. Br. will sie<lb/>
+morgen besuchen. Dr. Fellinger holt ihn mit Wagen zum Speisen ab.<lb/>
+Briefe an Jul. Grosse, den Sänger Horwitz, Hel. Vesque. Besuch<lb/>
+von Schneegans. Auch er ist von Hauptmann’s „Glocke“ entzückt.<lb/>
+Begleitet mich ins Concert zu Frau Hrdlicka, wo ich der einzige meiner<lb/>
+Art bin. – Br. sagte mir noch, er habe die Jodcur, die ihn zu stark angriffe,<lb/>
+aufgegeben u. trinke abends, anstatt seine kleine Flasche Champagner, Thee ... „Ich habe<lb/>
+[Fortsetzung auf vorheriger Seite]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

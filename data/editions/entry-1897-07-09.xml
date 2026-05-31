@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-09" n="01"/>
+            <title level="a">Freitag, 9. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>9 Juli Freitag.</head>
+            <p>An Busse geschrieben:<lb/>
+„Sie haben mir sehr weh gethan, mir größeren Schmerz bereitet als<lb/>
+Sie sich wol denken können. Ich hatte mich in die Idee vernarrt, einen<lb/>
+Menschen vom Untergange zu retten, u. ich empfand so etwas wie<lb/>
+väterliches Wohlwollen für Sie, als ich Sie sah. Von meinen Plänen<lb/>
+mit Ihnen nur soviel, daß ich Sie rehabilitiren wollte, daß ich daran<lb/>
+war, Ihnen eine Stellung zu machen, daß ich die Mittel aufgebracht<lb/>
+hätte, Sie bis zum Winter über Wasser zu halten. Nur Ihrerwegen<lb/>
+bin ich von Karlsbad nach Wien zurückgekehrt, anstatt über Linz<lb/>
+hierherzufahren. Trotz meiner angegriffenen Gesundheit habe ich die<lb/>
+fürchterliche Hitze nicht gescheut u. Sie in Ihrem Schlupfwinkel aufgesucht.<lb/>
+Ich war so froh, daß ich Ihnen dieses Opfer bringen konnte, weil ich,<lb/>
+angesichts Ihrer rührenden Gestalt, fest davon überzeugt war, es trotz<lb/>
+alledem mit einem wahren u. guten, nur grenzenlos unglücklichen<lb/>
+Menschen zu thun zu haben. Aber es geschieht mir recht. Denn ich<lb/>
+habe in Ihnen doch nur ein Stück meines Selbst geliebt. Meine eigene<lb/>
+Jugend, die auch einmal auf schmalem Grat zwischen Abgründen balancirte,<lb/>
+blickte mich aus Ihren traurigen Augen an. Daß Augen so lügen können!<lb/>
+Auch Ihrer geistigen Entwicklung gedachte ich mich anzunehmen; Ihr großes<lb/>
+u. starkes Dichtertalent hoffte ich unter meiner kritischen Anleitung zur<lb/>
+herrlichsten Blüte sich entfalten zu sehen. Sie dürfen mich dafür<lb/>
+einen eingebildeten Narren schelten, wenn Sie den Mut dazu haben.<lb/>
+Meine einzige Hoffnung, was Sie betrifft, bleibt, daß vielleicht die<lb/>
+Straße, die ich Sie zu führen mir vorgenommen hatte, doch nicht die richtige<lb/>
+gewesen wäre. Folgen Sie also Ihrem Stern oder Unstern ins Ungewisse,<lb/>
+Dunkle, Bodenlose. Möge der Dichter sein Ziel erreichen u. der Mensch<lb/>
+darüber zu Grunde gehen, – wenn es nicht anders sein kann!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

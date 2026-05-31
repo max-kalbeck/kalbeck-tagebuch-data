@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-26" n="01"/>
+            <title level="a">Freitag, 26. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>26 März Freitag.</head>
+            <p>Singer u. Doller bei uns zu Tische. Beiden hat mein Zara-<lb break="no"/>
+thustra-Feuilleton nicht gefallen. Mir war es ordentlich recht,<lb/>
+daß Singer einmal etwas an mir auszusetzen fand. So mache<lb/>
+ich einen echten faux pas durch einen falschen wett. Denn von dem<lb/>
+neulichen tragikomischen Auftritt zwischen Singer u. mir war ein<lb/>
+Stachel bei ihm zurückgeblieben. Nun freut es ihn, daß er nicht<lb/>
+der einzige Fallible [ist], u. ich bestärke ihn in meiner Ungeschicklich-<lb break="no"/>
+keit. O Menschen! Pläne, die Verwaltung in Singer’s Hände<lb/>
+zu bringen. Nachmittag gehen wir ins Cottage, um die nötigen<lb/>
+Documente (Verträge etc.) zu unterzeichnen. Singer u. Doller<lb/>
+begleiten uns, letzterer als Rechtsbeistand. Am Abend bei Brüll<lb/>
+mit Frau Lillian Henschel, Emil u. Frau u. Doller. Das Gerücht<lb/>
+erzält, Brahms liege seit heute morgen zu Bette. Frau<lb/>
+Henschel hat ihre Concertideen fallen lassen, erwartet aber ihren<lb/>
+Mann in den nächsten Tagen. Er scheint ein Libretto von mir<lb/>
+haben zu wollen. Frau Lillian hatte mir gestern eine Novelle von<lb/>
+R. Voß „Nubia“ gebracht, im Auftrage ihres Mannes, der<lb/>
+mich bitten läßt sie zu lesen. Das habe ich dann auch gleich<lb/>
+heute Nacht gethan. Es steckt allerlei interessantes Zeug darin,<lb/>
+das sich möglicherweise gebrauchen läßt.<lb/>
+[Fortsetzung vom 27. März]<lb/>
+Die Menschen vertragen es nicht, wenn man ihnen zeigt, daß sie uns zu unserem<lb/>
+Glücke entbehrlich sind. Nur keine Exclusivitäten u. Intimitäten! Was mag<lb/>
+Alles über uns gefabelt werden, nach den angenehmen Pröbchen, die wir hier<lb/>
+zu hören bekamen! Bei Sven Skolander [Scholander] versichern mir mehrere Collegen,<lb/>
+daß meine Zarathustra-Satire das größte Aufsehen mache. Simrock hat sich bei<lb/>
+Schütt ein Dutzend Exempl. für Berlin bestellt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

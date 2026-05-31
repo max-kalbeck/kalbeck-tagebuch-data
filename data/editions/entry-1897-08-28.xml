@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-28" n="01"/>
+            <title level="a">Samstag, 28. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 August Samstag.</head>
+            <p>Scherzhafte Feier von Goethe’s 149. Geburtstage. Das gemeinsam<lb/>
+verfaßte Grossegger ABC. Wir Alten können uns nicht ent-<lb break="no"/>
+schließen, der Einladung der Seebodener zu folgen. Die jungen<lb/>
+Herren fahren nach Tische hinunter; Rosl u. Louise folgen.<lb/>
+Wieder einmal Tarok gespielt mit Frau Sida, Julie u. Mosé.<lb/>
+Mir macht das Kartenspiel gar kein Vergnügen mehr. Die<lb/>
+Damen kehren zeitig heim, auch die Buben sind zum Nachtmal<lb/>
+wieder da; es war nicht viel los in Seeboden. Gespräch mit Rosl.<lb/>
+Ich rücke ihr die Nutzlosigkeit und Leerheit ihres Daseins vor<lb/>
+und ermahne sie, irgend eine regelmäßige Beschäftigung, und sei es<lb/>
+nur eine Liebhaberei, die sie zwei oder drei Stunden des Tages in<lb/>
+Anspruch nimmt, sich anzugewöhnen, etwa Kupferstiche zu sammeln<lb/>
+oder die Werke der großen Meister sich [eingefügt: nach u. nach] vollständig in photogr.<lb/>
+Reproductionen anzuschaffen, mit Zugrundelegung kunsthistorischer<lb/>
+Studien. Sie zeigt den besten Willen. Bei Tische reitet mich der<lb/>
+Teufel, in einem verfänglichen Gespräch über das Verhältnis<lb/>
+der Kinder zu den Eltern das Wort zu ergreifen und meine<lb/>
+radicalen Ansichten zum allgemeinen Entsetzen zu entwickeln. Es<lb/>
+erhebt sich ein Sturm der Entrüstung gegen mich: die Hausleute,<lb/>
+Julie, Mosé geraten außer sich, weil ich es wage, die „Familie“<lb/>
+zu kritisiren. Jeder bezieht meine Ausfälle im Stillen auf sich, u.<lb/>
+jeder – außer mir – wird persönlich u. geht von der Stange ab. Natürl.<lb/>
+macht man mir d. Vorwürfe, die man sich selber machen sollte, und<lb/>
+geht verstimmt zu Bette. Ein Herz aber fliegt mir zu: das des<lb/>
+armen Otto, der an der fixen Idee leidet, das nicht thun zu können, was<lb/>
+er will u. soll. Ich richte seinen Kleinmut auf.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

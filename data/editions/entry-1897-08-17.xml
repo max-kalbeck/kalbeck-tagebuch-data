@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-08-17" n="01"/>
+            <title level="a">Dienstag, 17. August 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>17 August Dinstag.</head>
+            <p>Zu Fuß allein nach Warmbad Villach, dessen Qualification<lb/>
+für einen humoristischen Feuilleton-Stoff mit dem Notizbuch in der<lb/>
+Hand erprobt wird. Ich gehe durch Park, Haus und Wald wie<lb/>
+ein feindlicher Geist der Zerstörung, und je mächtiger der Satiriker<lb/>
+sich in mir regt, desto friedfertiger und harmloser muß ich nach<lb/>
+Außen hin erschienen sein. Denn die Leute ließen wie auf<lb/>
+Verabredung ihre Dummheiten so ungenirt los, als wollten<lb/>
+sie mir zu verstehen geben, daß sie mich nicht [eingefügt: für voll] rechneten oder für<lb/>
+den größten Einfaltspinsel hielten. In einer so sorgfältig über-<lb break="no"/>
+wachten und verborgenen übermütigen stillen Laune muß Daniel<lb/>
+Spitzer oft gewesen sein. Im Schwimmbad, bei der Table d’hôte<lb/>
+und unter der Veranda war ich das reine Lamm u. kostete die<lb/>
+satanische Freude eines vollkommenen Heuchlers durch, der sich, da er<lb/>
+den Anderen als gänzlich Unbekannter und stummer Teilnehmer<lb/>
+keinen Schaden zufügen kann, eigentlich nur selbst ein Fest seiner<lb/>
+Verstellungskunst bereitet. Siesta im Curpark. Die Kaltengräber.<lb/>
+Das Don Juan-Problem, das mich schon am Morgen unterwegs<lb/>
+beschäftigte. Drei Acte im Kopfe ausgearbeitet. Auf der Bahn<lb/>
+zurück. In Villach treffe ich mit Julie zusammen. Fielitz hat mir das<lb/>
+Manuscript vom I Act d. „Stillen Dorfes“ geschickt. Den Kindern,<lb/>
+die zur Vorfeier von Kaisers Geburtstage Haus u. Garten sehr artig<lb/>
+geschmückt [Ausstreichung: haben] u. sich maskirt haben, ein Feuerwerk abgebrannt. In<lb/>
+der Nacht sehe ich mir den Clavierauszug durch. Bis auf den Schluß eine<lb/>
+banale u. süßliche, aber sehr geschickt gemachte u. dankbare Musik, die<lb/>
+mir ganz gegen die Natur geht. Das Zeug ist schlecht u. alltäglich genug,<lb/>
+um dem breiten Publicum zu gefallen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

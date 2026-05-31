@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-11" n="01"/>
+            <title level="a">Sonntag, 11. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>11 Juli Sonntag.</head>
+            <p>Um 5 Uhr zur Hube hinauf und das neue Haus besichtigt;<lb/>
+es kostet 10000 fl. u. ist um 7000 fl. zu teuer, weil die Erbauerin<lb/>
+sich eingebildet hat, es müsse massiv sein, der Transport der Steine<lb/>
+aber ein sehr schwieriger u. kostspieliger ist. Es wäre eine interessante<lb/>
+Aufgabe, die wahre Geschichte der Villa zu schreiben. Am Anfang hatte<lb/>
+Frau Sida eine Idee. Frauen dürfen keine haben. Ihr gefiel die kleine,<lb/>
+an den Wald gelehnte Jagdhütte am schmalen [eingefügt: steil abfallenden] Ufer des Sees; die kühle<lb/>
+Einsamkeit, die romantische Lage des Ortes, das angenehme Gefühl,<lb/>
+von den Millstätter Sommergästen durch das breite Wasser wie durch<lb/>
+einen Festungsgraben getrennt zu sein, die liebliche Aussicht auf das hübsche<lb/>
+alte, ins Grün der Felder u. Wälder hineingebaute Nest u. a. m. hatten<lb/>
+es ihr angethan. Ach, und die Hütte mit dem Walde dahinter war so wohl<lb/>
+feil! Der Platz wird also gekauft – sie läßt sich ihn zum Geburtstag<lb/>
+schenken. Nun ergiebt sich aber, daß zwischen dem zum Berg emporgetürmten<lb/>
+Felsen und dem abgrundtiefen See kein Raum für ein bescheidenes Land-<lb break="no"/>
+u. Familienhaus vorhanden ist. Um so besser, so wird ein Schloß<lb/>
+mit mauerartiger, bezinnter Terrasse ins Wasser hinein gebaut.<lb/>
+Eine leichtsinnige Compagnie von Architekten, die vom Brücken- u. Wasser-<lb break="no"/>
+bau nichts versteht, ist schnell bei der Hand. Sie contrahiren mit der<lb/>
+von den stattlichen Plänen entzückten Grundeigentümerin, und das Schloß<lb/>
+steht bald fertig da, einstweilen auf dem Papiere. Aus riesigen Granit-<lb break="no"/>
+quadern erhebt sich langsam ein mit Türmen flankirtes cyklopisches<lb/>
+Mauerwerk, das Wohngebäude, halb Schloß, halb Bauernhaus,<lb/>
+steigt dahinter auf. Aber die Terrasse ist kein Wasser-, sondern ein<lb/>
+Luftbau; denn sie kann kein festes Fundament finden. Bis auf den<lb/>
+Boden des Sees hinab reicht keine Riesentanne, und die Piloten,<lb/>
+auf denen das Gemäuer ruhen soll, müssen sich mit dem [eingefügt: eine Weile] schräg ins</p>
+         </div>
+      </body>
+   </text>
+</TEI>

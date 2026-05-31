@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-01-10" n="01"/>
+            <title level="a">Sonntag, 10. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>10 Januar Sonntag.</head>
+            <p>* Meine Schmetterlingsidee f. die Novelle vom Jasius Araxes.<lb/>
+Während ich einen Versuch mache, in einem Kasten die Ueber-<lb break="no"/>
+gänge der Arten zu veranschaulichen, bekomme ich Besuch von<lb/>
+Edvard Grieg. Er bleibt länger als eine Stunde bei mir.<lb/>
+Er ist mit den künstlerischen Errungenschaften seines zweimonatl.<lb/>
+Wiener Aufenthaltes sehr zufrieden, obwol es ihn schmerzt,<lb/>
+daß Publicum u. Kritik gerade von seinen größeren u. „tieferen“<lb/>
+Compositionen nichts wissen wollen. Da ich auch zu denen gehöre,<lb/>
+die Grieg nur als Kleinmeister gelten lassen, so hüte ich mich<lb/>
+näher auf den Gegenstand einzugehen, und drehe das Gespräch auf<lb/>
+die nordische Literatur. Björnson hat ihn mit einer Oper sitzen<lb/>
+lassen, nachdem er den I Act bereits gedichtet hatte. Grieg hat<lb/>
+eine Art Cantata daraus gemacht. Ueber Ibsen sind wir<lb/>
+einer Meinung und ziehen den Romantiker u. Ideendichter<lb/>
+der früheren Zeit den heutigen Symbolisten u. Wirklichkeitsfexen<lb/>
+vor. Klage über die elenden Uebersetzungen. Grieg legt mir<lb/>
+nahe, Versuche mit seinem Liedertexten zu machen. Ich will es mir<lb/>
+überlegen. Seine Unzufriedenheit mit der Gulbranson; die beste<lb/>
+Sängerin seiner Lieder sei seine Frau gewesen. Wie gut ihm acht<lb/>
+Tage auf dem Semmering bekommen sind, nachdem er eine schwere<lb/>
+Influenza glücklich überstanden hatte. Wir scheiden sehr herzlich,<lb/>
+u. ich stehe wieder unter dem vollen Eindruck seiner feinen,<lb/>
+liebenswürdigen Persönlichkeit. Den Tag über, den ich in Baden<lb/>
+hätte verbringen sollen, Frimmel’s „Beethoveniana“ gelesen.<lb/>
+[gehört ans Ende des 11. Januars] Dazu Bilder aus d. Kinematographen: das rauschende Fest …<lb/>
+Thema: Die Ex-Lebendigen. Marquis B., der junge Gatte ruht sich<lb/>
+[vertikal] auf d. Lande vom Nicht-Arbeiten aus. Ein seltsames Haus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

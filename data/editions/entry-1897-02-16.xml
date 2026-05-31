@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-16" n="01"/>
+            <title level="a">Dienstag, 16. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>16 Februar Diestag.</head>
+            <p>Das Musikfeuilleton beendet unter Kopfschmerzen in der heißen Stuben-<lb break="no"/>
+luft. Nach Tische Frau Wallach u. Frau Door bei uns, mit denen ich<lb/>
+Tarok spielen muß. Frau D. schlägt einen neuen Ton warmer Freundschaft<lb/>
+an, der von allerlei Koketterien zugespitzt wird. Beides verfängt bei mir<lb/>
+nicht mehr. Sie möchte mich gern zu einer dito Damentarokpartie in ihrem<lb/>
+Hause verleiten; ich aber werde nicht hingehen. Grillparzer’s „Jüdin v. Toledo“<lb/>
+fällt mir ein:	„Ein böser Zug um Wange, Kinn u. Mund,<lb/>
+Ein lauernd Etwas in dem Feuerblick<lb/>
+Vergiftete, entstellte ihre Schönheit“ ...<lb/>
+Sie hätte sich gern von mir begleiten lassen. Aber wir bleiben zu<lb/>
+Hause u. gehen nicht ins Concert. –<lb/>
+Julie war heute morgen bei Brahms. Es geht immer schneller bergab<lb/>
+mit ihm. Von Miller’s, die doch nicht weit von ihm wohnen, hat er sich<lb/>
+den Wagen ausgebeten, um nach Hause zu fahren.<lb/>
+Frau Marie Brüll liegt an Influenza darnieder. In Folge<lb/>
+dessen bleibt Hannah zu Hause, und Muxl empfängt ihre<lb/>
+Lectionen allein bei uns.<lb/>
+Paul erfreut mich mit einem Semesterzeugnis I Cl. u.<lb/>
+wird mit einer Krone belohnt.<lb/>
+Strisower’s haben es noch nicht aufgegeben, uns bei sich zu sehen,<lb/>
+u. laden uns immer wieder ein, unter der Vorspiegelung, es seien nur<lb/>
+wenige nähere Bekannte da; so auch für heute. Wie wir hören,<lb/>
+waren dreißig Personen außer uns gebeten. Vorsichtigerweise<lb/>
+hatten wir abgesagt.<lb/>
+Gegen Mittag war Hr. Basch vom „Extrablatt“ bei mir, um mich<lb/>
+i. Auftrage des Wahlausschusses der „Concordia“ zu fragen, ob ich jetzt die<lb/>
+Präsidentenwürde annehmen wolle. Ich lehne mit ders. Motivirung wie vor<lb/>
+zwei Jahren ab.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

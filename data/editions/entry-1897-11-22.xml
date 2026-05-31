@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-22" n="01"/>
+            <title level="a">Montag, 22. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 November Montag.</head>
+            <p>Singer vom Bureau abgeholt. Bei uns giebt es wieder einmal<lb/>
+ein Diner, zu Ehren Ricarda Huch’s. Außer ihr: Dr. Defregger,<lb/>
+der Sohn des Malers, der uns eine Empfehlung von Ganghofer<lb/>
+brachte, Singer, Doller, Schneegans, Rosl, Helene Vesque und<lb/>
+Molden unsere Gäste. Vom Asti spumante montirt, rede ich<lb/>
+vielen Unsinn mit Ricarda u. Helene, meinen Tischnachbarinnen.<lb/>
+Ricarda erzält mir, daß meine (1876 erschienene) „Sterbende Rose“,<lb/>
+die sie in irgend einer Recension oder Anthologie erwischte und sich<lb/>
+abschrieb, früh den Wunsch in ihr rege gemacht hätte mich kennen<lb/>
+zu lernen. Ich tischte die verrückte Geschichte auf, die jenes<lb/>
+Gedicht zur Folge hatte: Frau Elise Oe. glaubte sich damals in Breslau<lb/>
+als das Original der sterb. Rose melden und mich zu einer „Er-<lb break="no"/>
+klärung“ ermuntern zu müssen; es steckte aber noch ein Anderer<lb/>
+dahinter, entweder ein Spaßvogel oder ein stiller Verehrer. Ich<lb/>
+bin nie ganz klar aus dem Abenteuer geworden; merkwürdig war es<lb/>
+nur, daß Frau Oe. den Dichter des anonym in d. „Schles. Ztg.“ abge-<lb break="no"/>
+druckten Gedichtes gleich herausgefunden hatte. Aber warum sie glaubte,<lb/>
+daß ich schüchterner Jüngling ihr ein Geständnis durch die Blume<lb/>
+machen wollte? ... Frl. Huch ging früher fort, und ich half ihr im Vor-<lb break="no"/>
+zimmer bei der Toilette. Es war mir eine förmliche Beruhigung, als<lb/>
+ich bemerkte, wie dieses außerordentliche Frauenzimmer mit ihrem<lb/>
+Spiegelbilde kokettirte und ihrem Sammetmützchen wol zehnmal<lb/>
+eine andere Façon gab. Und dabei war es schon finster draußen, und<lb/>
+sie ging zu einer – Zahnoperation! – Rosl u. Louise fuhren aus<lb/>
+zu Fellinger’s hinaus. Die Trebst’sche Büste ein Unglück! Frau Maria<lb/>
+u. ihr photogr. Brahms-Atelier. Ölbilder von Vater Brahms. Das<lb/>
+Bild seiner alten Mutter. Frau ? [freie Stelle], auch eine Brahms-Freundin.<lb/>
+Im Concert Rooy der falsche Enthusiasmus des dummen Publicums.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

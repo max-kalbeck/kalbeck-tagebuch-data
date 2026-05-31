@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-13" n="01"/>
+            <title level="a">Dienstag, 13. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 Juli Dinstag.</head>
+            <p>[2. Fortsetzung vom 11. Juli]<lb/>
+Unfall. Ganz sicher ist das Haus auch jetzt noch nicht, da dessen Vorder-<lb break="no"/>
+theil ebenfalls keinen natürlichen Grund hat, sondern auf jenen zweifelhaften<lb/>
+Piloten steht, welche die Terrasse zu schwer fanden. Aber es hat Gnade<lb/>
+vor den Augen der Commission gefunden, und seine Bewohner nebst<lb/>
+deren Besuchern [Ausstreichung] fühlen sich sehr wohl darin. Um Licht und<lb/>
+Trinkwasser zu haben, mußte Frau Sida ein Stück des Berges, die einige<lb/>
+hundert Schritte höher gelegene Hube, ankaufen. Irgend ein Interessent<lb/>
+hatte ihr dabei vorgefabelt, die droben sprudelnde Quelle würde die<lb/>
+für einen [Ausstreichung: Elektro] Motor erforderliche Kraft liefern. Der Elektrotechniker<lb/>
+zog munter seine Drähte durchs Haus u. [eingefügt: installirte] seine Glühlämpchen;<lb/>
+[Ausstreichung] nur die Beleuchtung will nicht functioniren, weil die<lb/>
+Elektricität fehlt. Zur Hube führt ein äußerst steiler, auch für die<lb/>
+droben sitzenden Bauern praktikabler Weg empor, den die Kunst<lb/>
+des Rothschild’schen Obergärtners in einen mit zahlreichen Treppen,<lb/>
+Brücken und Uebergängen an den Felsen hinaufklimmenden [Ausstreichung] Garten-<lb break="no"/>
+weg umgewandelt hat: eine der bewunderungswürdigsten u. geschmack-<lb break="no"/>
+vollsten Anlagen. Aber das Terrain ist zu ungünstig, seine Schwierig-<lb break="no"/>
+keiten sind nicht zu überwinden, und was eine [eingefügt: mühelose] Erholungspromenade<lb/>
+werden sollte, ist eine anstrengende Bergpartie geblieben. Der einzige<lb/>
+gleichmäßig in der Ebene fortschreitende Weg ist ein, dem Wasser abge-<lb break="no"/>
+rungener oder aufgedrungener Uferweg, der [Ausstreichung: zu der] etwa zwei Minuten<lb/>
+weit zu dem prachtvollen Badeetablissement führt. Andere Spazierwege<lb/>
+giebt es nicht; um auf den Rothenturmer und Seebodener Weg<lb/>
+zu kommen, muß man über die Hube hinweg bis zum Kamm des Berges.<lb/>
+Der Besitz der Hube schien ein eigenes Haus für den Jäger, Gärtner u.<lb/>
+die Dienstleute zu erfordern, und dieses dann wieder eine besondere<lb/>
+in Serpentinen hinaufführende Fahrstraße, die sich nach [Ausstreichung]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

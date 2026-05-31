@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-30" n="01"/>
+            <title level="a">Freitag, 30. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>30 April Freitag.</head>
+            <p>[1. Fortsetzung vom 27. April]<lb/>
+Herzen lieb; Mutter u. Großmutter sehe ich immer neben ihr, u.<lb/>
+ihre sanfte dunkle Stimme ruft mir die erste Kinderzeit zurück. Mein<lb/>
+Gedächtnis producirt die alten Bilder mit lebendiger Treue. Merkwürdig,<lb/>
+woran ich mich Alles erinnere. Die Tante hat schon 1855 geheiratet, u. ich weiß<lb/>
+noch, wie es bei ihrer Hochzeit war. Es wurde ein Theaterstück in der „Humanität“<lb/>
+aufgeführt, u. die Eltern spielten darin. Auch ich hatte eine Rolle: sie bestand<lb/>
+aus den Worten: „Da bin ich, lieber Papa!“ Mit diesen Worten<lb/>
+sollte ich hereinlaufen, und der Vater mich in die Arme nehmen u. küssen.<lb/>
+Als ich losgelassen wurde, brachte ich kein Wort heraus. Eine meiner ersten<lb/>
+Blamagen. Dergleichen merkt man sich besonders gut. Mit diesem kommen<lb/>
+andere Bilder herauf: das Haus in der Sandstraße No. 6, die Mansarden-<lb break="no"/>
+wohnung der Großmutter. Onkel Ferdinand u. Tante Auguste als Brautpaar<lb/>
+auf dem schmalen, schwarzen Roßhaarsopha sitzend, die stelzbeinigen braunen<lb/>
+Zapfenmöbel. Die Tante am Clavier, die Arie aus der „Nachtwandlerin“.<lb/>
+Auch die Melodie eines Couplets aus jenem Hochzeitsstück ist mir gegenwärtig:<lb/>
+[Notenzitat: vier Takte 2/4 etc.]<lb/>
+„Kommen Sie doch schon, ich bitte, dieser Tanz ist gar nicht schwer,<lb/>
+Immer im egalen Schritte tanzen wir die Kreuz u. Quer.“<lb/>
+Onkel u. Tante Heinrich in der I, der Kfm. Caspar Schnell (mit d. schönen Marie)<lb/>
+in der II Etage. Dann die hölzerne Gatterthür, die zur Großmutter führte. Ferdinand<lb/>
+Schade († 57) als Untermiether bei Heinrich’s; sein blaues Schnupftuch als<lb/>
+Abwehrmittel. Immer im Negligé. Seine Kunstfertigkeiten: Uhren, deren Räder<lb/>
+er selbst feilte. Belanglose Erfindungen: das rotirende Zifferblatt u. der ruhende<lb/>
+Zeiger, die Bilderuhr. Seine Vorliebe für Mozart. Tante Heinrich als Harfen-<lb break="no"/>
+spielerin, ihre Schönheit; wie sie von F. Schade angebetet wird. Großmutter’s Eifersucht.<lb/>
+Die gegensätzl. Charaktere. Urgroßvater Checinski, der Verfertiger d. Breslauer<lb/>
+Domuhr, welche von den Mädeln Albertine u. Julie immer aufgezogen werden mußte.<lb/>
+Der polnische Flüchtling. Graf Checinski mit Stanislaus Leczinski auf d. Reise<lb/>
+nach Paris. Das Kloster; das Pathenkind d. Königs. Der Schnellläufer a. d. Hetzzertsche,<lb/>
+der Bresl. Uhrmacherlehrling. Heiratet Jungfer Eilfrat. Versuche u. Versuchungen,<lb/>
+die Urgroßmutter zum Katholicismus hinüberzuziehen. Anerbietungen des Weihbischofs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

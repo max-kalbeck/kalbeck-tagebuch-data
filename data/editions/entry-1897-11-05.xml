@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-05" n="01"/>
+            <title level="a">Freitag, 5. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>5 November Freitag.</head>
+            <p>Strauss erwidert, daß ich selbst das Karnickel gewesen sei, das mit<lb/>
+der Entfremdung zwischen uns begonnen habe, u. bittet, wir möchten uns<lb/>
+bald zum Besuche bei ihnen anmelden. Ich beendige glücklich den I Act<lb/>
+von „König Artus.“ Am Nachmittag Besuch des von Triest zurückgekehrten<lb/>
+Victor Günther. Er holt sich den Segen zur Reise nach Rußland und<lb/>
+bittet mich um eine Inschrift in ein Exemplar meiner Gedichte und<lb/>
+um eine Photographie. Beides wird ihm gern gegeben. Kaum ist er fort,<lb/>
+so tritt Ricarda Huch ein. Sie macht einen sehr günstigen Eindruck,<lb/>
+und wir sind nach einer Viertelstunde so offenherzig mit einander, als<lb/>
+wären wir alte Freunde. Das Fatale ist, daß ich nicht eine Zeile von<lb/>
+ihr kenne u. auch die Zeit nicht habe, mich [Ausstreichung: dar] um sie zu bekümmern. Sie<lb/>
+spricht kein gleichgiltiges Wort, und alles, was sie sagt, berührt mich<lb/>
+ungemein sympathisch. Oft spricht sie meine eigenen Gedanken aus,<lb/>
+und mir ist, als ob ich mich aus schönen, längst vergangenen Zeiten<lb/>
+in reiferer Verjüngung wiederfände. Geradezu frappirt hat mich<lb/>
+ihre Äußerung, Wagner sei eigentlich niemals mit seinen Stoffen fertig<lb/>
+geworden, ihm fehle das [Ausstreichung] Göttliche, was den Künstler macht.<lb/>
+Sehr wahr. Sie hat ein divinatorisches Vermögen, die Gedanken desjenigen<lb/>
+zu erraten, der mit ihr spricht. Alles, was mich in diesen Tagen bewegte,<lb/>
+brachte sie aufs Tapet. Gern machte ich mich für die kurze Zeit ihres Hierseins<lb/>
+zu ihrem Begleiter, um Kunst und Natur mit ihr durchzugenießen. Aber<lb/>
+die Jahreszeit und meine Geschäfte verbieten dies von selbst. Auch machte Julie<lb/>
+ein sehr verdutztes Gesicht, als ich so unvorsichtig war, [Ausstreichung: ihr meine Gedanken] meine Schwärmerei<lb/>
+zu äußen. Gelegentlich gab sie mir zu verstehen, sie hielte mich für einen<lb/>
+gefallsüchtigen Mann; sie ist zu gescheidt, um auch nur das Geringste von<lb/>
+dem zu begreifen, was künstlerischer Enthusiasmus ist. – Concert Eibenschütz.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

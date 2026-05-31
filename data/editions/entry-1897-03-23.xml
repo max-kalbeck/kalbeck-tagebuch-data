@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-23" n="01"/>
+            <title level="a">Dienstag, 23. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>23 März Dinstag.</head>
+            <p>Eine Satire auf Nietzsche u. R. Strauss „Zarathustra u. Struthio-<lb break="no"/>
+camelus“ geschrieben. Erneuerte Wahrnehmung, wie sich mir oft<lb/>
+während der Arbeit Nahes und Fernes höchst glücklich mit Ideen verbindet,<lb/>
+die der Stoff mit sich bringt, so daß sich Alles wie nach einem genau<lb/>
+festgesetzten Plane ordnet u. unverhofft zur gefälligsten Ueber-<lb break="no"/>
+einstimmung zusammenschließt. Aber diese Stegreifproduction, bei welcher<lb/>
+Phantasie u. Verstand über das richtige Maß angespannt werden,<lb/>
+mattet den Körper ab; wenn sie zur regelmäßigen Thätigkeit<lb/>
+herabgemindert werden könnte, schlösse sie alle guten Geister der Arbeit<lb/>
+ein und brächte anstatt der Abspannung das beseligende Gefühl wohl<lb/>
+erfüllter Pflicht mit sich. Ueber einen spaßhaften Einfall mußte ich<lb/>
+laut auflachen, so daß ich mich erschrocken umsah, ob noch jemand im<lb/>
+Zimmer wäre. Nachmittag Frau Flegmann bei uns. Ich lese ihr<lb/>
+das Feuilleton vor. Ihre Wut über Bauer; sie sucht mich auf<lb/>
+ihn aufzuhetzen. B. habe zu Steinbach geäußert, ich solle mich<lb/>
+über die Caricatur vom Concordiaball, die Zasche nach Bauer’s<lb/>
+Intention gezeichnet, nur tüchtig ärgern. Wenn es sich so verhält,<lb/>
+hat B. seine Absicht nicht erreicht. Wie erbärmlich sind alle<lb/>
+diese Menschen! – Frl. Eibenschütz, Ilona’s Schwester, spricht<lb/>
+für ihren Bräutigam bei mir vor. Er hatte sich schon brieflich<lb/>
+an mich gewendet, ob ich ihm nicht zu einem Portrait sitzen<lb/>
+wolle. Wie oft ich in den letzten Jahren verewigt worden bin!<lb/>
+Abends „Wasserträger“ u. das neue Ballet. Danach noch Referat<lb/>
+und Correctur im Bureau, so daß ich erst nach 12 Uhr zum Nachtessen<lb/>
+kam.<lb/>
+[2. Fortsetzung vom 21. März]<lb/>
+weg mit den Worten: „Na, Sie gehen wol gerade aus. Ich muß dort hinauf,<lb/>
+muß mich niederlegen. Na, adje.“ Sein letzter Gruß klang sehr weich u. war v. einem tiefen<lb/>
+Seufzer begleitet. – Ich blieb hinter d. Ecke stehen u. sah ihm heimlich nach, voll Schmerz u. Trauer.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-02" n="01"/>
+            <title level="a">Sonntag, 2. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>2 Mai Sonntag.</head>
+            <p>[Fortsetzung vom 29. April]<lb/>
+Bei Frau v. Holstein treffen wir Reinecke’s u. meinem alten Freund Wilh.<lb/>
+Henzen, den ich viele Jahre nicht gesehen habe. Reinecke’s scheinen nicht sehr<lb/>
+ungehalten zu sein, daß wir absagen. Helene zeigt uns Haus u. Garten<lb/>
+nebst der anstoßenden Künstlerherberge, wo immer sieben „Raben“ von<lb/>
+der guten Holstein, der „Rabenmutter“ gehegt und gepflegt werden zum<lb/>
+Andenken an ihren unvergeßlichen, theuren Franz. Wie mir Henzen sagt,<lb/>
+hat sie wenig Dank von dem jungen Künstlervolk; auch scheint sie in der<lb/>
+Auswahl ihrer Pfleglinge nicht vorsichtig genug zu sein. Im Hause hörte<lb/>
+ich Violine u. Clavier spielen, beides herzlich schlecht. Ein anderer Schutzbe-<lb break="no"/>
+fohlender der Künstlermutter saß mit zu Tisch; seinen Namen habe ich über-<lb break="no"/>
+hört. Frau v. H. sagte mir, er sei Musiker gewesen, sie aber in Erkennung<lb/>
+seines wahren Berufes erziehe ihn zum Schriftsteller: der Musiker wird<lb/>
+umgedichtet. Möge ein neuer Schumann aus ihm werden. Sie freut sich<lb/>
+seiner ansehnlichen Jugend, und die Augen glänzten ihr, so oft sie ihn ansah.<lb/>
+Im Hause selbst hat sich nun Frl. Paar, eine „Kunstgelehrte“, eingerichtet,<lb/>
+die für Bungert’s „Odysseus“ schwärmte u. bei mir damit an den Unrechten<lb/>
+kam. Gegenseitige Eifersucht der Weibsen. Hübsches Novellenmotiv und<lb/>
+Milieu. Das Holstein-Museum. Sein Arbeitszimmer, das unberührbare<lb/>
+u. unveränderliche Allerheiligste des Hauses. Lenbach’s Porträt. Im zweiten<lb/>
+Stockwerk haust Frl. v. Holstein, die Schwester des Verstorbenen, der nur ein<lb/>
+Jahr lang seines Besitztums froh werden sollte. Ihre Wohnung heimelte mich<lb/>
+ebenso an wie deren Eigentümerin, eine stille resignirte kleine graue alte<lb/>
+Jungfer mit guten braunen Augen, die wissend u. doch fremd in die Welt<lb/>
+hinaussehen. Die Blütenbäume stecken ihre Arme ins Fenster zu ihr hinein,<lb/>
+ihr Frühling hat wol auch einmal geblüht, ohne Früchte zu zeitigen. Um über<lb/>
+ihren Schmerz nach dem Tode d. geliebten Bruders hinwegzukommen, fing sie auf<lb/>
+ihre alten Tage an zu malen u. hat es, wie ihre Landschaftsstücke u. Compo-<lb break="no"/>
+sitionen zeigen, zu einer ganz respectabeln Fertigkeit gebracht. „Das Land des</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-27" n="01"/>
+            <title level="a">Sonntag, 27. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>27 Juni Sonntag.</head>
+            <p>Früh bei Schwarz mit Brüll musicirt; die halbe „Winterreise“<lb/>
+u. a. gesungen. Meine Stimme hat sich von den mehrjährigen<lb/>
+Katarrhen wieder etwas erholt. Nach Tisch spielt mir Brüll<lb/>
+seine neue Oper vor, den „Husaren“. Die einfache, melodiöse<lb/>
+Musik gefällt mir ungemein, u. ich freue mich, diesmal recht<lb/>
+von Herzen loben zu können, so daß Scenen wie im vorigen<lb/>
+Jahr bei „Gloria“ nicht zu befürchten waren. Aber das Werk<lb/>
+bietet in dramatischer Hinsicht starke Blößen. Der zweite Act<lb/>
+ist angestückelt, – die elende Arbeit eines Flickschneiders – und<lb/>
+rückt nicht vom Flecke. Ich verlange heftig nach Abhilfe;<lb/>
+Brüll giebt mir Recht, macht aber keine Miene, dem<lb/>
+famosen Hrn. Leon ernstlich zu Leibe zu gehen. L. soll gesagt<lb/>
+haben, es falle ihm absolut nichts weiter ein als was schon Scribe,<lb/>
+von dem der Stoff entlehnt ist, eingefallen sei. Sehr glaublich,<lb/>
+da L. überhaupt noch niemals einen eigenen Einfall gehabt<lb/>
+hat u. immer mit älterer Literatur handelt. Wenn der 2. Act der<lb/>
+Oper nicht gründlich umgearbeitet wird, fällt sie durch, und es<lb/>
+wäre schade um die vielen hübschen Musikstücke, die darin sind. –<lb/>
+Gegen Abend lese ich Brüll’s u. Frau Wallach, was ich von dem<lb/>
+„Versunkenen Dorf“ corrigirt habe; es scheint ihnen sehr einzu-<lb break="no"/>
+leuchten, auch ich selbst war bei der Lecture wieder tief ergriffen.<lb/>
+Abends bei Strisower.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

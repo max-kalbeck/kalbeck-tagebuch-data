@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-04" n="01"/>
+            <title level="a">Samstag, 4. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>4 September Samstag.</head>
+            <p>Frau Sida u. Stefan waren in aller Frühe zur Hannoverhütte<lb/>
+aufgebrochen. Ich ging trotz meines wunden Pedals mit Julie u.<lb/>
+Muxl das Thal zur Linken auf der Gasteiner Straße berghinauf.<lb/>
+Auf halbem Wege blieben die beiden zurück, und ich stieg allein<lb/>
+rasch aufwärts in die wilde Bergeinsamkeit. Da fülte ich mich bald<lb/>
+wohl und beschäftigte mich mit Don Juan u. einer Gedichtidee:<lb/>
+„Passionsweg der Liebe“ – mehrere Leidensstationen werden über-<lb break="no"/>
+wunden, bis uns auf Golgatha das Herz bricht. Dreimal<lb/>
+sinken wir unter d. Last des Kreuzes zusammen, dann sind wir reif<lb/>
+daran festgenagelt zu werden. Vor den Almenhütten u. dem in<lb/>
+der Felsenmulde unter den Firnen der Tauern gelegenen Schutzhause<lb/>
+machte ich Halt und flog mehr als ich ging in das verlassene Thal<lb/>
+hinab. Gern wäre ich noch immer weiter gewandert, u. ich mußte<lb/>
+mir Gewalt anthun, mit unseren Tischgenossen nach gewohnter<lb/>
+Weise zu quatschen über die tausend nichtigen u. lächerlichen Dinge,<lb/>
+welche diese Leute bewegen. Um drei Uhr kehrten die beiden<lb/>
+Alpensteiger glücklich zurück, und wir fuhren den halsbrecherischen<lb/>
+Zickzackweg nach Ober-Villach heimwärts, ohne daß ein Wolken-<lb break="no"/>
+bruch, der mit Blitz und Hagelschlag, Sturm und Regenguß den<lb/>
+ganzen Weg entlang uns umtobte, uns etwas zu Leide gethan<lb/>
+hätte. Im alten, gotisch gewölbten Gasthause von Ob. Villach<lb/>
+wurde übernachtet, da das Wetter noch immer weiter raste,<lb/>
+und die Pferde nicht mehr zu brauchen waren.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

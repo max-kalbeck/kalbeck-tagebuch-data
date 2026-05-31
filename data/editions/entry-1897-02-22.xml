@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-22" n="01"/>
+            <title level="a">Montag, 22. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>22 Februar Montag.</head>
+            <p>Schlafsucht. Kann mich gar nicht ermuntern. Anny Wothe i. Leipzig<lb/>
+möchte mein Bild u. einen Beitrag für ihre Wochenschrift „Von Haus zu<lb/>
+Haus“. Vielleicht schreibe ich ihr etwas, vielleicht auch nur einen ironischen<lb/>
+Dankbrief; sie scheint eine rührige literar. Geschäftsfrau zu sein.<lb/>
+In den Tagebüchern der 60. Jahre mit Wehmut, Ekel u. Verdruß<lb/>
+gelesen. Ich war doch immer ein scheußlicher Kerl. Das Concert des<lb/>
+edlen Hugo Wolf geschwänzt, weil er nur Eine Karte geschickt<lb/>
+hatte. Ein Abend zu Hause thut wohl. Die Kriegsschiffe d. Mächte<lb/>
+beschießen d. Lager d. Insurgenten in Kreta.<lb/>
+[Fortsetzung vom 23. Februar]<lb/>
+Gespräch im Wagen. Unser gemeinsamer Pessimismus u.<lb/>
+die trübe Zukunft der Menschheit. Interessenwirtschaft u.<lb/>
+Pfaffenherrschaft. Das sociale Problem. Unmöglichkeit die<lb/>
+Massen durch Bildung zu befreien. Die miserable Durch-<lb break="no"/>
+schnittsnatur der Menschen. Degeneration führt zu dem Typus<lb/>
+der Affen zurück. (Mein Gedanke) Die Herrscher- u. Adelsfamilien.<lb/>
+Wir haben doch wieder abgesagt bei Lobmeyr u. gehen ins Concert.<lb/>
+Holen Muxl von Bösendorfer ab u. wandeln bei heftigem Sturm<lb/>
+nach Hause.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

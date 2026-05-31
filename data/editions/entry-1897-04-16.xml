@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-16" n="01"/>
+            <title level="a">Freitag, 16. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>16 April Freitag.</head>
+            <p>Um 8.25 früh über Tetschen nach Dresden. Wir fahren vom Heitern<lb/>
+ins Trübe, von der Wärme in die Kälte. Sonst sehr angenehme Fahrt;<lb/>
+die meiste Zeit im Restaurationswagen. In Dresden kommen wir um 7 Uhr<lb/>
+Abends an u. steigen im Hôtel Victoria neben dem neuen, noch immer nicht<lb/>
+ganz vollendeten großartigen Centralbahnhofe ab. Der vornehme Eindruck<lb/>
+der Stadt. Um wieviel ist Wien hinter den deutschen Mittelstädten<lb/>
+zurück! Ueberall asphaltirte Straßen, elektrische Bahnen u. ebensolche<lb/>
+Beleuchtung. Dadurch, daß die Dresdener den aus der sächs. Schweiz<lb/>
+herbeigeholten Sandstein verbauen und auch ihre Privathäuser mit<lb/>
+diesem gediegenen und wohlansehnlichen Materiale ausschmücken –<lb/>
+rusticale Erdgeschosse, Erker, Thür- u. Fensterrahmen, Gesimse u.<lb/>
+Verzirungen von Sandstein sind überall zu sehen – erhalten die<lb/>
+Straßen d. Stadt ein besonders stattliches Exterieur, der Bürger gewöhnt<lb/>
+sich an das Solide vom Hause aus, u. das aristokratische Bauelement<lb/>
+erhebt die Zirkelmauern in den Adelstand. Mit Wonne im Anblick<lb/>
+der beleuchteten Stadt von der Brücke aus geschwelgt. Der Zauber<lb/>
+Dresdens verlirt die Wirkung nicht, die er seit 1871 wie oft!, niemals<lb/>
+aber stärker als 1872 und 1878 auf mich ausgeübt hat. 1872 fuhr ich<lb/>
+als Student von Breslau nach München, 1878 saß ich als künftiger<lb/>
+Custos des Schles. Provinzialmuseums mehrere Wochen hier fest u. studirte<lb/>
+die Kunstsammlungen. (Möser, Wallerstein, Naumann, Winderlich,<lb/>
+Rampelt, Dr. Schlesinger, Anna Schönberger, Jul. Grosse, Hübner, Lauterbach u. a.)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

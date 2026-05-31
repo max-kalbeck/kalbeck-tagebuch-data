@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-07-24" n="01"/>
+            <title level="a">Samstag, 24. Juli 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>24 Juli Samstag.</head>
+            <p>Das schöne Gefühl freien, natürlichen Behagens verträgt sich leider<lb/>
+absolut mit gar keiner Art von Geselligkeit; es kommt mir<lb/>
+von Tag zu Tage mehr abhanden und schlägt in Mißmut und<lb/>
+Melancholie um. Für mich ist die Morgenstunde die einzige am<lb/>
+Tage, die mir ein sicheres Gefühl meiner selbst giebt. Wenn<lb/>
+ich im Felsengarten auf und absteige, begleitet mich ein ganzer<lb/>
+Schwarm von Dämonen und Genien, und nichts stört mich im<lb/>
+Verkehre mit meinen Gedanken u. Empfindungen als höchstens die<lb/>
+niederschlagende Gewißheit, niemals [Ausstreichung: irgend jemals] irgend etwas Reales<lb/>
+mit ihnen anfangen zu können. – Spaziergang mit Julie, Frau<lb/>
+Sida u. Frau Zellner an den Egelsee u. über den Hochgosch durch<lb/>
+den Wald zurück. Ein Anderer, der Todfeind der drei Frauen u.<lb/>
+der ganzen bürgerlichen Ordnung überhaupt, geht unsichtbar neben<lb/>
+mir: der Apostat der Gesellschaft, der keine Schranke achtet<lb/>
+u. jedes gute Herkommen mit Füßen tritt, der Gegner aller ver-<lb break="no"/>
+logenen Selbstgefälligkeit, der Zerstörer angelernter Illusionen.<lb/>
+Daß ich ihn fassen u. sichtbar vor mich hinstellen könnte, um ihn<lb/>
+vom höchsten Gipfel des Genusses in den Abgrund Lucifers hinunterzu-<lb break="no"/>
+schleudern, diesen urmenschlichen Gegengott! – Die guten Weiber wittern<lb/>
+die Nähe des Unsichtbaren und werden ungemütlich. Das will ewig nur<lb/>
+heiraten u. kuppeln!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

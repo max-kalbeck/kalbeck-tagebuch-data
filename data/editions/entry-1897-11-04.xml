@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-11-04" n="01"/>
+            <title level="a">Donnerstag, 4. November 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>4 November Donnerstag.</head>
+            <p>Johann Strauss hat mir gestern einen telegraphischen Gruß und<lb/>
+Dank für meine Besprechung der „Fledermaus“ gesandt, wobei er es<lb/>
+nicht unterlassen konnte zu fragen, warum ich mich nicht um ihn<lb/>
+bekümmere. Ich [Ausstreichung] erwidere ihm, daß seine mir gelegentlich der<lb/>
+„Göttin d. Vernunft“ bewiesene Nichtachtung mich ernstlich bekümmert<lb/>
+habe, und stelle ihm das Weitere anheim. Diese Leute denken<lb/>
+niedrig genug, mein enthusiastisches Lob der „Fledermaus“ für einen<lb/>
+Annäherungsversuch zu halten. Lasswitz läßt mir den eben<lb/>
+erschienenen Roman „Auf zwei Planeten“ zugehen, über den wir<lb/>
+im vorigen Sommer in Seis so viel debattirten. 88 Bogen! Wie<lb/>
+werde ich es fertig bringen, das zu lesen, und wann werde ich darüber<lb/>
+schreiben? Mit Schrecken denke ich an Heyse, Holtei, Henschel<lb/>
+u. Chausson! Die Oper soll am 16. d. M. fertig sein, und der 1. Act<lb/>
+liegt noch unvollendet da. Und jetzt habe ich keinen Tag mehr für<lb/>
+mich und kann vor Aufregung und Hetzerei schon seit Wochen<lb/>
+nicht mehr ordentlich schlafen. – Widmann sendet mir den II Theil<lb/>
+seiner in der „Rundschau“ publicirten „Erinnerungen an Brahms“. Sie<lb/>
+sind so schön und so erschöpfend, daß sie mir fast den Mut benehmen,<lb/>
+mit etwas Ähnlichem herauszurücken. Heuberger, mit dem ich aus<lb/>
+einem verunglückten Abendconcert nach Hause gehe, sagt mir, daß Nawratil<lb/>
+ein Bild des Vater Brahms besitzt. Wir stimmen darin überein,<lb/>
+daß die Welt erst erfahren wird, was sie an Brahms verloren hat,<lb/>
+u. was sie an ihm besitzt. – „Simon Thums“ ein fürchterliches Buch. Daß<lb/>
+ein Mann in Burckhard’s Stellung so etwas zu schreiben, [Ausstreichung: wagt] zu solchen<lb/>
+radicalen Gesinnungen sich zu bekennen wagt! B. erscheint mir immer<lb/>
+rätselhafter.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-09-03" n="01"/>
+            <title level="a">Freitag, 3. September 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>3 September Freitag.</head>
+            <p>[ganz oben auf der Seite geschrieben: Fortsetzung vom 2. September]<lb/>
+daher bis 12 ¾ Uhr auf d. Bahnhof bleiben. Mit Sorgen um Paul’s<lb/>
+Zukunft verbrachte ich auch den Rest der Nacht u. schlief erst um 5<lb/>
+Uhr auf eine halbe Stunde ein.<lb/>
+Als wir mit dem Schnellzug in Spital ankamen, u. glaubten,<lb/>
+die Grossegger Gesellschaft zur Weiterreise nach Dölsach<lb/>
+bereit zu finden, wurden wir zum Aussteigen genötigt. Frau<lb/>
+Sida, Frau Zellner u. Mosé empfingen uns mit dem fait<lb/>
+accompli, eine Wagenpartie nach Mallnitz zu machen, und<lb/>
+wir stiegen in die beiden [Ausstreichung: bereit stehenden] von Millstatt mitge-<lb break="no"/>
+brachten Equipagen. Stefan folgte auf dem Fahrrade. Rosl<lb/>
+und Louise hatten angeblich erklärt, nicht mitkommen zu wollen.<lb/>
+Offenbar war die ganze Partie nur in Folge meiner gestrigen<lb/>
+telegraphischen Anfrage noch in letzter Stunde unternommen<lb/>
+worden. Hätte ich das Arrangement vorausgesehen, das gegen<lb/>
+die frühere Verabredung ging, so wären wir lautlos nach<lb/>
+Bozen abgedampft, anstatt uns bei zweifelhaftem Wetter<lb/>
+auf eine Fahrt nach Mallnitz einzulassen, an der wol<lb/>
+niemand etwas gelegen war, und die uns mindestens zwei Tage<lb/>
+aufhielt. Immerhin ließ sich, dank der guten Laune der Damen,<lb/>
+die Expedition ganz hübsch an, und wir genossen den sonnigen<lb/>
+Morgen in erträglicher Laune. Irgend wo unterwegs sollten<lb/>
+Karten an die Zurückgebliebenen geschickt werden, u. ich schrieb<lb/>
+auf die für Rosl bestimmte: „Ach, zur Schönheit der Natur<lb/>
+Fehlt mir Eine Rose nur!“ Nach dem in Ob. Villach einge-<lb break="no"/>
+nommenen Mittagessen sagte mir Frau Sida, sie habe die Karte<lb/>
+eingesteckt, um ihrer Tochter nicht dummes Zeug in den Kopf zu<lb/>
+setzen. Ich glaube, sie drückte sich höflicher aus; aber es verdroß mich.<lb/>
+Mein Unmut verdampfte erst in der großartigen Villacher Schlucht angesichts<lb/>
+eines der schönsten Wasserstürze. Wir stiegen zur Mallnitzer Straße empor u.<lb/>
+[vertikal am rechten Rand] trafen am Abend im Mallnitz ein.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

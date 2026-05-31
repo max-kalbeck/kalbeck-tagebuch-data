@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-07" n="01"/>
+            <title level="a">Sonntag, 7. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>7 Februar Sonntag.</head>
+            <p>Früh wiederholte Spemann seinen Besuch u. blieb eine Stunde bei mir. Er will Musiker-<lb break="no"/>
+biographien à la Knackfuss ediren u. sich meiner Mitwirkung (für Schubert) dabei ver-<lb break="no"/>
+sichern. Auch einen Aufsatz über Brahms<lb/>
+hätte er gern. Ich verhalte mich sehr<lb/>
+reservirt u. mache keine Zusage. Ich soll<lb/>
+ihm meine kritischen Aufsätze schicken. Viell. giebt es ein Buch.<lb/>
+Im Gesellschaftsconcert Schubert’s Es-Dur-Messe, die ich mit Paul<lb/>
+anhöre. Er verliert keine Note, u. sein Gesicht glüht vor Eifer u.<lb/>
+Erregung. Ich habe meinen doppelten Genuß an der herrlichen Musik<lb/>
+und an dem Anblick meines schönen Jungen, den ich mir von Zeit zu<lb/>
+Zeit verstohlen wie ein schüchterner Liebhaber von der Seite betrachte.<lb/>
+Seine Schönheit setzt schon jetzt die Frauenzimmer in Aufruhr,<lb/>
+wie wird das später werden? Zum Glück merkt er nichts davon u.<lb/>
+ist trotz seiner frühzeitigen körperl. Entwicklung ein dummes Kind.<lb/>
+Am Abend im Burgtheater der von Frau Meyer-Cohn übersetzte<lb/>
+Einacter.<lb/>
+[gehört zum 9. Februar]			Dinstag (2. Fortsetzung)<lb/>
+war in der „N. Presse“ nichts von dem Ehrendoctor zu lesen? Weil sie dort<lb/>
+vorsichtiger verfahren u. sich besser erkundigen.“ Ich erwiderte spöttisch: Nein,<lb/>
+sondern weil sie dort nur die Nachrichten bringen, die sie haben. „Da<lb/>
+könnte ich grob werden. Hab’ ich mir aber auch längst abgewöhnt.<lb/>
+(Mit erhobener Stimme.) Meine Grobheiten waren der Ausdruck meiner<lb/>
+Hochachtung. Die, mit denen ich mich gezankt habe, konnten sich was drauf<lb/>
+einbilden. Ich war nur grob zu denen, die ich gern hatte. Jetzt bin ich<lb/>
+artig.“ Um ihn nicht noch mehr zu reizen, schwieg ich u. unterdrückte die<lb/>
+Lust, ihn daran zu erinnern, wie er den [eingefügt: Dank für den] Bresl. Ehrendoctor per Correspon-denzkarte hatte erledigen wollen, u. daß ich es war, der ihn damals dazu<lb/>
+bewegte, an die Universität u. an den Bresl. Orchesterverein briefliche<lb/>
+Dankschreiben zu richten. Thatsächlich hat er sich aus dem Diplom gar nichts<lb/>
+gemacht. Einen prächtigen, wahrhaft monumentalen Brief hat Br. an die<lb/>
+Herren in Köln gerichtet, als sie ihm den Posten des dort. Musikdirectors im<lb/>
+Gürzenich (ich glaube, nach Hiller’s Tode) anboten. Damals brachte er mir das<lb/>
+Concept, das ich besser stilisiren sollte. Ich aber fand nichts daran zu ändern.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

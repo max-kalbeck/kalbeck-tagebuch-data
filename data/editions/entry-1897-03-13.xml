@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-03-13" n="01"/>
+            <title level="a">Samstag, 13. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 März Samstag.</head>
+            <p>Heyse hat mir ein Autograph Scheffel’s geschickt u. mir<lb/>
+geschrieben, daß er nach Salò a. Gardasee abgereist ist. Er hofft<lb/>
+auf ein Wiedersehen in Labers, das uns im vorigen Jahre ver-<lb break="no"/>
+eitelt wurde. Um 10 Uhr zu Reinecke, der mich gestern zum<lb/>
+Besuch eingeladen hatte. Wir gehen die beiden Lieder mit einander<lb/>
+durch, die er auf Texte von mir componirt hat: „Weit hinaus!“<lb/>
+(Mädchenlied) u. „Gemalte Freuden“. Sie gefallen mir recht gut,<lb/>
+zumal das zweite, wenn auch keines die Verschmelzung von Volks-<lb break="no"/>
+und Kunstgesang so glücklich trifft, wie etwa Brahms sie ge-<lb break="no"/>
+troffen haben würde. Reinecke spielt mir außerdem neue Variationen<lb/>
+über ein Mozart’sches (Sonaten- u. Concert) Thema vor, die durch<lb/>
+neue Fülle von contrapunktischen Feinheiten, Canons, Melodieum-<lb break="no"/>
+kehrungen und Imitationen überraschen. Eine Bemerkung des Componisten<lb/>
+bringt mich auf den, wie mir scheint, treffenden Gedanken, daß<lb/>
+die wahrhaft productiven Geister höchster Ordnung [Ausstreichung: wiederum] in<lb/>
+anderen weiter produciren, indem sie ihnen, ohne es zu wissen u. zu wollen,<lb/>
+den Stoff zu neuen, von den ihrigen scheinbar ganz unabhängigen Ideen<lb/>
+geben. Jede Bach’sche Melodie hat einen latenten thematischen Gehalt.<lb/>
+Der producirende Künstler braucht ihn nur zu ahnen, um selbst<lb/>
+productiv zu werden. Ein Buch, Gedicht, Drama od. Bild, das nicht<lb/>
+schöpferisch anregend auf mich wirkt, taugt nichts. Das, was unbenutzt<lb/>
+hinter dem Kunstwerk liegt, klingt dem Inspirirten überall mit<lb/>
+und regt ihn oft mehr an als das fertige, ausgesprochene Werk selbst. –<lb/>
+Wir gehen mit einander zu Brahms. Spaß mit Frau Soldat-Röger,<lb/>
+mit der ich nun schon z. 3. od. 4. Male bei Br. zusammenstoße. Br.:<lb/>
+„Na, begleiten Sie nur Frau Soldat, die wartet schon darauf.“</p>
+         </div>
+      </body>
+   </text>
+</TEI>

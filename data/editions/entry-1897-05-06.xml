@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-05-06" n="01"/>
+            <title level="a">Donnerstag, 6. Mai 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>6 Mai Donnerstag.</head>
+            <p>[ganz oben auf der Seite geschrieben]<lb/>
+Br. schreibt einmal an Kl., er käme gern wieder einmal nach Plagwitz<lb/>
+(wo Kl. haust) wenn nur das unangenehme Anhängsel (Leipzig) nicht wäre.<lb/>
+[5. Fortsetzung vom 29. April]<lb/>
+treffend, mit Br. sei es gerade umgekehrt gegangen wie mit Sch. Denn<lb/>
+dieser habe als Genie begonnen u. als Talent geendet. Er glaubte aber,<lb/>
+Sch. sei erst 1866 als Fünfziger Gestorben, während er doch zehn Jahre früher<lb/>
+im Alter von 46 Jahren verschieden ist. Kl. hat nur einmal Br. dessen<lb/>
+Volkslieder begleiten gehört, die von der Cornaro – wol im Wiener<lb/>
+Tonkünstlerverein – gesungen wurden. Ueber Br.’s Sinnlichkeit und<lb/>
+Weiberliebhaberei, die bis in die letzten Jahre vorhielt. Das kühle,<lb/>
+oft sogar feindselige Benehmen des Leipziger Publicums. Kl. ist einmal<lb/>
+der einzige gewesen, der nach den (von d’Albert gespielten) Händel-<lb break="no"/>
+Variationen Beifall klatschte. Reinecke als Gewandhaus-Concertdirector<lb/>
+hat viel auf dem Gewissen; seine heimliche Abneigung gegen Br. Kl.’s x)<lb/>
+besondere Vorliebe für das Adagio aus d. II Cello-Sonate. Von der<lb/>
+neueren Literatur will Kl. nichts wissen, den einzigen G. Keller aus-<lb break="no"/>
+genommen; aber auch dessen Novellenverkoppelung (wie im „Sinngedicht“)<lb/>
+kann er nicht leiden. Heyse, v. dem Br. stets voller Bewunderung<lb/>
+sprach, geht ihm gegen den Strich. „Der grüne Heinrich“ sein Lieblingsbuch. [Satz vorgezogen]<lb/>
+Von Hauptmann kennt er nur den „Collegen Crampton“, dessen kindischer Schluß ihn degoutirt. Die<lb/>
+verrückte Verachtung von Benedix u. Ibsen. Er bedauert Schumann’s<lb/>
+ablehnendes Verhalten geg. Wagner. Mit Schumann u. Brahms<lb/>
+teilt Klinger den Geschmack an Jean Paul. In seinen schlimmen Tagen<lb/>
+sei eine alte Ausgabe des „Titan“ sein köstlichster Besitz gewesen. Die Dichter<lb/>
+liest er am liebsten in den Originalausgaben – ganz mein Fall. – Wer<lb/>
+unser, oft von musikalischen Citaten unterbrochenes lebhaftes Gespräch belauscht und<lb/>
+den eigentüml., zwischen scharfer, manchmal lauernder u. durchdringender Beobachtung<lb/>
+u. weicher, stimmungsseliger, empfindungsvoller Hingebung wechselnden Charakter-<lb break="no"/>
+kopf des interessanten Künstlers dazu in Augenschein genommen hätte, würde seinen<lb/>
+Spaß gehabt haben. Ich ließ mich gehen, und er auch. Ein hochedler, kost-<lb break="no"/>
+barer Moselwein, den Kl. auffahren ließ, machte mich für d. Abend meiner<lb/>
+Temperantion abspenstig, u. ich fühlte mich wieder einmal auf der Höhe</p>
+         </div>
+      </body>
+   </text>
+</TEI>

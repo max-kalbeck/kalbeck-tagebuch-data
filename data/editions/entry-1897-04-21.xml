@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-21" n="01"/>
+            <title level="a">Mittwoch, 21. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>21 April Mittwoch.</head>
+            <p>[Fortsetzung vom 20. April]<lb/>
+Atelier zu einer improvisirten Kneiperei, hat mir auch in Wien<lb/>
+davon erzält. Als Klinger über Wien nach Triest reiste – ich glaube<lb/>
+vor zwei Jahren – hat ihn Brahms mit Michalek u. Mandyczewski<lb/>
+in den Prater geführt u. dort, wie gewöhnlich, alle Künste losgelassen.<lb/>
+Klinger wäre ein schönes Modell für Klinger. Er paßt in den<lb/>
+Wunderkreis seiner Gestalten u. sieht aus, als wäre er direct aus<lb/>
+einem Rahmen heraus- oder von einem Sockel heruntergesprungen.<lb/>
+Ihn in der Mitte seiner gigantischen Schöpfungen stehen und gehen<lb/>
+zu sehn ist ein eigener Genuß. Er hat das Zeug zu einem Michel-<lb break="no"/>
+angelo. Sein Verhältnis zur Malerei ist ein ähnliches. Er braucht<lb/>
+die Farbe nur zur Aufhellung u. Beleuchtung der Gestalt, u. wird<lb/>
+nicht satt diese immer wieder in ein anderes Licht zu wenden.<lb/>
+Mehrere Arbeiten beschäftigen ihn gleichzeitig, eine immer gewaltiger<lb/>
+als die andere. Wie er den herrlichen Körper eines Riesenweibes<lb/>
+enthüllt, glaubte ich eine Statue v. Michel Angelo zu sehen: eine<lb/>
+Gebärerin und Sängerin der Menschen, in deren nach Oben gewendetem<lb/>
+Blick sich die Sterne spiegeln. Die Statue wird mit einem dünnen<lb/>
+Schleier bekleidet u. kommt in das Treppenhaus des Städel’schen Museums<lb/>
+als Mittelfigur einer figuren- u. ideenreichen Wanddecoration. Um<lb/>
+den richtigen Eindruck von seinem Christus im Olymp zu gewinnen, muß<lb/>
+man weit zurücktreten. Auch darin verrät sich K.’s besondere, mit der<lb/>
+Antike verwandte Art, daß er immer einen praktischen Zweck mit seinen Com-<lb break="no"/>
+positionen verbindet und an einen, wenn auch zuweilen idealen Bestimmungsort<lb/>
+denkt, in welchen sie hineinpassen. Aus mehr als einem Grunde soll man einem<lb/>
+solchen Genie gegenüber vorsichtig in seinem Urteil sein. Ein sitzender Beethoven<lb/>
+erfüllte mich mit Staunen u. Freude. B. ist dabei das Modell auszuführen; die<lb/>
+sorgfältigen Gewandstudien. Beethoven als Jupiter tonans, der Adler zu seinen</p>
+         </div>
+      </body>
+   </text>
+</TEI>

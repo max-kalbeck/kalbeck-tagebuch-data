@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-12" n="01"/>
+            <title level="a">Freitag, 12. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>12 Februar Freitag.</head>
+            <p>Briefe von Lasswitz u. Widmann. Die „N. fr. Pr.“ hat den<lb/>
+Roman zurückgeschickt, u. L. weiß nicht, was er thun soll. Meine<lb/>
+Befürchtungen fangen an sich zu erfüllen. Widm. träumt von<lb/>
+einer italien. Reise, die wir in Gemeinschaft mit Brahms unter-<lb break="no"/>
+nehmen sollen, u. fragt bei mir an, was ich davon denke. Er<lb/>
+hat ein neues Stück gedichtet u. will es am Burgtheater einreichen.<lb/>
+Mittag auf dem Bureau mit Pötzl, Franceschini u. Singer. Die<lb/>
+Notiz gegen die Antisemiten u. ihre Jubiläumsvorstellung im<lb/>
+Carltheater. Sie hatten der Ztg. einen Referentensitz im 3. Stock,<lb/>
+hintere Reihe, angeboten, während ihre Leute breit im Parquet placirt<lb/>
+waren. Singer’s Wut über den doppelzüngigen Director Jauner.<lb/>
+Mein Jammer über den Mangel jeglichen Solidaritäts- u. Standesgefüls<lb/>
+der Wiener Journalisten. Der „Don Juan“ wird, wie ich vorausgesehen,<lb/>
+abgesagt. Während Risa u. Helene Vesque bei uns zu Besuch<lb/>
+sind, erscheint Graf, der Kanzleidirector der Hofoper, um mich im<lb/>
+Namen Jahn’s zu bitten, ich möge, unser Cottagehaus von seinem<lb/>
+Freunde Borkowski ausführen lassen. Will Ja. mir nur zeigen, daß<lb/>
+er mir trotz meiner oppositionellen Haltung nicht grollt, u. sollte dies<lb/>
+ein Annäherungsversuch sein? Eigentümlich wäre es, wenn der eine<lb/>
+Baumeister des Cottage nicht wüßte, was der andere vorhat. Graf<lb/>
+thut Wunder wie entrüstet über die Zustände in der Hofoper. Ich sage<lb/>
+ihm unumwunden, daß die Direction Wondra das Institut zu Grunde<lb/>
+richtet, u. daß ich endlich Jahn direct werde angreifen müssen, so gern<lb/>
+ich ihn persönlich leiden mag. Rob. Fuchs feiert seinen 50. Geburtstag<lb/>
+im Tonkünstlerverein.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

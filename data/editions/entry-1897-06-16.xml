@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-06-16" n="01"/>
+            <title level="a">Mittwoch, 16. Juni 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>16 Juni Mittwoch.</head>
+            <p>Morgenspaziergang mit Stettenheim u. Karlweis über den Faul-<lb break="no"/>
+lenzerweg in den Kaiserpark. Dort eine Menge Menschen, die<lb/>
+sich an uns herandrängen. So lieb mir die Gesellschaft ist, so<lb/>
+leid thut es mir um unser stilles Frühstück im Jägerhause und<lb/>
+die darauf folgenden Arbeitsstunden. [Ausstreichung: Nach] Einsamer Weg<lb/>
+über die Berge. Nachmittag nach dem Bade erwartet uns Frau v.<lb/>
+Beckerath im Wagen, und wir fahren zusammen nach Elbogen.<lb/>
+Das alte, verwahrloste Schloß in schöner Lage über dem Strom.<lb/>
+Von da in zwei Stunden zu Fuß am Ufer der Eger nach Hans<lb/>
+Heiling u. dann mit dem Schiff nach Aich. Mit einem<lb/>
+Gewitter zugleich langen wir daselbst an und fahren im geschlossenen<lb/>
+Wagen nach Karlsbad zurück. Bei Loib mit Przibram,<lb/>
+Janetschek u. Karpath zu Abend.<lb/>
+Brief eines 20jährigen (irrsinnigen?) Poeten Georg Busse-<lb break="no"/>
+Palma mit beigelegten Gedichten, die von hoher Genialität<lb/>
+zeugen. Ich weise ihm, um ihn vom Selbstmord zu retten, 20 fl. tele-<lb break="no"/>
+graphisch an u. will noch mehr für ihn thun.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

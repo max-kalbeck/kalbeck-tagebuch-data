@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-10-24" n="01"/>
+            <title level="a">Sonntag, 24. Oktober 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>24 Oktober Sonntag.</head>
+            <p>Necker schickt mir eine Biographie Geibel’s von Theodor<lb/>
+Gaedertz, die mich lebhaft interessirt. Der Verfasser hat es<lb/>
+nicht darauf abgesehen, ein vollständiges Lebens- u. Charakter-<lb break="no"/>
+bild des Dichters zu entwerfen, sondern begnügte sich damit, Neues<lb/>
+zu bringen, und da er aus guten Quellen so recht aus dem<lb/>
+Vollen schöpfen konnte, so entschädigt er uns durch den Reich-<lb break="no"/>
+tum seines Stoffes für den Mangel an Form. Mein Verhältnis<lb/>
+zu Geibel verdiente einmal ausführlicher von mir behandelt<lb/>
+zu werden: der Einfluß, den er im Guten und Schlechten auf meine<lb/>
+Lyrik ausgeübt hat, war verhängnisvoller als Heine’s „Buch der<lb/>
+Lieder“, obwol dieses mich im Alter von 15 Jahren ganz außer<lb/>
+Rand und Band gebracht hatte. – Nachmittags mit den Kindern<lb/>
+und deren Freunden in unser Cottagehaus, das von Unten bis Oben<lb/>
+durchkrochen wird. Zu meinem Entsetzen bemerke ich, daß die eine<lb/>
+der zur Linken an den Garten stoßenden Villen ein „musikalisches<lb/>
+Haus“ der schlimmsten Sorte ist. [Ausstreichung: Das …] Ein niederträchtiges Clavier<lb/>
+hallt bei stets geöffneten Fenstern im ganzen Viertel wieder, und<lb/>
+auch in meinem Zimmer klingt es nach, zumal, wenn ein Sopran<lb/>
+u. ein Tenor abwechselnd dazu singt. Das wird Krieg geben, wenn<lb/>
+es mir nicht beizeiten gelingt ein leidliches Uebereinkommen zu er-<lb break="no"/>
+zielen. Es scheint fast so, als ob die Bewohner des Hauses, sei es aus<lb/>
+übel angebrachter Eitelkeit oder aus Bosheit ihre musikalischen Orgien<lb/>
+beginnen, sobald ich auf dem Bauplatze in Sicht trete. – Abends der<lb/>
+unverkürzte „Tristan“ in der Hofoper. Ich wollte ihn bis zu Ende anhören,<lb/>
+hielt es aber nach dem II Act nicht länger aus. Nachtmal bei Leidinger.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

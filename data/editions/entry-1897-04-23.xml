@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-04-23" n="01"/>
+            <title level="a">Freitag, 23. April 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>23 April Freitag.</head>
+            <p>(Donnerstag) Bei Simrock. Mit d. Neffen lange über Brahms u. meine<lb/>
+biographischen Absichten gesprochen. Besichtigung des neuen Kaiser Wilhelm-<lb break="no"/>
+Denkmals. Mächtiger Totaleindruck; sehr ungünstige Situation des Monu-<lb break="no"/>
+ments. Der Kaiser reitet aus der Spree heraus – ein Barbarossa, der sich aus<lb/>
+dem Kalikadnus gerettet hat. Am Ausgange der Linden das monumentale<lb/>
+Berlin. Erhebender Anblick für jeden deutschen Mann. Hier muß man zum<lb/>
+Patrioten werden u. seinen Kosmopolitismus vergessen. Ein eigenes<lb/>
+Gefühl, den größten Theil dieser Herrlichkeit mit erlebt zu haben u. die<lb/>
+Hauptstadt Preußens zur Capitale der Welt haben wachsen zu sehen –<lb/>
+in dreißig Jahren! In der Bendlerstraße empfängt mich Frau Meyer-Cohn<lb/>
+vor d. Joachim’schen Hause, in der Meinung, ich wolle ihr einen Besuch machen.<lb/>
+Sie schickt ihren Diener mit meiner Karte hinauf, u. ich trete einen<lb/>
+Augenblick bei ihr ein. Joachim, gerade im Begriff zur Quartettprobe<lb/>
+zu gehen, steigt zu mir in den Wagen. Er will mir Rede stehen u. ladet<lb/>
+uns für Samstag zu Tisch, für heute Abend in die Singakademie zur Brahms-<lb break="no"/>
+Feier. Darüber großes Unglück bei Grete, muß sich trösten. Bei Carl allein<lb/>
+mit Julie u. Ax zum Speisen. Seine Hundewirthschaft. Ax rutscht auf ihren<lb/>
+frischen Lorbeeren herum. Dann zwei Stunden mit Simrock in d. Privat-<lb break="no"/>
+wohnung verhandelt. Er sichert mir seine Unterstützung zu u. sagt, er sei sonst<lb/>
+für niemand zu sprechen, auch für Hanslick nicht. Neitzel, d. Verleumder<lb/>
+in d. Köln. Ztg., Tappert u. a. elende Gesellen. Der Mann in Wilhelmshafen,<lb/>
+der sich anbietet über Brahms’ Jugend mit Hilfe seiner Frau eingehend zu berichten.<lb/>
+F. Montag zu Simrock’s geladen (3 U.[hr]). Bei Joachim im Künstlerzimmer. Hausmann<lb/>
+sehr gerührt. C-Moll-Quartett (d. Adagio u. Beethoven’s As-D. Variationen)<lb/>
+B-dur-Sextett u. G-d.-Quintett. (Schubert’s C-d.) Die schönste Brahmsfeier.<lb/>
+Auf d. Podium Elise Breiderhoff, geb. Frey. Ich habe sie wiedererkannt, sie mich<lb/>
+nicht. Mit Herzogenberg gespr. Abends in einer Weißbierstube.<lb/>
+Freitag. Briefe von B. Scholz u. Henriette Fritsch a. Frankf. An Klinger<lb/>
+geschrieben. Um 11 Uhr zur Gratulation zu Kirschner’s. Assessor Jul. Epstein, Chevalier</p>
+         </div>
+      </body>
+   </text>
+</TEI>

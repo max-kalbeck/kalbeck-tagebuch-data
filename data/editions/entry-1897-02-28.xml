@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+            <title type="iso-date" when-iso="1897-02-28" n="01"/>
+            <title level="a">Sonntag, 28. Februar 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>28 Februar Sonntag. [gedruckte 29 handschriftlich geändert in 28]</head>
+            <p>Gedicht in schlesischer Mundart an Gerhart Hauptmann.<lb/>
+Nach Tische zu Molden’s nach Döbling, die uns auf den Abend<lb/>
+einladen. Während Julie zu Frau Flegmann in die Stadt<lb/>
+zurückfährt, mache ich mit Molden einen weiten Spaziergang<lb/>
+über Sievering. Ueber die Idee gesprochen, wie dankbar es wäre,<lb/>
+eine farbige culturhistorisch-psychologische Studie über die verschiedenen<lb/>
+Bezirke u. Vororte Wiens zu schreiben. Todtenmesse in der<lb/>
+alten, schlimm renovirten Sieveringer Kirche. Das Begräbnis ein<lb/>
+Fest für den Ort, das Alles vor die Häuser lockt. Schöne Aussicht<lb/>
+von der Höhe der Weinberge u. eigentümlicher silbergrauer Ton<lb/>
+der Luft: Alles wie traumhaft in die Vergangenheit gerückt.<lb/>
+Die Heirats- u. Hauspläne des Vater Götzl als humoristischer<lb/>
+Novellenstoff. Mein Entsetzen bei der Idee, als Selma’s Gatte<lb/>
+ein Mitglied der Familie G. geworden zu sein. Das ehemal.<lb/>
+Frauen- oder Kirchendienerhaus auf d. Minoritenplatz. Frisches<lb/>
+Lebensgefül im wohlthuenden Gegensatz zu früheren Jahren. Feste<lb/>
+Ueberzeugung, daß ich so bald noch nicht sterben werde, weil<lb/>
+ich noch zu viel vorhabe. Am Abend Zetsche u. ein Dr. Zweibrück,<lb/>
+mit dem ich schon lange, wie mit vielen Andern, auf d. Begrüßungsfuße<lb/>
+stand, ohne zu wissen, wer er eigentlich ist. Sucht sich durch vornehme<lb/>
+Bekanntschaften ein Lüster zu geben. Zetsche will einen zweiten<lb/>
+Band seiner Skizzen mit Feder u. Bleistift herausgeben. Bravo!</p>
+         </div>
+      </body>
+   </text>
+</TEI>
