@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-01" n="01"/>
             <title level="a">Freitag, 1. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,24 +56,28 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>1 Januar Freitag.</head>
-            <p>Das neue Jahr fange ich mit einem Absagebrief an<lb/>
-            Frau <rs type="person" ref="#pmb12205">Jenny Mautner</rs> an, die uns zum Diner geladen hatte.<lb/>
-            Ich mache die Abschrift des I Actes vom <rs type="work" ref="#pmb299513">Stillen Dorfe</rs> fertig,<lb/>
-            den ich in <rs type="place" ref="#pmb662">Baden</rs> am Montag u. Dinstag geschrieben habe.<lb/>
-            Nach Tisch Excursion nach <rs type="place" ref="#pmb69">Döbling</rs> mit obligatem Häuser-<lb break="no"/>
-            u. Wohnungsinspiciren. Bei <rs type="person" ref="#pmb100107 #pmb342764">Molden’s</rs> zur Vesper. Er<lb/>
-            begleitet mich heim. Abds. im <rs type="event" ref="#pmb342769">Quartett Joachim</rs>. <rs type="person" ref="#pmb176559">Prinz<lb/>
-            Reuß</rs>, <rs type="person" ref="#pmb28732">Dumba</rs>, <rs type="person" ref="#pmb342783 #pmb342786">Miller’s</rs>, <rs type="person" ref="#pmb3342797 #pmb342798">Faber’s</rs>, <rs type="person" ref="#pmb342788 #pmb342792">Vesque’s</rs>, <rs type="person" ref="#pmb342765">Else Billroth</rs>,<lb/>
-            Vesque’s gesprochen. In Musik geschwelgt.<lb/>
-            Verlorene Sehnsucht nach den productiven Badener Tagen.<lb/>
-            Empfindung, daß ich meine poetischen Kräfte noch gar nicht gehörig<lb/>
-            geübt habe. Große Productionslust u. traurige Einsicht,<lb/>
-            sie in Wien ungenutzt verrauchen lassen zu müssen.<lb/>
-            In der Novelle „Die Tugend v. Baden“ muß das Verführungs-<lb break="no"/>
-            motiv d. Grafen die geplante Heirat m. d. Baronin sein. Er<lb/>
-            hofft ihr zu imponiren u. seine Finanzen durch die Verbindung mit<lb/>
-            der koketten <add place="above">reichen</add> Witwe zu verbessern.<lb/>
-            Die Geschichte vom „falschen Beethoven“ meldet sich.</p>
+            <p>Das neue Jahr fange ich mit einem Absagebrief an<lb/> Frau <rs type="person"
+                  ref="#pmb12205">Jenny Mautner</rs> an, die uns zum Diner geladen hatte.<lb/> Ich
+               mache die Abschrift des I Actes vom <rs type="work" ref="#pmb299513">Stillen
+                  Dorfe</rs> fertig,<lb/> den ich in <rs type="place" ref="#pmb662">Baden</rs> am
+               Montag u. Dinstag geschrieben habe.<lb/> Nach Tisch Excursion nach <rs type="place"
+                  ref="#pmb69">Döbling</rs> mit obligatem Häuser-<lb break="no"/> u.
+               Wohnungsinspiciren. Bei <rs type="person" ref="#pmb100107 #pmb342764">Molden’s</rs>
+               zur Vesper. Er<lb/> begleitet mich heim. Abds. im <rs type="event" ref="#pmb342769"
+                  >Quartett Joachim</rs>. <rs type="person" ref="#pmb176559">Prinz<lb/> Reuß</rs>,
+                  <rs type="person" ref="#pmb28732">Dumba</rs>, <rs type="person"
+                  ref="#pmb342783 #pmb342786">Miller’s</rs>, <rs type="person"
+                  ref="#pmb3342797 #pmb342798">Faber’s</rs>, <rs type="person"
+                  ref="#pmb342788 #pmb342792">Vesque’s</rs>, <rs type="person" ref="#pmb342765">Else
+                  Billroth</rs>,<lb/> Vesque’s gesprochen. In Musik geschwelgt.<lb/> Verlorene
+               Sehnsucht nach den productiven Badener Tagen.<lb/> Empfindung, daß ich meine
+               poetischen Kräfte noch gar nicht gehörig<lb/> geübt habe. Große Productionslust u.
+               traurige Einsicht,<lb/> sie in Wien ungenutzt verrauchen lassen zu müssen.<lb/> In
+               der Novelle „Die Tugend v. Baden“ muß das Verführungs-<lb break="no"/> motiv d.
+               Grafen die geplante Heirat m. d. Baronin sein. Er<lb/> hofft ihr zu imponiren u.
+               seine Finanzen durch die Verbindung mit<lb/> der koketten <add place="above"
+                  >reichen</add> Witwe zu verbessern.<lb/> Die Geschichte vom „falschen Beethoven“
+               meldet sich.</p>
          </div>
       </body>
    </text>
