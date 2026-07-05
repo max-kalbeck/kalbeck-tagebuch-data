@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-06" n="01"/>
             <title level="a">Mittwoch, 6. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -56,19 +59,20 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>6 Januar Mittwoch.</head>
-            <p>Französisch ausgesprochene Weisheit von Hanslick, Molden u. mir an<lb/>
-Frau Blanche de Pott nach Rom expedirt. (kommt voraussichtlich<lb/>
-zu spät) Ich schrieb: Travailler c’est vivre! Mais travailler<lb/>
-pour vivre – quelle détestable invention! Antwort an den<lb/>
-Ingenieur Beck, der seine Vorfahren in den Dörfern um Breslau<lb/>
-herum sucht u. mich bittet, ihm dabei zu helfen. Was die Menschen<lb/>
-alles von einem verlangen! Fielitz schreibt mir einen enthu-<lb break="no"/>
-siastischen Dankbrief aus Rom über den i. Act. Nachmittag die<lb/>
-„Fledermaus“ in der Hofoper. Entzückt von Rosalinde – Renard.<lb/>
-Das 2. Finale rührt mich wieder zu Thränen. Ich schreibe ein sehr<lb/>
-schwärmerisches Referat u. gehe zu Kantor’s. Zellner wieder<lb/>
-auf den Beinen. Poetisches Après-souper in Rosl’s Zimmer.<lb/>
-Goethe’sche Gedichte. Sehr spät heim.</p>
+            <p>Französisch ausgesprochene Weisheit von <rs type="person" ref="#pmb11578"
+                  >Hanslick</rs>, <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/>
+                Frau Blanche de Pott nach Rom expedirt. (kommt voraussichtlich<lb/>
+                zu spät) Ich schrieb: Travailler c’est vivre! Mais travailler<lb/>
+                pour vivre – quelle détestable invention! Antwort an den<lb/>
+                Ingenieur Beck, der seine Vorfahren in den Dörfern um Breslau<lb/>
+                herum sucht u. mich bittet, ihm dabei zu helfen. Was die Menschen<lb/>
+               alles von einem verlangen! <rs type="person" ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/>
+                siastischen Dankbrief aus Rom über den i. Act. Nachmittag die<lb/>
+                „Fledermaus“ in der Hofoper. Entzückt von Rosalinde – Renard.<lb/>
+                Das 2. Finale rührt mich wieder zu Thränen. Ich schreibe ein sehr<lb/>
+                schwärmerisches Referat u. gehe zu Kantor’s. Zellner wieder<lb/>
+               auf den Beinen. Poetisches Après-souper in <rs type="person" ref="#pmb19070">Rosl’s</rs> Zimmer.<lb/>
+                Goethe’sche Gedichte. Sehr spät heim.</p>
          </div>
       </body>
    </text>
