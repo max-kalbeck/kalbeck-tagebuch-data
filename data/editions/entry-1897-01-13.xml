@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-13" n="01"/>
             <title level="a">Mittwoch, 13. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -54,31 +57,28 @@
          <div hand="#hand__kalbeck">
             <head>13 Januar Mittwoch.</head>
             <p>Der Kauf ist perfect geworden, u. wir sind seit heute Grundbe-<lb break="no"/>
-sitzer, sehr kleine Kleingrundbesitzer: 360 □ Kl. in der Wüste.<lb/>
-Meine Idee von einem ähnl., zum Scherz erworbenen<lb/>
-Ackerlande, das nach vielen Jahren d. bedrängten Kindern eines<lb/>
-längst verstorbenen leichtsinnigen Planes zu statten kommt. Wieder<lb/>
-ein Novellchen! Im Cottage will ich mir eine Pflanzstätte von<lb/>
-lustigen Gewächsen einrichten, ein Obstgärtlein der Literatur,<lb/>
-in dem ich ein paar Wildlinge durch Pfropfreise veredle.<lb/>
-Wären wir nur erst draußen! – Um 10 Uhr wieder ins Archiv,<lb/>
-um Schubert-Studien zu machen. Ich bringe Mandyczewski ein<lb/>
-Exemplar d. „Humoresken“ – u. er gesteht mir lachend, daß er<lb/>
-zu Weihnachten zwei Exle. verschenkt habe. Ein lieber<lb/>
-Kerl. Allerlei Schubertgespräche. Zwei himmlische Geschichten:<lb/>
-1. Brahms u. die Schubert-Ausgabe. Er hatte die Revision der<lb/>
-Symphonien übernommen. Dann ärgerte ihn die Geschichte u. war ihm<lb/>
-zu langweilig. Was thut er? Er läßt die Partituren vom Copisten<lb/>
-abschreiben u. schickt sie in den Verlag. In Folge dessen mußten<lb/>
-sämmtliche Platten zu d. ersten beiden Bänden hinterdrein neu gestochen,<lb/>
-die bereits fertigen Exempl. aber vernichtet werden. Mandycz. hat<lb/>
-dann die Arbeit, die Br. stillschweigend unterließ, nachgeliefert.<lb/>
-2. In Bonn wird vor ein paar Wochen die vermißte Schubertsche<lb/>
-Symphonie (1825) gefunden: eine Orchesterpartitur des C-Dur-<lb break="no"/>
-Quintetts! Deiters u. Friedländer in Berlin erheben ein Triumph-<lb break="no"/>
-geschrei. Friedl. ist von dem herrl. Orchestersatz entzückt u. stimmt<lb/>
-in die von Bonn ausgegebene Parole ein: das Quintett sei nur<lb/>
-ein Arrangement. Bei näherer Besichtigung des Fundes durch Brahms</p>
+               sitzer, sehr kleine Kleingrundbesitzer: 360 □ Kl. in der Wüste.<lb/> Meine Idee von
+               einem ähnl., zum Scherz erworbenen<lb/> Ackerlande, das nach vielen Jahren d.
+               bedrängten Kindern eines<lb/> längst verstorbenen leichtsinnigen Planes zu statten
+               kommt. Wieder<lb/> ein Novellchen! Im Cottage will ich mir eine Pflanzstätte von<lb/>
+               lustigen Gewächsen einrichten, ein Obstgärtlein der Literatur,<lb/> in dem ich ein
+               paar Wildlinge durch Pfropfreise veredle.<lb/> Wären wir nur erst draußen! – Um 10
+               Uhr wieder ins Archiv,<lb/> um Schubert-Studien zu machen. Ich bringe Mandyczewski
+               ein<lb/> Exemplar d. <rs type="work" ref="#pmb353046">„Humoresken“</rs> – u. er
+               gesteht mir lachend, daß er<lb/> zu Weihnachten zwei Exle. verschenkt habe. Ein
+               lieber<lb/> Kerl. Allerlei Schubertgespräche. Zwei himmlische Geschichten:<lb/> 1.
+               Brahms u. die Schubert-Ausgabe. Er hatte die Revision der<lb/> Symphonien übernommen.
+               Dann ärgerte ihn die Geschichte u. war ihm<lb/> zu langweilig. Was thut er? Er läßt
+               die Partituren vom Copisten<lb/> abschreiben u. schickt sie in den Verlag. In Folge
+               dessen mußten<lb/> sämmtliche Platten zu d. ersten beiden Bänden hinterdrein neu
+               gestochen,<lb/> die bereits fertigen Exempl. aber vernichtet werden. Mandycz.
+               hat<lb/> dann die Arbeit, die Br. stillschweigend unterließ, nachgeliefert.<lb/> 2.
+               In Bonn wird vor ein paar Wochen die vermißte Schubertsche<lb/> Symphonie (1825)
+               gefunden: eine Orchesterpartitur des C-Dur-<lb break="no"/> Quintetts! Deiters u.
+               Friedländer in Berlin erheben ein Triumph-<lb break="no"/> geschrei. Friedl. ist von
+               dem herrl. Orchestersatz entzückt u. stimmt<lb/> in die von Bonn ausgegebene Parole
+               ein: das Quintett sei nur<lb/> ein Arrangement. Bei näherer Besichtigung des Fundes
+               durch Brahms</p>
          </div>
       </body>
    </text>

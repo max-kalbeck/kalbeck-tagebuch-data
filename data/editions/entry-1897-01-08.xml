@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-08" n="01"/>
             <title level="a">Freitag, 8. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -56,28 +59,37 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>8 Januar Freitag.</head>
-            <p>Dankbrief an Heyse. Von seinen Burgtheaterangelegenheiten<lb/>
-erwähne ich absichtlich nichts u. halte es genau wie er. Der junge<lb/>
-Paolo in Montreux; es ließe sich aus dem schwarzen Kerner-<lb break="no"/>
-heft eine artige Geschichte herausspinnen. Die kokette Engländerin,<lb/>
-(Margarete) die den Dichter einfängt, um sich von ihm besiegen<lb/>
-zu lassen. Als Gegensatz dazu die römische „Lacerte“, die ihn<lb/>
-ohne Hintergedanken als guten Kerl lieb gewinnt u. über den<lb/>
-Verlust der Tochter Alberts tröstet. Das Bändchen Lieder die<lb/>
-unsterbliche Frucht beider Verhältnisse. Editio castigata. Meister<lb/>
-Emanuel als Deus im Hintergrunde. Zu Hause großes Aufräumen.<lb/>
-Erneuerte Einsicht von der Unzulänglichkeit meines Zimmers.<lb/>
-Absagebrief an den Studiosus Kohn, dem ich rundweg jedes<lb/>
-literar. Talent abspreche. Dem Czernowitzer ein Exemplar<lb/>
-Humoresken mit Dedication geschickt. Abends bei uns Tarokgesell-<lb break="no"/>
-schaft: Stoerk’s, Kantor’s, Flegmann, Doller, Dir. Burckhard,<lb/>
-Singer u. Ganghofer’s. Letztere sind in großer Aufregung<lb/>
-wegen der morgigen Première im Volkstheater. Frau Stoerk<lb/>
-findet es für gut die vornehme Dame herauszubeißen – weiß<lb/>
-der Himmel, warum? Burckhard sehr kleinlaut. Ich that<lb/>
-wohl daran, erst vorher ins Concert zu den Gebr. Thern zu gehen.<lb/>
-Was nur die Menschen für ein Vergnügen an einem<lb/>
-solchen Abend finden.</p>
+            <p>Dankbrief an <rs type="person" ref="#pmb11691">Heyse</rs>. Von seinen
+               Burgtheaterangelegenheiten<lb/> erwähne ich absichtlich nichts u. halte es genau wie
+               er. Der junge<lb/> Paolo in Montreux; es ließe sich aus dem schwarzen Kerner-<lb
+                  break="no"/> heft<note type="editorische-anmerkung">wohl das am 2. Januar erwähnte
+                  Quartheft</note> eine artige Geschichte herausspinnen. Die kokette
+               Engländerin,<lb/> (Margarete) die den Dichter einfängt, um sich von ihm besiegen<lb/>
+               zu lassen. Als Gegensatz dazu die römische „Lacerte“, die ihn<lb/> ohne
+               Hintergedanken als guten Kerl lieb gewinnt u. über den<lb/> Verlust der Tochter
+               Alberts tröstet. Das Bändchen Lieder die<lb/> unsterbliche Frucht beider
+               Verhältnisse. Editio castigata<note type="editorische-anmerkung">Buchausgabe, bei der
+                  anstößige Stellen vom Herausgeber oder von der Zensur gestrichen wurden</note>.
+               Meister<lb/> Emanuel als Deus im Hintergrunde. Zu Hause großes Aufräumen.<lb/>
+               Erneuerte Einsicht von der Unzulänglichkeit meines Zimmers.<lb/> Absagebrief an den
+               Studiosus <rs type="person" ref="#pmb19501">Kohn</rs>, dem ich rundweg jedes<lb/>
+               literar. Talent abspreche. Dem Czernowitzer<note type="editorische-anmerkung">der
+                  tags zuvor erwähnte Student, der Kalbeck unbekannterweise Geburtagsglückwünsche
+                  gesendet hatte</note> ein Exemplar<lb/>
+               <rs type="work" ref="#pmb353046">Humoresken</rs> mit Dedication geschickt. Abends bei
+               uns Tarokgesell-<lb break="no"/> schaft: <rs type="person"
+                  ref="#pmb113339 #pmb363550">Stoerk’s</rs>, <rs type="person"
+                  ref="#pmb174597 #pmb160741 #pmb19070">Kantor’s</rs>, <rs type="person"
+                  cert="medium" ref="#pmb16315">Flegmann</rs>, <rs type="person" ref="#pmb337384"
+                  >Doller</rs>, <rs type="person" ref="#pmb11036">Dir. Burckhard</rs>,<lb/>
+               <rs type="person" ref="#pmb2202">Singer</rs> u. <rs type="person"
+                  ref="#pmb11402 #pmb335064">Ganghofer’s</rs>. Letztere sind in großer
+               Aufregung<lb/> wegen der morgigen Première im <rs type="place" ref="#pmb20"
+                  >Volkstheater</rs>. <rs type="person" ref="#pmb363550">Frau Stoerk</rs><lb/>
+               findet es für gut die vornehme Dame herauszubeißen – weiß<lb/> der Himmel, warum?
+               Burckhard sehr kleinlaut. Ich that<lb/> wohl daran, erst vorher ins Concert zu den
+                  <rs type="person" ref="#pmb194680 #pmb194679">Gebr. Thern</rs> zu gehen.<lb/> Was
+               nur die Menschen für ein Vergnügen an einem<lb/> solchen Abend finden.</p>
          </div>
       </body>
    </text>

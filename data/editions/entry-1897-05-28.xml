@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-05-28" n="01"/>
             <title level="a">Freitag, 28. Mai 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,33 +56,30 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>28 Mai Freitag.</head>
-            <p>Zur Abfahrt gerüstet. Wie alle die Tage hier früh auf. Ich wundere<lb/>
-mich, daß ich soviel Strapazen ausgehalten habe und mich so wohl dabei<lb/>
-fühle. Von den Bekannten, die [eingefügt: schon gestern] alle umherwankten wie Schatten, bin<lb/>
-ich der Rüstigste und der – Älteste. Vielleicht mute ich mir zu wenig<lb/>
-zu. Die „Humoresken u. Phantasien“ als Gastgeschenk hinterlassen.<lb/>
-Beim Frühstück literar. Gespräch mit Rocholl. Er ist ein Typus des<lb/>
-modischen Literaturkenners und interessirt sich für alles Neue. Das<lb/>
-schöne Wetter ändert [eingefügt: die alten] und begünstigt neue Reisepläne, die aus dem<lb/>
-Stegreif improvisirt werden. Rocholl’s begleiten mich auf dem<lb/>
-Schiffe – „Undine“ bleibt mir treu – nach Königswinter. Wir<lb/>
-fahren mit der Drahtseilbahn zum Drachenfels hinauf; entzückende<lb/>
-Fernsicht. Ähnlichkeit mit der Aussicht vom Kahlenberge. Beim Diner<lb/>
-in Königswinter sind R.’s meine Gäste. Mit dem Schiff nach<lb/>
-Rolandseck hinüber; der verzauberte Wald. Alles wie im Traum.<lb/>
-Lebendige Poesie. Wieder einmal das beseligende Gefül über der<lb/>
-Welt [Ausstreichung] als Schauender, Wissender u. Genießender zu<lb/>
-stehen. Ich versäume den Schnellzug und fahre nach traurigem Ab-<lb break="no"/>
-schied, bis St. Goar ins Nachtquartier. Die lebendigsten Erinnerungen<lb/>
-an alles am Rhein Genossene umtanzen den Wagen, ein Reigen<lb/>
-lustiger Geister, der sich nach Melodien von Beethoven u. Brahms<lb/>
-bewegt. Wer das aussprechen könnte! Das verschlafene Rheinstädtchen,<lb/>
-ich in den Gassen als ruheloses Gespenst. Einem philisterhaften alten<lb/>
-Ehepaar, das in einer kleinen Kneipe noch beim Schöppchen sitzt,<lb/>
-erscheine ich wie der leibhaftige Teufel; die Ironie bändigt meine<lb/>
-Exaltation, „Herr Wirt, Ihr bestes Zimmer!“ – „Es sind aber zwei<lb/>
-Betten drin und kostet doppelt so viel.“ – „Ich werde in beiden schlafen.<lb/>
-Gute Nacht!“</p>
+            <p>Zur Abfahrt gerüstet. Wie alle die Tage hier früh auf. Ich wundere<lb/> mich, daß ich
+               soviel Strapazen ausgehalten habe und mich so wohl dabei<lb/> fühle. Von den
+               Bekannten, die [eingefügt: schon gestern] alle umherwankten wie Schatten, bin<lb/>
+               ich der Rüstigste und der – Älteste. Vielleicht mute ich mir zu wenig<lb/> zu. Die
+                  <rs type="work" ref="#pmb353046">„Humoresken u. Phantasien“</rs> als Gastgeschenk
+               hinterlassen.<lb/> Beim Frühstück literar. Gespräch mit Rocholl. Er ist ein Typus
+               des<lb/> modischen Literaturkenners und interessirt sich für alles Neue. Das<lb/>
+               schöne Wetter ändert [eingefügt: die alten] und begünstigt neue Reisepläne, die aus
+               dem<lb/> Stegreif improvisirt werden. Rocholl’s begleiten mich auf dem<lb/> Schiffe –
+               „Undine“ bleibt mir treu – nach Königswinter. Wir<lb/> fahren mit der Drahtseilbahn
+               zum Drachenfels hinauf; entzückende<lb/> Fernsicht. Ähnlichkeit mit der Aussicht vom
+               Kahlenberge. Beim Diner<lb/> in Königswinter sind R.’s meine Gäste. Mit dem Schiff
+               nach<lb/> Rolandseck hinüber; der verzauberte Wald. Alles wie im Traum.<lb/>
+               Lebendige Poesie. Wieder einmal das beseligende Gefül über der<lb/> Welt
+               [Ausstreichung] als Schauender, Wissender u. Genießender zu<lb/> stehen. Ich versäume
+               den Schnellzug und fahre nach traurigem Ab-<lb break="no"/> schied, bis St. Goar ins
+               Nachtquartier. Die lebendigsten Erinnerungen<lb/> an alles am Rhein Genossene
+               umtanzen den Wagen, ein Reigen<lb/> lustiger Geister, der sich nach Melodien von
+               Beethoven u. Brahms<lb/> bewegt. Wer das aussprechen könnte! Das verschlafene
+               Rheinstädtchen,<lb/> ich in den Gassen als ruheloses Gespenst. Einem philisterhaften
+               alten<lb/> Ehepaar, das in einer kleinen Kneipe noch beim Schöppchen sitzt,<lb/>
+               erscheine ich wie der leibhaftige Teufel; die Ironie bändigt meine<lb/> Exaltation,
+               „Herr Wirt, Ihr bestes Zimmer!“ – „Es sind aber zwei<lb/> Betten drin und kostet
+               doppelt so viel.“ – „Ich werde in beiden schlafen.<lb/> Gute Nacht!“</p>
          </div>
       </body>
    </text>

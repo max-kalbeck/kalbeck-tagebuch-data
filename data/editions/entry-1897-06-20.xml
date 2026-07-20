@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-06-20" n="01"/>
             <title level="a">Sonntag, 20. Juni 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,12 +56,11 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>20 Juni Sonntag.</head>
-            <p>Meine „Humoresken u. Ph.“ an Frau v. Beckerath nach<lb/>
-Rüdesheim geschickt. Stettenheim bekommt von mir die<lb/>
-„Letzten Spaziergänge“ Spitzer’s, über welche er große Freude hat.<lb/>
-Einer der Wenigen, die so etwas gehörig zu schätzen wissen.<lb/>
-Stettenheim’s Parodie der „Glocke“ – gegen „Die versunkene<lb/>
-Glocke“ Hauptmann’s u. die Modernen.</p>
+            <p>Meine <rs type="work" ref="#pmb353046">„Humoresken u. Ph.“</rs> an Frau v. Beckerath
+               nach<lb/> Rüdesheim geschickt. Stettenheim bekommt von mir die<lb/> „Letzten
+               Spaziergänge“ Spitzer’s, über welche er große Freude hat.<lb/> Einer der Wenigen, die
+               so etwas gehörig zu schätzen wissen.<lb/> Stettenheim’s Parodie der „Glocke“ – gegen
+               „Die versunkene<lb/> Glocke“ Hauptmann’s u. die Modernen.</p>
          </div>
       </body>
    </text>

@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-09-29" n="01"/>
             <title level="a">Mittwoch, 29. September 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,36 +56,31 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>29 September Mittwoch.</head>
-            <p>[Forsetzung vom 27. September]<lb/>
-Denn ein Chaos ohne Verwirrung hört auf eines zu sein. Der himmlische<lb/>
-u. der irdische Herr Meyer vertragen sich schlecht mit einander, weil der<lb/>
-letztere gar keine Logik besitzt. Er glaubt den von ihm so tapfer<lb/>
-bekämpften anthropocentrischen Standpunkt verlassen zu haben, wenn<lb/>
-er sich bald nach links bald nach rechts auf die Seite legt. Als das<lb/>
-Stehaufmännchen aber, das er wider Willen u. wissen ist, bleibt<lb/>
-er stehen, wo er stand. Sein „Ewiger Kreislauf d. Werdens“ ist nur<lb/>
-ein Spaziergang zwischen den vier engen Wänden seines Studirzimmers,<lb/>
-und unter vielen anderen Kleinigkeiten hat er rein aus Versehen<lb/>
-die Quadratur des Cirkels gefunden. – (Für Dr. Frank zum<lb/>
-Beleg meiner abschreckenden Kritik.) Besuch von Wolffenstein’s.<lb/>
-[28. September]<lb/>
-Dinstag. Mit Schrecken bemerkt, daß meine Bahnkarten schon am 22. abge-<lb break="no"/>
-laufen sind. An Karlweis telegraphirt, der sofort uns nach Bozen an<lb/>
-den Stationschef z. dirigiren verspricht. Frau Flatz bei uns. Ihr Beethoven-<lb break="no"/>
-Brief ein Facsimiledruck. Frl. Hirsch bringt mir meine Gedichte<lb/>
-u. verlangt einen Gedenkvers hineingesetzt; dgl. Frau Lulu in meine<lb/>
-Humoresken, Frau Wolff in ihr Hausbuch. Es wird also gedichtet und<lb/>
-gepackt, was das Zeug hält, u. am Nachmittag noch einmal auf den<lb/>
-Küchelberg gegangen, nachdem wir alle mit einander in 2 Wagen<lb/>
-eine Thalfahrt ins Schloß Varot gemacht hatten. Das Schloß soll<lb/>
-verkauft werden; Heyse will es mir schenken – wenn er es kauft.<lb/>
-Im Café Ortenstein gesessen. Bei Dr. Frank u. Ellmenreich.<lb/>
-[29. September]<lb/>
-Mittwoch. Heyse macht noch eine Skizze von mir, die besser ausfällt<lb/>
-als das zuvor versuchte Porträt. Wir scheiden nach Tisch unter allgemeiner<lb/>
-Trauer, auch mir geht der Abschied nahe. Frank auf d. Bahnhofe. In<lb/>
-Bozen keine Billets. In Folge dessen bleiben Julie u. Muxl zurück, u.<lb/>
-ich fahre allein voraus.</p>
+            <p>[Forsetzung vom 27. September]<lb/> Denn ein Chaos ohne Verwirrung hört auf eines zu
+               sein. Der himmlische<lb/> u. der irdische Herr Meyer vertragen sich schlecht mit
+               einander, weil der<lb/> letztere gar keine Logik besitzt. Er glaubt den von ihm so
+               tapfer<lb/> bekämpften anthropocentrischen Standpunkt verlassen zu haben, wenn<lb/>
+               er sich bald nach links bald nach rechts auf die Seite legt. Als das<lb/>
+               Stehaufmännchen aber, das er wider Willen u. wissen ist, bleibt<lb/> er stehen, wo er
+               stand. Sein „Ewiger Kreislauf d. Werdens“ ist nur<lb/> ein Spaziergang zwischen den
+               vier engen Wänden seines Studirzimmers,<lb/> und unter vielen anderen Kleinigkeiten
+               hat er rein aus Versehen<lb/> die Quadratur des Cirkels gefunden. – (Für Dr. Frank
+               zum<lb/> Beleg meiner abschreckenden Kritik.) Besuch von Wolffenstein’s.<lb/> [28.
+               September]<lb/> Dinstag. Mit Schrecken bemerkt, daß meine Bahnkarten schon am 22.
+                  abge-<lb break="no"/> laufen sind. An Karlweis telegraphirt, der sofort uns nach
+               Bozen an<lb/> den Stationschef z. dirigiren verspricht. Frau Flatz bei uns. Ihr
+                  Beethoven-<lb break="no"/> Brief ein Facsimiledruck. Frl. Hirsch bringt mir meine
+               Gedichte<lb/> u. verlangt einen Gedenkvers hineingesetzt; dgl. Frau Lulu in meine<lb/>
+               <rs type="work" ref="#pmb353046">Humoresken</rs>, Frau Wolff in ihr Hausbuch. Es wird
+               also gedichtet und<lb/> gepackt, was das Zeug hält, u. am Nachmittag noch einmal auf
+               den<lb/> Küchelberg gegangen, nachdem wir alle mit einander in 2 Wagen<lb/> eine
+               Thalfahrt ins Schloß Varot gemacht hatten. Das Schloß soll<lb/> verkauft werden;
+               Heyse will es mir schenken – wenn er es kauft.<lb/> Im Café Ortenstein gesessen. Bei
+               Dr. Frank u. Ellmenreich.<lb/> [29. September]<lb/> Mittwoch. Heyse macht noch eine
+               Skizze von mir, die besser ausfällt<lb/> als das zuvor versuchte Porträt. Wir
+               scheiden nach Tisch unter allgemeiner<lb/> Trauer, auch mir geht der Abschied nahe.
+               Frank auf d. Bahnhofe. In<lb/> Bozen keine Billets. In Folge dessen bleiben Julie u.
+               Muxl zurück, u.<lb/> ich fahre allein voraus.</p>
          </div>
       </body>
    </text>

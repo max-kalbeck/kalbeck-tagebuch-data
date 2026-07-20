@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-09-09" n="01"/>
             <title level="a">Donnerstag, 9. September 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,33 +56,29 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>9 September Donnerstag.</head>
-            <p>[Forsetzung vom 8. September]<lb/>
-an die liebevolle Sorgfalt erinnere, mit der man im 18. Jahrh.<lb/>
-zu schreiben pflegte. Nachhaltigen Einfluß auf meine Hand haben<lb/>
-die Briefe Holtei’s, Geibel’s u. Heyse’s, sowie die Manuscripte<lb/>
-J. Chr. Günther’s gehabt.<lb/>
-Curschmann sagt mir, daß ihm meine „Humoresken u. Phantasien“,<lb/>
-die in einem Exemplar in der hiesigen Schloßbibliothek vertreten sind,<lb/>
-sehr gefallen. Er schreibt gegenwärtig eine „Geographie des Typhus“.<lb/>
-Erinnerungen an Billroth, in dessen Lobe wir uns erschöpfen.<lb/>
-Curschmann hat viel Verwandtes mit ihm; man könnte ihn einen<lb/>
-vergröberten Billroth nennen. Sein künstlerisches Organ ist das<lb/>
-Auge, während das Billroth’sche das Ohr war. – Ich will mich<lb/>
-gerade seufzend über den II Act der „Figlia“ hermachen, als mir<lb/>
-Eduard Schütt gemeldet wird. Wir verplaudern den Vor-<lb break="no"/>
-mittag in angenehmer Weise und begleiten einander dann<lb/>
-so lange hinunter und wieder hinauf, bis das Tamtam<lb/>
-zu Tische ruft. Zuvor spielte er mir noch zwei Transcriptionen<lb/>
-über Brahms’sche Lieder vor, die er auf Simrock’s Anstiften<lb/>
-gemacht hat. Den Verlegern ist doch nichts heilig, nicht einmal<lb/>
-ein Brahms’sches Lied. Wenn es nach Simrock’s Geschäftsidealis-<lb break="no"/>
-mus gegangen wäre, hätte Schütt den halben Brahms für den<lb/>
-Claviersalon hergerichtet. Er war aber so bescheiden sich mit dem<lb/>
-„Wiegenlied“ u. dem „Vergebl. Ständchen“ zu begnügen, die er in<lb/>
-seiner Art ganz geistreich glossirt u. mit harmonischen Witzen pa-<lb break="no"/>
-pricirt hat. Br. würde dieses Gullasch doch zu stark gepfeffert<lb/>
-gefunden haben. Der Contrapunkt im „Wiegenlied“ ist dem Transcriptor<lb/>
-entgangen, u. er war nicht angenehm überrascht, als ich ihn darauf hinwies.</p>
+            <p>[Forsetzung vom 8. September]<lb/> an die liebevolle Sorgfalt erinnere, mit der man
+               im 18. Jahrh.<lb/> zu schreiben pflegte. Nachhaltigen Einfluß auf meine Hand
+               haben<lb/> die Briefe Holtei’s, Geibel’s u. Heyse’s, sowie die Manuscripte<lb/> J.
+               Chr. Günther’s gehabt.<lb/> Curschmann sagt mir, daß ihm meine <rs type="work"
+                  ref="#pmb353046">„Humoresken u. Phantasien“</rs>,<lb/> die in einem Exemplar in
+               der hiesigen Schloßbibliothek vertreten sind,<lb/> sehr gefallen. Er schreibt
+               gegenwärtig eine „Geographie des Typhus“.<lb/> Erinnerungen an Billroth, in dessen
+               Lobe wir uns erschöpfen.<lb/> Curschmann hat viel Verwandtes mit ihm; man könnte ihn
+               einen<lb/> vergröberten Billroth nennen. Sein künstlerisches Organ ist das<lb/> Auge,
+               während das Billroth’sche das Ohr war. – Ich will mich<lb/> gerade seufzend über den
+               II Act der „Figlia“ hermachen, als mir<lb/> Eduard Schütt gemeldet wird. Wir
+               verplaudern den Vor-<lb break="no"/> mittag in angenehmer Weise und begleiten
+               einander dann<lb/> so lange hinunter und wieder hinauf, bis das Tamtam<lb/> zu Tische
+               ruft. Zuvor spielte er mir noch zwei Transcriptionen<lb/> über Brahms’sche Lieder
+               vor, die er auf Simrock’s Anstiften<lb/> gemacht hat. Den Verlegern ist doch nichts
+               heilig, nicht einmal<lb/> ein Brahms’sches Lied. Wenn es nach Simrock’s
+                  Geschäftsidealis-<lb break="no"/> mus gegangen wäre, hätte Schütt den halben
+               Brahms für den<lb/> Claviersalon hergerichtet. Er war aber so bescheiden sich mit
+               dem<lb/> „Wiegenlied“ u. dem „Vergebl. Ständchen“ zu begnügen, die er in<lb/> seiner
+               Art ganz geistreich glossirt u. mit harmonischen Witzen pa-<lb break="no"/> pricirt
+               hat. Br. würde dieses Gullasch doch zu stark gepfeffert<lb/> gefunden haben. Der
+               Contrapunkt im „Wiegenlied“ ist dem Transcriptor<lb/> entgangen, u. er war nicht
+               angenehm überrascht, als ich ihn darauf hinwies.</p>
          </div>
       </body>
    </text>

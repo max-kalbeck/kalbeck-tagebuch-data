@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-26" n="01"/>
             <title level="a">Dienstag, 26. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,30 +56,26 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>26 Januar Dinstag.</head>
-            <p>Bei Rosé Billets für Kantor’s besorgt. Unterwegs Frau Dr.<lb/>
-Hillischer. Mit ihr u. ihrem Schwager aus Hall in der<lb/>
-Schubert-Ausstellung. In Schwind geschwelgt. Nach Tisch Besuch<lb/>
-von Molden. Seine naive Auffassung der „Wildente“.<lb/>
-Prof. Röntgen leistet uns ein Stündchen Gesellschaft. Er<lb/>
-ist, trotz dem Messchaert erkrankt ist, auf einen Tag von<lb/>
-Amsterdam nach Wien gekommen, um das F-Moll-<lb break="no"/>
-Quintett bei Rosé zu spielen. Morgen fährt er wieder weg.<lb/>
-Sein Entsetzen über die Fortschritte, welche die Krankheit bei<lb/>
-Brahms gemacht hat; er findet ihn viel schlechter als im<lb/>
-November. Der aus Utrecht citirte Arzt hat sich zu Engel-<lb break="no"/>
-mann höchst ungünstig geäußert. Auch Röntgen erkennt<lb/>
-in der außerordentl. Milde des Kranken ein übles Zeichen.<lb/>
-Wir müssen uns darauf gefaßt machen, ihn bald zu ver-<lb break="no"/>
-lieren. Heute ist er nicht, wie er anfangs gewollt, zur Probe<lb/>
-gekommen, sondern hat sich, genau wie neulich, vor Tische ausge-<lb break="no"/>
-ruht, war dann aber bei Fellinger auch wieder bald müde.<lb/>
-Röntgen hat meine Humoresken von s. Vater zu Weihnachten geschenkt<lb/>
-bekommen und sagt mir die angenehmsten Dinge darüber – er weiß<lb/>
-sie beinahe auswendig wie Musikstücke. Ich fühle mich in meinen<lb/>
-Vorsätzen bestärkt, mehr dergl. zu schreiben. Nach dem Concert<lb/>
-sind wir mit Frau Kantor, Rosl u. Röntgen bei Sacher. Musikal.<lb/>
-Gespräche. Ueber die Appassionata, Schubert u. Brahms. Ein<lb/>
-würdiger Epilog zu einem genußreichen musikalischen Abend!</p>
+            <p>Bei Rosé Billets für Kantor’s besorgt. Unterwegs Frau Dr.<lb/> Hillischer. Mit ihr u.
+               ihrem Schwager aus Hall in der<lb/> Schubert-Ausstellung. In Schwind geschwelgt. Nach
+               Tisch Besuch<lb/> von Molden. Seine naive Auffassung der „Wildente“.<lb/> Prof.
+               Röntgen leistet uns ein Stündchen Gesellschaft. Er<lb/> ist, trotz dem Messchaert
+               erkrankt ist, auf einen Tag von<lb/> Amsterdam nach Wien gekommen, um das F-Moll-<lb
+                  break="no"/> Quintett bei Rosé zu spielen. Morgen fährt er wieder weg.<lb/> Sein
+               Entsetzen über die Fortschritte, welche die Krankheit bei<lb/> Brahms gemacht hat; er
+               findet ihn viel schlechter als im<lb/> November. Der aus Utrecht citirte Arzt hat
+               sich zu Engel-<lb break="no"/> mann höchst ungünstig geäußert. Auch Röntgen
+               erkennt<lb/> in der außerordentl. Milde des Kranken ein übles Zeichen.<lb/> Wir
+               müssen uns darauf gefaßt machen, ihn bald zu ver-<lb break="no"/> lieren. Heute ist
+               er nicht, wie er anfangs gewollt, zur Probe<lb/> gekommen, sondern hat sich, genau
+               wie neulich, vor Tische ausge-<lb break="no"/> ruht, war dann aber bei Fellinger auch
+               wieder bald müde.<lb/> Röntgen hat meine <rs type="work" ref="#pmb353046"
+                  >Humoresken</rs> von s. Vater zu Weihnachten geschenkt<lb/> bekommen und sagt mir
+               die angenehmsten Dinge darüber – er weiß<lb/> sie beinahe auswendig wie Musikstücke.
+               Ich fühle mich in meinen<lb/> Vorsätzen bestärkt, mehr dergl. zu schreiben. Nach dem
+               Concert<lb/> sind wir mit Frau Kantor, Rosl u. Röntgen bei Sacher. Musikal.<lb/>
+               Gespräche. Ueber die Appassionata, Schubert u. Brahms. Ein<lb/> würdiger Epilog zu
+               einem genußreichen musikalischen Abend!</p>
          </div>
       </body>
    </text>
