@@ -21,7 +21,7 @@
             <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
                Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
             </availability>
@@ -34,7 +34,6 @@
                         <country ref="https://sws.geonames.org/2782113">Österreich</country>
                         <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
                         <repository>Privatbesitz</repository>
-                        <idno>???</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -44,10 +43,28 @@
                            <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
                               style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                            <handNote xml:id="hand__unbekannt" medium="Bleistift"
-                              style="lateinische-kurrent">Unbekannte Schreiber, vermutlich
-                              ???</handNote>
-                           <handNote xml:id="hand__wallach" medium="Bleistift"
-                              style="lateinische-kurrent">Unterschrift Wallach</handNote>
+                              style="lateinische-kurrent">unbekannte Schreiber_in, möglicherweise
+                              Julie Kalbeck oder Sidonie Kantor</handNote>
+                           <handNote xml:id="hand__wallach" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Hermine Wallach</handNote>
+                           <handNote xml:id="hand__joachim" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Joseph Joachim</handNote>
+                           <handNote xml:id="hand__kruse" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Johann Kruse</handNote>
+                           <handNote xml:id="hand__brüll" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Ignaz Brüll</handNote>
+                           <handNote xml:id="hand__wirth" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Emanuel Wirth</handNote>
+                           <handNote xml:id="hand__singer" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Wilhelm Singer</handNote>
+                           <handNote xml:id="hand__ganghofer" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Ludwig Ganghofer</handNote>
+                           <handNote xml:id="hand__mariebrüll" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Marie Brüll</handNote>
+                           <handNote xml:id="hand__hausmann" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Robert Hausmann</handNote>
+                           <handNote xml:id="hand__brahms" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Unterschrift Johannes Brahms</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -59,7 +76,9 @@
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>Tafelrunde vom 31. Decbr. 1896.</head>
+            <head>Tafelrunde vom 31. Decbr. 1896.<note type="editorische-anmerkung">Diese Zeile
+                  schrieb Kalbeck mit feinerer Feder und somit möglicherweise nicht zeitgleich mit
+                  dem Eintrag darunter.</note></head>
             <p hand="#kalbeck">Das alte Jahr, in dem ich leider kein Tagebuch geführt<lb/> habe,
                versammelte die Unterzeichneten an seinem letzten<lb/> Tage um meinen Tisch.<note
                   type="comment"><rs type="place" ref="#pmb199320">Wien, Porzellangasse
@@ -67,14 +86,17 @@
                <rs type="person" ref="#pmb10989">Brahms</rs> war wieder schwächer,<lb/> weil er sich
                am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/> probe zu viel zugemutet
                hatte. Er ließ es sich aber sehr<lb/> gut schmecken u. rief einmal begeistert aus:
-               „Ach, eine<lb/> Frau zu sein, die gut kochen kann, ist doch das Höchste!“* Den<lb/>
-               Sylvesterabend verbrachten wir bei <rs type="person"
-                  ref="#pmb174597 #pmb160741 #pmb19070">Kantor’s</rs>.<lb/>
+               „Ach, eine<lb/><note type="editorische-anmerkung">Das Bleistiftkreuz verweist auf den
+                  Kommentar von unbekannter Hand direkt unter Kalbecks Eintrag.</note> Frau zu sein,
+               die gut kochen kann, ist doch das Höchste!“ Den<lb/> Sylvesterabend verbrachten wir
+               bei <rs type="person"
+                  ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538"
+                  >Kantor’s</rs>.<lb/>
             </p>
          </div>
          <div hand="hand__unbekannt">
-            <p> *Worauf der Hausherr galant erwiderte, das Höchste ist eine <add place="inline"
-                  >solche</add>Frau zu besitzen. <del>???</del>
+            <p> X Worauf der Hausherr galant erwiderte, das Höchste ist, eine <add place="inline"
+                  >solche</add> Frau zu besitzen. <del>unclear</del>
             </p>
          </div>
          <div>
@@ -82,8 +104,15 @@
             <closer>
                <cb/>
                <signed><rs type="person" ref="#pmb24467">Hermine Wallach</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb18873">Joseph Joachim</rs></signed><lb/>
                <signed><rs type="person" ref="#pmb194286">Johann Kruse</rs></signed><lb/>
-               <signed>Emanuel Wirth.</signed><lb/>
+               <signed><rs type="person" ref="#pmb6484">Ignaz Brüll</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb194765">Emanuel Wirth.</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb2202">Wilhelm Singer.</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb11402">Ludw Ganghofer</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb14642">Marie Brüll</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb194142">Robert Hausmann</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb10989">Johs Brahms.</rs></signed><lb/>
             </closer>
          </div>
       </body>
