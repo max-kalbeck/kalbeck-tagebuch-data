@@ -76,27 +76,30 @@
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>Tafelrunde vom 31. Decbr. 1896.<note type="editorische-anmerkung">Diese Zeile
-                  schrieb Kalbeck mit feinerer Feder und somit möglicherweise nicht zeitgleich mit
-                  dem Eintrag darunter.</note></head>
+            <head><rs type="event" ref="#pmb363617">Tafelrunde vom 31. Decbr. 1896.</rs><note
+                  type="editorische-anmerkung">Diese Zeile schrieb Kalbeck mit feinerer Feder und
+                  somit möglicherweise nicht zeitgleich mit dem Eintrag darunter.</note></head>
             <p hand="#kalbeck">Das alte Jahr, in dem ich leider kein Tagebuch geführt<lb/> habe,
                versammelte die Unterzeichneten an seinem letzten<lb/> Tage um meinen Tisch.<note
                   type="comment"><rs type="place" ref="#pmb199320">Wien, Porzellangasse
                   48</rs>.</note>
                <rs type="person" ref="#pmb10989">Brahms</rs> war wieder schwächer,<lb/> weil er sich
-               am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/> probe zu viel zugemutet
-               hatte. Er ließ es sich aber sehr<lb/> gut schmecken u. rief einmal begeistert aus:
-               „Ach, eine<lb/><note type="editorische-anmerkung">Das Bleistiftkreuz verweist auf den
-                  Kommentar von unbekannter Hand direkt unter Kalbecks Eintrag.</note> Frau zu sein,
-               die gut kochen kann, ist doch das Höchste!“ Den<lb/> Sylvesterabend verbrachten wir
-               bei <rs type="person"
+               am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/> probe<note
+                  type="comment"><rs type="institution" ref="#pmb294066">Probe des
+                     Joachim-Quartetts</rs>.</note> zu viel zugemutet hatte. Er ließ es sich aber
+               sehr<lb/> gut schmecken u. rief einmal begeistert aus: „Ach, eine X<lb/><note
+                  type="editorische-anmerkung">Das Bleistiftkreuz verweist auf den Kommentar von
+                  unbekannter Hand direkt unter Kalbecks Eintrag.</note> Frau zu sein, die gut
+               kochen kann, ist doch das Höchste!“ Den<lb/>
+               <rs type="event" ref="#pmb363605">Sylvesterabend</rs> verbrachten wir bei <rs
+                  type="person"
                   ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538"
                   >Kantor’s</rs>.<lb/>
             </p>
          </div>
          <div hand="hand__unbekannt">
             <p> X Worauf der Hausherr galant erwiderte, das Höchste ist, eine <add place="inline"
-                  >solche</add> Frau zu besitzen. <del>unclear</del>
+                  >solche</add> Frau zu besitzen. <del><unclear>doch er</unclear></del>
             </p>
          </div>
          <div>
@@ -109,7 +112,7 @@
                <signed><rs type="person" ref="#pmb6484">Ignaz Brüll</rs></signed><lb/>
                <signed><rs type="person" ref="#pmb194765">Emanuel Wirth.</rs></signed><lb/>
                <signed><rs type="person" ref="#pmb2202">Wilhelm Singer.</rs></signed><lb/>
-               <signed><rs type="person" ref="#pmb11402">Ludw Ganghofer</rs></signed><lb/>
+               <signed><rs type="person" ref="#pmb11402">Dr Lw Ganghofer</rs></signed><lb/>
                <signed><rs type="person" ref="#pmb14642">Marie Brüll</rs></signed><lb/>
                <signed><rs type="person" ref="#pmb194142">Robert Hausmann</rs></signed><lb/>
                <signed><rs type="person" ref="#pmb10989">Johs Brahms.</rs></signed><lb/>
