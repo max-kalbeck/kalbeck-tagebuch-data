@@ -52,6 +52,9 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0008_b"/>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
@@ -63,27 +66,30 @@
                der <rs type="place" ref="#pmb342">Carl Ludwig str.</rs> an Bequemlichkeit und<lb/>
                Regelmäßigkeit. Ueberdies liegt die Ecke nach N. u. W., u.<lb/> alle Stürme sagen
                dort einander guten Tag. Mittags giebt <rs type="person" ref="#pmb19070"
-                  >Rosel</rs><lb/> ihr lange besprochenes <rs type="event" ref="#pmb363695">Brahms-Diner</rs> u. bewährt sich als ebenso<lb/>
-               aufmerksame wie graziöse Hausfrau. Prächtiger Tisch, mit Blumen<lb/> u. Früchten
-               beladen; am oberen Ende <rs type="person" ref="#pmb10989">Brahms</rs> zwischen Rosel
-               u. <rs type="person" ref="#pmb36699">Julie</rs>;<lb/> ich links neben Rosel u. Anny
-               Hiller. <rs type="person" ref="#pmb346028">Schneegans</rs>, Zellner’s,<lb/> Mosé, die
-               Gräfin Kamarowska a. Millstadt, die männliche Jugend<lb/> vom Hause, Singer. Alles
-               sehr fidel. Der unglückliche Mosé<lb/> bringt einen gerührten Toast auf Brahms aus,
-               „daß ihn der<lb/> l. Gott uns noch recht lange erhalte.“ Br. verzieht das
-               Gesicht<lb/> u. verzeiht dem taktlosen Sprecher. Das war der einzige störende<lb/>
-               Zwischenfall. Sonst Alles in schönster Harmonie. Br. fühlt sich so<lb/> wol bei
-               unseren lieben Freunden, daß er erklärt, er wolle mit ins<lb/> Volkstheater u. dann
-               noch zum Souper bei Sacher kommen. Er<lb/> stellt sich auch pünktlich in der Loge ein
-               u. klatscht Ganghofer viel<lb/> Beifall. Der arme Teufel konnte ihn brauchen, denn es
-               fehlte wenig,<lb/> so wäre „Meerleuchten“ schief gegangen. Genau wie ich es mir,<lb/>
-               als ich das Stück im Manuscr. gelesen, gedacht hatte, war es auf<lb/> der Bühne. Von
-               meinen Bedenken gegen die mittleren Acte wollte G. damals<lb/> nichts wissen. Jetzt
-               sieht er seinen Irrtum ein. Guter Rat hilft keinem<lb/> Dichter, man erzürnt sie nur,
-               u. sie machen dann doch, was sie wollen.<lb/> Brahms, [mit dem dies lange hin u. her
-               besprochen wurde,] hält bis nach 12 Uhr bei Sacher Stand, u. besteht darauf,
-               nach<lb/> Hause zu gehen, so daß ich ihn zu Fuße, trotz heftigen Sturmes,
-               begleite.</p>
+               >Rosel</rs><lb/> ihr lange besprochenes <rs type="event" ref="#pmb363695"
+                  >Brahms-Diner</rs> u. bewährt sich als ebenso<lb/> aufmerksame wie graziöse
+               Hausfrau. Prächtiger Tisch, mit Blumen<lb/> u. Früchten beladen; am oberen Ende <rs
+                  type="person" ref="#pmb10989">Brahms</rs> zwischen Rosel u. <rs type="person"
+                  ref="#pmb36699">Julie</rs>;<lb/> ich links neben Rosel u. <rs type="person"
+                  ref="#pmb19855">Anny Hiller</rs>. <rs type="person" ref="#pmb346028"
+                  >Schneegans</rs>, Zellner’s,<lb/> Mosé, die Gräfin Kamarowska a. Millstadt, die
+               männliche Jugend<lb/> vom Hause, Singer. Alles sehr fidel. Der unglückliche Mosé<lb/>
+               bringt einen gerührten Toast auf Brahms aus, „daß ihn der<lb/> l. Gott uns noch recht
+               lange erhalte.“ Br. verzieht das Gesicht<lb/> u. verzeiht dem taktlosen Sprecher. Das
+               war der einzige störende<lb/> Zwischenfall. Sonst Alles in schönster Harmonie. Br.
+               fühlt sich so<lb/> wol bei unseren lieben Freunden, daß er erklärt, er wolle mit ins<lb/>
+               <rs type="place" ref="#pmb20">Volkstheater</rs> u. dann noch zum Souper bei <rs
+                  type="place" ref="#pmb29">Sacher</rs> kommen. Er<lb/> stellt sich auch pünktlich
+               in der Loge ein u. klatscht <rs type="person" ref="#pmb11402">Ganghofer</rs>
+               viel<lb/> Beifall. Der arme Teufel konnte ihn brauchen, denn es fehlte wenig,<lb/> so
+               wäre <rs type="work" ref="#pmb77510">„Meerleuchten“</rs> schief gegangen. Genau wie
+               ich es mir,<lb/> als ich das Stück im Manuscr. gelesen, gedacht hatte, war es
+               auf<lb/> der Bühne. Von meinen Bedenken gegen die mittleren Acte wollte G.
+               damals<lb/> nichts wissen. Jetzt sieht er seinen Irrtum ein. Guter Rat hilft
+               keinem<lb/> Dichter, man erzürnt sie nur, u. sie machen dann doch, was sie
+               wollen.<lb/> Brahms, [mit dem dies lange hin u. her besprochen wurde,] hält bis nach
+               12 Uhr bei Sacher Stand, u. besteht darauf, nach<lb/> Hause zu gehen, so daß ich ihn
+               zu Fuße, trotz heftigen Sturmes, begleite.</p>
          </div>
       </body>
    </text>
