@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-03-12" n="01"/>
             <title level="a">Freitag, 12. März 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,31 +56,30 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>12 März Freitag.</head>
-            <p>An Brahm nach Berlin geschrieben mit der Bitte einen<lb/>
-eingelegten Brief an Gerhart Hauptmann zu schicken. Ich<lb/>
-habe bei ihm angefragt, ob ich mit meiner Hypothese, daß er<lb/>
-sein Drama als Traumdichtung à la Hannele concipirt habe,<lb/>
-auf der richtigen Spur bin. Mittags bei Ignaz Brüll mit<lb/>
-Carl Reinecke u. Frau. Als sie eben im Begriff waren, aus<lb/>
-dem Hôtel zu gehen, erhielten sie einen Besuch von Brahms. Frau<lb/>
-Reinecke war so fassungslos, daß sie auf die Frage, wohin<lb/>
-sie gingen, erwiderte: Zu Brüll’s. Darob große Aufregung<lb/>
-der Frau Marie, die Brahms auf ausdrückl. Wunsch<lb/>
-der Frau Reinecke nicht eingeladen hatte. Der alte Reinecke<lb/>
-war in Gedanken an sein abendliches Concert u. spielte Mozart<lb/>
-auf dem Tische. Von Frau R. höre ich, daß vor acht Tagen<lb/>
-„Jabuka“ in Leipzig aufgeführt worden ist. Lewy schickte mir<lb/>
-heute eine Karte vom Bresl. Stadttheater, das 100 Textbücher<lb/>
-der „Maienkönigin“ bestellen will. Die Auflage ist vergriffen,<lb/>
-und Kienast scheint keine neue drucken zu wollen. Der Lump hat<lb/>
-mir für alle meine Bücher noch keinen Kreuzer bezalt und macht absolut<lb/>
-keine Abrechnung, obwol er sie mir seit 5 Jahren versprochen hat.<lb/>
-Reinecke erzält, er sei einmal angegriffen worden, weil er zu schnelle<lb/>
-Tempi im Brahms’schen „Requiem“ genommen habe. Auf seine Anfrage bei<lb/>
-Brahms habe dieser erwidert, die Metronomisirung, von der er nichts ver-<lb break="no"/>
-stehe, sei von Reinthaler ausgeführt worden! Nach dem Mozart-Concert<lb/>
-mit Brüll’s u. Reinecke’s im Grand Hôtel. Sie möchten mich gern<lb/>
-in Leipzig haben.</p>
+            <p>An Brahm nach Berlin geschrieben mit der Bitte einen<lb/> eingelegten Brief an
+               Gerhart Hauptmann zu schicken. Ich<lb/> habe bei ihm angefragt, ob ich mit meiner
+               Hypothese, daß er<lb/> sein Drama als Traumdichtung à la Hannele concipirt habe,<lb/>
+               auf der richtigen Spur bin. Mittags bei Ignaz Brüll mit<lb/> Carl Reinecke u.
+                  Frau.<note>Am 12. März datiert auch ein Eintrag Carl Reineckes in das Stammbuch
+                  von Max Kalbeck: Reinecke schrieb „Zu freundlichem Erinnern“ den kopfüber
+                  gespiegelten Rätselkanon „Wer nicht liebt Wein Weib u. Gesang“ in das Stammbuch
+                  von Max Kalbeck.<ptr type="stammbuch" target="K079-scaled.jpg"/></note> Als sie
+               eben im Begriff waren, aus<lb/> dem Hôtel zu gehen, erhielten sie einen Besuch von
+               Brahms. Frau<lb/> Reinecke war so fassungslos, daß sie auf die Frage, wohin<lb/> sie
+               gingen, erwiderte: Zu Brüll’s. Darob große Aufregung<lb/> der Frau Marie, die Brahms
+               auf ausdrückl. Wunsch<lb/> der Frau Reinecke nicht eingeladen hatte. Der alte
+               Reinecke<lb/> war in Gedanken an sein abendliches Concert u. spielte Mozart<lb/> auf
+               dem Tische. Von Frau R. höre ich, daß vor acht Tagen<lb/> „Jabuka“ in Leipzig
+               aufgeführt worden ist. Lewy schickte mir<lb/> heute eine Karte vom Bresl.
+               Stadttheater, das 100 Textbücher<lb/> der „Maienkönigin“ bestellen will. Die Auflage
+               ist vergriffen,<lb/> und Kienast scheint keine neue drucken zu wollen. Der Lump
+               hat<lb/> mir für alle meine Bücher noch keinen Kreuzer bezalt und macht absolut<lb/>
+               keine Abrechnung, obwol er sie mir seit 5 Jahren versprochen hat.<lb/> Reinecke
+               erzält, er sei einmal angegriffen worden, weil er zu schnelle<lb/> Tempi im
+               Brahms’schen „Requiem“ genommen habe. Auf seine Anfrage bei<lb/> Brahms habe dieser
+               erwidert, die Metronomisirung, von der er nichts ver-<lb break="no"/> stehe, sei von
+               Reinthaler ausgeführt worden! Nach dem Mozart-Concert<lb/> mit Brüll’s u. Reinecke’s
+               im Grand Hôtel. Sie möchten mich gern<lb/> in Leipzig haben.</p>
          </div>
       </body>
    </text>
