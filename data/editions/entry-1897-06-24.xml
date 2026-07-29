@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-06-24" n="01"/>
             <title level="a">Donnerstag, 24. Juni 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -53,32 +56,32 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>24 Juni Donnerstag.</head>
-            <p>Im Kaiserpark Bankdirector Taussig mit Familie kennen<lb/>
-gelernt. Die schöne älteste Tochter. Sectionschef Halban und<lb/>
-Bacher’s verabschieden sich. Mit Taussig’s u. Benedict’s zur<lb/>
-Stadt zurück. Vergebl. Besuch bei Dumba, der sich erboten<lb/>
-hat, meine Geldsammlung zu unterstützen. Von dem Insecten-<lb break="no"/>
-sammler die Schmetterlinge abgeholt. Interessante Entdeckung:<lb/>
-ein in Persien fliegendes Weibchen des Kaisermantels, das den<lb/>
-Uebergang von den Schecken- zu den Schillerfaltern herstellt und<lb/>
-der von mir im südl. Kärnten gefangenen Varietät sich nähert.<lb/>
-Dr. Popper hat es sich nicht nehmen lassen, mich noch einmal zu<lb/>
-besuchen. Er erklärt mein Leiden für völlig behoben u. verbürgt<lb/>
-sich dafür, daß ich bis zum nächsten März unangefochten bleiben<lb/>
-werde. Aber eine Wiederholung der Cur im nächsten Jahre scheine<lb/>
-unvermeidlich. Wir speisen mit Stettenheim u. Karlweis im<lb/>
-Kaiserbad zu Mittag. Dann noch einmal zu Dumba mit besserem<lb/>
-Glück. Er wohnt seit 25 Jahren in d. „Stadt Madrid.“ Obwol das<lb/>
-Haus umgebaut worden ist, zeigt es noch genau die Einteilung, die es<lb/>
-zu Goethe’s Zeit, der 1784 od. 86 hier wohnte, besessen: Zimmer u.<lb/>
-Schlafcabinet nach vorn, hinten ein Stübchen f. d. Diener. Dumba<lb/>
-bezalt dafür wöchentl. die Kleinigkeit v. 90 fl. Wir unterhalten uns<lb/>
-ca. eine Stunde. Er geht mit d. Absicht um, Schubert’s Geburtshaus in<lb/>
-Wien anzukaufen u. in ein Schubert-Museum zu verwandeln. Auch an<lb/>
-ein Brahms-Denkmal, das in d. neuen Anlagen vor d. Karlskirche<lb/>
-stehen soll, wird bereits gedacht. Das Denkmal auf d. Ehrengrabe müssen die<lb/>
-Erben bezalen. Sobald die Angelegenheit geordnet sein wird, soll auch beim<lb/>
-Magistrat wegen eines Brahms-Zimmers im Rathause vorgegangen werden.</p>
+            <p>Im Kaiserpark Bankdirector Taussig mit Familie kennen<lb/> gelernt. Die schöne
+               älteste Tochter. Sectionschef Halban und<lb/> Bacher’s verabschieden sich. Mit
+               Taussig’s u. Benedict’s zur<lb/> Stadt zurück. Vergebl. Besuch bei Dumba, der sich
+               erboten<lb/> hat, meine Geldsammlung zu unterstützen. Von dem Insecten-<lb break="no"
+               /> sammler die Schmetterlinge abgeholt. Interessante Entdeckung:<lb/> ein in Persien
+               fliegendes Weibchen des Kaisermantels, das den<lb/> Uebergang von den Schecken- zu
+               den Schillerfaltern herstellt und<lb/> der von mir im südl. Kärnten gefangenen
+               Varietät sich nähert.<lb/> Dr. Popper hat es sich nicht nehmen lassen, mich noch
+               einmal zu<lb/> besuchen. Er erklärt mein Leiden für völlig behoben u. verbürgt<lb/>
+               sich dafür, daß ich bis zum nächsten März unangefochten bleiben<lb/> werde. Aber eine
+               Wiederholung der Cur im nächsten Jahre scheine<lb/> unvermeidlich. Wir speisen mit
+               Stettenheim u. Karlweis<note>Auch Carl Karlweis schrieb in Max Kalbecks Stammbuch,
+                  direkt folgend auf Julius Stettenheim (siehe Tagebucheintrag vom 22. Juni): „Schön
+                  war nur die Vergangenheit! / Hör‘ ich die Greise täglich klagen ...“ (datiert:
+                  „Karlsbad, im Juni 1897“).<ptr type="stammbuch" target="K081-scaled.jpg"
+               /></note><lb/> im<lb/> Kaiserbad zu Mittag. Dann noch einmal zu Dumba mit
+               besserem<lb/> Glück. Er wohnt seit 25 Jahren in d. „Stadt Madrid.“ Obwol das<lb/>
+               Haus umgebaut worden ist, zeigt es noch genau die Einteilung, die es<lb/> zu Goethe’s
+               Zeit, der 1784 od. 86 hier wohnte, besessen: Zimmer u.<lb/> Schlafcabinet nach vorn,
+               hinten ein Stübchen f. d. Diener. Dumba<lb/> bezalt dafür wöchentl. die Kleinigkeit
+               v. 90 fl. Wir unterhalten uns<lb/> ca. eine Stunde. Er geht mit d. Absicht um,
+               Schubert’s Geburtshaus in<lb/> Wien anzukaufen u. in ein Schubert-Museum zu
+               verwandeln. Auch an<lb/> ein Brahms-Denkmal, das in d. neuen Anlagen vor d.
+               Karlskirche<lb/> stehen soll, wird bereits gedacht. Das Denkmal auf d. Ehrengrabe
+               müssen die<lb/> Erben bezalen. Sobald die Angelegenheit geordnet sein wird, soll auch
+               beim<lb/> Magistrat wegen eines Brahms-Zimmers im Rathause vorgegangen werden.</p>
          </div>
       </body>
    </text>
