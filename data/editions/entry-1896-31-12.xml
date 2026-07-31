@@ -73,6 +73,9 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0003_b"/>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
@@ -85,26 +88,26 @@
                   48</rs>.</note>
                <rs type="person" ref="#pmb10989">Brahms</rs> war wieder schwächer,<lb/> weil er sich
                am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/> probe<note
-                  type="comment"><rs type="institution" ref="#pmb294066">Probe des
+                  type="comment">Probe des<rs type="institution" ref="#pmb294066">
                      Joachim-Quartetts</rs>.</note> zu viel zugemutet hatte. Er ließ es sich aber
-               sehr<lb/> gut schmecken u. rief einmal begeistert aus: „Ach, eine X<lb/><note
+               sehr<lb/> gut schmecken u. rief einmal begeistert aus: „Ach, eine X<note
                   type="editorische-anmerkung">Das Bleistiftkreuz verweist auf den Kommentar von
-                  unbekannter Hand direkt unter Kalbecks Eintrag.</note> Frau zu sein, die gut
+                  unbekannter Hand direkt unter Kalbecks Eintrag.</note><lb/> Frau zu sein, die gut
                kochen kann, ist doch das Höchste!“ Den<lb/>
                <rs type="event" ref="#pmb363605">Sylvesterabend</rs> verbrachten wir bei <rs
                   type="person"
                   ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538"
                   >Kantor’s</rs>.<note type="editorische-anmerkung">In seiner Brahms-Biografie
-                  zitiert Kalbeck aus seinem Tagebuch wie folgt: „Auf der ersten Seite stehen die
-                  eigenhändig eingeschriebenen Namen: Josef Joachim, Johann Kruse, Emanuel Wirth,
-                  Robert Hausmann, Ignaz Brüll, Ludwig Ganghofer, Wilhelm Singer. Johannes Brahms
-                  beendet die Reihe mit energischem Schlußstrich. Dazu gehört die Notiz: Das alte
-                  Jahr, in dem ich leider kein Tagebuch geführt habe, versammelte die hier
-                  Verzeichneten an seinem letzten Tage um meinen Mittagstisch. Brahms war wieder
-                  schwächer, weil er sich am Morgen mit Spaziergang und Quartettprobe zu viel
-                  zugemutet hatte. Das Mahl aber mundete ihm, und er rief einmal in gehobenem Tone
-                  aus: "Eine Frau zu sein, die gut kochen kann, ist doch das Höchste!"“ Kalbeck,
-                  Johannes Brahms IV/2, 491.</note><lb/>
+                  zitiert Kalbeck, die Namen der Frauen auslassend, aus seinem Tagebuch wie folgt:
+                  „Auf der ersten Seite stehen die eigenhändig eingeschriebenen Namen: Josef
+                  Joachim, Johann Kruse, Emanuel Wirth, Robert Hausmann, Ignaz Brüll, Ludwig
+                  Ganghofer, Wilhelm Singer. Johannes Brahms beendet die Reihe mit energischem
+                  Schlußstrich. Dazu gehört die Notiz: Das alte Jahr, in dem ich leider kein
+                  Tagebuch geführt habe, versammelte die hier Verzeichneten an seinem letzten Tage
+                  um meinen Mittagstisch. Brahms war wieder schwächer, weil er sich am Morgen mit
+                  Spaziergang und Quartettprobe zu viel zugemutet hatte. Das Mahl aber mundete ihm,
+                  und er rief einmal in gehobenem Tone aus: "Eine Frau zu sein, die gut kochen kann,
+                  ist doch das Höchste!"“ Kalbeck, Johannes Brahms IV/2, 491.</note><lb/>
             </p>
          </div>
          <div hand="hand__unbekannt">
