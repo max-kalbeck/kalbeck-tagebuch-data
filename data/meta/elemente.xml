@@ -134,8 +134,8 @@
                             seinem Tagebuch keine ausformulierten bibliografischen Angaben macht,
                             die eine solche Auszeichnung nötig machten. Werktitel werden stattdessen
                             mit <code>rs[@type="work"]</code> ausgezeichnet (siehe unten).</p>
-                    </div> -->
-                   <!-- <div type="level3">
+                    </div> 
+                    <div type="level3">
                          <head xml:id="quote">quote</head>
                          <p>Entgegen der vorgeschlagenen Verwendung von TEI verwenden wir
                                 <code>quote</code> nur, wenn innerhalb eines Paratexts ein Zitat
@@ -144,8 +144,8 @@
                             von Werktiteln. Üblicherweise wird das Element von Anführungszeichen »…«
                             umrahmt. </p> 
                         <p><code>quote</code> wird in dieser Edition nicht verwendet.</p>
-                    </div>-->
-                     <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="ref">ref</head>
                         <p>Wird für Verweise herangezogen. Die wichtigsten Fälle:</p>
                         <p><code>@type="kalbeck-tagebuch"</code> (Verweis auf einen Brief innerhalb
@@ -155,17 +155,11 @@
                        
                         <p><code>ref</code> wird in dieser Edition nicht verwendet.</p>
                     </div> -->
-                    <!-- <div type="level3">
-                        <head xml:id="supplied">supplied</head>
-                        <p>Ergänzung durch die Herausgeberinnen und Herausgeber. Das Element wird
-                            möglichst sparsam eingesetzt. Wichtig ist nicht die Korrektur des
-                            Originaltextes, sondern die Gewährleistung der Lesbarkeit. </p>
-                    </div> -->
                 </div>
                 <div type="level2">
                     <head xml:id="edierter_text">Edierter Text</head>
                     <div type="level3">
-                        <!-- <head xml:id="edierter_text_ref_corresp_key_scribe">@ref, @corresp, @key,
+                        <head xml:id="edierter_text_ref_corresp_key_scribe">@ref, @corresp, @key,
                             @scribe</head>
                         <p>Diese Attribute stellen Bezugnahmen auf Entitäten dar, die im Webservice
                             PMB <ref target="https://pmb.acdh.oeaw.ac.at/"
@@ -175,8 +169,8 @@
                         <p>Die Nummern sind am Ende des Dokuments im Element <code>back</code>
                             aufgelöst. Sie können auch, neben der allgemeinen Suche über die
                             Datenbank, durch Zugriff auf die API automatisiert in verschiedenen
-                            Formaten (siehe »<code>GET</code>«) abgefragt werden. </p> -->
-                        <head xml:id="edierter_text_ref_corresp_key_scribe">@ref</head>
+                            Formaten (siehe »<code>GET</code>«) abgefragt werden. </p>
+                        
                         <p>Verweist, verwendet auf <code>rs</code> (siehe unten), auf Entitäten,
                             die im Webservice PMB <ref target="https://pmb.acdh.oeaw.ac.at/"
                                 >https://pmb.acdh.oeaw.ac.at/</ref> verzeichnet sind. Vorangestellt
@@ -221,8 +215,8 @@
                             immer mit <code>unclear</code> oder <code>supplied</code> näher
                             spezifiziert, ob der verlorene Text nur unsicher lesbar ist oder
                             überhaupt hergestellt werden muss. </p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="date">date</head>
                         <p>Alle zeitlich fixierbaren Daten werden mit <code>date</code>
                             ausgezeichnet, auch zukünftige wie: »wir sehen uns dann am
@@ -248,8 +242,8 @@
                                 <code>teiHeader</code> bereits eindeutig datiert ist (siehe unten).
                             Innerhalb des Fließtextes genannte Datumsangaben (z. B. Verweise auf
                             zurückliegende oder künftige Tage) bleiben unausgezeichneter Text.</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="dateline">dateline</head>
                         <p>Datumszeile. Diese ist nicht rekonstruiert, sondern dient einzig und
                             allein der Funktion, jene Zeile innerhalb eines Korrespondenzstücks
@@ -290,8 +284,8 @@
                         <p><code>&lt;gap quantity="4" reason="outOfScope" unit="lines"/&gt;</code>
                             bedeutet: vier fehlende Zeilen, die für die Edition nicht relevant sind, beispielsweise
                             ein Zeitungsausschnitt, auf dessen Rückseite auch etwas gedruckt ist.</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="handshift">handShift</head>
                         <p>Markiert Schreiberinnen- und Schreiberwechsel. <code>handShift</code>
                             ohne ein Attribut hat als Wiedergabe »[handschriftlich:]«, etwa bei
@@ -305,8 +299,8 @@
                             innerhalb eines Eintrags kommt nicht vor. Die schreibende Hand wird
                             stattdessen einmalig pro Eintrag über das Attribut <code>@hand</code> auf
                             dem äußersten <code>div</code> angegeben (siehe <code>aufbau</code> unten).</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="foreign">foreign</head>
                         <p>Markiert Sprachwechsel. <code>foreign</code> enthält als Attribut
                                 <code>xml:lang</code> mit den gängigen Sprachkürzeln als möglichen
@@ -417,8 +411,8 @@
                         <p>Umrahmt die Begrüßungsformel. Wenn sie im Brief abgesetzt ist, dann steht
                             sie im <code>opener</code>-Element. </p>
                         <p><code>salute</code> wird in dieser Edition nicht verwendet.</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="seg">seg</head>
                         <p>Die genaue Lokalisierung von Text auf der Fläche wird in dieser Edition
                             nur eingeschränkt berücksichtigt und beschränkt sich zumeist auf die
@@ -432,16 +426,16 @@
                             für die Auszeichnung von Briefköpfen und Textinhalten verwendet, siehe
                             dort.)</p>
                         <p><code>seg</code> wird in dieser Edition nicht verwendet.</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="space">space</head>
                         <p>Nur behutsam sollten Leerzeilen eingefügt werden – etwa zum Absetzen von
                             unterschiedlichen Textteilen voneinander. Dafür wird das Element
                                 <code>&lt;space dim="vertical" unit="line" quantity="1"/&gt;</code>
                             eingesetzt. </p>
                         <p><code>space</code> wird in dieser Edition nicht verwendet.</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="subst">subst</head>
                         <p>Ein Überschreibungsvorgang wird durch <code>subst</code> markiert.
                             Theoretisch werden nur die letzten beiden Textschichten behandelt,
@@ -459,14 +453,14 @@
                         <p><code>subst</code> wird in dieser Edition nicht verwendet. Streichung und
                             Hinzufügung stehen unverschachtelt nebeneinander (<code>del</code> und
                                 <code>add</code>, siehe dort).</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="table_row_cell">table, row, cell</head>
                         <p>Für Tabellen. </p>
                         <p><code>table</code>/<code>row</code>/<code>cell</code> werden im
                             Fließtext der Einträge nicht verwendet.</p>
-                    </div> -->
-                    <!-- <div type="level3">
+                    </div>
+                    <div type="level3">
                         <head xml:id="time">time</head>
                         <p>Analog zu <code>date</code>, nur gibt es kein Attribut. Hat gegenwärtig
                             keine Bedeutung, außer es suchbar zu machen. Häufig vorkommende
@@ -625,16 +619,16 @@
                     </div> -->
                 </div>
             </div>
-            <div type="level3">
-                <!-- <head xml:id="biblstruct">listBibl/biblStruct</head>
+            <!-- <div type="level3">
+                <head xml:id="biblstruct">listBibl/biblStruct</head>
                 <p>Über verschiedene <code>biblStruct</code>-Elemente werden Drucke verzeichnet, die
                     das jeweilige Korrespondenzstück bislang erhalten hat. Mit einem Attribut
                         <code>@corresp</code> sind ein paar Buchausgaben gekennzeichnet, die nicht
                     zur Gänze, sondern nur als Sigle zitiert werden, beispielsweise die beiden
                     Auswahlbriefbände. </p>
                 <head xml:id="biblstruct">listBibl/biblStruct</head>
-                <p><code>biblStruct</code> wird in dieser Edition nicht verwendet.</p> -->
-            </div>
+                <p><code>biblStruct</code> wird in dieser Edition nicht verwendet.</p> 
+            </div> -->
             <div type="level2">
                 <!-- <head xml:id="physDesc">physDesc</head>
                 <p>Dabei handelt es sich um ein Kind von
@@ -875,8 +869,8 @@
                             <p>Bislang durchgehend »lateinische-kurrent«.</p>
                         </div>
                     </div>
-                    <div type="level3">
-                        <!-- <head xml:id="typedesc">typeDesc</head>
+                     <div type="level3">
+                         <!-- <head xml:id="typedesc">typeDesc</head>
                         <p>Gibt Auskunft über maschinell erstellte Schriften und Drucke. Jede
                                 <code>typeDesc</code> enthält eine <code>typeNote</code>, die mit
                             einem <code>@medium</code>-Attribut versehen ist. Darüber wird die Art
@@ -891,10 +885,10 @@
                         <p>Wenn der Attributwert »anderes« ist, ist die genauere Definition in einem
                                 <code>p</code>-Element zu finden.</p>
                         <head xml:id="typedesc">typeDesc</head>
-                        <p><code>typeDesc</code> wird in dieser Edition nicht verwendet.</p> -->
-                    </div>
+                        <p><code>typeDesc</code> wird in dieser Edition nicht verwendet.</p>
+                    </div> 
                     <div type="level3">
-                        <!-- <head xml:id="additions">additions</head>
+                        <head xml:id="additions">additions</head>
                         <p>Alles, was dem Korrespondenzstück nach der Fertigstellung durch den
                             Verfasser, die Verfasserin hinzugefügt wurde, wird in diesem Element
                             versammelt. Dafür werden, in chronologischer Reihenfolge vom ältesten
@@ -1027,15 +1021,15 @@
                                         <code>&amp;#160;</code>) </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <head xml:id="additions">additions</head>
                     <p><code>additions</code> (und damit auch <code>incident</code>,
                             <code>incident/desc</code>) werden in dieser Edition nicht
-                        verwendet.</p> -->
+                        verwendet.</p> 
                     </div>
                 </div>
-                <div type="level2">
-                    <!-- <head xml:id="correspdesc">correspDesc</head>
+                <!-- <div type="level2">
+                     <head xml:id="correspdesc">correspDesc</head>
                     <p>Zu <code>correspDesc</code> sei, neben den allgemeinen Regeln der TEI, auch
                         auf den Webservice <ref target="https://correspsearch.net"
                             >https://correspsearch.net</ref> verwiesen. Dort ist ebenfalls die im
@@ -1179,8 +1173,8 @@
                                     1910&lt;/ref&gt; </code></p>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div type="level2">
+                </div>
+                <div type="level2">
                     <head xml:id="correspdesc">correspDesc</head>
                     <p><code>correspDesc</code> wird in dieser Edition nicht verwendet.</p>
                 </div> -->
@@ -1323,8 +1317,8 @@
                         <p>Jedes <code>div</code> enthält im Regelfall nur <code>head</code> und
                                 <code>p</code>. <code>closer</code> kommt genau einmal vor, in
                             einem Stammbucheintrag mit mehreren Unterzeichnenden.</p>
-                        <div type="level4">
-                            <!-- <head xml:id="opener">opener</head>
+                        <!-- <div type="level4">
+                            <head xml:id="opener">opener</head>
                             <p>Enthält dem eigentlichen Text vorausgehende Information. Das kann
                                 sein: Briefkopf, Datumszeile, abgesetzte Begrüßungsformel.</p>
                             <p>Folgende Kind-Elemente sind zulässig: </p>
@@ -1356,8 +1350,8 @@
                         </div>
                         <head xml:id="opener">opener</head>
                         <p><code>opener</code> (und damit auch <code>seg</code> innerhalb von
-                                <code>opener</code>) wird in dieser Edition nicht verwendet.</p> -->
-                        </div>
+                                <code>opener</code>) wird in dieser Edition nicht verwendet.</p>
+                        </div>  -->
                         <div type="level4">
                             <!-- <head xml:id="closer">closer</head>
                             <p>Sofern eine abgegrenzte Schlussformel vorhanden ist, wird diese in
@@ -1397,15 +1391,15 @@
                                     hintereinander.</p>
                             </div>
                         </div>
-                        <div type="level4">
-                            <!-- <head xml:id="postscript">postscript</head>
+                         <!--<div type="level4">
+                            <head xml:id="postscript">postscript</head>
                             <p>Der nach dem <code>closer</code> stehende Textteil wird in
                                 verschiedene Absätze (<code>p</code>) oder Datumszeilen
                                     (<code>dateline</code>) aufgeteilt. Direkt innerhalb von
                                     <code>postscript</code> ist kein Inhalt erlaubt. </p>
                             <head xml:id="postscript">postscript</head>
-                            <p><code>postscript</code> wird in dieser Edition nicht verwendet.</p> -->
-                        </div>
+                            <p><code>postscript</code> wird in dieser Edition nicht verwendet.</p>
+                        </div> -->
                     </div>
                 </div>
             </div>
