@@ -310,11 +310,10 @@
                     <div type="level3">
                         <head xml:id="hi_rend">hi[@rend]</head>
                         <p>Dient zur Auszeichnung von Schriftänderungen. Folgende Attributwerte sind
-                            erlaubt: »latintype«, »underline«, »italics«, »superscript«,
-                            »subscript«, »bold«, »pre-print«, »stamp«, »small-caps«, »antiqua«,
-                            »spaced-out«, »capitals«. Einzig die Unterstreichung (»underline«)
+                            erlaubt: <code>"latin"</code>,  <code>"underline"</code>, <code>"superscript</code>,
+                             <code>subscript</code>, »small-caps«, »spaced-out«, »capitals«. Einzig die Unterstreichung ( <code>"underline</code>)
                             erfordert ein zusätzliches Attribut <code>@n</code> mit der Anzahl der
-                            Linien, mit denen unterstrichen wurde. </p>
+                            Linien, mit denen unterstrichen wurde (defaul=1). Kurrentschrift wird nicht markiert, da sie der Standard ist.</p>
                     </div>
                     <div type="level3">
                         <head xml:id="lg">lg</head>
@@ -1262,8 +1261,8 @@
                         <p><code>div[@type="address"]</code> wird in dieser Edition nicht
                             verwendet.</p> -->
                     </div>
-                    <div type="level3">
-                        <!-- <head xml:id="div_figure">div[@type="image"]</head>
+                    <!--  <div type="level3">
+                        <head xml:id="div_figure">div[@type="image"]</head>
                         <p>Visuelles Material, das in die Korrespondenzen eingefügt ist, wird für
                             gewöhnlich durch die Faksimiles ausreichend visualisiert und es genügt
                             im Normalfall, eine textuelle Beschreibung statt einer separaten
@@ -1288,8 +1287,8 @@
                                 <code>@facs</code> den Wert der Bildseite. </p>
                         <head xml:id="div_figure">div[@type="image"]</head>
                         <p><code>div[@type="image"]</code> wird in dieser Edition nicht
-                            verwendet.</p> -->
-                    </div>
+                            verwendet.</p> 
+                    </div> -->
                     <div type="level3">
                         <!-- <head xml:id="div_writingsession">div[@type="writingSession" @n="1"]</head>
                         <p>Dies ist der wichtigste Bereich und eigentlich immer vorhanden.
