@@ -54,11 +54,13 @@
    </teiHeader>
    <facsimile>
       <graphic url="kalbeck_2__0010_b"></graphic>
+      <graphic url="kalbeck_2__0011_a"></graphic>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>13 Januar Mittwoch.</head>
+            <pb corresp="#facs-01"/>
             <p>Der Kauf ist perfect geworden, u. wir sind seit heute Grundbe-<lb break="no"/>
                sitzer, sehr kleine Kleingrundbesitzer: 360 □ Kl. in der Wüste.<lb/> Meine Idee von
                einem ähnl., zum Scherz erworbenen<lb/> Ackerlande, das nach vielen Jahren d.
@@ -82,6 +84,17 @@
                dem herrl. Orchestersatz entzückt u. stimmt<lb/> in die von Bonn ausgegebene Parole
                ein: das Quintett sei nur<lb/> ein Arrangement. Bei näherer Besichtigung des Fundes
                durch <rs type="person" ref="#pmb10989">Brahms</rs></p>
+            <pb corresp="#facs-02"/>
+            <p>
+               und Mandycz. ergiebt sich, daß das vermeintl. Original die<lb/>
+               elende Stümperei eines militärcapellmeistermäßigen Instrumenta-<lb break="no"/>
+               tors ist, der so unmusikalisch war, daß er nicht einmal wußte,<lb/>
+               was Melodie ist. So würden die langen Noten am Anfange d. I Satzes<lb/>
+               als tremolo d. Geigen gesetzt; dann finden sich Hörner, Clarinetten<lb/>
+               u. Fagotten in Verdoppelungen à la Meyerbeer etc. Friedl.<lb/>
+               der „Docent. d. Musikgesch. a. d. Berliner Universität“, hat sich<lb/>
+               grimmig blamirt. Bei Kantor’s. Gänsbacher, Loewe, Mosé, <rs type="person" ref="#pmb2202">Singer</rs> etc.<lb/>
+            </p>
          </div>
       </body>
    </text>
