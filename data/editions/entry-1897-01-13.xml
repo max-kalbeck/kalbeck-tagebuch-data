@@ -52,6 +52,9 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0010_b"></graphic>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
