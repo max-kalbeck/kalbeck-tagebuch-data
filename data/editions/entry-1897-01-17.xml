@@ -49,11 +49,16 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0012_b"></graphic>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>17 Januar Sonntag.</head>
-            <p>Nach einer sehr schlechten Nacht spät aufgestanden mit eingenommenen<lb/>
+            <p>+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+                  etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische
+                  Arbeit zu Johannes Brahms als relevant erachtete.</note><lb/>Nach einer sehr schlechten Nacht spät aufgestanden mit eingenommenen<lb/>
 Kopfe. Immerzu nebelfeuchtes düsteres Wetter; der Winter scheint<lb/>
 heuer ausbleiben zu wollen. Ovation für <rs type="person" ref="#pmb10989">Brahms</rs> im Gesellschafts-<lb break="no"/>
 concert nach dem Chorliede: „Fahr wohl!“ Die letzte Strophe:<lb/>

@@ -52,11 +52,14 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0017_a"></graphic>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>26 Januar Dinstag.</head>
-            <p>Bei Rosé Billets für Kantor’s besorgt. Unterwegs Frau Dr.<lb/> Hillischer. Mit ihr u.
+            <head>26 Januar</head>
+            <p>+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note><lb/>Dinstag.<lb/>Bei Rosé Billets für Kantor’s besorgt. Unterwegs Frau Dr.<lb/> Hillischer. Mit ihr u.
                ihrem Schwager aus Hall in der<lb/> Schubert-Ausstellung. In Schwind geschwelgt. Nach
                Tisch Besuch<lb/> von Molden. Seine naive Auffassung der „Wildente“.<lb/> Prof.
                Röntgen leistet uns ein Stündchen Gesellschaft. Er<lb/> ist, trotz dem Messchaert

@@ -49,11 +49,14 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0018_a"></graphic>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>28 Januar Donnerstag.</head>
-            <p>d’Albert’s, Brüll’s, <rs type="person" ref="#pmb10989">Brahms</rs>, <rs type="person" ref="#pmb19070">Rosel</rs>, <rs type="person" ref="#pmb346028">Schneegans</rs>, Doller,<lb/>
+            <head>28 Januar</head>
+            <p>+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note><lb/>Donnerstag.<lb/>d’Albert’s, Brüll’s, <rs type="person" ref="#pmb10989">Brahms</rs>, <rs type="person" ref="#pmb19070">Rosel</rs>, <rs type="person" ref="#pmb346028">Schneegans</rs>, Doller,<lb/>
 <rs type="person" ref="#pmb2202">Singer</rs> bei uns zu Tische. <rs type="person" ref="#pmb10989">Brahms</rs> macht ziemlich laut rücksichts-<lb break="no"/>
 lose Bemerkungen über d’Albert’s eheliche Verhältnisse. Er findet<lb/>
 es u. a. schon langweilig, daß d’Albert noch immer dieselbe Frau<lb/>

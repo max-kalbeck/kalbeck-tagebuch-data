@@ -49,11 +49,14 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0013_a"></graphic>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>18 Januar Montag.</head>
-            <p>Gegenbesuch bei Schriftsteller Telmann in der Gonzagagasse.<lb/>
+            <head>18 Januar</head>
+            <p>+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note><lb/>Montag.<lb/>Gegenbesuch bei Schriftsteller Telmann in der Gonzagagasse.<lb/>
 Er heißt eigentl. Theumann. In seiner Abwesenheit erkläre<lb/>
 ich seiner Schwester, daß ich mich gern den gegen die Theatercensur<lb/>
 gerichteten Bestrebungen anschließe, weder aber ein Amt in<lb/>
