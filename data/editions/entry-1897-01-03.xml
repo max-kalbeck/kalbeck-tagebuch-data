@@ -1,10 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
-            <title type="iso-date" when-iso="1897-01-03" n="01" />
+            <title type="iso-date" when-iso="1897-01-03" n="01"/>
             <title level="a">Sonntag, 3. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
             <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
@@ -55,28 +58,28 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>3 Januar</head>
-            <p>Sonntag.<lb />Den i. Act v. <rs type="work" ref="#pmb299513">„Stillen Dorfe“</rs> an <rs type="person" ref="#pmb299510">Fielitz</rs> nach <rs type="place" ref="#pmb445">Rom</rs> spedirt. Zu Mittag<lb /> mit <rs type="person" ref="#pmb10989">Brahms</rs>, <rs type="person" ref="#pmb13044">Walter</rs>, <rs type="person" ref="#pmb156078">Excellenz Holbein</rs> u. <rs type="person" ref="#pmb342797 #pmb342798">Faber’s</rs> bei <rs type="person" ref="#pmb342783">Miller v. Aichholz</rs>.<lb /> Er <add place="above">(<rs type="person" ref="#pmb10989">Brahms</rs>)</add> sieht wieder sehr schlecht aus, beteiligt
-               sich aber ziemlich lebhaft an der<lb /> Unterhaltung u. spricht seine Freude aus, daß
-               ihm Alles so gut bekommt;<lb /> selbst der elende Punsch, den er beim Musik.händl. <rs type="person" ref="#pmb2185">Gutmann</rs> zu Sylvester<lb /> trinken mußte, hat ihm
-               nichts gemacht. Nach Tisch schläft er, wie gewöhnlich,<lb /> beim schwarzen Kaffee ein
-               u. schnarcht laut. Wir gehen zu Fuß ins <rs type="place" ref="#pmb533">Cottage</rs><lb /> zu <rs type="person" ref="#pmb27397 #pmb27383">Wärndorfer</rs>, wo
-               wir trotz wiederholter Einladungen uns seit <rs type="person" ref="#pmb27386">Fritzens</rs><lb /> Hochzeit<note type="editorische-anmerkung">Friedrich
+            <p>Sonntag.<lb/>Den i. Act v. <rs type="work" ref="#pmb299513">„Stillen Dorfe“</rs> an <rs type="person" ref="#pmb299510">Fielitz</rs> nach <rs type="place" ref="#pmb445">Rom</rs> spedirt. Zu Mittag<lb/> mit <rs type="person" ref="#pmb10989">Brahms</rs>, <rs type="person" ref="#pmb13044">Walter</rs>, <rs type="person" ref="#pmb156078">Excellenz Holbein</rs> u. <rs type="person" ref="#pmb342797 #pmb342798">Faber’s</rs> bei <rs type="person" ref="#pmb342783">Miller v. Aichholz</rs>.<lb/> Er <add place="above">(<rs type="person" ref="#pmb10989">Brahms</rs>)</add> sieht wieder sehr schlecht aus, beteiligt
+               sich aber ziemlich lebhaft an der<lb/> Unterhaltung u. spricht seine Freude aus, daß
+               ihm Alles so gut bekommt;<lb/> selbst der elende Punsch, den er beim Musik.händl. <rs type="person" ref="#pmb2185">Gutmann</rs> zu Sylvester<lb/> trinken mußte, hat ihm
+               nichts gemacht. Nach Tisch schläft er, wie gewöhnlich,<lb/> beim schwarzen Kaffee ein
+               u. schnarcht laut. Wir gehen zu Fuß ins <rs type="place" ref="#pmb533">Cottage</rs><lb/> zu <rs type="person" ref="#pmb27397 #pmb27383">Wärndorfer</rs>, wo
+               wir trotz wiederholter Einladungen uns seit <rs type="person" ref="#pmb27386">Fritzens</rs><lb/> Hochzeit<note type="editorische-anmerkung">Friedrich
                   Wärndorfer hatte am 8. November 1896 <rs type="person" ref="#pmb27886">Lili
                      Jeanette Hellmann</rs> geheiratet.</note> nicht haben sehen lassen. Vorher
-               machen wir noch eine Dankvisite<lb /> bei <rs type="person" ref="#pmb12809">Sonnenthal</rs>, der uns (ebenfalls vergeblich) vor ein paar Tagen zu<lb /> Tisch
-               gebeten hatte. Er erschöpft sich in Liebenswürdigkeiten u. Beteuerungen<lb /> seiner
-               Freundschaft. (Im Novbr. hat er an einem Vortragsabend der <rs type="institution" ref="#pmb340015">Literar.<lb /> Gesellschaft</rs> Einiges aus meinen <rs type="work" ref="#pmb353046">„Humoresken u. Phantasien“</rs> vorgelesen,<lb />
+               machen wir noch eine Dankvisite<lb/> bei <rs type="person" ref="#pmb12809">Sonnenthal</rs>, der uns (ebenfalls vergeblich) vor ein paar Tagen zu<lb/> Tisch
+               gebeten hatte. Er erschöpft sich in Liebenswürdigkeiten u. Beteuerungen<lb/> seiner
+               Freundschaft. (Im Novbr. hat er an einem Vortragsabend der <rs type="institution" ref="#pmb340015">Literar.<lb/> Gesellschaft</rs> Einiges aus meinen <rs type="work" ref="#pmb353046">„Humoresken u. Phantasien“</rs> vorgelesen,<lb/>
                nachdem Dr. <rs type="person" ref="#pmb28523">Necker</rs> die übl. Rede über mich
-               gehalten hatte. Ich war unterdessen<lb /> in einem Concert). Wir beneiden ihn um sein
-               schönes stilles Haus u. werden<lb /> von <rs type="person" ref="#pmb27397 #pmb27383">Wärndorfer’s</rs> rappelig gemacht, das kleine Häuschen an d. Ecke
-               gegenüber,<lb /> das gerade feil sei, zu kaufen. Die Besichtigung fällt nicht zu <rs type="person" ref="#pmb36699">Juliens</rs> Zu-<lb break="no" /> friedenheit aus,
-               wir wollen es morgen noch einmal bei Tage anschauen.<lb /> Viele Leute gesehen: <rs type="person" cert="medium" ref="#pmb14077 #pmb363663">Bergheim’s</rs>, <rs type="person" cert="medium" ref="#pmb13856 #pmb298943">Baumgarten’s</rs>, Dr. <rs type="person" ref="#pmb339087">Winter</rs>, <rs type="person" ref="#pmb18081 #pmb363632">Hellmann’s</rs>,<lb />
+               gehalten hatte. Ich war unterdessen<lb/> in einem Concert). Wir beneiden ihn um sein
+               schönes stilles Haus u. werden<lb/> von <rs type="person" ref="#pmb27397 #pmb27383">Wärndorfer’s</rs> rappelig gemacht, das kleine Häuschen an d. Ecke
+               gegenüber,<lb/> das gerade feil sei, zu kaufen. Die Besichtigung fällt nicht zu <rs type="person" ref="#pmb36699">Juliens</rs> Zu-<lb break="no" /> friedenheit aus,
+               wir wollen es morgen noch einmal bei Tage anschauen.<lb/> Viele Leute gesehen: <rs type="person" cert="medium" ref="#pmb14077 #pmb363663">Bergheim’s</rs>, <rs type="person" cert="medium" ref="#pmb13856 #pmb298943">Baumgarten’s</rs>, Dr. <rs type="person" ref="#pmb339087">Winter</rs>, <rs type="person" ref="#pmb18081 #pmb363632">Hellmann’s</rs>,<lb/>
                <rs type="person" ref="#pmb16420">Frau Fournier</rs> etc. <rs type="person" ref="#pmb3744 #pmb12205">Mautner’s</rs> laden uns in die Enge ihres Wagens, er
-               setzt sich<lb /> auf d. Bock. Unterwegs entgehen wir mit Not einem Unglück. Der
-               Wagen<lb /> kommt während d. rasenden Fahrt ins Schwanken, <rs type="person" ref="#pmb3744">M.</rs> wird vom Bock geschleudert, u.<lb /> wir springen entsetzt
+               setzt sich<lb/> auf d. Bock. Unterwegs entgehen wir mit Not einem Unglück. Der
+               Wagen<lb/> kommt während d. rasenden Fahrt ins Schwanken, <rs type="person" ref="#pmb3744">M.</rs> wird vom Bock geschleudert, u.<lb/> wir springen entsetzt
                hinaus. <rs type="person" ref="#pmb3744">M.</rs> ist schon wieder auf d. Beinen, u.
-               wir kommen<lb /> mit dem bloßen Schrecken davon. – Am Morgen mehrere weise Briefe,
-               darunter<lb /> einen an den <rs type="person" ref="#pmb19501">Stud. jur. Herm.
+               wir kommen<lb/> mit dem bloßen Schrecken davon. – Am Morgen mehrere weise Briefe,
+               darunter<lb/> einen an den <rs type="person" ref="#pmb19501">Stud. jur. Herm.
                   Kohn</rs>, d. Literat werden möchte, geschrieben.</p>
          </div>
       </body>
