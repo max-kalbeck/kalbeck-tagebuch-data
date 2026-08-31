@@ -33,8 +33,9 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Derived from the endoding guidelines of Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren, available at
-                    <ref target="https://example.com">https://hdl.handle.net/21.11115/0000-000E-7536-2</ref>.</p>         
+                <p>Derived from the endoding guidelines of Arthur Schnitzler: Briefwechsel mit
+                    Autorinnen und Autoren, available at <ref target="https://example.com"
+                        >https://hdl.handle.net/21.11115/0000-000E-7536-2</ref>.</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -60,9 +61,8 @@
                     <ref target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"
                         >https://github.com/max-kalbeck/kalbeck-tagebuch-data</ref>
                 </p>
-                <p>Validiert wird gegen das offizielle TEI-Schema
-                    (<code>tei_all.rng</code>), eine projektspezifische Schema- oder
-                    Schematron-Datei ist vorgesehen.</p>
+                <p>Validiert wird gegen das offizielle TEI-Schema (<code>tei_all.rng</code>), eine
+                    projektspezifische Schema- oder Schematron-Datei ist vorgesehen.</p>
                 <p>Die Bildrechte sind nicht in unserem Besitz, weswegen die Faksimiles nicht
                     heruntergeladen werden können.</p>
                 <p>Die folgenden Beschreibungen der Verwendungsweisen von Elementen und Attributen
@@ -170,9 +170,9 @@
                             aufgelöst. Sie können auch, neben der allgemeinen Suche über die
                             Datenbank, durch Zugriff auf die API automatisiert in verschiedenen
                             Formaten (siehe »<code>GET</code>«) abgefragt werden. </p>
-                        
-                        <p>Verweist, verwendet auf <code>rs</code> (siehe unten), auf Entitäten,
-                            die im Webservice PMB <ref target="https://pmb.acdh.oeaw.ac.at/"
+
+                        <p>Verweist, verwendet auf <code>rs</code> (siehe unten), auf Entitäten, die
+                            im Webservice PMB <ref target="https://pmb.acdh.oeaw.ac.at/"
                                 >https://pmb.acdh.oeaw.ac.at/</ref> verzeichnet sind. Vorangestellt
                             ist jeder Nummer: »#pmb«, wobei auch mehrere, durch Leerzeichen
                             getrennte Werte erlaubt sind.</p>
@@ -257,7 +257,8 @@
                             Klassifizierung: »strikethrough«, »overwritten«, »erased«. </p>
                         <p>Vgl. auch <code>subst</code>.</p> -->
                         <p>Streichungen. Unsicher lesbare gestrichene Passagen werden mit einem
-                            verschachtelten <code>unclear</code> versehen: <code>&lt;del&gt;&lt;unclear&gt;doch
+                            verschachtelten <code>unclear</code> versehen:
+                                <code>&lt;del&gt;&lt;unclear&gt;doch
                                 er&lt;/unclear&gt;&lt;/del&gt;</code>.</p>
                     </div>
                     <div type="level3">
@@ -296,7 +297,7 @@
                                 medium="typewriter"/&gt;</code> setzt »[maschinschriftlich:]«.</p>
                         <p><code>handShift</code> wird in dieser Edition nicht verwendet. Kalbecks
                             Tagebuch ist durchgehend eigenhändig geführt, ein Schreiberwechsel
-                            innerhalb eines Eintrags kommen nicht vor (eine Ausnahme ist die erste Seite im Tagebuch 1997). Die schreibende Hand wird
+                            innerhalb eines Eintrags kommen nicht vor (eine Ausnahme ist die erste Seite im Tagebuch 1897). Die schreibende Hand wird
                             stattdessen einmalig pro Eintrag über das Attribut <code>@hand</code> auf
                             dem äußersten <code>div</code> angegeben (siehe <code>aufbau</code> unten).</p>
                     </div>
@@ -310,10 +311,13 @@
                     <div type="level3">
                         <head xml:id="hi_rend">hi[@rend]</head>
                         <p>Dient zur Auszeichnung von Schriftänderungen. Folgende Attributwerte sind
-                            erlaubt: <code>"latin"</code>,  <code>"underline"</code>, <code>"superscript</code>,
-                             <code>subscript</code>, »small-caps«, »spaced-out«, »capitals«. Einzig die Unterstreichung ( <code>"underline</code>)
-                            erfordert ein zusätzliches Attribut <code>@n</code> mit der Anzahl der
-                            Linien, mit denen unterstrichen wurde (defaul=1). Kurrentschrift wird nicht markiert, da sie der Standard ist.</p>
+                            erlaubt: <code>"latin"</code>, <code>"underline"</code>,
+                                <code>"superscript</code>, <code>subscript</code>, »small-caps«,
+                            »spaced-out«, »capitals«. Einzig die Unterstreichung (
+                                <code>"underline</code>) erfordert ein zusätzliches Attribut
+                                <code>@n</code> mit der Anzahl der Linien, mit denen unterstrichen
+                            wurde (defaul=1). Kurrentschrift wird nicht markiert, da sie der
+                            Standard ist.</p>
                     </div>
                     <div type="level3">
                         <head xml:id="lg">lg</head>
@@ -372,14 +376,14 @@
                     </div> -->
                     <div type="level3">
                         <head xml:id="rs">rs</head>
-                       <p>Als einzige Unterklassifizierung (<code>@subtype</code>) ist »implied«
+                        <p>Als einzige Unterklassifizierung (<code>@subtype</code>) ist »implied«
                             vorgesehen. Diese ist immer dann vorzufinden, wenn nur der inhaltliche
                             Zusammenhang klärt, wer oder was gemeint ist, beispielweise »Mama« oder
                             »der neue Schnitzler« (– das alludierte Werk ist nur durch den Kontext
-                            bestimmbar). </p> -->
-                        <p>Verweist auf Entitäten von den Typen »person«, »work«, »place«,
-                                »event« und »institution«. Diese können geschachtelt sein und im
-                            Attribut <code>@ref</code> mehrere Werte enthalten (siehe oben).</p>
+                            bestimmbar). </p>
+                        <p>Verweist auf Entitäten von den Typen »person«, »work«, »place«, »event«
+                            und »institution«. Diese können geschachtelt sein und im Attribut
+                                <code>@ref</code> mehrere Werte enthalten (siehe oben).</p>
                         <p>Die Elementklammer bezieht sich üblicherweise auf die Entität, nicht auf
                             die Wortgrenze. Das heißt: »bei den
                                 <code>&lt;rs&gt;</code>Kantor's<code>&lt;/rs&gt;</code>« (der
@@ -394,8 +398,8 @@
                         <div type="level4">
                             <head xml:id="rs_type_place">rs[@type="place"]</head>
                             <p>Bei längeren Angaben wird nur der genaueste geografische Punkt
-                                ausgezeichnet. Wenn eine geografische Angabe über einen Zeilenwechsel
-                                reicht, werden die Zeilen getrennt ausgezeichnet. </p>
+                                ausgezeichnet. Wenn eine geografische Angabe über einen
+                                Zeilenwechsel reicht, werden die Zeilen getrennt ausgezeichnet. </p>
                             <div type="example">
                                 <p>Beispiel:</p>
                                 <p><code>&lt;rs type="place"&gt;Döbling&lt;/rs&gt;</code></p>
@@ -447,8 +451,8 @@
                     <div type="level3">
                         <head xml:id="table_row_cell">table, row, cell</head>
                         <p>Für Tabellen. </p>
-                        <p><code>table</code>/<code>row</code>/<code>cell</code> werden im
-                            Fließtext der Einträge nicht verwendet.</p>
+                        <p><code>table</code>/<code>row</code>/<code>cell</code> werden im Fließtext
+                            der Einträge nicht verwendet.</p>
                     </div>
                     <div type="level3">
                         <head xml:id="time">time</head>
@@ -459,7 +463,7 @@
                         <p><code>time</code> wird in dieser Edition nicht verwendet. Uhrzeiten
                             kommen als unausgezeichneter Fließtext vor, häufig mit dem Sonderzeichen
                             »½« (z. B. »½ 11 Uhr«).</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div type="level1">
@@ -480,9 +484,10 @@
                     Informationen: <code>titleStmt</code>, <code>sourceDesc</code>,
                         <code>correspDesc</code> und <code>revisionDesc</code>.</p> -->
                 <head xml:id="teiheader">teiHeader</head>
-                <p>Der <code>teiHeader</code> enthält drei relevante Bereiche: <code>titleStmt</code>,
-                        <code>sourceDesc</code> und <code>revisionDesc</code>. Ein <code>correspDesc</code>
-                    kommt in dieser Edition nicht vor.</p>
+                <p>Der <code>teiHeader</code> enthält drei relevante Bereiche:
+                        <code>titleStmt</code>, <code>sourceDesc</code> und
+                        <code>revisionDesc</code>. Ein <code>correspDesc</code> kommt in dieser
+                    Edition nicht vor.</p>
                 <div type="level2">
                     <head xml:id="titleStmt">fileDesc/titleStmt</head>
                     <div type="level3">
@@ -498,9 +503,9 @@
                         <p>Enthält den ausgeschriebenen Titel des Eintrags in der Form »Wochentag,
                             Tag. Monat Jahr«, z. B. »Freitag, 1. Jänner 1897«. Daneben steht ein
                             zweites, leeres <code>title[@type="iso-date"]</code>-Element, dessen
-                            Attribut <code>@when-iso</code> das Datum im ISO-Format
-                            (»JJJJ-MM-TT«) führt und dessen Attribut <code>@n</code> Einträge am
-                            selben Tag durchzählt.</p>
+                            Attribut <code>@when-iso</code> das Datum im ISO-Format (»JJJJ-MM-TT«)
+                            führt und dessen Attribut <code>@n</code> Einträge am selben Tag
+                            durchzählt.</p>
                     </div>
                     <div type="level3">
                         <!-- <head xml:id="author">author</head>
@@ -524,9 +529,10 @@
                         edierte Zeuge. Sollte kein <code>listWit</code> vorhanden sein, so bildet
                         die Vorlage der erste Eintrag in <code>listBibl</code>. </p> -->
                     <head xml:id="sourcedesc">sourceDesc</head>
-                    <p>Enthält ausschließlich einen Archivzeugen (<code>listWit/witness[@n="1"]</code>).
-                            <code>listBibl</code> wird in dieser Edition nicht verwendet, da für
-                        jeden Eintrag genau eine Quelle (das Tagebuch selbst) vorliegt.</p>
+                    <p>Enthält ausschließlich einen Archivzeugen
+                            (<code>listWit/witness[@n="1"]</code>). <code>listBibl</code> wird in
+                        dieser Edition nicht verwendet, da für jeden Eintrag genau eine Quelle (das
+                        Tagebuch selbst) vorliegt.</p>
                     <div type="level3">
                         <!-- <head xml:id="witness">listWit/witness[@n="1"]</head>
                         <p>Der erste Archivzeuge. Weitere Archivzeugen (etwa Durchschläge) sind mit
@@ -772,7 +778,7 @@
                             </div> -->
                         <head xml:id="handnote">handNote</head>
                         <p>Enthält einen kurzen Textinhalt, der die Handschrift benennt (z. B.
-                                »Kalbecks Handschrift«).</p>
+                            »Kalbecks Handschrift«).</p>
                         <div type="level5">
                             <!-- <head xml:id="corresp">@corresp</head>
                                 <p>Gibt an, welche Handschriften innerhalb des Dokuments vorkommen. </p>
@@ -803,8 +809,8 @@
                                 </div> -->
                             <head xml:id="corresp">@xml:id</head>
                             <p><code>handNote</code> trägt ein <code>@xml:id</code> (z. B.
-                                    »hand__kalbeck«), auf das der äußerste <code>div</code> des
-                                Eintrags mit seinem Attribut <code>@hand</code> verweist.</p>
+                                »hand__kalbeck«), auf das der äußerste <code>div</code> des Eintrags
+                                mit seinem Attribut <code>@hand</code> verweist.</p>
                         </div>
                         <div type="level5">
                             <!-- <head xml:id="medium">@medium</head>
@@ -837,8 +843,8 @@
                                 <p>… bedeutet, dass der Brief mit schwarzer Tinte geschrieben ist,
                                     mit Ausnahme der Adresse. </p> -->
                             <head xml:id="medium">@medium</head>
-                            <p>Freitext, kein festes Vokabular. Belegt sind bislang »schwarze
-                                Tinte« und »Bleistift«.</p>
+                            <p>Freitext, kein festes Vokabular. Belegt sind bislang »schwarze Tinte«
+                                und »Bleistift«.</p>
                         </div>
                         <div type="level5">
                             <!-- <head xml:id="style">@style</head>
@@ -856,11 +862,14 @@
                                     <item>nicht-anzuwenden</item>
                                 </list> -->
                             <head xml:id="style">@style</head>
-                            <p>Kalbeck schreibt in einer meist gut lesbaren Kurrentschrift »lateinische-kurrent«, Eigennamen notiert er in der Regel in lateinischer Schrift »latintype«. In der Edition werden nur Abweichungen von dieser Regel erfasst.</p>
+                            <p>Kalbeck schreibt in einer meist gut lesbaren Kurrentschrift
+                                »lateinische-kurrent«, Eigennamen notiert er in der Regel in
+                                lateinischer Schrift »latintype«. In der Edition werden nur
+                                Abweichungen von dieser Regel erfasst.</p>
                         </div>
                     </div>
-                     <div type="level3">
-                         <!-- <head xml:id="typedesc">typeDesc</head>
+                    <div type="level3">
+                        <!-- <head xml:id="typedesc">typeDesc</head>
                         <p>Gibt Auskunft über maschinell erstellte Schriften und Drucke. Jede
                                 <code>typeDesc</code> enthält eine <code>typeNote</code>, die mit
                             einem <code>@medium</code>-Attribut versehen ist. Darüber wird die Art
@@ -1012,10 +1021,10 @@
                             </div>
                         </div>
                     </div> -->
-                    <head xml:id="additions">additions</head>
-                    <p><code>additions</code> (und damit auch <code>incident</code>,
-                            <code>incident/desc</code>) werden in dieser Edition nicht
-                        verwendet.</p> 
+                        <head xml:id="additions">additions</head>
+                        <p><code>additions</code> (und damit auch <code>incident</code>,
+                                <code>incident/desc</code>) werden in dieser Edition nicht
+                            verwendet.</p>
                     </div>
                 </div>
                 <!-- <div type="level2">
@@ -1174,10 +1183,10 @@
                         Attribut <code>@status="approved"</code> gesetzt ist, ist die Bearbeitung
                         abgeschlossen.  -->
                     <head xml:id="revisiondesc">revisionDesc</head>
-                    <p>Attribut <code>@status</code> ist »wip«, solange der Eintrag in
-                        Bearbeitung ist. Jede Änderung wird als <code>change[@who][@when]</code>
-                        protokolliert, z. B. <code>&lt;change who="#hrost"
-                            when="1897-01-01"&gt;Dokument angelegt&lt;/change&gt;</code>.</p>
+                    <p>Attribut <code>@status</code> ist »wip«, solange der Eintrag in Bearbeitung
+                        ist. Jede Änderung wird als <code>change[@who][@when]</code> protokolliert,
+                        z. B. <code>&lt;change who="#hrost" when="1897-01-01"&gt;Dokument
+                            angelegt&lt;/change&gt;</code>.</p>
                 </div>
             </div>
             <div type="level1">
@@ -1191,9 +1200,14 @@
                     diese beim originalen Brief unmittelbar hinzugefügt im Archiv liegen.</p> -->
                 <head xml:id="facsimile">facsimile</head>
                 <p>Jeder Eintrag hat mindestens ein <code>facsimile/graphic[@url]</code>, das die
-                    zugehörige Tagebuchseite referenziert. Wenn die durch den Vordruck vorgegebene Seiten nicht ausreichte, schrieb Kalbeck auf der nächsten Seite weiter oder benutzte Leerraum zur Beendigung eines Eintrags auf vorherigen Seiten. Aus diesem Grund sind einige Einträge über zwei oder mehrere Seiten in beide Richtungen verteilt. In der Konsequenz werden diesen Tagen mehrere <code>facsimile/graphic[@url]</code> zugeordnet. </p>
+                    zugehörige Tagebuchseite referenziert. Wenn die durch den Vordruck vorgegebene
+                    Seiten nicht ausreichte, schrieb Kalbeck auf der nächsten Seite weiter oder
+                    benutzte Leerraum zur Beendigung eines Eintrags auf vorherigen Seiten. Aus
+                    diesem Grund sind einige Einträge über zwei oder mehrere Seiten in beide
+                    Richtungen verteilt. In der Konsequenz werden diesen Tagen mehrere
+                        <code>facsimile/graphic[@url]</code> zugeordnet. </p>
             </div>
-             <!--  <div type="level1">
+            <!--  <div type="level1">
                 <head xml:id="text">text</head>
                 <p>Das Attribut <code>@type</code> ist zwar vorhanden, aber durch die Angaben von
                         <code>physDesc/objectDesc</code> weitgehend obsolet. Es spielt nur in den
@@ -1201,7 +1215,7 @@
                 <head xml:id="text">text</head>
                 <p><code>@type</code> auf <code>text</code> wird in dieser Edition nicht
                     verwendet.</p>
-            </div> --> 
+            </div> -->
             <div type="level1">
                 <head xml:id="body">body</head>
                 <p>Im Folgenden werden häufig verwendete Elemente aufgezählt. Zuerst werden jene
@@ -1300,8 +1314,8 @@
                         </list> -->
                         <head xml:id="div_writingsession">div[@hand]</head>
                         <p>Jedes <code>div</code> enthält im Regelfall nur <code>head</code> und
-                                <code>p</code>. <code>closer</code> kommt genau einmal vor, in
-                            einem Tagebucheintrag mit mehreren Unterzeichnenden.</p>
+                                <code>p</code>. <code>closer</code> kommt genau einmal vor, in einem
+                            Tagebucheintrag mit mehreren Unterzeichnenden.</p>
                         <!-- <div type="level4">
                             <head xml:id="opener">opener</head>
                             <p>Enthält dem eigentlichen Text vorausgehende Information. Das kann
@@ -1360,8 +1374,8 @@
                             </div>
                         </div> -->
                             <head xml:id="closer">closer</head>
-                            <p>Kommt genau einmal vor, im Tagebucheintrag vom 31. Dezember 1896,
-                                mit einer Reihe von <code>signed</code>-Elementen (je einer
+                            <p>Kommt genau einmal vor, im Tagebucheintrag vom 31. Dezember 1896, mit
+                                einer Reihe von <code>signed</code>-Elementen (je einer
                                 Unterschrift), getrennt durch <code>lb</code>.</p>
                             <div type="level5">
                                 <head xml:id="lb">lb</head>
@@ -1376,7 +1390,7 @@
                                     hintereinander.</p>
                             </div>
                         </div>
-                         <!--<div type="level4">
+                        <!--<div type="level4">
                             <head xml:id="postscript">postscript</head>
                             <p>Der nach dem <code>closer</code> stehende Textteil wird in
                                 verschiedene Absätze (<code>p</code>) oder Datumszeilen
