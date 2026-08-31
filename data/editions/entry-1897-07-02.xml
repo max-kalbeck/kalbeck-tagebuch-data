@@ -56,7 +56,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>2 Juli Freitag.</head>
-            <p>Paul bringt ein elendes Zeugnis aus der Schule; natürlich<lb/>
+            <p><rs type="person" ref="#pmb8088">Paul</rs> bringt ein elendes Zeugnis aus der Schule; natürlich<lb/>
 bleibt er in Mathematik hängen u. muß sich auf eine Nachprüfung<lb/>
 während der Ferien vorbereiten. Ich putze ihn in Gegenwart des<lb/>
 Candidaten, der ihn durch eine thörichte Äußerung, zu früh<lb/>
