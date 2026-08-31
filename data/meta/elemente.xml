@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)</title>
+                <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
                 <title level="a">Kodierungsrichtlinien</title>
                 <author>
                     <persName ref="https://orcid.org/0009-0002-3219-2839">
@@ -55,7 +55,7 @@
                     <ref target="https://tei-c.org/guidelines/P5/"
                         >https://tei-c.org/guidelines/P5/</ref>
                 </p>
-                <p>Alle Tagebucheinträge unserer Edition sind als XML-Dateien hier zu finden:</p>
+                <p>Alle Tagebucheinträge unserer Edition finden sich als XML-Dateien hier:</p>
                 <p>
                     <ref target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"
                         >https://github.com/max-kalbeck/kalbeck-tagebuch-data</ref>
@@ -210,7 +210,7 @@
                     <!-- <div type="level3">
                         <head xml:id="damage">damage</head>
                         <p>Ummantelt eine durch Beschädigung entstandene Textstelle. Die häufigsten
-                            Fehler sind verschmierte Tinte, Blattverlust, Lochung, Wasser
+                            Fehler sind verschmierte Tinte, Blattverlust, Risse, Lochung, Wasser
                                 (<code>agent="…"</code>). Innerhalb eines <code>damage</code> ist
                             immer mit <code>unclear</code> oder <code>supplied</code> näher
                             spezifiziert, ob der verlorene Text nur unsicher lesbar ist oder
@@ -296,7 +296,7 @@
                                 medium="typewriter"/&gt;</code> setzt »[maschinschriftlich:]«.</p>
                         <p><code>handShift</code> wird in dieser Edition nicht verwendet. Kalbecks
                             Tagebuch ist durchgehend eigenhändig geführt, ein Schreiberwechsel
-                            innerhalb eines Eintrags kommt nicht vor. Die schreibende Hand wird
+                            innerhalb eines Eintrags kommen nicht vor (eine Ausnahme ist die erste Seite im Tagebuch 1997). Die schreibende Hand wird
                             stattdessen einmalig pro Eintrag über das Attribut <code>@hand</code> auf
                             dem äußersten <code>div</code> angegeben (siehe <code>aufbau</code> unten).</p>
                     </div>
@@ -372,10 +372,7 @@
                     </div> -->
                     <div type="level3">
                         <head xml:id="rs">rs</head>
-                        <!-- <p>Verweist auf Entitäten von den Typen »person«, »work«, »place« und »org«
-                            (Organisation/Institution). Diese können geschachtelt sein und im
-                            Attribut <code>@ref</code> mehrere Werte enthalten (siehe oben). </p>
-                        <p>Als einzige Unterklassifizierung (<code>@subtype</code>) ist »implied«
+                       <p>Als einzige Unterklassifizierung (<code>@subtype</code>) ist »implied«
                             vorgesehen. Diese ist immer dann vorzufinden, wenn nur der inhaltliche
                             Zusammenhang klärt, wer oder was gemeint ist, beispielweise »Mama« oder
                             »der neue Schnitzler« (– das alludierte Werk ist nur durch den Kontext
@@ -404,12 +401,6 @@
                                 <p><code>&lt;rs type="place"&gt;Döbling&lt;/rs&gt;</code></p>
                             </div>
                         </div>
-                    </div>
-                    <!-- <div type="level3">
-                        <head xml:id="salute">salute</head>
-                        <p>Umrahmt die Begrüßungsformel. Wenn sie im Brief abgesetzt ist, dann steht
-                            sie im <code>opener</code>-Element. </p>
-                        <p><code>salute</code> wird in dieser Edition nicht verwendet.</p>
                     </div>
                     <div type="level3">
                         <head xml:id="seg">seg</head>
@@ -865,7 +856,7 @@
                                     <item>nicht-anzuwenden</item>
                                 </list> -->
                             <head xml:id="style">@style</head>
-                            <p>Bislang durchgehend »lateinische-kurrent«.</p>
+                            <p>Kalbeck schreibt in einer meist gut lesbaren Kurrentschrift »lateinische-kurrent«, Eigennamen notiert er in der Regel in lateinischer Schrift »latintype«. In der Edition werden nur Abweichungen von dieser Regel erfasst.</p>
                         </div>
                     </div>
                      <div type="level3">
@@ -1181,12 +1172,7 @@
                     <!-- <head xml:id="revisiondesc">revisionDesc</head>
                     <p>Enthält Informationen über den Bearbeitungszustand. Ab dem Moment, wo das
                         Attribut <code>@status="approved"</code> gesetzt ist, ist die Bearbeitung
-                        abgeschlossen. Darunter finden sich verschiedene
-                        <code>change</code>-Elemente. Die vorkommenden Kürzel sind folgendermaßen
-                        aufzulösen: <code>MAM</code>: Martin Anton Müller, <code>GHS</code>:
-                        Gerd-Hermann Susen, <code>LU</code>: Laura Untner. Die Korrespondenz
-                        Bahr/Schnitzler wurde aus einem Vorprojekt entnommen, das <code>MAM</code>
-                        und <code>KI</code> (Kurt Ifkovits) gemeinsam erstellt haben. </p> -->
+                        abgeschlossen.  -->
                     <head xml:id="revisiondesc">revisionDesc</head>
                     <p>Attribut <code>@status</code> ist »wip«, solange der Eintrag in
                         Bearbeitung ist. Jede Änderung wird als <code>change[@who][@when]</code>
@@ -1204,8 +1190,8 @@
                     wurde. Umgekehrt sind hier oft auch Faksimiles von Abschriften verzeichnet, wenn
                     diese beim originalen Brief unmittelbar hinzugefügt im Archiv liegen.</p> -->
                 <head xml:id="facsimile">facsimile</head>
-                <p>Jeder Eintrag hat genau ein <code>facsimile/graphic[@url]</code>, das die
-                    zugehörige Tagebuchseite referenziert.</p>
+                <p>Jeder Eintrag hat mindestens ein <code>facsimile/graphic[@url]</code>, das die
+                    zugehörige Tagebuchseite referenziert. Wenn die durch den Vordruck vorgegebene Seiten nicht ausreichte, schrieb Kalbeck auf der nächsten Seite weiter oder benutzte Leerraum zur Beendigung eines Eintrags auf vorherigen Seiten. Aus diesem Grund sind einige Einträge über zwei oder mehrere Seiten in beide Richtungen verteilt. In der Konsequenz werden diesen Tagen mehrere <code>facsimile/graphic[@url]</code> zugeordnet. </p>
             </div>
              <!--  <div type="level1">
                 <head xml:id="text">text</head>
@@ -1315,7 +1301,7 @@
                         <head xml:id="div_writingsession">div[@hand]</head>
                         <p>Jedes <code>div</code> enthält im Regelfall nur <code>head</code> und
                                 <code>p</code>. <code>closer</code> kommt genau einmal vor, in
-                            einem Stammbucheintrag mit mehreren Unterzeichnenden.</p>
+                            einem Tagebucheintrag mit mehreren Unterzeichnenden.</p>
                         <!-- <div type="level4">
                             <head xml:id="opener">opener</head>
                             <p>Enthält dem eigentlichen Text vorausgehende Information. Das kann
@@ -1374,7 +1360,7 @@
                             </div>
                         </div> -->
                             <head xml:id="closer">closer</head>
-                            <p>Kommt genau einmal vor, im Stammbucheintrag vom 31. Dezember 1896,
+                            <p>Kommt genau einmal vor, im Tagebucheintrag vom 31. Dezember 1896,
                                 mit einer Reihe von <code>signed</code>-Elementen (je einer
                                 Unterschrift), getrennt durch <code>lb</code>.</p>
                             <div type="level5">
@@ -1386,7 +1372,7 @@
                             <div type="level5">
                                 <head xml:id="signed">signed</head>
                                 <p>Umfasst je eine Unterschrift. Kommt nur in diesem einen
-                                    Stammbucheintrag vor, mit mehreren <code>signed</code>-Elementen
+                                    Tagebucheintrag vor, mit mehreren <code>signed</code>-Elementen
                                     hintereinander.</p>
                             </div>
                         </div>
