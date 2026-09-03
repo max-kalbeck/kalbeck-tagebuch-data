@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-10" n="01"/>
             <title level="a">Sonntag, 10. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -50,39 +53,39 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0009_a"></graphic>
+      <graphic url="kalbeck_2__0009_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>10 Januar</head>
             <p>Sonntag.<lb/>* Meine Schmetterlingsidee f. die Novelle vom Jasius Araxes.<lb/>
-Während ich einen Versuch mache, in einem Kasten die Ueber-<lb break="no"/>
-gänge der Arten zu veranschaulichen, bekomme ich Besuch von<lb/>
-<rs type="person" ref="#pmb7535">Edvard Grieg</rs>. Er bleibt länger als eine Stunde bei mir.<lb/>
-Er ist mit den künstlerischen Errungenschaften seines zweimonatl.<lb/>
-Wiener Aufenthaltes sehr zufrieden, obwol es ihn schmerzt,<lb/>
-daß Publicum u. Kritik gerade von seinen größeren u. „tieferen“<lb/>
-Compositionen nichts wissen wollen. Da ich auch zu denen gehöre,<lb/>
-die <rs type="person" ref="#pmb7535">Grieg</rs> nur als Kleinmeister gelten lassen, so hüte ich mich<lb/>
-näher auf den Gegenstand einzugehen, und drehe das Gespräch auf<lb/>
-die nordische Literatur. Björnson hat ihn mit einer Oper sitzen<lb/>
-lassen, nachdem er den I Act bereits gedichtet hatte. Grieg hat<lb/>
-eine Art Cantata daraus gemacht. Ueber Ibsen sind wir<lb/>
-einer Meinung und ziehen den Romantiker u. Ideendichter<lb/>
-der früheren Zeit den heutigen Symbolisten u. Wirklichkeitsfexen<lb/>
-vor. Klage über die elenden Uebersetzungen. <rs type="person" ref="#pmb7535">Grieg</rs> legt mir<lb/>
-nahe, Versuche mit seinem Liedertexten zu machen. Ich will es mir<lb/>
-überlegen. Seine Unzufriedenheit mit der Gulbranson; die beste<lb/>
-Sängerin seiner Lieder sei seine Frau gewesen. Wie gut ihm acht<lb/>
-Tage auf dem Semmering bekommen sind, nachdem er eine schwere<lb/>
-Influenza glücklich überstanden hatte. Wir scheiden sehr herzlich,<lb/>
-u. ich stehe wieder unter dem vollen Eindruck seiner feinen,<lb/>
-liebenswürdigen Persönlichkeit. Den Tag über, den ich in Baden<lb/>
-hätte verbringen sollen, <rs type="person" ref="#pmb95985">Frimmel</rs>’s „Beethoveniana“ gelesen.<lb/>
-[gehört ans Ende des 11. Januars] Dazu Bilder aus d. Kinematographen: das rauschende Fest …<lb/>
-Thema: Die Ex-Lebendigen. Marquis B., der junge Gatte ruht sich<lb/>
-<span style="writing-mode: vertical-lr; text-orientation: sideways-left">auf d. Lande vom Nicht-Arbeiten aus. Ein seltsames Haus.</span></p>
+               Während ich einen Versuch mache, in einem Kasten die Ueber-<lb break="no"/> gänge der
+               Arten zu veranschaulichen, bekomme ich Besuch von<lb/>
+               <rs type="person" ref="#pmb7535">Edvard Grieg</rs>. Er bleibt länger als eine Stunde
+               bei mir.<lb/> Er ist mit den künstlerischen Errungenschaften seines zweimonatl.<lb/>
+               Wiener Aufenthaltes sehr zufrieden, obwol es ihn schmerzt,<lb/> daß Publicum u.
+               Kritik gerade von seinen größeren u. „tieferen“<lb/> Compositionen nichts wissen
+               wollen. Da ich auch zu denen gehöre,<lb/> die <rs type="person" ref="#pmb7535"
+                  >Grieg</rs> nur als Kleinmeister gelten lassen, so hüte ich mich<lb/> näher auf
+               den Gegenstand einzugehen, und drehe das Gespräch auf<lb/> die nordische Literatur.
+               Björnson hat ihn mit einer Oper sitzen<lb/> lassen, nachdem er den I Act bereits
+               gedichtet hatte. Grieg hat<lb/> eine Art Cantata daraus gemacht. Ueber Ibsen sind
+               wir<lb/> einer Meinung und ziehen den Romantiker u. Ideendichter<lb/> der früheren
+               Zeit den heutigen Symbolisten u. Wirklichkeitsfexen<lb/> vor. Klage über die elenden
+               Uebersetzungen. <rs type="person" ref="#pmb7535">Grieg</rs> legt mir<lb/> nahe,
+               Versuche mit seinem Liedertexten zu machen. Ich will es mir<lb/> überlegen. Seine
+               Unzufriedenheit mit der Gulbranson; die beste<lb/> Sängerin seiner Lieder sei seine
+               Frau gewesen. Wie gut ihm acht<lb/> Tage auf dem Semmering beko<c
+                  rendition="#gemination-m">mm</c>en sind, nachdem er eine schwere<lb/> Influenza
+               glücklich überstanden hatte. Wir scheiden sehr herzlich,<lb/> u. ich stehe wieder
+               unter dem vollen Eindruck seiner feinen,<lb/> liebenswürdigen Persönlichkeit. Den Tag
+               über, den ich in Baden<lb/> hätte verbringen sollen, <rs type="person"
+                  ref="#pmb95985">Fri<c rendition="#gemination-m">mm</c>el</rs>’s „Beethoveniana“
+               gelesen.<lb/> [gehört ans Ende des 11. Januars] Dazu Bilder aus d. Kinematographen:
+               das rauschende Fest …<lb/> Thema: Die Ex-Lebendigen. Marquis B., der junge Gatte ruht sich<lb/>
+               <span style="writing-mode: vertical-lr; text-orientation: sideways-left">auf d. Lande
+                  vom Nicht-Arbeiten aus. Ein seltsames Haus.</span></p>
          </div>
       </body>
    </text>
