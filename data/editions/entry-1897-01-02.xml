@@ -65,9 +65,9 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>2 Januar</head>
-            <p>+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+            <p><metamark hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
                   etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische
-                  Arbeit zu Johannes Brahms als relevant erachtete.</note><lb/> Samstag.<lb/> Sonett
+                  Arbeit zu Johannes Brahms als relevant erachtete.</note></metamark><lb/> Samstag.<lb/> Sonett
                an Frau <rs type="person" ref="#pmb24467">Hermine Wallach</rs> als Dank für eine<lb/>
                Partie Nürnberger Lebkuchen. Um ½ 11 Uhr zu <rs type="person" ref="#pmb18873"
                   >Joachim</rs><lb/> ins <rs type="place" ref="#pmb92294">Hotel Tegetthoff</rs>.
