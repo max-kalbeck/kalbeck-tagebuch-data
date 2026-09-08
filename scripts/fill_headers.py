@@ -6,6 +6,7 @@ from acdh_tei_pyutils.tei import TeiReader
 
 
 HEADER_FILE = Path("data/meta/header_elements.xml")
+WORK_DIR = Path("data/work")
 EDITION_DIR = Path("data/editions")
 
 
@@ -25,8 +26,9 @@ def main():
     profile_desc = profile_desc[0]
     encoding_desc = encoding_desc[0]
 
-    for file_path in sorted(EDITION_DIR.glob("*.xml")):
+    for file_path in sorted(WORK_DIR.glob("*.xml")):
         print(f"Processing {file_path}")
+        output_path = EDITION_DIR / file_path.name
 
         tei = TeiReader(str(file_path))
         tree = tei.tree
@@ -71,7 +73,7 @@ def main():
 
         # Write the modified document
         tree.write(
-            str(file_path),
+            str(output_path),
             encoding="UTF-8",
             xml_declaration=True,
             pretty_print=True,
