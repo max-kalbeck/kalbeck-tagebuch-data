@@ -75,7 +75,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>23 September</head>
-            <p>Donnerstag.<lb/>Brief von Frau Kantor, die in <rs type="place" ref="#pmb50">Wien</rs> ist, mit allerhand Neuigkeiten:<lb/>
+            <p><seg rendition="#">Donnerstag.</seg><lb/>Brief von Frau Kantor, die in <rs type="place" ref="#pmb50">Wien</rs> ist, mit allerhand Neuigkeiten:<lb/>
 Anny Hiller hat sich mit dem älteren Kupelwieser verlobt, der<lb/>
 21 J. alt, also ein Jahr jünger ist als sie. Eine Scandalaffaire zwischen<lb/>
 Victor Léon und Risa Strisower, wenn’s wahr ist. <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> reisen<lb/>

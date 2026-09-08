@@ -75,7 +75,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>3 März</head>
-            <p>Mittwoch.<lb/>Die „Versunkene Glocke“ wird auf Freitag verschoben.</p>
+            <p><seg rendition="#">Mittwoch.</seg><lb/>Die „Versunkene Glocke“ wird auf Freitag verschoben.</p>
          </div>
       </body>
    </text>

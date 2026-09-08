@@ -75,7 +75,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>7 März</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Sonntag.<lb/>Morgenpromenade zu <rs type="person" ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs>. Helene zeigt mir Kriehuber’sche,<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Sonntag.</seg><lb/>Morgenpromenade zu <rs type="person" ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs>. Helene zeigt mir Kriehuber’sche,<lb/>
 von ihrem Vater gesammelte Portraits. Im Stadtpark treffe ich<lb/>
 <rs type="person" ref="#pmb36699">Julie</rs>, die von <rs type="person" ref="#pmb10989">Brahms</rs> kommt. Es geht ihm besser mit seinem<lb/>
 Gesicht und er spricht sehr hoffnungsvoll von der Zukunft. Aus-<lb break="no"/>
