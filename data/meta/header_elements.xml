@@ -17,10 +17,11 @@
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <handNotes></handNotes>
+      <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
           Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote>
+        </handNote>
+      </handNotes>
     </profileDesc>
     <encodingDesc>
       <styleDefDecl scheme="css" default="false"/>
@@ -29,7 +30,7 @@
         <rendition xml:id="right" scheme="css">text-align: right;</rendition>
         <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
         <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
-        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
         <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
         <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
       </tagsDecl>
