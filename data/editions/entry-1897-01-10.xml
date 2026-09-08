@@ -77,7 +77,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>10 Januar</head>
-            <p>Sonntag.<lb/>* Meine Schmetterlingsidee f. die Novelle vom Jasius Araxes.<lb/>
+            <p><seg rendition="#">Sonntag.</seg><lb/>* Meine Schmetterlingsidee f. die Novelle vom Jasius Araxes.<lb/>
                Während ich einen Versuch mache, in einem Kasten die Ueber-<lb break="no"/> gänge der
                Arten zu veranschaulichen, bekomme ich Besuch von<lb/>
                <rs type="person" ref="#pmb7535">Edvard Grieg</rs>. Er bleibt länger als eine Stunde

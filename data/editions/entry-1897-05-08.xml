@@ -75,7 +75,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>8 Mai</head>
-            <p>Samstag.<lb/>[3. Mai]<lb/>
+            <p><seg rendition="#">Samstag.</seg><lb/>[3. Mai]<lb/>
 Montag. Aus Geldverlegenheit ein schundiges Anerbieten Eirich’s acceptirt.<lb/>
 Da ich an den Rhein reisen will, muß ich Rat schaffen. Eine Viertel-<lb break="no"/>
 stunde bei <rs type="person" ref="#pmb2202">Singer</rs> u. Pötzl. <rs type="person" ref="#pmb2202">Singer</rs> ist gestern v. W.’s plötzlich abberufen<lb/>
@@ -87,7 +87,7 @@ Cohn a. <rs type="place" ref="#pmb168">Berlin</rs>, die D. Verlagsanstalt a. Stu
 Die arme Wolter lebt noch immer. Hier blühen schon Kastanien u. Flieder.<lb/>
 In Deutschland waren erst die Obstbäume so weit. Abendbesuch bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>.<lb/>
 [4. Mai]<lb/>
-Dinstag.<lb/>
+<seg rendition="#">Dinstag.</seg><lb/>
 Den Tag über eine Menge von Briefen geschrieben, auch an<lb/>
 Heyse und <rs type="person" ref="#pmb18873">Joachim</rs>. Brüll’s speisen bei uns zum Abend, nachdem<lb/>
 <rs type="person" ref="#pmb346028">Schneegans</rs> fortgegangen war. Sch. steckt noch immer im II Acte seiner<lb/>

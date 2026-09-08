@@ -77,7 +77,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>4 Januar</head>
-            <p>Montag.<lb/>Mein 47. Geburtstag. Unter d. schriftl. Gratulanten taucht der fatale<lb/>
+            <p><seg rendition="#">Montag.</seg><lb/>Mein 47. Geburtstag. Unter d. schriftl. Gratulanten taucht der fatale<lb/>
                <rs type="person" ref="#pmb364353">Milvius</rs> wieder auf. <rs type="person" ref="#pmb19011">Muxl</rs> hat eine dramat. Scene gedichtet, die aber<lb/> so spät
                fertig geworden ist, daß sie von <rs type="person" ref="#pmb8088">Paul</rs> u. ihr
                nicht mehr gelernt werden<lb/> konnte. <rs type="person" ref="#pmb8088">Paul</rs>

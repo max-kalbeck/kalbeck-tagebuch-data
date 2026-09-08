@@ -77,7 +77,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>6 Januar</head>
-            <p>Mittwoch.<lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
+            <p><seg rendition="#">Mittwoch.</seg><lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
                   Pott</rs> nach <rs type="place" ref="#pmb445">Rom</rs> expedirt. (kommt
                voraussichtlich<lb/> zu spät) Ich schrieb: <foreign xml:lang="fr">Travailler c’est
                   vivre! Mais travailler<lb/> pour vivre – quelle détestable
