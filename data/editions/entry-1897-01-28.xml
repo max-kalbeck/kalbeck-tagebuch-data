@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -45,18 +45,31 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+    <encodingDesc>
+         <styleDefDecl scheme="css" default="false"/>
+         <tagsDecl>
+            <rendition xml:id="center" scheme="css">text-align:center</rendition>
+            <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+            <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+            <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+            <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+            <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+            <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+            </handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0018_a"></graphic>
+      <graphic url="kalbeck_2__0018_a"/>
    </facsimile>
    <text>
       <body>
