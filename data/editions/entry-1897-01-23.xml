@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -45,24 +45,37 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css" default="false"/>
+      <tagsDecl>
+        <rendition xml:id="center" scheme="css">text-align:center</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  <profileDesc>
       <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
           Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
+        </handNote>
+      </handNotes>
     </profileDesc>
-      <revisionDesc status="wip">
+    <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0015_b"></graphic>
+      <graphic url="kalbeck_2__0015_b"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>23 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Samstag.<lb/>Auf der Bank 17000 fl. erhoben für den Ankauf des Grundstückes<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Samstag.</seg><lb/>Auf der Bank 17000 fl. erhoben für den Ankauf des Grundstückes<lb/>
 im <rs type="place" ref="#pmb533">Cottage</rs>; dann zu <rs type="person" ref="#pmb10989">Brahms</rs>. Frau Soldat-Roeger macht<lb/>
 ihm einen Abschiedsbesuch. Ihr hartes Urteil über Petschnikoff.<lb/>
 Ich sage: Wir Kritiker sind doch die reinen Lämmer den Künstlern<lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -39,8 +39,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -48,13 +47,26 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-         <handNotes>
-            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift </handNote>
-         </handNotes>
-      </profileDesc>
-      <revisionDesc status="wip">
+      <encodingDesc>
+      <styleDefDecl scheme="css" default="false"/>
+      <tagsDecl>
+        <rendition xml:id="center" scheme="css">text-align:center</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+        </handNote>
+      </handNotes>
+    </profileDesc>
+    <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -65,29 +77,20 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>6 Januar</head>
-            <p>Mittwoch.<lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs
-                  type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107"
-                  >Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
+            <p><seg rendition="#left">Mittwoch.</seg><lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
                   Pott</rs> nach <rs type="place" ref="#pmb445">Rom</rs> expedirt. (kommt
                voraussichtlich<lb/> zu spät) Ich schrieb: <foreign xml:lang="fr">Travailler c’est
                   vivre! Mais travailler<lb/> pour vivre – quelle détestable
                   invention!</foreign><note type="translation" resp="#hrost" xml:lang="de">Arbeiten
                   heißt leben! Aber arbeiten, um zu leben – welch abscheuliche Erfindung!</note>
-               Antwort an den<lb/> Ingenieur Beck, der seine Vorfahren in den Dörfern um <rs
-                  type="place" ref="#pmb677">Breslau</rs><lb/> herum sucht u. mich bittet, ihm dabei
-               zu helfen. Was die Menschen<lb/> alles von einem verlangen! <rs type="person"
-                  ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/>
+               Antwort an den<lb/> Ingenieur Beck, der seine Vorfahren in den Dörfern um <rs type="place" ref="#pmb677">Breslau</rs><lb/> herum sucht u. mich bittet, ihm dabei
+               zu helfen. Was die Menschen<lb/> alles von einem verlangen! <rs type="person" ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/>
                siastischen Dankbrief aus <rs type="place" ref="#pmb445">Rom</rs> über den i. Act.
-               Nachmittag die<lb/> „<rs type="event" ref="#pmb364469">Fledermaus</rs>“ in der <rs
-                  type="place" ref="#pmb15">Hofoper</rs>. Entzückt von Rosalinde – Renard<note
-                  type="editorische-anmerkung">Rosalinde und Renard sind Rollen in der Operette <rs
-                     type="work" ref="#pmb30421">Die Fledermaus</rs> von Johann Strauss
-                  (Sohn).</note>.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich schreibe ein
-               sehr<lb/> schwärmerisches Referat u. gehe zu <rs type="person"
-                  ref="#pmb174597 #pmb160741">Kantor’s</rs>. <rs type="person" ref="#pmb194803"
-                  >Zellner</rs> wieder<lb/> auf den Beinen. Poetisches Après-souper in <rs
-                  type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/> Goethe’sche Gedichte. Sehr
-               spät heim.</p>
+               Nachmittag die<lb/> „<rs type="work" ref="#pmb30421">Fledermaus</rs>“ in der Hofoper.
+               Entzückt von Rosalinde – Renard.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich
+               schreibe ein sehr<lb/> schwärmerisches Referat u. gehe zu <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. Zellner wieder<lb/> auf den Beinen.
+               Poetisches Après-souper in <rs type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/>
+               Goethe’sche Gedichte. Sehr spät heim.</p>
          </div>
       </body>
    </text>

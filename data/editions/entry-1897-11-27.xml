@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -39,8 +39,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -48,31 +47,43 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css" default="false"/>
+      <tagsDecl>
+        <rendition xml:id="center" scheme="css">text-align:center</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  <profileDesc>
       <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
           Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
+        </handNote>
+      </handNotes>
     </profileDesc>
-      <revisionDesc status="wip">
+    <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0169_a"></graphic>
+      <graphic url="kalbeck_2__0169_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>27 November</head>
-            <p>Samstag.<lb/>In aller Eile ein Geburtstagscarmen für <rs type="person" ref="#pmb2202">Singer</rs> gedichtet.<lb/> Bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> Mosé’s
+            <p><seg rendition="#">Samstag.</seg><lb/>In aller Eile ein Geburtstagscarmen für <rs type="person" ref="#pmb2202">Singer</rs> gedichtet.<lb/> Bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> Mosé’s
                Wut über das verspätete Mittagsmal.<lb/> <rs type="person" ref="#pmb2202">Singer</rs> läßt noch länger auf sich warten als
                ich und bringt neue<lb/> Alarmnachrichten aus dem Parlament. Die Spannung der<lb/>
                Gemüter verbreitet sich wie eine infectiöse Krankheit, und<lb/> der Puls der Stadt
                fiebert. Für mich steht eine Wirkung<lb/> in die Ferne unumstößlich fest, wenn man
                dabei auch nicht an<lb/> übernatürliche Kräfte zu glauben braucht. Das
-               menschliche<lb/> Gehirn ist ähnlichen Einflüssen unterworfen wie die Magnet-<lb
-                  break="no"/> nadel. Vieles, was uns heute noch rätselhaft ist, wird einmal<lb/>
+               menschliche<lb/> Gehirn ist ähnlichen Einflüssen unterworfen wie die Magnet-<lb break="no"/> nadel. Vieles, was uns heute noch rätselhaft ist, wird einmal<lb/>
                von der Physik erklärt werden. Die Metaphysik ist oft nur<lb/> eine proleptische
                Physik. Das Unbewußte, Ahnungsvolle ein<lb/> Mitklingen der zartbesaiteten Psyche. –
                <rs type="person" ref="#pmb36699">Julie</rs> hat <rs type="person" ref="#pmb2202">Singer</rs> eine<lb/> Geldtasche mit ein paar sehr hübschen Wiener Gstanzeln

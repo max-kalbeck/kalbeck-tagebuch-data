@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
+            <title type="iso-date" when-iso="1897-01-06" n="01"/>
+            <title level="a">Mittwoch, 6. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift </handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0007_a"/>
+   </facsimile>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>6 Januar</head>
+            <p>Mittwoch.<lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs
+                  type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107"
+                  >Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
+                  Pott</rs> nach <rs type="place" ref="#pmb445">Rom</rs> expedirt. (kommt
+               voraussichtlich<lb/> zu spät) Ich schrieb: <foreign xml:lang="fr">Travailler c’est
+                  vivre! Mais travailler<lb/> pour vivre – quelle détestable
+                  invention!</foreign><note type="translation" resp="#hrost" xml:lang="de">Arbeiten
+                  heißt leben! Aber arbeiten, um zu leben – welch abscheuliche Erfindung!</note>
+               Antwort an den<lb/> Ingenieur Beck, der seine Vorfahren in den Dörfern um <rs
+                  type="place" ref="#pmb677">Breslau</rs><lb/> herum sucht u. mich bittet, ihm dabei
+               zu helfen. Was die Menschen<lb/> alles von einem verlangen! <rs type="person"
+                  ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/>
+               siastischen Dankbrief aus <rs type="place" ref="#pmb445">Rom</rs> über den i. Act.
+               Nachmittag die<lb/> „<rs type="work" ref="#pmb30421">Fledermaus</rs>“ in der Hofoper.
+               Entzückt von Rosalinde – Renard.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich
+               schreibe ein sehr<lb/> schwärmerisches Referat u. gehe zu <rs type="person"
+                  ref="#pmb174597 #pmb160741">Kantor’s</rs>. Zellner wieder<lb/> auf den Beinen.
+               Poetisches Après-souper in <rs type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/>
+               Goethe’sche Gedichte. Sehr spät heim.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

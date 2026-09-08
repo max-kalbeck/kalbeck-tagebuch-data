@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
+            <title type="iso-date" when-iso="1897-03-12" n="01"/>
+            <title level="a">Freitag, 12. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+      </handNote></handNotes>
+    </profileDesc>
+      <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0040_a"></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>12 März</head>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Freitag.<lb/>An Brahm nach <rs type="place" ref="#pmb168">Berlin</rs> geschrieben mit der Bitte einen<lb/> eingelegten Brief an
+               Gerhart Hauptmann zu schicken. Ich<lb/> habe bei ihm angefragt, ob ich mit meiner
+               Hypothese, daß er<lb/> sein Drama als Traumdichtung à la Hannele concipirt habe,<lb/>
+               auf der richtigen Spur bin. Mittags bei Ignaz Brüll mit<lb/> Carl Reinecke u.
+                  Frau.<note>Am 12. März datiert auch ein Eintrag Carl Reineckes im Stammbuch von
+                  Max Kalbeck: Reinecke schrieb „Zu freundlichem Erinnern“ einen kopfüber
+                  gespiegelten Rätselkanon zum Luther-Spruch „Wer nicht liebt Wein Weib u.
+                     Gesang“.<ptr type="stammbuch" target="K079-scaled.jpg"/></note> Als sie eben im
+               Begriff waren, aus<lb/> dem Hôtel zu gehen, erhielten sie einen Besuch von <rs type="person" ref="#pmb10989">Brahms</rs>.
+               Frau<lb/> Reinecke war so fassungslos, daß sie auf die Frage, wohin<lb/> sie gingen,
+               erwiderte: Zu Brüll’s. Darob große Aufregung<lb/> der Frau Marie, die <rs type="person" ref="#pmb10989">Brahms</rs> auf
+               ausdrückl. Wunsch<lb/> der Frau Reinecke nicht eingeladen hatte. Der alte
+               Reinecke<lb/> war in Gedanken an sein abendliches Concert u. spielte Mozart<lb/> auf
+               dem Tische. Von Frau R. höre ich, daß vor acht Tagen<lb/> „Jabuka“ in Leipzig
+               aufgeführt worden ist. Lewy schickte mir<lb/> heute eine Karte vom Bresl.
+               Stadttheater, das 100 Textbücher<lb/> der „Maienkönigin“ bestellen will. Die Auflage
+               ist vergriffen,<lb/> und Kienast scheint keine neue drucken zu wollen. Der Lump
+               hat<lb/> mir für alle meine Bücher noch keinen Kreuzer bezalt und macht absolut<lb/>
+               keine Abrechnung, obwol er sie mir seit 5 Jahren versprochen hat.<lb/> Reinecke
+               erzält, er sei einmal angegriffen worden, weil er zu schnelle<lb/> Tempi im
+               <rs type="person" ref="#pmb10989">Brahms</rs>’schen „Requiem“ genommen habe. Auf seine Anfrage bei<lb/> <rs type="person" ref="#pmb10989">Brahms</rs> habe dieser
+               erwidert, die Metronomisirung, von der er nichts ver-<lb break="no"/> stehe, sei von
+               Reinthaler ausgeführt worden! Nach dem Mozart-Concert<lb/> mit Brüll’s u. Reinecke’s
+               im Grand Hôtel. Sie möchten mich gern<lb/> in Leipzig haben.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
