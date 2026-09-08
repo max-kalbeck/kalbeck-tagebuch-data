@@ -62,7 +62,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>20 März</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Samstag.<lb/>Mit <rs type="person" ref="#pmb36699">Julie</rs> zu <rs type="person" ref="#pmb10989">Brahms</rs>. Vor der Thür unten begegnen<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Samstag.</seg><lb/>Mit <rs type="person" ref="#pmb36699">Julie</rs> zu <rs type="person" ref="#pmb10989">Brahms</rs>. Vor der Thür unten begegnen<lb/>
 uns Simrock u. Mühlfeld, die gerade von ihm kommen.<lb/>
 Simrock ist vorgestern Abend eingetroffen u. reist schon<lb/>
 morgen wieder ab. Die Thränen stehen ihm in den Augen, wie er<lb/>

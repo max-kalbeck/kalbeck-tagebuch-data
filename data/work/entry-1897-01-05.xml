@@ -65,7 +65,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>5 Januar</head>
-            <p>Dinstag.<lb/>+<note type="editorische-anmerkung">Was Max Kalbeck mit diesem Kreuz
+            <p><seg rendition="#">Dinstag.</seg><lb/>+<note type="editorische-anmerkung">Was Max Kalbeck mit diesem Kreuz
                   markierte, bleibt unklar.</note> Dankvisite bei <rs type="person"
                   ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs> abgestattet. <rs
                   type="person" ref="#pmb342788">Helene</rs> hat mich mit Notiztäschchen u.<lb/>

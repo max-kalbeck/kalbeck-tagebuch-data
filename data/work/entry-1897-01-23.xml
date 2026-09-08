@@ -62,7 +62,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>23 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Samstag.<lb/>Auf der Bank 17000 fl. erhoben für den Ankauf des Grundstückes<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Samstag.</seg><lb/>Auf der Bank 17000 fl. erhoben für den Ankauf des Grundstückes<lb/>
 im <rs type="place" ref="#pmb533">Cottage</rs>; dann zu <rs type="person" ref="#pmb10989">Brahms</rs>. Frau Soldat-Roeger macht<lb/>
 ihm einen Abschiedsbesuch. Ihr hartes Urteil über Petschnikoff.<lb/>
 Ich sage: Wir Kritiker sind doch die reinen Lämmer den Künstlern<lb/>

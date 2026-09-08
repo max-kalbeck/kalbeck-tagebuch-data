@@ -62,7 +62,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>29 August</head>
-            <p>Sonntag.<lb/>Die Wolke, die, von meiner gestrigen ketzerischen Abendrede<lb/>
+            <p><seg rendition="#">Sonntag.</seg><lb/>Die Wolke, die, von meiner gestrigen ketzerischen Abendrede<lb/>
 herbeigezogen, über Grossegg hing, hat sich zerstreut, nur noch<lb/>
 ein paar Fetzen flogen in der Luft herum, und wurden von der<lb/>
 allgemeinen guten Laune aufgesogen. Frau Sida und <rs type="person" ref="#pmb19070">Rosl</rs><lb/>

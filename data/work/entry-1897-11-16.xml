@@ -59,7 +59,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>16 November</head>
-            <p>Dinstag.<lb/>[Seite ausgeschnitten]</p>
+            <p><seg rendition="#">Dinstag.</seg><lb/>[Seite ausgeschnitten]</p>
          </div>
       </body>
    </text>
