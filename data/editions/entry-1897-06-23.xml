@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -39,8 +39,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -48,18 +47,31 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+    <encodingDesc>
+         <styleDefDecl scheme="css" default="false"/>
+         <tagsDecl>
+            <rendition xml:id="center" scheme="css">text-align:center</rendition>
+            <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+            <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+            <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+            <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+            <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+            <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+            </handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0091_b"></graphic>
+      <graphic url="kalbeck_2__0091_b"/>
    </facsimile>
    <text>
       <body>
@@ -71,8 +83,7 @@
                Stettenheim hat ein sehr lustiges Gedicht in mein Album<note>Der dem berühmten
                   Gedicht von Heinrich Heine nachempfundenen Eintrag von Julius Stettenheim in
                   Max Kalbecks Stammbuch datiert vom 22. Juni 1897 in Karlsbad: „Denk’ ich an Kalbeck in
-                  der Nacht / Dann bin ich um den Schlaf gebracht ...“.<ptr type="stammbuch"
-                     target="K080-scaled.jpg"/></note><lb/> geschrieben u. bringt es mir zum
+                  der Nacht / Dann bin ich um den Schlaf gebracht ...“.<ptr type="stammbuch" target="K080-scaled.jpg"/></note><lb/> geschrieben u. bringt es mir zum
                Frühstück mit. Fürst Reuss sagt mir,<lb/> daß seine Frau ihn bestimmt habe, den
                Aufenthalt bis Samstag zu<lb/> verlängern, um den – Blumencorso mitzumachen. Beide
                wiederholen<lb/> die dringende Einladung, sie in Ernstbrunn zu besuchen, u. zwar
@@ -81,8 +92,7 @@
                ehemal. Breslauer Buchdrucker u. geg.wärtiger College, an, der mich<lb/> in seinem
                Karlsbader Feuilleton der Bresl. Ztg. als „nicht mehr ganz<lb/> jungen Goethe“
                verewigt hat. Ein ziemlich unverfrorener jüdischer Dachs,<lb/> dessen ich mich von
-               früherher kaum noch erinnere. Ich bin schwach genug<lb/> ihm ein Exemplar meiner <rs
-                  type="work" ref="#pmb353046">„Humoresken“</rs> zu versprechen. – Zweifelhafte<lb/>
+               früherher kaum noch erinnere. Ich bin schwach genug<lb/> ihm ein Exemplar meiner <rs type="work" ref="#pmb353046">„Humoresken“</rs> zu versprechen. – Zweifelhafte<lb/>
                Schulnachrichten über <rs type="person" ref="#pmb8088">Paul</rs>; er wird wol wieder eine Nachprüfung in<lb/> Mathematik
                machen müssen. Allerlei Einkäufe von Mitbringseln be-<lb break="no"/> sorgt. Im
                Kaiserpark melden sich einige Freiwillige mit Beiträgen<lb/> für Busse. Das Interesse

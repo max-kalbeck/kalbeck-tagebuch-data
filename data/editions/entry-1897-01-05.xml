@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -39,8 +39,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -48,12 +47,25 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+    <encodingDesc>
+         <styleDefDecl scheme="css" default="false"/>
+         <tagsDecl>
+            <rendition xml:id="center" scheme="css">text-align:center</rendition>
+            <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+            <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+            <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+            <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+            <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+            <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+            </handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -66,26 +78,18 @@
          <div hand="#hand__kalbeck">
             <head>5 Januar</head>
             <p>Dinstag.<lb/>+<note type="editorische-anmerkung">Was Max Kalbeck mit diesem Kreuz
-                  markierte, bleibt unklar.</note> Dankvisite bei <rs type="person"
-                  ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs> abgestattet. <rs
-                  type="person" ref="#pmb342788">Helene</rs> hat mich mit Notiztäschchen u.<lb/>
+                  markierte, bleibt unklar.</note> Dankvisite bei <rs type="person" ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs> abgestattet. <rs type="person" ref="#pmb342788">Helene</rs> hat mich mit Notiztäschchen u.<lb/>
                Blumen überhäuft, auch die <rs type="person" ref="#pmb11944">Klinger</rs>’sche
                Radirung: „<rs type="work" ref="#pmb364351">Phantasie u. Künstler-<lb break="no"/>
-                  bund</rs>“ ist ihr Geschenk. Der Bildhauer <rs type="person" ref="#pmb105529"
-                  >Steiner</rs>, der mich auf Anstiften<lb/> von <rs type="person" ref="#pmb10989"
-                  >Brahms</rs> modellirt hat, möchte bei <rs type="person" ref="#pmb19070">Rosl</rs>
+                  bund</rs>“ ist ihr Geschenk. Der Bildhauer <rs type="person" ref="#pmb105529">Steiner</rs>, der mich auf Anstiften<lb/> von <rs type="person" ref="#pmb10989">Brahms</rs> modellirt hat, möchte bei <rs type="person" ref="#pmb19070">Rosl</rs>
                sein Glück versuchen. <rs type="person" ref="#pmb8088">Paul</rs><lb/> erscheint
                wehklagend mit einem als nicht genügend befundenen Extemporale.<lb/> Er lernt leicht
-               u. vergißt noch leichter. Es thut mir in der Seele weh,<lb/> diesen Gymnasialja<c
-                  rendition="#gemination-m">mm</c>er mit ansehen zu müssen! Ich hatte es doch besser.<lb/>
+               u. vergißt noch leichter. Es thut mir in der Seele weh,<lb/> diesen Gymnasialja<c rendition="#gemination-m">mm</c>er mit ansehen zu müssen! Ich hatte es doch besser.<lb/>
                <rs type="person" ref="#pmb36699">Julie</rs> bringt zweifelhafte Nachrichten aus dem
                   <rs type="place" ref="#pmb533">Cottage</rs> nach Hause.<lb/> Die Baustellen, die
-               uns gefallen, sind entweder unverkäuflich oder<lb/> zu teuer. Im <rs type="place"
-                  ref="#pmb14">Burgtheater</rs> die <rs type="person" ref="#pmb12618">Sandrock</rs>
+               uns gefallen, sind entweder unverkäuflich oder<lb/> zu teuer. Im <rs type="place" ref="#pmb14">Burgtheater</rs> die <rs type="person" ref="#pmb12618">Sandrock</rs>
                eine ordinäre Medea<note type="editorische-anmerkung">Adele Sandrock spielte die
-                  Hauptrolle in Franz Grillparzers gleichnamigen Trauerspiel <rs type="work"
-                     ref="#pmb31225">Medea</rs>.</note>. Der<lb/> besorgte <rs type="person"
-                  ref="#pmb11036" subtype="implied">Director</rs> erkundigt sich im Zwischenacte bei
+                  Hauptrolle in Franz Grillparzers gleichnamigen Trauerspiel <rs type="work" ref="#pmb31225">Medea</rs>.</note>. Der<lb/> besorgte <rs type="person" ref="#pmb11036" subtype="implied">Director</rs> erkundigt sich im Zwischenacte bei
                mir nach ihrem<lb/> kritischen Befinden. Ich sage ihm unverblümt meine Meinung,
                lege<lb/> mir aber in der Nachtnotiz schonenden Zwang auf.</p>
          </div>

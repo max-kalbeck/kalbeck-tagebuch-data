@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -40,31 +40,19 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
-                           <handNote xml:id="hand__unbekannt" medium="Bleistift"
-                              style="lateinische-kurrent">unbekannte Schreiber_in, möglicherweise
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__unbekannt" medium="Bleistift" style="lateinische-kurrent">unbekannte Schreiber_in, möglicherweise
                               Julie Kalbeck oder Sidonie Kantor</handNote>
-                           <handNote xml:id="hand__wallach" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Hermine Wallach</handNote>
-                           <handNote xml:id="hand__joachim" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Joseph Joachim</handNote>
-                           <handNote xml:id="hand__kruse" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Johann Kruse</handNote>
-                           <handNote xml:id="hand__brüll" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Ignaz Brüll</handNote>
-                           <handNote xml:id="hand__wirth" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Emanuel Wirth</handNote>
-                           <handNote xml:id="hand__singer" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Wilhelm Singer</handNote>
-                           <handNote xml:id="hand__ganghofer" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Ludwig Ganghofer</handNote>
-                           <handNote xml:id="hand__mariebrüll" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Marie Brüll</handNote>
-                           <handNote xml:id="hand__hausmann" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Robert Hausmann</handNote>
-                           <handNote xml:id="hand__brahms" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Unterschrift Johannes Brahms</handNote>
+                           <handNote xml:id="hand__wallach" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Hermine Wallach</handNote>
+                           <handNote xml:id="hand__joachim" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Joseph Joachim</handNote>
+                           <handNote xml:id="hand__kruse" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Johann Kruse</handNote>
+                           <handNote xml:id="hand__brüll" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Ignaz Brüll</handNote>
+                           <handNote xml:id="hand__wirth" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Emanuel Wirth</handNote>
+                           <handNote xml:id="hand__singer" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Wilhelm Singer</handNote>
+                           <handNote xml:id="hand__ganghofer" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Ludwig Ganghofer</handNote>
+                           <handNote xml:id="hand__mariebrüll" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Marie Brüll</handNote>
+                           <handNote xml:id="hand__hausmann" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Robert Hausmann</handNote>
+                           <handNote xml:id="hand__brahms" medium="schwarze Tinte" style="lateinische-kurrent">Unterschrift Johannes Brahms</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -72,38 +60,43 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
-   </teiHeader>
+    <encodingDesc>
+         <styleDefDecl scheme="css" default="false"/>
+         <tagsDecl>
+            <rendition xml:id="center" scheme="css">text-align:center</rendition>
+            <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+            <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+            <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+            <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+            <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+            <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+            </handNote>
+         </handNotes>
+      </profileDesc>
+      </teiHeader>
    <facsimile>
       <graphic url="kalbeck_2__0003_b"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head><rs type="event" ref="#pmb363617">Tafelrunde vom 31. Decbr. 1896.</rs><note
-                  type="editorische-anmerkung">Diese Zeile schrieb Kalbeck mit feinerer Feder und
+            <head><rs type="event" ref="#pmb363617">Tafelrunde vom 31. Decbr. 1896.</rs><note type="editorische-anmerkung">Diese Zeile schrieb Kalbeck mit feinerer Feder und
                   somit möglicherweise nicht zeitgleich mit dem Eintrag darunter.</note></head>
             <p hand="#kalbeck">Das alte Jahr, in dem ich leider kein Tagebuch geführt<lb/> habe,
                   versa<c rendition="#gemination-m">mm</c>elte die Unterzeichneten an seinem
-               letzten<lb/> Tage um meinen Tisch.<note type="comment"><rs type="place"
-                     ref="#pmb199320">Wien, Porzellangasse 48</rs>.</note>
+               letzten<lb/> Tage um meinen Tisch.<note type="comment"><rs type="place" ref="#pmb199320">Wien, Porzellangasse 48</rs>.</note>
                <rs type="person" ref="#pmb10989">Brahms</rs> war wieder schwächer,<lb/> weil er sich
-               am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/> probe<note
-                  type="comment">Probe des <rs type="institution" ref="#pmb294066"
-                     >Joachim-Quartetts</rs>.</note> zu viel zugemutet hatte. Er ließ es sich aber
-               sehr<lb/> gut schmecken u. rief einmal begeistert aus: „Ach, eine X<note
-                  type="editorische-anmerkung">Das Bleistiftkreuz verweist auf den Kommentar von
+               am Vormittage mit Spaziergängen u. Quartett-<lb break="no"/> probe<note type="comment">Probe des <rs type="institution" ref="#pmb294066">Joachim-Quartetts</rs>.</note> zu viel zugemutet hatte. Er ließ es sich aber
+               sehr<lb/> gut schmecken u. rief einmal begeistert aus: „Ach, eine X<note type="editorische-anmerkung">Das Bleistiftkreuz verweist auf den Kommentar von
                   unbekannter Hand direkt unter Kalbecks Eintrag.</note><lb/> Frau zu sein, die gut
                kochen kann, ist doch das Höchste!“ Den<lb/>
-               <rs type="event" ref="#pmb363605">Sylvesterabend</rs> verbrachten wir bei <rs
-                  type="person"
-                  ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538"
-                  >Kantor’s</rs>.<note type="editorische-anmerkung">In seiner Brahms-Biografie
+               <rs type="event" ref="#pmb363605">Sylvesterabend</rs> verbrachten wir bei <rs type="person" ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538">Kantor’s</rs>.<note type="editorische-anmerkung">In seiner Brahms-Biografie
                   zitiert Kalbeck, die Namen der Frauen auslassend, aus seinem Tagebuch wie folgt:
                   „Auf der ersten Seite stehen die eigenhändig eingeschriebenen Namen: Josef
                   Joachim, Johann Kruse, Emanuel Wirth, Robert Hausmann, Ignaz Brüll, Ludwig
