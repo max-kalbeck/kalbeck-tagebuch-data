@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Comon header elements</title>
-          <respStmt>
-            <resp>Data modelling</resp>
-            <persName ref="https://orcid.org/0000-0002-8815-6741">Fernando Sanz-Lázaro</persName>
-          </respStmt>
-      </titleStmt>
-      <publicationStmt>
-       <publisher>Austrian Centre for Digital Humanities</publisher>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Born digital</p>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-        </handNote>
-      </handNotes>
-    </profileDesc>
-    <encodingDesc>
-      <styleDefDecl scheme="css" default="false"/>
-      <tagsDecl>
-        <rendition xml:id="center" scheme="css">text-align:center</rendition>
-        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
-        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
-        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
-        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
-        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
-        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
-      </tagsDecl>
-    </encodingDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Text.</p>
-    </body>
-  </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Comon header elements</title>
+            <respStmt>
+               <resp>Data modelling</resp>
+               <persName ref="https://orcid.org/0000-0002-8815-6741">Fernando Sanz-Lázaro</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+            </handNote>
+         </handNotes>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" default="false"/>
+         <tagsDecl>
+            <rendition xml:id="center" scheme="css">text-align:center</rendition>
+            <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+            <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+            <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+            <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+            <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+            <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Text.</p>
+      </body>
+   </text>
 </TEI>
