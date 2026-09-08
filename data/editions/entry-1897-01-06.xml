@@ -77,7 +77,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>6 Januar</head>
-            <p><seg rendition="#left">Mittwoch.</seg><lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
+            <p>Mittwoch.<lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs type="person" ref="#pmb11578">Hanslick</rs>, <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de
                   Pott</rs> nach <rs type="place" ref="#pmb445">Rom</rs> expedirt. (kommt
                voraussichtlich<lb/> zu spät) Ich schrieb: <foreign xml:lang="fr">Travailler c’est
                   vivre! Mais travailler<lb/> pour vivre – quelle détestable
@@ -86,11 +86,10 @@
                Antwort an den<lb/> Ingenieur Beck, der seine Vorfahren in den Dörfern um <rs type="place" ref="#pmb677">Breslau</rs><lb/> herum sucht u. mich bittet, ihm dabei
                zu helfen. Was die Menschen<lb/> alles von einem verlangen! <rs type="person" ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/>
                siastischen Dankbrief aus <rs type="place" ref="#pmb445">Rom</rs> über den i. Act.
-               Nachmittag die<lb/> „<rs type="work" ref="#pmb30421">Fledermaus</rs>“ in der Hofoper.
-               Entzückt von Rosalinde – Renard.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich
-               schreibe ein sehr<lb/> schwärmerisches Referat u. gehe zu <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. Zellner wieder<lb/> auf den Beinen.
-               Poetisches Après-souper in <rs type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/>
-               Goethe’sche Gedichte. Sehr spät heim.</p>
+               Nachmittag die<lb/> „<rs type="event" ref="#pmb364469">Fledermaus</rs>“ in der <rs type="place" ref="#pmb15">Hofoper</rs>. Entzückt von Rosalinde – Renard<note type="editorische-anmerkung">Rosalinde und Renard sind Rollen in der Operette <rs type="work" ref="#pmb30421">Die Fledermaus</rs> von Johann Strauss
+                  (Sohn).</note>.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich schreibe ein
+               sehr<lb/> schwärmerisches Referat u. gehe zu <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. <rs type="person" ref="#pmb194803">Zellner</rs> wieder<lb/> auf den Beinen. Poetisches Après-souper in <rs type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/> Goethe’sche Gedichte. Sehr
+               spät heim.</p>
          </div>
       </body>
    </text>
