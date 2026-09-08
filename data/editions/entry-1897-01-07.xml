@@ -48,12 +48,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift </handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -65,10 +65,12 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>7 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
-                  etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische
-                  Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Donnerstag.<lb/>Meiner Büste ist der Sockel zersprungen. Ich
-               muß sie herunter<lb/> nehmen und, in Kissen gehüllt, auf den Divan legen. So
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note
+                     type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+                     etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine
+                     biographische Arbeit zu Johannes Brahms als relevant
+               erachtete.</note></add><lb/>Donnerstag.<lb/>Meiner Büste ist der Sockel zersprungen.
+               Ich muß sie herunter<lb/> nehmen und, in Kissen gehüllt, auf den Divan legen. So
                sehe<lb/> ich mich selbst als Leiche auf dem Paradebette, u. wäre ich aber-<lb
                   break="no"/> gläubisch, so würde ich aus d. Malheur, das wahrscheinl.<lb/> an
                meinem Geburtstage<note type="editorische-anmerkung">Max Kalbecks 47. Geburtstag war
