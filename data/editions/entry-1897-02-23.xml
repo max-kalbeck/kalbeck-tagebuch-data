@@ -75,7 +75,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>23 Februar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Dinstag.</seg><lb/>Noch einmal in der Schubert-Ausstellung, die am 28. Febr.<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#left">Dinstag.</seg><lb/>Noch einmal in der Schubert-Ausstellung, die am 28. Febr.<lb/>
 geschlossen wird. Physiognomische Studien. Das hervorstehende<lb/>
 Kinn bei der Mehrzal der Schubert’schen Zeitgenossen. <rs type="person" ref="#pmb10989">Brahms</rs><lb/>
 mit Wagen zu uns abgeholt. Er soll sich von heute an<lb/>
