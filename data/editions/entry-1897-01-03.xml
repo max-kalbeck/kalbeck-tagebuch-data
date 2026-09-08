@@ -48,12 +48,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift </handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -65,7 +65,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>3 Januar</head>
-            <p>Sonntag.<lb/>Den i. Act v. <rs type="work" ref="#pmb299513">„Stillen Dorfe“</rs> an
+            <p>Sonntag.<lb/>Den i. Act v. „<rs type="work" ref="#pmb299513">Stillen Dorfe</rs>“ an
                   <rs type="person" ref="#pmb299510">Fielitz</rs> nach <rs type="place"
                   ref="#pmb445">Rom</rs> spedirt. Zu Mittag<lb/> mit <rs type="person"
                   ref="#pmb10989">Brahms</rs>, <rs type="person" ref="#pmb13044">Walter</rs>, <rs
@@ -87,8 +87,8 @@
                   >Sonnenthal</rs>, der uns (ebenfalls vergeblich) vor ein paar Tagen zu<lb/> Tisch
                gebeten hatte. Er erschöpft sich in Liebenswürdigkeiten u. Beteuerungen<lb/> seiner
                Freundschaft. (Im Novbr. hat er an einem Vortragsabend der <rs type="institution"
-                  ref="#pmb340015">Literar.<lb/> Gesellschaft</rs> Einiges aus meinen <rs
-                  type="work" ref="#pmb353046">„Humoresken u. Phantasien“</rs> vorgelesen,<lb/>
+                  ref="#pmb340015">Literar.<lb/> Gesellschaft</rs> Einiges aus meinen „<rs
+                  type="work" ref="#pmb353046">Humoresken u. Phantasien</rs>“ vorgelesen,<lb/>
                nachdem Dr. <rs type="person" ref="#pmb28523">Necker</rs> die übl. Rede über mich
                gehalten hatte. Ich war unterdessen<lb/> in einem Concert). Wir beneiden ihn um sein
                schönes stilles Haus u. werden<lb/> von <rs type="person" ref="#pmb27397 #pmb27383"

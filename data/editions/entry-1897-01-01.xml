@@ -48,12 +48,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift </handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-23">Dokument angelegt</change>
       </revisionDesc>
@@ -67,8 +67,8 @@
             <head>1 Januar</head>
             <p><rs rend="right">Freitag.</rs><lb/> Das neue Jahr fange ich mit einem Absagebrief
                an<lb/> Frau <rs type="person" ref="#pmb12205">Jenny Mautner</rs> an, die uns zum
-               Diner geladen hatte.<lb/> Ich mache die Abschrift des I Actes vom <rs type="work"
-                  ref="#pmb299513">„Stillen Dorfe“</rs> fertig,<lb/> den ich in <rs type="place"
+               Diner geladen hatte.<lb/> Ich mache die Abschrift des I Actes vom „<rs type="work"
+                  ref="#pmb299513">Stillen Dorfe</rs>“ fertig,<lb/> den ich in <rs type="place"
                   ref="#pmb662">Baden</rs> am Montag u. Dinstag geschrieben habe.<lb/> Nach Tisch
                Excursion nach <rs type="place" ref="#pmb69">Döbling</rs> mit obligatem Häuser-<lb
                   break="no"/> u. Wohnungsinspiciren. Bei <rs type="person"
