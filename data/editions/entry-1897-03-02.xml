@@ -62,7 +62,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>2 März</head>
-            <p><metamark hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></metamark><lb/>Dinstag.<lb/>Vor <rs type="place" ref="#pmb340860">Brahms’ Hause</rs> treffe ich mit Alb. Gutmann u. Concert-<lb break="no"/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Dinstag.<lb/>Vor <rs type="place" ref="#pmb340860">Brahms’ Hause</rs> treffe ich mit Alb. Gutmann u. Concert-<lb break="no"/>
 director Wolff a. <rs type="place" ref="#pmb168">Berlin</rs> zusammen. Sie erzälen, daß sie gestern mit<lb/>
 ihm eine Stunde im Prater spazieren gegangen seien (die Miller’sche<lb/>
 Equipage fuhr daneben) er sei munter u. guter Dinge gewesen.<lb/>
