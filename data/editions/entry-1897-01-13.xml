@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
+            <title type="iso-date" when-iso="1897-01-13" n="01"/>
+            <title level="a">Mittwoch, 13. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css" default="false"/>
+      <tagsDecl>
+        <rendition xml:id="center" scheme="css">text-align:center</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+        </handNote>
+      </handNotes>
+    </profileDesc>
+    <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0010_b"/>
+      <graphic url="kalbeck_2__0011_a"/>
+   </facsimile>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>13 Januar</head>
+            <pb corresp="#facs-01"/>
+            <p>Mittwoch.<lb/>Der Kauf ist perfect geworden, u. wir sind seit heute Grundbe-<lb break="no"/>
+               sitzer, sehr kleine Kleingrundbesitzer: 360 □ Kl. in der Wüste.<lb/> Meine Idee von
+               einem ähnl., zum Scherz erworbenen<lb/> Ackerlande, das nach vielen Jahren d.
+               bedrängten Kindern eines<lb/> längst verstorbenen leichtsinnigen Planes zu statten
+               kommt. Wieder<lb/> ein Novellchen! Im <rs type="place" ref="#pmb533">Cottage</rs> will ich mir eine Pflanzstätte von<lb/>
+               lustigen Gewächsen einrichten, ein Obstgärtlein der Literatur,<lb/> in dem ich ein
+               paar Wildlinge durch Pfropfreise veredle.<lb/> Wären wir nur erst draußen! – Um 10
+               Uhr wieder ins Archiv,<lb/> um Schubert-Studien zu machen. Ich bringe Mandyczewski
+               ein<lb/> Exemplar d. <rs type="work" ref="#pmb353046">„Humoresken“</rs> – u. er
+               gesteht mir lachend, daß er<lb/> zu Weihnachten zwei Exle. verschenkt habe. Ein
+               lieber<lb/> Kerl. Allerlei Schubertgespräche. Zwei himmlische Geschichten:<lb/> 1.
+               Brahms u. die Schubert-Ausgabe. Er hatte die Revision der<lb/> Symphonien übernommen.
+               Dann ärgerte ihn die Geschichte u. war ihm<lb/> zu langweilig. Was thut er? Er läßt
+               die Partituren vom Copisten<lb/> abschreiben u. schickt sie in den Verlag. In Folge
+               dessen mußten<lb/> sämmtliche Platten zu d. ersten beiden Bänden hinterdrein neu
+               gestochen,<lb/> die bereits fertigen Exempl. aber vernichtet werden. <rs type="person" ref="#pmb99629">Mandycz.</rs>
+               hat<lb/> dann die Arbeit, die <rs type="person" ref="#pmb10989">Br.</rs> stillschweigend unterließ, nachgeliefert.<lb/> 2.
+               In Bonn wird vor ein paar Wochen die vermißte Schubertsche<lb/> Symphonie (1825)
+               gefunden: eine Orchesterpartitur des C-Dur-<lb break="no"/> Quintetts! Deiters u.
+               Friedländer in <rs type="place" ref="#pmb168">Berlin</rs> erheben ein Triumph-<lb break="no"/> geschrei. Friedl. ist von
+               dem herrl. Orchestersatz entzückt u. stimmt<lb/> in die von Bonn ausgegebene Parole
+               ein: das Quintett sei nur<lb/> ein Arrangement. Bei näherer Besichtigung des Fundes
+               durch <rs type="person" ref="#pmb10989">Brahms</rs></p>
+            <pb corresp="#facs-02"/>
+            <p>
+               und <rs type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl. Original die<lb/>
+               elende Stümperei eines militärcapellmeistermäßigen Instrumenta-<lb break="no"/>
+               tors ist, der so unmusikalisch war, daß er nicht einmal wußte,<lb/>
+               was Melodie ist. So würden die langen Noten am Anfange d. I Satzes<lb/>
+               als tremolo d. Geigen gesetzt; dann finden sich Hörner, Clarinetten<lb/>
+               u. Fagotten in Verdoppelungen à la Meyerbeer etc. Friedl.<lb/>
+               der „Docent. d. Musikgesch. a. d. Berliner Universität“, hat sich<lb/>
+               grimmig blamirt. Bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. Gänsbacher, Loewe, Mosé, <rs type="person" ref="#pmb2202">Singer</rs> etc.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

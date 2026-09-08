@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
+            <title type="iso-date" when-iso="1897-03-24" n="01"/>
+            <title level="a">Mittwoch, 24. März 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css" default="false"/>
+      <tagsDecl>
+        <rendition xml:id="center" scheme="css">text-align:center</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+        </handNote>
+      </handNotes>
+    </profileDesc>
+    <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0045_a"/>
+   </facsimile>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>24 März</head>
+            <p>[ganz oben auf der Seite geschrieben]<lb/>
+x) Auch mir hat er, da er heute bei uns sein sollte, eine Karte geschickt, auf<lb/>
+der mit zitteriger Schrift zu lesen steht: „Mittwoch leider unmöglich Ihrem<lb/>
+immer mehr auf den / Hund kommenden J. B.“<lb/>
+<add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Mittwoch.<lb/>
+Der gestrige Arbeitstag liegt mir schwer in Kopf und Gliedern.<lb/>
+<rs type="person" ref="#pmb19070">Rosl</rs> kommt betrübt mit einem Absagebrief von <rs type="person" ref="#pmb10989">Brahms</rs>,<lb/>
+der sehr traurig ist.x) Er fühlt sich so schwach, daß er morgen nicht<lb/>
+zum Speisen kommen will. <rs type="person" ref="#pmb36699">Julie</rs> u. ich gehen in Folge dessen<lb/>
+gleich nach Tische zu ihm, um directe Erkundigungen einzuziehen.<lb/>
+Da <rs type="person" ref="#pmb10989">Br.</rs> gerade schläft, führt uns Frau Truxa in ihr Zimmer.<lb/>
+Sie erzält uns viel von ihm, seiner Achtung und Rücksicht für<lb/>
+sie und ihre Kinder. Seit vielen Jahren habe er den Weihnachts-<lb break="no"/>
+abend bei sich zu Hause zugebracht. Am 24. Dcbr. habe sie immer<lb/>
+den Weihnachtsbaum in sein Zimmer stellen müssen, und dort<lb/>
+sei dann für ihre Jungen einbeschert worden. Als sie es am letzten<lb/>
+heil. Abend mit Rücksicht auf seine Krankheit unterlassen<lb/>
+habe, sei er gekränkt gewesen u. habe sich erst bei der Notlüge<lb/>
+beruhigt, daß der Baum noch nicht gekauft worden sei. Manchmal<lb/>
+sei dann <rs type="person" ref="#pmb10989">Br.</rs> nach der Einbescherung noch zu Fellinger’s gegangen. –<lb/>
+(Auch bei uns war er einmal an einem Weihnachtsabend mit<lb/>
+<rs type="person" ref="#pmb346028">Schneegans</rs> zus.: aber wann?) <rs type="person" ref="#pmb10989">Br.</rs> erzälte mir gelegentlich, daß<lb/>
+er das schöne Quartett „Heimat“ an einem einsamen Weihnachts-<lb break="no"/>
+abende componirt hat. – Frau Truxa sagt, daß <rs type="person" ref="#pmb10989">Br.</rs> nur noch mit<lb/>
+Faber’s, Fellinger’s u. Miller’s verkehre, die ihn im Wagen abholen u. heimbringen.<lb/>
+Er macht sich ein Gewissen daraus, den Wagen F.’s zu benutzen, weil dieser<lb/>
+zu Geschäftszwecken gebraucht werde. Miller hat ihm eingeredet, er fahre so<lb/>
+wie so jeden Tag spazieren, u. <rs type="person" ref="#pmb10989">Br.</rs> thue ihm einen Gefallen, wenn er mitkäme.<lb/>
+Seine Scheu jemand zu incommodiren. Jetzt ißt er fast gar nichts mehr u. lebt<lb/>
+von einem Teller Suppe, den er jeden Abend auslöffelt. Austern u. Caviar<lb/>
+vertragen die Jahreszeit nicht mehr; sie waren seine letzte Nahrung. – Am</p>
+         </div>
+      </body>
+   </text>
+</TEI>

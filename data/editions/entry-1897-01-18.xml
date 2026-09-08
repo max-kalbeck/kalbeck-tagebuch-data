@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Digitale Edition des Tagebuchs von Max Kalbeck (1895/1897)</title>
+            <title type="iso-date" when-iso="1897-01-18" n="01"/>
+            <title level="a">Montag, 18. Jänner 1897</title>
+            <author ref="#pmb11857">Kalbeck, Max</author>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <funder ref="https://d-nb.info/gnd/2054142-9">
+               <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country ref="https://sws.geonames.org/2782113">Österreich</country>
+                        <settlement ref="https://sws.geonames.org/2761369">Wien</settlement>
+                        <repository>Privatbesitz</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <ab>Beschreibung der Quelle</ab>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css" default="false"/>
+      <tagsDecl>
+        <rendition xml:id="center" scheme="css">text-align:center</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="vertical" scheme="css">writing-mode: vertical-rl;</rendition>
+        <rendition xml:id="right-margin" scheme="css">absolute; right: 0;</rendition>
+        <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
+        <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
+        <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
+        </handNote>
+      </handNotes>
+    </profileDesc>
+    <revisionDesc status="wip">
+         <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0013_a"/>
+   </facsimile>
+   <text>
+      <body>
+         <div hand="#hand__kalbeck">
+            <head>18 Januar</head>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>Montag.<lb/>Gegenbesuch bei Schriftsteller Telmann in der Gonzagagasse.<lb/>
+Er heißt eigentl. Theumann. In seiner Abwesenheit erkläre<lb/>
+ich seiner Schwester, daß ich mich gern den gegen die Theatercensur<lb/>
+gerichteten Bestrebungen anschließe, weder aber ein Amt in<lb/>
+Comité noch Einladungen zu Versammlungen annehmen kann,<lb/>
+da ich für dergl. keine Zeit habe. Auf dem Bureau längeres<lb/>
+Gespräch mit <rs type="person" ref="#pmb2202">Singer</rs> über die internen Verhältnisse der Zeitung.<lb/>
+Wir hatten gestern eine Nummer von 60 Seiten u. eine Auflage<lb/>
+von 65000 Exempl. Karpath will sich durchaus nicht nach Pest<lb/>
+schicken lassen, trotzdem ihm Alles gut zuredet; er wird bald zwischen<lb/>
+zwei Stühlen sitzen. Verwickelter, labyrinthischer Gassenspazier-<lb break="no"/>
+gang zu Conrat’s, die schon mit <rs type="person" ref="#pmb10989">Brahms</rs> bei Tische sitzen.<lb/>
+Er erzält, daß er die ganze vorige Nacht kein Auge zu gethan<lb/>
+habe. Gleichwol ist er ziemlich munter und sieht wieder etwas<lb/>
+voller aus. Bei Tische viel gelacht mit <rs type="person" ref="#pmb99629">Mandyczewski</rs>, dem<lb/>
+jungen Leipziger Doctor. Sein Bericht über die Reise des Dr.<lb/>
+Kraus nach Bayreuth u. dessen Aufenthalt bei Frau Cosima.<lb/>
+Kr. ist aufgefordert worden, den Gurnemanz zu singen, u. bedankt<lb/>
+sich bei Frau Cosima damit, daß er ihr einen ganzen Abend in<lb/>
+Wahnfried Lieder von Brahms zu hören giebt. Dann mit<lb/>
+<rs type="person" ref="#pmb36699">Julie</rs> in der Bank Geld erhoben. Jeder Hunderter thut mir weh, den<lb/>
+ich mir herauszalen lassen muß. Wenn erst die Tausender daran<lb/>
+kommen werden! Briefe an Mama, Breitkopf u. H., Oberregisseur<lb/>
+Bachmann i. Stuttgart, Margarete Schutz, Alice Pollak.<lb/>
+Im Concert Sauer mit <rs type="person" ref="#pmb19070">Rosl</rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
