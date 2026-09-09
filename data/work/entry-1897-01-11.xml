@@ -56,11 +56,13 @@
    </teiHeader>
    <facsimile>
       <graphic url="kalbeck_2__0009_b"></graphic>
+      <graphic url="kalbeck_2__0009_a"></graphic>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>11 Januar</head>
+            <pb corresp="#facs-01"/>
             <p><seg rendition="#">Montag.</seg><lb/>Ilona Eibenschütz sendet uns von London ihre Photographie.<lb/>
 Früh mit <rs type="person" ref="#pmb36699">Julie</rs> in die Baukanzlei des <rs type="institution" ref="#pmb250944">Cottage-Vereins</rs>. Wir<lb/>
 entschließen uns den verhältnismäßig großen Platz (360 □ Kl.) in der<lb/>
@@ -87,6 +89,12 @@ mehr von sich, schwimmt müde, selbstzufrieden u. satt in seinem<lb/>
 Fette. Hofmann, der Ex-Coupletsänger, Priester, der Ex-Lustig-<lb break="no"/>
 macher, Adele, die Ex-Königin, lauter passirte Größen! Der arme<lb/>
 Jean macht einen mumienhaften Eindruck. <rs type="person" ref="#pmb11402 #pmb335064">Ganghofer’s</rs> die einzige Lebendigen.</p>
+<pb corresp="#facs-02"/>
+<p>
+   Dazu Bilder aus d. Kinematographen: das rauschende Fest …<lb/> Thema: Die Ex-Lebendigen. Marquis B., der junge Gatte ruht sich<lb/>
+               <span style="writing-mode: vertical-lr; text-orientation: sideways-left">auf d. Lande
+                  vom Nicht-Arbeiten aus. Ein seltsames Haus.</span>
+</p>
          </div>
       </body>
    </text>
