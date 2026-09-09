@@ -60,7 +60,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+      <encodingDesc>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
