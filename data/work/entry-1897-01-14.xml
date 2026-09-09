@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-14" n="01"/>
             <title level="a">Donnerstag, 14. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -45,40 +48,46 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0011_a"></graphic>
+      <graphic url="kalbeck_2__0011_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>14 Januar</head>
-            <p>Donnerstag.
+            <p><seg rendition="#left">Donnerstag.</seg><lb/>
                <floatingText type="previous-entry" corresp="entry-1897-01-13.xml">
                   <body>
                      <ab>
-                        <lb/>und <rs type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl. Original die
-                        <lb/>elende Stümperei eines militärcapellmeistermäßigen Instrumenta-
-                        <lb break="no"/>tors ist, der so unmusikalisch war, daß er nicht einmal wußte,
-                        <lb/>was Melodie ist. So würden die langen Noten am Anfange d. I Satzes
-                        <lb/>als tremolo d. Geigen gesetzt; dann finden sich Hörner, Clarinetten
-                        <lb/>u. Fagotten in Verdoppelungen à la Meyerbeer etc. Friedl.
-                        <lb/>der „Docent. d. Musikgesch. a. d. Berliner Universität“, hat sich
-                        <lb/>grimmig blamirt. Bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. Gänsbacher, Loewe, <rs type="person" ref="#pmb363714">Mosé</rs>, <rs type="person" ref="#pmb2202">Singer</rs> etc.
-                     </ab>
+                        <lb/>und <rs type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß
+                        das vermeintl. Original <del><unclear>die</unclear></del><lb/> elende
+                        Stümperei eines militärcapellmeistermäßigen Instrumenta-<lb break="no"/>
+                        tors ist, der so unmusikalisch war, daß er nicht einmal wußte,<lb/> was
+                        Melodie ist. <del>Die</del>
+                        <add place="above">So würden die</add> langen Noten am Anfange d. I
+                        Satzes<lb/> als tremolo d. Geigen gesetzt; dann finden sich Hörner,
+                        Clarinetten<lb/> u. Fagotten in Verdoppelungen à la <rs type="person"
+                           ref="#pmb8931">Meyerbeer</rs> etc. <rs type="person" ref="#pmb16647"
+                           >Friedl.</rs><lb/> der „Docent. d. Musikgesch. a. d. Berliner
+                        Universität“, hat sich<lb/> grimmig blamirt. Bei <rs type="person"
+                           ref="#pmb174597 #pmb160741">Kantor’s</rs>. Gänsbacher, Loewe, <rs
+                           type="person" ref="#pmb363714">Mosé</rs>, <rs type="person"
+                           ref="#pmb2202">Singer</rs> etc. </ab>
                   </body>
                </floatingText>
-               <lb/>Donnerstag: Im Archiv gearbeitet. + Einladung vom Bürgermeister
-               <lb/>zur Eröffnung der Schubert-Ausstellung. Werde mir die Herrlichkeit
-               <lb/>später für mich besehen. Quartett Hellmesberger.</p>
+               <lb/>Donnerstag: Im Archiv gearbeitet. + Einladung vom Bürgermeister <lb/>zur
+               Eröffnung der Schubert-Ausstellung. Werde mir die Herrlichkeit <lb/>später für mich
+               besehen. Quartett Hellmesberger.</p>
          </div>
       </body>
    </text>
