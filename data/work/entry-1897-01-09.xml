@@ -48,11 +48,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -64,12 +65,14 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>9 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
-                  etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische
-                  Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Samstag.</seg><lb/>Spaziergang ins <rs type="place" ref="#pmb533"
-                  >Cottage</rs> zu Folge eines Briefes v. <rs type="person" ref="#pmb21717">Dir.
-                  Müller</rs>.<lb/> Der Bauplatz in der <rs type="place" ref="#pmb92168"
-                  >Blaasgasse</rs> gefällt mir nicht; was man hier<lb/> auf Trottoir,
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note
+                     type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+                     etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische
+                     Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg
+                  rendition="#right">Samstag.</seg><lb/>Spaziergang ins <rs type="place"
+                  ref="#pmb533">Cottage</rs> zu Folge eines Briefes v. Dir. <rs type="person"
+                  ref="#pmb21717">Müller</rs>.<lb/> Der Bauplatz in der <rs type="place"
+                  ref="#pmb92168">Blaasgasse</rs> gefällt mir nicht; was man hier<lb/> auf Trottoir,
                Baumanpflanzung u. Einfriedigung ausgeben müßte,<lb/> gewänne man in der <rs
                   type="place" ref="#pmb342">Carl Ludwig str.</rs> an Bequemlichkeit und<lb/>
                Regelmäßigkeit. Ueberdies liegt die Ecke nach N. u. W, u.<lb/> alle Stürme sagen dort
@@ -92,18 +95,22 @@
                <rs type="place" ref="#pmb20">Volkstheater</rs> u. dann noch zum Souper bei <rs
                   type="place" ref="#pmb29">Sacher</rs> kommen. Er<lb/> stellt sich auch pünktlich
                in der Loge ein u. klatscht <rs type="person" ref="#pmb11402">Ganghofer</rs>
-               viel<lb/> Beifall. Der arme Teufel konnte ihn brauchen, denn es fehlte wenig,<lb/> so
-               wäre <rs type="work" ref="#pmb77510">„Meerleuchten“</rs> schief gegangen. Genau wie
-               ich es mir,<lb/> als ich das Stück im Manuscr. gelesen, gedacht hatte, war es
-               auf<lb/> der Bühne. <del><unclear>Meiner</unclear></del><add place="above">Von
-                  meinen</add> Bedenken gegen die mittleren Acte wollte <rs type="person"
-                  ref="#pmb11402">G.</rs> damals<lb/> nichts wissen. Jetzt sieht er seinen Irrtum
-               ein. Guter Rat hilft keinem<lb/> Dichter, man erzürnt sie nur, u. sie machen dann
-               doch, was sie wollen.<lb/>
-               <rs type="person" ref="#pmb10989">Brahms</rs>, <add place="inline">mit dem dies lange
-                  hin u. her besprochen wurde,</add> hält bis nach 12 Uhr bei Sacher Stand, u.
-               besteht darauf, nach<lb/> Hause zu <hi rend="underline">gehen</hi>, so daß ich ihn zu
-               Fuße, trotz heftigen Sturmes, begleite.</p>
+               viel<lb/> Beifall. Der arme Teufel konnte ihn brauchen; denn es fehlte
+                     <del><unclear>auch</unclear></del> wenig,<lb/> so wäre „<rs type="work"
+                  ref="#pmb77510">Meerleuchten</rs>“ schief gegangen. Genau wie ich es mir,<lb/> als
+               ich das Stück im Manuscr. gelesen, gedacht hatte, war es auf<lb/> der Bühne.
+                     <del><unclear>Meiner</unclear>
+               </del><add place="above">Von meinen</add> Bedenken gegen die mittleren Acte wollte
+                  <rs type="person" ref="#pmb11402">G.</rs> damals<lb/> nichts wissen. Jetzt sieht
+               er seinen Irrtum ein. Guter Rat hilft keinem<lb/> Dichter, man erzürnt sie nur, u.
+               sie machen dann doch, was sie wollen.<lb/>
+               <rs type="person" ref="#pmb10989">Brahms</rs>, <add place="above">mit dem dies lange
+                  hin u. her besprochen wurde,</add> hält bis nach 12 Uhr bei <rs type="place"
+                  ref="#pmb29">Sacher</rs> Stand, u. <subst>
+                  <del rend="overwritten">ich</del>
+                  <add place="inline">be</add>
+               </subst>steht darauf, nach<lb/> Hause zu <hi rend="underline">gehen</hi>, so daß ich
+               ihn zu Fuße, trotz heftigen Sturmes, begleite.</p>
          </div>
       </body>
    </text>
