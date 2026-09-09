@@ -78,7 +78,7 @@
          <div hand="#hand__kalbeck">
             <head>12 März</head>
             <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Freitag.</seg><lb/>An Brahm nach <rs type="place" ref="#pmb168">Berlin</rs> geschrieben mit der Bitte einen<lb/> eingelegten Brief an
-               Gerhart Hauptmann zu schicken. Ich<lb/> habe bei ihm angefragt, ob ich mit meiner
+               <rs type="person" ref="#pmb11617">Gerhart Hauptmann</rs> zu schicken. Ich<lb/> habe bei ihm angefragt, ob ich mit meiner
                Hypothese, daß er<lb/> sein Drama als Traumdichtung à la Hannele concipirt habe,<lb/>
                auf der richtigen Spur bin. Mittags bei Ignaz Brüll mit<lb/> Carl Reinecke u.
                   Frau.<note>Am 12. März datiert auch ein Eintrag Carl Reineckes im Stammbuch von
