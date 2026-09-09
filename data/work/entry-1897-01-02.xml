@@ -51,7 +51,7 @@
       <profileDesc>
          <handNotes>
             <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift </handNote>
+               Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift</handNote>
          </handNotes>
       </profileDesc>
       <revisionDesc status="wip">
@@ -65,11 +65,11 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>2 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note
-                     type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
-                     etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine
-                     biographische Arbeit zu Johannes Brahms als relevant
-                  erachtete.</note></add><lb/> <seg rendition="#">Samstag.</seg><lb/> Sonett an Frau <rs type="person"
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung"
+                     >Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck
+                     Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als
+                     relevant erachtete.</note></add><lb/>
+               <seg rendition="#right">Samstag.</seg><lb/> Sonett an Frau <rs type="person"
                   ref="#pmb24467">Hermine Wallach</rs> als Dank für eine<lb/> Partie Nürnberger
                Lebkuchen. Um ½ 11 Uhr zu <rs type="person" ref="#pmb18873">Joachim</rs><lb/> ins <rs
                   type="place" ref="#pmb92294">Hotel Tegetthoff</rs>. Generalprobe für d. heutigen

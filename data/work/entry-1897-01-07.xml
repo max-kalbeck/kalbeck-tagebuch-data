@@ -48,12 +48,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -65,10 +65,12 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>7 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
-                  etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biographische
-                  Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Donnerstag.</seg><lb/>Meiner Büste ist der Sockel zersprungen. Ich
-               muß sie herunter<lb/> nehmen und, in Kissen gehüllt, auf den Divan legen. So
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note
+                     type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+                     etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische
+                     Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg
+                  rendition="#left">Donnerstag.</seg><lb/>Meiner Büste ist der Sockel zersprungen.
+               Ich muß sie herunter<lb/> nehmen und, in Kissen gehüllt, auf den Divan legen. So
                sehe<lb/> ich mich selbst als Leiche auf dem Paradebette, u. wäre ich aber-<lb
                   break="no"/> gläubisch, so würde ich aus d. Malheur, das wahrscheinl.<lb/> an
                meinem Geburtstage<note type="editorische-anmerkung">Max Kalbecks 47. Geburtstag war
@@ -81,7 +83,7 @@
                   rendition="#gemination-m">mm</c>tliche<lb/> Schmeichel-, Bettel- u.
                Schmähschriften auf, die ich sonst<lb/> bekomme. Wenn ich in diesem Jahre nicht Ernst
                mache mit<lb/> meiner Production, so wird nie etwas daraus. Nur zehn Jahre<lb/>
-               freier Muße, u. es könnte noch werden mit dem Dichter M. K.!<lb/> Aber was sagt das
+               freier Muße, u. es könnte noch werden mit dem Dichter M. K!<lb/> Aber was sagt das
                   <rs type="institution" ref="#pmb29414">N. W. Tagbl.</rs> u. meine wackelige
                Gesundheit<lb/> dazu? Mittags <rs type="person" ref="#pmb10989">Brahms</rs>, <rs
                   type="person" ref="#pmb19070">Rosel</rs>, <rs type="person" ref="#pmb2202"
@@ -91,11 +93,14 @@
                schaft seelenvergnügt mit: „Vorgestern habe ich meine<lb/> Ärzte honorirt; jetzt
                frage ich nach keinem mehr und kann<lb/> nun wieder essen, was ich will.“ Unser
                schlesischer Heringssalat<lb/> seine besondere Seligkeit. Abds. Concert <rs
-                  type="person" ref="#pmb194119">Gura jun.</rs><lb/> Schneegans’ Wut über <rs
-                  type="person" ref="#pmb11036">Burckhard</rs> erhält neue Nahrung<lb/> durch die
-               Blöße, die sich der Director in seiner literar. Bildung<lb/> gegeben. Seine
-               Uebersetzung von <rs type="work" ref="#pmb363581">„Les Romanesques“</rs> beweist,
-               daß<lb/> er nicht weiß, was ein Alexandriner ist.</p>
+                  type="person" ref="#pmb194119">Gura jun.</rs><lb/>
+               <del><unclear>Er</unclear></del>
+               <rs type="person" ref="#pmb346028">Schneegans</rs>’ Wut über <rs type="person"
+                  ref="#pmb11036">Burckhard</rs> erhält neue Nahrung<lb/> durch die Blöße, die sich
+               der <rs type="person" ref="#pmb11036" subtype="implied">Director</rs> in seiner
+               literar. Bildung<lb/> gegeben. Seine Uebersetzung von „<rs type="work"
+                  ref="#pmb363581">Les Romanesques</rs>“ beweist, daß<lb/> er nicht weiß, was ein
+               Alexandriner ist.</p>
          </div>
       </body>
    </text>

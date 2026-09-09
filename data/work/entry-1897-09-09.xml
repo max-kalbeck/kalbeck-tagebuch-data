@@ -51,8 +51,7 @@
     <profileDesc>
       <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-      </handNote></handNotes>
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
     </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
