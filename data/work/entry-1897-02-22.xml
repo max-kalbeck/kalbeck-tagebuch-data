@@ -61,7 +61,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>22 Februar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Montag.</seg><lb/>Schlafsucht. Kann mich gar nicht ermuntern. Anny Wothe i. Leipzig<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Montag.</seg><lb/>Schlafsucht. Kann mich gar nicht ermuntern. Anny Wothe i. Leipzig<lb/>
 möchte mein Bild u. einen Beitrag für ihre Wochenschrift „Von Haus zu<lb/>
 Haus“. Vielleicht schreibe ich ihr etwas, vielleicht auch nur einen ironischen<lb/>
 Dankbrief; sie scheint eine rührige literar. Geschäftsfrau zu sein.<lb/>
