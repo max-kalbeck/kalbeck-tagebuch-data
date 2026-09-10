@@ -61,7 +61,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>27 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#">Mittwoch.</seg><lb/>Im Laden bei Rosé treffe ich Gisela v. Ehrenstein. Sie war<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Mittwoch.</seg><lb/>Im Laden bei Rosé treffe ich Gisela v. Ehrenstein. Sie war<lb/>
 so unvorsichtig schlau, die schmeichelhafte Bemerkung, die ich neulich<lb/>
 über die Gräfin Kielmannsegg gemacht habe, dieser wiederzusagen. Die<lb/>
 Folge davon ist, daß sie den Auftrag erhielt, mich zu fragen, ob ich<lb/>
