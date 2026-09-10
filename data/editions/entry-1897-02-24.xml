@@ -74,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>24 Februar</head>
-            <p><seg rendition="#">Mittwoch.</seg><lb/>Widmann schreibt mir, er wolle den Herzog v. Meiningen<lb/>
+            <p><seg rendition="#right">Mittwoch.</seg><lb/>Widmann schreibt mir, er wolle den Herzog v. Meiningen<lb/>
 bestimmen, daß er <rs type="person" ref="#pmb10989">Brahms</rs> in die Villa Carlotta einlade, u.<lb/>
 fragt, was ich dazu meine? Ich antworte sofort zieml. ausführlich u.<lb/>
 mache ihm die Aussichtslosigkeit dieser schönen Idee klar. Desgleichen<lb/>
