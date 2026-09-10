@@ -60,8 +60,7 @@
   <profileDesc>
       <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-        </handNote>
+          Kalbecks Handschrift, Bleistift</handNote>
       </handNotes>
     </profileDesc>
     <revisionDesc status="wip">
@@ -75,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>21 Januar</head>
-            <p><seg rendition="#">Donnerstag.</seg><lb/>Brief einer Neugierigen, die wissen will, ob sie gestern im Concert<lb/>
+            <p><seg rendition="#right">Donnerstag.</seg><lb/>Brief einer Neugierigen, die wissen will, ob sie gestern im Concert<lb/>
 den wahren Kalbeck gesehen. Die weitreisende Wirkung meiner<lb/>
 Aufsätze erkenne ich aus der Unzal von Zuschriften, die<lb/>
 ich fast täglich erhalte. Es giebt schnurrige Käuze auf d. Welt.<lb/>

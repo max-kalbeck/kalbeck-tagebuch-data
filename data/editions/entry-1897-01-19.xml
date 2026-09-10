@@ -60,8 +60,7 @@
   <profileDesc>
       <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-        </handNote>
+          Kalbecks Handschrift, Bleistift</handNote>
       </handNotes>
     </profileDesc>
     <revisionDesc status="wip">
@@ -75,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>19 Januar</head>
-            <p><seg rendition="#">Dinstag.</seg><lb/>Vaters Geburtstag. Briefe an Frau Lasswitz u. Grete. Doller<lb/>
+            <p><seg rendition="#right">Dinstag.</seg><lb/>Vaters Geburtstag. Briefe an Frau Lasswitz u. Grete. Doller<lb/>
 bei uns allein zu Tische. Rechtsangelegenheiten erörtert. Testamen-<lb break="no"/>
 tarisches. Gestern waren schlimme Nachrichten über <rs type="person" ref="#pmb10989">Brahms</rs> vorberei-<lb break="no"/>
 tet, gerade als wir bei Conrat’s mit ihm schmausten. In Folge davon<lb/>

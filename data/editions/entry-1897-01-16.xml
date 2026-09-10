@@ -60,8 +60,7 @@
   <profileDesc>
       <handNotes>
         <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift, lateinische Kurrentschrift
-        </handNote>
+          Kalbecks Handschrift, Bleistift</handNote>
       </handNotes>
     </profileDesc>
     <revisionDesc status="wip">
@@ -75,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>16 Januar</head>
-            <p><seg rendition="#">Samstag.</seg><lb/>Den Tag über an einem Concertfeuilleton herumgeschustert. Sauere<lb/>
+            <p><seg rendition="#left">Samstag.</seg><lb/>Den Tag über an einem Concertfeuilleton herumgeschustert. Sauere<lb/>
 Schleuderarbeit. Schriftsteller Telmann (nicht Konrad Zitelmann),<lb/>
 ein Agitator in Theaterangelegenheiten, macht wiederholte Versuche<lb/>
 mich zu sprechen, ohne daß es ihm gelänge. Sie wollen mich in einen<lb/>
