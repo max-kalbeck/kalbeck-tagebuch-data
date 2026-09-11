@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-11" n="01"/>
             <title level="a">Montag, 11. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -45,56 +48,59 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0009_b"></graphic>
-      <graphic url="kalbeck_2__0009_a"></graphic>
+      <graphic url="kalbeck_2__0009_b"/>
+      <graphic url="kalbeck_2__0009_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>11 Januar</head>
             <pb corresp="#facs-01"/>
-            <p><seg rendition="#right">Montag.</seg><lb/>Ilona Eibenschütz sendet uns von London ihre Photographie.<lb/>
-Früh mit <rs type="person" ref="#pmb36699">Julie</rs> in die Baukanzlei des <rs type="institution" ref="#pmb250944">Cottage-Vereins</rs>. Wir<lb/>
-entschließen uns den verhältnismäßig großen Platz (360 □ Kl.) in der<lb/>
-Carl Ludwig straße zu kaufen, die Quadratklafter zu 46 fl., und<lb/>
-ermächtigen den Director Müller die einleitenden Schritte zu thun.<lb/>
-Ich habe eine unbestimmte Angst vor dem ganzen Unter-<lb break="no"/>
-nehmen u. male mir alle möglichen schlimmen Folgen in schwarzer<lb/>
-Farbe aus. Im Hôtel de France unsere Karten abgegeben für Gang-<lb break="no"/>
-hofer’s, die ausgegangen waren. Nachmittags auf die Bank, um<lb/>
-Gelder zu erheben für den Platzkauf. Unterwegs <rs type="person" ref="#pmb12460">Pötzl</rs><lb/>
-getroffen; der Erste, der mich zu dem Unternehmen beglückwünscht.<lb/>
-Scherzando mit dem Briefmarkenhändler Heim; er zeigt mir aus<lb/>
-seinen Geschäftsbüchern, daß er während d. letzten Jahres für 24000<lb/>
-fl. Marken gekauft hat. Der Briefmarkenwahnsinn. Poetisch<lb/>
-zu benutzen: Die beiden Mauritiusmarken von Briefen, in denen<lb/>
-sich ein entarteter Flüchtling von d. Heimat entsagt. Der Betrug,<lb/>
-den er damals verübt, wird durch die Marken mit Zinsen aufge-<lb break="no"/>
-wogen od. dergl. Nach d. Concert Gabrilowitsch zu Johann<lb/>
-Strauss in eine sehr langweilige Soirée. Ich zwischen der Witwe<lb/>
-Conrad u. Frau Blumenthal, einem frisch wiederangehenden u. einem<lb/>
-ausgebrannten Krater. <rs type="person" ref="#pmb14328">Oscar Blumenthal</rs> als dicker Ehemann.<lb/>
-Blutiger Oscar, wie hast du dich verändert! Er giebt keinen lauten Ton<lb/>
-mehr von sich, schwimmt müde, selbstzufrieden u. satt in seinem<lb/>
-Fette. Hofmann, der Ex-Coupletsänger, Priester, der Ex-Lustig-<lb break="no"/>
-macher, Adele, die Ex-Königin, lauter passirte Größen! Der arme<lb/>
-Jean macht einen mumienhaften Eindruck. <rs type="person" ref="#pmb11402 #pmb335064">Ganghofer’s</rs> die einzige Lebendigen.</p>
-<pb corresp="#facs-02"/>
-<p>
-   Dazu Bilder aus d. Kinematographen: das rauschende Fest …<lb/> Thema: Die Ex-Lebendigen. Marquis B., der junge Gatte ruht sich<lb/>
+            <p><seg rendition="#right">Montag.</seg><lb/>Ilona Eibenschütz sendet uns von London
+               ihre Photographie.<lb/> Früh mit <rs type="person" ref="#pmb36699">Julie</rs> in die
+               Baukanzlei des <rs type="institution" ref="#pmb250944">Cottage-Vereins</rs>. Wir<lb/>
+               entschließen uns den verhältnismäßig großen Platz (360 □ Kl.) in der<lb/> Carl Ludwig
+               straße zu kaufen, die Quadratklafter zu 46 fl., und<lb/> ermächtigen den Director
+               Müller die einleitenden Schritte zu thun.<lb/> Ich habe eine unbestimmte Angst vor
+               dem ganzen Unter-<lb break="no"/> nehmen u. male mir alle möglichen schlimmen Folgen
+               in schwarzer<lb/> Farbe aus. Im Hôtel de France unsere Karten abgegeben für Gang-<lb
+                  break="no"/> hofer’s, die ausgegangen waren. Nachmittags auf die Bank, um<lb/>
+               Gelder zu erheben für den Platzkauf. Unterwegs <rs type="person" ref="#pmb12460"
+                  >Pötzl</rs><lb/> getroffen; der Erste, der mich zu dem Unternehmen
+               beglückwünscht.<lb/> Scherzando mit dem Briefmarkenhändler Heim; er zeigt mir
+               aus<lb/> seinen Geschäftsbüchern, daß er während d. letzten Jahres für 24000<lb/> fl.
+               Marken gekauft hat. Der Briefmarkenwahnsinn. Poetisch<lb/> zu benutzen: Die beiden
+               Mauritiusmarken von Briefen, in denen<lb/> sich ein entarteter Flüchtling von d.
+               Heimat entsagt. Der Betrug,<lb/> den er damals verübt, wird durch die Marken mit
+               Zinsen aufge-<lb break="no"/> wogen od. dergl. Nach d. Concert Gabrilowitsch zu
+               Johann<lb/> Strauss in eine sehr langweilige Soirée. Ich zwischen der Witwe<lb/>
+               Conrad u. Frau Blumenthal, einem frisch wiederangehenden u. einem<lb/> ausgebrannten
+               Krater. <rs type="person" ref="#pmb14328">Oscar Blumenthal</rs> als dicker
+               Ehemann.<lb/> Blutiger Oscar, wie hast du dich verändert! Er giebt keinen lauten
+               Ton<lb/> mehr von sich, schwimmt müde, selbstzufrieden u. satt in seinem<lb/> Fette.
+               Hofmann, der Ex-Coupletsänger, Priester, der Ex-Lustig-<lb break="no"/> macher,
+               Adele, die Ex-Königin, lauter passirte Größen! Der arme<lb/> Jean macht einen
+               mumienhaften Eindruck. <rs type="person" ref="#pmb11402 #pmb335064">Ganghofer’s</rs>
+               die einzigen Lebendigen.<note type="editorische-anmerkung">Kalbeck beendete diesen
+                  Tagebucheintrag auf der (vorherigen) Seite vom 10. Januar (siehe Faksimile 2
+                  unten).</note></p>
+            <pb corresp="#facs-02"/>
+            <p> Dazu Bilder aus d. Kinematographen: das rauschende Fest …<lb/> Thema: Die
+               Ex-Lebendigen. Marquis B., der junge Gatte ruht sich<lb/>
                <span style="writing-mode: vertical-lr; text-orientation: sideways-left">auf d. Lande
                   vom Nicht-Arbeiten aus. Ein seltsames Haus.</span>
-</p>
+            </p>
          </div>
       </body>
    </text>
