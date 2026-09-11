@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-16" n="01"/>
             <title level="a">Samstag, 16. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -45,31 +48,37 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0012_a"></graphic>
+      <graphic url="kalbeck_2__0012_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>16 Januar</head>
-            <p><seg rendition="#left">Samstag.</seg><lb/>Den Tag über an einem Concertfeuilleton herumgeschustert. Sauere<lb/>
-Schleuderarbeit. Schriftsteller Telmann (nicht Konrad Zitelmann),<lb/>
-ein Agitator in Theaterangelegenheiten, macht wiederholte Versuche<lb/>
-mich zu sprechen, ohne daß es ihm gelänge. Sie wollen mich in einen<lb/>
-Vereinsvorstand oder so etwas einfangen. Briefe von Breitkopf u.<lb/>
-H. (wegen einer Correctur des „Orpheus“) u. Regisseur Bachmann<lb/>
-i. Stuttgart, der mir schreibt, daß eine Gesellschaft mit „Bastien“<lb/>
-u. der „Gärtnerin“ auf Reisen gehen will. Die „Wildente“ im Burg-<lb break="no"/>
-theater.</p>
+            <p><seg rendition="#left">Samstag.</seg><lb/>Den Tag über an einem Concertfeuilleton
+               herumgeschustert. Sauere<lb/> Schleuderarbeit. Schriftsteller <rs type="person"
+                  ref="#pmb64900">Telmann</rs> (nicht <rs type="person" ref="#pmb64900">Konrad
+                  Zitelmann</rs><note type="editorische-anmerkung">Kalbeck scheint sich hier darüber
+                  lustig zu machen, dass Ernst Otto Konrad Zitelmann ab 1875 unter dem Pseudonym
+                  Konrad Telmann auftrat.</note>),<lb/> ein Agitator in Theaterangelegenheiten,
+               macht wiederholte Versuche<lb/> mich zu sprechen, ohne daß es ihm gelänge. Sie wollen
+               mich in einen<lb/> Vereinsvorstand oder so etwas einfangen. Briefe von <rs
+                  type="institution" ref="#pmb29697">Breitkopf u.<lb/> H.</rs> (wegen einer
+               Correctur des „<rs type="work" ref="#pmb34253">Orpheus</rs>“) u. Regisseur
+               Bachmann<lb/> i. Stuttgart, der mir schreibt, daß eine Gesellschaft mit „<rs
+                  type="work" ref="#pmb204911">Bastien</rs>“<lb/> u. der „<rs type="work"
+                  ref="#pmb204919">Gärtnerin</rs>“ auf Reisen gehen will. Die „<rs type="work"
+                  ref="#pmb29971">Wildente</rs>“ im Burg-<lb break="no"/> theater.</p>
          </div>
       </body>
    </text>
