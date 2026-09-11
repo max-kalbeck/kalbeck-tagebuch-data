@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-17" n="01"/>
             <title level="a">Sonntag, 17. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,7 +47,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+      <encodingDesc>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -75,32 +77,30 @@
          <div hand="#hand__kalbeck">
             <head>17 Januar</head>
             <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
-                  etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Sonntag.</seg><lb/>Nach einer sehr schlechten Nacht spät aufgestanden mit eingenommenen<lb/>
-Kopfe. Immerzu nebelfeuchtes düsteres Wetter; der Winter scheint<lb/>
-heuer ausbleiben zu wollen. Ovation für <rs type="person" ref="#pmb10989">Brahms</rs> im Gesellschafts-<lb break="no"/>
-concert nach dem Chorliede: „Fahr wohl!“ Die letzte Strophe:<lb/>
-Fahr wohl,<lb/>
-All Liebes, das nun scheiden soll!<lb/>
-Und ob es so geschehe,<lb/>
-Daß ich nicht mehr dich sehe,<lb/>
-Fahr wohl!<lb/>
-geht allen Anwesenden zu Herzen. Speidel schleicht sich davon<lb/>
-wie ein begossener Hund. Am Nachmittag Gratulationsvisite bei<lb/>
-Schwarz zu Nelly’s Hochzeit. Fürchterlicher Trouble. Wie abge-<lb break="no"/>
-schmackt und widerwärtig für jeden zarter Fühlenden ist dieses Preis-<lb break="no"/>
-geben intimer Vorgänge! Eine Hochzeit als Stadtaffaire – scheußlich.<lb/>
-Welche zudringlich neugierigen, unverschämten Blicke u. Fragen hat so<lb/>
-ein liebendes Paar auszuhalten! Erinnerung an meine Obernigker<lb/>
-Dorfhochzeit. Bilder für einen Sittenmaler. Die Marmorek erl.<lb/>
-Frau Door mit der talentvolle Jenny. Unser Geschenk ver-<lb break="no"/>
-schwindet auf der Prunktafel des in eine Ausstellung von Kostbar-<lb break="no"/>
-keiten umgewandelten Salons. Mich ärgert unsere Narrheit.<lb/>
-Mit Millionären kann Unsereiner nicht concurriren. <rs type="person" ref="#pmb10989">Brahms</rs><lb/>
-hat seine Cabinetphotographie geschickt – bravo! – u. glänzt bei<lb/>
-der Cour als Doctor in absentia. Aus einer Krankenvisite bei<lb/>
-<rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> entwickelt sich ein längerer Abend mit Tarok u. Kälberei.<lb/>
-[unlesbare Schriftzeichen] Dr. Carl als verliebter Cherubino, Hausarzt u.<lb/>
-Maître de plaisir. Musikalisches Nachtisch-Gespräch. Um 1 Uhr zu Hause.</p>
+                     etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische
+                     Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Sonntag.</seg><lb/>Nach einer sehr schlechten Nacht spät
+               aufgestanden mit eingenommenen<lb/> Kopfe. Immerzu nebelfeuchtes düsteres Wetter; der
+               Winter scheint<lb/> heuer ausbleiben zu wollen. Ovation für <rs type="person" ref="#pmb10989">Brahms</rs> im Gesellschafts-<lb break="no"/> concert nach dem
+               Chorliede: „<rs type="work" ref="#pmb364634">Fahr wohl!</rs>“ Die letzte Strophe:<lb/>
+               <seg rendition="#center">Fahr wohl,<lb/> All Liebes, das nun scheiden soll!<lb/> Und
+                  ob es so geschehe,<lb/> Daß ich nicht mehr dich sehe,<lb/> Fahr wohl!</seg><lb/>
+               geht allen Anwesenden zu Herzen. Speidel schleicht sich davon<lb/> wie ein begossener
+               Hund. Am Nachmittag Gratulationsvisite bei<lb/> Schwarz zu Nelly’s Hochzeit.
+               Fürchterlicher Trouble. Wie abge-<lb break="no"/> schmackt und widerwärtig für jeden
+               zarter Fühlenden ist dieses Preis-<lb break="no"/> geben intimer Vorgänge! Eine
+               Hochzeit als Stadtaffaire – scheußlich.<lb/> Welche zudringlich neugierigen,
+               unverschämten Blicke u. Fragen hat so<lb/> ein liebendes Paar auszuhalten! Erinnerung
+               an meine Obernigker<lb/> Dorfhochzeit. Bilder für einen Sittenmaler. Die Marmorek
+               erl.<lb/> Frau Door mit der talentvolle Jenny. Unser Geschenk ver-<lb break="no"/>
+               schwindet auf der Prunktafel des in eine Ausstellung von Kostbar-<lb break="no"/>
+               keiten umgewandelten Salons. Mich ärgert unsere Narrheit.<lb/> Mit Millionären kann
+               Unsereiner nicht concurriren. <rs type="person" ref="#pmb10989">Brahms</rs><lb/> hat
+               seine Cabinetphotographie geschickt – bravo! – u. glänzt bei<lb/> der Cour als Doctor
+               in absentia. Aus einer Krankenvisite bei<lb/>
+               <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> entwickelt sich ein
+               längerer Abend mit Tarok u. Kälberei.<lb/> [unlesbare Schriftzeichen] Dr. Carl als
+               verliebter Cherubino, Hausarzt u.<lb/> Maître de plaisir. Musikalisches
+               Nachtisch-Gespräch. Um 1 Uhr zu Hause.</p>
          </div>
       </body>
    </text>

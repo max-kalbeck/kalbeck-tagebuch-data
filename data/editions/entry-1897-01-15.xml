@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-15" n="01"/>
             <title level="a">Freitag, 15. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,7 +47,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+      <encodingDesc>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -74,7 +76,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>15 Januar</head>
-            <p><seg rendition="#right">Freitag.</seg><lb/>[leere Seite]</p>
+            <p><seg rendition="#right">Freitag.</seg><lb/></p>
          </div>
       </body>
    </text>
