@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-12" n="01"/>
             <title level="a">Dienstag, 12. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -37,7 +39,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -45,44 +48,46 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0010_a"></graphic>
+      <graphic url="kalbeck_2__0010_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>12 Januar</head>
-            <p><seg rendition="#left">Dinstag.</seg><lb/>Eine allarmirende Annonce in der Zeitung jagt uns früh wieder<lb/>
-ins <rs type="place" ref="#pmb533">Cottage</rs> hinaus. Dort soll eine Villa in der <rs type="place" ref="#pmb150">Sternwartestr.</rs><lb/>
-gerichtlich licitirt werden. Mehrere Interessenten streichen mit uns<lb/>
-vor dem Gitter auf u. ab, das geschlossen bleibt. Das Haus wäre<lb/>
-nichts für uns. Vorher war der Directionsbote bei uns und<lb/>
-holte sich die 600 fl. Anzalungsgeld für d. Platz ab. – Bei<lb/>
-<rs type="person" ref="#pmb99629">Mandyczewski</rs> vergeblich nach Badenser Beethovenianis<lb/>
-nachgefragt; der Archivar in tausend Nöten u. Ängsten.<lb/>
-<rs type="person" ref="#pmb11402 #pmb335064">Ganghofer’s</rs> bei uns zu Tische. Er glaubt einen großen Erfolg<lb/>
-gehabt zu haben. Ich bringe ihm sänftlich meine Meinung bei.<lb/>
-Zu meinem Vorschlage, die beiden mittleren Acte zu streichen,<lb/>
-macht er große Augen, findet ihn aber schließlich discutirbar.<lb/>
-Ueber Heyses Reizbarkeit u. sein Benehmen gegen Bern-<lb break="no"/>
-stein’s. Rich. Voss, das literar. Klatschweib. Einblick in das<lb/>
-Münchener Dichterleben, das uns nicht gerade lüstern macht nach<lb/>
-der dortigen Herrlichkeit. Die Zeiten scheinen sich von Grund aus<lb/>
-geändert zu haben. Frau G. besucht eine sterbende Tante, u. wir<lb/>
-spielen natürl. Tarok. <rs type="person" ref="#pmb11402">Ganghofer</rs>, die alte Spielratze. Zetsche<lb/>
-gerät in den schönsten Pagat Ultimo, u. ich bin froh, die<lb/>
-Karten wegwerfen zu können. Concert Landi. Mit <rs type="person" ref="#pmb11684">Heuberger</rs><lb/>
-nach Hause; er ist ganz verstruwwelpetert. Wieder ein zweifel-<lb break="no"/>
-hafter Dramatiker; es giebt nur noch solche.</p>
+            <p><seg rendition="#left">Dinstag.</seg><lb/>Eine allarmirende Annonce in der Zeitung
+               jagt uns früh wieder<lb/> ins <rs type="place" ref="#pmb533">Cottage</rs> hinaus.
+               Dort soll eine Villa in der <rs type="place" ref="#pmb150">Sternwartestr.</rs><lb/>
+               gerichtlich licitirt werden. Mehrere Interessenten streichen mit uns<lb/> vor dem
+               Gitter auf u. ab, das geschlossen bleibt. Das Haus wäre<lb/> nichts für uns. Vorher
+               war der Directionsbote bei uns und<lb/> holte sich die 600 fl. Anzalungsgeld für d.
+               Platz ab. – Bei<lb/>
+               <rs type="person" ref="#pmb99629">Mandyczewski</rs> vergeblich nach Badenser
+               Beethovenianis<lb/> nachgefragt; der Archivar in tausend Nöten u. Ängsten.<lb/>
+               <rs type="person" ref="#pmb11402 #pmb335064">Ganghofer’s</rs> bei uns zu Tische. Er
+               glaubt einen großen Erfolg<lb/> gehabt zu haben. Ich bringe ihm sänftlich meine
+               Meinung bei.<lb/> Zu meinem Vorschlage, die beiden mittleren Acte zu streichen,<lb/>
+               macht er große Augen, findet ihn aber schließlich discutirbar.<lb/> Ueber <rs
+                  type="person" ref="#pmb11691">Heyse</rs>’s Reizbarkeit u. sein Benehmen gegen
+                  Bern-<lb break="no"/> stein’s. Rich. Voss, das literar. Klatschweib. Einblick in
+               das<lb/> Münchener Dichterleben, das uns nicht gerade lüstern macht nach<lb/> der
+               dortigen Herrlichkeit. Die Zeiten scheinen sich von Grund aus<lb/> geändert zu haben.
+               Frau <rs type="person" ref="#pmb335064">G.</rs> besucht eine sterbende Tante, u.
+               wir<lb/> spielen natürl. Tarok. <rs type="person" ref="#pmb11402">Ganghofer</rs>, die
+               alte Spielratze. Zetsche<lb/> gerät in den schönsten Pagat Ultimo, u. ich bin froh,
+               die<lb/> Karten wegwerfen zu können. Concert Landi. Mit <rs type="person"
+                  ref="#pmb11684">Heuberger</rs><lb/> nach Hause; er ist ganz verstruwwelpetert.
+               Wieder ein zweifel-<lb break="no"/> hafter Dramatiker; es giebt nur noch solche.</p>
          </div>
       </body>
    </text>
