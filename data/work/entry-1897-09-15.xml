@@ -60,8 +60,13 @@
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>15 September (Sonntag / Montag / Dinstag) /</head>
-            <p><seg rendition="#">Mittwoch.</seg><lb/>[2. Forsetzung vom 12. September]<lb/>
+            <head>15 September</head>
+            <p>
+               <seg rendition="#right">(Sonntag</seg><lb/>
+               <seg rendition="#right">Montag</seg><lb/>
+               <seg rendition="#right">Dinstag)</seg><lb/>
+               <seg rendition="#right">Mittwoch.</seg><lb/>
+               [2. Forsetzung vom 12. September]<lb/>
 dem Bleistift zu fixiren, was ihn reize. Ohne Zweifel ist sein Zeichnen<lb/>
 eine Art von Correlat zu seinem Dichten, und während er an einem<lb/>
 Portrait oder einer Landschaft herumstrichelt, beschäftigt sich seine rastlose<lb/>

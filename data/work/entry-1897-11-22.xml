@@ -61,7 +61,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>22 November</head>
-            <p><seg rendition="#">Montag.</seg><lb/><rs type="person" ref="#pmb2202">Singer</rs> vom Bureau abgeholt. Bei uns giebt es wieder einmal<lb/>
+            <p><seg rendition="#right">Montag.</seg><lb/><rs type="person" ref="#pmb2202">Singer</rs> vom Bureau abgeholt. Bei uns giebt es wieder einmal<lb/>
 ein Diner, zu Ehren <rs type="person" ref="#pmb11780">Ricarda Huch</rs>’s. Außer ihr: Dr. Defregger,<lb/>
 der Sohn des Malers, der uns eine Empfehlung von <rs type="person" ref="#pmb11402">Ganghofer</rs><lb/>
 brachte, <rs type="person" ref="#pmb2202">Singer</rs>, Doller, <rs type="person" ref="#pmb346028">Schneegans</rs>, <rs type="person" ref="#pmb19070">Rosl</rs>, <rs type="person" ref="#pmb342788">Helene Vesque</rs> und<lb/>

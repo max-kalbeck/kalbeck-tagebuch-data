@@ -63,8 +63,11 @@
    <text>
       <body>
          <div hand="#hand__kalbeck">
-            <head>8 April () / Donnerstag.</head>
-            <p><seg rendition="#">Dinstag.</seg><lb/>[Fortsetzung vom 6. April]<lb/>
+            <head>8 April</head>
+            <p>
+               <seg rendition="#left">(Dinstag)</seg><lb/>
+               <seg rendition="#right">Do<c rendition="#gemination-n">nn</c>erstag.</seg><lb/>
+               [Fortsetzung vom 6. April]<lb/>
                 Abschiedsgruß u. berichteten in den Zeitungen von Mendelssohn’s „Es ist bestimmt in<lb/>
                 Gottes Rath“. [Merkwürdig, daß ich bei meinem letzten religiösen Gespräch mit<lb/>
                <rs type="person" ref="#pmb10989">Brahms</rs> von den (mit der Zeit fortschreitenden)

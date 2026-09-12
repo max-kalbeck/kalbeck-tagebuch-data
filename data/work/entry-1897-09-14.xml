@@ -61,7 +61,11 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>14 September</head>
-            <p>Sonntag / (Montag) / Dinstag<lb/>[Forsetzung vom 12. September]<lb/>
+            <p>
+               <seg rendition="#left">Sonntag</seg><lb/>
+               <seg rendition="#left">(Montag)</seg><lb/>
+               <seg rendition="#left">Dinstag</seg><lb/> 
+[Forsetzung vom 12. September]<lb/>
 den Vortritt vor Katharina habe. Auch geht ihm Alles zu schnell.<lb/>
 Er erinnert an das Märchen von der weißen Hand der Waldfrau u. an<lb/>
 ein ähnliches von Gerstäcker, das im „Novellenschatze“ steht. Ich muß ihm<lb/>

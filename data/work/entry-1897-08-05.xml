@@ -61,7 +61,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>5 August</head>
-            <p><seg rendition="#">Donnerstag.</seg><lb/>[Fortsetzung vom 4. August]<lb/>
+            <p><seg rendition="#left">Donnerstag</seg><lb/>[Fortsetzung vom 4. August]<lb/>
 beanlagte von jedem Ton und jeder Tonart ein sinnliches Bild im<lb/>
 Gehirn sitzen hat, das so charakteristisch und so undefinirbar ist<lb/>
 wie eine bestimmte Farbe, ein besonderer Geruch. Wie mislich es<lb/>
