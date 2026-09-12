@@ -74,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>2 August</head>
-            <p><seg rendition="#">Montag.</seg><lb/>Auf meiner Waldbank geschrieben. Ich kann mich nicht in den<lb/>
+            <p><seg rendition="#right">Montag</seg><lb/>Auf meiner Waldbank geschrieben. Ich kann mich nicht in den<lb/>
 neuen Zustand hinein und zurückfinden, und weiß nicht, ob ich jetzt<lb/>
 träume oder früher geträumt habe. Das Gefühl des Unwahrscheinlichen<lb/>
 gewinnt volle Macht über meinen Geist, und ich dämmere den Tag<lb/>

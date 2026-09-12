@@ -74,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>29 Oktober</head>
-            <p><seg rendition="#">Freitag.</seg><lb/>Bildhauer Arthur Trebst i. Leipzig hat seine Brahms-Büste<lb/>
+            <p><seg rendition="#right">Freitag.</seg><lb/>Bildhauer Arthur Trebst i. Leipzig hat seine Brahms-Büste<lb/>
 vollendet u. fragt um Rat, wie er es anfangen solle, sie in <rs type="place" ref="#pmb50">Wien</rs>,<lb/>
 vorerst unter den Freunden von <rs type="person" ref="#pmb10989">Brahms</rs>, bekannt zu machen. Neue<lb/>
 Weitläufigkeiten! – Der Oberkellner aus dem Hôtel Wimberger,<lb/>

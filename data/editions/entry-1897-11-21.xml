@@ -74,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>21 November</head>
-            <p><seg rendition="#">Sonntag.</seg><lb/>Feierlicher Absagebrief an den Generalintendanten. Ausrede,<lb/>
+            <p><seg rendition="#left">Sonntag.</seg><lb/>Feierlicher Absagebrief an den Generalintendanten. Ausrede,<lb/>
 daß ich auf Jahr und Tag hinaus mit Arbeiten gebunden sei, und<lb/>
 deshalb nicht daran denken könne, das k. k. Festspiel zur höheren<lb/>
 Ehre des Hauses Habsburg zu dichten. Mit der Absendung des<lb/>

@@ -74,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>4 November</head>
-            <p><seg rendition="#">Donnerstag.</seg><lb/>Johann Strauss hat mir gestern einen telegraphischen Gruß und<lb/>
+            <p><seg rendition="#right">Donnerstag.</seg><lb/>Johann Strauss hat mir gestern einen telegraphischen Gruß und<lb/>
 Dank für meine Besprechung der „Fledermaus“ gesandt, wobei er es<lb/>
 nicht unterlassen konnte zu fragen, warum ich mich nicht um ihn<lb/>
 bekümmere. Ich [Ausstreichung] erwidere ihm, daß seine mir gelegentlich der<lb/>

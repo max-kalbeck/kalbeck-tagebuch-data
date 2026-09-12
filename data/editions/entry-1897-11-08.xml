@@ -74,7 +74,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>8 November</head>
-            <p><seg rendition="#">Montag.</seg><lb/>Nach einer nahezu schlaflosen Nacht spät in den Tag hinein geduselt.<lb/>
+            <p><seg rendition="#right">Montag.</seg><lb/>Nach einer nahezu schlaflosen Nacht spät in den Tag hinein geduselt.<lb/>
 Im gestrigen Sonntagsblatte des „Bund“ schreibt Widmann über den<lb/>
 neuesten Cotta’schen Musenalmanach: „In M. K.’s Gedicht „Der geprellte<lb/>
 Tod“ finden wir die wahrhaft Goethe’schen Verse: Junge Schönheit kommt<lb/>
