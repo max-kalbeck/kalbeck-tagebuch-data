@@ -57,6 +57,8 @@
         <rendition xml:id="left-margin" scheme="css">absolute; left: 0;</rendition>
         <rendition xml:id="top-margin" scheme="css">absolute; top: 0;</rendition>
         <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
+        <rendition xml:id="underline">text-decoration: underline;</rendition>
+	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
   <profileDesc>
