@@ -113,9 +113,9 @@
                <rs type="person" ref="#pmb10989">Brahms</rs>, <add place="above">mit dem dies lange
                   hin u. her besprochen wurde,</add> hält bis nach 12 Uhr bei <rs type="place"
                   ref="#pmb29">Sacher</rs> Stand, u. <subst>
-                  <del rend="overwritten">ich</del>
+                  <del rendition="#overwritten">ich</del>
                   <add place="inline">be</add>
-               </subst>steht darauf, nach<lb/> Hause zu <hi rend="underline">gehen</hi>, so daß ich
+               </subst>steht darauf, nach<lb/> Hause zu <hi rendition="#underline">gehen</hi>, so daß ich
                ihn zu Fuße, trotz heftigen Sturmes, begleite.</p>
          </div>
       </body>
