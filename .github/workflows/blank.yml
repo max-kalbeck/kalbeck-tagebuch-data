@@ -31,6 +31,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Do the job
         run: scripts/fill_headers.py
+      - name: rend to rendition
+        run: scripts/substitutions.sh
       - name: Commit editions
         run: |
           git config user.name "github-actions[bot]"
