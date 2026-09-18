@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -94,7 +105,7 @@ gehängt, und er hat sie aus Generosität geheiratet, damit es nicht wieder<lb/>
 ein Unglück gebe. Lolo’s Einfluß auf Lenbach soll nicht der günstigste<lb/>
 sein, u. es ist in Folge dieses u. anderer widrigen Umstände eine starke<lb/>
 Abkühlung des alten Freundschaftsverhältnisses eingetreten. Auch mit Schwe-<lb break="no"/>
-ninger verkehren Heyse’s nicht mehr, seit dieser die frühere Frau Lenbach<lb/>
+ninger verkehren <rs type="person" ref="#pmb11691 #pmb364156">Heyse’s</rs> nicht mehr, seit dieser die frühere Frau Lenbach<lb/>
 geb. v. Moltke, verführt hat. Sehr komisch findet <rs type="person" ref="#pmb11691">Heyse</rs> meine Idee,<lb/>
 von Levi Brahmsiana zu bekommen. Levi gerät schon in Wut,<lb/>
 wenn nur mein Name genannt wird; er haßt mich als Anti-Wagnerianer<lb/>

@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -85,7 +96,7 @@ zu Wagen in den Prater ab. Melancholische Abendpromenade<lb/>
 durch die dämmernde Schneelandschaft; die belasteten Bäume<lb/>
 bilden einen verwunschenen Wald, in welchem Liebe und<lb/>
 Leben verloren gehen. Abends bei Kantor. Mit <rs type="person" ref="#pmb19070">Rosel</rs> vierhändig<lb/>
-Schubert u. Beethoven. Zustimmungsbriefe über meine<lb/>
+Schubert u. <rs type="person" ref="#pmb10866">Beethoven</rs>. Zustimmungsbriefe über meine<lb/>
 Kritik der „Wildente“ von Prof. Stoerk u. <rs type="person" ref="#pmb346028">Schneegans</rs>.</p>
          </div>
       </body>

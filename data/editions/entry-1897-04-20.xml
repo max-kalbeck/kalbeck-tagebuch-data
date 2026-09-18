@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -80,7 +91,7 @@
 schreibt mir, daß sie mich zu seinem Geburtstage heute in Gotha erwarten,<lb/>
 und ich entschließe mich am Nachmittag abzufahren. Um 10 Uhr suche ich Dr.<lb/>
 Schreiber in der Ausstellung auf u. finde ihn unter Künstlern u. Ausstellungs-<lb break="no"/>
-objecten in der Kunsthalle. Viele ausgesucht scheußliche Bilder. Heyse’s Kopf<lb/>
+objecten in der Kunsthalle. Viele ausgesucht scheußliche Bilder. <rs type="person" ref="#pmb11691">Heyse</rs>’s Kopf<lb/>
 in Kohle à la Lenbach. Der Sockel zu Klinger’s „Christus im Olymp“ läßt<lb/>
 die Malerei aus der Sculptur herauswachsen; merkwürdig kraftvolle Figuren<lb/>
 aus pentelischem Marmor, die Bruchstücke geblieben sind, weil der Block nicht<lb/>

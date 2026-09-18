@@ -48,6 +48,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -96,7 +107,7 @@
                den Schnellzug und fahre nach traurigem Ab-<lb break="no"/> schied, bis St. Goar ins
                Nachtquartier. Die lebendigsten Erinnerungen<lb/> an alles am Rhein Genossene
                umtanzen den Wagen, ein Reigen<lb/> lustiger Geister, der sich nach Melodien von
-               Beethoven u. <rs type="person" ref="#pmb10989">Brahms</rs><lb/> bewegt. Wer das aussprechen könnte! Das verschlafene
+               <rs type="person" ref="#pmb10866">Beethoven</rs> u. <rs type="person" ref="#pmb10989">Brahms</rs><lb/> bewegt. Wer das aussprechen könnte! Das verschlafene
                Rheinstädtchen,<lb/> ich in den Gassen als ruheloses Gespenst. Einem philisterhaften
                alten<lb/> Ehepaar, das in einer kleinen Kneipe noch beim Schöppchen sitzt,<lb/>
                erscheine ich wie der leibhaftige Teufel; die Ironie bändigt meine<lb/> Exaltation,

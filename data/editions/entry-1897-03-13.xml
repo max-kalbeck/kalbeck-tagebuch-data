@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -86,7 +97,7 @@ durch, die er auf Texte von mir componirt hat: „Weit hinaus!“<lb/>
 zumal das zweite, wenn auch keines die Verschmelzung von Volks-<lb break="no"/>
 und Kunstgesang so glücklich trifft, wie etwa <rs type="person" ref="#pmb10989">Brahms</rs> sie ge-<lb break="no"/>
 troffen haben würde. Reinecke spielt mir außerdem neue Variationen<lb/>
-über ein Mozart’sches (Sonaten- u. Concert) Thema vor, die durch<lb/>
+über ein <rs type="person" ref="#pmb12303">Mozart</rs>’sches (Sonaten- u. Concert) Thema vor, die durch<lb/>
 neue Fülle von contrapunktischen Feinheiten, Canons, Melodieum-<lb break="no"/>
 kehrungen und Imitationen überraschen. Eine Bemerkung des Componisten<lb/>
 bringt mich auf den, wie mir scheint, treffenden Gedanken, daß<lb/>

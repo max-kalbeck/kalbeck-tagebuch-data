@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -78,7 +89,7 @@
             <head>19 September</head>
             <p><seg rendition="#right">Sonntag.</seg><lb/>[Forsetzung vom 18. September in der linken unteren Ecke]<lb/>
 zu entgegnen.<lb/>
-Auf vielfaches Drängen von Heyse’s improvisire ich mit Frl.<lb/>
+Auf vielfaches Drängen von <rs type="person" ref="#pmb11691 #pmb364156">Heyse’s</rs> improvisire ich mit Frl.<lb/>
 Wachsmuth a. Leipzig, einer gewandten Clavierspielerin, Tochter eines<lb/>
 geheimräthlichen Professors, eine musikalische Matinée, die das ganze<lb/>
 Haus im Salon versammelt. Als Sänger und Violinspieler ernte<lb/>

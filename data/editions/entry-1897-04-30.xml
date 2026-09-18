@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -100,7 +111,7 @@ in der II Etage. Dann die hölzerne Gatterthür, die zur Großmutter führte. Fe
 Schade († 57) als Untermiether bei Heinrich’s; sein blaues Schnupftuch als<lb/>
 Abwehrmittel. Immer im Negligé. Seine Kunstfertigkeiten: Uhren, deren Räder<lb/>
 er selbst feilte. Belanglose Erfindungen: das rotirende Zifferblatt u. der ruhende<lb/>
-Zeiger, die Bilderuhr. Seine Vorliebe für Mozart. Tante Heinrich als Harfen-<lb break="no"/>
+Zeiger, die Bilderuhr. Seine Vorliebe für <rs type="person" ref="#pmb12303">Mozart</rs>. Tante Heinrich als Harfen-<lb break="no"/>
 spielerin, ihre Schönheit; wie sie von F. Schade angebetet wird. Großmutter’s Eifersucht.<lb/>
 Die gegensätzl. Charaktere. Urgroßvater Checinski, der Verfertiger d. Breslauer<lb/>
 Domuhr, welche von den Mädeln Albertine u. <rs type="person" ref="#pmb36699">Julie</rs> immer aufgezogen werden mußte.<lb/>

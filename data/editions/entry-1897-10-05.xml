@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -86,7 +97,7 @@ schämtheit der Leute, die glauben, sie thun einem Zeitungsschreiber<lb/>
 eine Ehre an, wenn sie ihn in gönnerhaftem Tone um seine Meinung<lb/>
 befragen. Ekel vor meinem Beruf. <rs type="person" ref="#pmb2202">Singer</rs> ist damit einverstanden,<lb/>
 daß ich erst übermorgen schreibe. In der Loge bei Frau Kantor, die<lb/>
-mich durch Zellner hinaufcitirt, mit Friedländer, dem alten Maulmacher<lb/>
+mich durch Zellner hinaufcitirt, mit <rs type="person" ref="#pmb16647">Friedländer</rs>, dem alten Maulmacher<lb/>
 u. jungen Ehemann, zusammengetroffen. Er ist von der Novität entzückt<lb/>
 und findet den „Dalibor“ langweilig. Nebenan lauert die Gräfin<lb/>
 Kielmannsegg mit dem von ihr protegirten Componisten in der<lb/>

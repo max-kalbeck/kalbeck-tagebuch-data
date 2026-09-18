@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -79,7 +90,7 @@
             <p><seg rendition="#left">Montag.</seg><lb/>Referat über die „Fledermaus“. Diner bei <rs type="person" ref="#pmb337384">Doller</rs>. Gäste: Brüll’s,<lb/>
 Frau Wallach, Dippel’s, Fritz Doller, <rs type="person" ref="#pmb346028">Schneegans</rs>, Dr. Burckhard, [eingefügt: Willner,]<lb/>
 [eingefügt: <rs type="person" ref="#pmb2202">Singer</rs> und] Bauer. Umsonst erwarte ich, daß mir Burckhard, der mir zur<lb/>
-Rechten sitzt, etwas über Heyse’s „Tochter der Semiramis“ sagt.<lb/>
+Rechten sitzt, etwas über <rs type="person" ref="#pmb11691">Heyse</rs>’s „Tochter der Semiramis“ sagt.<lb/>
 Wir reden von allen erdenklichen Dingen, immer nahe an unserem<lb/>
 Gegenstande vorbei; offenbar will [Ausstreichung: auch] er mir das erste Wort über-<lb break="no"/>
 lassen, aber ich halte es zäh zurück, und wir gehen enttäuscht aus<lb/>

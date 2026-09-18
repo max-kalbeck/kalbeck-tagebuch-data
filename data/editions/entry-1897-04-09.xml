@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -82,14 +93,14 @@
                [7. und 8. April]<lb/>
 Widmann schickt mir eine, gegen einen Verkleinerer v. <rs type="person" ref="#pmb10989">Brahms</rs><lb/>
 gerichtete Abwehr. Was würde er erst sagen, wenn er den niederträchtigen<lb/>
-Nekrolog Speidel’s, der am Begräbnistage im „Fremdenbl.“ erschien, zu<lb/>
+Nekrolog <rs type="person" ref="#pmb12816">Speidel</rs>’s, der am Begräbnistage im „Fremdenbl.“ erschien, zu<lb/>
 lesen bekommen hätte! Ich war so empört über Sp., daß ich eine<lb/>
 Visitenkarte v. <rs type="person" ref="#pmb10989">Brahms</rs> nahm, p.p.c. unter den Namen setzte, [ausgestrichen: u.]<lb/>
 auf die Rückseite schrieb:<lb/>
 „Weil ich für deine Walhalla nicht reif<lb/>
 Wie Ebermann, Herbeck, Eder u. Greif,<lb/>
 Zog ich in das Elysium nach<lb/>
-Den Beethoven, Mozart, Schubert u. Bach“<lb/>
+Den <rs type="person" ref="#pmb10866">Beethoven</rs>, <rs type="person" ref="#pmb12303">Mozart</rs>, Schubert u. Bach“<lb/>
 und sie an ihn absenden wollte. <rs type="person" ref="#pmb36699">Julie</rs> redete es mir aus. Nach dem<lb/>
 Concert aber, in welchem Heermann d. Violinconcert spielte, ging ich<lb/>
 hinter Sp. u. dessen Schwiegersohn zur Garderobe hinunter u. konnte mich<lb/>

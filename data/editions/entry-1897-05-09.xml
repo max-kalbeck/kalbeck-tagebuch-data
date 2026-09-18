@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -97,7 +108,7 @@ dem theuren Freunde“. O vanitas! vanitatum vanitas! Unsere Flieder-<lb break="
 u. Rosensträuße sind namenlos – wie unser Schmerz. Schräg über von dem<lb/>
 Grabe wird an einem Marmordenkmal für – Suppé gearbeitet. Er, der<lb/>
 windige Herbeck und der Clavierbauer Stoecker liegen auch in dem Rondel<lb/>
-mit Beethoven, Schubert, Mozart u. <rs type="person" ref="#pmb10989">Brahms</rs> zusammen! Wie lächerlich<lb/>
+mit <rs type="person" ref="#pmb10866">Beethoven</rs>, Schubert, <rs type="person" ref="#pmb12303">Mozart</rs> u. <rs type="person" ref="#pmb10989">Brahms</rs> zusammen! Wie lächerlich<lb/>
 ist der Pomp, der auf dem Grabe eines Prix entfaltet wird!<lb/>
 [8. Mai]<lb/>
 Samstag. Den ganzen Tag über drängen sich Besucher. Miller bringt mir<lb/>

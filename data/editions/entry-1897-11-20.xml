@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -99,9 +110,9 @@ ausschlägt oder es auch umgekehrt macht, wenn es der Vorteil<lb/>
 erheischt? Er ist zum Demagogen geboren u. scheint einen Charakter<lb/>
 zu haben, der je nach den Verhältnissen des Besten oder des Schlechtesten<lb/>
 fähig ist. Mit <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>, denen wir die Sitze verdanken, zu Sacher’s<lb/>
-soupiren. – Fulda, den ich im Theater traf, beklagt sich über Speidel<lb/>
+soupiren. – Fulda, den ich im Theater traf, beklagt sich über <rs type="person" ref="#pmb12816">Speidel</rs><lb/>
 u. seine ihm stets erwiesene Geringschätzung. Er wäre gern übermorgen zu mir<lb/>
-gekommen, muß aber morgen nach <rs type="place" ref="#pmb168">Berlin</rs> zurück. Heyse’s „Vanina“ wird<lb/>
+gekommen, muß aber morgen nach <rs type="place" ref="#pmb168">Berlin</rs> zurück. <rs type="person" ref="#pmb11691">Heyse</rs>’s „Vanina“ wird<lb/>
 dort in der nächsten Woche aufgeführt.</p>
          </div>
       </body>

@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -90,7 +101,7 @@ hat schon 11 Bücher bei Paetel erscheinen lassen, die ich alle nicht kenne;<lb/
 eine ihrer Novellen steht im „Novellenschatz“. Es amüsirt sie, daß ich<lb/>
 sie selbst einen lieben Novellenschatz nenne.<lb/>
 [27. September]<lb/>
-Montag. Früh von 3 bis 6 Uhr die meisten der neuen Heyse’schen<lb/>
+Montag. Früh von 3 bis 6 Uhr die meisten der neuen <rs type="person" ref="#pmb11691">Heyse</rs>’schen<lb/>
 Gedichte gelesen. Welch ein Künstler und welch ein Mensch! Beide haben<lb/>
 mich von Neuem gewonnen. Den unbekannten Mächten, die mein<lb/>
 Leben regieren, danke ich, daß sie mir vor Tausenden das Glück<lb/>

@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -92,7 +103,7 @@ sicherungen unserer Zuneigung. Daran schließt sich dann die<lb/>
 übliche Fahrt nach Villach. – Brief an <rs type="person" ref="#pmb11691">Heyse</rs> mit einer<lb/>
 abträglichen Bemerkung über seinen Postscriptum-Nekrolog<lb/>
 (<rs type="person" ref="#pmb10989">Brahms</rs>). – <rs type="person" ref="#pmb346028">Schneegans</rs> singt das Lob eines neuen<lb/>
-Heyse’schen Dramas in hohen Tönen. Wie schön, wenn nun<lb/>
+<rs type="person" ref="#pmb11691">Heyse</rs>’schen Dramas in hohen Tönen. Wie schön, wenn nun<lb/>
 endlich das Burgtheater die schuldige Revanche geben könnte!</p>
          </div>
       </body>

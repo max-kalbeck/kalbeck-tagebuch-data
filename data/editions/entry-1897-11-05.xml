@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -76,7 +87,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>5 November</head>
-            <p><seg rendition="#left">Freitag.</seg><lb/>Strauss erwidert, daß ich selbst das Karnickel gewesen sei, das mit<lb/>
+            <p><seg rendition="#left">Freitag.</seg><lb/><rs type="person" ref="#pmb12867">Strauss</rs> erwidert, daß ich selbst das Karnickel gewesen sei, das mit<lb/>
 der Entfremdung zwischen uns begonnen habe, u. bittet, wir möchten uns<lb/>
 bald zum Besuche bei ihnen anmelden. Ich beendige glücklich den I Act<lb/>
 von „König Artus.“ Am Nachmittag Besuch des von Triest zurückgekehrten<lb/>

@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -104,7 +115,7 @@ Ich befriedige ihre Wißbegierde sehr kühl und gebe unter d. mittelmäßigen<lb
 Liedern einem n. d. Wiener Frühling componirten Schlummerliede den<lb/>
 Vorzug. Nachmittag bei Frau Flatz, die ich neulich unterwegs getroffen.<lb/>
 Ihr Reichtum an Brahms-Photographien u. Manuscripten. Einen<lb/>
-Brief v. Beethoven hat sie unlängst verschenkt – wehe! Dafür tröstet<lb/>
+Brief v. <rs type="person" ref="#pmb10866">Beethoven</rs> hat sie unlängst verschenkt – wehe! Dafür tröstet<lb/>
 sie mich mit einem unfangreichen Manuscript v. Otto Ludwig: eine<lb/>
 komische Oper „Die Köhlerin“. Ueber eine Stunde mit ihr in ihren traurigen<lb/>
 Erinnerungen gekramt. Der Tod hat Alles um sie her niedergemäht, u. sie<lb/>

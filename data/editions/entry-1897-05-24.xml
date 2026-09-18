@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -95,12 +106,12 @@ Palmengarten und Pavillon, der an alten Bäumen reiche ansehnliche<lb/>
 Park mit Lorbeer- u. Orangengarten versetzt uns nach Italien.<lb/>
 Andächtige erlesene Gesellschaft, in die an den Musiksaal grenzenden<lb/>
 Zimmer verstreut. Die wundervollste Musik: Brahms’ Horn-Trio<lb/>
-(<rs type="person" ref="#pmb18873">Joachim</rs>, Hoyer, Borwick) u. Beethoven’s Es-Durquartett; zu<lb/>
+(<rs type="person" ref="#pmb18873">Joachim</rs>, Hoyer, Borwick) u. <rs type="person" ref="#pmb10866">Beethoven</rs>’s Es-Durquartett; zu<lb/>
 den offenen Fenstern schlagen die Nachtigallen herein. Der vollkommenste, reinste<lb/>
 Kunstgenuß, den ich jemals empfangen habe. Geheimrath Wendt, Frau<lb/>
 Fritsch, der Rector magnificus, Prof. Senffert (kennt mich v. <rs type="place" ref="#pmb677">Breslau</rs> her),<lb/>
 Deiters, Grimm, Neisser’s (a. <rs type="place" ref="#pmb677">Breslau</rs>), Prof. Zitelmann, Häffer etc.<lb/>
-unter d. Zuhörern. Mir ist, als ob <rs type="person" ref="#pmb10989">Brahms</rs> u. Beethoven dabei wären.<lb/>
+unter d. Zuhörern. Mir ist, als ob <rs type="person" ref="#pmb10989">Brahms</rs> u. <rs type="person" ref="#pmb10866">Beethoven</rs> dabei wären.<lb/>
 Innige Rührung, bei Rocholl’s lerne ich Frl. Wassermeyer, eines der schönsten<lb/>
 Mädchen, kennen. Wäre ich um 20 Jahre jünger, würde ich für sie schwärmen.<lb/>
 Nach dem Concert im Hôtel Royal. Mittelmäßiges Vergnügen.</p>

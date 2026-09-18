@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -98,7 +109,7 @@ nicht nach Carlsbad zu gehen braucht, sondern, wann es nötig sein<lb/>
 sollte, den Brunnen wieder in <rs type="place" ref="#pmb50">Wien</rs> trinken darf. Es war ½ 1 Uhr,<lb/>
 seine sonstige Ausgehzeit, u. ich fragte ihn, ob er nicht mitkommen wolle.<lb/>
 Er sagte, er wolle noch ein Stündchen schlafen, er sei so müde.<lb/>
-Auch Nottebohm, den ich kurz vor s. Tode mit Speidel i. Salzburg<lb/>
+Auch Nottebohm, den ich kurz vor s. Tode mit <rs type="person" ref="#pmb12816">Speidel</rs> i. Salzburg<lb/>
 besuchte, schlief immer vor Tische. Wie jammervoll muß sich <rs type="person" ref="#pmb10989">Br.</rs><lb/>
 fühlen, wenn er seinem armen Körper solche bei ihm sonst unerhörten<lb/>
 [Fortsetzung auf der vorherigen Seite]</p>

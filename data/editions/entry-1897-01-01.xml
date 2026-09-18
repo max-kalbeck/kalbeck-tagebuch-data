@@ -48,6 +48,17 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -95,7 +106,7 @@
                Verbindung mit<lb/> der koketten <add place="above">reichen</add> Witwe zu
                verbessern.<lb/> Die Geschichte vom „falschen Beethoven“<note type="editorische-anmerkung">Es konnte bisher nicht eruiert werden, ob es sich
                   hierbei um eine schriftstellerische Idee oder ein vermeintliches Werk bzw.
-                  Autograph von Beethoven handelt.</note> meldet sich.</p>
+                  Autograph von <rs type="person" ref="#pmb10866">Beethoven</rs> handelt.</note> meldet sich.</p>
          </div>
       </body>
    </text>

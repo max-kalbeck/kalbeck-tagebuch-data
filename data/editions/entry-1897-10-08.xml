@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -96,7 +107,7 @@ Abends Kainz im Burgtheater als Ernesto im „Galeotto“. Von Herrmann<lb/>
 höre ich, daß <rs type="person" ref="#pmb11578">Hanslick</rs> mit seinem Feuilleton über Puccini mir zuvor<lb/>
 gekommen ist. Dieses Husarenstückchen war [anstatt: geht] gegen die Verabredung. In der<lb/>
 Generalprobe sagte er mir: man kann doch nicht zwei Tage hinter einander<lb/>
-schreiben, und ich Gimpel flog ihm auf den Leim. – Speidel sieht<lb/>
+schreiben, und ich Gimpel flog ihm auf den Leim. – <rs type="person" ref="#pmb12816">Speidel</rs> sieht<lb/>
 stark gealtert aus.</p>
          </div>
       </body>

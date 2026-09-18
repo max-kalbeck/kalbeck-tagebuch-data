@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -87,7 +98,7 @@ Prill. In der Befürchtung, <rs type="person" ref="#pmb8088">Paul</rs> werde sic
 zu langweilen anfangen, sehe ich mich sehr angenehm enttäuscht.<lb/>
 Er verfolgt die Musik bis zur letzten Note mit leidenschaftlicher<lb/>
 Aufmerksamkeit u. ist besonders von dem A. M.-Quartett v. Brahms<lb/>
-entzückt, mehr als von Mozart u. Beethoven. Später vertraut er der<lb/>
+entzückt, mehr als von <rs type="person" ref="#pmb12303">Mozart</rs> u. <rs type="person" ref="#pmb10866">Beethoven</rs>. Später vertraut er der<lb/>
 Mutter an, daß er sich etwas Eigenes dabei gedacht habe. Es war so,<lb/>
 sagte er, als wenn ein Vater recht böse auf seinen Sohn wäre, und<lb/>
 als wenn der Sohn immer wieder recht schön um Verzeihung bäte.<lb/>

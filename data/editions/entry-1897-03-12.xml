@@ -48,6 +48,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -90,7 +101,7 @@
                Frau<lb/> Reinecke war so fassungslos, daß sie auf die Frage, wohin<lb/> sie gingen,
                erwiderte: Zu Brüll’s. Darob große Aufregung<lb/> der Frau Marie, die <rs type="person" ref="#pmb10989">Brahms</rs> auf
                ausdrückl. Wunsch<lb/> der Frau Reinecke nicht eingeladen hatte. Der alte
-               Reinecke<lb/> war in Gedanken an sein abendliches Concert u. spielte Mozart<lb/> auf
+               Reinecke<lb/> war in Gedanken an sein abendliches Concert u. spielte <rs type="person" ref="#pmb12303">Mozart</rs><lb/> auf
                dem Tische. Von Frau R. höre ich, daß vor acht Tagen<lb/> „Jabuka“ in Leipzig
                aufgeführt worden ist. Lewy schickte mir<lb/> heute eine Karte vom Bresl.
                Stadttheater, das 100 Textbücher<lb/> der „Maienkönigin“ bestellen will. Die Auflage

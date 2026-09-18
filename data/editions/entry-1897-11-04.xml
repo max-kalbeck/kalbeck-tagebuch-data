@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -76,7 +87,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>4 November</head>
-            <p><seg rendition="#right">Donnerstag.</seg><lb/>Johann Strauss hat mir gestern einen telegraphischen Gruß und<lb/>
+            <p><seg rendition="#right">Donnerstag.</seg><lb/><rs type="person" ref="#pmb12867">Johann Strauss</rs> hat mir gestern einen telegraphischen Gruß und<lb/>
 Dank für meine Besprechung der „Fledermaus“ gesandt, wobei er es<lb/>
 nicht unterlassen konnte zu fragen, warum ich mich nicht um ihn<lb/>
 bekümmere. Ich [Ausstreichung] erwidere ihm, daß seine mir gelegentlich der<lb/>

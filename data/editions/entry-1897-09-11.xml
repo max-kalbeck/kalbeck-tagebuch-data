@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -97,7 +108,7 @@ Die Wirkungslosigkeit der Dinge. Ihr gegenüber die weltbeherrschende<lb/>
 Macht der Phantasie. Curschmann’s hartes Urteil über die Goethe-<lb break="no"/>
 Philologen, speciell über Geiger u. Schmidt. Ich möchte ihm, was den<lb/>
 letzteren betrifft, gern Unrecht geben u. kann es nicht. Wir besuchen<lb/>
-Heyse’s in ihrem Zimmer. Seine unüberwindliche Abneigung<lb/>
+<rs type="person" ref="#pmb11691 #pmb364156">Heyse’s</rs> in ihrem Zimmer. Seine unüberwindliche Abneigung<lb/>
 gegen Klinger; „wer eine Salome bildet, u. wer es fertig bringt,<lb/>
 sich mit einem solchen Modell auch nur einen Tag lang zu beschäftigen,<lb/>
 kann kein großer Künstler sein. Ein solcher ist immer einfach, und bei<lb/>

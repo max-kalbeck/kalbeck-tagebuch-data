@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -89,10 +100,10 @@ Wissenschaft und Poesie gehören zu dürfen? Ich wäre mit meinem<lb/>
 Cottagehause wohl zufrieden, wenn ich in demselben thun u. lassen<lb/>
 könnte, was ich wollte – ach, nur mit seinem obersten bescheidenen<lb/>
 Mansardenzimmer, in welchem es einmal Andere besser haben<lb/>
-werden als ich! – Manuscripte von Seb. Bach u. Beethoven.<lb/>
+werden als ich! – Manuscripte von Seb. Bach u. <rs type="person" ref="#pmb10866">Beethoven</rs>.<lb/>
 Die Bach’sche Abschrift des französ. Meisters ...?, Rückschlüsse auf<lb/>
 die formale Gestaltung seiner Concertmusik. Romanischer Ursprung<lb/>
-der Tanzformen. Beethoven’s grobe Randbemerkungen in der<lb/>
+der Tanzformen. <rs type="person" ref="#pmb10866">Beethoven</rs>’s grobe Randbemerkungen in der<lb/>
 „Cäcilia“. Ueber einen Aufsatz v. Reichardt (?) „Was ich scheiße, ist<lb/>
 mehr wert als Deine Compositionen, Du Lump!“ Seine Verachtung<lb/>
 der wohlfeilen Enharmonik. Was würde er zu unseren neuesten<lb/>

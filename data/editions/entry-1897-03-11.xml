@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -85,11 +96,11 @@ Um 11 Uhr holt mich <rs type="person" ref="#pmb11684">Heuberger</rs> zur Probe d
 v. Strauß ab: „Die Göttin der Vernunft“. Ohne die Karte von<lb/>
 <rs type="person" ref="#pmb363714">Mosé</rs> wäre ich gar nicht ins Theater gelassen worden. Konried<lb/>
 citirt mich mit Gönnermiene aus dem zugigen Parket in seine<lb/>
-Loge, u. Bauer läßt sich bei uns nieder. Strauss hat es nicht einmal<lb/>
+Loge, u. Bauer läßt sich bei uns nieder. <rs type="person" ref="#pmb12867">Strauss</rs> hat es nicht einmal<lb/>
 der Mühe für wert gehalten, mich zur Generalprobe einzuladen.<lb/>
 Trotzdem würde ich über die Operette referirt haben, wenn sie mir<lb/>
 gefallen hätte. Sie ist aber miserabel und, wie ich während der Musik<lb/>
-merke, zum größten Teil gar nicht von Strauss. Konried teilt mir<lb/>
+merke, zum größten Teil gar nicht von <rs type="person" ref="#pmb12867">Strauss</rs>. Konried teilt mir<lb/>
 auf eine diesbezügliche Bemerkung mit, daß in der That Andere daran<lb/>
 „mitgearbeitet“ haben. Das Ganze scheint ein spitzbübischer<lb/>
 Handel zu sein. Der Banquier u. Pseudocomponist Strasser hat<lb/>

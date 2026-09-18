@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -82,7 +93,7 @@ Nach dem Concert Diner bei Ignaz Brüll im Allerengsten, da<lb/>
 d’Albert’s abgesagt hatten. Außer uns nur Goldmark, <rs type="person" ref="#pmb10989">Brahms</rs><lb/>
 u. Frau Wallach da. Es war sehr behaglich, da <rs type="person" ref="#pmb10989">Br.</rs> ziemlich<lb/>
 munter war, und kein Mis[s]ton die Harmonie störte. Goldmark<lb/>
-beklagt sich über Heyse’s Empfindlichkeit; offenbar fült er das<lb/>
+beklagt sich über <rs type="person" ref="#pmb11691">Heyse</rs>’s Empfindlichkeit; offenbar fült er das<lb/>
 Bedürfnis sich seines Benehmens wegen <rs type="person" ref="#pmb11691">Heyse</rs> u. mir gegenüber<lb/>
 zu rechtfertigen. Mit der „Insel“ wußte er absolut nichts anzu-<lb break="no"/>
 fangen.<lb/>

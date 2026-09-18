@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -90,7 +101,7 @@ durchaus noch einmal sehen will – gegen meinen Wunsch.<lb/>
 Unsere gemeinsamen Vorstellungen, daß die im Zimmer aufgebahrte Leiche<lb/>
 von Hunderten v. Neugierigen umdrängt sein wird, u. daß es doch entsetzlich<lb/>
 sei mit dem Volke dort zusammenzustoßen, dringen durch. *) Prof. Epstein<lb/>
-veranlaßte Hans Richter u. das Hofopernorchester, Mozart’s „Maurerische<lb/>
+veranlaßte Hans Richter u. das Hofopernorchester, <rs type="person" ref="#pmb12303">Mozart</rs>’s „Maurerische<lb/>
 Trauermusik“ dem Programm voranzuschicken. Die Herren wollten anfangs<lb/>
 nichts davon wissen, u. es hielt [fiel] schwer die Stimmen zu beschaffen. Nach der<lb/>
 Musik trat lautlose Stille ein. Während der IX. Symph. suchen meine<lb/>

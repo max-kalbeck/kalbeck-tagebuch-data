@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -99,7 +110,7 @@ um hier neue Arten zu bilden. – Dieser Gedanke für „Jasius Araxes“ zu<lb/
 verwerten! Animirter Abend bei Lobmeyr. Kralik, Grasberger u. Karl-<lb break="no"/>
 weis meine Tischnachbarn. Prof. Puschmann berichtet über die Unruhe, die<lb/>
 meine Humoreske im „Ruhigen Bade“ hervorgerufen hat. Dir. Burckhard<lb/>
-entschuldigt sich, daß er meinen Besuch noch nicht erwiderte, u. freut sich auf Heyse’s<lb/>
+entschuldigt sich, daß er meinen Besuch noch nicht erwiderte, u. freut sich auf <rs type="person" ref="#pmb11691">Heyse</rs>’s<lb/>
 „Tochter d. Semiramis“, die ich i[h]m morgen schicken will. Lewinsky schmollt.<lb/>
 Meinetwegen. Bettelheim’s Idee, uns gegen Lobmeyr mit einem Festmal<lb/>
 ihm zu Ehren zu revanchiren. – Heute macht Elly Lion in <rs type="place" ref="#pmb677">Breslau</rs> Hochzeit.<lb/>

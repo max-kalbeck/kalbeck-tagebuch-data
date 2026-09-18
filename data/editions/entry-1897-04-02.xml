@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -77,7 +88,7 @@
          <div hand="#hand__kalbeck">
             <head>2 April</head>
             <p><add hand="#hand__kalbeck_bs_lk" place="top-right">x<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/>[ganz oben auf der Seite geschrieben]<lb/>
-x) Frau Adele Strauss, die durchaus zu <rs type="person" ref="#pmb10989">Br.</rs> hinein möchte, und die Schwester Ilona’s<lb/>
+x) Frau <rs type="person" ref="#pmb10084">Adele Strauss</rs>, die durchaus zu <rs type="person" ref="#pmb10989">Br.</rs> hinein möchte, und die Schwester Ilona’s<lb/>
 auf der Treppe zur Umkehr bewegt und mit Frau Brüll zurück in die Stadt.<lb/>
 <seg rendition="#right">Freitag.</seg><lb/>
 Auf dem Wege zu <rs type="person" ref="#pmb10989">Brahms</rs> begegnet mir Dr. Miller v. Aichholz.<lb/>

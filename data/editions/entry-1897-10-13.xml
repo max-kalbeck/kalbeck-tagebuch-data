@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -97,7 +108,7 @@ Den von Mahler neu einstudirten „Figaro“ in der Hofoper<lb/>
 gehört. Im Zwischenact bei Mahler im Probirsaale. Ich<lb/>
 soll „Figaro’s Hochzeit“ textkritisch revidiren, die Recitative<lb/>
 neu übersetzen, und wir wollen dann zusammen eine stilgerechte<lb/>
-Aufführung des Mozart’schen Meisterwerkes, meines besonderen<lb/>
+Aufführung des <rs type="person" ref="#pmb12303">Mozart</rs>’schen Meisterwerkes, meines besonderen<lb/>
 Lieblings, in Scene setzen. M. will nach u. nach den ganzen<lb/>
 Mozart herausbringen. Meinen „Don Juan“-Text will ich<lb/>
 noch einmal durchnehmen u. zu verbessern suchen.</p>

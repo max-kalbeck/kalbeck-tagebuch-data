@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -83,7 +94,7 @@
                [14. September]<lb/>
 Dinstag. Wir holen den gestern verunglückten Spaziergang nach St. Valentin<lb/>
 u. Trautmannsdorff nach. Hr. u. Frau Prof. Hantsch a. Würzburg,<lb/>
-die mit Heyse’s in Salò zus. waren, erscheinen auf d. Bildfläche. Komisch,<lb/>
+die mit <rs type="person" ref="#pmb11691 #pmb364156">Heyse’s</rs> in Salò zus. waren, erscheinen auf d. Bildfläche. Komisch,<lb/>
 [eingefügt zwischen den Zeilen: Sie die Tochter des Bildhauers Schilling i. Dresden.]<lb/>
 wie sie von Anna’s Schwester vorsichtig angemeldet u. introducirt werden.<lb/>
 Die gute Emmerle glaubt in mir den privilegirten Anbeter Anna’s schonen<lb/>
@@ -107,7 +118,7 @@ Musikreferat im „Berl. Tgbl.“ übernehmen wolle. Rocholl’s melden<lb/>
 sich telephonisch an. <rs type="person" ref="#pmb36699">Julie</rs> bleibt bei Anna, u. ich gehe hinunter in die Stadt.<lb/>
 Promenade in Marchetti’s Weingarten; Spaziergang in die Lazag,<lb/>
 Mittagmal im Forsterbräu. Ahrens leistet uns Gesellschaft. Rendez-vous<lb/>
-mit <rs type="person" ref="#pmb36699">Julie</rs> im Curhauskaffee. Dr. Frank, Heyse’s, Fischer's. Da kein<lb/>
+mit <rs type="person" ref="#pmb36699">Julie</rs> im Curhauskaffee. Dr. Frank, <rs type="person" ref="#pmb11691 #pmb364156">Heyse’s</rs>, Fischer's. Da kein<lb/>
 Telegramm aus <rs type="place" ref="#pmb50">Wien</rs> kommt, [Ausstreichung] mache ich mich darauf gefaßt,<lb/>
 daß <rs type="person" ref="#pmb8088">Paul</rs> durchgefallen ist. Eine Réponse payée bleibt unbeantwortet.<lb/>
 Mir fällt es schwer aufs Herz, daß wir den Jungen allein ziehen ließen.<lb/>

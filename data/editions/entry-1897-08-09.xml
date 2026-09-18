@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -78,7 +89,7 @@
             <head>9 August</head>
             <p><seg rendition="#left">Montag.</seg><lb/>Stern ermuntert mich, im Feuilleton gegen den Papst loszu-<lb break="no"/>
 ziehen, weil er die Kirchenmusik reformiren und nach einer (offen-<lb break="no"/>
-bar unverständig u. einseitig abgefaßten) Zeitungsnotiz Mozart<lb/>
+bar unverständig u. einseitig abgefaßten) Zeitungsnotiz <rs type="person" ref="#pmb12303">Mozart</rs><lb/>
 u. Haydn sowie „die Violine“ vom kath. Gottesdienste aus-<lb break="no"/>
 schließen will. – Gewiß wäre das Thema der Rede wert. Wenn<lb/>
 es aber ernstlich in Angriff genommen werden und tiefer erfaßt<lb/>

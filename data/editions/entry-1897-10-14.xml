@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -93,7 +104,7 @@ Im Burgtheater spielt Kainz in der „Jüdin v. Toledo“ und reißt<lb/>
 Alles zur Bewunderung hin. Brahm will übermorgen bei uns<lb/>
 essen. Ueber Hamlet u. Alfonso zusammen geschrieben.<lb/>
 Ein Dr. Herschmann in Pilsen möchte gern einen Vortrag über<lb/>
-Mozart u. Wagner halten und verlangt, ich solle ihm ein paar –<lb/>
+<rs type="person" ref="#pmb12303">Mozart</rs> u. Wagner halten und verlangt, ich solle ihm ein paar –<lb/>
 Broschüren nennen, aus denn er sich am schnellsten über beide<lb/>
 unterrichten könne! – Ein Prof. Dr. Storch a. Waldenburg i.<lb/>
 Schles. verehrt mir mit einem anerkennenden Schreiben eine<lb/>

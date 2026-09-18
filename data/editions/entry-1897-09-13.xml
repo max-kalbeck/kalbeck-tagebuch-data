@@ -46,6 +46,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+       <appInfo>
+            <application ident="transkribus" version="1.26.0">
+               <label>Transkribus</label>
+               <desc xml:lang="de">Sammlung 2020963</desc>
+               <desc xml:lang="en">collection 2020963</desc>
+            </application>
+            <application ident="custom" version="0.0">
+               <label>Kalbeck-Tagebuch-Data scripts</label>
+               <ptr target="https://github.com/max-kalbeck/kalbeck-tagebuch-data"/>
+            </application>
+         </appInfo>
       <styleDefDecl scheme="css" default="false"/>
       <tagsDecl>
         <rendition xml:id="center" scheme="css">text-align:center</rendition>
@@ -102,7 +113,7 @@ Felde zu widerlegen. Wir einigten uns dahin, an <rs type="person" ref="#pmb34602
 Vor dem Abendessen steige ich drei viertel Stunden lang den Berg hinan bis<lb/>
 zu den letzten Hütten; mir war, als ob mich jemand jagte, u. ich komme<lb/>
 in der Dunkelheit schweißgebadet durch das Naifthal zurück. Lustiges Tarok<lb/>
-mit Heyse’s. Am Nachmittag noch viel über <rs type="person" ref="#pmb10989">Brahms</rs>. Das Henschel’sche Tagebuch.<lb/>
+mit <rs type="person" ref="#pmb11691 #pmb364156">Heyse’s</rs>. Am Nachmittag noch viel über <rs type="person" ref="#pmb10989">Brahms</rs>. Das Henschel’sche Tagebuch.<lb/>
 [12. September]<lb/>
 Sonntag. <rs type="person" ref="#pmb11691">Heyse</rs> hatte sich gestern „Das stille Dorf“ mitgenommen u. bringt<lb/>
 es mir wieder. Selene hat nicht Gnade gefunden vor seinen Augen, sie ist<lb/>
