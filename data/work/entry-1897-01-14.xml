@@ -89,9 +89,11 @@
                         etc.</ab>
                   </body>
                </floatingText>
-               <lb/>Donnerstag: Im Archiv gearbeitet. + Einladung vom Bürgermeister <lb/>zur
-               Eröffnung der Schubert-Ausstellung. Werde mir die Herrlichkeit <lb/>später für mich
-               besehen. <rs type="institution" ref="#pmb195419">Quartett Hellmesberger.</rs></p>
+               <lb/>Donnerstag: Im Archiv gearbeitet. + Einladung vom <rs type="person"
+                  ref="#pmb5241" subtype="implied">Bürgermeister</rs><lb/> zur Eröffnung der <rs
+                  type="event" ref="#pmb364957">Schubert-Ausstellung</rs>. Werde mir die
+               Herrlichkeit <lb/>später für mich besehen. <rs type="institution" ref="#pmb195419"
+                  >Quartett Hellmesberger</rs>.</p>
          </div>
       </body>
    </text>
