@@ -72,7 +72,7 @@
                         <lb/><note type="editorische-anmerkung">Dieser Textabschnitt gehört zum
                            Tagebucheintrag vom 13. Januar.</note>und <rs type="person"
                            ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl. Original
-                              <del><unclear>die</unclear></del><lb/> elende Stümperei eines
+                        <subst><del rendition="#overwritten">eine</del> <add place="inline">die</add></subst><lb/> elende Stümperei eines
                         militärcapellmeistermäßigen Instrumenta-<lb break="no"/> tors ist, der so
                         unmusikalisch war, daß er nicht einmal wußte,<lb/> was Melodie ist. <subst>
                            <del>Die</del>
