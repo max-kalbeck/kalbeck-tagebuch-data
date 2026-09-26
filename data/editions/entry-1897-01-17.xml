@@ -97,8 +97,9 @@
                Chorliede: „<rs type="work" ref="#pmb364634">Fahr wohl!</rs>“ Die letzte Strophe:<lb/>
                <seg rendition="#center">Fahr wohl,<lb/> All Liebes, das nun scheiden soll!<lb/> Und
                   ob es so geschehe,<lb/> Daß ich nicht mehr dich sehe,<lb/> Fahr wohl!</seg><lb/>
-               geht allen Anwesenden zu Herzen. <rs type="person" ref="#pmb12816">Speidel</rs> schleicht sich davon<lb/> wie ein begossener
-               Hund. Am Nachmittag Gratulationsvisite bei<lb/> Schwarz zu Nelly’s Hochzeit.
+               geht allen Anwesenden zu Herzen. <rs type="person" ref="#pmb12816">Speidel</rs>
+               schleicht sich davon<lb/> wie ein begossener Hund. Am Nachmittag Gratulationsvisite bei<lb/>
+               <rs type="person" ref="#pmb24622 #pmb24613">Schwarz</rs> zu <rs type="person" ref="#pmb21069">Nelly</rs>’s <rs type="event" ref="#pmb365253">Hochzeit</rs>.
                Fürchterlicher Trouble. Wie abge-<lb break="no"/> schmackt und widerwärtig für jeden
                zarter Fühlenden ist dieses Preis-<lb break="no"/> geben intimer Vorgänge! Eine
                Hochzeit als Stadtaffaire – scheußlich.<lb/> Welche zudringlich neugierigen,
@@ -113,8 +114,9 @@
                <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> entwickelt sich ein
                längerer Abend mit Tarok u. Kälberei<note type="editorische-anmerkung">albernes,
                   übermütiges Treiben</note>.<lb/>
-               <unclear reason="eccentric_ductus" extent="5" unit="word"/> Dr. <rs type="person" cert="medium" ref="#pmb364640">Carl</rs> als verliebter Cherubino, Hausarzt u.<lb/>
-               Maître de plaisir. Musikalisches Nachtisch-Gespräch. Um 1 Uhr zu Hause.</p>
+               <unclear reason="eccentric_ductus" extent="5" unit="word"/> Dr. <rs type="person" cert="medium" ref="#pmb364640">Carl</rs> als verliebter Cherubino,
+                     <del><unclear>in</unclear></del> Hausarzt u.<lb/> Maître de plaisir.
+               Musikalisches Nachtisch-Gespräch. Um 1 Uhr zu Hause.</p>
          </div>
       </body>
    </text>

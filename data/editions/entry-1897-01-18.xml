@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-18" n="01"/>
             <title level="a">Montag, 18. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,7 +47,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -87,31 +89,30 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>18 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Montag.</seg><lb/>Gegenbesuch bei Schriftsteller Telmann in der Gonzagagasse.<lb/>
-Er heißt eigentl. Theumann. In seiner Abwesenheit erkläre<lb/>
-ich seiner Schwester, daß ich mich gern den gegen die Theatercensur<lb/>
-gerichteten Bestrebungen anschließe, weder aber ein Amt in<lb/>
-Comité noch Einladungen zu Versammlungen annehmen kann,<lb/>
-da ich für dergl. keine Zeit habe. Auf dem Bureau längeres<lb/>
-Gespräch mit <rs type="person" ref="#pmb2202">Singer</rs> über die internen Verhältnisse der Zeitung.<lb/>
-Wir hatten gestern eine Nummer von 60 Seiten u. eine Auflage<lb/>
-von 65000 Exempl. <rs type="person" ref="#pmb11885">Karpath</rs> will sich durchaus nicht nach Pest<lb/>
-schicken lassen, trotzdem ihm Alles gut zuredet; er wird bald zwischen<lb/>
-zwei Stühlen sitzen. Verwickelter, labyrinthischer Gassenspazier-<lb break="no"/>
-gang zu <rs type="person" ref="#pmb202165 #pmb202165">Conrat’s</rs>, die schon mit <rs type="person" ref="#pmb10989">Brahms</rs> bei Tische sitzen.<lb/>
-Er erzält, daß er die ganze vorige Nacht kein Auge zu gethan<lb/>
-habe. Gleichwol ist er ziemlich munter und sieht wieder etwas<lb/>
-voller aus. Bei Tische viel gelacht mit <rs type="person" ref="#pmb99629">Mandyczewski</rs>, dem<lb/>
-jungen Leipziger Doctor. Sein Bericht über die Reise des Dr.<lb/>
-Kraus nach Bayreuth u. dessen Aufenthalt bei Frau Cosima.<lb/>
-Kr. ist aufgefordert worden, den Gurnemanz zu singen, u. bedankt<lb/>
-sich bei Frau Cosima damit, daß er ihr einen ganzen Abend in<lb/>
-Wahnfried Lieder von Brahms zu hören giebt. Dann mit<lb/>
-<rs type="person" ref="#pmb36699">Julie</rs> in der Bank Geld erhoben. Jeder Hunderter thut mir weh, den<lb/>
-ich mir herauszalen lassen muß. Wenn erst die Tausender daran<lb/>
-kommen werden! Briefe an Mama, Breitkopf u. H., Oberregisseur<lb/>
-Bachmann i. Stuttgart, Margarete Schutz, Alice Pollak.<lb/>
-Im Concert Sauer mit <rs type="person" ref="#pmb19070">Rosl</rs>.</p>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck
+                     Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als
+                     relevant erachtete.</note></add><lb/><seg rendition="#right">Montag.</seg><lb/>Gegenbesuch bei Schriftsteller <rs type="person" ref="#pmb12926">Telmann</rs> in der <rs type="place" ref="#pmb441">Gonzagagasse</rs>.<lb/> Er
+               heißt eigentl. Theumann. In seiner Abwesenheit erkläre<lb/> ich seiner <rs type="person" ref="#pmb182114" subtype="implied">Schwester</rs> , daß ich mich
+               gern den gegen die Theatercensur<lb/> gerichteten Bestrebungen anschließe, weder aber
+               ein Amt in<lb/> Comité noch Einladungen zu Versammlungen annehmen kann,<lb/> da ich
+               für dergl. keine Zeit habe. Auf dem Bureau längeres<lb/> Gespräch mit <rs type="person" ref="#pmb2202">Singer</rs> über die internen Verhältnisse der
+               Zeitung.<lb/> Wir hatten gestern eine Nummer von 60 Seiten u. eine Auflage<lb/> von
+               65000 Exempl. <rs type="person" ref="#pmb11885">Karpath</rs> will sich durchaus nicht
+               nach Pest<lb/> schicken lassen, trotzdem ihm Alles gut zuredet; er wird bald
+               zwischen<lb/> zwei Stühlen sitzen. Verwickelter, labyrinthischer Gassenspazier-<lb break="no"/> gang zu <rs type="person" ref="#pmb202165 #pmb202165">Conrat’s</rs>,
+               die schon mit <rs type="person" ref="#pmb10989">Brahms</rs> bei Tische sitzen.<lb/>
+               Er erzält, daß er die ganze vorige Nacht kein Auge zu gethan<lb/> habe. Gleichwol ist
+               er ziemlich munter und sieht wieder etwas<lb/> voller aus. Bei Tische viel gelacht
+               mit <rs type="person" ref="#pmb99629">Mandyczewski</rs>, dem<lb/> jungen Leipziger
+               Doctor. Sein Bericht über die Reise des Dr.<lb/> Kraus nach Bayreuth u. dessen
+               Aufenthalt bei Frau Cosima.<lb/> Kr. ist aufgefordert worden, den Gurnemanz zu
+               singen, u. bedankt<lb/> sich bei Frau Cosima damit, daß er ihr einen ganzen Abend
+               in<lb/> Wahnfried Lieder von Brahms zu hören giebt. Dann mit<lb/>
+               <rs type="person" ref="#pmb36699">Julie</rs> in der Bank Geld erhoben. Jeder
+               Hunderter thut mir weh, den<lb/> ich mir herauszalen lassen muß. Wenn erst die
+               Tausender daran<lb/> kommen werden! Briefe an Mama, Breitkopf u. H., Oberregisseur<lb/>
+               <rs type="person" ref="#pmb365247">Bachmann</rs><lb/> i. Stuttgart, Margarete Schutz,
+               Alice Pollak.<lb/> Im Concert Sauer mit <rs type="person" ref="#pmb19070">Rosl</rs>.</p>
          </div>
       </body>
    </text>
