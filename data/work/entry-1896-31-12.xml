@@ -80,10 +80,14 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
+      <graphic url="kalbeck_2__0002_a"/>
+      <graphic url="kalbeck_2__0002_b"/>
+      <graphic url="kalbeck_2__0003_a"/>
       <graphic url="kalbeck_2__0003_b"/>
    </facsimile>
    <text>
       <body>
+         <pb corresp="#facs-04"/>
          <div hand="#hand__kalbeck">
             <head><rs type="event" ref="#pmb363617">Tafelrunde vom 31. Decbr. 1896.</rs><note
                   type="editorische-anmerkung">Diese Zeile schrieb Kalbeck mit feinerer Feder und
