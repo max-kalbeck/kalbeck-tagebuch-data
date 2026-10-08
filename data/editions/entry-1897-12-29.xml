@@ -81,13 +81,13 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="#"/>
+      <graphic url="kalbeck_2__0185_a"/>
    </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
             <head>29 Dezember</head>
-            <p>[leer]</p>
+            <p><seg rendition="#left">Mittwoch.</seg></p>
          </div>
       </body>
    </text>
