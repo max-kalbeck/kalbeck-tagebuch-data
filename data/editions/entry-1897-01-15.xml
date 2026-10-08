@@ -89,7 +89,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>15 Januar</head>
-            <p><seg rendition="#right">Freitag.</seg><lb/></p>
+            <p><seg rendition="#right">Freitag.</seg></p>
          </div>
       </body>
    </text>
