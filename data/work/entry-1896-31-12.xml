@@ -87,6 +87,9 @@
    </facsimile>
    <text>
       <body>
+        <pb corresp="#facs-01" type="frontmatter"/>
+         <pb corresp="#facs-02" type="frontmatter"/>
+         <pb corresp="#facs-03" type="frontmatter"/>
          <pb corresp="#facs-04"/>
          <div hand="#hand__kalbeck">
             <head><rs type="event" ref="#pmb363617">Tafelrunde vom 31. Decbr. 1896.</rs><note
