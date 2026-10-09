@@ -93,10 +93,10 @@
     </profileDesc>
     </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0002_a"/>
-      <graphic url="kalbeck_2__0002_b"/>
-      <graphic url="kalbeck_2__0003_a"/>
-      <graphic url="kalbeck_2__0003_b"/>
+      <graphic url="kalbeck_2__0002_a" xml:id="facs-01"/>
+      <graphic url="kalbeck_2__0002_b" xml:id="facs-02"/>
+      <graphic url="kalbeck_2__0003_a" xml:id="facs-03"/>
+      <graphic url="kalbeck_2__0003_b" xml:id="facs-04"/>
    </facsimile>
    <text>
       <body>

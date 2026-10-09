@@ -83,8 +83,8 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0010_b"/>
-      <graphic url="kalbeck_2__0011_a"/>
+      <graphic url="kalbeck_2__0010_b" xml:id="facs-01"/>
+      <graphic url="kalbeck_2__0011_a" xml:id="facs-02"/>
    </facsimile>
    <text>
       <body>
