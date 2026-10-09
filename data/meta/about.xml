@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">
-               Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897)
-            </title>
+            <title level="s"> Digitale Edition des Tagebuchs von Max Kalbeck (1896–1897) </title>
             <title level="a">Über das Projekt</title>
             <author ref="https://orcid.org/0009-0002-3219-2839">Rost, Henrike</author>
             <funder ref="https://d-nb.info/gnd/2054142-9">
@@ -16,14 +14,17 @@
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2025">2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><ab>born digital</ab></sourceDesc>
+         <sourceDesc>
+            <ab>born digital</ab>
+         </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
@@ -31,9 +32,63 @@
          <div type="section">
             <p>Max Kalbeck: Praktiken des Netzwerkens in Wien um 1900</p>
          </div>
-	 <div type="section">
-            <head>Die Quellen</head>
-            <p>Zwei gut erhaltene Kalendertagebücher im Hochformat (140 x 210 mm) mit Goldschnitt und Ledereinband (1895: dunkelgrün, 1897: dunkelbraun); auf beiden Buchdeckeln goldgeprägte Schwalbe, die eine Kette mit Kleeblatt-Anhänger um den Hals trägt; ursprünglich 365 bzw. 366 vorgedruckte Seiten mit dekorativ gerahmten Tages- und Monatsangaben; einige herausgetrennte bzw. fehlende Blätter sowie eingeklebte oder lose eingelegte Beilagen (überwiegend Zeitungsausschnitte). Im Jahr 1895 fehlen die Seiten vom 13./14. und 17./18. August, im Jahr 1897 die Seiten vom 15./16. März, 2./3. und 16./17. November sowie 30./31. Dezember.</p>
+         <div type="section">
+            <head>Max Kalbecks Tagebücher</head>
+            <p>Max Kalbeck (1850–1921) zählte als gut vernetzter Musik- und Theaterkritiker, Dichter
+               und Librettist zu den einflussreichen Persönlichkeiten des Wiener Kulturlebens um die
+               Jahrhundertwende. Obwohl er in seinen Aufzeichnungen Jugendtagebücher erwähnt, sind
+               heute nur zwei seiner Tagebücher überliefert. Die dekorativen, gut erhaltenen Bände
+               aus den Jahren 1895 und 1897 sind bis heute in Familienbesitz.<lb/> Kalbeck gehörte
+               nicht zu den über Jahre hinweg regelmäßig Tagebuchschreibenden. Was bewog ihn also,
+               genau in den Jahren 1895 und 1897 täglich Tagebuch zu schreiben?<lb/> Kalbeck – zum
+               engeren Kreis um Johannes Brahms gehörig – dürfte geahnt haben, dass der von ihm
+               hochverehrte Komponist dem Tode nahe war. Brahms verstarb am 3. April 1897 in Wien.
+               Einiges spricht dafür, dass Kalbeck dieses Ereignis mit täglichen Notizen begleiten
+               und rahmen wollte. Und tatsächlich sind diverse Passagen und Erinnerungen aus den
+               Tagebüchern in seiner später verfassten monumentalen Brahms-Biografie Johannes Brahms
+               (1904–1914) nachweisbar.<lb/> Max Kalbeck war vielseitig interessiert und umfassend
+               gebildet. Ähnlich facettenreich sind auch seine Tagebucheinträge, die
+               unterschiedlichste Inhalte und Stimmungen thematisieren. Das Tagebuch war für ihn
+               Notizbuch ebenso wie Journal intime und Raum für Selbstdarstellung und Reflexion. Er
+               beschrieb darin sein tägliches Erleben, berichtete aus seinem familiären und
+               beruflichen Alltag, notierte persönliche Gedanken, Eindrücke und schriftstellerische
+               Ideen.<lb/> Die Untersuchung der Kalbeck-Tagebücher, die Hunderte von Namen
+               enthalten, soll durch die Heranziehung weiterer Quellen ergänzt werden, darunter
+               Briefe, Kalbecks Brahms-Biografie und sein Stammbuch. Die Digitaledition der
+               Tagebücher ist mit der Datenbank „PMB – Personen der Moderne Basis“ verknüpft – eine
+               ideale Umgebung für die Visualisierung und Erkundung historischer Netzwerke in Wien
+               um 1900.<lb/> Verbunden wird dieser Ansatz mit einer Forschungsperspektive, die
+               gezielt nach Praktiken und Routinen fragt. Im Blick stehen dabei insbesondere die
+               Handlungen und Strategien rund um die Aufnahme, Pflege und Nutzung von Kontakten in
+               den kulturellen Netzwerke in Wien um 1900.<lb/></p>
+            <p>Vorarbeiten<lb/> Diese Edition stützt sich auf die Vorarbeiten eines 2023 von der
+               Stadt Wien (MA 7) geförderten Projekts an der mdw – Universität für Musik und
+               darstellende Kunst Wien zur Transkription und editorischen Erschließung von Max
+               Kalbecks Tagebuch aus dem Jahr 1897. Dem Stadt-Wien-Projekt und der Digital-Edition
+               gingen Mitte der 1990er Jahre Arbeiten der australischen Musikwissenschaftlerin
+               Sandra McColl voraus. Sie hatte eine Edition des 1897er-Tagebuchs vorbereitet, diese
+               aber nicht finalisiert. Obgleich die Existenz von Kalbecks Tagebüchern in der
+               Forschung bekannt war, ist es vor allem McColls Initiative zu verdanken, dass Auszüge
+               aus den Tagebüchern, die sie in verschiedenen Artikeln in englischer Übersetzung
+               publizierte, bereits damals Eingang in den Forschungsdiskurs fanden. Im Juni 2026
+               veröffentlichte Teresa Cäcilia Ramming ihre Dissertation „Parteibuch“,
+               Universalpoesie und weltliterarisches Gesamtkunstwerk. Max Kalbecks monumentale
+               Biografie Johannes Brahms, die unter anderem auch die Notiz- und Tagebücher Kalbecks
+               als Quellen für dessen Brahms-Biografie diskutiert. Neben eigenen Arbeiten mit den
+               Kalbeck-Tagebüchern konnte Ramming auf die Vorarbeiten McColls ebenso wie auf die
+               Vorarbeiten für diese Digital-Edition zurückgreifen.<lb/></p>
+            <p>Materielle Beschreibung<lb/> Bei den Kalbeck-Tagebüchern handelt es sich um zwei gut
+               erhaltene Kalendertagebücher im Hochformat (140 x 210 mm) mit Goldschnitt und
+               Ledereinband (1895: dunkelgrün, 1897: dunkelbraun). Den Zusammenhang der Bände
+               illustriert die auf beiden Buchdeckeln in gold aufgeprägte Schwalbe, die eine Kette
+               mit Kleeblatt-Anhänger um den Hals trägt. Die Bücher enthielten ursprünglich 365 bzw.
+               366 vorgedruckte Seiten mit dekorativ gerahmten Tages- und Monatsangaben. Die Bände
+               umfassen weiterhin einige eingeklebte oder lose eingelegte Beilagen, darunter
+               Zeitungsausschnitte und getrocknete Pflanzenteile. Zu einem unbekannte Zeitpunkt
+               wurden mehrere Seiten herausgetrennt bzw. herausgeschnitten. Im Jahr 1895 fehlen die
+               Seiten vom 13./14. und 17./18. August, im Jahr 1897 die Seiten vom 15./16. März,
+               2./3. und 16./17. November sowie 30./31. Dezember. Die Tagebuchseiten vom 4. bis 29.
+               Dezember 1897 sind unbeschrieben.<lb/></p>
          </div>
       </body>
    </text>
