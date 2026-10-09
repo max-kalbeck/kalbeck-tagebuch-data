@@ -34,7 +34,7 @@ jobs:
       - name: rend to rendition
         run: scripts/substitutions.sh
       - name: Add xml:ids to facs
-        run: script/fix_facsimile_graphic_ids.py
+        run: scripts/fix_facsimile_graphic_ids.py
       - name: Commit editions
         run: |
           git config user.name "github-actions[bot]"
