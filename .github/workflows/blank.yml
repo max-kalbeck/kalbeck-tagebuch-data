@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Populate profileDesc and encodingDesc
+name: Populate header and complete body
 
 # Controls when the workflow will run
 on:
@@ -33,6 +33,8 @@ jobs:
         run: scripts/fill_headers.py
       - name: rend to rendition
         run: scripts/substitutions.sh
+      - name: Add xml:ids to facs
+        run: script/fix_facsimile_graphic_ids.py
       - name: Commit editions
         run: |
           git config user.name "github-actions[bot]"
