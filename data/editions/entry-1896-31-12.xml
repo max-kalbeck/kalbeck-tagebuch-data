@@ -97,10 +97,12 @@
       <graphic url="kalbeck_2__0002_b" xml:id="facs-02"/>
       <graphic url="kalbeck_2__0003_a" xml:id="facs-03"/>
       <graphic url="kalbeck_2__0003_b" xml:id="facs-04"/>
+      <graphic url="kalbeck_2__0003_c" xml:id="facs-05"/>
+      <graphic url="kalbeck_2__0003_d" xml:id="facs-06"/>
    </facsimile>
    <text>
       <body>
-        <pb corresp="#facs-01" type="frontmatter"/>
+         <pb corresp="#facs-01" type="frontmatter"/>
          <pb corresp="#facs-02" type="frontmatter"/>
          <pb corresp="#facs-03" type="frontmatter"/>
          <pb corresp="#facs-04"/>
@@ -149,6 +151,8 @@
                <signed><rs type="person" ref="#pmb10989">Johs Brahms.</rs></signed><lb/>
             </closer>
          </div>
+         <pb corresp="#facs-05" type="frontmatter"/>
+         <pb corresp="#facs-06" type="frontmatter"/>
       </body>
    </text>
 </TEI>

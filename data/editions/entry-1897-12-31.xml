@@ -80,6 +80,13 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0185_b" xml:id="facs-01"/>
+      <graphic url="kalbeck_2__0186_a" xml:id="facs-02"/>
+      <graphic url="kalbeck_2__0186_b" xml:id="facs-03"/>
+      <graphic url="kalbeck_2__0187_a" xml:id="facs-04"/>
+      <graphic url="kalbeck_2__0187_b" xml:id="facs-05"/>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
@@ -88,6 +95,11 @@
 [Auf Vorsatzpapier Ausstreichung]<lb/>
 Meine Ge … kann zum Teil …</p>
          </div>
+         <pb corresp="#facs-01" type="backmatter"/>
+         <pb corresp="#facs-02" type="backmatter"/>
+         <pb corresp="#facs-03" type="backmatter"/>
+         <pb corresp="#facs-04" type="backmatter"/>
+         <pb corresp="#facs-05" type="backmatter"/>
       </body>
    </text>
 </TEI>
