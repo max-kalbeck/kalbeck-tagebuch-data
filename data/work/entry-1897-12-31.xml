@@ -54,6 +54,13 @@
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="kalbeck_2__0185_b"></graphic>
+      <graphic url="kalbeck_2__0186_a"></graphic>
+      <graphic url="kalbeck_2__0186_b"></graphic>
+      <graphic url="kalbeck_2__0187_a"></graphic>
+      <graphic url="kalbeck_2__0187_b"></graphic>
+   </facsimile>
    <text>
       <body>
          <div hand="#hand__kalbeck">
@@ -62,6 +69,11 @@
 [Auf Vorsatzpapier Ausstreichung]<lb/>
 Meine Ge … kann zum Teil …</p>
          </div>
+         <pb corresp="#facs-01" type="backmatter"/>
+         <pb corresp="#facs-02" type="backmatter"/>
+         <pb corresp="#facs-03" type="backmatter"/>
+         <pb corresp="#facs-04" type="backmatter"/>
+         <pb corresp="#facs-05" type="backmatter"/>
       </body>
    </text>
 </TEI>
