@@ -5,9 +5,9 @@ Data repository for FWF-Projekt [Max Kalbeck: Networking Practices in Vienna 190
 ## how to add data
 
 1. (one time only): clone the repo
-1. copy [entry-1111-11-11.xml](entry-1111-11-11.xml) into `data/editions/entry-1111-11-11.xml`
-1. rename `data/editions/entry-1111-11-11.xml` into `data/editions/entry-{actual-day}.xml`, e.g. [data/editions/entry-1897-01-04.xml](data/editions/entry-1897-01-04.xml)
-1. open the copied file `data/editions/entry-{actual-day}.xm` and 
+1. copy [entry-1111-11-11.xml](entry-1111-11-11.xml) into `data/work/entry-1111-11-11.xml`
+1. rename `data/work/entry-1111-11-11.xml` into `data/work/entry-{actual-day}.xml`, e.g. [data/editions/entry-1897-01-04.xml](data/editions/entry-1897-01-04.xml)
+1. open the copied file `data/work/entry-{actual-day}.xm` and 
     1. change `<title type="iso-date" when-iso="JJJJ-MM-TT" n="01"/>` into e.g. `<title type="iso-date" when-iso="1897-01-04" n="01"/>`
     1. change `<title level="a">Wochentag, Tag. Monat Jahr</title>` into e.g. `<title level="a">Montag, 4. Jänner 1897</title>`
     1. add current date to `<change who="#hrost" when="JJJ-MM-TT">Dokument angelegt</change>` (or and/or antoher `tei:change` Element)
@@ -49,7 +49,7 @@ Data repository for FWF-Projekt [Max Kalbeck: Networking Practices in Vienna 190
     ```
     1. add linebreaks: `Mein 47. Geburtstag. Unter d. schriftl. Gratulanten taucht der fatale<lb />` use `<lb break="no">` for e.g. `Haus-<lb break="no">tür`
 1. check if all document is valid and save
-1. check if all documents in `data/editions` are valid (using Oxygen Validation Scenario)
+1. check if all documents in `data/work` are valid (using Oxygen Validation Scenario)
 1. commit and push
 
 
