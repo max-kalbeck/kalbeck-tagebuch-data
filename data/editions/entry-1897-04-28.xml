@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -111,7 +110,7 @@ in der Weinhandlung. Schlenther konnte leider nicht kommen. Viel über<lb/>
 <rs type="person" ref="#pmb10986">Brahm</rs>, Meyer-Cohn 2). Meyer-Cohn besitzt den literar. Nachlaß v.<lb/>
 Hemsen, dabei Convolute <rs type="person" ref="#pmb11691">Heyse</rs>’scher und Mörike’scher Briefe.<lb/>
 [25. April]<lb/>
-Sonntag Brief v. Klinger. Mittags bei Kirschner’s. Mein Unmut legt sich.<lb/>
+Sonntag Brief v. Klinger. Mittags bei <rs type="person" ref="#pmb113474 #pmb364109">Kirschner’s</rs>. Mein Unmut legt sich.<lb/>
 Rico u. Otto verabschieden sich. Mit Martin u. Grete Spaziergang im Thiergarten.<lb/>
 Abds. im Deutschen Theater. Zuvor das Abenteuer auf der Stadtbahn, wo ich dreierlei<lb/>
 riskirte: 1) wegen Billetlosigkeit bestraft 2) wegen Amtsbeleidigung arretirt u. 3) von<lb/>

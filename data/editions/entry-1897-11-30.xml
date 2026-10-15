@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -110,7 +109,7 @@ der humoristisch sein soll; ich habe nur darauf gewartet.<lb/>
 Die passendste Holtei-Reminiscenz wäre das Citat: „Lecken<lb/>
 Sie mich im A ..., soweit die deutsche Zunge reicht!“ Ach,<lb/>
 und bei diesen fladerigen Einfaltspinseln muß ich mich noch<lb/>
-höflichst und dankbarst entschuldigen! Concert Kerndl.</p>
+höflichst und dankbarst entschuldigen! Concert <rs type="person" ref="#pmb194254">Kerndl</rs>.</p>
          </div>
       </body>
    </text>

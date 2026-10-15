@@ -60,7 +60,13 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
+   <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -85,13 +91,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    </teiHeader>
+  </teiHeader>
    <facsimile>
       <graphic url="kalbeck_2__0002_a" xml:id="facs-01"/>
       <graphic url="kalbeck_2__0002_b" xml:id="facs-02"/>

@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -111,14 +110,14 @@ Froschkönig (Menzel). Mit neuem Entzücken die Klinger’schen Phantasien<lb/>
 betrachtet. <rs type="person" ref="#pmb355860">Simrock</rs> hat Klinger veranlaßt, <rs type="person" ref="#pmb10989">Brahms</rs> die Skizzen u. Studien<lb/>
 zu schenken. Ich spaziere eine Stunde durch die wimmelnde Großstadt: Leipziger<lb/>
 straße, Friedrichstr., Linden. Das Gefül, ein Stäubchen im All zu sein u. doch<lb/>
-zugleich eine Welt für sich. Abends bei Kirschner’s. Martha Seeber hat noch<lb/>
+zugleich eine Welt für sich. Abends bei <rs type="person" ref="#pmb113474 #pmb364109">Kirschner’s</rs>. Martha Seeber hat noch<lb/>
 immer ihr falsches Pathos u. ihre gemachten Empfindungen, die mich ihr einst für<lb/>
 ewig entfremdeten. Weh dem Liebhaber, der sehend wird! – Briefe von<lb/>
 Rocholl a. Bonn mit einer Einladung, im Mai dorthin zu kommen.<lb/>
 [27. April]<lb/>
 Dinstag. Grete holt uns ab, um zu Tante Auguste nach Friedenau zu<lb/>
 fahren. Der Berliner Vorortverkehr. Cläre, die bei Heinke’s gastirt, kommt dazu.<lb/>
-Die Spannung zwischen Kirschner’s u. Lange’s. Ich habe die alte Tante von</p>
+Die Spannung zwischen <rs type="person" ref="#pmb113474 #pmb364109">Kirschner’s</rs> u. Lange’s. Ich habe die alte Tante von</p>
          </div>
       </body>
    </text>

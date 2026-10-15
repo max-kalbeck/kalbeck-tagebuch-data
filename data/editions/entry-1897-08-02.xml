@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -100,7 +99,7 @@ Meister Gottfried bringen wohlthuende Erfrischung. Die Nacht<lb/>
 über gießt es in Strömen. So etwas wie den „Schmied seines<lb/>
 Glückes“ möchte ich auch einmal zu kneten versuchen; es muß eine<lb/>
 eigene Wonne sein, solche Figürchen auf den Marsch zu bringen.<lb/>
-Bei Keller glaubt man immer das Behagen zu merken, das der<lb/>
+Bei <rs type="person" ref="#pmb8165">Keller</rs> glaubt man immer das Behagen zu merken, das der<lb/>
 Dichter an seiner Arbeit hatte, und das erhöht den Genuß an seinen<lb/>
 Werken. – <rs type="person" ref="#pmb8088">Paul</rs> führt jede Nacht dramatische Scenen in seinem<lb/>
 Bett auf. Die Studentenkneipe hatte ihn so aufgeregt, daß er<lb/>

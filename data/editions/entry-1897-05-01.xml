@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -115,7 +114,7 @@ Ehrlichkeit.<lb/>
 Mittwoch. Den Vormittag über im alten Museum u. in der Gemälde-<lb break="no"/>
 galerie. Wie viel u. schnell man vergißt. Die Gemälde sind in besserer<lb/>
 Ordnung u. Uebersicht umgehängt u. kommen zu vollerer Wirkung. Große<lb/>
-Hitze u. in Folge dessen starke Abspannung u. Ermüdung. Abschied von Kirschner’s.<lb/>
+Hitze u. in Folge dessen starke Abspannung u. Ermüdung. Abschied von <rs type="person" ref="#pmb113474 #pmb364109">Kirschner’s</rs>.<lb/>
 Mit Stinde bei Carl gegessen. Er möchte gern in <rs type="place" ref="#pmb50">Wien</rs> Vorlesungen halten.<lb/>
 Seine Methode. Abends bei Marie. Telegramm v. <rs type="person" ref="#pmb342788">Helene Vesque</rs>.<lb/>
 [29. April]<lb/>

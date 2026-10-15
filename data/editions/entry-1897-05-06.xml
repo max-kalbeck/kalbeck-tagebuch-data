@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -103,7 +102,7 @@ der einzige gewesen, der nach den (von <rs type="person" ref="#pmb27633">d’Alb
 Variationen Beifall klatschte. Reinecke als Gewandhaus-Concertdirector<lb/>
 hat viel auf dem Gewissen; seine heimliche Abneigung gegen <rs type="person" ref="#pmb10989">Br.</rs> Kl.’s x)<lb/>
 besondere Vorliebe für das Adagio aus d. II Cello-Sonate. Von der<lb/>
-neueren Literatur will Kl. nichts wissen, den einzigen G. Keller aus-<lb break="no"/>
+neueren Literatur will Kl. nichts wissen, den einzigen <rs type="person" ref="#pmb8165">G. Keller</rs> aus-<lb break="no"/>
 genommen; aber auch dessen Novellenverkoppelung (wie im „Sinngedicht“)<lb/>
 kann er nicht leiden. <rs type="person" ref="#pmb11691">Heyse</rs>, v. dem <rs type="person" ref="#pmb10989">Br.</rs> stets voller Bewunderung<lb/>
 sprach, geht ihm gegen den Strich. „Der grüne Heinrich“ sein Lieblingsbuch. [Satz vorgezogen]<lb/>

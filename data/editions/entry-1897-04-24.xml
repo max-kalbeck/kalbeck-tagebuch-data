@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -102,7 +101,7 @@ platz eingerichtet hat. Ein Geschmack, wie ein gebildeter Tapezierer, aber<lb/>
 ein prachtvolles Haus. Welche Fülle von Comfort, Reichthum u. Eleganz in<lb/>
 dem modernen <rs type="place" ref="#pmb168">Berlin</rs>! Einsame Wanderung quer durch den Thiergarten;<lb/>
 dann einen Sprung zu Carl hinauf. Um 5 Uhr großes Familiendiner<lb/>
-bei Kirschner’s. Schöner u. ergreifender Anblick der festlich geschmückten<lb/>
+bei <rs type="person" ref="#pmb113474 #pmb364109">Kirschner’s</rs>. Schöner u. ergreifender Anblick der festlich geschmückten<lb/>
 reich besetzten Tafel. In der Mitte rücken die Alten zusammen: Martin u.<lb/>
 Grete, welcher der silberne Myrtenkranz im Haar liegt wie ein bereifter<lb/>
 grüner Zweig, ich und die Mama ihnen vis-à-vis. Daneben Pastor Schmeidler<lb/>

@@ -47,6 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -72,13 +78,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -108,7 +108,7 @@
                Universität aus die akademische Jugend zu haranguiren<lb/> u. mich an die Spitze
                einer revolutionären deutschen Bewegung<lb/> zu stellen. Nach dem Böhm. Quartett in
                das Restaurant „Moderne“<lb/> an der Seilerstätte zu dem vom „Neuen W. Tagbl.“
-               veranstalteten<lb/> Geburtstagsbankett. Leon Kellner’s Bekanntschaft gemacht; er
+               veranstalteten<lb/> Geburtstagsbankett. <rs type="person" ref="#pmb11904">Leon Kellner</rs>’s Bekanntschaft gemacht; er
                wollte<lb/> mich einmal mit Dr. Friedländer
                aus freier Luft besuchen. Der<lb/> moderne Philologe, speciell d. englische, steht
                ihm auf d. Gesicht geschrieben.<lb/> Mit Vergnügen höre ich, daß er Professor am

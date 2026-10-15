@@ -45,7 +45,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+    <profileDesc>
+      <handNotes>
+        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+          Kalbecks Handschrift, Bleistift</handNote></handNotes>
+    </profileDesc>
+      <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
                <label>Transkribus</label>
@@ -70,13 +75,7 @@
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
       </tagsDecl>
     </encodingDesc>
-  <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote>
-      </handNotes>
-    </profileDesc>
-    <revisionDesc status="wip">
+  <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
    </teiHeader>
@@ -110,7 +109,7 @@ ist richtig, sofern die Kritiker unter diesem Mitschaffen die ernste,<lb/>
 unabhängige, ehrliche Beurtheilung u. nicht das Mitschaffen schlechter<lb/>
 Opern verstehen. Schlechte Opern bringt die Kunstwelt aber<lb/>
 auch ohne die Mitarbeit von Kritikern zu Stande.“ Das scheint<lb/>
-auf <rs type="person" ref="#pmb11684">Heuberger</rs> zu zielen, wenn nicht der große Kauders<lb/>
+auf <rs type="person" ref="#pmb11684">Heuberger</rs> zu zielen, wenn nicht der große <rs type="person" ref="#pmb8133">Kauders</rs><lb/>
 gemeint ist.</p>
          </div>
       </body>
