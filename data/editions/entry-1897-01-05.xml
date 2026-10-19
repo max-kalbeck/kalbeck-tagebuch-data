@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +83,78 @@
    <facsimile>
       <graphic url="kalbeck_2__0006_b" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb8088">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/8088/</idno>
+         </person>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11036">
+            <persName>Burckhard</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11036/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb11944">
+            <persName>Klinger</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11944/</idno>
+         </person>
+         <person xml:id="pmb12618">
+            <persName>Sandrock</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618/</idno>
+         </person>
+         <person xml:id="pmb19070">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19070/</idno>
+         </person>
+         <person xml:id="pmb36699">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36699/</idno>
+         </person>
+         <person xml:id="pmb105529">
+            <persName>Steiner</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/105529/</idno>
+         </person>
+         <person xml:id="pmb342788">
+            <persName>Vesque-Püttlingen</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342788/</idno>
+         </person>
+         <person xml:id="pmb342792">
+            <persName>Vesque-Püttlingen</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342792/</idno>
+         </person>
+         <person xml:id="pmb342793">
+            <persName>Vesque-Püttlingen</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342793/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb14">
+            <placeName>Burgtheater</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+         </place>
+         <place xml:id="pmb533">
+            <placeName>Währinger Cottage</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/533/</idno>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="pmb31225">
+            <title>Medea. Trauerspiel in fünf Aufzügen</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/31225/</idno>
+         </bibl>
+         <bibl xml:id="pmb364351">
+            <title>Phantasie und Künstler</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364351/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

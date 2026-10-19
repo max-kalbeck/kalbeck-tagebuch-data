@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +83,68 @@
    <facsimile>
       <graphic url="kalbeck_2__0013_a" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb2202">
+            <persName>Singer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2202/</idno>
+         </person>
+         <person xml:id="pmb7610">
+            <persName>Gurschner</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/7610/</idno>
+         </person>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb11885">
+            <persName>Kárpáth</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11885/</idno>
+         </person>
+         <person xml:id="pmb12926">
+            <persName>Telmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12926/</idno>
+         </person>
+         <person xml:id="pmb19070">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19070/</idno>
+         </person>
+         <person xml:id="pmb36699">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36699/</idno>
+         </person>
+         <person xml:id="pmb99629">
+            <persName>Mandyczewski</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/99629/</idno>
+         </person>
+         <person xml:id="pmb182114">
+            <persName>Theumann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/182114/</idno>
+         </person>
+         <person xml:id="pmb202165">
+            <persName>Conrat</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/202165/</idno>
+         </person>
+         <person xml:id="pmb364829">
+            <persName>Conrat</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364829/</idno>
+         </person>
+         <person xml:id="pmb365247">
+            <persName>Bachmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365247/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb441">
+            <placeName>Gonzagagasse</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/441/</idno>
+         </place>
+      </listPlace>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

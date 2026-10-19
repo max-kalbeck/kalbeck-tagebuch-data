@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +83,62 @@
    <facsimile>
       <graphic url="kalbeck_2__0012_a" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb12926">
+            <persName>Telmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12926/</idno>
+         </person>
+         <person xml:id="pmb64900">
+            <persName>Telmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64900/</idno>
+         </person>
+         <person xml:id="pmb365247">
+            <persName>Bachmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365247/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb14">
+            <placeName>Burgtheater</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+         </place>
+      </listPlace>
+      <listOrg>
+         <org xml:id="pmb29697">
+            <orgName>Breitkopf und Härtel</orgName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/29697/</idno>
+         </org>
+      </listOrg>
+      <listEvent>
+         <event xml:id="pmb208895">
+            <eventName>Premiere von Die Wildente, 16.1.1897</eventName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208895/</idno>
+         </event>
+      </listEvent>
+      <listBibl>
+         <bibl xml:id="pmb29971">
+            <title>Die Wildente. Schauspiel in fünf Akten</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/29971/</idno>
+         </bibl>
+         <bibl xml:id="pmb34253">
+            <title>Orpheus und Eurydike</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/34253/</idno>
+         </bibl>
+         <bibl xml:id="pmb204911">
+            <title>Bastien et Bastienne</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/204911/</idno>
+         </bibl>
+         <bibl xml:id="pmb204919">
+            <title>La finta giardiniera</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/204919/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -82,6 +80,60 @@
    <facsimile>
       <graphic url="kalbeck_2__0073_b" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb3499">
+            <persName>Edlinger</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/3499/</idno>
+         </person>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb36699">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36699/</idno>
+         </person>
+         <person xml:id="pmb100107">
+            <persName>Molden</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/100107/</idno>
+         </person>
+         <person xml:id="pmb337384">
+            <persName>Doller</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/337384/</idno>
+         </person>
+         <person xml:id="pmb342764">
+            <persName>Molden</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342764/</idno>
+         </person>
+         <person xml:id="pmb342765">
+            <persName>Billroth</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342765/</idno>
+         </person>
+         <person xml:id="pmb342797">
+            <persName>Faber</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342797/</idno>
+         </person>
+         <person xml:id="pmb342798">
+            <persName>Faber</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342798/</idno>
+         </person>
+         <person xml:id="pmb365420">
+            <persName>Herzogenberg</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365420/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb50">
+            <placeName>Wien</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+         </place>
+      </listPlace>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

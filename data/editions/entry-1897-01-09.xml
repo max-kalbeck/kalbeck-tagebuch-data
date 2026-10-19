@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +83,116 @@
    <facsimile>
       <graphic url="kalbeck_2__0008_b" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb2202">
+            <persName>Singer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2202/</idno>
+         </person>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11402">
+            <persName>Ganghofer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11402/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb19070">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19070/</idno>
+         </person>
+         <person xml:id="pmb19855">
+            <persName>Kupelwieser</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19855/</idno>
+         </person>
+         <person xml:id="pmb21717">
+            <persName>Müller</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21717/</idno>
+         </person>
+         <person xml:id="pmb36699">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36699/</idno>
+         </person>
+         <person xml:id="pmb346028">
+            <persName>Schneegans</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/346028/</idno>
+         </person>
+         <person xml:id="pmb363525">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363525/</idno>
+         </person>
+         <person xml:id="pmb363530">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363530/</idno>
+         </person>
+         <person xml:id="pmb363538">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363538/</idno>
+         </person>
+         <person xml:id="pmb363714">
+            <persName>Mosé</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363714/</idno>
+         </person>
+         <person xml:id="pmb364518">
+            <persName>Zellner</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364518/</idno>
+         </person>
+         <person xml:id="pmb364569">
+            <persName>Kamarowska</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364569/</idno>
+         </person>
+         <person xml:id="pmb364654">
+            <persName>Zellner</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364654/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb20">
+            <placeName>Volkstheater</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+         </place>
+         <place xml:id="pmb29">
+            <placeName>Hotel Sacher</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/29/</idno>
+         </place>
+         <place xml:id="pmb342">
+            <placeName>Weimarer Straße</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342/</idno>
+         </place>
+         <place xml:id="pmb533">
+            <placeName>Währinger Cottage</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/533/</idno>
+         </place>
+         <place xml:id="pmb41069">
+            <placeName>Millstatt am See</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/41069/</idno>
+         </place>
+         <place xml:id="pmb92168">
+            <placeName>Blaasstraße</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92168/</idno>
+         </place>
+      </listPlace>
+      <listEvent>
+         <event xml:id="pmb208894">
+            <eventName>Uraufführung von Meerleuchten, 9.1.1897</eventName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208894/</idno>
+         </event>
+         <event xml:id="pmb363695">
+            <eventName>Brahms-Diner, 9.1.1897</eventName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363695/</idno>
+         </event>
+      </listEvent>
+      <listBibl>
+         <bibl xml:id="pmb77510">
+            <title>Meerleuchten</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/77510/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

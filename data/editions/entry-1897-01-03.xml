@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +83,142 @@
    <facsimile>
       <graphic url="kalbeck_2__0005_b" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb2185">
+            <persName>Gutmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2185/</idno>
+         </person>
+         <person xml:id="pmb3744">
+            <persName>Mautner</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/3744/</idno>
+         </person>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb12205">
+            <persName>Mautner</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12205/</idno>
+         </person>
+         <person xml:id="pmb12809">
+            <persName>Sonnenthal</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12809/</idno>
+         </person>
+         <person xml:id="pmb13044">
+            <persName>Walter</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/13044/</idno>
+         </person>
+         <person xml:id="pmb13856">
+            <persName>Baumgarten</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/13856/</idno>
+         </person>
+         <person xml:id="pmb14077">
+            <persName>Bergheim</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14077/</idno>
+         </person>
+         <person xml:id="pmb16420">
+            <persName>Fournier</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/16420/</idno>
+         </person>
+         <person xml:id="pmb18081">
+            <persName>Hellmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/18081/</idno>
+         </person>
+         <person xml:id="pmb19501">
+            <persName>Kohn</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19501/</idno>
+         </person>
+         <person xml:id="pmb27383">
+            <persName>Wärndorfer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/27383/</idno>
+         </person>
+         <person xml:id="pmb27386">
+            <persName>Wärndorfer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/27386/</idno>
+         </person>
+         <person xml:id="pmb27397">
+            <persName>Wärndorfer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/27397/</idno>
+         </person>
+         <person xml:id="pmb28523">
+            <persName>Necker</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/28523/</idno>
+         </person>
+         <person xml:id="pmb36699">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36699/</idno>
+         </person>
+         <person xml:id="pmb156078">
+            <persName>Holbein-Holbeinsberg</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/156078/</idno>
+         </person>
+         <person xml:id="pmb299510">
+            <persName>Fielitz</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/299510/</idno>
+         </person>
+         <person xml:id="pmb339087">
+            <persName>Winter</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/339087/</idno>
+         </person>
+         <person xml:id="pmb342783">
+            <persName>Miller zu Aichholz</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342783/</idno>
+         </person>
+         <person xml:id="pmb342797">
+            <persName>Faber</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342797/</idno>
+         </person>
+         <person xml:id="pmb342798">
+            <persName>Faber</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342798/</idno>
+         </person>
+         <person xml:id="pmb363632">
+            <persName>Hellmann</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363632/</idno>
+         </person>
+         <person xml:id="pmb363663">
+            <persName>Bergheim</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363663/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb445">
+            <placeName>Rom</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/445/</idno>
+         </place>
+         <place xml:id="pmb533">
+            <placeName>Währinger Cottage</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/533/</idno>
+         </place>
+      </listPlace>
+      <listOrg>
+         <org xml:id="pmb340015">
+            <orgName>Österreichische Literarische Gesellschaft</orgName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/340015/</idno>
+         </org>
+      </listOrg>
+      <listEvent>
+         <event xml:id="pmb365299">
+            <eventName>Hochzeit von Lilli Jeanette Hellmann und Friedrich Wärndorfer, 8.11.1896</eventName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365299/</idno>
+         </event>
+      </listEvent>
+      <listBibl>
+         <bibl xml:id="pmb299513">
+            <title>Das stille Dorf</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/299513/</idno>
+         </bibl>
+         <bibl xml:id="pmb353046">
+            <title>Humoresken und Phantasien</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/353046/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

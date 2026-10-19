@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -86,6 +84,70 @@
       <graphic url="kalbeck_2__0010_b" xml:id="facs-01"/>
       <graphic url="kalbeck_2__0011_a" xml:id="facs-02"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb2202">
+            <persName>Singer</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2202/</idno>
+         </person>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb12099">
+            <persName>Loewe</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12099/</idno>
+         </person>
+         <person xml:id="pmb16647">
+            <persName>Friedlaender</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/16647/</idno>
+         </person>
+         <person xml:id="pmb99629">
+            <persName>Mandyczewski</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/99629/</idno>
+         </person>
+         <person xml:id="pmb160741">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/160741/</idno>
+         </person>
+         <person xml:id="pmb174597">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/174597/</idno>
+         </person>
+         <person xml:id="pmb194127">
+            <persName>Gänsbacher</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/194127/</idno>
+         </person>
+         <person xml:id="pmb257937">
+            <persName>Deiters</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/257937/</idno>
+         </person>
+         <person xml:id="pmb363714">
+            <persName>Mosé</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363714/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb168">
+            <placeName>Berlin</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+         </place>
+         <place xml:id="pmb533">
+            <placeName>Währinger Cottage</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/533/</idno>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="pmb353046">
+            <title>Humoresken und Phantasien</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/353046/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

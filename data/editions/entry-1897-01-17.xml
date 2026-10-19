@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +83,90 @@
    <facsimile>
       <graphic url="kalbeck_2__0012_b" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb10989">
+            <persName>Brahms</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb12816">
+            <persName>Speidel</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12816/</idno>
+         </person>
+         <person xml:id="pmb21065">
+            <persName>Marmorek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21065/</idno>
+         </person>
+         <person xml:id="pmb21069">
+            <persName>Marmorek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21069/</idno>
+         </person>
+         <person xml:id="pmb24613">
+            <persName>Schwarz</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/24613/</idno>
+         </person>
+         <person xml:id="pmb24622">
+            <persName>Schwarz</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/24622/</idno>
+         </person>
+         <person xml:id="pmb57774">
+            <persName>Marmorek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/57774/</idno>
+         </person>
+         <person xml:id="pmb160741">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/160741/</idno>
+         </person>
+         <person xml:id="pmb174597">
+            <persName>Kantor</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/174597/</idno>
+         </person>
+         <person xml:id="pmb360480">
+            <persName>Door</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/360480/</idno>
+         </person>
+         <person xml:id="pmb364645">
+            <persName>Door</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364645/</idno>
+         </person>
+         <person xml:id="pmb365310">
+            <persName>Marmorek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365310/</idno>
+         </person>
+         <person xml:id="pmb365315">
+            <persName>Marmorek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365315/</idno>
+         </person>
+         <person xml:id="pmb365324">
+            <persName>Marmorek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365324/</idno>
+         </person>
+         <person xml:id="pmb365331">
+            <persName>Isidor Wolfgang</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365331/</idno>
+         </person>
+      </listPerson>
+      <listEvent>
+         <event xml:id="pmb365253">
+            <eventName>Hochzeit von Cornelia Schwarz und Oskar Marmorek, 17.1.1897</eventName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365253/</idno>
+         </event>
+         <event xml:id="pmb365306">
+            <eventName>Hochzeit von Julie Lion (geb. Freund) und Max Kalbeck, 1881</eventName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/365306/</idno>
+         </event>
+      </listEvent>
+      <listBibl>
+         <bibl xml:id="pmb364634">
+            <title>Fahr wohl! Lieder und Romanzen, op. 93a</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364634/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

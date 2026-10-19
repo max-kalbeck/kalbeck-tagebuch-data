@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -84,6 +82,58 @@
    <facsimile>
       <graphic url="kalbeck_2__0091_b" xml:id="facs-01"/>
    </facsimile>
+   <standOff>
+      <listPerson>
+         <person xml:id="pmb8088">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/8088/</idno>
+         </person>
+         <person xml:id="pmb11171">
+            <persName>Dreher</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11171/</idno>
+         </person>
+         <person xml:id="pmb11857">
+            <persName>Kalbeck</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
+         </person>
+         <person xml:id="pmb18873">
+            <persName>Joachim</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/18873/</idno>
+         </person>
+         <person xml:id="pmb257834">
+            <persName>Busse</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/257834/</idno>
+         </person>
+         <person xml:id="pmb342765">
+            <persName>Billroth</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/342765/</idno>
+         </person>
+         <person xml:id="pmb355013">
+            <persName>Janetschek</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/355013/</idno>
+         </person>
+         <person xml:id="pmb355860">
+            <persName>Simrock</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/355860/</idno>
+         </person>
+         <person xml:id="pmb363824">
+            <persName>Hiller</persName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/363824/</idno>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pmb168">
+            <placeName>Berlin</placeName>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="pmb353046">
+            <title>Humoresken und Phantasien</title>
+            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/353046/</idno>
+         </bibl>
+      </listBibl>
+   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">
