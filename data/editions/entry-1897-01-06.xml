@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -83,84 +85,6 @@
    <facsimile>
       <graphic url="kalbeck_2__0007_a" xml:id="facs-01"/>
    </facsimile>
-   <standOff>
-      <listPerson>
-         <person xml:id="pmb11461">
-            <persName>Goethe</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11461/</idno>
-         </person>
-         <person xml:id="pmb11578">
-            <persName>Hanslick</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11578/</idno>
-         </person>
-         <person xml:id="pmb11857">
-            <persName>Kalbeck</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
-         </person>
-         <person xml:id="pmb12867">
-            <persName>Strauss (Sohn)</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12867/</idno>
-         </person>
-         <person xml:id="pmb19070">
-            <persName>Kantor</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19070/</idno>
-         </person>
-         <person xml:id="pmb100107">
-            <persName>Molden</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/100107/</idno>
-         </person>
-         <person xml:id="pmb160741">
-            <persName>Kantor</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/160741/</idno>
-         </person>
-         <person xml:id="pmb174597">
-            <persName>Kantor</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/174597/</idno>
-         </person>
-         <person xml:id="pmb299510">
-            <persName>Fielitz</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/299510/</idno>
-         </person>
-         <person xml:id="pmb364356">
-            <persName>Pott</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364356/</idno>
-         </person>
-         <person xml:id="pmb364528">
-            <persName>Beck</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364528/</idno>
-         </person>
-         <person xml:id="pmb364654">
-            <persName>Zellner</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364654/</idno>
-         </person>
-      </listPerson>
-      <listPlace>
-         <place xml:id="pmb15">
-            <placeName>Oper</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/15/</idno>
-         </place>
-         <place xml:id="pmb445">
-            <placeName>Rom</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/445/</idno>
-         </place>
-         <place xml:id="pmb677">
-            <placeName>Breslau</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/677/</idno>
-         </place>
-      </listPlace>
-      <listEvent>
-         <event xml:id="pmb364469">
-            <eventName>Aufführung von Die Fledermaus, 6.1.1897</eventName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364469/</idno>
-         </event>
-      </listEvent>
-      <listBibl>
-         <bibl xml:id="pmb30421">
-            <title>Die Fledermaus. Komische Oper in drei Acten</title>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/30421/</idno>
-         </bibl>
-      </listBibl>
-   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -83,80 +85,6 @@
    <facsimile>
       <graphic url="kalbeck_2__0006_a" xml:id="facs-01"/>
    </facsimile>
-   <standOff>
-      <listPerson>
-         <person xml:id="pmb6484">
-            <persName>Brüll</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/6484/</idno>
-         </person>
-         <person xml:id="pmb8088">
-            <persName>Kalbeck</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/8088/</idno>
-         </person>
-         <person xml:id="pmb11857">
-            <persName>Kalbeck</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
-         </person>
-         <person xml:id="pmb11885">
-            <persName>Kárpáth</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11885/</idno>
-         </person>
-         <person xml:id="pmb14642">
-            <persName>Brüll</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14642/</idno>
-         </person>
-         <person xml:id="pmb19011">
-            <persName>Kalbeck</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19011/</idno>
-         </person>
-         <person xml:id="pmb19070">
-            <persName>Kantor</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19070/</idno>
-         </person>
-         <person xml:id="pmb19501">
-            <persName>Kohn</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/19501/</idno>
-         </person>
-         <person xml:id="pmb21717">
-            <persName>Müller</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21717/</idno>
-         </person>
-         <person xml:id="pmb160741">
-            <persName>Kantor</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/160741/</idno>
-         </person>
-         <person xml:id="pmb346028">
-            <persName>Schneegans</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/346028/</idno>
-         </person>
-         <person xml:id="pmb364345">
-            <persName>Merhal</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364345/</idno>
-         </person>
-         <person xml:id="pmb364348">
-            <persName>Tillemann</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364348/</idno>
-         </person>
-         <person xml:id="pmb364353">
-            <persName>Milvius</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/364353/</idno>
-         </person>
-      </listPerson>
-      <listPlace>
-         <place xml:id="pmb168">
-            <placeName>Berlin</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-         </place>
-         <place xml:id="pmb533">
-            <placeName>Währinger Cottage</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/533/</idno>
-         </place>
-         <place xml:id="pmb677">
-            <placeName>Breslau</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/677/</idno>
-         </place>
-      </listPlace>
-   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">

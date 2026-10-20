@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -80,40 +82,6 @@
    <facsimile>
       <graphic url="kalbeck_2__0096_b" xml:id="facs-01"/>
    </facsimile>
-   <standOff>
-      <listPerson>
-         <person xml:id="pmb2202">
-            <persName>Singer</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2202/</idno>
-         </person>
-         <person xml:id="pmb10815">
-            <persName>Bahr</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815/</idno>
-         </person>
-         <person xml:id="pmb10989">
-            <persName>Brahms</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10989/</idno>
-         </person>
-         <person xml:id="pmb11857">
-            <persName>Kalbeck</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
-         </person>
-         <person xml:id="pmb257834">
-            <persName>Busse</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/257834/</idno>
-         </person>
-         <person xml:id="pmb337384">
-            <persName>Doller</persName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/337384/</idno>
-         </person>
-      </listPerson>
-      <listPlace>
-         <place xml:id="pmb168">
-            <placeName>Berlin</placeName>
-            <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-         </place>
-      </listPlace>
-   </standOff>
    <text>
       <body>
          <div hand="#hand__kalbeck">
