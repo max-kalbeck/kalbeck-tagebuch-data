@@ -35,8 +35,8 @@ jobs:
         run: scripts/substitutions.sh
       - name: Add xml:ids to facs
         run: scripts/fix_facsimile_graphic_ids.py
-      - name: Canonicalise pmb ids and add referenced entities
-        run: scripts/canonicalise_pmb.py
+      #- name: Canonicalise pmb ids and add referenced entities
+      #  run: scripts/canonicalise_pmb.py
       - name: Commit editions
         run: |
           git config user.name "github-actions[bot]"
