@@ -94,10 +94,12 @@
                   <body>
                      <ab>
                         <lb/><note type="editorische-anmerkung">Dieser Textabschnitt gehört zum
-                           Tagebucheintrag vom 13. Januar.</note>und <rs type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl. Original
-                        <subst><del rendition="#overwritten">eine</del> <add place="inline">die</add></subst><lb/> elende Stümperei eines
-                        militärcapellmeistermäßigen Instrumenta-<lb break="no"/> tors ist, der so
-                        unmusikalisch war, daß er nicht einmal wußte,<lb/> was Melodie ist. <subst>
+                           Tagebucheintrag vom 13. Januar.</note>und <rs type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl. Original <subst>
+                           <del rendition="#overwritten">eine</del>
+                           <add place="inline">die</add>
+                        </subst><lb/> elende Stümperei eines militärcapellmeistermäßigen
+                           Instrumenta-<lb break="no"/> tors ist, der so unmusikalisch war, daß er
+                        nicht einmal wußte,<lb/> was Melodie ist. <subst>
                            <del>Die</del>
                            <add place="above">So würden die</add>
                         </subst> langen Noten am Anfange d. I Satzes<lb/> als tremolo d. Geigen
@@ -109,7 +111,7 @@
                   </body>
                </floatingText>
                <lb/>Donnerstag: Im Archiv gearbeitet. + Einladung vom <rs type="person" ref="#pmb5241" subtype="implied">Bürgermeister</rs><lb/> zur Eröffnung der <rs type="event" ref="#pmb364957">Schubert-Ausstellung</rs>. Werde mir die
-               Herrlichkeit <lb/>später für mich besehen. <rs type="institution" ref="#pmb195419">Quartett Hellmesberger</rs>.</p>
+               Herrlichkeit <lb/>später für mich besehen. <rs type="event" ref="#pmb510217"><rs type="institution" ref="#pmb195419">Quartett Hellmesberger</rs></rs>.</p>
          </div>
       </body>
    </text>
