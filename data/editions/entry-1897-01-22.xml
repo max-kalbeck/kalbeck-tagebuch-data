@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-22" n="01"/>
             <title level="a">Freitag, 22. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -86,27 +89,24 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>22 Januar</head>
-            <p><seg rendition="#left">Freitag.</seg><lb/>Mit <rs type="person" ref="#pmb36699">Julie</rs> in der <rs type="event" ref="#pmb364957">Schubertausstellung</rs>. Ueberraschender Reichtum<lb/>
-der Schwind’schen Malerpoesie. Brief von Michel Delines aus<lb/>
-Nizza, der mich auffordert gemeinsame Sache bei der Bearbeitung<lb/>
-russischer Opern mit ihm zu machen.<lb/>
-[gehört ans Ende des 23. Januars]<lb/>
-Concessionen macht! Am Nachmittag 3 Uhr Termin bei dem<lb/>
-Währinger Notar, wo sich die sechs Verkäufer der Parzellen<lb/>
-mit uns einfinden, u. <rs type="person" ref="#pmb337384">Doller</rs> dem Abschlusse des Kaufes assistirt.<lb/>
-Wir besehen uns dann mit zärtlichen Besitzerblicken unter heftigem<lb/>
-Schneegestöber unser neues Eigentum. <rs type="person" ref="#pmb337384">Doller</rs> begleitet uns zu Müller,<lb/>
-der schon am Hausplane arbeitet. Nach 5 Uhr besucht mich der<lb/>
-langweilige u. zudringliche Dr. Königstein, der mir zumutet, ich<lb/>
-solle mich für seine Frau interessiren. Mit Seelenruhe lege ich ihm<lb/>
-meine Principien als Kritiker dar, u. er muß mit langer Nase<lb/>
-abziehen. Nach dem Concert <rs type="person" ref="#pmb194261">Kleeberg</rs> zum Herrenabend bei <rs type="person" ref="#pmb20537">Lobmeyr</rs>.<lb/>
-Prof. Minor interpellirt mich, was an meiner Satire auf die Goethe-Forschung<lb/>
-Wahres sei – o, welche Ochsen giebt es auf d. Erde! Disput mit<lb/>
-Müller-Guttenbrunn u. <rs type="person" ref="#pmb12061">Lewinsky</rs> über die „Wildente“. Jeder<lb/>
-hat eine andere Meinung – ein Beweis für die Problematik des<lb/>
-Stückes. Zwischen <rs type="person" ref="#pmb10912">Bettelheim</rs> u. Wickhoff bei Tische; mit <rs type="person" ref="#pmb10912">Bettelh.</rs><lb/>
-u. <rs type="person" ref="#pmb3731">Kralik</rs> um 1 Uhr heim.</p>
+            <p><seg rendition="#left">Freitag.</seg><lb/>Mit <rs type="person" ref="#pmb36699">Julie</rs> in der <rs type="event" ref="#pmb364957">Schubertausstellung</rs>.
+               Ueberraschender Reichtum<lb/> der <rs type="person" ref="#pmb9814">Schwind</rs>’schen
+               Malerpoesie. Brief von <rs type="person" ref="#pmb510259">Michel Delines</rs> aus<lb/>
+               <rs type="place" ref="#pmb926">Nizza</rs>, der mich auffordert gemeinsame Sache bei
+               der Bearbeitung<lb/> russischer Opern mit ihm zu machen.<lb/> [gehört ans Ende des
+               23. Januars]<lb/> Concessionen macht! Am Nachmittag 3 Uhr Termin bei dem<lb/>
+               Währinger Notar, wo sich die sechs Verkäufer der Parzellen<lb/> mit uns einfinden, u.
+                  <rs type="person" ref="#pmb337384">Doller</rs> dem Abschlusse des Kaufes
+               assistirt.<lb/> Wir besehen uns dann mit zärtlichen Besitzerblicken unter
+               heftigem<lb/> Schneegestöber unser neues Eigentum. <rs type="person" ref="#pmb337384">Doller</rs> begleitet uns zu Müller,<lb/> der schon am Hausplane arbeitet. Nach 5
+               Uhr besucht mich der<lb/> langweilige u. zudringliche Dr. <rs type="person" ref="#pmb19950">Königstein</rs>, der mir zumutet, ich<lb/> solle mich für seine
+                  <rs type="person" ref="#pmb15720" subtype="implied">Frau</rs> interessiren. Mit
+               Seelenruhe lege ich ihm<lb/> meine Principien als Kritiker dar, u. er muß mit langer
+               Nase<lb/> abziehen. Nach dem <rs type="event" ref="#pmb408038"><rs type="person" ref="#pmb194261">Concert Kleeberg</rs></rs> zum Herrenabend bei <rs type="person" ref="#pmb20537">Lobmeyr</rs>.<lb/> Prof. <rs type="person" ref="#pmb12258">Minor</rs> interpellirt mich, was an meiner Satire auf die <rs type="person" ref="#pmb11461">Goethe</rs>-Forschung<lb/> Wahres sei – o, welche
+               Ochsen giebt es auf d. Erde! Disput mit<lb/>
+               <rs type="person" ref="#pmb12331">Müller-Guttenbrunn</rs> u. <rs type="person" ref="#pmb12061">Lewinsky</rs> über die „<rs type="work" ref="#pmb29971">Wildente</rs>“. Jeder<lb/> hat eine andere Meinung – ein Beweis für die
+               Problematik des<lb/> Stückes. Zwischen <rs type="person" ref="#pmb10912">Bettelheim</rs> u. <rs type="person" ref="#pmb28051">Wickhoff</rs> bei Tische;
+               mit <rs type="person" ref="#pmb10912">Bettelh.</rs><lb/> u. <rs type="person" ref="#pmb3731">Kralik</rs> um 1 Uhr heim.</p>
          </div>
       </body>
    </text>
