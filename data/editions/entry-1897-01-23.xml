@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-01-23" n="01"/>
             <title level="a">Samstag, 23. Jänner 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -89,54 +92,49 @@
          <div hand="#hand__kalbeck">
             <head>23 Januar</head>
             <pb corresp="#facs-01"/>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Samstag.</seg><lb/>Auf der Bank 17000 fl. erhoben für den Ankauf des Grundstückes<lb/>
-im <rs type="place" ref="#pmb533">Cottage</rs>; dann zu <rs type="person" ref="#pmb10989">Brahms</rs>. Frau Soldat-Roeger macht<lb/>
-ihm einen Abschiedsbesuch. Ihr hartes Urteil über Petschnikoff.<lb/>
-Ich sage: Wir Kritiker sind doch die reinen Lämmer den Künstlern<lb/>
-gegenüber, wenn sie sich gegenseitig abschätzen! <rs type="person" ref="#pmb10989">Brahms</rs>, der P.<lb/>
-offenbar gar nicht kennt, spricht wegwerfend von ihm, als einem<lb/>
-Geiger, der den Aristokraten gefällt. Nachdem Frau Roeger<lb/>
-abgeschoben, weihe ich <rs type="person" ref="#pmb10989">Br.</rs> in unsere Baupläne ein. Wider Er-<lb break="no"/>
-warten braust er nicht auf dagegen. Früher hätte er gewiß gesagt:<lb/>
-Na, da komme ich nicht mehr zu Ihnen! Er ist überhaupt wieder<lb/>
-in sehr weicher Stimmung, was immer ein schlechtes Zeichen ist, u.<lb/>
-klagt, daß es gar nicht besser mit ihm werden wolle. Ich muß ihn<lb/>
-trösten u. zur Geduld ermahnen. Ein ehemaliger Schüler Billroth’s,<lb/>
-Prof. ? [Narad] aus Utrecht hat <rs type="person" ref="#pmb10989">Br.</rs> auf der Durchreise, wie dieser glaubt<lb/>
-– thatsächl. war er von F. nach <rs type="place" ref="#pmb50">Wien</rs> gerufen worden – genau<lb/>
-untersucht und dem Patienten versichert, daß ihm nichts Ernsthaftes<lb/>
-fehle. <rs type="person" ref="#pmb10989">Br.</rs> glaubt ihm, verzweifelt aber zugleich an dem Urteil<lb/>
-u. der Kunst der Ärzte. Am meisten freut es ihn, daß er im Frühjahr<lb/>
-nicht nach Carlsbad zu gehen braucht, sondern, wann es nötig sein<lb/>
-sollte, den Brunnen wieder in <rs type="place" ref="#pmb50">Wien</rs> trinken darf. Es war ½ 1 Uhr,<lb/>
-seine sonstige Ausgehzeit, u. ich fragte ihn, ob er nicht mitkommen wolle.<lb/>
-Er sagte, er wolle noch ein Stündchen schlafen, er sei so müde.<lb/>
-Auch Nottebohm, den ich kurz vor s. Tode mit <rs type="person" ref="#pmb12816">Speidel</rs> i. Salzburg<lb/>
-besuchte, schlief immer vor Tische. Wie jammervoll muß sich <rs type="person" ref="#pmb10989">Br.</rs><lb/>
-fühlen, wenn er seinem armen Körper solche bei ihm sonst unerhörten
-
-   <note type="editorische-anmerkung">Kalbeck beendete diesen
-      Tagebucheintrag auf der (vorherigen) Seite vom 22. Januar (siehe Faksimile 2
-      unten).
-   </note>
-</p>
-<pb corresp="#facs-02"/>
-<p><note type="editorische-anmerkung">Diesen Textabschnitt, der zum 23. Januar gehört,
-      notierte Kalbeck auf der Tagebuchseite vom 22. Januar unten.</note>
-         Concessionen macht! Am Nachmittag 3 Uhr Termin bei dem<lb/>
-         Währinger Notar, wo sich die sechs Verkäufer der Parzellen<lb/> mit uns einfinden, u.
-            <rs type="person" ref="#pmb337384">Doller</rs> dem Abschlusse des Kaufes
-         assistirt.<lb/> Wir besehen uns dann mit zärtlichen Besitzerblicken unter
-         heftigem<lb/> Schneegestöber unser neues Eigentum. <rs type="person" ref="#pmb337384">Doller</rs> begleitet uns zu Müller,<lb/> der schon am Hausplane arbeitet. Nach 5
-         Uhr besucht mich der<lb/> langweilige u. zudringliche Dr. <rs type="person" ref="#pmb19950">Königstein</rs>, der mir zumutet, ich<lb/> solle mich für seine
-            <rs type="person" ref="#pmb15720" subtype="implied">Frau</rs> interessiren. Mit
-         Seelenruhe lege ich ihm<lb/> meine Principien als Kritiker dar, u. er muß mit langer
-         Nase<lb/> abziehen. Nach dem <rs type="event" ref="#pmb408038"><rs type="person" ref="#pmb194261">Concert Kleeberg</rs></rs> zum Herrenabend bei <rs type="person" ref="#pmb20537">Lobmeyr</rs>.<lb/> Prof. <rs type="person" ref="#pmb12258">Minor</rs> interpellirt mich, was an meiner Satire auf die <rs type="person" ref="#pmb11461">Goethe</rs>-Forschung<lb/> Wahres sei – o, welche
-         Ochsen giebt es auf d. Erde! Disput mit<lb/>
-         <rs type="person" ref="#pmb12331">Müller-Guttenbrunn</rs> u. <rs type="person" ref="#pmb12061">Lewinsky</rs> über die „<rs type="work" ref="#pmb29971">Wildente</rs>“. Jeder<lb/> hat eine andere Meinung – ein Beweis für die
-         Problematik des<lb/> Stückes. Zwischen <rs type="person" ref="#pmb10912">Bettelheim</rs> u. <rs type="person" ref="#pmb28051">Wickhoff</rs> bei Tische;
-         mit <rs type="person" ref="#pmb10912">Bettelh.</rs><lb/> u. <rs type="person" ref="#pmb3731">Kralik</rs> um 1 Uhr heim.
-</p>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+                     etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische
+                     Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Samstag.</seg><lb/>Auf der Bank 17000 fl. erhoben für den
+               Ankauf des Grundstückes<lb/> im <rs type="place" ref="#pmb533">Cottage</rs>; dann zu
+                  <rs type="person" ref="#pmb10989">Brahms</rs>. Frau Soldat-Roeger macht<lb/> ihm
+               einen Abschiedsbesuch. Ihr hartes Urteil über Petschnikoff.<lb/> Ich sage: Wir
+               Kritiker sind doch die reinen Lämmer den Künstlern<lb/> gegenüber, wenn sie sich
+               gegenseitig abschätzen! <rs type="person" ref="#pmb10989">Brahms</rs>, der P.<lb/>
+               offenbar gar nicht kennt, spricht wegwerfend von ihm, als einem<lb/> Geiger, der den
+               Aristokraten gefällt. Nachdem Frau Roeger<lb/> abgeschoben, weihe ich <rs type="person" ref="#pmb10989">Br.</rs> in unsere Baupläne ein. Wider Er-<lb break="no"/> warten braust er nicht auf dagegen. Früher hätte er gewiß
+               gesagt:<lb/> Na, da komme ich nicht mehr zu Ihnen! Er ist überhaupt wieder<lb/> in
+               sehr weicher Stimmung, was immer ein schlechtes Zeichen ist, u.<lb/> klagt, daß es
+               gar nicht besser mit ihm werden wolle. Ich muß ihn<lb/> trösten u. zur Geduld
+               ermahnen. Ein ehemaliger Schüler Billroth’s,<lb/> Prof. ? [Narad] aus Utrecht hat <rs type="person" ref="#pmb10989">Br.</rs> auf der Durchreise, wie dieser glaubt<lb/>
+               – thatsächl. war er von F. nach <rs type="place" ref="#pmb50">Wien</rs> gerufen
+               worden – genau<lb/> untersucht und dem Patienten versichert, daß ihm nichts
+               Ernsthaftes<lb/> fehle. <rs type="person" ref="#pmb10989">Br.</rs> glaubt ihm,
+               verzweifelt aber zugleich an dem Urteil<lb/> u. der Kunst der Ärzte. Am meisten freut
+               es ihn, daß er im Frühjahr<lb/> nicht nach Carlsbad zu gehen braucht, sondern, wann
+               es nötig sein<lb/> sollte, den Brunnen wieder in <rs type="place" ref="#pmb50">Wien</rs> trinken darf. Es war ½ 1 Uhr,<lb/> seine sonstige Ausgehzeit, u. ich
+               fragte ihn, ob er nicht mitkommen wolle.<lb/> Er sagte, er wolle noch ein Stündchen
+               schlafen, er sei so müde.<lb/> Auch Nottebohm, den ich kurz vor s. Tode mit <rs type="person" ref="#pmb12816">Speidel</rs> i. Salzburg<lb/> besuchte, schlief
+               immer vor Tische. Wie jammervoll muß sich <rs type="person" ref="#pmb10989">Br.</rs><lb/> fühlen, wenn er seinem armen Körper solche bei ihm sonst unerhörten
+                  <note type="editorische-anmerkung">Kalbeck beendete diesen Tagebucheintrag auf der
+                  (vorherigen) Seite vom 22. Januar (siehe Faksimile 2 unten). </note>
+            </p>
+            <pb corresp="#facs-02"/>
+            <p><note type="editorische-anmerkung">Diesen Textabschnitt, der zum 23. Januar gehört,
+                  notierte Kalbeck auf der Tagebuchseite vom 22. Januar.</note> Concessionen macht!
+               Am Nachmittag 3 Uhr Termin bei dem<lb/> Währinger Notar, wo sich die sechs Verkäufer
+               der Parzellen<lb/> mit uns einfinden, u. <rs type="person" ref="#pmb337384">Doller</rs> dem Abschlusse des Kaufes assistirt.<lb/> Wir besehen uns dann mit
+               zärtlichen Besitzerblicken unter heftigem<lb/> Schneegestöber unser neues Eigentum.
+                  <rs type="person" ref="#pmb337384">Doller</rs> begleitet uns zu <rs type="person" ref="#pmb21717">Müller</rs>,<lb/> der schon am Hausplane arbeitet. Nach 5 Uhr
+               besucht mich der<lb/> langweilige u. zudringliche Dr. <rs type="person" ref="#pmb19950">Königstein</rs>, der mir zumutet, ich<lb/> solle <del>f</del>mich
+               für seine <rs type="person" ref="#pmb15720" subtype="implied">Frau</rs> interessiren.
+               Mit Seelenruhe lege ich ihm<lb/> meine Principien als Kritiker dar, u. er muß mit
+               langer Nase<lb/> abziehen. Nach dem <rs type="event" ref="#pmb408038"><rs type="person" ref="#pmb194261">Concert Kleeberg</rs></rs> zum <rs type="event" ref="#pmb510506">Herrenabend</rs> bei <rs type="person" ref="#pmb20537">Lobmeyr</rs>.<lb/> Prof. <rs type="person" ref="#pmb12258">Minor</rs>
+               interpellirt mich, was an meiner <add place="above">Satire auf die</add>
+               <rs type="person" ref="#pmb11461">Goethe</rs>-Forschung<lb/> Wahres sei – o, welche
+               Ochsen giebt es auf d. Erde! Disput mit<lb/>
+               <rs type="person" ref="#pmb12331">Müller-Guttenbrunn</rs> u. <rs type="person" ref="#pmb12061">Lewinsky</rs> über die „<rs type="work" ref="#pmb29971">Wildente</rs>“. Jeder<lb/> hat eine andere Meinung – ein Beweis für die
+               Problematik des<lb/> Stückes. Zwischen <rs type="person" ref="#pmb10912">Bettelheim</rs> u. <rs type="person" ref="#pmb28051">Wickhoff</rs> bei Tische;
+               mit <rs type="person" ref="#pmb10912">Bettelh.</rs><lb/> u. <rs type="person" ref="#pmb3731">Kralik</rs> um 1 Uhr heim. </p>
 
          </div>
       </body>
