@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-03-23" n="01"/>
             <title level="a">Dienstag, 23. März 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -86,35 +89,31 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>23 März</head>
-            <p><seg rendition="#right">Dinstag.</seg><lb/>Eine Satire auf Nietzsche u. R. Strauss „Zarathustra u. Struthio-<lb break="no"/>
-camelus“ geschrieben. Erneuerte Wahrnehmung, wie sich mir oft<lb/>
-während der Arbeit Nahes und Fernes höchst glücklich mit Ideen verbindet,<lb/>
-die der Stoff mit sich bringt, so daß sich Alles wie nach einem genau<lb/>
-festgesetzten Plane ordnet u. unverhofft zur gefälligsten Ueber-<lb break="no"/>
-einstimmung zusammenschließt. Aber diese Stegreifproduction, bei welcher<lb/>
-Phantasie u. Verstand über das richtige Maß angespannt werden,<lb/>
-mattet den Körper ab; wenn sie zur regelmäßigen Thätigkeit<lb/>
-herabgemindert werden könnte, schlösse sie alle guten Geister der Arbeit<lb/>
-ein und brächte anstatt der Abspannung das beseligende Gefühl wohl<lb/>
-erfüllter Pflicht mit sich. Ueber einen spaßhaften Einfall mußte ich<lb/>
-laut auflachen, so daß ich mich erschrocken umsah, ob noch jemand im<lb/>
-Zimmer wäre. Nachmittag Frau Flegmann bei uns. Ich lese ihr<lb/>
-das Feuilleton vor. Ihre Wut über <rs type="person" ref="#pmb2150">Bauer</rs>; sie sucht mich auf<lb/>
-ihn aufzuhetzen. B. habe zu <rs type="person" ref="#pmb113679">Steinbach</rs> geäußert, ich solle mich<lb/>
-über die Caricatur vom Concordiaball, die <rs type="person" ref="#pmb4785">Zasche</rs> nach <rs type="person" ref="#pmb2150">Bauer</rs>’s<lb/>
-Intention gezeichnet, nur tüchtig ärgern. Wenn es sich so verhält,<lb/>
-hat B. seine Absicht nicht erreicht. Wie erbärmlich sind alle<lb/>
-diese Menschen! – Frl. <rs type="person" ref="#pmb15749">Eibenschütz</rs>, <rs type="person" ref="#pmb15745">Ilona</rs>’s Schwester, spricht<lb/>
-für ihren <rs type="person" ref="#pmb154356" subtype="implied">Bräutigam</rs> bei mir vor. Er hatte sich schon brieflich<lb/>
-an mich gewendet, ob ich ihm nicht zu einem Portrait sitzen<lb/>
-wolle. Wie oft ich in den letzten Jahren verewigt worden bin!<lb/>
-Abends „Wasserträger“ u. das neue Ballet. Danach noch Referat<lb/>
-und Correctur im Bureau, so daß ich erst nach 12 Uhr zum Nachtessen<lb/>
-kam.<lb/>
-[2. Fortsetzung vom 21. März]<lb/>
-weg mit den Worten: „Na, Sie gehen wol gerade aus. Ich muß dort hinauf,<lb/>
-muß mich niederlegen. Na, adje.“ Sein letzter Gruß klang sehr weich u. war v. einem tiefen<lb/>
-Seufzer begleitet. – Ich blieb hinter d. Ecke stehen u. sah ihm heimlich nach, voll Schmerz u. Trauer.</p>
+            <p><seg rendition="#right">Dinstag.</seg><lb/>Eine Satire auf Nietzsche u. R. Strauss
+               „Zarathustra u. Struthio-<lb break="no"/> camelus“ geschrieben. Erneuerte
+               Wahrnehmung, wie sich mir oft<lb/> während der Arbeit Nahes und Fernes höchst
+               glücklich mit Ideen verbindet,<lb/> die der Stoff mit sich bringt, so daß sich Alles
+               wie nach einem genau<lb/> festgesetzten Plane ordnet u. unverhofft zur gefälligsten
+                  Ueber-<lb break="no"/> einstimmung zusammenschließt. Aber diese
+               Stegreifproduction, bei welcher<lb/> Phantasie u. Verstand über das richtige Maß
+               angespannt werden,<lb/> mattet den Körper ab; wenn sie zur regelmäßigen
+               Thätigkeit<lb/> herabgemindert werden könnte, schlösse sie alle guten Geister der
+               Arbeit<lb/> ein und brächte anstatt der Abspannung das beseligende Gefühl wohl<lb/>
+               erfüllter Pflicht mit sich. Ueber einen spaßhaften Einfall mußte ich<lb/> laut
+               auflachen, so daß ich mich erschrocken umsah, ob noch jemand im<lb/> Zimmer wäre.
+               Nachmittag Frau <rs type="person" ref="#pmb16312">Flegmann</rs> bei uns. Ich lese
+               ihr<lb/> das Feuilleton vor. Ihre Wut über <rs type="person" ref="#pmb2150">Bauer</rs>; sie sucht mich auf<lb/> ihn aufzuhetzen. B. habe zu <rs type="person" ref="#pmb113679">Steinbach</rs> geäußert, ich solle mich<lb/> über die Caricatur
+               vom Concordiaball, die <rs type="person" ref="#pmb4785">Zasche</rs> nach <rs type="person" ref="#pmb2150">Bauer</rs>’s<lb/> Intention gezeichnet, nur tüchtig
+               ärgern. Wenn es sich so verhält,<lb/> hat B. seine Absicht nicht erreicht. Wie
+               erbärmlich sind alle<lb/> diese Menschen! – Frl. <rs type="person" ref="#pmb15749">Eibenschütz</rs>, <rs type="person" ref="#pmb15745">Ilona</rs>’s Schwester,
+               spricht<lb/> für ihren <rs type="person" ref="#pmb154356" subtype="implied">Bräutigam</rs> bei mir vor. Er hatte sich schon brieflich<lb/> an mich gewendet,
+               ob ich ihm nicht zu einem Portrait sitzen<lb/> wolle. Wie oft ich in den letzten
+               Jahren verewigt worden bin!<lb/> Abends „Wasserträger“ u. das neue Ballet. Danach
+               noch Referat<lb/> und Correctur im Bureau, so daß ich erst nach 12 Uhr zum
+               Nachtessen<lb/> kam.<lb/> [2. Fortsetzung vom 21. März]<lb/> weg mit den Worten: „Na,
+               Sie gehen wol gerade aus. Ich muß dort hinauf,<lb/> muß mich niederlegen. Na, adje.“
+               Sein letzter Gruß klang sehr weich u. war v. einem tiefen<lb/> Seufzer begleitet. –
+               Ich blieb hinter d. Ecke stehen u. sah ihm heimlich nach, voll Schmerz u. Trauer.</p>
          </div>
       </body>
    </text>
