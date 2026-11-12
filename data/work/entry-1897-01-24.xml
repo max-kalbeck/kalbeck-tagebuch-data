@@ -61,7 +61,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>24 Januar</head>
-            <p><seg rendition="#left">Sonntag.</seg><lb/>Schubert’s C-Dur-Symphonie im Philh. Concert. Selige<lb/>
+            <p><seg rendition="#left">Sonntag.</seg><lb/><rs type="person" ref="#pmb12729">Schubert</rs>’s <rs type="work" ref="#pmb77659">C-Dur-Symphonie</rs> im <rs type="event" ref="#pmb623584">Philh. Concert</rs>. Selige<lb/>
 Erschütterung, die bis zu völliger Entrücktheit geht, im Trio des<lb/>
 Scherzos. Mit Frau <rs type="person" ref="#pmb160741">Kantor</rs>, <rs type="person" ref="#pmb19070">Rosel</rs> u. Louise zu Fuß über<lb/>
 die gefrorene Ringstraße. Während <rs type="person" ref="#pmb36699">Julie</rs> zu Emma Götzl<lb/>
@@ -69,8 +69,8 @@ in die Singprobe ihrer Schülerinnen geht, holen mich die jungen Damen<lb/>
 zu Wagen in den Prater ab. Melancholische Abendpromenade<lb/>
 durch die dämmernde Schneelandschaft; die belasteten Bäume<lb/>
 bilden einen verwunschenen Wald, in welchem Liebe und<lb/>
-Leben verloren gehen. Abends bei Kantor. Mit <rs type="person" ref="#pmb19070">Rosel</rs> vierhändig<lb/>
-Schubert u. <rs type="person" ref="#pmb10866">Beethoven</rs>. Zustimmungsbriefe über meine<lb/>
+Leben verloren gehen. Abends bei <rs type="person" ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538">Kantor</rs>. Mit <rs type="person" ref="#pmb19070">Rosel</rs> vierhändig<lb/>
+<rs type="person" ref="#pmb12729">Schubert</rs> u. <rs type="person" ref="#pmb10866">Beethoven</rs>. Zustimmungsbriefe über meine<lb/>
 Kritik der „Wildente“ von Prof. <rs type="person" ref="#pmb113339" cert="medium">Stoerk</rs> u. <rs type="person" ref="#pmb346028">Schneegans</rs>.</p>
          </div>
       </body>
