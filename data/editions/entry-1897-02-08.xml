@@ -86,7 +86,7 @@
       <body>
          <div hand="#hand__kalbeck">
             <head>8 Februar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Montag.</seg><lb/>Ein Feuilleton „Epilog zur Schubert-Feier“ geschrieben. Liederabend<lb/>
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Montag.</seg><lb/>Ein Feuilleton „Epilog zur <rs type="person" ref="#pmb12729">Schubert</rs>-Feier“ geschrieben. Liederabend<lb/>
 <rs type="person" ref="#pmb194247">Katzmayr</rs>; Ostheim’s zu Liebe hingegangen, die mich gebeten hatten.<lb/>
 [gehört zum 9. Februar]			Dinstag (1. Fortsetz.)<lb/>
 quittirt. [„]Aber M., bei einer solchen Veranlassung kann man doch nicht<lb/>
@@ -109,7 +109,7 @@ Andere ausgespielt. Nun soll auch an seiner Arbeit nichts gar so<lb/>
 besonderes mehr sein. „Was ist denn da weiter dabei? Die reine<lb/>
 Fleißarbeit. Es war ja alles da und meist in musterhaftem Zustande:<lb/>
 Ausgaben u. Manuscripte. Da leisten unsere Musikgelehrten ganz<lb/>
-andere Dinge. O Gott, was wollen die Schubert’schen Lieder heißen<lb/>
+andere Dinge. O Gott, was wollen die <rs type="person" ref="#pmb12729">Schubert</rs>’schen Lieder heißen<lb/>
 gegen Bach, Händel, Schütz u. solche schwere[n] Musiker. Bei denen<lb/>
 kommt es nicht blos auf Revisionen und Textvergleichungen an;<lb/>
 da sind andere Rätsel zu lösen.“ Noch einmal versuchte ich etwas<lb/>
