@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,8 +60,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>8 März</head>
+         <head>8 März</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Ermüdender Arbeitstag. Erst ein Referat über
                das gestr. philh.<lb/> Concert, dann ein Musikfeuilleton, zuletzt noch ein
                Opernreferat!<lb/> Baudirector <rs type="person" ref="#pmb21717">Müller</rs> ist mit
@@ -83,8 +80,7 @@
                Vierteljahre 250 fl. Miethszins. Wie<lb/> wird das erst werden, wenn wir keine Zinsen
                mehr bekommen,<lb/> sondern möglicherweise noch welche zalen müssen!? Die
                italienische<lb/> u. französische Oper scheint bankerott zu sein; seit André<lb/>
-               Chénier, dessen Uebersetzung von den anspruchsvollen Freunden<lb/> in <rs
-                  type="place" ref="#pmb677">Breslau</rs> als „mislungen“ bezeichnet worden ist,
+               Chénier, dessen Uebersetzung von den anspruchsvollen Freunden<lb/> in <rs type="place" ref="#pmb677">Breslau</rs> als „mislungen“ bezeichnet worden ist,
                meldet sich<lb/> kein Verleger mehr.</p>
          </div>
       </body>

@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -58,12 +55,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0169_a"></graphic>
+      <graphic url="kalbeck_2__0169_a"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>27 November</head>
+         <head>27 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/>In aller Eile ein Geburtstagscarmen für <rs type="person" ref="#pmb2202">Singer</rs> gedichtet<lb/>
                Bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> <rs type="person" ref="#pmb363714">Mosé</rs>’s
                Wut über das verspätete Mittagsmal.<lb/> <rs type="person" ref="#pmb2202">Singer</rs> läßt noch länger auf sich warten als
@@ -71,8 +68,7 @@
                Gemüter verbreitet sich wie eine infectiöse Krankheit, und<lb/> der Puls der Stadt
                fiebert. Für mich steht eine Wirkung<lb/> in die Ferne unumstößlich fest, wenn man
                dabei auch nicht an<lb/> übernatürliche Kräfte zu glauben braucht. Das
-               menschliche<lb/> Gehirn ist ähnlichen Einflüssen unterworfen wie die Magnet-<lb
-                  break="no"/> nadel. Vieles, was uns heute noch rätselhaft ist, wird einmal<lb/>
+               menschliche<lb/> Gehirn ist ähnlichen Einflüssen unterworfen wie die Magnet-<lb break="no"/> nadel. Vieles, was uns heute noch rätselhaft ist, wird einmal<lb/>
                von der Physik erklärt werden. Die Metaphysik ist oft nur<lb/> eine proleptische
                Physik. Das Unbewußte, Ahnungsvolle ein<lb/> Mitklingen der zartbesaiteten Psyche. –
                <rs type="person" ref="#pmb36699">Julie</rs> hat <rs type="person" ref="#pmb2202">Singer</rs> eine<lb/> Geldtasche mit ein paar sehr hübschen Wiener Gstanzeln

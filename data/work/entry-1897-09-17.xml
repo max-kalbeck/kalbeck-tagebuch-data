@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0135_b"></graphic>
+      <graphic url="kalbeck_2__0135_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>17 September</head>
+         <head>17 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/><rs type="person" ref="#pmb337384">Doller</rs>’s Nichte ist einem Herzschlag erlegen. Er reist heute nach <rs type="place" ref="#pmb168">Berlin</rs>.<lb/>
 Gegen Mittag kommt das sehnlich erwartete Telegramm. Da es auch<lb/>
 am Morgen ausgeblieben war, nahm ich an, daß die Prüfung um einen<lb/>

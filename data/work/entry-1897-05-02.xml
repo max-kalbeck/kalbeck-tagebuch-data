@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0065_b"></graphic>
+      <graphic url="kalbeck_2__0065_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>2 Mai</head>
+         <head>2 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>[Fortsetzung vom 29. April]<lb/>
 Bei Frau <rs type="person" ref="#pmb365433">v. Holstein</rs> treffen wir <rs type="person" ref="#pmb158708">Reinecke</rs>’s u. meinem alten Freund <rs type="person" ref="#pmb180877">Wilh.<lb/>
 Henzen</rs>, den ich viele Jahre nicht gesehen habe. <rs type="person" ref="#pmb158708">Reinecke</rs>’s scheinen nicht sehr<lb/>

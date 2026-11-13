@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0023_a"></graphic>
+      <graphic url="kalbeck_2__0023_a"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>7 Februar</head>
+         <head>7 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/>Früh wiederholte <rs type="person" ref="#pmb151803">Spemann</rs> seinen Besuch u. blieb eine Stunde bei mir. Er will Musiker-<lb break="no"/>
 biographien à la <rs type="person" ref="#pmb3542">Knackfuss</rs> ediren u. sich meiner Mitwirkung (für <rs type="person" ref="#pmb12729">Schubert</rs>) dabei ver-<lb break="no"/>
 sichern. Auch einen Aufsatz über <rs type="person" ref="#pmb10989">Brahms</rs><lb/>

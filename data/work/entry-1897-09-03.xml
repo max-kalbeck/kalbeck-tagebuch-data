@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,19 +60,17 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>3 September</head>
+         <head>3 September</head>
+            <div hand="#hand__kalbeck">
             <p>[ganz oben auf der Seite geschrieben: Fortsetzung vom 2. September]<lb/> daher bis 12
-               ¾ Uhr auf d. Bahnhof bleiben. Mit Sorgen um <rs type="person" ref="#pmb8088"
-                  >Paul</rs>’s<lb/> Zukunft verbrachte ich auch den Rest der Nacht u. schlief erst
+               ¾ Uhr auf d. Bahnhof bleiben. Mit Sorgen um <rs type="person" ref="#pmb8088">Paul</rs>’s<lb/> Zukunft verbrachte ich auch den Rest der Nacht u. schlief erst
                um 5<lb/> Uhr auf eine halbe Stunde ein.<lb/>
                <seg rendition="#right">Freitag.</seg><lb/> Als wir mit dem Schnellzug in Spital
                ankamen, u. glaubten,<lb/> die Grossegger Gesellschaft zur Weiterreise nach
                Dölsach<lb/> bereit zu finden, wurden wir zum Aussteigen genötigt. Frau<lb/> <rs type="person" ref="#pmb160741">Sida</rs>,
                Frau Zellner u. <rs type="person" ref="#pmb363714">Mosé</rs> empfingen uns mit dem
                fait<lb/> accompli, eine Wagenpartie nach Mallnitz zu machen, und<lb/> wir stiegen in
-               die beiden [Ausstreichung: bereit stehenden] von <rs type="place" ref="#pmb41069"
-                  >Millstatt</rs> mitge-<lb break="no"/> brachten Equipagen. Stefan folgte auf dem
+               die beiden [Ausstreichung: bereit stehenden] von <rs type="place" ref="#pmb41069">Millstatt</rs> mitge-<lb break="no"/> brachten Equipagen. Stefan folgte auf dem
                Fahrrade. <rs type="person" ref="#pmb19070">Rosl</rs><lb/> und Louise hatten
                angeblich erklärt, nicht mitkommen zu wollen.<lb/> Offenbar war die ganze Partie nur
                in Folge meiner gestrigen<lb/> telegraphischen Anfrage noch in letzter Stunde

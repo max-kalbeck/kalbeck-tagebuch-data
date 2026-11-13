@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,22 +60,12 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>19 Januar</head>
-            <p><seg rendition="#right">Dinstag.</seg><lb/><rs type="person" ref="#pmb405394"
-                  subtype="implied">Vater</rs>s Geburtstag. Briefe an Frau <rs type="person"
-                  ref="#pmb405408">Lasswitz</rs> u. <rs type="person" ref="#pmb364109">Grete</rs>.
+         <head>19 Januar</head>
+            <div hand="#hand__kalbeck">
+            <p><seg rendition="#right">Dinstag.</seg><lb/><rs type="person" ref="#pmb405394" subtype="implied">Vater</rs>s Geburtstag. Briefe an Frau <rs type="person" ref="#pmb405408">Lasswitz</rs> u. <rs type="person" ref="#pmb364109">Grete</rs>.
                   <rs type="person" ref="#pmb337384">Doller</rs><lb/> bei uns allein zu Tische.
                Rechtsangelegenheiten erörtert. Testamen-<lb break="no"/> tarisches. Gestern waren
-               schlimme Nachrichten über <rs type="person" ref="#pmb10989">Brahms</rs> verbrei-<lb
-                  break="no"/> tet, gerade als wir bei <rs type="person" ref="#pmb202165 #pmb364829"
-                  >Conrat’s</rs> mit ihm schmausten. In Folge davon<lb/> fuhr Frau <rs type="person"
-                  ref="#pmb160741">Kantor</rs> zur <rs type="person" ref="#pmb106633" cert="medium"
-                  subtype="implied">Hausmeisterin</rs> in der <rs type="place" ref="#pmb340860"
-                  subtype="implied">Carlsgasse</rs>. Am<lb/> Nachmittag Frau <rs type="person"
-                  ref="#pmb405436">Jenny Weissel</rs> u. die <rs type="person" ref="#pmb364569"
-                  subtype="implied">Gräfin</rs> bei <rs type="place" ref="#pmb199320"
-                  subtype="implied">uns</rs>.</p>
+               schlimme Nachrichten über <rs type="person" ref="#pmb10989">Brahms</rs> verbrei-<lb break="no"/> tet, gerade als wir bei <rs type="person" ref="#pmb202165 #pmb364829">Conrat’s</rs> mit ihm schmausten. In Folge davon<lb/> fuhr Frau <rs type="person" ref="#pmb160741">Kantor</rs> zur <rs type="person" ref="#pmb106633" cert="medium" subtype="implied">Hausmeisterin</rs> in der <rs type="place" ref="#pmb340860" subtype="implied">Carlsgasse</rs>. Am<lb/> Nachmittag Frau <rs type="person" ref="#pmb405436">Jenny Weissel</rs> u. die <rs type="person" ref="#pmb364569" subtype="implied">Gräfin</rs> bei <rs type="place" ref="#pmb199320" subtype="implied">uns</rs>.</p>
          </div>
       </body>
    </text>

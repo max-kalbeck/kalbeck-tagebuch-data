@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0070_b"></graphic>
+      <graphic url="kalbeck_2__0070_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>12 Mai</head>
+         <head>12 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Auf dem Wege zu <rs type="person" ref="#pmb28523">Necker</rs> begegnen mir die Schwestern <rs type="person" ref="#pmb15745 #pmb15749">Eibenschütz</rs>.<lb/>
 <rs type="person" ref="#pmb15745">Ilona</rs> will bei <rs type="person" ref="#pmb354621">Marie Schumann</rs> anfragen, ob ich die Briefe der<lb/>
 Frau <rs type="person" ref="#pmb162186">Clara</rs> publiciren darf. <rs type="person" ref="#pmb28523">Necker</rs>, der nicht zu Hause war,<lb/>

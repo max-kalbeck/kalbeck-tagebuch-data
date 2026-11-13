@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,8 +60,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>2 Juli</head>
+         <head>2 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Freitag.</seg><lb/><rs type="person" ref="#pmb8088">Paul</rs>
                bringt ein elendes Zeugnis aus der Schule; natürlich<lb/> bleibt er in Mathematik
                hängen u. muß sich auf eine Nachprüfung<lb/> während der Ferien vorbereiten. Ich
@@ -76,8 +73,7 @@
                gemeldet u. dringt auf den zweiten Act des „Dorfes“.<lb/> An Arbeit wird es also
                nicht fehlen. Eine halbe Stunde bei<lb/>
                <rs type="person" ref="#pmb99629">Mandyczewski</rs> im Archiv. Dr. <rs type="person" ref="#pmb99644">Mantuani</rs> von d.
-                  Hofbiblio-<lb break="no"/> thek. Prof. <rs type="person" ref="#pmb358270">Prosnitz</rs>. Das Inventar der <rs
-                  type="person" ref="#pmb10989">Brahms</rs>’schen Hinter-<lb break="no"/>
+                  Hofbiblio-<lb break="no"/> thek. Prof. <rs type="person" ref="#pmb358270">Prosnitz</rs>. Das Inventar der <rs type="person" ref="#pmb10989">Brahms</rs>’schen Hinter-<lb break="no"/>
                lassenschaft ist endlich fertig; die vorläufige gerichtl. Ent-<lb break="no"/>
                scheidung wird erwartet. Im Bureau mit <rs type="person" ref="#pmb12460">Pötzl</rs>,
                <rs type="person" ref="#pmb25470">Stern</rs>, <rs type="person" ref="#pmb10726">Frey</rs>,<lb/> <rs type="work" ref="#pmb16958">Gelber</rs>, <rs type="person" ref="#pmb89987">Held</rs> u. <rs type="person" ref="#pmb144848">Hahn</rs> gesprochen. Alle loben mich meines<lb/> guten
@@ -87,8 +83,7 @@
                sich als Stümper – er hat inzwischen bankerot<lb/> gemacht – das Fleischer’sche
                Verfahren bewährt sich nicht. Nach<lb/> kurzer Zeit verlieren die Instrumente ihren
                Ton u. werden wieder<lb/> die gemeinen Schachteln, die sie zuvor gewesen waren. Mich
-               kostet<lb/> die Geschichte 120 fl. u. eine tüchtige Dosis Beschämung. <rs
-                  type="person" ref="#pmb10989">Brahms</rs><lb/> hatte doch Recht mit seinem herben
+               kostet<lb/> die Geschichte 120 fl. u. eine tüchtige Dosis Beschämung. <rs type="person" ref="#pmb10989">Brahms</rs><lb/> hatte doch Recht mit seinem herben
                Skepticismus. Zellner holt mich<lb/> ab. Wir baden in Dornbach u. speisen mit Kantor
                u. <rs type="person" ref="#pmb363714">Mosé</rs> auf d. Rosenhütte.<lb/>
                <seg rendition="#right-margin #vertical">Interessantes Wagengespräch mit Frau

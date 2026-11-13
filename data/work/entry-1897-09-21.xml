@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0137_b"></graphic>
+      <graphic url="kalbeck_2__0137_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>21 September</head>
+         <head>21 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Dinstag.</seg><lb/>Musikdirector <rs type="person" ref="#pmb9124">Ochs</rs> in <rs type="place" ref="#pmb168">Berlin</rs> schreibt mir, daß er die „Sylvesterglocken“<lb/>
 mit der <rs type="person" ref="#pmb363762">Koessler</rs>’schen Musik im Januar aufführen wolle, vermutet in<lb/>
 mir den (ungenannten) Dichter des Textes und bittet mich um einige Daten<lb/>

@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0158_a"></graphic>
+      <graphic url="kalbeck_2__0158_a"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>1 November</head>
+         <head>1 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Referat über die „Fledermaus“. Diner bei <rs type="person" ref="#pmb337384">Doller</rs>. Gäste: <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs>,<lb/>
 Frau <rs type="person" ref="#pmb24467">Wallach</rs>, Dippel’s, Fritz Doller, <rs type="person" ref="#pmb346028">Schneegans</rs>, Dr. <rs type="person" ref="#pmb11036">Burckhard</rs>, [eingefügt: <rs type="person" ref="#pmb10550">Willner</rs>,]<lb/>
 [eingefügt: <rs type="person" ref="#pmb2202">Singer</rs> und] <rs type="person" ref="#pmb2150">Bauer</rs>. Umsonst erwarte ich, daß mir <rs type="person" ref="#pmb11036">Burckhard</rs>, der mir zur<lb/>

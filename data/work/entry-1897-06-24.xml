@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -58,17 +55,16 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0092_a"></graphic>
+      <graphic url="kalbeck_2__0092_a"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>24 Juni</head>
+         <head>24 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Im Kaiserpark Bankdirector <rs type="person" ref="#pmb12923">Taussig</rs> mit Familie kennen<lb/> gelernt. Die schöne
                älteste Tochter. Sectionschef <rs type="person" ref="#pmb144848">Halban</rs> und<lb/> <rs type="person" ref="#pmb10809 #pmb365368">Bacher’s</rs> verabschieden sich. Mit
                <rs type="person" ref="#pmb12923 #pmb25890">Taussig’s</rs> u. <rs type="person" ref="#pmb13973 #pmb13970">Benedict’s</rs> zur<lb/> Stadt zurück. Vergebl. Besuch bei <rs type="person" ref="#pmb28732">Dumba</rs>, der sich
-               erboten<lb/> hat, meine Geldsammlung zu unterstützen. Von dem Insecten-<lb break="no"
-               /> sammler die Schmetterlinge abgeholt. Interessante Entdeckung:<lb/> ein in Persien
+               erboten<lb/> hat, meine Geldsammlung zu unterstützen. Von dem Insecten-<lb break="no"/> sammler die Schmetterlinge abgeholt. Interessante Entdeckung:<lb/> ein in Persien
                fliegendes Weibchen des Kaisermantels, das den<lb/> Uebergang von den Schecken- zu
                den Schillerfaltern herstellt und<lb/> der von mir im südl. Kärnten gefangenen
                Varietät sich nähert.<lb/> Dr. Popper hat es sich nicht nehmen lassen, mich noch
@@ -78,8 +74,7 @@
                <rs type="person" ref="#pmb25512">Stettenheim</rs> u. <rs type="person" ref="#pmb13082">Karlweis</rs><note>Auch Carl Karlweis schrieb in Max Kalbecks Stammbuch,
                   direkt folgend auf Julius Stettenheim (siehe Tagebucheintrag vom 22. Juni): „Schön
                   war nur die Vergangenheit! / Hör‘ ich die Greise täglich klagen ...“ (datiert:
-                  „Karlsbad, im Juni 1897“).<ptr type="stammbuch" target="K081-scaled.jpg"
-               /></note><lb/> im<lb/> Kaiserbad zu Mittag. Dann noch einmal zu <rs type="person" ref="#pmb28732">Dumba</rs> mit
+                  „Karlsbad, im Juni 1897“).<ptr type="stammbuch" target="K081-scaled.jpg"/></note><lb/> im<lb/> Kaiserbad zu Mittag. Dann noch einmal zu <rs type="person" ref="#pmb28732">Dumba</rs> mit
                besserem<lb/> Glück. Er wohnt seit 25 Jahren in d. „Stadt Madrid.“ Obwol das<lb/>
                Haus umgebaut worden ist, zeigt es noch genau die Einteilung, die es<lb/> zu Goethe’s
                Zeit, der 1784 od. 86 hier wohnte, besessen: Zimmer u.<lb/> Schlafcabinet nach vorn,

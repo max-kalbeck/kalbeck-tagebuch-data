@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -58,12 +55,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0091_b"></graphic>
+      <graphic url="kalbeck_2__0091_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 Juni</head>
+         <head>23 Juni</head>
+            <div hand="#hand__kalbeck">
             <p>[ganz oben auf der Seite geschrieben]<lb/> x) Exempl. geschickt an: <rs type="person" ref="#pmb18873">Joachim</rs>, Frau <rs type="person" ref="#pmb365394">v.
                Beckerath</rs>, <rs type="person" ref="#pmb342765">Else Billroth</rs>, Hofrätin<lb/> Hecht u. Frau Rocholl. Dgl. an <rs type="person" ref="#pmb355860">Simrock</rs>.<lb/>
                <seg rendition="#right">Mittwoch.</seg><lb/>
@@ -71,8 +68,7 @@
                <rs type="person" ref="#pmb25512">Stettenheim</rs> hat ein sehr lustiges Gedicht in mein Album<note>Der dem berühmten
                   Gedicht von Heinrich Heine nachempfundenen Eintrag von Julius Stettenheim in
                   Max Kalbecks Stammbuch datiert vom 22. Juni 1897 in Karlsbad: „Denk’ ich an Kalbeck in
-                  der Nacht / Dann bin ich um den Schlaf gebracht ...“.<ptr type="stammbuch"
-                     target="K080-scaled.jpg"/></note><lb/> geschrieben u. bringt es mir zum
+                  der Nacht / Dann bin ich um den Schlaf gebracht ...“.<ptr type="stammbuch" target="K080-scaled.jpg"/></note><lb/> geschrieben u. bringt es mir zum
                Frühstück mit. Fürst <rs type="person" ref="#pmb361477">Reuss</rs> sagt mir,<lb/> daß seine Frau ihn bestimmt habe, den
                Aufenthalt bis Samstag zu<lb/> verlängern, um den – Blumencorso mitzumachen. Beide
                wiederholen<lb/> die dringende Einladung, sie in Ernstbrunn zu besuchen, u. zwar
@@ -81,8 +77,7 @@
                ehemal. Breslauer Buchdrucker u. geg.wärtiger College, an, der mich<lb/> in seinem
                <rs type="place" ref="#pmb842">Karlsbad</rs>er Feuilleton der Bresl. Ztg. als „nicht mehr ganz<lb/> jungen Goethe“
                verewigt hat. Ein ziemlich unverfrorener jüdischer Dachs,<lb/> dessen ich mich von
-               früherher kaum noch erinnere. Ich bin schwach genug<lb/> ihm ein Exemplar meiner <rs
-                  type="work" ref="#pmb353046">„Humoresken“</rs> zu versprechen. – Zweifelhafte<lb/>
+               früherher kaum noch erinnere. Ich bin schwach genug<lb/> ihm ein Exemplar meiner <rs type="work" ref="#pmb353046">„Humoresken“</rs> zu versprechen. – Zweifelhafte<lb/>
                Schulnachrichten über <rs type="person" ref="#pmb8088">Paul</rs>; er wird wol wieder eine Nachprüfung in<lb/> Mathematik
                machen müssen. Allerlei Einkäufe von Mitbringseln be-<lb break="no"/> sorgt. Im
                Kaiserpark melden sich einige Freiwillige mit Beiträgen<lb/> für <rs type="person" ref="#pmb257834">Busse</rs>. Das Interesse

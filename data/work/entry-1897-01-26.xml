@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -58,18 +55,17 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0017_a"></graphic>
+      <graphic url="kalbeck_2__0017_a"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>26 Januar</head>
+         <head>26 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#left">Dinstag.</seg><lb/>Bei <rs type="person" ref="#pmb12570">Rosé</rs> Billets für <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs> besorgt. Unterwegs Frau Dr.<lb/> Hillischer. Mit ihr u.
                ihrem Schwager aus Hall in der<lb/> <rs type="event" ref="#pmb364957">Schubert-Ausstellung</rs>. In <rs type="person" ref="#pmb9814">Schwind</rs> geschwelgt. Nach
                Tisch Besuch<lb/> von <rs type="person" ref="#pmb100107">Molden</rs>. Seine naive Auffassung der „Wildente“.<lb/> Prof.
                <rs type="person" ref="#pmb9617">Röntgen</rs> leistet uns ein Stündchen Gesellschaft. Er<lb/> ist, trotz dem <rs type="person" ref="#pmb8915">Messchaert</rs>
-               erkrankt ist, auf einen Tag von<lb/> Amsterdam nach <rs type="place" ref="#pmb50">Wien</rs> gekommen, um das F-Moll-<lb
-                  break="no"/> Quintett bei <rs type="person" ref="#pmb12570">Rosé</rs> zu spielen. Morgen fährt er wieder weg.<lb/> Sein
+               erkrankt ist, auf einen Tag von<lb/> Amsterdam nach <rs type="place" ref="#pmb50">Wien</rs> gekommen, um das F-Moll-<lb break="no"/> Quintett bei <rs type="person" ref="#pmb12570">Rosé</rs> zu spielen. Morgen fährt er wieder weg.<lb/> Sein
                Entsetzen über die Fortschritte, welche die Krankheit bei<lb/> <rs type="person" ref="#pmb10989">Brahms</rs> gemacht hat; er
                findet ihn viel schlechter als im<lb/> November. Der aus <rs type="place" ref="#pmb60146">Utrecht</rs> citirte <rs type="person" ref="#pmb6964">Arzt</rs> hat
                sich zu Engel-<lb break="no"/> mann höchst ungünstig geäußert. Auch <rs type="person" ref="#pmb9617">Röntgen</rs>
@@ -77,8 +73,7 @@
                müssen uns darauf gefaßt machen, ihn bald zu ver-<lb break="no"/> lieren. Heute ist
                er nicht, wie er anfangs gewollt, zur Probe<lb/> gekommen, sondern hat sich, genau
                wie neulich, vor Tische ausge-<lb break="no"/> ruht, war dann aber bei <rs type="person" ref="#pmb355863 #pmb355876">Fellinger</rs> auch
-               wieder bald müde.<lb/> <rs type="person" ref="#pmb9617">Röntgen</rs> hat meine <rs type="work" ref="#pmb353046"
-                  >Humoresken</rs> von s. Vater zu Weihnachten geschenkt<lb/> bekommen und sagt mir
+               wieder bald müde.<lb/> <rs type="person" ref="#pmb9617">Röntgen</rs> hat meine <rs type="work" ref="#pmb353046">Humoresken</rs> von s. Vater zu Weihnachten geschenkt<lb/> bekommen und sagt mir
                die angenehmsten Dinge darüber – er weiß<lb/> sie beinahe auswendig wie Musikstücke.
                Ich fühle mich in meinen<lb/> Vorsätzen bestärkt, mehr dergl. zu schreiben. Nach dem
                Concert<lb/> sind wir mit Frau <rs type="person" ref="#pmb160741">Kantor</rs>, <rs type="person" ref="#pmb19070">Rosl</rs> u. <rs type="person" ref="#pmb9617">Röntgen</rs> bei Sacher. Musikal.<lb/>

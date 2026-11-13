@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0026_b"></graphic>
+      <graphic url="kalbeck_2__0026_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>14 Februar</head>
+         <head>14 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Um 11 Uhr Sitzung der „Literarischen Gesellschaft“ im Wissenschaftl.<lb/>
 Club: <rs type="person" ref="#pmb117104">Lützow</rs>, <rs type="person" ref="#pmb3971">Grasberger</rs>, <rs type="person" ref="#pmb13082">Karlweis</rs>, Enslein, <rs type="person" ref="#pmb14511">Breitenstein</rs>, <rs type="person" ref="#pmb28523">Necker</rs>.<lb/>
 Die Publicationen werden bis auf Weiteres sistirt wegen Mangels<lb/>

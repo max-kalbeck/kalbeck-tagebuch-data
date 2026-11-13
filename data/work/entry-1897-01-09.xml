@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,56 +60,36 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>9 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note
-                     type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
+         <head>9 Januar</head>
+            <div hand="#hand__kalbeck">
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
                      etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische
-                     Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg
-                  rendition="#right">Samstag.</seg><lb/>Spaziergang ins <rs type="place"
-                  ref="#pmb533">Cottage</rs> zu Folge eines Briefes v. Dir. <rs type="person"
-                  ref="#pmb21717">Müller</rs>.<lb/> Der Bauplatz in der <rs type="place"
-                  ref="#pmb92168">Blaasgasse</rs> gefällt mir nicht; was man hier<lb/> auf Trottoir,
-               Baumanpflanzung u. Einfriedigung ausgeben müßte,<lb/> gewänne man in der <rs
-                  type="place" ref="#pmb342">Carl Ludwig str.</rs> an Bequemlichkeit und<lb/>
+                     Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Samstag.</seg><lb/>Spaziergang ins <rs type="place" ref="#pmb533">Cottage</rs> zu Folge eines Briefes v. Dir. <rs type="person" ref="#pmb21717">Müller</rs>.<lb/> Der Bauplatz in der <rs type="place" ref="#pmb92168">Blaasgasse</rs> gefällt mir nicht; was man hier<lb/> auf Trottoir,
+               Baumanpflanzung u. Einfriedigung ausgeben müßte,<lb/> gewänne man in der <rs type="place" ref="#pmb342">Carl Ludwig str.</rs> an Bequemlichkeit und<lb/>
                Regelmäßigkeit. Ueberdies liegt die Ecke nach N. u. W, u.<lb/> alle Stürme sagen dort
                einander guten Tag. Mittags giebt <rs type="person" ref="#pmb19070">Rosel</rs><lb/>
                ihr lange besprochenes <rs type="event" ref="#pmb363695">Brahms-Diner</rs> u. bewährt
                sich als ebenso<lb/> aufmerksame wie graziöse Hausfrau. Prächtiger Tisch, mit
-               Blumen<lb/> u. Früchten beladen; am oberen Ende <rs type="person" ref="#pmb10989"
-                  >Brahms</rs> zwischen <rs type="person" ref="#pmb19070">Rosel</rs> u. <rs
-                  type="person" ref="#pmb36699">Julie</rs>;<lb/> ich links neben <rs type="person"
-                  ref="#pmb19070">Rosel</rs> u. <rs type="person" ref="#pmb19855">Anny Hiller</rs>.
-                  <rs type="person" ref="#pmb346028">Schneegans</rs>, <rs type="person"
-                  ref="#pmb364654 #pmb364518">Zellner’s</rs>,<lb/>
-               <rs type="person" ref="#pmb363714">Mosé</rs>, die Gräfin <rs type="person"
-                  ref="#pmb364569">Kamarowska</rs> a. <rs type="place" ref="#pmb41069"
-                  >Millstatt</rs>, die <rs type="person" ref="#pmb363525 #pmb363530 #pmb363538"
-                  subtype="implied">männliche Jugend<lb/> vom Hause</rs>, <rs type="person"
-                  ref="#pmb2202">Singer</rs>. Alles sehr fidel. Der unglückliche <rs type="person"
-                  ref="#pmb363714">Mosé</rs><lb/> bringt einen gerührten Toast auf <rs type="person"
-                  ref="#pmb10989">Brahms</rs> aus, „daß ihn der<lb/> l. Gott uns noch recht lange
+               Blumen<lb/> u. Früchten beladen; am oberen Ende <rs type="person" ref="#pmb10989">Brahms</rs> zwischen <rs type="person" ref="#pmb19070">Rosel</rs> u. <rs type="person" ref="#pmb36699">Julie</rs>;<lb/> ich links neben <rs type="person" ref="#pmb19070">Rosel</rs> u. <rs type="person" ref="#pmb19855">Anny Hiller</rs>.
+                  <rs type="person" ref="#pmb346028">Schneegans</rs>, <rs type="person" ref="#pmb364654 #pmb364518">Zellner’s</rs>,<lb/>
+               <rs type="person" ref="#pmb363714">Mosé</rs>, die Gräfin <rs type="person" ref="#pmb364569">Kamarowska</rs> a. <rs type="place" ref="#pmb41069">Millstatt</rs>, die <rs type="person" ref="#pmb363525 #pmb363530 #pmb363538" subtype="implied">männliche Jugend<lb/> vom Hause</rs>, <rs type="person" ref="#pmb2202">Singer</rs>. Alles sehr fidel. Der unglückliche <rs type="person" ref="#pmb363714">Mosé</rs><lb/> bringt einen gerührten Toast auf <rs type="person" ref="#pmb10989">Brahms</rs> aus, „daß ihn der<lb/> l. Gott uns noch recht lange
                erhalte.“ <rs type="person" ref="#pmb10989">Br.</rs> verzieht das Gesicht<lb/> u.
                verzeiht dem taktlosen Sprecher. Das war der einzige störende<lb/> Zwischenfall.
                Sonst Alles in schönster Harmonie. <rs type="person" ref="#pmb10989">Br.</rs> fühlt
                sich so<lb/> wol bei unseren lieben Freunden, daß er erklärt, er wolle mit ins<lb/>
-               <rs type="place" ref="#pmb20">Volkstheater</rs> u. dann noch zum Souper bei <rs
-                  type="place" ref="#pmb29">Sacher</rs> kommen. Er<lb/> stellt sich auch pünktlich
+               <rs type="place" ref="#pmb20">Volkstheater</rs> u. dann noch zum Souper bei <rs type="place" ref="#pmb29">Sacher</rs> kommen. Er<lb/> stellt sich auch pünktlich
                in der Loge ein u. klatscht <rs type="person" ref="#pmb11402">Ganghofer</rs>
                viel<lb/> Beifall. Der arme Teufel konnte ihn brauchen; denn es fehlte
-                     <del><unclear>auch</unclear></del> wenig,<lb/> so wäre „<rs type="event"
-                  ref="#pmb208894">
+                     <del><unclear>auch</unclear></del> wenig,<lb/> so wäre „<rs type="event" ref="#pmb208894">
                   <rs type="work" ref="#pmb77510">Meerleuchten</rs></rs>“ schief gegangen. Genau wie
                ich es mir,<lb/> als ich das Stück im Manuscr. gelesen, gedacht hatte, war es
                auf<lb/> der Bühne. <subst>
                   <del>Meiner</del>
                   <add place="above">Von meinen</add>
-               </subst> Bedenken gegen die mittleren Acte wollte <rs type="person" ref="#pmb11402"
-                  >G.</rs> damals<lb/> nichts wissen. Jetzt sieht er seinen Irrtum ein. Guter Rat
+               </subst> Bedenken gegen die mittleren Acte wollte <rs type="person" ref="#pmb11402">G.</rs> damals<lb/> nichts wissen. Jetzt sieht er seinen Irrtum ein. Guter Rat
                hilft keinem<lb/> Dichter, man erzürnt sie nur, u. sie machen dann doch, was sie wollen.<lb/>
                <rs type="person" ref="#pmb10989">Brahms</rs>, <add place="above">mit dem dies lange
-                  hin u. her besprochen wurde,</add> hält bis nach 12 Uhr bei <rs type="place"
-                  ref="#pmb29">Sacher</rs> Stand, u. <subst>
+                  hin u. her besprochen wurde,</add> hält bis nach 12 Uhr bei <rs type="place" ref="#pmb29">Sacher</rs> Stand, u. <subst>
                   <del rendition="#overwritten">ich</del>
                   <add place="inline">be</add>
                </subst>steht darauf, nach<lb/> Hause zu <hi rendition="#underline">gehen</hi>, so daß ich

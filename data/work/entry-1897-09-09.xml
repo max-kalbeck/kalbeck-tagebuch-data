@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -58,17 +55,16 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0131_b"></graphic>
+      <graphic url="kalbeck_2__0131_b"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>9 September</head>
+         <head>9 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/>[Forsetzung vom 8. September]<lb/> an die liebevolle Sorgfalt erinnere, mit der man
                im 18. Jahrh.<lb/> zu schreiben pflegte. Nachhaltigen Einfluß auf meine Hand
                haben<lb/> die Briefe <rs type="person" ref="#pmb7905">Holtei</rs>’s, Geibel’s u. <rs type="person" ref="#pmb11691">Heyse</rs>’s, sowie die Manuscripte<lb/> <rs type="person" ref="#pmb52646">J.
-               Chr. Günther</rs>’s gehabt.<lb/> Curschmann sagt mir, daß ihm meine <rs type="work"
-                  ref="#pmb353046">„Humoresken u. Phantasien“</rs>,<lb/> die in einem Exemplar in
+               Chr. Günther</rs>’s gehabt.<lb/> Curschmann sagt mir, daß ihm meine <rs type="work" ref="#pmb353046">„Humoresken u. Phantasien“</rs>,<lb/> die in einem Exemplar in
                der hiesigen Schloßbibliothek vertreten sind,<lb/> sehr gefallen. Er schreibt
                gegenwärtig eine „Geographie des Typhus“.<lb/> Erinnerungen an <rs type="person" ref="#pmb10934">Billroth</rs>, in dessen
                Lobe wir uns erschöpfen.<lb/> Curschmann hat viel Verwandtes mit ihm; man könnte ihn

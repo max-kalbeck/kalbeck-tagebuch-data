@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,12 +53,12 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="kalbeck_2__0030_a"></graphic>
+      <graphic url="kalbeck_2__0030_a"/>
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>21 Februar</head>
+         <head>21 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/>Vor dem Philh. Concert bei <rs type="person" ref="#pmb20537">Lobmeyr</rs> Karten abgegeben. Freundl.<lb/>
 Begegnung mit Dr. Modern und Frau. Nach dem Concert bei <rs type="person" ref="#pmb3744 #pmb12205">Mautner’s</rs><lb/>
 zu Tische. <rs type="person" ref="#pmb27397 #pmb27383">Wärndorfer’s</rs>, Hr. u Frau <rs type="person" ref="#pmb95237">Charlemont</rs> (d. Stillebenmaler)<lb/>

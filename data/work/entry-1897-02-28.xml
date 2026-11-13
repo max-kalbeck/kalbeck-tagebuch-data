@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,11 +60,9 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>28 Februar [gedruckte 29 handschriftlich geändert in 28]</head>
-            <p><seg rendition="#right">Sonntag.</seg><lb/>Gedicht in schlesischer Mundart an <rs
-                  type="person" ref="#pmb11617">Gerhart Hauptmann</rs>.<lb/> Nach Tische zu <rs
-                  type="person" ref="#pmb100107 #pmb342764">Molden’s</rs> nach Döbling, die uns auf
+         <head>28 Februar [gedruckte 29 handschriftlich geändert in 28]</head>
+            <div hand="#hand__kalbeck">
+            <p><seg rendition="#right">Sonntag.</seg><lb/>Gedicht in schlesischer Mundart an <rs type="person" ref="#pmb11617">Gerhart Hauptmann</rs>.<lb/> Nach Tische zu <rs type="person" ref="#pmb100107 #pmb342764">Molden’s</rs> nach Döbling, die uns auf
                den Abend<lb/> einladen. Während <rs type="person" ref="#pmb36699">Julie</rs> zu Frau
                   <rs type="person" ref="#pmb16312">Flegmann</rs> in die Stadt<lb/> zurückfährt,
                mache ich mit <rs type="person" ref="#pmb100107">Molden</rs> einen weiten
@@ -82,8 +77,7 @@
                Gatte<lb/> ein Mitglied der Familie G. geworden zu sein. Das ehemal.<lb/> Frauen-
                oder Kirchendienerhaus auf d. Minoritenplatz. Frisches<lb/> Lebensgefül im
                wohlthuenden Gegensatz zu früheren Jahren. Feste<lb/> Ueberzeugung, daß ich so bald
-               noch nicht sterben werde, weil<lb/> ich noch zu viel vorhabe. Am Abend <rs
-                  type="person" ref="#pmb159009">Zetsche</rs> u. ein Dr. Zweibrück,<lb/> mit dem ich
+               noch nicht sterben werde, weil<lb/> ich noch zu viel vorhabe. Am Abend <rs type="person" ref="#pmb159009">Zetsche</rs> u. ein Dr. Zweibrück,<lb/> mit dem ich
                schon lange, wie mit vielen Andern, auf d. Begrüßungsfuße<lb/> stand, ohne zu wissen,
                wer er eigentlich ist. Sucht sich durch vornehme<lb/> Bekanntschaften ein Lüster zu
                geben. <rs type="person" ref="#pmb159009">Zetsche</rs> will einen zweiten<lb/> Band

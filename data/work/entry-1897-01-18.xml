@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,48 +60,32 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 Januar</head>
-            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung"
-                     >Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck
+         <head>18 Januar</head>
+            <div hand="#hand__kalbeck">
+            <p><add hand="#hand__kalbeck_bs_lk" place="top-left">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck
                      Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als
-                     relevant erachtete.</note></add><lb/><seg rendition="#right"
-               >Montag.</seg><lb/>Gegenbesuch bei Schriftsteller <rs type="person" ref="#pmb12926"
-                  >Telmann</rs> in der <rs type="place" ref="#pmb441">Gonzagagasse</rs>.<lb/> Er
-               heißt eigentl. Theumann. In seiner Abwesenheit erkläre<lb/> ich seiner <rs
-                  type="person" ref="#pmb182114" subtype="implied">Schwester</rs>, daß ich mich gern
+                     relevant erachtete.</note></add><lb/><seg rendition="#right">Montag.</seg><lb/>Gegenbesuch bei Schriftsteller <rs type="person" ref="#pmb12926">Telmann</rs> in der <rs type="place" ref="#pmb441">Gonzagagasse</rs>.<lb/> Er
+               heißt eigentl. Theumann. In seiner Abwesenheit erkläre<lb/> ich seiner <rs type="person" ref="#pmb182114" subtype="implied">Schwester</rs>, daß ich mich gern
                den gegen die Theatercensur<lb/> gerichteten Bestrebungen anschließe, weder aber ein
                Amt im<lb/> Comité noch Einladungen zu Versammlungen annehmen kann,<lb/> da ich für
-               dergl. keine Zeit habe. Auf dem Bureau längeres<lb/> Gespräch mit <rs type="person"
-                  ref="#pmb2202">Singer</rs> über die internen Verhältnisse der Zeitung.<lb/> Wir
-               hatten gestern eine Nummer von 60 Seiten u. eine Auflage<lb/> von 65000 Exempl. <rs
-                  type="person" ref="#pmb11885">Karpath</rs> will sich durchaus nicht nach <rs
-                  type="place" ref="#pmb143268">Pest</rs><lb/> schicken lassen, trotzdem ihm Alles
+               dergl. keine Zeit habe. Auf dem Bureau längeres<lb/> Gespräch mit <rs type="person" ref="#pmb2202">Singer</rs> über die internen Verhältnisse der Zeitung.<lb/> Wir
+               hatten gestern eine Nummer von 60 Seiten u. eine Auflage<lb/> von 65000 Exempl. <rs type="person" ref="#pmb11885">Karpath</rs> will sich durchaus nicht nach <rs type="place" ref="#pmb143268">Pest</rs><lb/> schicken lassen, trotzdem ihm Alles
                gut zuredet; er wird bald zwischen<lb/> zwei Stühlen sitzen. Verwinkelter,
-               labyrinthischer Gassenspazier-<lb break="no"/> gang zu <rs type="person"
-                  ref="#pmb202165 #pmb364829">Conrat’s</rs>, die schon mit <rs type="person"
-                  ref="#pmb10989">Brahms</rs> bei Tische sitzen.<lb/> Er erzält, daß er die ganze
+               labyrinthischer Gassenspazier-<lb break="no"/> gang zu <rs type="person" ref="#pmb202165 #pmb364829">Conrat’s</rs>, die schon mit <rs type="person" ref="#pmb10989">Brahms</rs> bei Tische sitzen.<lb/> Er erzält, daß er die ganze
                vorige Nacht kein Auge zu gethan<lb/> habe. Gleichwol ist er ziemlich munter und
-               sieht wieder etwas<lb/> voller aus. Bei Tische viel gelacht mit <rs type="person"
-                  ref="#pmb99629">Mandyczewski</rs>, dem<lb/> jungen Leipziger Doctor. Sein Bericht
+               sieht wieder etwas<lb/> voller aus. Bei Tische viel gelacht mit <rs type="person" ref="#pmb99629">Mandyczewski</rs>, dem<lb/> jungen Leipziger Doctor. Sein Bericht
                über die Reise des Dr.<lb/>
-               <rs type="person" ref="#pmb98536">Kraus</rs> nach <rs type="place" ref="#pmb734"
-                  >Bayreuth</rs> u. dessen Aufenthalt bei Frau <rs type="person" ref="#pmb26555"
-                  >Cosima</rs>.<lb/>
+               <rs type="person" ref="#pmb98536">Kraus</rs> nach <rs type="place" ref="#pmb734">Bayreuth</rs> u. dessen Aufenthalt bei Frau <rs type="person" ref="#pmb26555">Cosima</rs>.<lb/>
                <rs type="person" ref="#pmb98536">Kr.</rs> ist aufgefordert worden, den Gurnemanz zu
                singen, u. bedankt<lb/> sich bei Frau <rs type="person" ref="#pmb26555">Cosima</rs>
                damit, daß er ihr einen ganzen Abend in<lb/>
-               <rs type="place" ref="#pmb376">Wahnfried</rs> Lieder von <rs type="person"
-                  ref="#pmb10989">Brahms</rs> zu hören giebt. Dann mit<lb/>
+               <rs type="place" ref="#pmb376">Wahnfried</rs> Lieder von <rs type="person" ref="#pmb10989">Brahms</rs> zu hören giebt. Dann mit<lb/>
                <rs type="person" ref="#pmb36699">Julie</rs> in der Bank Geld erhoben. Jeder
                Hunderter thut mir weh, den<lb/> ich mir herauszalen lassen muß. Wenn erst die
-               Tausender daran<lb/> kommen werden! Briefe an <rs type="person" ref="#pmb405401"
-                  subtype="implied">Mama</rs>, <rs type="institution" ref="#pmb29697">Breitkopf u.
+               Tausender daran<lb/> kommen werden! Briefe an <rs type="person" ref="#pmb405401" subtype="implied">Mama</rs>, <rs type="institution" ref="#pmb29697">Breitkopf u.
                   H.</rs>, Oberregisseur<lb/>
-               <rs type="person" ref="#pmb365247">Bachmann</rs> i. <rs type="place" ref="#pmb872"
-                  >Stuttgart</rs>, Margarete Schulz, <rs type="person" ref="#pmb7610">Alice
-                  Pollak</rs>.<lb/> Im <rs type="event" ref="#pmb407740">Concert <rs type="person" ref="#pmb9652">Sauer</rs></rs> mit <rs type="person" ref="#pmb19070"
-                  >Rosl</rs>.</p>
+               <rs type="person" ref="#pmb365247">Bachmann</rs> i. <rs type="place" ref="#pmb872">Stuttgart</rs>, Margarete Schulz, <rs type="person" ref="#pmb7610">Alice
+                  Pollak</rs>.<lb/> Im <rs type="event" ref="#pmb407740">Concert <rs type="person" ref="#pmb9652">Sauer</rs></rs> mit <rs type="person" ref="#pmb19070">Rosl</rs>.</p>
          </div>
       </body>
    </text>

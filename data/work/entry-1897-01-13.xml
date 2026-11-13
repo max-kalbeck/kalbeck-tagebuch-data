@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -64,61 +61,44 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>13 Januar</head>
+         <head>13 Januar</head>
+            <div hand="#hand__kalbeck">
             <pb corresp="#facs-01"/>
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Der Kauf ist perfect geworden, u. wir
                sind seit heute Grundbe-<lb break="no"/> sitzer, sehr kleine Kleingrundbesitzer: 360
                □ Kl.<note type="editorische-anmerkung">Quadratklafter</note> in der Wüste.<lb/>
                Meine Idee von einem ähnl., zum Scherz erworbenen<lb/> Ackerlande, das nach vielen
                Jahren d. bedrängten Kindern eines<lb/> längst verstorbenen leichtsinnigen Planes zu
-               statten kommt. Wieder<lb/> ein Novellchen! Im <rs type="place" ref="#pmb533"
-                  >Cottage</rs> will ich mir eine Pflanzstätte von<lb/> lustigen Gewächsen
+               statten kommt. Wieder<lb/> ein Novellchen! Im <rs type="place" ref="#pmb533">Cottage</rs> will ich mir eine Pflanzstätte von<lb/> lustigen Gewächsen
                einrichten, ein Obstgärtlein der Literatur,<lb/> in dem ich ein paar Wildlinge durch
                Pfropfreise veredle.<lb/> Wären wir nur erst draußen! – Um 10 Uhr wieder ins
-               Archiv,<lb/> um <rs type="person" ref="#pmb12729">Schubert</rs>-Studien zu machen. Ich bringe <rs type="person"
-                  ref="#pmb99629">Mandyczewski</rs> ein<lb/> Exemplar d. „<rs type="work"
-                  ref="#pmb353046">Humoresken</rs>“ – u. er gesteht mir lachend, daß er<lb/> zu
+               Archiv,<lb/> um <rs type="person" ref="#pmb12729">Schubert</rs>-Studien zu machen. Ich bringe <rs type="person" ref="#pmb99629">Mandyczewski</rs> ein<lb/> Exemplar d. „<rs type="work" ref="#pmb353046">Humoresken</rs>“ – u. er gesteht mir lachend, daß er<lb/> zu
                Weihnachten zwei Exle. verschenkt habe. Ein lieber<lb/> Kerl. Allerlei
                <rs type="person" ref="#pmb12729">Schubert</rs>gespräche. Zwei himmlische Geschichten:<lb/> 1. Brahms u. die
                <rs type="person" ref="#pmb12729">Schubert</rs>-Ausgabe. Er hatte die Revision der<lb/> Symphonien übernommen. Dann ärgerte
                ihn die Geschichte u. war ihm<lb/> zu langweilig. Was thut er? Er läßt die Partituren
                vom Copisten<lb/> abschreiben u. schickt sie in den Verlag. In Folge dessen
                mußten<lb/> sämmtliche Platten zu d. ersten beiden Bänden hinterdrein neu
-               gestochen,<lb/> die bereits fertigen Exempl. aber vernichtet werden. <rs
-                  type="person" ref="#pmb99629">Mandycz.</rs> hat<lb/> dann die Arbeit, die <rs
-                  type="person" ref="#pmb10989">Br.</rs> stillschweigend unterließ,
+               gestochen,<lb/> die bereits fertigen Exempl. aber vernichtet werden. <rs type="person" ref="#pmb99629">Mandycz.</rs> hat<lb/> dann die Arbeit, die <rs type="person" ref="#pmb10989">Br.</rs> stillschweigend unterließ,
                nachgeliefert.<lb/> 2. In <rs type="place" ref="#pmb913">Bonn</rs> wird vor ein paar Wochen die vermißte
-               <rs type="person" ref="#pmb12729">Schubert</rs>sche<lb/> Symphonie (1825) gefunden: eine Orchesterpartitur des C-Dur-<lb
-                  break="no"/> Quintetts! <rs type="person" ref="#pmb257937">Deiters</rs> u. <rs
-                  type="person" ref="#pmb16647">Friedländer</rs> in <rs type="place" ref="#pmb168"
-                  >Berlin</rs> erheben ein Triumph-<lb break="no"/> geschrei. <rs type="person"
-                  ref="#pmb16647">Friedl.</rs> ist von dem herrl. Orchestersatz entzückt u.
+               <rs type="person" ref="#pmb12729">Schubert</rs>sche<lb/> Symphonie (1825) gefunden: eine Orchesterpartitur des C-Dur-<lb break="no"/> Quintetts! <rs type="person" ref="#pmb257937">Deiters</rs> u. <rs type="person" ref="#pmb16647">Friedländer</rs> in <rs type="place" ref="#pmb168">Berlin</rs> erheben ein Triumph-<lb break="no"/> geschrei. <rs type="person" ref="#pmb16647">Friedl.</rs> ist von dem herrl. Orchestersatz entzückt u.
                stimmt<lb/> in die von <rs type="place" ref="#pmb913">Bonn</rs> ausgegebene Parole ein: das Quintett sei nur<lb/> ein
-               Arrangement. Bei näherer Besichtigung des Fundes durch <rs type="person"
-                  ref="#pmb10989">Brahms</rs><note type="editorische-anmerkung">Kalbeck beendete
+               Arrangement. Bei näherer Besichtigung des Fundes durch <rs type="person" ref="#pmb10989">Brahms</rs><note type="editorische-anmerkung">Kalbeck beendete
                   diesen Tagebucheintrag auf der Seite vom 14. Januar (siehe Faksimile 2
                   oben).</note></p>
             <pb corresp="#facs-02"/>
             <p><note type="editorische-anmerkung">Diesen Textabschnitt, der zum 13. Januar gehört,
-                  notierte Kalbeck auf der Tagebuchseite vom 14. Januar oben.</note>und <rs
-                  type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl.
+                  notierte Kalbeck auf der Tagebuchseite vom 14. Januar oben.</note>und <rs type="person" ref="#pmb99629">Mandycz.</rs> ergiebt sich, daß das vermeintl.
                Original <subst>
                   <del rendition="#overwritten">eine</del>
                   <add place="inline">die</add>
-               </subst><lb/> elende Stümperei eines militärcapellmeistermäßigen Instrumenta-<lb
-                  break="no"/> tors ist, der so unmusikalisch war, daß er nicht einmal wußte,<lb/>
+               </subst><lb/> elende Stümperei eines militärcapellmeistermäßigen Instrumenta-<lb break="no"/> tors ist, der so unmusikalisch war, daß er nicht einmal wußte,<lb/>
                was Melodie ist. <subst>
                   <del>Die</del>
                   <add place="above">So würden die</add>
                </subst> langen Noten am Anfange d. I Satzes<lb/> als tremolo d. Geigen gesetzt; dann
-               finden sich Hörner, Clarinetten<lb/> u. Fagotten in Verdoppelungen à la <rs
-                  type="person" ref="#pmb8931">Meyerbeer</rs> etc. <rs type="person" ref="#pmb16647"
-                  >Friedl.</rs><lb/> der „Docent. d. Musikgesch. a. d. Berliner Universität“, hat
-               sich<lb/> grimmig blamirt. Bei <rs type="person" ref="#pmb174597 #pmb160741"
-                  >Kantor’s</rs>. <rs type="person" ref="#pmb194127">Gänsbacher</rs>, <rs
-                  type="person" cert="medium" ref="#pmb12099">Loewe</rs>, <rs type="person"
-                  ref="#pmb363714">Mosé</rs>, <rs type="person" ref="#pmb2202">Singer</rs> etc.<lb/>
+               finden sich Hörner, Clarinetten<lb/> u. Fagotten in Verdoppelungen à la <rs type="person" ref="#pmb8931">Meyerbeer</rs> etc. <rs type="person" ref="#pmb16647">Friedl.</rs><lb/> der „Docent. d. Musikgesch. a. d. Berliner Universität“, hat
+               sich<lb/> grimmig blamirt. Bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. <rs type="person" ref="#pmb194127">Gänsbacher</rs>, <rs type="person" cert="medium" ref="#pmb12099">Loewe</rs>, <rs type="person" ref="#pmb363714">Mosé</rs>, <rs type="person" ref="#pmb2202">Singer</rs> etc.<lb/>
             </p>
          </div>
       </body>

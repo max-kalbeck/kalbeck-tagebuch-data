@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,8 +60,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 März</head>
+         <head>23 März</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Dinstag.</seg><lb/>Eine Satire auf Nietzsche u. R. Strauss
                „Zarathustra u. Struthio-<lb break="no"/> camelus“ geschrieben. Erneuerte
                Wahrnehmung, wie sich mir oft<lb/> während der Arbeit Nahes und Fernes höchst
@@ -78,16 +75,11 @@
                erfüllter Pflicht mit sich. Ueber einen spaßhaften Einfall mußte ich<lb/> laut
                auflachen, so daß ich mich erschrocken umsah, ob noch jemand im<lb/> Zi<c rendition="#gemination-m">mm</c>er wäre.
                Nachmittag Frau <rs type="person" ref="#pmb16312">Flegmann</rs> bei uns. Ich lese
-               ihr<lb/> das Feuilleton vor. Ihre Wut über <rs type="person" ref="#pmb2150"
-                  >Bauer</rs>; sie sucht mich auf<lb/> ihn aufzuhetzen. B. habe zu <rs type="person"
-                  ref="#pmb113679">Steinbach</rs> geäußert, ich solle mich<lb/> über die Caricatur
-               vom Concordiaball, die <rs type="person" ref="#pmb4785">Zasche</rs> nach <rs
-                  type="person" ref="#pmb2150">Bauer</rs>’s<lb/> Intention gezeichnet, nur tüchtig
+               ihr<lb/> das Feuilleton vor. Ihre Wut über <rs type="person" ref="#pmb2150">Bauer</rs>; sie sucht mich auf<lb/> ihn aufzuhetzen. B. habe zu <rs type="person" ref="#pmb113679">Steinbach</rs> geäußert, ich solle mich<lb/> über die Caricatur
+               vom Concordiaball, die <rs type="person" ref="#pmb4785">Zasche</rs> nach <rs type="person" ref="#pmb2150">Bauer</rs>’s<lb/> Intention gezeichnet, nur tüchtig
                ärgern. Wenn es sich so verhält,<lb/> hat B. seine Absicht nicht erreicht. Wie
-               erbärmlich sind alle<lb/> diese Menschen! – Frl. <rs type="person" ref="#pmb15749"
-                  >Eibenschütz</rs>, <rs type="person" ref="#pmb15745">Ilona</rs>’s Schwester,
-               spricht<lb/> für ihren <rs type="person" ref="#pmb154356" subtype="implied"
-                  >Bräutigam</rs> bei mir vor. Er hatte sich schon brieflich<lb/> an mich gewendet,
+               erbärmlich sind alle<lb/> diese Menschen! – Frl. <rs type="person" ref="#pmb15749">Eibenschütz</rs>, <rs type="person" ref="#pmb15745">Ilona</rs>’s Schwester,
+               spricht<lb/> für ihren <rs type="person" ref="#pmb154356" subtype="implied">Bräutigam</rs> bei mir vor. Er hatte sich schon brieflich<lb/> an mich gewendet,
                ob ich ihm nicht zu einem Portrait sitzen<lb/> wolle. Wie oft ich in den letzten
                Jahren verewigt worden bin!<lb/> Abends „Wasserträger“ u. das neue Ballet. Danach
                noch Referat<lb/> und Correctur im Bureau, so daß ich erst nach 12 Uhr zum

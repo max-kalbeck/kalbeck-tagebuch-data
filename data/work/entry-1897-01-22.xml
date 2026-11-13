@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +37,7 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
-                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -63,10 +60,9 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>22 Januar</head>
-            <p><seg rendition="#left">Freitag.</seg><lb/>Mit <rs type="person" ref="#pmb36699"
-                  >Julie</rs> in der <rs type="event" ref="#pmb364957">Schubertausstellung</rs>.
+         <head>22 Januar</head>
+            <div hand="#hand__kalbeck">
+            <p><seg rendition="#left">Freitag.</seg><lb/>Mit <rs type="person" ref="#pmb36699">Julie</rs> in der <rs type="event" ref="#pmb364957">Schubertausstellung</rs>.
                Ueberraschender Reichtum<lb/> der <rs type="person" ref="#pmb9814">Schwind</rs>’schen
                Malerpoesie. Brief von <rs type="person" ref="#pmb510259">Michel Delines</rs> aus<lb/>
                <rs type="place" ref="#pmb926">Nizza</rs>, der mich auffordert gemeinsame Sache bei
