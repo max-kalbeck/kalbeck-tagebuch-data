@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>13 Mai</head>
+         <head>13 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Wieder einmal Geld auf der Bank erhoben, in Hinblick auf die<lb/>
 bevorstehenden Reisen. Ich fühle mich wieder wohler und frei von<lb/>
 unliebsamen Anwandlungen. <rs type="person" ref="#pmb11036">Burckhard</rs>, <rs type="person" ref="#pmb2202">Singer</rs> u. <rs type="person" ref="#pmb337384">Doller</rs> bei<lb/>

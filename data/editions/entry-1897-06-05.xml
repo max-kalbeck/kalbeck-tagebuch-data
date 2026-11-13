@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>5 Juni</head>
+         <head>5 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Samstag.</seg><lb/>Von heute an nur einen Becher Schloß- u. zwei Becher von dem<lb/>
 wärmeren Neubrunnen. Vergeblicher Gang zum Bürgermeister.<lb/>
 Unpraktischer Rosenkauf. Bei Frau <rs type="person" ref="#pmb365394">v. Beckerath</rs> auf der Neuen<lb/>

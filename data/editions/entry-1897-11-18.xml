@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 November</head>
+         <head>18 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/><rs type="person" ref="#pmb11391">Fulda</rs> schickt mir sein Stück, und ich lese es sofort durch. Mehr<lb/>
 Posse als Lustspiel, erreicht es nicht die Höhe seiner Fähigkeiten<lb/>
 und begnügt sich mit der Lösung eines technisch-dramatischen<lb/>

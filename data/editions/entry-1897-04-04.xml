@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>4 April</head>
+         <head>4 April</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Vor dem Concert bei <rs type="person" ref="#pmb11684">Heuberger</rs>. Gemeinsame Klage. Seine Wichtig-<lb break="no"/>
 u. Geheimnisthuerei: „Aus den Zeitungen habe ich heute wieder ersehen,<lb/>
 daß ich doch am meisten von Brahms weiß.“ Er zeigt mir sechs geschriebene<lb/>

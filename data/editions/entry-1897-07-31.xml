@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>31 Juli</head>
+         <head>31 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Samstag.</seg><lb/>Mit der Excellenz, Frau <rs type="person" ref="#pmb160741">Kantor</rs>, <rs type="person" ref="#pmb36699">Julie</rs> u. Zellner’s nach <rs type="place" ref="#pmb41069">Millstatt</rs><lb/>
 hinüber. Während die Andern mit dem Dampfer nach Dellach<lb/>
 fahren, gehen Zellner’s und ich zu Fuße dahin u. dann alle mit einander<lb/>

@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>11 August</head>
+         <head>11 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/><rs type="person" ref="#pmb11691">Heyse</rs> antwortet mir, daß er bis zum 9. od. 10. Sptbr durch<lb/>
 Arbeit in München festgehalten wird. Sein neues Theaterstück ist<lb/>
 leider nur ein Einacter, der Nachruf an <rs type="person" ref="#pmb10989">Brahms</rs> nur der Aus-<lb break="no"/>

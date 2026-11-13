@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>4 Juli</head>
+         <head>4 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/>Mit zweistündiger Verspätung in <rs type="place" ref="#pmb40454">Villach</rs> eingetroffen. <rs type="person" ref="#pmb36699">Julie</rs>,<lb/>
 die uns auf dem Bahnhof empfängt, ist sehr niedergeschlagen<lb/>
 unserer Sommerfrische wegen. Ich kann ihren Kummer nicht<lb/>

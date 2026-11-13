@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>9 Juli</head>
+         <head>9 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>An <rs type="person" ref="#pmb257834">Busse</rs> geschrieben:<lb/>
 „Sie haben mir sehr weh gethan, mir größeren Schmerz bereitet als<lb/>
 Sie sich wol denken können. Ich hatte mich in die Idee vernarrt, einen<lb/>

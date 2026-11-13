@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>21 August</head>
+         <head>21 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/><rs type="person" ref="#pmb36699">Julie</rs> u. ich fahren mit <rs type="person" ref="#pmb19070">Rosl</rs> nach <rs type="place" ref="#pmb41069">Millstatt</rs> hinüber, um<lb/>
 die jungen Damen aus Pörtschach zu empfangen. Kantor<lb/>
 u. Hugo zu Pferde, Frl. Louise zu Wagen an die Eisenbahn<lb/>

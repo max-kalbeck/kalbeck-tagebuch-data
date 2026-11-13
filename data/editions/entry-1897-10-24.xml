@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>24 Oktober</head>
+         <head>24 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/><rs type="person" ref="#pmb28523">Necker</rs> schickt mir eine Biographie Geibel’s von Theodor<lb/>
 Gaedertz, die mich lebhaft interessirt. Der Verfasser hat es<lb/>
 nicht darauf abgesehen, ein vollständiges Lebens- u. Charakter-<lb break="no"/>

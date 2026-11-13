@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>11 April</head>
+         <head>11 April</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/>Todtenfeier für <rs type="person" ref="#pmb10989">Brahms</rs> in der „Gesellschaft d. Musikfreunde“.<lb/>
 Sein Deutsches Requiem. Im Saale giebt es große Lücken, u. das<lb/>
 Stehparterre, das bei irgend einer <rs type="person" ref="#pmb11024">Bruckner</rs>- oder Straussiade<lb/>

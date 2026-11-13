@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>8 November</head>
+         <head>8 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Montag.</seg><lb/>Nach einer nahezu schlaflosen Nacht spät in den Tag hinein geduselt.<lb/>
 Im gestrigen Sonntagsblatte des „Bund“ schreibt <rs type="person" ref="#pmb3557">Widmann</rs> über den<lb/>
 neuesten Cotta’schen Musenalmanach: „In M. K.’s Gedicht „Der geprellte<lb/>

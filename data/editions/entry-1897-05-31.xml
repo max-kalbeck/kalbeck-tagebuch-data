@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>31 Mai</head>
+         <head>31 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Um 6 ½ Uhr beim Schloßbrunnen habe ich meine <rs type="place" ref="#pmb842">Carlsbad</rs>er Kur<lb/>
 begonnen. Während des ersten und zweiten Bechers suchte ich den<lb/>
 von der „Concordia“ empfohlenen Dr. Popper auf. Er freute sich sehr,<lb/>

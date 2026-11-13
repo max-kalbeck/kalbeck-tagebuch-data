@@ -89,8 +89,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 Januar</head>
+         <head>23 Januar</head>
+            <div hand="#hand__kalbeck">
             <pb corresp="#facs-01"/>
             <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“
                      etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische

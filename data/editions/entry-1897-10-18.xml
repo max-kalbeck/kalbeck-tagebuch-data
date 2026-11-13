@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 Oktober</head>
+         <head>18 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag</seg><lb/>Den Text der italienischen Oper ausgezogen. <rs type="person" ref="#pmb2202">Singer</rs> schickt uns<lb/>
 Karten für das Carltheater, wo der italienische Tragöde <rs type="person" ref="#pmb3787">Ernesto<lb/>
 Zacconi</rs> z. letzten Male spielt (in Rovetta’s „Disonesti“ und<lb/>

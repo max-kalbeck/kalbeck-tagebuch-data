@@ -88,8 +88,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>13 Januar</head>
+         <head>13 Januar</head>
+            <div hand="#hand__kalbeck">
             <pb corresp="#facs-01"/>
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Der Kauf ist perfect geworden, u. wir
                sind seit heute Grundbe-<lb break="no"/> sitzer, sehr kleine Kleingrundbesitzer: 360

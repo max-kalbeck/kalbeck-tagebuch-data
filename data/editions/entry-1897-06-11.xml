@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>11 Juni</head>
+         <head>11 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/><rs type="person" ref="#pmb117652">Pollini</rs> bringt mir Textbuch und Clavierauszug der<lb/>
 „Frommen Helene“. <rs type="person" ref="#pmb355013">Janetschek</rs> u. der Doctor treffen mit<lb/>
 ihm bei mir zusammen. – Die Oper gefällt mir nicht. Die<lb/>

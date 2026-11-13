@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>17 August</head>
+         <head>17 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Dinstag.</seg><lb/>Zu Fuß allein nach Warmbad <rs type="place" ref="#pmb40454">Villach</rs>, dessen Qualification<lb/>
 für einen humoristischen Feuilleton-Stoff mit dem Notizbuch in der<lb/>
 Hand erprobt wird. Ich gehe durch Park, Haus und Wald wie<lb/>

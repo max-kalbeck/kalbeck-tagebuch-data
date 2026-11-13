@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>17 Juni</head>
+         <head>17 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/>Mit <rs type="person" ref="#pmb25512">Stettenheim</rs> u. <rs type="person" ref="#pmb13082">Karlweis</rs> in den Kaiserpark. Literarisches Gespräch<lb/>
 mit <rs type="person" ref="#pmb25512">Stettenheim</rs>. Allein auf den Aberg. Nach Tisch mit <rs type="person" ref="#pmb36699">Julie</rs><lb/>
 wieder in den Kaiserpark bei drohenden Gewittern. Unterwegs treffen<lb/>

@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>1 Oktober</head>
+         <head>1 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>Um <rs type="person" ref="#pmb36699">Julie</rs> an unserem Hochzeitstage festlich zu empfangen, fahre<lb/>
 ich auf den Schottenring und kaufe Theerosen u. Bordeauxpflaumen.<lb/>
 Mutter und Tochter langen wohlbehalten an, und zu Mittag sind<lb/>

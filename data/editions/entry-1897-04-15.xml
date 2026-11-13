@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>15 April</head>
+         <head>15 April</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Das Feuilleton über die <rs type="person" ref="#pmb13166">Wolter</rs> u. ein Referat über die Matthäus-Passion<lb/>
 geschrieben, um morgen mit Seelenruhe die Reise nach Deutschland an-<lb break="no"/>
 treten zu können. <rs type="person" ref="#pmb11684">Heuberger</rs> ist zu <rs type="person" ref="#pmb11578">Hanslick</rs> nach Meran. Die<lb/>

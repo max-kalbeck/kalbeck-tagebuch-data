@@ -88,8 +88,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>11 Januar</head>
+         <head>11 Januar</head>
+            <div hand="#hand__kalbeck">
             <pb corresp="#facs-01"/>
             <p><seg rendition="#right">Montag.</seg><lb/><rs type="person" ref="#pmb15745">Ilona
                   Eibenschütz</rs> sendet uns von <rs type="place" ref="#pmb224">London</rs> ihre

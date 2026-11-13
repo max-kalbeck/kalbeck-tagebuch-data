@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 April</head>
+         <head>18 April</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Bei Herrmann Scholtz kommt uns Bodmann entgegen, der aus<lb/>
 <rs type="place" ref="#pmb677">Breslau</rs> zu Besuch da ist. Allgemeine frohe Ueberraschung. Frau Sch.,<lb/>
 geb. Nadler (der zerplatzte Knalleffect d. Nadler’schen Schönheiten:<lb/>

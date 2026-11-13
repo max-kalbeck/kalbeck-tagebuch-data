@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>14 Mai</head>
+         <head>14 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>Hustenlazareth. Fortwährend das niederträchtigste naßkalte Wetter,<lb/>
 nun schon seit 14 Tagen. Alles grau und sonnenlos. Gedicht zu<lb/>
                <rs type="person" ref="#pmb10989">Brahms</rs>’ Todtenbilde, für <rs type="person" ref="#pmb19070">Rosel</rs> bestimmt. Brief von <rs type="person" ref="#pmb194632">Stanford</rs><lb/>

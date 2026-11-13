@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 März</head>
+         <head>18 März</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Beim schönsten Frühlingswetter ins <rs type="place" ref="#pmb533">Cottage</rs> hinaus. Die Baupläne<lb/>
 werden copirt, der Kostenanschlag, der sich auf 24374 fl. 98 x be-<lb break="no"/>
 läuft, von Steume durchgegangen. Spaziergang über die Türkenschanze<lb/>

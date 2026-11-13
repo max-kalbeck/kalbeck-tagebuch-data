@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>20 Mai</head>
+         <head>20 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/>Ein Feuilleton über <rs type="person" ref="#pmb10989">Brahms</rs> u. die Ungarischen Tänze auf Grund<lb/>
 des Simrock-<rs type="person" ref="#pmb9045">Neitzel</rs>’schen Briefwechsels geschrieben. Am Abend<lb/>
 besucht mich <rs type="person" ref="#pmb346028">Schneegans</rs>. <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs> essen bei uns.<lb/>

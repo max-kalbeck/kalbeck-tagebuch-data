@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>22 Juli</head>
+         <head>22 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Beklommener Morgen. Das Wetter hat keinen besonderen<lb/>
 Schaden angerichtet. Ein Gedicht in serbischem Tone. Ein Dutzend<lb/>
 Briefe nach allen Seiten hin. Auch der II Act wird an <rs type="person" ref="#pmb299510">Fielitz</rs><lb/>

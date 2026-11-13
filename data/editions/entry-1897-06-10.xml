@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>10 Juni</head>
+         <head>10 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Hofrath <rs type="person" ref="#pmb117652">Pollini</rs> beim Brunnen. Ich gratulire ihm zur<lb/>
 Verlobung, er aber betrachtet seine nahe bevorstehende<lb/>
 Heirat noch keineswegs als abgemachte Thatsache. Er möchte<lb/>

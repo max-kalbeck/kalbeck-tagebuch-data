@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>5 Februar</head>
+         <head>5 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Freitag.</seg><lb/>Brief von <rs type="person" ref="#pmb406195">Caroline Geisler-Schubert</rs>, der Großnichte <rs type="person" ref="#pmb12729">Franz<lb/>
 Sch</rs>’s, die zur Verherrlichung ihres Großonkels durch ihr mittelmäßiges<lb/>
 Clavierspiel beigetragen hat. Sie ist angebl. entzückt von meinem<lb/>

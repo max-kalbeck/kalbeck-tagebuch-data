@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>22 Mai</head>
+         <head>22 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Samstag.</seg><lb/>Der Schlafkamerad entpuppt sich als rumänischer Militärbevollmächtigter,<lb/>
 der nach England reist, um den Bau von Kriegsschiffen zu überwachen. Bei<lb/>
 der Ankunft in Frankfurt werde ich von <rs type="person" ref="#pmb193689">Stockhausen</rs> auf dem Bahnhof<lb/>

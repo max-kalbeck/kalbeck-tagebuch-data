@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>5 Januar</head>
+         <head>5 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Dinstag.</seg><lb/>+<note type="editorische-anmerkung">Was
                   Max Kalbeck mit diesem Tintenkreuz markierte, bleibt unklar.</note> Dankvisite bei
                   <rs type="person" ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs>

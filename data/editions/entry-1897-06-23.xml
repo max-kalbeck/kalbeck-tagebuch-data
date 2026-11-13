@@ -86,8 +86,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 Juni</head>
+         <head>23 Juni</head>
+            <div hand="#hand__kalbeck">
             <p>[ganz oben auf der Seite geschrieben]<lb/> x) Exempl. geschickt an: <rs type="person" ref="#pmb18873">Joachim</rs>, Frau <rs type="person" ref="#pmb365394">v.
                Beckerath</rs>, <rs type="person" ref="#pmb342765">Else Billroth</rs>, Hofrätin<lb/> Hecht u. Frau Rocholl. Dgl. an <rs type="person" ref="#pmb355860">Simrock</rs>.<lb/>
                <seg rendition="#right">Mittwoch.</seg><lb/>

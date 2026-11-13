@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>29 März</head>
+         <head>29 März</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Montag.</seg><lb/>Ein Musikfeuilleton begonnen. Das schöne Wetter und Mangel an<lb/>
 Arbeitslust führen mich mit <rs type="person" ref="#pmb36699">Julie</rs> nach Tische ins <rs type="place" ref="#pmb533">Cottage</rs>. Es rührt sich<lb/>
 noch immer nicht auf dem Bauplatze. Wir gehen zu <rs type="person" ref="#pmb100107 #pmb342764">Molden’s</rs> hinüber.<lb/>

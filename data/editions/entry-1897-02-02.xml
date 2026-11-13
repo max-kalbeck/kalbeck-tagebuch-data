@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>2 Februar</head>
+         <head>2 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><add hand="#hand__kalbeck_bs_lk" place="top-right">+<note type="editorische-anmerkung">Mit derartigen Bleistiftmarkierungen („+“, „x“ etc.) kennzeichnete Max Kalbeck Tagebucheinträge, die er für seine biografische Arbeit zu Johannes Brahms als relevant erachtete.</note></add><lb/><seg rendition="#right">Dinstag.</seg><lb/>Vor dem II <rs type="person" ref="#pmb12729">Schubert</rs>-Concert, das mittags im Gr. Musikvereins.<lb/>
 stattfand, war ich bei <rs type="person" ref="#pmb342788 #pmb342792 #pmb342793">Vesque’s</rs>, um <rs type="person" ref="#pmb342788">Helene</rs> für ihren Brief zu danken.<lb/>
 Nach dem Concert Diner bei <rs type="person" ref="#pmb6484">Ignaz Brüll</rs> im Allerengsten, da<lb/>

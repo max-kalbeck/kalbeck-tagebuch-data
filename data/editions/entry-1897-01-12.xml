@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>12 Januar</head>
+         <head>12 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Dinstag.</seg><lb/>Eine allarmirende Annonce in der Zeitung
                jagt uns früh wieder<lb/> ins <rs type="place" ref="#pmb533">Cottage</rs> hinaus.
                Dort soll eine Villa in der <rs type="place" ref="#pmb150">Sternwartestr.</rs><lb/>

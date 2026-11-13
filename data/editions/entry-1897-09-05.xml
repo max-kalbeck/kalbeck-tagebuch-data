@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>5 September</head>
+         <head>5 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Bei bequemer Zeit fuhren wir von Ober-Villach ab. Voraus<lb/>
 Frau <rs type="person" ref="#pmb160741">Sida</rs> in ihrem frisch erstandenen Ponny-Gespann. Ein<lb/>
 Dr. Schmidt a. Leipzig, der sich hier fünfzehn Jahre und mehr mit<lb/>

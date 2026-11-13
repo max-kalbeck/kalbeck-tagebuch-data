@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>26 November</head>
+         <head>26 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>Mein gestern zurückgelegtes
                Concertfeuilleton erscheint. Bei<lb/> Thorsch u. Söhnen das Honorar von der Bank
                Lyonnais eincassirt.<lb/> Für <rs type="person" ref="#pmb355860">Simrock</rs>, der

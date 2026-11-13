@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>24 Februar</head>
+         <head>24 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Widmann schreibt mir, er wolle den Herzog <rs type="person" ref="#pmb23864">v. Meiningen</rs><lb/>
 bestimmen, daß er <rs type="person" ref="#pmb10989">Brahms</rs> in die Villa Carlotta einlade, u.<lb/>
 fragt, was ich dazu meine? Ich antworte sofort zieml. ausführlich u.<lb/>

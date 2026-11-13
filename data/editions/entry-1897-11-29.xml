@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>29 November</head>
+         <head>29 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Dr. Körner in Graz kündigt mir den Besuch der Gräfin <rs type="person" ref="#pmb4561">Salburg</rs> an.<lb/>
 Weh mir! Und ich habe noch keine Zeile von ihren Romanen,<lb/>
 Gedichten und Theaterstücken gelesen. Mein alter Aufsatz über<lb/>

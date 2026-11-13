@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>25 Mai</head>
+         <head>25 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Dinstag.</seg><lb/>Der Spaß mit Frl. <rs type="person" ref="#pmb405923">Kirchdorffer</rs>, der ich mich als unmusikalischen<lb/>
 grobmateriellen Banausen u. Kunstverächter zeige, wird weiter fort-<lb break="no"/>
 getrieben. Sie haßt mich. Das Wetter erlaubt auf der Veranda zu<lb/>

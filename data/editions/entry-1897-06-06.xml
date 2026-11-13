@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>6 Juni</head>
+         <head>6 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/>Pfingsten. Nach Brunnencur und Frühstück zu Frau <rs type="person" ref="#pmb365394">v. Beckerath</rs>,<lb/>
 die mich im Gartenhause ihres Gasthofes erwartet. Auf dem Wege<lb/>
 begegnet mir <rs type="person" ref="#pmb358802">Lauterbach</rs>, der mich sofort erkennt, trotzdem er<lb/>

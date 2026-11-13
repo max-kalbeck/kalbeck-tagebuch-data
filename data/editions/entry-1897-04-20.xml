@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>20 April</head>
+         <head>20 April</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Dinstag.</seg><lb/>Ein paar Verse und Blumen an Frau <rs type="person" ref="#pmb365433">v. Holstein</rs> geschickt. <rs type="person" ref="#pmb299975">Lasswitz</rs><lb/>
 schreibt mir, daß sie mich zu seinem Geburtstage heute in Gotha erwarten,<lb/>
 und ich entschließe mich am Nachmittag abzufahren. Um 10 Uhr suche ich Dr.<lb/>

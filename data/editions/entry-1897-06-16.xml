@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>16 Juni</head>
+         <head>16 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/>Morgenspaziergang mit <rs type="person" ref="#pmb25512">Stettenheim</rs> u. <rs type="person" ref="#pmb13082">Karlweis</rs> über den Faul-<lb break="no"/>
 lenzerweg in den Kaiserpark. Dort eine Menge Menschen, die<lb/>
 sich an uns herandrängen. So lieb mir die Gesellschaft ist, so<lb/>

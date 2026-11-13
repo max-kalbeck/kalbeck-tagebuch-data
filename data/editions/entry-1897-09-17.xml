@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>17 September</head>
+         <head>17 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/><rs type="person" ref="#pmb337384">Doller</rs>’s Nichte ist einem Herzschlag erlegen. Er reist heute nach <rs type="place" ref="#pmb168">Berlin</rs>.<lb/>
 Gegen Mittag kommt das sehnlich erwartete Telegramm. Da es auch<lb/>
 am Morgen ausgeblieben war, nahm ich an, daß die Prüfung um einen<lb/>

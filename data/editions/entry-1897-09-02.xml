@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>2 September</head>
+         <head>2 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>Nach umständlicher Packerei nahmen wir Abschied von „der<lb/>
 Zauchen“ und fuhren mit unserem Gepäck nach <rs type="place" ref="#pmb40454">Villach</rs>. Zuvor<lb/>
 verlebte ich noch eine letzte schöne stille Stunde im Grasegarten<lb/>

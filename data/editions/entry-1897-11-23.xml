@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 November</head>
+         <head>23 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Dinstag.</seg><lb/><rs type="person" ref="#pmb405891">Chausson</rs> schreibt mir aus Fiesole, daß er den I Act des „Artus“<lb/>
 über <rs type="place" ref="#pmb182">Paris</rs> erhalten hat. Er spricht sich sehr warm und anerkennend<lb/>
 über meine Uebersetzung aus und avisirt mir einen Wechsel von<lb/>

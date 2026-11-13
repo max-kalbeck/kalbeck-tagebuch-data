@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>21 Januar</head>
+         <head>21 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/>Brief einer Neugierigen, die wissen
                will, ob sie gestern im <rs type="event" ref="#pmb409192">Concert</rs><lb/>
                den wahren <rs type="person" ref="#pmb11857">Kalbeck</rs> gesehen. Die weitreichende

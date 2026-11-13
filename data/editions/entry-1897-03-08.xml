@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>8 März</head>
+         <head>8 März</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Ermüdender Arbeitstag. Erst ein Referat über
                das gestr. philh.<lb/> Concert, dann ein Musikfeuilleton, zuletzt noch ein
                Opernreferat!<lb/> Baudirector <rs type="person" ref="#pmb21717">Müller</rs> ist mit

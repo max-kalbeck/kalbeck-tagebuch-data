@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>13 Oktober</head>
+         <head>13 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Den zweiten Act der „Tochter Jorio’s“ zu Ende gebracht. Ach!<lb/>
 Wie ich aus <rs type="person" ref="#pmb2874">Eirich</rs>’s Briefen ersehe, bekomme ich gar nur 800<lb/>
 Lire für die Arbeit, und ich Esel habe mich auf 1000 verspitzt.<lb/>

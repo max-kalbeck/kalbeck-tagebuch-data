@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>10 Oktober</head>
+         <head>10 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag</seg><lb/>An <rs type="person" ref="#pmb43755">Jos. Kürschner</rs> Nachrichten für den neuen Jahrgang seines<lb/>
 Literaturkalenders. Vertröstungsschreiben an Dr. Körner i.<lb/>
 Graz. Anzeige vom Tode des Balladencomponisten <rs type="person" ref="#pmb194477">Martin Plüdde-<lb break="no"/>

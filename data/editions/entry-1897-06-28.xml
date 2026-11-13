@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>28 Juni</head>
+         <head>28 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Das Regenwetter ändert meinen St. Gilgener Plan. An-<lb break="no"/>
 statt mit dem Nachen fahre ich zur reglementsmäßigen<lb/>
 Stunde mit dem Dampfer nach Promberg und muß dort<lb/>

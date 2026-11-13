@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>21 Juli</head>
+         <head>21 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/><rs type="person" ref="#pmb2202">Singer</rs> segelt in aller Morgenstille ab. Ich hätte ihn gern nach<lb/>
 Spital begleitet, er aber drängte mich mit Gewalt zurück. Mit<lb/>
 einer Depesche von <rs type="person" ref="#pmb11885">Karpath</rs> läuft ein Kartenbrief von <rs type="person" ref="#pmb257834">Busse</rs><lb/>

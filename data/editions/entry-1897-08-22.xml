@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>22 August</head>
+         <head>22 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Früh kommt der seit einer Woche erwartete <rs type="person" ref="#pmb363714">Mosé</rs><lb/>
 und erzält von Ischl, der großen Wassersnot, Strauss<lb/>
 etc. Der alte Knabe freut sich, daß seine Wanddecorationen<lb/>

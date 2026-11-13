@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>31 Januar</head>
+         <head>31 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Schubert’s 100. Geburtstag. Ich bin mit meinem Feuilleton leidlich<lb/>
 zufrieden; anderen gefällt es auch. Die <rs type="person" ref="#pmb12729">Schubert</rs>-Feier vertritt<lb/>
 sich über die ganze Woche u. beginnt mit einem großen Concert<lb/>

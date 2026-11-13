@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>17 Juli</head>
+         <head>17 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Samstag.</seg><lb/>Henschel stellt sich mit neuen Mahnungen ein. Dr. Winter<lb/>
 läßt mir vom Buchhändler die Bücher von <rs type="person" ref="#pmb10765">Andrian</rs> u. <rs type="person" ref="#pmb2147">Altenberg</rs><lb/>
 zusenden. „Der Garten der Erkenntnis“ [Ausstreichung] ist die<lb/>

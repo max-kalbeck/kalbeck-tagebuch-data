@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>1 September</head>
+         <head>1 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Briefe, höfliche und grobe, an allerlei Menschen. <rs type="person" ref="#pmb11885">Karpath</rs><lb/>
 muß sich wieder einmal den Standpunkt klar machen lassen, da<lb/>
 er mich in einem 8 Seiten langen Schreiben dazu herausfordert.<lb/>

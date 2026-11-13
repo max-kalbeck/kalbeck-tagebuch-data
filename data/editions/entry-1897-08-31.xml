@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>31 August</head>
+         <head>31 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Dinstag.</seg><lb/>Drei Stunden hinter einander mit den Geschwistern Königsberger<lb/>
 musicirt. Der Alte hat sich von einem <rs type="place" ref="#pmb40454">Villach</rs>er Antiquar<lb/>
 eine näselnde Schachtel aufschwatzen lassen, die in Wettgesängen<lb/>

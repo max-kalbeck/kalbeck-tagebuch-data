@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>3 Juli</head>
+         <head>3 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Samstag.</seg><lb/>Die „Musikal. Frühlingstage“ überallhin verschickt. <rs type="person" ref="#pmb2202">Singer</rs><lb/>
 fragt mittelst einer Stockholmer Karte an, wie lange<lb/>
 wir noch in <rs type="place" ref="#pmb842">Karlsbad</rs> bleiben? Inzwischen ist er, wie man<lb/>

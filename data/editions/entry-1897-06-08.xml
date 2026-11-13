@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>8 Juni</head>
+         <head>8 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Dinstag.</seg><lb/><rs type="person" ref="#pmb13933">Lola Beeth</rs> giebt sich viele vergebliche Mühe, mit uns<lb/>
 anzubandeln. Wir weichen ihr aus, wo wir können. Der<lb/>
 Sänger <rs type="person" ref="#pmb28861">Winkelmann</rs>, der schlecht aussieht und mit heiserer<lb/>

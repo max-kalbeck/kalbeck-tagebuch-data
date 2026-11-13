@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 September</head>
+         <head>18 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/>Wolffenstein, <rs type="person" ref="#pmb337384">Doller</rs>’s Schwager, fragt telegraphisch aus<lb/>
 München an, was mit der armen Emma geschehen sei. Da<lb/>
 Leo, anstatt hierher, nach <rs type="place" ref="#pmb168">Berlin</rs> zur Beerdigung gefahren ist,<lb/>

@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>14 Januar</head>
+         <head>14 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Donnerstag.</seg><lb/>
                <floatingText type="previous-entry" corresp="entry-1897-01-13.xml">
                   <body>

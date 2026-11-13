@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>28 Juli</head>
+         <head>28 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/>Unsere Abreise, die für heute anberaumt war, wird auf gutes<lb/>
 Zureden von verschiedenen Seiten bis Sonntag aufgeschoben. <rs type="person" ref="#pmb8088">Paul</rs><lb/>
 ist sehr ungehalten darüber; ihm dauert das gute Leben schon viel<lb/>

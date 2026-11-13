@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>30 November</head>
+         <head>30 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Dinstag.</seg><lb/>Um nicht wortbrüchig zu werden, nehme ich mit dem letzten<lb/>
 Drückel die Arbeit über <rs type="person" ref="#pmb7905">Holtei</rs> vor, obwol ich mich bereits<lb/>
 gestern habe überzeugen müssen, daß ich zu viel versprochen<lb/>

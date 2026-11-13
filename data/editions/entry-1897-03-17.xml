@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>17 März</head>
+         <head>17 März</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Der Obergärtner Rothschild’s: Maxwald übernimmt auf Anstiften<lb/>
 der Frau <rs type="person" ref="#pmb160741">Kantor</rs> die Einrichtung unseres Gartens. Er hat einen sehr<lb/>
 hübschen u. praktischen Plan gezeichnet u. führt ihn um 500 fl. aus.<lb/>

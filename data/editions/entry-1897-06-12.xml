@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>12 Juni</head>
+         <head>12 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/>Das Feuilleton über die <rs type="place" ref="#pmb913">Bonn</rs>er Musikfeste abgeschlossen und nach<lb/>
 <rs type="place" ref="#pmb50">Wien</rs> geschickt. Mit dieser unter erschwerenden Umständen [eingefügt: begonnenen,] schrecklich<lb/>
 in die Länge gezogenen Arbeit fällt mir ein großer Stein vom<lb/>

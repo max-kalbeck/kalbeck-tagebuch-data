@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>20 August</head>
+         <head>20 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>Das schlechte Wetter hält an; erst gegen Mittag<lb/>
 klärt sich der Himmel. Dr. Pollitzer [Ausstreichung: und] berichtet, daß<lb/>
 die gestrige Expedition glücklich abgelaufen ist. <rs type="person" ref="#pmb19855">Anny<lb/>

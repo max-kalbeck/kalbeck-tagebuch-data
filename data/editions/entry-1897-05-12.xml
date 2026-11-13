@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>12 Mai</head>
+         <head>12 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Auf dem Wege zu <rs type="person" ref="#pmb28523">Necker</rs> begegnen mir die Schwestern <rs type="person" ref="#pmb15745 #pmb15749">Eibenschütz</rs>.<lb/>
 <rs type="person" ref="#pmb15745">Ilona</rs> will bei <rs type="person" ref="#pmb354621">Marie Schumann</rs> anfragen, ob ich die Briefe der<lb/>
 Frau <rs type="person" ref="#pmb162186">Clara</rs> publiciren darf. <rs type="person" ref="#pmb28523">Necker</rs>, der nicht zu Hause war,<lb/>

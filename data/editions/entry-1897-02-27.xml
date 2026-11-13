@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>27 Februar</head>
+         <head>27 Februar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/>Noch einmal „Die versunkene Glocke“ durchgenommen. Das<lb/>
 vollkommenste Werk <rs type="person" ref="#pmb11617">Hauptmann</rs>’s u. doch wieder kein vollkommenes<lb/>
 Werk. Seine hohen poetischen Schönheiten heißen mich einen<lb/>

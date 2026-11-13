@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>29 Juli</head>
+         <head>29 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/>Wir fahren am Morgen nach <rs type="place" ref="#pmb41069">Millstatt</rs> hinüber, um drüben einen<lb/>
 größeren Spaziergang zu machen. Ein Schiff kommt uns entgegen,<lb/>
 darin sitzen Hr. <rs type="person" ref="#pmb174597">Kantor</rs> u. Albin Zellner. Sie haben ihre Marienbader<lb/>

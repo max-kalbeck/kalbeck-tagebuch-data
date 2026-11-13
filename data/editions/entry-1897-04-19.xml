@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>19 April</head>
+         <head>19 April</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/><rs type="person" ref="#pmb36699">Julie</rs> reist früh nach <rs type="place" ref="#pmb168">Berlin</rs> voraus, ich nach Leipzig. Zimmer in Schwarck’s<lb/>
 Hôtel Union (Schützenstr.). Des Feiertages wegen ist die Post geschlossen, u.<lb/>
 ich bin also ohne Nachricht von <rs type="person" ref="#pmb299975">Lasswitz</rs>, telegraphire ihm mit Rp. und<lb/>

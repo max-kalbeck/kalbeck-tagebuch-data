@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>6 Oktober</head>
+         <head>6 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/>Noch einmal nehme ich mir das Buch <rs type="person" ref="#pmb8987">Murger</rs>’s u. den Clavierauszug<lb/>
 <rs type="person" ref="#pmb12457">Puccini</rs>’s vor. Je mehr ich mich mit letzterem befasse, desto weniger<lb/>
 gefällt er mir, und ich bin jetzt zufrieden, daß ich den elenden Text,<lb/>

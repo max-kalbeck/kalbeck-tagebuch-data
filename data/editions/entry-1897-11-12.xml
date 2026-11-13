@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>12 November</head>
+         <head>12 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>In guter Stimmung setze ich mich hin und vergegenwärtige<lb/>
 mir den Meraner Schneemorgen vom 20. Septbr., den ich<lb/>
 als Basis zu einem Aufsatze über <rs type="person" ref="#pmb11691">Heyse</rs> u. seine neuen<lb/>

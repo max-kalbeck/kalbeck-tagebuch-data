@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>3 Oktober</head>
+         <head>3 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Sonntag.</seg><lb/>Die Räumerei zu Ende gebracht. Besuch des Hauptmann’s <rs type="person" ref="#pmb13186">von<lb/>
 Zobeltitz</rs>, Redacteurs der Velhagen u. Klasing’schen Monats-<lb break="no"/>
 hefte. Er ladet mich zur erneuerten Mitarbeiterschaft ein u. möchte,<lb/>

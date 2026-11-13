@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>18 August</head>
+         <head>18 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Mittwoch.</seg><lb/>Anstrengender Schnell- u. Dauerlauf zur Station Seebach. In<lb/>
 Spital werden wir von Frau <rs type="person" ref="#pmb160741">Sida</rs> erwartet. Das Zauberfest,<lb/>
 zu dem wir eigentlich eingeladen waren, hat schon gestern Abend<lb/>

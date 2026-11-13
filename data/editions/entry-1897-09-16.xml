@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>16 September</head>
+         <head>16 September</head>
+            <div hand="#hand__kalbeck">
             <p>
                <seg rendition="#left">(Dinstag.</seg><lb/>
                <seg rendition="#left">Mittwoch)</seg><lb/>

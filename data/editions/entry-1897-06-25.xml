@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>25 Juni</head>
+         <head>25 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Freitag.</seg><lb/>Schon um 4 Uhr auf den Beinen, um Koffer und Tasche zu packen.<lb/>
 Von Fürst <rs type="person" ref="#pmb361477">Reuss</rs> schriftl. Abschied genommen. Dann zum letzten<lb/>
 Male hinunter an den Sprudel. Es regnet Blumen über <rs type="person" ref="#pmb36699">Julie</rs>.<lb/>

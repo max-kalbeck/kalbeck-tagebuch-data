@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>1 Dezember</head>
+         <head>1 Dezember</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/>Den Aufsatz über <rs type="person" ref="#pmb7905">Holtei</rs> beendet. Nachträglich bemerke ich mit<lb/>
 Schrecken daß H. nicht, wie ich glaubte, 1862, sondern erst 1865<lb/>
 nach <rs type="place" ref="#pmb677">Breslau</rs> gekommen ist. Entweder hat also das von mir aus-<lb break="no"/>

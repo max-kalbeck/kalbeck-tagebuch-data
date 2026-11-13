@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 Oktober</head>
+         <head>23 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Samstag.</seg><lb/><rs type="person" ref="#pmb12678">Erich Schmidt</rs> schickt mir einen Separatabdruck seiner Publi[ca]-<lb break="no"/>
 cation des Don Juan u. Faust als tirolische Volksschauspiele.<lb/>
 Weiter an „Artus“. Nach Tische Dr. <rs type="person" ref="#pmb28523">Necker</rs> bei mir. Es geht<lb/>

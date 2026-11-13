@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 September</head>
+         <head>23 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/>Brief von Frau <rs type="person" ref="#pmb160741">Kantor</rs>, die in <rs type="place" ref="#pmb50">Wien</rs> ist, mit allerhand Neuigkeiten:<lb/>
 <rs type="person" ref="#pmb19855">Anny Hiller</rs> hat sich mit dem älteren <rs type="person" ref="#pmb19864">Kupelwieser</rs> verlobt, der<lb/>
 21 J. alt, also ein Jahr jünger ist als sie. Eine Scandalaffaire zwischen<lb/>

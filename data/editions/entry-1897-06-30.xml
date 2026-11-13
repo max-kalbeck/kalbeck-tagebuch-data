@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>30 Juni</head>
+         <head>30 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/>34° R. Trotz der enormen Hitze u. der fürchterlichen Atmosphäre<lb/>
 in der Stadt suche ich, nachdem ich mit <rs type="person" ref="#pmb36699">Julie</rs> auf der Escompte B.[ank]<lb/>
 Geld erhoben, <rs type="person" ref="#pmb257834">Busse</rs> in seinem Hôtel Wimberger in Fünfhaus<lb/>

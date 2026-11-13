@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>15 Juni</head>
+         <head>15 Juni</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Dinstag.</seg><lb/><rs type="person" ref="#pmb25512">Stettenheim</rs> begrüßt mich am Brunnen; wir freuen uns innig<lb/>
 unseres Wiedersehens nach so langer Zeit (1893 Meran) und schließen<lb/>
 Brüderschaft. Auch <rs type="person" ref="#pmb13082">Karlweis</rs> duzt sich mit mir. <rs type="person" ref="#pmb25512">Stettenheim</rs> ist von<lb/>

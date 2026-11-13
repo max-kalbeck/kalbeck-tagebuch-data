@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>16 Oktober</head>
+         <head>16 Oktober</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/>Schon um 7 Uhr am Schreibtisch. Das Feuilleton über <rs type="person" ref="#pmb11851">Kainz</rs> wächst<lb/>
 unter der Hand auf sieben Spalten an, und es ergeht mir wie so<lb/>
 oft, daß ich nicht mehr dazu komme, das Wichtigste zu sagen,<lb/>

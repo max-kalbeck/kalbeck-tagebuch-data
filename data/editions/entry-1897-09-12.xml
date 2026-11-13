@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>12 September</head>
+         <head>12 September</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag.</seg><lb/>[Forsetzung vom 11. September]<lb/>
 Genie wie <rs type="person" ref="#pmb11944">Klinger</rs> gegenüber der Pedant, hartnäckig auf meinem<lb/>
 Scheine zu bestehen. Interessant ist mir der Fall <rs type="person" ref="#pmb11691">Heyse</rs> – <rs type="person" ref="#pmb11944">Klinger</rs><lb/>

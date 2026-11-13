@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>26 Juli</head>
+         <head>26 Juli</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>An <rs type="person" ref="#pmb257834">Busse</rs> 30 fl. nach Pontebba geschickt mit der Weisung,<lb/>
 ganz nach seinem Belieben zu verfahren. Er will mich für sein<lb/>
 Schicksal verantwortlich machen, ich aber lege es in seine Hand zurück.<lb/>

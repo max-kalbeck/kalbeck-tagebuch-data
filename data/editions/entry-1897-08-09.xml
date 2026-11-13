@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>9 August</head>
+         <head>9 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/><rs type="person" ref="#pmb25470">Stern</rs> ermuntert mich, im Feuilleton gegen den Papst loszu-<lb break="no"/>
 ziehen, weil er die Kirchenmusik reformiren und nach einer (offen-<lb break="no"/>
 bar unverständig u. einseitig abgefaßten) Zeitungsnotiz <rs type="person" ref="#pmb12303">Mozart</rs><lb/>

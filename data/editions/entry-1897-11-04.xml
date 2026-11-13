@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>4 November</head>
+         <head>4 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Donnerstag.</seg><lb/><rs type="person" ref="#pmb12867">Johann Strauss</rs> hat mir gestern einen telegraphischen Gruß und<lb/>
 Dank für meine Besprechung der „Fledermaus“ gesandt, wobei er es<lb/>
 nicht unterlassen konnte zu fragen, warum ich mich nicht um ihn<lb/>

@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 August</head>
+         <head>23 August</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Montag.</seg><lb/>Total abgespannt. Die <rs type="person" ref="#pmb299510">Fielitz</rs>’sche Musik noch einmal<lb/>
 am Clavier durchgenommen; sie gefällt mir wieder besser,<lb/>
 wenn auch im Ganzen mein Urteil bestehen bleibt. <rs type="person" ref="#pmb11885">Karpath</rs><lb/>

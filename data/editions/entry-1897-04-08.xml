@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>8 April</head>
+         <head>8 April</head>
+            <div hand="#hand__kalbeck">
             <p>
                <seg rendition="#left">(Dinstag)</seg><lb/>
                <seg rendition="#right">Do<c rendition="#gemination-n">nn</c>erstag.</seg><lb/>

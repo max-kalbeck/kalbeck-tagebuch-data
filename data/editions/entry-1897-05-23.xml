@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>23 Mai</head>
+         <head>23 Mai</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Sonntag</seg><lb/>Auf dem Bahnhofe <rs type="person" ref="#pmb193689">Stockhausen’s</rs>. Es ergiebt sich, daß sie auf dem<lb/>
 Rheine nur bis Biebrich mitfahren können. Wir haben also nur<lb/>
 die Eisenbahnstrecke bis Mainz zu unserer Unterhaltung. Sie kommen<lb/>

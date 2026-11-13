@@ -87,8 +87,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>16 Januar</head>
+         <head>16 Januar</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Samstag.</seg><lb/>Den Tag über an einem Concertfeuilleton
                herumgeschustert. Sauere<lb/> Schleuderarbeit. Schriftsteller <rs type="person" ref="#pmb12926">Telmann</rs> (nicht <rs type="person" ref="#pmb64900">Konrad
                   Zitelmann</rs>),<lb/> ein Agitator in Theaterangelegenheiten, macht wiederholte

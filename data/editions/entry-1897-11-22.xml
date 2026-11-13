@@ -84,8 +84,8 @@
    </facsimile>
    <text>
       <body>
-         <div hand="#hand__kalbeck">
-            <head>22 November</head>
+         <head>22 November</head>
+            <div hand="#hand__kalbeck">
             <p><seg rendition="#right">Montag.</seg><lb/><rs type="person" ref="#pmb2202">Singer</rs> vom Bureau abgeholt. Bei uns giebt es wieder einmal<lb/>
 ein Diner, zu Ehren <rs type="person" ref="#pmb11780">Ricarda Huch</rs>’s. Außer ihr: Dr. Defregger,<lb/>
 der Sohn des Malers, der uns eine Empfehlung von <rs type="person" ref="#pmb11402">Ganghofer</rs><lb/>
