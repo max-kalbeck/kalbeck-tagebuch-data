@@ -89,7 +89,7 @@
       <body>
          <head>20 Januar</head>
             <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Mittwoch.</seg><lb/>Feuilleton über die <rs type="event" ref="#pmb208895"><rs type="work" ref="#pmb29971">Wildente</rs></rs> geschrieben.
+            <p><seg rendition="#left">Mittwoch.</seg><lb/>Feuilleton<note>Erschienen im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970122&amp;seite=1&amp;zoom=33&amp;query=%22Dieses-M%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ am 22. Jänner 1897</ref></note> über die <rs type="event" ref="#pmb208895"><rs type="work" ref="#pmb29971">Wildente</rs></rs> geschrieben.
                Abds. im <rs type="event" ref="#pmb409192">Concert</rs> der<lb/> Sängerin <rs type="person" ref="#pmb9790">Schumann-Heink</rs>. Jour bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. <rs type="person" ref="#pmb2202">Singer</rs> fährt<lb/> am Samstag nach <rs type="place" ref="#pmb182">Paris</rs>.</p>
          </div>
       </body>
