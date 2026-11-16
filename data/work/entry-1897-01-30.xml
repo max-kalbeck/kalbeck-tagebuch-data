@@ -59,7 +59,7 @@
       <body>
          <head>30 Januar</head>
             <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Samstag.</seg><lb/>Jahre und Tage hätte ich Muße gehabt für den <rs type="person" ref="#pmb12729">Schubert</rs>-Aufsatz,<lb/>
+            <p><seg rendition="#left">Samstag.</seg><lb/>Jahre und Tage hätte ich Muße gehabt für den <rs type="person" ref="#pmb12729">Schubert</rs>-Aufsatz<note>Erschienen im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970131&amp;seite=1&amp;zoom=33&amp;query=%22Franz%2BSchubert%21%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ am 31. Jänner 1897</ref></note>,<lb/>
 dessentwegen ich u. a. ein vorteilhaftes Anerbieten der „Gartenlaube“<lb/>
 schon vor Monaten zurückgewiesen habe, und doch gewann ich es nicht<lb/>
 über mich, auch nur eine Zeile vorher niederzuschreiben. Erst im<lb/>
@@ -67,7 +67,7 @@ letzten Augenblick drückte ich los, und in der Redaction war schon<lb/>
 so große Aufregung, als das Manuscript noch immer nicht kommen<lb/>
 wollte, daß sie mir um 7 Uhr Abds. einen Diener über den<lb/>
 Hals schickten. Da war ich gerade fertig und hatte kaum Zeit, in<lb/>
-den Wagen zu springen u. in die Oper zu fahren. Hinterher<lb/>
+den Wagen zu springen u. in die <rs type="event" ref="#pmb552024"><rs type="place" ref="#pmb15">Oper</rs></rs><note>Kalbeck verfasste zu diesem Konzert eine Kritik im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970131&amp;seite=9&amp;zoom=33&amp;query=%22Der%2Bvierj%C3%A4hrige%2BPosten%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 31. Jänner 1897</ref>.</note> zu fahren. Hinterher<lb/>
 noch ein Nachtreferat – juchhe! Es ging wie das Brätsel-<lb break="no"/>
 backen.</p>
          </div>
