@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-10-12" n="01"/>
             <title level="a">Dienstag, 12. Oktober 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -85,25 +88,20 @@
    <text>
       <body>
          <head>12 Oktober</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Dinstag.</seg><lb/>An der italienischen Oper gearbeitet. Scheußlich. <rs type="person" ref="#pmb405891">Chausson</rs><lb/>
-ist mit Allem einverstanden, was ich ihm zur Bedingung gemacht<lb/>
-habe, und ich muß nun zusehen, daß ich so bald wie möglich an<lb/>
-den König Artus herankomme. Die Cotta’sche Buchhandlung schickt<lb/>
-den neuen Musenalmanach und 15 Mk. für meine drei Gedichte.<lb/>
-Ein Apotheker Goltz in Thann i. Elsaß erkundigt sich teilnahms-<lb break="no"/>
-voll nach meinen Brahms-Studien; er hat meinen „Jungen<lb/>
-Brahms“ gelesen und zeigt Appetit nach mehr. [Ausstreichung] Sophie Char-<lb break="no"/>
-lotte v. Sell [eingefügt: i. Schwerin] – mein weiblicher Schatten vom <rs type="place" ref="#pmb913">Bonn</rs>er Musikfeste,<lb/>
-hat im Kürschner meine Adresse entdeckt und glaubt, ich werde<lb/>
-mich auf eine Corresponenz mit ihr einlassen. Wird mit drei<lb/>
-Zeilen abgefertigt.<lb/>
-[Absatz wie ausgestrichen von einem Verweis zu Fortsetzung auf gegenüberliegender Seite]<lb/>
-Dr. <rs type="person" ref="#pmb96521">M. Haberlandt</rs> wirft sich in der Zeitung zum Anwalt<lb/>
-u. moral. Retter des verrückten Wolf auf.<lb/>
-Die „Akadem. Lesehalle“ der Czernowitzer Studirenden ladet<lb/>
-mich zu einem am 16. aus Anlaß der Enthüllung des <rs type="person" ref="#pmb343202">Tomaszczuk</rs>-<lb break="no"/>
-denkmales stattfindenen Commerse ein.</p>
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#left">Dinstag.</seg><lb/>An der italienischen Oper gearbeitet.
+               Scheußlich. <rs type="person" ref="#pmb405891">Chausson</rs><lb/> ist mit Allem
+               einverstanden, was ich ihm zur Bedingung gemacht<lb/> habe, und ich muß nun zusehen,
+               daß ich so bald wie möglich an<lb/> den König Artus herankomme. Die Cotta’sche
+               Buchhandlung schickt<lb/> den neuen Musenalmanach und 15 Mk. für meine drei
+               Gedichte.<lb/> Ein Apotheker Goltz in Thann i. Elsaß erkundigt sich teilnahms-<lb break="no"/> voll nach meinen Brahms-Studien; er hat meinen „Jungen<lb/> Brahms“
+               gelesen und zeigt Appetit nach mehr. [Ausstreichung] Sophie Char-<lb break="no"/>
+               lotte v. Sell [eingefügt: i. Schwerin] – mein weiblicher Schatten vom <rs type="place" ref="#pmb913">Bonn</rs>er Musikfeste,<lb/> hat im Kürschner meine
+               Adresse entdeckt und glaubt, ich werde<lb/> mich auf eine Corresponenz mit ihr
+               einlassen. Wird mit drei<lb/> Zeilen abgefertigt.<lb/> [Absatz wie ausgestrichen von
+               einem Verweis zu Fortsetzung auf gegenüberliegender Seite]<lb/> Dr. <rs type="person" ref="#pmb96521">M. Haberlandt</rs> wirft sich in der Zeitung zum Anwalt<lb/> u.
+               moral. Retter des verrückten Wolf auf.<lb/> Die „Akadem. Lesehalle“ der <rs type="place" ref="#pmb976">Czernowitz</rs>er Studirenden ladet<lb/> mich zu einem
+               am 16. aus Anlaß der Enthüllung des <rs type="person" ref="#pmb343202">Tomaszczuk</rs>-<lb break="no"/> denkmales stattfindenen Commerse ein.</p>
          </div>
       </body>
    </text>

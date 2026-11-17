@@ -88,16 +88,17 @@
    <text>
       <body>
          <head>6 Januar</head>
-            <div hand="#hand__kalbeck">
+         <div hand="#hand__kalbeck">
             <p><seg rendition="#left">Mittwoch.</seg><lb/>Französisch ausgesprochene <add place="above">Weisheit</add> von <rs type="person" ref="#pmb11578">Hanslick</rs>,
                   <rs type="person" ref="#pmb100107">Molden</rs> u. mir an<lb/> Frau <rs type="person" ref="#pmb364356">Blanche de Pott</rs> nach <rs type="place" ref="#pmb445">Rom</rs> expedirt. (kommt voraussichtlich<lb/> zu spät) Ich schrieb:
                   <foreign xml:lang="fr">Travailler c’est vivre! Mais travailler<lb/> pour vivre –
                   quelle détestable invention!</foreign><note type="translation" resp="#hrost" xml:lang="de">Arbeiten heißt leben! Aber arbeiten, um zu leben – welch
                   abscheuliche Erfindung!</note> Antwort an den<lb/> Ingenieur <rs type="person" ref="#pmb364528">Beck</rs>, der seine Vorfahren in den Dörfern um <rs type="place" ref="#pmb677">Breslau</rs><lb/> herum sucht u. mich bittet, ihm dabei zu helfen.
-               Was die Menschen<lb/> alles von einem verlangen! <rs type="person" ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/> siastischen Dankbrief aus <rs type="place" ref="#pmb445">Rom</rs> über den i. Act. Nachmittag die<lb/> „<rs type="event" ref="#pmb364469">Fledermaus</rs>“ in der <rs type="place" ref="#pmb15">Hofoper</rs>. Entzückt von Rosalinde<note type="editorische-anmerkung">Rosalinde ist eine Rolle in der Operette <rs type="work" ref="#pmb30421">Die Fledermaus</rs> von <rs type="person" ref="#pmb12867">Johann Strauss</rs>
-                  (Sohn).</note> – <rs type="person" ref="#pmb102473">Renard</rs>.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich schreibe ein
-               sehr<lb/> schwärmerisches Referat<note>Kalbeck verfasste eine Kritik zu dieser Aufführung im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970107&amp;seite=6&amp;zoom=33&amp;query=%22Hofoperntheatcr%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 7. Jänner 1897</ref>.</note> u. gehe zu <rs type="person" ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538">Kantor’s</rs>. <rs type="person" cert="high" ref="#pmb364654">Zellner</rs> wieder<lb/> auf den Beinen. Poetisches Après-souper
-               in <rs type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/>
+               Was die Menschen<lb/> alles von einem verlangen! <rs type="person" ref="#pmb299510">Fielitz</rs> schreibt mir einen enthu-<lb break="no"/> siastischen Dankbrief aus
+                  <rs type="place" ref="#pmb445">Rom</rs> über den i. Act. Nachmittag die<lb/> „<rs type="event" ref="#pmb364469">Fledermaus</rs>“ in der <rs type="place" ref="#pmb15">Hofoper</rs>. Entzückt von Rosalinde<note type="editorische-anmerkung">Rosalinde ist eine Rolle in der Operette <rs type="work" ref="#pmb30421">Die Fledermaus</rs> von <rs type="person" ref="#pmb12867">Johann Strauss</rs> (Sohn).</note> – <rs type="person" ref="#pmb102473">Renard</rs>.<lb/> Das 2. Finale rührt mich wieder zu Thränen. Ich
+               schreibe ein sehr<lb/> schwärmerisches Referat<note>Kalbeck verfasste eine Kritik zu
+                  dieser Aufführung im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970107&amp;seite=6&amp;zoom=33&amp;query=%22Hofoperntheatcr%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 7. Jänner 1897</ref>.</note> u. gehe zu <rs type="person" ref="#pmb174597 #pmb160741 #pmb19070 #pmb363525 #pmb363530 #pmb363538">Kantor’s</rs>. <rs type="person" cert="high" ref="#pmb364654">Zellner</rs>
+               wieder<lb/> auf den Beinen. Poetisches Après-souper in <rs type="person" ref="#pmb19070">Rosl</rs>’s Zimmer.<lb/>
                <rs type="person" ref="#pmb11461">Goethe</rs>’sche Gedichte. Sehr spät heim.</p>
          </div>
       </body>
