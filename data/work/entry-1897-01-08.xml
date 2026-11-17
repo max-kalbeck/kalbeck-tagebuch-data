@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,7 +38,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -47,7 +49,8 @@
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">Kalbecks Handschrift, Bleistift</handNote>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent"
+               >Kalbecks Handschrift, Bleistift</handNote>
          </handNotes>
       </profileDesc>
       <revisionDesc status="wip">
@@ -60,32 +63,48 @@
    <text>
       <body>
          <head>8 Januar</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#links">Freitag.</seg><lb/>Dankbrief an <rs type="person" ref="#pmb11691">Heyse</rs>. Von seinen <rs type="institution" ref="#pmb36247">Burgtheater</rs>angelegenheiten<lb/> erwähne ich
-               absichtlich nichts u. halte es genau wie er. Der junge<lb/> Paolo in Montreux; es
-               ließe sich aus dem schwarzen <rs type="person" ref="#pmb64836">Kerner</rs>-<lb break="no"/> heft<note type="editorische-anmerkung">Kalbeck bezieht sich hier auf das im Tagebucheintrag
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#links">Freitag.</seg><lb/>Dankbrief an <rs type="person"
+                  ref="#pmb11691">Heyse</rs>. Von seinen <rs type="institution" ref="#pmb36247"
+                  >Burgtheater</rs>angelegenheiten<lb/> erwähne ich absichtlich nichts u. halte es
+               genau wie er. Der junge<lb/> Paolo in Montreux; es ließe sich aus dem schwarzen <rs
+                  type="person" ref="#pmb64836">Kerner</rs>-<lb break="no"/> heft<note
+                  type="editorische-anmerkung">Kalbeck bezieht sich hier auf das im Tagebucheintrag
                   vom 2. Jänner erwähnte Quartheft.</note> eine artige Geschichte herausspinnen. Die
                kokette Engländerin,<lb/> (Margarete) die den Dichter einfängt, um sich von ihm
                besiegen<lb/> zu lassen. Als Gegensatz dazu die römische „Lacerte“, die ihn<lb/> ohne
                Hintergedanken als guten Kerl lieb gewinnt u. über den<lb/> Verlust der Tochter
                Albert’s tröstet.<note type="editorische-anmerkung">Es handelt sich wohl um
-                  literarische Figuren bzw. Ideen, auf die Kalbeck im Heft von <rs type="person" ref="#pmb64836">Justinus Kerner</rs>
-                  gestoßen war.</note> Das Bändchen Lieder die<lb/> unsterbliche Frucht beider
-               Verhältnisse. Editio castigata<note type="editorische-anmerkung">Buchausgabe, bei der
-                  anstößige Stellen vom Herausgeber oder von der Zensur gestrichen wurden.</note>.
-               Meister<lb/> Emanuel als Deus im Hintergrunde. Zu Hause großes Aufräumen.<lb/>
-               Erneuerte Einsicht von der Unzulänglichkeit meines Zi<c rendition="#gemination-m">mm</c>ers.<lb/> Absagebrief an den Studiosus <rs type="person" ref="#pmb19501">Kohn</rs>, dem ich rundweg jedes<lb/> literar. Talent abspreche. Dem
-                  Czernowitzer<note type="editorische-anmerkung">Kalbeck meint hier den tags zuvor
-                  erwähnten Studenten aus <rs type="place" ref="#pmb976">Czernowitz</rs>, der ihm
-                  unbekannterweise Geburtstagsglückwünsche gesendet hatte.</note> ein Exempl. m.<lb/>
+                  literarische Figuren bzw. Ideen, auf die Kalbeck im Heft von <rs type="person"
+                     ref="#pmb64836">Justinus Kerner</rs> gestoßen war.</note> Das Bändchen Lieder
+               die<lb/> unsterbliche Frucht beider Verhältnisse. Editio castigata<note
+                  type="editorische-anmerkung">Buchausgabe, bei der anstößige Stellen vom
+                  Herausgeber oder von der Zensur gestrichen wurden.</note>. Meister<lb/> Emanuel
+               als Deus im Hintergrunde. Zu Hause großes Aufräumen.<lb/> Erneuerte Einsicht von der
+               Unzulänglichkeit meines Zi<c rendition="#gemination-m">mm</c>ers.<lb/> Absagebrief an
+               den Studiosus <rs type="person" ref="#pmb19501">Kohn</rs>, dem ich rundweg jedes<lb/>
+               literar. Talent abspreche. Dem <rs type="place" ref="#pmb976">Czernowitz</rs>er<note
+                  type="editorische-anmerkung">Kalbeck meint hier den tags zuvor erwähnten
+                  Studenten, der ihm unbekannterweise Geburtstagsglückwünsche gesendet hatte.</note>
+               ein Exempl. m.<lb/>
                <rs type="work" ref="#pmb353046">Humoresken</rs> mit Dedication geschickt. Abends bei
-               uns Tarokgesell-<lb break="no"/> schaft: <rs type="person" ref="#pmb113339 #pmb363550">Stoerk’s</rs>, <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>, <rs type="person" cert="medium" ref="#pmb16315">Flegmann</rs>, <rs type="person" ref="#pmb337384">Doller</rs>,
+               uns Tarokgesell-<lb break="no"/> schaft: <rs type="person"
+                  ref="#pmb113339 #pmb363550">Stoerk’s</rs>, <rs type="person"
+                  ref="#pmb174597 #pmb160741">Kantor’s</rs>, <rs type="person" cert="medium"
+                  ref="#pmb16315">Flegmann</rs>, <rs type="person" ref="#pmb337384">Doller</rs>,
                Dir. <rs type="person" ref="#pmb11036">Burckhard</rs>,<lb/>
-               <rs type="person" ref="#pmb2202">Singer</rs> u. <rs type="person" ref="#pmb11402 #pmb335064">Ganghofer’s</rs>. Letztere sind in großer
-               Aufregung<lb/> wegen der morgigen Première im <rs type="place" ref="#pmb20">Volkstheater</rs>. Frau <rs type="person" ref="#pmb363550">Stoerk</rs><lb/>
-               findet es für gut die vornehme Dame herauszubeißen – weiß<lb/> der Himmel, warum?
-               <rs type="person" ref="#pmb11036">Burckhard</rs> sehr kleinlaut. Ich that<lb/> wohl daran, erst vorher ins <rs type="event" ref="#pmb408588">Concert</rs> zu den Gebr. <rs type="person" ref="#pmb194680 #pmb194679">Thern</rs><note>Dieses Konzert besprach Kalbeck in einer Sammelkritik im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970119&amp;seite=1&amp;zoom=33&amp;query=%22Das%C3%BCr%2Bbekamen%2Bwir%2B%2C%2CTill%2BEulenspiegel%E2%80%99s%2Blustige%2BStreiche%C2%AB%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 19. Jänner 1897</ref>.</note> zu gehen.<lb/> Was
-               nur die Menschen für ein Vergnügen an einem<lb/> solchen Abend finden.</p>
+               <rs type="person" ref="#pmb2202">Singer</rs> u. <rs type="person"
+                  ref="#pmb11402 #pmb335064">Ganghofer’s</rs>. Letztere sind in großer
+               Aufregung<lb/> wegen der morgigen Première im <rs type="place" ref="#pmb20"
+                  >Volkstheater</rs>. Frau <rs type="person" ref="#pmb363550">Stoerk</rs><lb/>
+               findet es für gut die vornehme Dame herauszubeißen – weiß<lb/> der Himmel, warum? <rs
+                  type="person" ref="#pmb11036">Burckhard</rs> sehr kleinlaut. Ich that<lb/> wohl
+               daran, erst vorher ins <rs type="event" ref="#pmb408588">Concert</rs><note>Dieses
+                  Konzert besprach Kalbeck in einer Sammelkritik im <ref
+                     target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970119&amp;seite=1&amp;zoom=33&amp;query=%22Das%C3%BCr%2Bbekamen%2Bwir%2B%2C%2CTill%2BEulenspiegel%E2%80%99s%2Blustige%2BStreiche%C2%AB%22&amp;ref=anno-search"
+                     >„Neuen Wiener Tagblatt“ vom 19. Jänner 1897</ref>.</note> zu den Gebr. <rs
+                  type="person" ref="#pmb194680 #pmb194679">Thern</rs> zu gehen.<lb/> Was nur die
+               Menschen für ein Vergnügen an einem<lb/> solchen Abend finden.</p>
          </div>
       </body>
    </text>
