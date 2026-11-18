@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-05-21" n="01"/>
             <title level="a">Freitag, 21. Mai 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -85,29 +88,23 @@
    <text>
       <body>
          <head>21 Mai</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Freitag.</seg><lb/>Sehr früh auf: das Feuilleton beendet u. Briefe geschrieben. Um 11<lb/>
-Uhr zu <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. Von dort mit <rs type="person" ref="#pmb2202">Singer</rs> u. Merhal zum „Gollasch“<lb/>
-ins Winterbierhaus; die Damen sind auch dabei. Da es aber im<lb/>
-Gastzimmer unerträglich ist, fahren wir alle in den Prater u. frühstücken<lb/>
-beim Lusthause. Mir geht der Abschied nahe. [unklares Kürzel]! Das Aschantiedorf.<lb/>
-Ihre Spiele, Arbeiten u. Gesänge; die Kinderschule. Um 5 Uhr Nachmittags<lb/>
-zu Hause; noch eine Menge Briefe und Geschäfte abgefertigt. Die<lb/>
-Kinder werde ich lange nicht wiedersehen. <rs type="person" ref="#pmb19011">Muxl</rs> reist am Montag<lb/>
-mit <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs> nach Unterach. <rs type="person" ref="#pmb8088">Paul</rs> muß noch tüchtig Geschichte<lb/>
-lernen, wenn er glücklich durchrutschen soll. Beide versprechen beim<lb/>
-Adieusagen alles Gute. <rs type="person" ref="#pmb36699">Julie</rs> begleitet mich zur Westbahn. Im<lb/>
-Zuge fährt das Damenquartett – die Bratsche ausgenommen – dem<lb/>
-gleichen Ziele zu. Eine Schlafcabine hat auf mich gewartet. Leider<lb/>
-stellt sich noch ein zweiter Gast ein.<lb/>
-Um unliebsame Auftritte mit <rs type="person" ref="#pmb9045">Otto Neitzel</rs>, der als Referent<lb/>
-der „Köln Ztg.“ wol in <rs type="place" ref="#pmb913">Bonn</rs> sein wird, zu vermeiden, habe ich<lb/>
-mich auf <rs type="person" ref="#pmb36699">Julie</rs>ns Zureden entschlossen, das Feuilleton erst Mittwoch<lb/>
-erscheinen zu lassen. Außerdem will <rs type="person" ref="#pmb36699">Julie</rs> noch Vieles mildern und den<lb/>
-Namen N. streichen.*)<lb/>
-_________________________<lb/>
-*) Das Feuilleton erschien Dienstag, <rs type="person" ref="#pmb9045">Neitzel</rs> aber nicht auf dem<lb/>
-Feste, weil er sich bei einem Sturze den Fuß beschädigt hat.</p>
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#left">Freitag.</seg><lb/>Sehr früh auf: das Feuilleton beendet u.
+               Briefe geschrieben. Um 11<lb/> Uhr zu <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. Von dort mit <rs type="person" ref="#pmb2202">Singer</rs> u. <rs type="person" ref="#pmb364345">Merhal</rs> zum „Gollasch“<lb/> ins Winterbierhaus;
+               die Damen sind auch dabei. Da es aber im<lb/> Gastzimmer unerträglich ist, fahren wir
+               alle in den Prater u. frühstücken<lb/> beim Lusthause. Mir geht der Abschied nahe.
+               [unklares Kürzel]! Das Aschantiedorf.<lb/> Ihre Spiele, Arbeiten u. Gesänge; die
+               Kinderschule. Um 5 Uhr Nachmittags<lb/> zu Hause; noch eine Menge Briefe und
+               Geschäfte abgefertigt. Die<lb/> Kinder werde ich lange nicht wiedersehen. <rs type="person" ref="#pmb19011">Muxl</rs> reist am Montag<lb/> mit <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs> nach Unterach. <rs type="person" ref="#pmb8088">Paul</rs> muß noch tüchtig Geschichte<lb/> lernen, wenn er
+               glücklich durchrutschen soll. Beide versprechen beim<lb/> Adieusagen alles Gute. <rs type="person" ref="#pmb36699">Julie</rs> begleitet mich zur Westbahn. Im<lb/> Zuge
+               fährt das Damenquartett – die Bratsche ausgenommen – dem<lb/> gleichen Ziele zu. Eine
+               Schlafcabine hat auf mich gewartet. Leider<lb/> stellt sich noch ein zweiter Gast
+               ein.<lb/> Um unliebsame Auftritte mit <rs type="person" ref="#pmb9045">Otto
+                  Neitzel</rs>, der als Referent<lb/> der „Köln Ztg.“ wol in <rs type="place" ref="#pmb913">Bonn</rs> sein wird, zu vermeiden, habe ich<lb/> mich auf <rs type="person" ref="#pmb36699">Julie</rs>ns Zureden entschlossen, das Feuilleton
+               erst Mittwoch<lb/> erscheinen zu lassen. Außerdem will <rs type="person" ref="#pmb36699">Julie</rs> noch Vieles mildern und den<lb/> Namen N.
+               streichen.*)<lb/> _________________________<lb/> *) Das Feuilleton erschien Dienstag,
+                  <rs type="person" ref="#pmb9045">Neitzel</rs> aber nicht auf dem<lb/> Feste, weil
+               er sich bei einem Sturze den Fuß beschädigt hat.</p>
          </div>
       </body>
    </text>
