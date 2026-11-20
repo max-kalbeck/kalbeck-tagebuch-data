@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,13 +9,15 @@
             <title type="iso-date" when-iso="1897-11-11" n="01"/>
             <title level="a">Donnerstag, 11. November 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -35,7 +38,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -43,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -58,24 +63,34 @@
    <text>
       <body>
          <head>11 November</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Donnerstag.</seg><lb/>Frau <rs type="person" ref="#pmb346971">Margarete Halm</rs> fordert mir Beiträge für das <rs type="person" ref="#pmb64888">Scheffel</rs>-<lb break="no"/>
-Jahrbuch ab, indem sie mich an mehrfache frühere Begegnungen in<lb/>
-<rs type="person" ref="#pmb14328 #pmb364278">Blumenthal’s</rs> u. Eckstein’s „Dichterhalle“ erinnert. Köstlich,<lb/>
-aus solchen unfreiwilligen Zusammenkünften unserer Namen in<lb/>
-einer Wochenschrift persönliche Relationen herleiten zu wollen!<lb/>
-Ich lasse die Dame der „Halle“ sitzen, wo sie sitzt, und schreibe<lb/>
-an <rs type="person" ref="#pmb11707">Rob. Hirschfeld</rs> über das eigene Uebereinstimmen unserer<lb/>
-Ansichten in Beziehung auf die populären Concerte. Erst<lb/>
-heute lese ich die „Musikal. Presse“, und heute steht auch mein<lb/>
-Feuilleton in der Zeitung. Ich nehme noch einmal <rs type="person" ref="#pmb11691">Heyse</rs>’s Gedichte<lb/>
-durch und erfreue mich von neuem ihrer vielen erlesenen Schön-<lb break="no"/>
-heiten. Im <rs type="place" ref="#pmb533">Cottage</rs> wird munter fortgearbeitet. Thüren und<lb/>
-Fenster sind bereits praktikabel, und die Öfen können zum<lb/>
-Trockenheizen benutzt werden; auch die Einhegung mit dem<lb/>
-Drahtgitter ist vollendet – „nicht prunkvoll, aber niedlich“.<lb/>
-Im <rs type="institution" ref="#pmb195419">Quartett Hellmesberger</rs> die beiden „Füchse“ u. <rs type="person" ref="#pmb10866">Beethoven</rs>’s<lb/>
-Harfenquartett.</p>
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#left">Donnerstag.</seg><lb/>Frau <rs type="person" ref="#pmb346971"
+                  >Margarete Halm</rs> fordert mir Beiträge für das <rs type="person"
+                  ref="#pmb64888">Scheffel</rs>-<lb break="no"/> Jahrbuch ab, indem sie mich an
+               mehrfache frühere Begegnungen in<lb/>
+               <rs type="person" ref="#pmb14328 #pmb364278">Blumenthal</rs>’s u. <rs type="person"
+                  ref="#pmb14328 #pmb64801">Eckstein</rs>’s „<rs type="work" ref="#pmb623972"
+                  >Dichterhalle</rs>“ erinnert. Köstlich,<lb/> aus solchen unfreiwilligen
+               Zusammenkünften unserer Namen in<lb/> einer Wochenschrift persönliche Relationen
+               herleiten zu wollen!<lb/> Ich lasse die Dame der „<rs type="work" ref="#pmb623972"
+                  >Halle</rs>“ sitzen, wo sie sitzt, und schreibe<lb/> an <rs type="person"
+                  ref="#pmb11707">Rob. Hirschfeld</rs> über das eigene Uebereinsti<c
+                  rendition="#gemination-m">mm</c>en unserer<lb/> Ansichten <del>über</del> in
+               Beziehung auf die populären Concerte. Erst<lb/> heute lese ich die „<rs type="work"
+                  ref="#pmb623981">Musikal. Presse</rs>“, und heute steht auch mein<lb/> Feuilleton
+               in der Zeitung. Ich nehme noch einmal <rs type="person" ref="#pmb11691">Heyse</rs>’s
+               Gedichte<lb/> durch und erfreue mich von neuem ihrer vielen erlesenen Schön-<lb
+                  break="no"/> heiten. Im <rs type="place" ref="#pmb533">Cottage</rs> wird munter
+               fortgearbeitet. Thüren und<lb/> Fenster sind bereits praktikabel, und die Öfen können
+               zum<lb/> Trockenheizen benutzt werden; auch die Einhegung mit dem<lb/> Drahtgitter
+               ist vollendet – „nicht prunkvoll, aber niedlich“.<lb/> Im <rs type="event"
+                  ref="#pmb623936"><rs type="institution" ref="#pmb195419">Quartett
+                     Hellmesberger</rs></rs> die beiden „Füchse“<note type="editorische-anmerkung"
+                  >Kalbeck bezieht sich hier auf die Sieben <rs type="work" ref="#pmb623949"
+                     >Fantasiestücke, op. 57</rs> von <rs type="person" ref="#pmb16787">Robert
+                     Fuchs</rs>. Zwei der Stücke wurden an diesem Abend als Zugaben
+                  wiederholt.</note> u. <rs type="person" ref="#pmb10866">Beethoven</rs>’s<lb/>
+               <rs type="work" ref="#pmb77171">Harfenquartett</rs>.</p>
          </div>
       </body>
    </text>
