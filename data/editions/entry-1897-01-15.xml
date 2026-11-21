@@ -89,7 +89,8 @@
       <body>
          <head>15 Januar</head>
             <div hand="#hand__kalbeck">
-            <p><seg rendition="#right">Freitag.</seg></p>
+            <p><seg rendition="#right">Freitag.</seg><note>Kalbeck besuchte am Abend des 15. Jänner offenbar <rs type="event" ref="#pmb407454">Konzert</rs> die vierte Soirée des Böhmischen Streichquartetts unter Mitwirkung des Pianisten Emil Sauer,
+                  die er in einer Sammelkritik im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970119&amp;seite=2&amp;zoom=33&amp;query=%22Mit%20Vergn%C3%BCgen%20haben%20wir%20Herrn%20Emil%20Sauer%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 19. Jänner 1897</ref> besprach.</note></p>
          </div>
       </body>
    </text>
