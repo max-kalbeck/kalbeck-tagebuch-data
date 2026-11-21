@@ -59,10 +59,7 @@
       <body>
          <head>4 März</head>
             <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Donnerstag.</seg></p>
-<!-- 
-   <note>Im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970304&amp;seite=8&amp;zoom=33&amp;query=%22Hofoperutheater.%2BDie%2Bzweite%2BGastrolle%2Bdes%2BHerrn%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 4. März 1897</ref> erschien eine Kritik von Max Kalbeck.</note>
--->
+            <p><seg rendition="#left">Donnerstag.</seg><note>Im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970304&amp;seite=8&amp;zoom=33&amp;query=%22Hofoperutheater.%2BDie%2Bzweite%2BGastrolle%2Bdes%2BHerrn%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 4. März 1897</ref> erschien eine Kritik von Max Kalbeck.</note></p>
             
          </div>
       </body>
