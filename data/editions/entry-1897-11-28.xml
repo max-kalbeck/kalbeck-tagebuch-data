@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-11-28" n="01"/>
             <title level="a">Sonntag, 28. November 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -85,30 +88,29 @@
    <text>
       <body>
          <head>28 November</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#right">Sonntag.</seg><lb/>Die Zeitungen sind voll von Schauerberichten; sie würden noch<lb/>
-deutlicher sein, wenn sie nicht fürchten müßten, confiscirt zu werden.<lb/>
-Von der gestern Abend erfolgten Rückkehr des Kaisers verspricht<lb/>
-man sich irgend eine Wendung. Ich gehe am Nachmittag mit<lb/>
-<rs type="person" ref="#pmb363714">Mosé</rs>, der mich besucht, um sich über <rs type="person" ref="#pmb10989">Brahms</rs> zu orientiren,<lb/>
-und den Kindern in das Promenadenconcert zu Eduard Strauß.<lb/>
-Johann dirigirt seinen neuen, für einen Sächsischen Verleger<lb/>
-componirten Walzer „An der Elbe“. Er hätte[n] ihn „an der<lb/>
-schmutzigen gelben Elbe“ nennen sollen als Gegenstück zur<lb/>
-„schönen blauen Donau“. Die Rüstigkeit des alten Knaben<lb/>
-grenzt ans Märchenhafte. Mit seinen 73 Jahren kletterte er so<lb/>
-leicht auf das hohe Podium hinauf wie ein 20jähriger, [Ausstreichung: spielte] ließ<lb/>
-den Walzer zweimal hinter einander spielen und gab noch das<lb/>
-mit Jubel acclamirte Gospodaren-Couplet aus „Jabuka“<lb/>
-zu. Letzteres sollte eine zarte Aufmerksamkeit für mich<lb/>
-sein. Dann fuhr er nach Hause, spielte mit uns Tarok,<lb/>
-machte schlechte, z. T. sehr unanständige Witze, erzälte uns,<lb/>
-daß er den Sachsen einen schlechten Walzer gegeben, den guten<lb/>
-aber für die Wiener zurückbehalten habe, tafelte mit<lb/>
-der Schwägerin, Hrn. Priester und dem neuen In spe-Schwager<lb/>
-Chavanne, dem Bruder des berüchtigten Afrikareisenden, der<lb/>
-die Witwe Conrat zu heiraten sich entschlossen hat, und war<lb/>
-sehr ungehalten, als wir schon um 11 ½ Uhr aufbrachen.</p>
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#right">Sonntag.</seg><lb/>Die Zeitungen sind voll von
+               Schauerberichten; sie würden noch<lb/> deutlicher sein, wenn sie nicht fürchten
+               müßten, confiscirt zu werden.<lb/> Von der gestern Abend erfolgten Rückkehr des
+               Kaisers verspricht<lb/> man sich irgend eine Wendung. Ich gehe am Nachmittag mit<lb/>
+               <rs type="person" ref="#pmb363714">Mosé</rs>, der mich besucht, um sich über <rs type="person" ref="#pmb10989">Brahms</rs> zu orientiren,<lb/> und den Kindern in
+               das Promenadenconcert zu <rs type="person" ref="#pmb116724">Eduard Strauß</rs>.<lb/>
+               Johann dirigirt seinen neuen, für einen Sächsischen Verleger<lb/> componirten Walzer
+               „An der Elbe“. Er hätte[n] ihn „an der<lb/> schmutzigen gelben Elbe“ nennen sollen
+               als Gegenstück zur<lb/> „schönen blauen Donau“. Die Rüstigkeit des alten Knaben<lb/>
+               grenzt ans Märchenhafte. Mit seinen 73 Jahren kletterte er so<lb/> leicht auf das
+               hohe Podium hinauf wie ein 20jähriger, <del>spielte</del> ließ<lb/> den Walzer
+               zweimal hinter einander spielen und gab noch das<lb/> mit Jubel acclamirte
+               Gospodaren-Couplet aus „Jabuka“<lb/> zu. Letzteres sollte eine zarte Aufmerksamkeit
+               für mich<lb/> sein. Dann fuhr er nach Hause, spielte mit uns Tarok,<lb/> machte
+               schlechte, z. T. sehr unanständige Witze, erzälte uns,<lb/> daß er den Sachsen einen
+               schlechten Walzer gegeben, den guten<lb/> aber für die Wiener zurückbehalten habe,
+               tafelte mit<lb/> der <rs type="person" ref="#pmb624126" subtype="implied" cert="high">Schwägerin</rs>, Hrn. <rs type="person" ref="#pmb176527">Priester</rs> und dem
+               neuen In spe-Schwager<lb/>
+               <rs type="person" ref="#pmb624102">Chavanne</rs>, dem Bruder des berüchtigten <rs type="person" ref="#pmb344054" subtype="implied">Afrikareisenden</rs>, der<lb/>
+               die Witwe <rs type="person" ref="#pmb624093">Conrat</rs> [recte: Conrad] zu heiraten
+               sich entschlossen hat, und war<lb/> sehr ungehalten, als wir schon um 11 ½ Uhr
+               aufbrachen.</p>
          </div>
       </body>
    </text>
