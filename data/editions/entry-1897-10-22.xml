@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-10-22" n="01"/>
             <title level="a">Freitag, 22. Oktober 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -85,31 +88,27 @@
    <text>
       <body>
          <head>22 Oktober</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#left">Freitag.</seg><lb/>Mit der Uebertragung von „König Artus“ begonnen. Die Arbeit<lb/>
-ist doch weit schwerer und umfangreicher als ich mir vorstellte. Ich<lb/>
-habe mich wieder einmal von einem harmlos aussehenden Textmanu-<lb break="no"/>
-script täuschen lassen und hätte auf den Clavierauszug warten<lb/>
-sollen, der mich eines Schlechteren belehrt hätte. – Gestern sang eine<lb/>
-Frau Stefan Richter, Frau eines Prager Landtagsabgeordneten,<lb/>
-die zur Bühne gehen will, Probe bei mir. Sie kam mit ihrem Vater<lb/>
-und dem Clavierspieler Pollak und trug die Arie der Elisabet<lb/>
-aus „Tannhäuser“ und die „Feldeinsamkeit“ von <rs type="person" ref="#pmb10989">Brahms</rs> vor. Letztere<lb/>
-konnte Pollak, der bei <rs type="person" ref="#pmb16787">Fuchs</rs> Contrapunkt studirt, nicht von F<lb/>
-nach G transponiren. Frau R., die eine sehr schöne hohe Sopran-<lb break="no"/>
-stimme hat, war ein halbes Jahr bei der <rs type="person" ref="#pmb301693">Schröder-Hanfstängl</rs> in<lb/>
-Frankfurt; ich rath ihr sich in <rs type="place" ref="#pmb50">Wien</rs> weiter auszubilden. Vater<lb/>
-Linzer schwatzt mir viel vor von den idealen Zielen seiner Tochter;<lb/>
-ihr Ideal ist ein – Engagement mit mindestens 15000 fl. Ich ver-<lb break="no"/>
-danke diese Episode unserem Freunde <rs type="person" ref="#pmb2202">Singer</rs>. Am Abend mit <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs><lb/>
-u. Schoosberger’s bei <rs type="person" ref="#pmb24467">Hermine Wallach</rs>. <rs type="person" ref="#pmb6484">Brüll</rs> urteilt sehr ab-<lb break="no"/>
-fällig über neue Clavierstücke von <rs type="person" ref="#pmb355115">Chaminade</rs> u. <rs type="person" ref="#pmb24727">Schütt</rs>, die gewiß<lb/>
-keine Meisterwerke, immerhin jedoch interessanter sind als seine Sonntag-<lb break="no"/>
-nachmittagsclaviermusik. <rs type="person" ref="#pmb6484">Ignaz</rs> soll aus seiner neuen Oper vorspielen,<lb/>
-aber da ich kein Wort sage, unterbleibt es. <rs type="person" ref="#pmb15745">Ilona Eibenschütz</rs><lb/>
-war bei uns, ohne uns zu treffen. Sie giebt nächstens ein Concert.<lb/>
-Auch mit ihr will ich mich nicht wieder einlassen. <rs type="person" ref="#pmb11885">Karpath</rs> mag<lb/>
-die Reclame für sie machen.</p>
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#left">Freitag.</seg><lb/>Mit der Uebertragung von „König Artus“
+               begonnen. Die Arbeit<lb/> ist doch weit schwerer und umfangreicher als ich mir
+               vorstellte. Ich<lb/> habe mich wieder einmal von einem harmlos aussehenden
+                  Textmanu-<lb break="no"/> script täuschen lassen und hätte auf den Clavierauszug
+               warten<lb/> sollen, der mich eines Schlechteren belehrt hätte. – Gestern sang
+               eine<lb/> Frau Stefan <rs type="person" ref="#pmb624191">Richter</rs>, Frau eines
+               Prager <rs type="person" ref="#pmb624185" subtype="implied">Landtagsabgeordneten</rs>,<lb/> die zur Bühne gehen will, Probe bei mir. Sie kam mit
+               ihrem Vater<lb/> und dem Clavierspieler <rs type="person" ref="#pmb9184">Pollak</rs>
+               und trug die <rs type="work" ref="#pmb624182">Arie</rs> der Elisabet<lb/> aus „<rs type="work" ref="#pmb31425">Tannhäuser</rs>“ und die „<rs type="work" ref="#pmb203842">Feldeinsamkeit</rs>“ von <rs type="person" ref="#pmb10989">Brahms</rs> vor. Letztere<lb/> konnte <rs type="person" ref="#pmb9184">Pollak</rs>, der bei <rs type="person" ref="#pmb16787">Fuchs</rs> Contrapunkt
+               studirt, nicht von F<lb/> nach G transponiren. Frau <rs type="person" ref="#pmb624191">R.</rs>, die eine sehr schöne hohe Sopran-<lb break="no"/> stimme
+               hat, war ein halbes Jahr bei der <rs type="person" ref="#pmb301693">Schröder-Hanfstängl</rs> in<lb/> Frankfurt; ich rath ihr sich in <rs type="place" ref="#pmb50">Wien</rs> weiter auszubilden. Vater<lb/> Linzer schwatzt mir viel vor
+               von den idealen Zielen seiner Tochter;<lb/> ihr Ideal ist ein – Engagement mit
+               mindestens 15000 fl. Ich ver-<lb break="no"/> danke diese Episode unserem Freunde <rs type="person" ref="#pmb2202">Singer</rs>. Am Abend mit <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs><lb/> u. Schoosberger’s bei <rs type="person" ref="#pmb24467">Hermine Wallach</rs>. <rs type="person" ref="#pmb6484">Brüll</rs>
+               urteilt sehr ab-<lb break="no"/> fällig über neue Clavierstücke von <rs type="person" ref="#pmb355115">Chaminade</rs> u. <rs type="person" ref="#pmb24727">Schütt</rs>,
+               die gewiß<lb/> keine Meisterwerke, immerhin jedoch interessanter sind als seine
+                  Sonntag-<lb break="no"/> nachmittagsclaviermusik. <rs type="person" ref="#pmb6484">Ignaz</rs> soll aus seiner neuen Oper vorspielen,<lb/> aber da ich kein Wort
+               sage, unterbleibt es. <rs type="person" ref="#pmb15745">Ilona Eibenschütz</rs><lb/>
+               war bei uns, ohne uns zu treffen. Sie giebt nächstens ein Concert.<lb/> Auch mit ihr
+               will ich mich nicht wieder einlassen. <rs type="person" ref="#pmb11885">Karpath</rs>
+               mag<lb/> die Reclame für sie machen.</p>
          </div>
       </body>
    </text>
