@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,13 +9,15 @@
             <title type="iso-date" when-iso="1897-02-10" n="01"/>
             <title level="a">Mittwoch, 10. Februar 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -35,7 +38,8 @@
                            <ab>Beschreibung der Quelle</ab>
                         </objectDesc>
                         <handDesc>
-                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte" style="lateinische-kurrent">Kalbecks Handschrift</handNote>
+                           <handNote xml:id="hand__kalbeck" medium="schwarze Tinte"
+                              style="lateinische-kurrent">Kalbecks Handschrift</handNote>
                         </handDesc>
                      </physDesc>
                   </msDesc>
@@ -43,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc status="wip">
          <change who="#hrost" when="2026-05-31">Dokument angelegt</change>
       </revisionDesc>
@@ -58,33 +63,40 @@
    <text>
       <body>
          <head>10 Februar</head>
-            <div hand="#hand__kalbeck">
-            <p><seg rendition="#right">Mittwoch.</seg><lb/>Mit <rs type="person" ref="#pmb10989">Brahms</rs>, <rs type="person" ref="#pmb17172">Goldmark</rs>, <rs type="person" ref="#pmb2202">Singer</rs>, <rs type="person" ref="#pmb6484 #pmb14642">Brüll’s</rs>, <rs type="person" ref="#pmb96758">Hegenbarth</rs>’s u.<lb/>
-Fürst bei <rs type="person" ref="#pmb24622 #pmb24613">Schwarz</rs> zu Mittag. Alles in guter Laune. Der<lb/>
-neueste Scandal: die bevorstehende Ehescheidung der Marquise<lb/>
-Bairos, Tochter v. Johann Strauss, wird lebhaft besprochen.<lb/>
-Es hat sich herausgestellt, daß der Marquis nicht in der Lage<lb/>
-war, die Ehe thatsächlich zu vollziehen. Für ihn handelte es sich<lb/>
-nur darum, in geordnete Verhältnisse zu kommen, u. er erhebt<lb/>
-jetzt durch seinen Advokaten als Gatte Ansprüche auf eine<lb/>
-Abfindung. Ein Jahr verging, und während Alles in schönster<lb/>
-Ordnung zu sein schien, hieß es vor mehreren Wochen plötzlich,<lb/>
-der Marquis sei in Purkersdorf um die Kaltwassercur zu<lb/>
-gebrauchen. Während seiner Abwesenheit entdeckte sich <rs type="person" ref="#pmb25601">Alice</rs><lb/>
-ihrer Mutter, u. die Entrüstung <rs type="person" ref="#pmb10084">Adelen</rs>’s, die sich schon als Ahn-<lb break="no"/>
-frau eines zalreichen gräflichen Geschlechtes betrachtete, war<lb/>
-grenzenlos. Die Ironie des Schicksals will es, daß der<lb/>
-Fledermaus-Text eine Menge von Anzüglichkeiten hergiebt,<lb/>
-an die <rs type="person" ref="#pmb12867">Strauss</rs> u. seine Mitarbeiter niemals gedacht haben:<lb/>
-„Mein Herr Marquis, ein Mann wie Sie, sollte das besser<lb/>
-verstehn ... sehr komisch dieser Irrtum war, ja sehr komisch ist die<lb/>
-Sache, sehr komisch, Herr Marquis, sind Sie.“<lb/>
-Populärer Kammermusikabend des Quartetts <rs type="person" ref="#pmb12570">Rosé</rs>. Frau<lb/>
-<rs type="person" ref="#pmb194706">Uzielli</rs> winkt zu <rs type="person" ref="#pmb10989">Brahms</rs> hinauf, u. das Publicum applaudirt,<lb/>
-bis sie das „Ständchen“ wiederholt.<lb/>
-Jour bei <rs type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. <rs type="person" ref="#pmb194127">Gänsbacher</rs>, <rs type="person" ref="#pmb363714">Mosé</rs>, König, etc. etc.<lb/>
-Zellner’s haben einen Trauerfall. Meine plötzliche Wuth über<lb/>
-nichts u. etwas tobt sich auf dem Clavier aus.</p>
+         <div hand="#hand__kalbeck">
+            <p><seg rendition="#right">Mittwoch.</seg><lb/>Mit <rs type="person" ref="#pmb10989"
+                  >Brahms</rs>, <rs type="person" ref="#pmb17172">Goldmark</rs>, <rs type="person"
+                  ref="#pmb2202">Singer</rs>, <rs type="person" ref="#pmb6484 #pmb14642"
+                  >Brüll’s</rs>, <rs type="person" ref="#pmb96758">Hegenbarth</rs>’s u.<lb/> Fürst
+               bei <rs type="person" ref="#pmb24622 #pmb24613">Schwarz</rs> zu Mittag. Alles in
+               guter Laune. Der<lb/> neueste Scandal: die bevorstehende Ehescheidung der Marquise<lb/>
+               <rs type="person" ref="#pmb25601">Bairos</rs>, Tochter v. Johann Strauss, wird
+               lebhaft besprochen.<lb/> Es hat sich herausgestellt, daß der <rs type="person"
+                  ref="#pmb112840" subtype="implied">Marquis</rs> nicht in der Lage<lb/> war, die
+               Ehe thatsächlich zu vollziehen. Für ihn handelte es sich<lb/> nur darum, in geordnete
+               Verhältnisse zu kommen, u. er erhebt<lb/> jetzt durch seinen Advokaten als Gatte
+               Ansprüche auf eine<lb/> Abfindung. Ein Jahr verging, und während Alles in
+               schönster<lb/> Ordnung zu sein schien, hieß es vor mehreren Wochen plötzlich,<lb/>
+               der <rs type="person" ref="#pmb112840" subtype="implied">Marquis</rs> sei in <rs
+                  type="place" ref="#pmb39792">Purkersdorf</rs> um die Kaltwassercur zu<lb/>
+               gebrauchen. Während seiner Abwesenheit entdeckte sich <rs type="person"
+                  ref="#pmb25601">Alice</rs><lb/> ihrer <rs type="person" ref="#pmb10084"
+                  subtype="implied">Mutter</rs>, u. die Entrüstung <rs type="person" ref="#pmb10084"
+                  >Adelen</rs>’s, die sich schon als Ahn-<lb break="no"/> frau eines zalreichen
+               gräflichen Geschlechtes betrachtete, war<lb/> grenzenlos. Die Ironie des Schicksals
+               will es, daß der<lb/> Fledermaus-Text eine Menge von Anzüglichkeiten hergiebt,<lb/>
+               an die <rs type="person" ref="#pmb12867">Strauss</rs> u. seine Mitarbeiter niemals
+               gedacht haben:<lb/> „Mein Herr Marquis, ein Mann wie Sie, sollte das besser<lb/>
+               verstehn ... sehr komisch dieser Irrtum war, ja sehr komisch ist die<lb/> Sache, sehr
+               komisch, Herr Marquis, sind Sie.“<lb/> Populärer Kammermusikabend des Quartetts <rs
+                  type="person" ref="#pmb12570">Rosé</rs>. Frau<lb/>
+               <rs type="person" ref="#pmb194706">Uzielli</rs> winkt zu <rs type="person"
+                  ref="#pmb10989">Brahms</rs> hinauf, u. das Publicum applaudirt,<lb/> bis sie das
+                  „<rs type="work" ref="#pmb203720">Ständchen</rs>“ wiederholt.<lb/> Jour bei <rs
+                  type="person" ref="#pmb174597 #pmb160741">Kantor’s</rs>. <rs type="person"
+                  ref="#pmb194127">Gänsbacher</rs>, <rs type="person" ref="#pmb363714">Mosé</rs>,
+               König, etc. etc.<lb/> Zellner’s haben einen Trauerfall. Meine plötzliche Wuth
+               über<lb/> nichts u. etwas tobt sich auf dem Clavier aus.</p>
          </div>
       </body>
    </text>
