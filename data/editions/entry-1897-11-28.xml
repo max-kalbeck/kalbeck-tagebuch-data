@@ -76,6 +76,10 @@
         <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
         <rendition xml:id="underline">text-decoration: underline;</rendition>
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
+	<rendition xml:id="italics">font-style: italic;</rendition>
+	<rendition xml:id="smallcaps">font-variant: small-caps;</rendition>
+	<rendition xml:id="bold">font-weight: bold;</rendition>
+        <rendition xml:id="gemination-m">content: "m̄";</rendition>
       </tagsDecl>
     </encodingDesc>
   <revisionDesc status="wip">

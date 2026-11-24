@@ -75,6 +75,10 @@
         <rendition xml:id="bottom-margin" scheme="css">absolute; bottom: 0;</rendition>
         <rendition xml:id="underline">text-decoration: underline;</rendition>
 	<rendition xml:id="overwritten">text-decoration: line-through;</rendition>
+	<rendition xml:id="italics">font-style: italic;</rendition>
+	<rendition xml:id="smallcaps">font-variant: small-caps;</rendition>
+	<rendition xml:id="bold">font-weight: bold;</rendition>
+        <rendition xml:id="gemination-m">content: "m̄";</rendition>
       </tagsDecl>
     </encodingDesc>
   <revisionDesc status="wip">
@@ -88,7 +92,7 @@
       <body>
          <head>8 Januar</head>
          <div hand="#hand__kalbeck">
-            <p><seg rendition="#links">Freitag.</seg><lb/>Dankbrief an <rs type="person" ref="#pmb11691">Heyse</rs>. Von seinen <rs type="institution" ref="#pmb36247">Burgtheater</rs>angelegenheiten<lb/> erwähne ich absichtlich nichts u. halte es
+            <p><seg rendition="#left">Freitag.</seg><lb/>Dankbrief an <rs type="person" ref="#pmb11691">Heyse</rs>. Von seinen <rs type="institution" ref="#pmb36247">Burgtheater</rs>angelegenheiten<lb/> erwähne ich absichtlich nichts u. halte es
                genau wie er. Der junge<lb/> Paolo in Montreux; es ließe sich aus dem schwarzen <rs type="person" ref="#pmb64836">Kerner</rs>-<lb break="no"/> heft<note type="editorische-anmerkung">Kalbeck bezieht sich hier auf das im Tagebucheintrag
                   vom 2. Jänner erwähnte Quartheft.</note> eine artige Geschichte herausspinnen. Die
                kokette Engländerin,<lb/> (Margarete) die den Dichter einfängt, um sich von ihm
