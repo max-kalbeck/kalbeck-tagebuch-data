@@ -10,13 +10,15 @@
             <title type="iso-date" when-iso="1897-04-06" n="01"/>
             <title level="a">Dienstag, 6. April 1897</title>
             <author ref="#pmb11857">Kalbeck, Max</author>
-            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost, Henrike</editor>
+            <editor ref="https://orcid.org/0009-0002-3219-2839" xml:id="hrost">Rost,
+               Henrike</editor>
             <funder ref="https://d-nb.info/gnd/2054142-9">
                <name>Fonds zur Förderung der Wissenschaftlichen Forschung (FWF)</name>
             </funder>
          </titleStmt>
          <publicationStmt>
-            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende Kunst Wien</publisher>
+            <publisher ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und Darstellende
+               Kunst Wien</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2026">2026</date>
             <availability>
@@ -45,11 +47,12 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-    <profileDesc>
-      <handNotes>
-        <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
-          Kalbecks Handschrift, Bleistift</handNote></handNotes>
-    </profileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand__kalbeck_bs_lk" medium="Bleistift" style="lateinische-kurrent">
+               Kalbecks Handschrift, Bleistift</handNote>
+         </handNotes>
+      </profileDesc>
       <encodingDesc>
        <appInfo>
             <application ident="transkribus" version="1.26.0">
@@ -89,37 +92,40 @@
    <text>
       <body>
          <head>6 April</head>
-            <div hand="#hand__kalbeck">
+         <div hand="#hand__kalbeck">
             <p>
                <seg rendition="#right">(Montag)</seg><lb/>
-               <seg rendition="#right">Dinstag.</seg><lb/>[Fortsetzung vom 5. April]<lb/>
-mit goldener Bürgerkrone u. seinen Orden, zallose Bouquets u. Lorbeerkränze.<lb/>
-<rs type="person" ref="#pmb342797 #pmb342798">Faber’s</rs> haben es sich nicht nehmen lassen, das Publicum daran zu erinnern,<lb/>
-daß das berühmte Wiegenlied B. F. in <rs type="place" ref="#pmb50">Wien</rs> zugeeignet ist. Auf der Schleife<lb/>
-ihres Kranzes steht: „Guten Abend, gute Nacht – Mit Lorbeern bedacht“.<lb/>
-„Was gäbe die Frau jetzt darum“, rief <rs type="person" ref="#pmb10989">Br.</rs> einst mit Lachen „wenn<lb/>
-ich in der Widmung ihren Namen voll ausgeschrieben hätte!“ – Die<lb/>
-anderen Zimmer waren natürl. verschlossen u. versiegelt. Ich war froh,<lb/>
-als ich wieder draußen stand. Die Geschmacklosigkeit dieses Leichengepränges<lb/>
-hätte einem <rs type="person" ref="#pmb10989">Br.</rs> erspart werden sollen. Die Treppen hinabgehend, mußte ich<lb/>
-voll Schmerz daran denken, wie oft wir hier vergnügt in guten Tagen<lb/>
-mit einander um die Mittagszeit abschoben. – Bei <rs type="person" ref="#pmb99629">Mandyczewski</rs> höre<lb/>
-ich, daß <rs type="person" ref="#pmb10989">Br.</rs> wirklich nur das Ueberflüssige u. Entbehrliche an ihn abgeführt<lb/>
-habe, keine seiner eigenen u. fremden Handschriften, keines seiner<lb/>
-kostbaren Bücher u. Notenhefte. M. meint, es werde zu einem Prozeß zwischen<lb/>
-„Gesellschaft“ u. Fiscus kommen. – Mit <rs type="person" ref="#pmb6484">Brüll</rs> bei Dir. <rs type="person" ref="#pmb12163">Mahler</rs>, um ihm<lb/>
-den Besuch zu erwidern, im Hôtel Wandl am Peter; er nicht zu Hause. Er<lb/>
-ist zum „leitenden“ Capellmeister d. Wiener Hofoper berufen worden u. hält sich<lb/>
-für den präsumptiven Nachfolger <rs type="person" ref="#pmb7998">Jahn</rs>’s. – Bei <rs type="person" ref="#pmb2202">Singer</rs>. Erst, als<lb/>
-ich ihm sage, <rs type="person" ref="#pmb15597">Doczi</rs> habe mir heute einen sehr herzl. Brief über den gestrigen<lb/>
-Nachruf<note>Erschienen im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970404&amp;seite=1&amp;zoom=33&amp;query=%22Iohnnnes%2BMuhme-.%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 4. März 1897</ref>.</note> geschickt, schwingt er sich zu einem Worte d. Anerkennung auf. Ihn interessirt,<lb/>
-was im Pariser Petit journal steht, mehr als alles Andere. – [unlesbare Schriftzeichen] Nachmittag erhalten wir die Nachricht vom Tode des alten Heydebrand, der sich in<lb/>
-sehr unordentl. Verhältnissen befunden haben soll. Wahrscheinl. bedeutet<lb/>
-dieser Todesfall einen umso schwereren Verlust für mich, als ich mich vor einem<lb/>
-Jahre verleiten ließ, Bürgschaft für ihn zu leisten. Auf die 200 fl., die ich ihm<lb/>
-außerdem geliehen, habe ich längst nicht mehr gerechnet. – Abds. i. Concert d. Berl.<lb/>
-Philharmoniker. Die improvisirte, wenig glückl. Trauerfeier. <rs type="person" ref="#pmb13075">Weingartner</rs>, der<lb/>
-Pultvirtuose. <rs type="person" ref="#pmb194127">Gänsbacher</rs>’s aufrichtiger Schmerz.</p>
+               <seg rendition="#right">Dinstag.</seg><lb/>[Fortsetzung vom 5. April]<lb/> mit
+               goldener Bürgerkrone u. seinen Orden, zallose Bouquets u. Lorbeerkränze.<lb/>
+               <rs type="person" ref="#pmb342797 #pmb342798">Faber’s</rs> haben es sich nicht nehmen
+               lassen, das Publicum daran zu erinnern,<lb/> daß das berühmte Wiegenlied B. F. in <rs type="place" ref="#pmb50">Wien</rs> zugeeignet ist. Auf der Schleife<lb/> ihres
+               Kranzes steht: „Guten Abend, gute Nacht – Mit Lorbeern bedacht“.<lb/> „Was gäbe die
+               Frau jetzt darum“, rief <rs type="person" ref="#pmb10989">Br.</rs> einst mit Lachen
+               „wenn<lb/> ich in der Widmung ihren Namen voll ausgeschrieben hätte!“ – Die<lb/>
+               anderen Zimmer waren natürl. verschlossen u. versiegelt. Ich war froh,<lb/> als ich
+               wieder draußen stand. Die Geschmacklosigkeit dieses Leichengepränges<lb/> hätte einem
+                  <rs type="person" ref="#pmb10989">Br.</rs> erspart werden sollen. Die Treppen
+               hinabgehend, mußte ich<lb/> voll Schmerz daran denken, wie oft wir hier vergnügt in
+               guten Tagen<lb/> mit einander um die Mittagszeit abschoben. – Bei <rs type="person" ref="#pmb99629">Mandyczewski</rs> höre<lb/> ich, daß <rs type="person" ref="#pmb10989">Br.</rs> wirklich nur das Ueberflüssige u. Entbehrliche an ihn
+               abgeführt<lb/> habe, keine seiner eigenen u. fremden Handschriften, keines
+               seiner<lb/> kostbaren Bücher u. Notenhefte. M. meint, es werde zu einem Prozeß
+               zwischen<lb/> „Gesellschaft“ u. Fiscus kommen. – Mit <rs type="person" ref="#pmb6484">Brüll</rs> bei Dir. <rs type="person" ref="#pmb12163">Mahler</rs>, um ihm<lb/>
+               den Besuch zu erwidern, im Hôtel Wandl am Peter; er nicht zu Hause. Er<lb/> ist zum
+               „leitenden“ Capellmeister d. Wiener Hofoper berufen worden u. hält sich<lb/> für den
+               präsumptiven Nachfolger <rs type="person" ref="#pmb7998">Jahn</rs>’s. – Bei <rs type="person" ref="#pmb2202">Singer</rs>. Erst, als<lb/> ich ihm sage, <rs type="person" ref="#pmb15597">Doczi</rs> habe mir heute einen sehr herzl. Brief
+               über den gestrigen<lb/> Nachruf<note>Erschienen im <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18970404&amp;seite=1&amp;zoom=33&amp;query=%22Iohnnnes%2BMuhme-.%22&amp;ref=anno-search">„Neuen Wiener Tagblatt“ vom 4. März 1897</ref>.</note> geschickt, schwingt er
+               sich zu einem Worte d. Anerkennung auf.<del>schwingt.</del> Ihn interessirt,<lb/> was
+               im Pariser <rs type="person" ref="#pmb624227">Petit journal</rs> steht, mehr als
+               alles Andere. – <add place="above">[Will heuer persönlich teilnehmen.]<note type="editorische-anmerkung">Gabelsberger Kurzschrift (Übertragung:
+                  XX)</note></add> Nachmittag erhalten wir die Nachricht vom Tode des alten
+               Heydebrand, der sich in<lb/> sehr unordentl. Verhältnissen befunden haben soll.
+               Wahrscheinl. bedeutet<lb/> dieser Todesfall einen umso schwereren Verlust für mich,
+               als ich mich vor einem<lb/> Jahre verleiten ließ, Bürgschaft für ihn zu leisten. Auf
+               die 200 fl., die ich ihm<lb/> außerdem geliehen, habe ich längst nicht mehr
+               gerechnet. – Abds. i. Concert d. Berl.<lb/> Philharmoniker. Die improvisirte, wenig
+               glückl. Trauerfeier. <rs type="person" ref="#pmb13075">Weingartner</rs>, der<lb/>
+               Pultvirtuose. <rs type="person" ref="#pmb194127">Gänsbacher</rs>’s aufrichtiger
+               Schmerz.</p>
          </div>
       </body>
    </text>
