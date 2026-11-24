@@ -83,44 +83,69 @@ def merge_app_info(target_encoding_desc, source_encoding_desc):
         target_encoding_desc.insert(0, deepcopy(source_app_info))
 
 
-def merge_tags_decl(target_encoding_desc, source_encoding_desc):
-    """Insert tagsDecl if missing or empty; otherwise append missing renditions."""
-    source_tags_decl = source_encoding_desc.find(
-        f"{{{TEI_NS}}}tagsDecl"
-    )
+def get_used_renditions(tei_tree):
+    """Return the rendition IDs referenced in the document's text."""
+    renditions = set()
 
-    if source_tags_decl is None:
+    for element in tei_tree.xpath(
+        "//tei:text//*[@rendition]",
+        namespaces={"tei": TEI_NS},
+    ):
+        value = element.get("rendition", "")
+
+        renditions.update(
+            token.lstrip("#")
+            for token in value.split()
+            if token.startswith("#")
+        )
+
+    return renditions
+
+
+def filter_tags_decl(encoding_desc, used_renditions):
+    """Keep only renditions referenced in the document."""
+    tags_decl = encoding_desc.find(f"{{{TEI_NS}}}tagsDecl")
+
+    if tags_decl is None:
         return
+
+    for rendition in list(tags_decl.findall(f"{{{TEI_NS}}}rendition")):
+        rendition_id = rendition.get(f"{{{XML_NS}}}id")
+
+        if rendition_id not in used_renditions:
+            tags_decl.remove(rendition)
+
+    # Normalize indentation.
+    tags_decl.text = "\n        "
+    for rendition in tags_decl:
+        rendition.tail = "\n      "
+
+
+
+def merge_tags_decl(
+    target_encoding_desc,
+    source_encoding_desc,
+    used_renditions,
+):
+    """Replace tagsDecl with filtered template renditions."""
+    new_encoding_desc = deepcopy(source_encoding_desc)
+    filter_tags_decl(new_encoding_desc, used_renditions)
+
+    new_tags_decl = new_encoding_desc.find(f"{{{TEI_NS}}}tagsDecl")
 
     target_tags_decl = target_encoding_desc.find(
         f"{{{TEI_NS}}}tagsDecl"
     )
 
-    if target_tags_decl is None or len(target_tags_decl) == 0:
-        if target_tags_decl is not None:
-            index = target_encoding_desc.index(target_tags_decl)
-            target_encoding_desc.remove(target_tags_decl)
-        else:
-            index = len(target_encoding_desc)
+    if target_tags_decl is not None:
+        index = target_encoding_desc.index(target_tags_decl)
+        target_encoding_desc.remove(target_tags_decl)
 
-        target_encoding_desc.insert(index, deepcopy(source_tags_decl))
-        return
+        if new_tags_decl is not None:
+            target_encoding_desc.insert(index, deepcopy(new_tags_decl))
 
-    existing_ids = {
-        rendition.get(f"{{{XML_NS}}}id")
-        for rendition in target_tags_decl.findall(
-            f"{{{TEI_NS}}}rendition"
-        )
-    }
-
-    for rendition in source_tags_decl.findall(
-        f"{{{TEI_NS}}}rendition"
-    ):
-        rendition_id = rendition.get(f"{{{XML_NS}}}id")
-
-        if rendition_id not in existing_ids:
-            target_tags_decl.append(deepcopy(rendition))
-            existing_ids.add(rendition_id)
+    elif new_tags_decl is not None:
+        target_encoding_desc.append(deepcopy(new_tags_decl))
 
 
 def merge_profile_desc(tei_header, source_profile_desc):
@@ -137,7 +162,11 @@ def merge_profile_desc(tei_header, source_profile_desc):
     merge_hand_notes(target_profile_descs[0], source_profile_desc)
 
 
-def merge_encoding_desc(tei_header, source_encoding_desc):
+def merge_encoding_desc(
+    tei_header,
+    source_encoding_desc,
+    used_renditions,
+):
     """Merge the template encodingDesc into the document."""
     target_encoding_descs = tei_header.xpath(
         "./tei:encodingDesc",
@@ -145,13 +174,22 @@ def merge_encoding_desc(tei_header, source_encoding_desc):
     )
 
     if not target_encoding_descs:
-        insert_before_revision_desc(tei_header, source_encoding_desc)
+        new_encoding_desc = deepcopy(source_encoding_desc)
+
+        filter_tags_decl(new_encoding_desc, used_renditions)
+
+        insert_before_revision_desc(tei_header, new_encoding_desc)
         return
 
     target_encoding_desc = target_encoding_descs[0]
 
     merge_app_info(target_encoding_desc, source_encoding_desc)
-    merge_tags_decl(target_encoding_desc, source_encoding_desc)
+
+    merge_tags_decl(
+        target_encoding_desc,
+        source_encoding_desc,
+        used_renditions,
+    )
 
 
 def main():
@@ -178,6 +216,8 @@ def main():
 
         tei = TeiReader(str(file_path))
         tree = tei.tree
+        
+        used_renditions = get_used_renditions(tree)
 
         tei_headers = tree.xpath(
             "//tei:teiHeader",
@@ -190,7 +230,7 @@ def main():
 
         tei_header = tei_headers[0]
 
-        merge_encoding_desc(tei_header, source_encoding_desc)
+        merge_encoding_desc(tei_header, source_encoding_desc, used_renditions)
         merge_profile_desc(tei_header, source_profile_desc)
 
         tree.write(
