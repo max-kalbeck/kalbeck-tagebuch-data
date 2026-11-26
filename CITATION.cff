@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: >-
+  Hanslick-Online/hsl-entities
+message: >-
+  If you use this dataset, please cite it using the metadata from this file.
+type: software
+grant: 'https://doi.org/10.55776/PAT1123425 '
+authors:
+   - given-names: Henrike
+     family-names: Rost
+     affiliation: 'https://ror.org/03anc3s24'
+     affiliation: 'https://ror.org/000ymgt65'
+     orcid: 'https://orcid.org/0009-0002-3219-2839'
+     role: 'Principal Investigator'
+   - given-names: Fernando
+     family-names: Sanz-Lázaro
+     orcid: 'https://orcid.org/0000-0002-8815-6741'
+     affiliation: 'https://ror.org/03anc3s24'
+     role: 'Research Data Engineer'
